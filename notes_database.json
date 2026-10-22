@@ -164137,5 +164137,1187 @@
     "content": "Puppet theatre in India traditionally draws themes from epics and legends, reflecting cultural narratives and moral lessons.",
     "source_pdf": "cds_material.pdf",
     "source_page": 1133
+  },
+  {
+    "id": "GEO-UNIVERSE-001",
+    "subject": "Geography",
+    "chapter": "Physical and World Geography",
+    "topic": "The Universe",
+    "text": "<p>The Universe is commonly defined as the totality of everything that exists including all physical matter like the planets, stars, galaxies and the contents of intergalactic space and energy. The study of Universe is known as <strong>Cosmology</strong>.</p><ul><li>The Universe comprises of billions of galaxies. Galaxy is giant assemblies of stars, planets, gases and dust. These galaxies are made up of millions of stars held together by the force of gravity and these stars account for most of the masses of the galaxy. Andromeda is our nearest galaxy.</li><li>Our own galaxy is called the <strong>Milky Way</strong> (the Akash Ganga) and it contains about 300 billion stars and one of these is our Sun. Planets and other objects go round the Sun and make up the solar system with the Sun at the centre.</li><li>In AD 140, <strong>Ptolemy</strong> propounded the theory that the Earth was at the centre of the Universe and the Sun and the other heavenly bodies revolved around it.</li><li>In 1543, <strong>Copernicus</strong> said that the Sun is at the centre of the Universe and not the Earth. Kepler supported Copernicus but said that the Sun is the centre of solar system and not the Universe.</li><li>In 1924, <strong>Edwin Hubble</strong> first demonstrated the existence of galaxies beyond Milky Way.</li></ul><p>Structurally, the galaxies are found in three forms as follow:</p><ol><li><strong>Spiral</strong> have a central nucleus with great spiral arms. Milky Way and Andromeda are the examples of it.</li><li><strong>Elliptical</strong> without spiral arms.</li><li><strong>Irregular</strong> with no shape.</li></ol>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Introduction to the Universe, its definition, historical theories regarding the center of the universe, and structural classification of galaxies."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1138
+  },
+  {
+    "id": "CDS-PATH-854-001",
+    "subject": "Geography",
+    "chapter": "Universe and Solar System",
+    "topic": "Evolution of Universe",
+    "text": "<p>The three main theories put forward to explain the origin and evolution of the Universe are as follows:</p><ul><li><strong>Big Bang Theory:</strong> (Proposed by Georges Lemaitre) Big Bang was an explosion that occurred 13.8 billion years ago, leading to the formation of galaxies of stars and other heavenly bodies.</li><li><strong>Steady State Theory:</strong> This theory was proposed by Bondi, Gold and Fred Hoyle. According to this theory, new galaxies are continuously being formed and older ones are destroyed. The overall size of the Universe remains constant.</li><li><strong>The Pulsating Theory:</strong> According to this theory, the Universe is supposed to be expanding and contracting alternately i.e. pulsating. At present, the Universe is expanding.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of the three primary theories regarding the origin and evolution of the universe."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1139
+  },
+  {
+    "id": "CDS-PATH-854-002",
+    "subject": "Geography",
+    "chapter": "Universe and Solar System",
+    "topic": "Solar System",
+    "text": "<p>The solar system comprises the Sun and 8 planets and their moons and other non-stellar objects, which are believed to have been developed from the condensation of gases and other lesser bodies. The size of solar system has been estimated about 10^5 Astronomical Unit (AU).</p><p>The Sun is at the centre of the solar system and all the planets revolve around it in elliptical orbit. It is the nearest star to the Earth.</p><p>It also consists of Interstellar debris such as asteroids, meteoroids, comets, electrically charged gases, called <strong>Plasma</strong> and interplanetary dust particles. The components of solar system other than planets, dwarf planets and satellites are called as Small Solar System Bodies (SSSB).</p><p><strong>Aurora:</strong> The constituent particles of the solar wind are trapped by the Earth's magnetic field and enter the Earth's upper atmosphere as Aurora. It is described as Aurora Borealis in the Northern hemisphere and Aurora Australis in Southern hemisphere.</p><p><strong>Plages and Sunspots:</strong> The surface of the Sun is continuously changing. Bright spots are called <strong>Plages</strong> and dark spots are called <strong>Sunspots</strong>. The Sunspots are cold and dark regions on the Sun's surface with a periodicity of 11 years. These spots greatly influence the global climate.</p>",
+    "formulas": [
+      "10^5 Astronomical Unit (AU)"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "General composition of the solar system, including the Sun, planets, SSSB, and solar phenomena like Aurora and Sunspots."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1139
+  },
+  {
+    "id": "CDS-PATH-854-003",
+    "subject": "Geography",
+    "chapter": "Universe and Solar System",
+    "topic": "The Sun",
+    "text": "<p>The Sun accounts for more than 99% of the mass of the solar system and due to this, the Sun exerts immense gravitational pull to keep the planets rotating around it in definite elliptical orbits.</p><p>The Sun is the major source of energy in the solar system. The energy is provided by the nuclear fusion reaction, that converts hydrogen into helium in the core of the Sun.</p><p>Super-imposed on Sun's white light are hundred of dark lines called <strong>Fraunhofer lines</strong>. Each line indicates some elements present in the solar system.</p><p><strong>Concepts Associated with the Sun:</strong></p><ul><li><strong>Solar Winds:</strong> The Sun is continuously emitting streams of proton in all directions either as spiral streams called <strong>Solar Wind</strong> or bouts of incandescent material called <strong>Solar Flares</strong>. Solar flares being hot ionised gases pose danger to satellite communication.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Characteristics of the Sun, its energy source, and associated phenomena like solar winds and flares."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1139
+  },
+  {
+    "id": "CDS-PATH-854-004",
+    "subject": "Geography",
+    "chapter": "Universe and Solar System",
+    "topic": "Planets",
+    "text": "<p>A planet is a heavenly body that moves in an orbit around a star, such as the Sun. There are 8 planets in solar system. These planets move around the Sun in the fixed path.</p><ul><li><strong>Mercury:</strong> It is the innermost and smallest planet in the solar system. Mercury is nearest to the Sun, having rotation period is 58.65 days and revolution period is of 88 days (<strong>fastest in solar system</strong>) with no satellite, it has the highest diurnal range of temperature and has the shortest year.</li><li><strong>Venus:</strong> Also known as Earth's twin, morning star and evening star. Brightest heavenly body after the Sun and the Moon because of 70% albedo. Venus is closest planet to Earth. It is hottest planet in our solar system because of 97% CO2. It is slightly smaller than the Earth (500 km less in diameter). It rotates clockwise (East to West) and it does not have satellite. It has slowest rotation period in our solar system (257 days) and have almost equal rotation and revolution (224.7 days) period.</li><li><strong>Mars:</strong> Mars is the fourth nearest planet to the Sun. It is also known as Red Planet because it appears as a reddish ball when looked through a telescope. Its revolution period is 687 days and rotation period is of 24.6 hrs (almost equal to that of Earth), it has two satellites Phobos and Deimos and it has signs of water, hence, there is a possibility of life. Various space missions have been sent e.g. Vikings, Pathfinder, Mars Odyssey, Mars Obriter Mission.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Detailed characteristics of Mercury, Venus, and Mars."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1139
+  },
+  {
+    "id": "geo-solar-system-001",
+    "subject": "Geography",
+    "chapter": "Solar System",
+    "topic": "Planets and Celestial Bodies",
+    "text": "<ul><li><strong>Jupiter:</strong> Largest of all planets, 11 times the size of Earth. Called 'Lord of the Heavens'. Fastest rotation (9.8 hrs), revolution period of 12 years. Has 79 satellites (Europa, Ganymede, Callisto). Ganymede is the largest satellite.</li><li><strong>Saturn:</strong> Second largest, least dense (30 times less dense than Earth). Revolution period 29 years, rotation 10.3 hours. Has 82 satellites (Titan is most prominent). Atmosphere dominated by nitrogen. Has three well-defined rings.</li><li><strong>Uranus:</strong> Identified in 1781 by William Hershal. Rotates North to South (inclined at 98 degrees). Revolution period 84 years, rotation 10.8 years. Has 5 faint rings and 21 satellites (Miranda, Ariel).</li><li><strong>Neptune:</strong> 'Greenish Star' due to Methane. Revolution period 165 years, rotation 15.7 hours. Discovered by JG Galle in 1846. Satellites: Trion and Neroid. Uranus and Neptune are called Jovian Twins.</li><li><strong>Pluto:</strong> Discovered 1930, now classified as a dwarf planet.</li><li><strong>Asteroids:</strong> Minor planets in a belt between Mars and Jupiter. Also called 'planetoids'.</li><li><strong>Meteoroids, Meteors, and Meteorites:</strong> Meteoroids are small bodies in space. A meteor is a meteoroid that enters Earth's atmosphere (shooting star). A meteorite is a meteor that has fallen to Earth.</li><li><strong>The Moon:</strong> Earth's only natural satellite. No atmosphere due to weak gravity. 59% of surface is visible from Earth. Revolution/Rotation time is 27 days, 7 hrs, 43 min, 11.47 sec.</li><li><strong>Phases of the Moon:</strong> Visible surface changes due to revolution. New Moon occurs when the Moon is between Earth and Sun (No Moon).</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| Fact | Description |\n|---|---|\n| Biggest planet | Jupiter |\n| Smallest planet | Mercury |\n| Biggest satellite | Ganymede |\n| Smallest satellite | Deimos |\n| Blue planet | Earth |\n| Green planet | Uranus |\n| Brightest planet | Venus |\n| Brightest star | Sirius (Dog Star) |\n| Closest Star | Proxima Centauri |\n| Coldest planet | Neptune |\n| Evening star | Venus |\n| Red planet | Mars |\n| Slowest revolution | Neptune |\n| Slowest rotation | Venus |\n| Earth's twin | Venus |\n| Only satellite with atmosphere like Earth | Titan |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of outer planets, dwarf planets, asteroids, meteors, and lunar characteristics."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1140
+  },
+  {
+    "id": "CDS-PATH-856-001",
+    "subject": "Geography",
+    "chapter": "The Universe and The Earth",
+    "topic": "Stars and Evolutionary Stages",
+    "text": "<p><strong>Full Moon:</strong> Occurs on the 14th day after the New Moon. The Moon at this time shows its fully lighted surface (Full Moon = Complete Moon).</p><p><strong>Blue Moon:</strong> When two full Moons occur in a single month, the second full Moon is called a Blue Moon.</p><p><strong>Stars:</strong> Heavenly bodies made up of hot burning gases, thus shine by their own light. If the star is bigger than the Sun but not more than twice as big, it will turn into a <strong>Neutron star</strong> or <strong>Pulsar</strong>. They are formed due to novae and supernovae explosion.</p><p>A star's colour indicates the temperature of its surface. Blue colour denotes maximum temperature, followed by yellow, then red.</p><p><strong>Evolutionary Stages of a Star:</strong></p><ul><li><strong>Adult Star:</strong> The stage where the helium core becomes increasingly heavy, accompanied by expanding outer layers.</li><li><strong>Red Giant:</strong> This stage results into swelling and reddening of the outer regions of the star. Such star of gigantic dimension is called Red star.</li><li><strong>White Dwarf:</strong> If the mass of the star is relatively small like that of our Sun, the gases that reach the outer layer are expelled. As these expelled gases cool and contract, the star becomes a white dwarf.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Covers definitions of Full Moon, Blue Moon, characteristics of stars, and the evolutionary stages of stars (Adult, Red Giant, White Dwarf)."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1141
+  },
+  {
+    "id": "CDS-PATH-856-002",
+    "subject": "Geography",
+    "chapter": "The Universe and The Earth",
+    "topic": "The Earth",
+    "text": "<p><strong>The Earth:</strong> It is the 5th largest planet of our solar system. Only planet of our solar system where life exists. It is also called <strong>'Blue Planet'</strong>. It has circumference of 40008 km (polar) and equatorial circumference 40075 km and area of nearly 510 million sq kms.</p><ul><li><strong>Perigee:</strong> Nearest position of Earth to Moon (356000 km).</li><li><strong>Apogee:</strong> Farthest position of Earth from Moon (407000 km).</li><li><strong>Aphelion:</strong> Farthest position of Earth from Sun on 4th July, about 152 million km.</li><li><strong>Perihelion:</strong> Nearest position of Earth to Sun on 3rd January, about 147 million km.</li></ul><p>The history of the Earth is studied in terms of geological years, periods and the epochs.</p><p><strong>Shape of the Earth:</strong> The Earth is an oblate spheroid, a sphere flattened along the axis from pole to pole such that there is a bulge around the equator. Earth bulges at the equator and is flattened at the poles. The shape of Earth is also called <strong>Geoid</strong>. Geodesy is a branch of science which deals with measuring the Earth's size and shape.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "General facts about Earth, orbital positions (Apogee/Perigee/Aphelion/Perihelion), and its shape (Geoid/Oblate Spheroid)."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1141
+  },
+  {
+    "id": "CDS-PATH-856-003",
+    "subject": "Geography",
+    "chapter": "The Universe and The Earth",
+    "topic": "The Earth's Movement",
+    "text": "<p><strong>The Earth's Movement:</strong> The Earth moves in space in two distinct ways: rotation and revolution.</p><p><strong>Rotation of the Earth:</strong> Earth spins on its imaginary axis from West to East in 23 hrs, 56 min and 40.91 sec. The rotational speed at equator is maximum (1667 km/hr) and then decreases towards the poles, where it is zero. Rotation causes day and night, change in the direction of winds and ocean currents, rise and fall of tides everyday and a difference of 1 hr between the two meridians which are 15 degrees apart. The division between day and night is the circle of illumination.</p><p><strong>Revolution of the Earth:</strong> It is the Earth's motion in elliptical orbit around the Sun. It takes 365 days, 5 hrs, 48 min and 45.51 sec. It leads to one extra day in every fourth year. The revolution results in: 1. Change of season, 2. Variation of the length of the days and nights at different times of the year, 3. Shifting of the wind belts.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing the revolution of the Earth around the Sun. It depicts four positions (A, B, C, D) corresponding to different dates (22nd December, 21st March, 23rd September, 21st June) and the resulting seasons in the Northern and Southern Hemispheres, including the Arctic and Antarctic Circles."
+    ],
+    "details": {
+      "summary": "Explains Earth's rotation (causes day/night, tides, wind direction) and revolution (causes seasons, variation in day length)."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1141
+  },
+  {
+    "id": "geo-857-001",
+    "subject": "Geography",
+    "chapter": "General Geography",
+    "topic": "Equinoxes and Solstices",
+    "text": "<h3>Equinoxes</h3><ul><li>These are the days, when days and nights are equal.</li><li>Under this situation, the Sun is vertically overhead at the equator. It happens on 2 days of the year i.e. 21st March and 23rd September.</li><li>21st March <strong>Vernal equinox</strong> and 23rd September <strong>Autumnal equinox</strong>.</li></ul><h3>Summer Solstice</h3><ul><li>After the March equinox, the Sun appears to move Northward and is vertically overhead at the Tropic of Cancer on 21st June. This is known as <strong>Summer Solstice</strong>.</li><li>On 21st June, the Northern hemisphere will have its longest day and shortest night. The Southern hemisphere will have shortest day and longest night.</li></ul><h3>Winter Solstice</h3><ul><li>On 22nd December, the Sun is overhead at the Tropic of Capricorn and this is the winter solstice. Southern hemisphere will have its longest day and shortest night.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and dates for Equinoxes, Summer Solstice, and Winter Solstice."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1142
+  },
+  {
+    "id": "geo-857-002",
+    "subject": "Geography",
+    "chapter": "General Geography",
+    "topic": "Latitude and Longitude",
+    "text": "<h3>Latitude</h3><ul><li>Latitude is the angular distance of a point on Earth surface from the centre of Earth, measured in degree. These lines are called <strong>parallels of latitude</strong> and on the globe they are circles. The circumference of the circles decreases from equator to pole and at the pole it converge to a point.</li><li>The distance between any two parallels of latitude is always equal. One degree latitude = Approx 111 km</li><li>The most important lines of latitudes are equator (0°), the Tropic of Cancer (23½°N), the Tropic of Capricorn (23½°S), the Arctic Circle (66½°N) and the Antarctic Circle (66½°S).</li></ul><h3>Longitude</h3><ul><li>Longitude is the angular distance of a point on the Earth surface along the equator, East or West from the <strong>Prime meridian</strong>. On the globe, they form semi circles from pole to pole, passing through the equator.</li><li>Prime meridian is the semi circle from pole to pole, from which all the other meridians radiate Eastwards and Westwards up to 180°. In 1884, it was decided that the zero meridian is one that passes through the Royal Astronomical Observatory at <strong>Greenwich</strong> near London.</li><li>180° meridian (International Date Line) is exactly opposite to the Prime meridian. Such points are called Antipodal Points.</li></ul>",
+    "formulas": [
+      "1 degree latitude = Approx 111 km"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and properties of Latitude and Longitude lines."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1142
+  },
+  {
+    "id": "geo-857-003",
+    "subject": "Geography",
+    "chapter": "General Geography",
+    "topic": "Universal Time and International Date Line",
+    "text": "<h3>Universal Time (Standard Time) and Time Zones</h3><ul><li>The Earth is divided in 24 longitudinal zones, each being 15° or 1 hrs apart in time (360° = 24 hours, 360/24 = 15° in 1 hrs or 1° in 4 minute) called Standard Time Zones.</li><li>Larger countries such as USA, Russia and Canada, which have greater East-West stretch have to adopt several time zones for practical purposes.</li><li>Russia has as many as 11 time zones.</li><li>Both USA and Canada have five time zones, viz the Atlantic, Eastern, Central, Mountain and Pacific time zones.</li><li>To avoid confusion about having many local times within one country, a particular meridian is chosen for the whole country, whose time is known as Standard Time.</li><li>The Indian Government has accepted the meridian of 82.5° East for standard time, which is 5 hrs 30 min ahead of the Greenwich Mean Time GMT and is situated at Naini near Allahabad.</li></ul><h3>INTERNATIONAL DATE LINE</h3><ul><li>It is the 180° meridian running over the Pacific ocean deviating at Fiji, Samoa and Gilbert Islands. This meridian is considered to be deviated at the land masses, so that the travellers do not feel inconvenient.</li><li>One who is crossing the Date Line from West to East repeats a day and the one who travellers crossing it from East to West losses a day.</li></ul>",
+    "formulas": [
+      "360° = 24 hours",
+      "360/24 = 15° in 1 hr",
+      "1° = 4 minutes"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Explanation of time zones, standard time, and the International Date Line."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1142
+  },
+  {
+    "id": "geo-857-004",
+    "subject": "Geography",
+    "chapter": "General Geography",
+    "topic": "Eclipses",
+    "text": "<h3>ECLIPSES</h3><ul><li>An eclipse occurs when the Sun, Moon and Earth are in a straight line. There are two types of eclipses-Solar and Lunar eclipse.</li><li>Generally, a total of seven eclipse including solar and lunar eclipses, take place in a year.</li></ul><h3>Solar Eclipse</h3><ul><li>Solar eclipse occurs when Moon comes between the Sun and the Earth. It can be partial or total.</li><li>It happen only on a new Moon day when the Moon is in line with the Sun. A solar eclipse doesn't occur on every new Moon day.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing a Solar Eclipse: The Sun is on the left, the Moon is positioned in the middle between the Sun and the Earth on the right. The Moon's shadow falls on the Earth, and the path of the Moon is indicated by an arrow."
+    ],
+    "details": {
+      "summary": "Definition and conditions for Solar Eclipses."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1142
+  },
+  {
+    "id": "geo-858-001",
+    "subject": "Geography",
+    "chapter": "Structure of Earth's Interior",
+    "topic": "Lunar Eclipse",
+    "text": "<p>Lunar eclipse occurs when the Earth comes in between the Sun and the Moon. It occurs only on a full Moon day but not on every full Moon day because the Moon is not in the same position in relation to that of the Earth and the Sun on every full Moon day.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing the alignment of Sun, Earth, and Moon during a Lunar Eclipse, with the Earth casting a shadow on the Moon."
+    ],
+    "details": {
+      "summary": "Definition and conditions for the occurrence of a Lunar Eclipse."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1143
+  },
+  {
+    "id": "geo-858-002",
+    "subject": "Geography",
+    "chapter": "Structure of Earth's Interior",
+    "topic": "The Crust",
+    "text": "<ul><li>The crust is the outermost and the thinnest layer of the Earth. This layer has the least density and its thickness varies about 8 to 40 km.</li><li><strong>Mohorovic or Moho Discontinuity</strong>, marks the lower limit of the crust and this discontinuity is identified on the basis of rock density.</li><li>The rocks forming the crust of the Earth are rich in lighter minerals like silica and aluminium. Hence, this layer is also called as <strong>Sial</strong> (silica and aluminium). The average density of this layer is 2.7 gm/cm<sup>3</sup>.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Cross-sectional diagram of Earth's interior showing layers (Crust, Upper Mantle, Lower Mantle, Outer Core, Inner Core) with corresponding density (gm/cm3) and depth (km) markers."
+    ],
+    "details": {
+      "summary": "Characteristics of the Earth's crust, including composition and density."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1143
+  },
+  {
+    "id": "geo-858-003",
+    "subject": "Geography",
+    "chapter": "Structure of Earth's Interior",
+    "topic": "The Mantle and The Core",
+    "text": "<h3>The Mantle</h3><ul><li>It is about 2900 km in thickness, composed of minerals in a semi solid state. It is further divided into two layer upper mantle and lower mantle. The upper part of the mantle is called <strong>Asthenosphere</strong>, which is about 250 km thick.</li><li>Due to presence of minerals like silica and magnesium in the rocks forming this layer of the Earth, the mantle layer is also known as <strong>Sima</strong> (silica and magnesium). The average density of this layer is about 5.68 gm/cm<sup>3</sup>.</li><li>The transitional zone separating the mantle from the core is called the <strong>Gutenberg Discontinuity</strong>.</li></ul><h3>The Core</h3><ul><li>The core is the innermost layer of the Earth and occupies its center. It is about 3500 km in radius. This layer is also known as <strong>Nife</strong> (nickel and iron), because this layer contain large concentration of iron and nickel.</li><li>Density of this part of the Earth is 17.2 gm/cm<sup>3</sup> and is many times greater than the average density of the Earth (5.53 gm/cm<sup>3</sup>).</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Detailed breakdown of the Mantle and Core layers, including composition and naming conventions."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1143
+  },
+  {
+    "id": "geo-858-004",
+    "subject": "Geography",
+    "chapter": "Structure of Earth's Interior",
+    "topic": "Discontinuities and Composition",
+    "text": "<h3>Discontinuities</h3><p>The various layers are separated by discontinuities, which are evident in seismic data.</p><ul><li><strong>Conrad discontinuity</strong> lies between upper crust and lower crust.</li><li><strong>Mohorovicic discontinuity</strong> between crust and mantle.</li><li><strong>Repetti discontinuity</strong> lies between upper mantle and lower mantle.</li><li><strong>Gutenberg discontinuity</strong> between core and mantle. Here, the Earth's density as well as velocity of P waves increases.</li><li><strong>Lehmann discontinuity</strong> divides upper core and lower core.</li></ul><h3>Composition</h3><p><strong>Composition of Whole Earth:</strong> Iron (35%), Oxygen (30%), Silicon (15%), Magnesium (13%), Nickel (2.4%), Sulphur (1.9%).</p><p><strong>Composition of Earth's Crust:</strong> Oxygen (46%), Silicon (28%), Aluminium (8%), Iron (6%), Magnesium (4%), Calcium (2.4%), Potassium (2.3%), Sodium (2.1%).</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "List of seismic discontinuities and chemical composition of the Earth and its crust."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1143
+  },
+  {
+    "id": "geo-858-005",
+    "subject": "Geography",
+    "chapter": "Structure of Earth's Interior",
+    "topic": "Continental Drift Theory",
+    "text": "<ul><li>This theory was given by <strong>Alfred Wagener</strong>, in 1915, to explain the origin and evolution of the continents and the oceans.</li><li>According to this theory, about 250 million years ago, there was only one continent named <strong>Pangea</strong> means All Earth and it was surrounded by one mass of water body, named <strong>Panthalassa</strong>.</li><li>The present shape of the continents and oceans is due to the break up of Pangea. This breaking process started about 200 million years ago.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of Alfred Wagener's Continental Drift Theory."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1143
+  },
+  {
+    "id": "geo-859-001",
+    "subject": "Geography",
+    "chapter": "Geomorphology",
+    "topic": "Plate Tectonics and Earthquakes",
+    "text": "<p>The Northern rift cuts Pangaea from East to West creating <strong>Laurasia</strong> in the North and <strong>Gondwanaland</strong> in South. A shallow sea called <strong>Tethys</strong> was situated between the Laurasia and the Gondwanaland.</p><h3>Plate Tectonics Theory</h3><p>The theory of Plate tectonics states that the lithosphere is divided into several rigid segments, which include both oceanic and continental crusts. These segments are called <strong>plates</strong> and they are moving on the asthenosphere, which is not a liquid, but a solid which flows under stress.</p><ul><li>About 20 such plates have been identified. There are seven major plates: Eurasia, Antarctica, North America, South America, Pacific, African and Indian Plate.</li><li>Most of the Earth's seismic activity, volcanism and mountain building occur along with these dynamic boundaries.</li></ul><p>Depending upon the type of movement, plate margins are of three types:</p><ol><li><strong>Divergent Plate Margin</strong> (Constructive margins)</li><li><strong>Convergent Plate Margin</strong> (Destructive margins)</li><li><strong>Parallel Plates Margin</strong> (Conservative margin or Transform boundary)</li></ol>",
+    "formulas": [],
+    "tables": [
+      "| Divergent Plate Boundary | Convergent Plate Boundary | Transform Fault Boundary |\n|---|---|---|\n| When the plates move apart with the upwelling of material from the mantle, divergent plate boundary results. | A convergent plate boundary is one, where two plates collide, one plate bending downward and subducting below the other. | They are located, where plates slide past one another without the creation or destruction of crust. |\n| Formation of the mid oceanic ridges are the example of divergent plate margin. | Deep oceanic trench is formed adjacent to the zone of subduction. Fold mountains are the result of convergent plate boundary. | San Andreas Fault along the West coast of Mexico is a famous transform fault. |\n| <strong>Example</strong>: Surtsey Island was born along with mid-Atlantic ridge. | <strong>Example</strong>: Himalayan boundary fault, Pacific ring of fire. | <strong>Example</strong>: San Andreas Fault along the Western coast of USA. |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of Plate Tectonics theory, classification of plate margins, and their characteristics."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1144
+  },
+  {
+    "id": "geo-859-002",
+    "subject": "Geography",
+    "chapter": "Geomorphology",
+    "topic": "Forces Affecting Earth's Crust",
+    "text": "<h3>Forces Affecting Earth's Crust</h3><p>Study of forces affecting the crust of the Earth is very important as these forces and resultant movements are responsible for creation, modification and destruction of various landforms over the Earth's surface. These forces are classified into endogenic and exogenic forces.</p><h4>Endogenic Forces</h4><p>The forces coming from within the Earth are called Endogenic Forces. The heat inside the Earth is primary driving force of these forces. These forces are further classified into two categories:</p><ul><li><strong>Sudden or Catastrophic Forces</strong>: These forces act very swiftly and often in an unpredictable manner. Earthquake and volcanoes are major sudden forces.</li><li><strong>Slow or Diastrophic Forces</strong>: These forces act in an imperceptible manner where changes are discernible after millions of year. These forces are further classified into tensional and compressional forces.</li></ul><h4>Exogenic Forces</h4><p>These forces and processes occur over the Earth's surface and modify the landforms from outside. Erosion and weathering are two major phenomena of denudation of geomorphic features by exogenic forces.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Classification of geomorphic forces into Endogenic (Sudden/Slow) and Exogenic (Erosion/Weathering)."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1144
+  },
+  {
+    "id": "geo-859-003",
+    "subject": "Geography",
+    "chapter": "Geomorphology",
+    "topic": "Earthquakes",
+    "text": "<h3>EARTHQUAKES</h3><p>It refers to the vibration of the Earth's surface caused by the endogenic forces. The magnitude or intensity of energy released by an earthquake is measured by the <strong>Richter Scale</strong>, whereas the damage caused is measured by <strong>modified Mercalli Intensity Scale</strong>.</p><ul><li>The place of origin of earthquake is called <strong>focus</strong>. The place on the ground surface, which is perpendicular to the focus or hypocentre is called <strong>epicentre</strong>. <strong>Seismology</strong> is the special branch of geology that deals with the study of earthquake.</li><li>The waves generated by earthquake are called <strong>seismic waves</strong> and they are classified into three types:</li></ul><ol><li><strong>Primary Wave (P Waves)</strong>: These are the waves of short wavelength and high frequency. They are longitudinal waves and can travel through solid, liquid and gases.</li><li><strong>Secondary Wave (S Waves)</strong>: These are the waves of short wavelength and high frequency. They are transverse waves, which travel through all solid particles.</li><li><strong>Surface Waves or Long Waves (L Waves)</strong>: They are the waves of long wavelength, confined to the upper layer of the Earth's crust. It causes most of the earthquake's structural damage.</li></ol><p>Imaginary lines on map connecting the places where the seismic wave arrives generated by an earthquake, at the same time are known as <strong>Homoseismal Lines</strong>.</p><h4>Distribution of Earthquakes</h4><p>Most of the world earthquake occurs in:</p><ul><li>The zones of young fold mountain, zones of folding and faulting, junction of continental and oceanic margin, zone of active volcanoes and along different plate boundaries.</li></ul><p>The traditional zones of earthquake are:</p><ul><li>Circum Pacific belt, Mid Continental belt and Mid Atlantic belt.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition, measurement, types of seismic waves, and global distribution of earthquakes."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1144
+  },
+  {
+    "id": "volcanism-001",
+    "subject": "Geography",
+    "chapter": "Geomorphology",
+    "topic": "Volcanism",
+    "text": "<h3>Volcanism</h3><ul><li>Volcanism includes all phenomena connected with the movement of heated material from the interior towards the surface of the Earth.</li><li>A volcano is a vent or opening, through which heated materials consisting of gases, water, liquid lava, fragments of rocks are ejected from the highly heated interior to the surface of the Earth.</li><li>Volcanic eruptions are closely associated with several integrated processes such as gradual increase in temperature with increasing depth, due to the heat generated by degeneration of radioactive elements inside the Earth.</li><li>Origin of magma due to the lowering of the melting point caused by reduction in pressure of overlying rocks due to fractures caused by splitting of plates.</li></ul><h4>Classification of Volcanoes</h4><p><strong>On the basis of mode of eruption:</strong></p><ul><li><strong>Central Eruption or Explosive Type:</strong> Here, the magma comes with great force through the small vent and spread to a distant position. e.g., Hawaiian type, Strombolian type, Pelean type, Vesuvius type, Volcanion type.</li><li><strong>Fissure Eruption or Quiet Eruption:</strong> Large quantities of lava quietly flow up from fissures and spread out over the surrounding areas. Successive flow of lava results in the growth of lava plateau. e.g., Deccan Plateau.</li></ul><p><strong>On the basis of periodicity of eruptions:</strong></p><ul><li><strong>Active Volcano:</strong> Volcano which erupt periodically. e.g., Etna, Stromboli, Mayon</li><li><strong>Dormant Volcano:</strong> Volcano which become quiet after their eruption for sometime. e.g., Fujiyama, Krakatoa, Barren Island</li><li><strong>Extinct Volcano:</strong> They have no indication of future eruption.</li></ul><h4>Various Volcanic Belts</h4><ul><li><strong>Circum-Pacific Belt (Fire girdle of the Pacific or the fire ring of the Pacific):</strong> It extends across the Kamchatka Peninsula, Kurile Islands, the Islands of Japan, Philippines, New Guinea, New Zealand and the Soloman Islands.</li><li><strong>Highest Volcanic Peaks:</strong> Cotopaxi (South America), Fujiyama (Japan), valley of ten thousand smokes (Alaska).</li><li><strong>Mid-Continental Belt:</strong> (Volcanic zones of convergent continental plate Margins). It includes volcanoes of Alpine mountain chain, the Mediterranean sea and the fault zone of Eastern Africa of Stromboli, Vesuvius, Etna, Kilimanjaro etc.</li><li><strong>Mid-Atlantic Belt:</strong> The volcanoes are fissure eruption type e.g. Iceland, Canary Islands, Cape Verde, Azores etc.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of volcanism, classification of volcanoes by eruption mode and periodicity, and identification of major global volcanic belts."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1145
+  },
+  {
+    "id": "rocks-001",
+    "subject": "Geography",
+    "chapter": "Geomorphology",
+    "topic": "Rocks",
+    "text": "<h3>Rocks</h3><p>The solid part of the Earth's crust are called rocks. The rocks are made up of two or more minerals. Rocks are classified in three main types depending on the process of their formation.</p><h4>1. Igneous Rocks</h4><ul><li>Formed due to the cooling, solidification and crystallisation of hot and molten magma. They are called as the <strong>primary rocks</strong> as all the other rocks are formed directly or indirectly from the igneous rocks.</li><li>It is believed that the igneous rocks were formed during each period of geological history of the Earth. They are hard, granular and crystalline rock, less affected by chemical weathering. It does not have any fossil or does not form any strata or layers of lava.</li></ul><p><strong>Classification of Igneous Rocks (On the basis of mode of occurrence):</strong></p><ul><li><strong>Intrusive Rocks:</strong> They are formed due to the solidification of rising magma below the surface of the Earth. e.g. Granite, Lapolith, Batholiths, Sills etc.</li><li><strong>Extrusive Rocks:</strong> They are formed due to cooling and solidification of hot and molten magma at the Earth surface. e.g. Basalt, Gabbro etc.</li><li><strong>On the basis of silica content:</strong><ul><li><strong>Acidic:</strong> It has more silica content e.g. Granite.</li><li><strong>Basic:</strong> It has less silica content e.g. Gabbro.</li></ul></li></ul><h4>2. Sedimentary Rocks</h4><ul><li>It is formed due to the aggregation and compaction of sediments derived from the older rocks, plants, animals and contains fossils of plants.</li><li>Sedimentary rocks can be classified on the basis of the nature of sediments as mechanically, chemically and organically formed rocks.</li></ul><h4>3. Metamorphic Rocks</h4><ul><li>These are the changed form of igneous and sedimentary rocks. These are the rocks, which change either in form or composition without disintegration.</li><li>Already formed metamorphic rocks are metamorphosed and this process is called Metamorphosis. The agents of metamorphism are heat, compression and solution.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and classification of rocks into Igneous, Sedimentary, and Metamorphic types, including sub-classifications of igneous rocks."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1145
+  },
+  {
+    "id": "geo-861-001",
+    "subject": "Geography",
+    "chapter": "Geomorphology",
+    "topic": "Weathering and Landforms",
+    "text": "<p><strong>Weathering</strong> is the process of disintegration or decomposition of rocks in Situ by natural agents. It is a static process. There are three types of weathering:</p><ul><li><strong>Physical Weathering (or mechanical weathering):</strong> Involves rock disintegration without any change in the chemical constituents of the rocks. Factors include temperature change, crystallisation of water into ice, and pressure release mechanism.</li><li><strong>Chemical Weathering:</strong> Involves decomposition due to chemical changes. Processes include Solution, Oxidation, Carbonation, Hydration, Hydrolysis, and Chelation.</li><li><strong>Biological Weathering:</strong> Plants and animals control it. Divided into: (a) Faunal weathering, (b) Floral weathering, (c) Anthropogenic weathering.</li></ul><p><strong>Erosion:</strong> Involves removal of rock material and its transportation by mobile agents like streams, wind, waves, and underground water.</p><p><strong>Landforms:</strong> A feature on the Earth's surface (terrain, mountains, hills, plateaus, plains). Minor landforms include buttes, canyons, valleys, and basins. Tectonic plate movement can create landforms by pushing up mountains and hills.</p><p><strong>Major classification of landforms:</strong></p><ul><li><strong>Fluvial Landforms:</strong> Result from water movement. Erosional: u-shaped valley, potholes, plunge pools, meanders, river terraces. Depositional: alluvial fans, deltas, floodplains, natural levees, point bars.</li><li><strong>Karst Landforms:</strong> Limestone/dolomite regions. Erosional: Pools, sinkholes, lapies, limestone pavement, caves. Depositional: Stalactites, stalagmites, pillars.</li><li><strong>Glacial Landforms:</strong> Result from glacier movement (gravity). Erosional: Cirque/Corrie U-shaped valley, horns, serrated ridges, glacial troughs, hanging valleys. Depositional: Moraines, eskers, outwash plains, drumlins.</li><li><strong>Coastal Landforms:</strong> Formed by sea waves, currents, tides. Erosional: Cliffs, terraces, caves, stacks. Depositional: Beaches, dunes, bars, barriers, spits.</li><li><strong>Aeolian Landforms:</strong> Wind action in hot deserts. Erosional: Pediments, pediplains, playas, deflation hollows, mushroom rock, table rock, pedestal rocks. Depositional: Sand dunes, barchans, seifs.</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| Sedimentary Rocks | Metamorphic Rocks |\n|---|---|\n| Limestone | Marble |\n| Sandstone | Quartzite |\n| Shale/Clay | Slate, Phyllite, Schist |\n| Coal | Diamond or Graphite |",
+      "| Original Rocks | Metamorphic Rocks |\n|---|---|\n| Sandstone | Quartzite |\n| Limestone | Marble |\n| Shale and mudstone | Slate |\n| Granite | Gneiss |\n| Coal | Graphite coal |\n| Clay | Slate |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of rock transformation (sedimentary to metamorphic), types of weathering (physical, chemical, biological), and classification of landforms based on origin (fluvial, karst, glacial, coastal, aeolian)."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1146
+  },
+  {
+    "id": "geo-mountains-001",
+    "subject": "Geography",
+    "chapter": "Geomorphology",
+    "topic": "Mountains",
+    "text": "<p>Based on their mode of formation, four main types of mountains can be distinguished:</p><h3>Fold Mountains</h3><ul><li>It is formed due to the compressive forces generated by endogenetic forces (earthquake, landslide etc.).</li><li>Example of Fold mountains are Himalayas, Alps, Andes, Rockies, Atlas etc.</li><li>On the basis of age, fold mountains are grouped into:<ul><li><strong>Young/New Fold Mountains:</strong> It came into existence after the continental drift, e.g. Himalayas, Andes, Rockies, Alps. Himalayas are regarded as the youngest mountains in the world.</li><li><strong>Old Fold Mountains:</strong> They belong to pre-drift era, e.g. Pennines (Europe), Appalachians (US), Aravallis (India) etc.</li></ul></li></ul><h3>Block Mountains</h3><ul><li>It is formed when a huge block of Earth's crust may be raised or lowered due to tectonic activities. The land between the two parallel faults either rises forming block mountains or horsts or subsides into a depression termed as Rift valley or Graben.</li><li>Examples of Block mountain are Vindhya and Satpura in India, the Vosges in France and Black forest in Germany (through which Rhine river flows).</li></ul><h3>Volcanic Mountains</h3><ul><li>They are formed due to the accumulation of volcanic material. They are also known as <strong>Mountains of Accumulation</strong>.</li><li>Examples of Volcanic mountain are Mt Fuji (Japan), Cotopaxi in Andes, Vesuvius and Etna in Italy, Mt Mayon (Philippines) etc.</li></ul><h3>Residual or Dissected Mountain</h3><ul><li>They are formed as a result of erosion of plateaus and high planes by various agents of erosion.</li><li>Examples of Residual or Dissected mountain are Catskill mountains of New York, Sierras of Spain, Girnar and Rajmahal of India.</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| Mountain Range | Location | Highest Point |\n|---|---|---|\n| Himalayas | Asia | Mount Everest |\n| Karakoram | Asia | K2 |\n| Hindu Kush | Asia | Tirich Mir |\n| Andes | South America | Aconcagua |\n| Alps | Europe | Mount Blanc |\n| Rockies | North America | Mount Elbert |\n| Urals | Asia/Europe | Mount Narodnaya |\n| Alaska Range | North America | Denali (Mount Mckinley) |\n| Transantarctic Range | Antarctica | Mount Kirkpatrick |\n| Caucasus | Europe/Asia | Mount Elbrus |\n| Tien Shan | Asia | Jengish Chokusu |\n| Great Dividing Range | Australia | Mount Kosciuszko |"
+    ],
+    "image_descriptions": [
+      "Diagram showing Fold Mountains with wavy, layered rock strata indicating compression.",
+      "Diagram showing Block Mountains with a central depression labeled 'Graben' and elevated sides labeled 'Horsts'."
+    ],
+    "details": {
+      "summary": "Overview of mountain classification based on formation (Fold, Block, Volcanic, Residual) and a reference table of major world mountain ranges."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1147
+  },
+  {
+    "id": "geo-plateaus-plains-002",
+    "subject": "Geography",
+    "chapter": "Geomorphology",
+    "topic": "Plateaus and Plains",
+    "text": "<h3>PLATEAUS</h3><p>Tabular upland having relief of more than 500 feet may be defined as plateau. Tibetan plateau (5000 m) is the highest plateau in the world.</p><h3>Types of Plateau</h3><p>According to their mode of formation and their physical appearance, plateau may be grouped into the following types:</p><ul><li><strong>Tectonic Plateau:</strong> These are formed by Earth movements, which cause uplift and are normally of a considerable size and fairly uniform altitude.<ul><li>When plateau are enclosed by Fold mountains, they are known as <strong>Intermontane plateau</strong>.</li><li>Examples of Tectonic plateau are Tibetan plateau between the Himalayas and the Kunlun and the Bolivian plateau between two ranges of the world.</li></ul></li><li><strong>Volcanic Plateau:</strong> These are formed by accumulation of lava. e.g. Deccan Plateau (India).</li><li><strong>Dissected Plateau:</strong><ul><li>Through the continual process of weathering and erosion by running water, ice and winds, high extensive plateau are gradually worn down and their surface made irregular.</li><li>The Scottish Highlands is a good example of dissected plateau.</li></ul></li></ul><h3>PLAINS</h3><p>A relatively low-lying and flat land surface with least difference between its highest and lowest points is called a plain. The plains are divided into structural, erosional and depositional plains.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and classifications of plateaus (Tectonic, Volcanic, Dissected) and a brief definition of plains."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1147
+  },
+  {
+    "id": "geo-863-001",
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "topic": "Types of Plain",
+    "text": "<p>There are three types of plain as follow:</p><ul><li><strong>Structural Plain:</strong> Formed due to the uplift of a part of the sea floor e.g. the great plain of USA.</li><li><strong>Erosional Plain:</strong> Formed when the elevated tract of land is worn down to a plain by the process of erosion. e.g. Plain of North Canada.</li><li><strong>Depositional Plain:</strong> Formed by filling up of sediments into depressions along the foothills, lakes and seas e.g. Indo Ganga Plain.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Classification of plains based on their formation process."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1148
+  },
+  {
+    "id": "geo-863-002",
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "topic": "Islands",
+    "text": "<p>An island is any piece of land that is surrounded by water. A grouping of geographically or geologically related islands is called an <strong>Archipelago</strong>. The various types of islands are named according to the way they were formed.</p><h3>Types of Island</h3><ul><li><strong>Continental Island:</strong> It is simply an island that rests on the continental shelf. Because of this, these islands are always quite close to a given continent. Also, the water level around a continental island is very shallow, typically less than 600 feet. Canadian Island of Newfoundland is a continental island, as is Greenland. Great Britain is the largest continental island in Europe.</li><li><strong>Volcanic Island:</strong> They are formed when volcanoes deep in the ocean rise above the water's surface.</li><li><strong>Coral Island:</strong> It is an island that forms a ring and partially or totally encloses a shallow body of water or lagoon. Coral islands, which are large collections of coral a top rock (usually volcanic) in the ocean. Lakshadweep island in Indian ocean is best example of Coral islands.</li><li><strong>Alluvial Island:</strong> They are formed by the outward flow of water depositing silt and gravel at the mouth of a river. New Moore island at the mouth of Ganga river in West Bengal is known as alluvial island.</li><li><strong>Barrier Island:</strong> They are formed by waves depositing sand on the shallow ocean bottom as they crash on the shoreline.</li><li><strong>Tectonic Island:</strong> They are formed by the result of tectonic activity. By the tectonic movement long island arcs (archipelagoes) are formed. Indonesia, Philippines, Japan groups of island are best examples of tectonic island.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and examples of various types of islands based on their geological formation."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1148
+  },
+  {
+    "id": "geo-863-003",
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "topic": "Lakes",
+    "text": "<p>A lake is a body of water surrounded by land from all the sides. A lake can be fed and drained by rivers and streams.</p><h3>Types of Lake</h3><ul><li><strong>Tarn Lake:</strong> Tarn lakes (also often classified as Alpine lakes) are usually associated with glacial regions areas that have been glaciated in the past. These follows form as the ice scours out the side of a hill, creating what is called a cirque.</li><li><strong>Rift Valley Lake:</strong> Rift valley lakes occur in areas where rock is pulling apart. As a narrow wedge of land drops from the movement, a long, narrow lake often forms. The Rift valley, which cuts through Africa and Asia, contains the largest group of such lakes, including lake Nyasa.</li><li><strong>Crater Lake:</strong> Crater lakes form at a volcanic peak. When an extinct volcano collapses, it often leaves a somewhat circular depression; water from rain and runoff eventually fills the lake. Crater lake in Oregon is a good example of such a lake.</li><li><strong>Deflation Lake:</strong> Deflation lakes usually occur in deserts as the wind blows out depressions in the sand. If the hole reaches the local groundwater table, it can create an oasis. Such features dot the Sahara desert in Africa which are locally called <strong>Oasis</strong>.</li><li><strong>Oxbow Lake:</strong> Oxbow lakes are created by a curved river meander that was cut off by sediment or other means, creating a bowed shaped lake. The Mississippi river shows evidence of past Oxbow lakes.</li><li><strong>Artificial Lake:</strong> Artificial lakes are those usually formed by the damming of a river. These lakes are usually created to regulate the flow of a seasonal flooding river and many times offer a constant supply of potable (drinkable) water or generated electricity.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions and examples of various types of lakes based on their formation."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1148
+  },
+  {
+    "id": "geo-atm-001",
+    "subject": "Geography",
+    "chapter": "Atmosphere",
+    "topic": "Important Lakes and their Countries",
+    "text": "<p>A list of major lakes worldwide along with their bordering countries and surface area.</p>",
+    "formulas": [],
+    "tables": [
+      "| Lakes | Countries | Area (km2) |\n|---|---|---|\n| Caspian Sea | Kazakhstan, Turkmenistan, Iran, Azerbaijan, Russia | 436000 |\n| Superior | Canada, United States | 82414 |\n| Victoria | Uganda, Kenya, Tanzania | 69485 |\n| Huron | Canada, United States | 59,600 |\n| Michigan | United States | 58000 |\n| Tanganyika | Burundi, Tanzania, Zambia | 32893 |\n| Baikal | Russia | 31500 |\n| Great Bear Lake | Canada | 31080 |\n| Malanei Malawi | Tanzania, Malawi, Mozambique | 30044 |\n| Great Slave Lake | Canada | 28930 |\n| Balkhash | Kazakhstan | 18428 |\n| Ladoga | Russia | 18130 |\n| Nicaragua | Nicaragua | 8001 |\n| Great Salt Lake | United States | 4662 |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Table listing major global lakes, their associated countries, and their respective surface areas."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1149
+  },
+  {
+    "id": "geo-atm-002",
+    "subject": "Geography",
+    "chapter": "Atmosphere",
+    "topic": "Atmosphere and its Layers",
+    "text": "<p><strong>Atmosphere:</strong> A thick gaseous envelope surrounding the Earth, held by gravity. Almost 97% of the atmosphere is within 29 km of the surface. It extends up to 16-29000 km.</p><p><strong>Composition:</strong> Primarily nitrogen (78%), oxygen (21%), argon (0.33%), carbon dioxide (0.03%), neon, helium, ozone, and hydrogen. Water vapour varies from 0-4%.</p><p><strong>Troposphere:</strong> Extends up to 16 km. Thickness varies from 8 km (poles) to 18 km (equator). Normal lapse rate is 1°C per 165 m. Tropopause separates it from the stratosphere.</p><p><strong>Temperature Inversion:</strong> Reversal of normal temperature behaviour where cool air is at the surface overlaid by warmer air. Ideal conditions: long nights with clear skies and calm, stable air.</p><p><strong>Stratosphere:</strong> Extends up to 50 km. Temperature increases with height. Contains Ozonosphere (absorbs harmful UV radiation). Ideal for jet aircrafts.</p><p><strong>Mesosphere:</strong> Extends up to 80 km. Temperature falls to -100°C at 80 km. Coldest layer. Upper limit is Mesopause.</p><p><strong>Ionosphere:</strong> Extends up to 600 km. Contains electrically charged ions that reflect radio waves. Protects against meteorites.</p>",
+    "formulas": [
+      "Normal lapse rate = 1°C per 165 m"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of atmospheric composition and the characteristics of its various layers including Troposphere, Stratosphere, Mesosphere, and Ionosphere."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1149
+  },
+  {
+    "id": "GEO-865-001",
+    "subject": "Geography",
+    "chapter": "Atmosphere",
+    "topic": "Thermosphere, Exosphere and Magnetosphere",
+    "text": "<h3>Thermosphere</h3><ul><li>The zone between the 85 km and 400 km above the surface is often called Thermosphere. In this layer, the temperature increases with increasing altitude. The upper limit of the thermosphere, the thermopause is generally taken at an altitude of about 600 km.</li><li>The day temperature at 600 km altitude exceed 1400°C while night temperature remain about 225°C.</li><li>The upper part of the thermosphere contains only the lighter gases like helium and hydrogen.</li></ul><h3>Exosphere and Magnetosphere</h3><ul><li>The outermost part of the atmosphere of the Earth is called Exosphere. This zone of the atmosphere extends upto a height of about 900 km.</li><li>The upper limit of the exosphere is uncertain as this layer acts as a transitional layer between the Earth's atmosphere and the space. The outer part of the exosphere is called Magnetosphere. The presence of air is extremely rare in this layer.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of the upper layers of the atmosphere including the Thermosphere, Exosphere, and Magnetosphere."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1150
+  },
+  {
+    "id": "GEO-865-002",
+    "subject": "Geography",
+    "chapter": "Atmosphere",
+    "topic": "Insolation and Solar Radiation",
+    "text": "<h3>Insolation and Solar Radiation</h3><ul><li>Sun is the main source of energy on Earth. Energy from Sun is received in the form of radiation. Solar radiation that is intercepted by Earth is known as Insolation.</li><li>The amount of insolation depends on following factors:<ul><li>The area and nature of the surface.</li><li>The inclination of the rays of the Sun.</li><li>Distance between the Earth and the Sun.</li><li>Length of the day.</li><li>The transparency of the atmosphere.</li></ul></li><li>As the angle of the Sun rays decreases poleward, the amount of insolation received also decreases in that direction.</li><li>The Earth's surface does not absorb all the energy that it receives. The proportion of the solar radiation reflected from the surface is called Albedo.</li><li>On an average, insolation is highest near the equator, marginally lower at the tropic and lowest at the poles.</li></ul><h3>Heat Budget of the Earth</h3><p>The Earth receives energy continuously from the Sun, its temperature is almost constant except the long-term climate changes. This is because the atmosphere loses an amount of heat equal to the gain through insolation. This mechanism of maintaining the same temperature by the atmosphere is called the Heat Budget or Heat Balance. The heated surface of the Earth radiates energy in the form of long waves. This process is called Terrestrial Radiation.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Explanation of solar radiation, factors affecting insolation, albedo, and the Earth's heat budget."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1150
+  },
+  {
+    "id": "GEO-865-003",
+    "subject": "Geography",
+    "chapter": "Atmosphere",
+    "topic": "Atmospheric Pressure and Pressure Belts",
+    "text": "<h3>Atmospheric Pressure</h3><p>Air is an extremely compressible gas having its own weight. The pressure exerted by air due to its weight is called atmospheric pressure on the Earth's surface. Atmospheric pressure is neither same for all the regions nor same for one region all the time.</p><h3>Factor Affecting Atmospheric Pressure</h3><p>Atmospheric pressure is affected by various factors such as altitude, temperature and Earth's rotation.</p><ul><li><strong>Altitude:</strong> Air pressure increases, when air descends due to the decrease in volume. When air rises its volume increases and the outward pressure of its molecule is spread over a larger area and its pressure decreases.</li><li><strong>Temperature:</strong> The pressure of air rises, when its temperature falls. Low temperatures at the poles cause the air to contract—high pressure develops; whereas the high temperature along the equator cause the air to expand—low pressure develops.</li></ul><h3>Pressure Belts</h3><p>Earth can be divided into regions of broader pressure belts, even though it has regional anomalies or deviations.</p><h3>Equatorial Low Pressure Belt (or Doldrums)</h3><ul><li>It is located on either side of the geographical equator in a zone extending between 5°N and 5°S. Its location is not stationary and there is a seasonal drift of this belt with the Northward (summer solstice) and Southward (winter solstice) migration of the Sun.</li><li>It is thermally induced because of the intense heating of the ground surface by the almost vertical Sun rays.</li><li>It represents the zone of convergence of North East and South East trade winds. Due to the frequent calm conditions this belt is called a <strong>belt of calm</strong> or <strong>doldrums</strong>.</li></ul><h3>Inter Tropical Convergence Zone (ITCZ)</h3><ul><li>The ITCZ is a low pressure zone located at the equator where trade winds converge and so, it is a zone where air tends to ascend.</li><li>In July, the ITCZ is located around 20°N-25°N latitudes cover the gangetic plain, sometimes called the Monsoon Trough. This monsoon trough encourages the development of thermal low over North and North-West India.</li><li>Due to the shift of ITCZ, the trade winds of the Southern hemisphere cross the equator between 40° and 60° E longitudes and start blowing from South-West to North-East due to the Coriolis force. It becomes South-West monsoon.</li><li>In winter, the ITCZ moves Southward and so the reversal of winds from North-East to South and South-West, takes place. They are called North-East monsoons.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Detailed explanation of atmospheric pressure, factors affecting it, and the dynamics of pressure belts including the ITCZ."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1150
+  },
+  {
+    "id": "geo-pressure-belts-001",
+    "subject": "Geography",
+    "chapter": "Atmospheric Pressure and Wind Systems",
+    "topic": "Pressure Belts and Wind Systems",
+    "text": "<h3>Sub-tropical High Pressure Belt</h3><ul><li>Extends between 30° to 35° N and S in both hemispheres.</li><li>High pressure is due to subsidence of air from equatorial regions and the blocking effect of the Coriolis force.</li><li>Convergence of winds at higher altitude causes subsidence, resulting in high pressure. This zone is also called <strong>Horse Latitude</strong>.</li></ul><h3>Sub Polar Low Pressure Belt</h3><ul><li>Extends between 60° to 65° in both hemispheres.</li><li>Dynamically induced rather than thermally induced.</li><li>More developed and regular in the Southern hemisphere due to the dominance of water.</li></ul><h3>Polar High</h3><ul><li>High pressure persists at the poles due to very low temperatures throughout the year.</li></ul><h3>Shifting of Pressure Belts</h3><ul><li>The system follows the movement of the mid-day Sun.</li><li>In June (Sun over Tropic of Cancer), belts move 5°-10° North.</li><li>In December (Sun over Tropic of Capricorn), belts move 5°-10° South.</li></ul><h3>Wind System</h3><ul><li>Pressure difference is the major cause of wind genesis; air moves from high to low pressure.</li><li><strong>Pressure Gradient:</strong> Slope of pressure from high to low, also called Barometric Slope.</li><li><strong>Isobars:</strong> Imaginary lines joining points of same pressure. Wind direction is perpendicular to isobars but deviated by the Coriolis force.</li></ul><h3>Wind Direction and Related Laws</h3><ul><li><strong>Coriolis Force:</strong> Acts as a deflective force.</li><li><strong>Ferrel's Law:</strong> Winds are deflected to the right in the Northern hemisphere and to the left in the Southern hemisphere.</li><li>Coriolis force is absent at the equator and increases towards the poles.</li></ul><h3>Types of Winds</h3><p><strong>(i) Permanent Winds:</strong></p><ul><li><strong>Trade Wind:</strong> Blow from sub-tropical high pressure belt towards equatorial low pressure belt. Influenced by Coriolis force, they flow from North-East in Northern hemisphere and South-East in Southern hemisphere.</li><li><strong>Westerlies:</strong> Blow from sub-tropical high pressure belt to sub polar low pressure belt. General direction is South-West to North-East in Northern hemisphere and North-West to South-East in Southern hemisphere. Best developed between 40° and 65° S latitude (known as Roaring forties, furious fifties, and shrieking sixties).</li><li><strong>Polar Winds:</strong> Blow from polar high pressure belt to sub polar low pressure belt. North Easterly in Northern hemisphere and South Easterly in Southern hemisphere.</li></ul><p><strong>(ii) Seasonal Winds:</strong></p><ul><li>Winds that reverse direction every 6 months. Example: Monsoon winds.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of global pressure belts, the mechanics of wind movement, Coriolis force, Ferrel's law, and classification of permanent and seasonal winds."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1151
+  },
+  {
+    "id": "geo-winds-001",
+    "subject": "Geography",
+    "chapter": "Climatology",
+    "topic": "Local Winds",
+    "text": "<p>Local winds are horizontal movement of winds on small-scale. Movement of these winds is mainly caused by local factors such as water body, mountain etc.</p>",
+    "formulas": [],
+    "tables": [
+      "| Winds | Nature | Region |\n|---|---|---|\n| Land breeze | Warm | Experienced along coastal areas. Land breeze blows from land to sea. |\n| Sea breeze | Cold | Experienced along coastal areas. Sea breeze blows from sea to land. |\n| Chinook (snow eater) | Warm | Rockies (USA and Canada) |\n| Sirocco | Hot | North Africa |\n| Fohn | Warm | Alps/Europe |\n| Khamsin | Hot | Egypt |\n| Blizzard | Cold | Siberian, Canada, USA |\n| Bora | Cold | Yugoslavia |\n| Southerly burster | Cold | Australia |\n| Purga | Cold | Russian, Tundra |\n| Bire | Cold | France |\n| Cape doctor | Cold | South Africans' coast |\n| Harmattan (the doctor) | Hot | Sahara to Guinea coast (Ghana, Nigeria, etc) |\n| Zonda | Warm | Argentina, Chile/Andes |\n| Brick fielder | Hot | Australia |\n| Samun | Hot | Iran |\n| Levanter | Cold Wind | Spain |\n| Norwester | Hot Wind | New Zealand |\n| Leveche | Hot | Algeria, Morocco |\n| Santa Ana | Warm | USA (California) |\n| Berg | Warm | South Africa |\n| Yoma | Warm | Japan |\n| Karaburan | Hot | Tarim basin |\n| Black roller | Hot/Dusty | North America |\n| Kalbaisakhi/ Bardoli Chheerha | Hot | North India |\n| Mistral | Cold | France to Mediterranean (Rhine valley) |\n| Loo | Hot/Dry | North Indian Plains (Punjab to Bihar) |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Comprehensive list of global local winds categorized by nature and region."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1152
+  },
+  {
+    "id": "geo-jetstream-002",
+    "subject": "Geography",
+    "chapter": "Climatology",
+    "topic": "Jet Stream",
+    "text": "<p>The strong and rapidly moving circumpolar Westerly air circulation in a narrow belt of a few 100 km width in the upper limit of troposphere is called Jet Stream. Their circulation path is wavy and meandering.</p><p>The extent of the jet streams narrows down during the summer season because of their Northward shifting while these extend up to 20° North latitude during winter season.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and seasonal behavior of Jet Streams."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1152
+  },
+  {
+    "id": "geo-cyclones-003",
+    "subject": "Geography",
+    "chapter": "Climatology",
+    "topic": "Cyclones",
+    "text": "<p>Cyclones are the centres of low pressure surrounded by closed isobars having increasing pressure outward and closed air circulation from outside towards the central low pressure in such a way that air blows inward direction.</p><p>Air blows inward in anti-clockwise direction in the Northern hemisphere and clockwise direction in the Southern hemisphere.</p><h3>Types of Cyclone</h3><p>Cyclone are mainly of two types:</p><ul><li><strong>Tropical Cyclone:</strong> They have thermal origin, they acquire whirling motion due to coriolis force. Wind speed varies from zero to 1200 km/h</li><li><strong>Temperate Cyclone:</strong> They develop over mid-latitudes. Range 35° to 65° N and S. They are also called extra tropical or wave cyclones.</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| Cyclone | Region |\n|---|---|\n| Typhoons | China sea |\n| Tropical cyclones | Indian ocean |\n| Hurricanes | Caribbean sea |\n| Tornadoes | USA |\n| Willy Willies | Northern Australia |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition, classification, and regional distribution of cyclones."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1152
+  },
+  {
+    "id": "geo-anticyclone-004",
+    "subject": "Geography",
+    "chapter": "Climatology",
+    "topic": "Anticyclone",
+    "text": "<p>Anticyclones are the wind system, which have the highest air pressure at the centre and lowest at the outer margins surrounded by circular isobars.</p><p>Air blows from centre to outward in clockwise direction in Northern hemisphere and anti-clockwise direction in Southern hemisphere.</p><p>They are high pressure system and common in sub-tropical belts and practically absent in the equator region. They are generally associated with rainless fair weather and that’s why they are called as Weatherless Phenomena.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Characteristics and behavior of Anticyclones."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1152
+  },
+  {
+    "id": "geo-storm-005",
+    "subject": "Geography",
+    "chapter": "Climatology",
+    "topic": "Thunderstorms and Tornadoes",
+    "text": "<h3>Thunderstorms</h3><p>Thunderstorms are local storms characterised by swift upward movement of air and heavy rainfall with cloud thunder and lighting.</p><p>Structurally, thunderstorms consist of several convective cells, which are characterised by strong updraft of air.</p><h3>Tornado</h3><p>Tornadoes are very strong tropical cyclones of smaller size. In the Mississippi valley (US), they are called Twisters.</p><p>They are more destructive than cyclones as the speed of winds is very high, exceeding 320 km per hour.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Brief overview of Thunderstorms and Tornadoes."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1152
+  },
+  {
+    "id": "geo-868-001",
+    "subject": "Geography",
+    "chapter": "Climatology",
+    "topic": "Humidity and Related Aspects",
+    "text": "<p><strong>Humidity</strong> refers to the content of water vapour in the air at a particular time and place. It is measured by a <strong>Hygrometer</strong> or <strong>sling psychrometer</strong>.</p><ul><li><strong>Humidity Capacity:</strong> Maximum moisture content air can retain at a certain temperature.</li><li><strong>Absolute Humidity:</strong> Total weight of moisture content per volume of air at a definite temperature.</li><li><strong>Specific Humidity:</strong> Mass of water vapour in grams per kilogram of air.</li><li><strong>Relative Humidity:</strong> Ratio of actual moisture present to the maximum amount the air can hold.</li><li><strong>Condensation:</strong> Change of physical state from gaseous to liquid.</li><li><strong>Dew Point:</strong> Temperature at which air becomes completely saturated (100% relative humidity).</li><li><strong>Fog:</strong> Droplets of water suspended in the lower atmosphere; visibility less than 1 km.</li><li><strong>Smog:</strong> Smoke + Fog.</li><li><strong>Haze:</strong> Condensed water particles with visibility between 1 km and 2 km.</li><li><strong>Frost:</strong> Moisture on the ground that condenses directly into ice below freezing point.</li></ul>",
+    "formulas": [
+      "Relative Humidity = (Absolute Humidity / Humidity Capacity) * 100"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of atmospheric humidity, related meteorological phenomena like fog, smog, haze, frost, and the definition of dew point."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1153
+  },
+  {
+    "id": "geo-868-002",
+    "subject": "Geography",
+    "chapter": "Climatology",
+    "topic": "Clouds",
+    "text": "<p>Clouds are a mass of small water droplets or tiny ice crystals. They are classified by appearance and height:</p><ul><li><strong>High clouds:</strong> 6000 m to 12000 m</li><li><strong>Middle clouds:</strong> 2100 m to 6000 m</li><li><strong>Low clouds:</strong> Below 2100 m</li><li><strong>Clouds with great vertical extent:</strong> 1500 m to 9000 m</li></ul><p><strong>Latin naming conventions:</strong></p><ul><li><strong>Cirrus:</strong> Feather-like, very high clouds.</li><li><strong>Cumulus:</strong> Heap, flat bases and rounded tops.</li><li><strong>Stratus:</strong> Level sheets, layer type.</li><li><strong>Alto:</strong> Mid-level cloud.</li><li><strong>Nimbus:</strong> Rain cloud.</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| High Clouds | Middle Clouds | Low Clouds | Clouds with Great Vertical Extent |\n|---|---|---|---|\n| Cirrus: Composed of small ice crystal, white wispy and fibrous in appearance. | Alto Cumulus: Composed of water droplets in layers and patches. | Strato Cumulus: Large globular masses, bumpy looking, soft and grey in appearance forming a pronounced regular and sometimes wavy pattern. | Cumulus: Round topped and flat based forming a whitish grey globular mass, consists of individual cloud units. |\n| Cirro Cumulus: Composed of ice crystals but rippled in appearance. | Alto Stratus: Composed of water droplets, forming sheets of grey or watery looking clouds. | Nimbo Stratus: Dark grey and rainy looking, dense and shapeless, often gives continuous rains. | Cumulo Nimbus: They have a great vertical extent, white or black globular masses, whose rounded tops often spread out in the form of anvil. It is characterised by convectional rain, lightning and thunder. |\n| Cirro Stratus: Looks like a thin white almost transparent sheet, which causes the Sun and Moon to have halos. | - | Stratus: These are low, grey and layered, almost fog like in appearance, bringing dull weather and often accompanied by drizzle. | - |"
+    ],
+    "image_descriptions": [
+      "A classification table detailing various cloud types categorized by height (High, Middle, Low, Great Vertical Extent) and their physical characteristics."
+    ],
+    "details": {
+      "summary": "Classification of clouds based on height and appearance, including Latin etymology and detailed descriptions of specific cloud formations."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1153
+  },
+  {
+    "id": "GEO-PRECIP-001",
+    "subject": "Geography",
+    "chapter": "Precipitation and Climate",
+    "topic": "Precipitation",
+    "text": "<p>On the basis of its origin, precipitation may be classified into three main types:</p><ul><li><strong>Convectional Rainfall:</strong> It occurs due to thermal convection currents caused due to insolational heating of ground surface. e.g. Rainfall over Congo basin, Amazon basin and South-East Asia.</li><li><strong>Orographic Rainfall:</strong> It occurs due to ascent of air forced by mountain barrier. e.g. Mahabaleshwar, Western Ghat recieves about 600 cm rainfall.</li><li><strong>Frontal Rainfall:</strong> It occurs due to upward movement of air caused by convergence of cold air masses against warm air masses. e.g. Heavy rainfall in North-West Europe due to convergence of cold continental and warm oceanic air.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Classification of precipitation into Convectional, Orographic, and Frontal types."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1154
+  },
+  {
+    "id": "GEO-CLIMATE-002",
+    "subject": "Geography",
+    "chapter": "Precipitation and Climate",
+    "topic": "Weather and Climate",
+    "text": "<p><strong>Weather</strong> refers to the sum total of the atmospheric conditions in terms of temperature, pressure, wind, moisture, cloudiness, precipitation and visibility of a particular place at any given time.</p><p>The average weather conditions over a large area are called the <strong>Climate</strong> of a Place. The factors, which control the weather and the climatic conditions are latitude, altitude, unequal distribution of land and water, ocean current, air pressure and wind, mountain barrier, nature of ground surface, different types of atmospheric storms etc.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions of Weather and Climate and factors affecting them."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1154
+  },
+  {
+    "id": "GEO-TABLES-003",
+    "subject": "Geography",
+    "chapter": "Precipitation and Climate",
+    "topic": "Geographical Data Tables",
+    "text": "<p>Reference tables for Deserts, Isopleths, Grasslands, and Climatic Types.</p>",
+    "formulas": [],
+    "tables": [
+      "| Name | Country/ Region |\n|---|---|\n| Sahara (Libyan, Nubian) | North Africa |\n| Australian (Gibson, Simpson, Victorian Great Sandy) | Australia |\n| Arabian (Rub-al-Khali, An-Nafud) | Arabia |\n| Dast-e-Lut (Barren desert) | Iran |\n| Dast-e-Kavir (Salt-e-Kavir) (Salt desert) | Iran |\n| Desierto de Sechura | Peru |\n| Atacama | North Chile |\n| Patagonia | Argentina |\n| Kalahari | Botswana |\n| Namib | Namibia |\n| Great Indian Desert | India |",
+      "| Isopleth | Reaction |\n|---|---|\n| Isohels | Sunshine |\n| Isohyets | Rainfall |\n| Isonif | Snow |\n| Isocline | Slope |\n| Isotherms | Temperature |\n| Isobars | Equal pressure |\n| Isobath | Equal depth in sea |\n| Isohaline | Salinity |\n| Isohypse (or contour lines) | Elevation above sea-level |\n| Isodapane | Equal transportation cost |\n| Isobrants | Thunderstorm at the same time |",
+      "| Grasslands | Countries | Grasslands | Countries |\n|---|---|---|---|\n| Steppe | Eurasia | Veld | South Africa |\n| Puszta | Hungary | Downs | Australia |\n| Prairie | USA | Canterbury | New Zealand |\n| Pampas | Argentina | | |",
+      "| Climatic Zone | Climatic Types | Rainfall | Natural Vegetation |\n|---|---|---|---|\n| Equatorial Zone (10°N-10°S) | Hot, wet equatorial | Rainfall all the year | Equatorial rain forest- special term selva is used to Ebony, mahogany, dye woods are found. |\n| Hot Zone (30°N-30°S) | (i) Tropical Monsoon (ii) Tropical Marine (iii) Sudan type (iv) Desert (a) Saharan type (b) Mid latitude type | Heavy summer rain Summer rain Rain mainly in summer Little rain | Monsoonal forest- Teak sal, sisam, eucalyptus acacia savana (Tropical grassland)- grasses Desert vegetation and scrub- cacti |\n| Warm Temperate Zone (30°N-45°S) | (i) Western margin (Mediterranean type) (ii) Central Continental (Steppe type) (iii) Eastern Margin (a) China type (b) Gulf type (c) Natal type | Winter rain Light summer rain Heavier summer rain | Mediterranean forests- Oak, pine fir, eucalyptus, giant sequoia, cedar Steppe, temperate grass Warm, wet forests- Parapine, oak Parapine, oak Walnut, oak, hickory Parapine, eucalyptus, wattle |\n| Cool Temperate Zone (45°N-65°S) | (i) Western margin (British Type) (ii) Central Continental (Siberian Type) (iii) Eastern Margin (Lauritian Type) | Rain in autumn and winter Light summer rain Moderate summer rain | Deciduous forest-Oak, elm, birch, poplar, chestnut, mapple Coniferous forest- Pine fir, spruce larch Mixed forest- Oak, beech, mapple |\n| Cold Zone (65°N-90°S) | (ii) Arctic or Polar Mountain Climate | Very light summer rain Heavy rainfall (variable) | Tundra, mosses, lichens Alpine, fern, conifers |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Compilation of geographical data including deserts, isopleths, grasslands, and global climatic zones."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1154
+  },
+  {
+    "id": "hydrosphere-001",
+    "subject": "Geography",
+    "chapter": "Hydrosphere",
+    "topic": "Composition and Relief Features of the Oceans",
+    "text": "<p><strong>Hydrosphere:</strong> The water components of the Earth is called Hydrosphere. It includes the oceans, seas, lakes, ponds, rivers and streams. The hydrosphere covers about 70% of the surface of the Earth.</p><h3>Relief Features of the Oceans</h3><ul><li><strong>Continental Shelf:</strong> The shallow submerged extension of the continent is called the continental shelf. Extends to a depth of 100 fathoms (1 fathom = 1.8 m). It has average width 70 km; average slope 17 ft/mile or about 1°. Continental shelf covers 7.5% area of the oceans. It extends over 13.3% of the Atlantic ocean, 5.7% of Pacific ocean and 4.2% of Indian ocean. In cases, where the mountains extend along the coast, the continental shelf will be narrower. About 20% petrol and gas are found here. They also provide the richest fishing ground in the world.</li><li><strong>Continental Slope:</strong> Extends seawards from the continental shelf. It has depth—200-2000 fathoms (3660m) and average slope 20 to 50 degrees. The boundary between shelf and slope is known as Andesite Line, on the names of the Andesite rock. Continental slope covers about 8.5% of the total ocean area.</li><li><strong>Continental Rise:</strong> Continental rise is an area at the foot of the slope, slightly rising due to the accumulation of debris transported over the slope. It has average slope— 0.5° to 1°. Oil deposits occur here.</li><li><strong>Abyssal or the Deep Sea Plains:</strong> It is the deepest and most extensive part of the oceanic floor having average depth of 3000m to 6000m. It covers about 75.9% of total oceanic area. Parts of the Abyssal plains are occupied by raised ridges or submarine mountains and by very deep trenches or canyons.</li><li><strong>Deeps/Trenches:</strong> Trenches are narrow and steep sides depressions. Trenches are formed, when two plates of the Earth’s crust are moving together and one is being pushed down below the other. Marina trench (challenger deep) is the deepest trench in the world situated in the NW Pacific oceans, near philippines. It is approx 11 km deep.</li><li><strong>Oceanic Ridges:</strong> Oceanic ridges are of tectonic origin and they provide evidence in support of the Plate Tectonics Theory. They are formed by the volcanic activity along the spreading boundary of plates. These ridges are thousands of km long and hundreds of km wide mountain ranges on the oceanic floor. Their summits may rise above the sea level in the form of islands i.e. Iceland, Azores Island are such examples.</li><li><strong>Coral Reefs:</strong> Coral reefs are formed due to accumulation and the compaction of skeletons of lime secreting organisms known as Coral Polyps. Corals are found mainly in the tropical oceans and seas because they require high mean annual temperature of ranging between 20°C to 25°C. Corals do not live in deeper waters due to lack of sufficient sunlight and oxygen. On the basis of nature, shape and mode of occurrence, the coral reefs are classified into three types: <ul><li><strong>Fringing Reefs:</strong> It develop along the continental margins or along the islands. The seaward slope is steep and vertical while the landward slope is gentle. These reefs run as a narrow belt of about 0.5 km to 2.5 km width. They are usually attached to the coastal land, but occasionally they are separated from the shore by a shallow and narrow lagoon called ‘Boat Channel’. This type of reefs are found near Rameshwaram in the Gulf of Mannar.</li><li><strong>Barrier Reefs:</strong> Largest coral reefs off the coastal platform, but parallel to them. The reef lies at a distance away from the coast. Hence, a broad lagoon develops between the reef and the shore. They are hundreds of kilometer long and few kilometers wide. The Great Barrier Reef of Australia is the largest barrier reef in the world.</li></ul></li></ul>",
+    "formulas": [
+      "1 fathom = 1.8 m"
+    ],
+    "tables": [
+      "| Storage Component | Total Percentage of Water |\n|---|---|\n| Oceans | 97.6 |\n| Saline lakes and inland seas | 0.008 |\n| Ice capes and glaciers | 1.9 |\n| Ground water | 0.5 |\n| Soil moisture | 0.01 |\n| Lakes | 0.009 |\n| Freshwater rivers | 0.0001 |\n| Atmosphere | 0.0009 |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of the Earth's hydrosphere, including water distribution percentages and detailed descriptions of oceanic relief features such as continental shelves, slopes, rises, abyssal plains, trenches, ridges, and coral reefs."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1155
+  },
+  {
+    "id": "geo-871-001",
+    "subject": "Geography",
+    "chapter": "Oceanography",
+    "topic": "Atoll and Coral Bleaching",
+    "text": "<p><strong>Atoll:</strong> A reef of narrow growing corals of horseshoe shape and crowned with plam trees is called an Atoll. Atoll partly or completely encloses a lagoon. It is formed around an island in an elliptical form on a submarine platform. Funafuti atoll of Ellice Islands is a famous atoll.</p><p><strong>CORAL BLEACHING:</strong> When corals are stressed by changes in conditions such as temperature, light or nutrients, they expel the symbiotic algae living in their tissues, causing them to turn colourless, this phenomenon is known as Coral Bleaching.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions of Atoll and Coral Bleaching."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1156
+  },
+  {
+    "id": "geo-871-002",
+    "subject": "Geography",
+    "chapter": "Oceanography",
+    "topic": "Salinity",
+    "text": "<p>Salinity is defined as the total amount of salts and minerals in grams contained in 1 kg of sea water and is expressed as part per thousand. The oceanic salinity not only affects the marine organism and plant community, but also affects the physical properties of the ocean such as temperature, pressure, density, waves and currents.</p><ul><li>Average salinity of seawater is about 35‰ and average salinity in Southern hemisphere is more than that of Northern hemisphere.</li><li><strong>Iso-halines</strong> represent the salinity distribution in the surface of the sea. These are the lines joining places having an equal degree of salinity.</li><li>The main source of salinity is dissolution of the rocks of oceanic crust, which contains salts. Poles have minimum salinity because of addition of fresh water in the form of icebergs and excessive snowfall.</li><li>Variation in salinity causes vertical circulation of water.</li><li>Salinity also increases the density of water. More saline water freezes slowly while the boiling point of saline water is higher than the fresh water.</li><li>Salinity on an average decreases from equator to poles. The highest salinity is recorded near the tropics rather than the equator because of the heavy precipitation in the equatorial region.</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| Controlling Factor | Relation with Salinity |\n|---|---|\n| Evaporation | Greater the evaporation, higher the salinity. |\n| Precipitation | Higher the precipitation, lower the salinity. |\n| Influx of river water | Big voluminous rivers pour down immense volume of fresh water into the oceans and salinity is reduced at the mouth. |\n| Atmospheric pressure | Anticyclonic conditions with stable air and high temperature increases the salinity of the surface water of the ocean. |\n| Circulation of oceanic water | Ocean currents affect the spatial distribution of salinity by mixing sea waters. |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition, distribution, and controlling factors of oceanic salinity."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1156
+  },
+  {
+    "id": "geo-871-003",
+    "subject": "Geography",
+    "chapter": "Oceanography",
+    "topic": "Straits",
+    "text": "<p>A strait is a narrow body of water that connects two larger bodies of water and separates two landmasses.</p>",
+    "formulas": [],
+    "tables": [
+      "| Name | Joins | Location |\n|---|---|---|\n| Malacca Strait | Andaman Sea and South China Sea | Indonesia-Malaysia |\n| Palk Strait | Palk Bay and Bay of Bengal | India-Sri Lanka |\n| Sunda Strait | Java Sea and Indian Ocean | Indonesia |\n| Yucatan Strait | Gulf of Mexico and Carribbean Sea | Mexico-Cuba |\n| Mesina Strait | Mediterranean Sea | Italy-Sicily |\n| Bab-el-Mandeb Strait | Red Sea and Gulf of Aden | Yemen-Djibouti |\n| Cook Strait | South Pacific Ocean | New Zealand (N and S Islands) |\n| Mozambique Strait | Indian Ocean | Mozambique-Malagasy |\n| Bass Strait | Tasman Sea and South Sea | Australia |\n| Bering Strait | Bering Sea and Chukchi Sea | Alaska-Russia |\n| Bosphorus Strait | Black Sea and Marmara Sea | Turkey |\n| Davis Strait | Baffin Bay and Atlantic Ocean | Greenland-Canada |\n| Denmark Strait | North Atlantic and Arctic Ocean | Greenland-Iceland |\n| Dover Strait | English Channel and North Sea | England-France |\n| Florida Strait | Gulf of Mexico and Atlantic Ocean | USA-Cuba |\n| Hormuz Strait | Gulf of Persia and Gulf of Oman | Oman-Iran |\n| Hudson Strait | Gulf of Hudson and Atlantic Ocean | Canada |\n| Gibraltar Strait | Mediterranean Sea and Atlantic Ocean | Spain-Morocco |\n| Magellan Strait | Pacific and South Atlantic Ocean | Chile |\n| Tsugaru Strait | Japan Sea and Pacific Ocean | Japan (Hokkaido-Honshu Island) |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "List of major straits of the world."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1156
+  },
+  {
+    "id": "geo-871-004",
+    "subject": "Geography",
+    "chapter": "Oceanography",
+    "topic": "Movements of Oceanic Water",
+    "text": "<p><strong>Waves:</strong> Waves are the oscillatory movements in water mainly produced by winds, manifested by an alternate rise and fall of the sea surface. The waves are the important agents of erosion in the coastal regions, where they carve out various landforms like caves, bays, gulfs, capes and cliffs.</p><p>Seismic waves or tsunamis are the waves caused by earthquakes in volcanic eruptions in the sea bottom. The tsunamis, which hit the coast in South-East Asia on 26th December, 2004, caused havoc in that region.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Explanation of ocean waves and tsunamis."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1156
+  },
+  {
+    "id": "ocean-currents-001",
+    "subject": "Geography",
+    "chapter": "Oceanography",
+    "topic": "Ocean Currents",
+    "text": "<p><strong>Ocean Currents</strong> are continuous, directed movements of ocean water generated by forces such as breaking waves, wind, the Coriolis effect, temperature and salinity differences, and the gravitational pull of the Moon and the Sun.</p><ul><li><strong>Circulation:</strong> Clockwise in the Northern Hemisphere, anti-clockwise in the Southern Hemisphere.</li><li><strong>Types:</strong><ul><li><strong>Warm Ocean Currents:</strong> Flow from lower latitude to higher latitude.</li><li><strong>Cold Ocean Currents:</strong> Flow from higher latitude to lower latitude.</li></ul></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of ocean current definitions and general circulation patterns."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1157
+  },
+  {
+    "id": "ocean-currents-002",
+    "subject": "Geography",
+    "chapter": "Oceanography",
+    "topic": "Currents of North Pacific Ocean",
+    "text": "<h3>North Pacific Ocean Currents</h3><ul><li><strong>Warm Currents:</strong><ul><li><strong>North Equatorial Current:</strong> Flows Westwards from Western coast of Mexico to the Philippines.</li><li><strong>Kuroshio Current:</strong> Extension of North Equatorial current near Japan coast; flows towards North.</li><li><strong>Alaska Current:</strong> Flows along the coast of British Columbia and the Alaska Peninsula.</li></ul></li><li><strong>Cold Currents:</strong><ul><li><strong>Oyashio Current:</strong> Flows from Bering sea towards Japan from North pole and joins Kuroshio currents.</li><li><strong>Okhotsk Current and Kuril Current:</strong> Flow down from sea of Okhotsk and join Kuroshio current to the North of Japan.</li><li><strong>West Wind Drift:</strong> Flows towards Alaska.</li><li><strong>Californian Current:</strong> Extension of Alaskan currents; completes clockwise circulation of water.</li></ul></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Detailed list of warm and cold currents in the North Pacific Ocean."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1157
+  },
+  {
+    "id": "ocean-currents-003",
+    "subject": "Geography",
+    "chapter": "Oceanography",
+    "topic": "Currents of South Pacific Ocean",
+    "text": "<h3>South Pacific Ocean Currents</h3><ul><li><strong>Warm Currents:</strong><ul><li><strong>East Australian Current (Great Barrier Current):</strong> Flows towards East coast of Australia from equator towards Pole.</li><li><strong>South Equatorial Current:</strong> Originates due to South East trade winds, flows Westwards, and bifurcates near New Guinea.</li><li><strong>Counter Equatorial Current:</strong> Extends up to Panama Bay; flows exactly on equator from West to East.</li></ul></li><li><strong>Cold Currents:</strong><ul><li><strong>Peruvian Current (Humboldt current):</strong> Flows from South towards equator on the coast of Chile and Peru.</li><li><strong>West Wind Drift:</strong> Flows from Tasmania to Chile coast of South America.</li></ul></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Detailed list of warm and cold currents in the South Pacific Ocean."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1157
+  },
+  {
+    "id": "ocean-currents-004",
+    "subject": "Geography",
+    "chapter": "Oceanography",
+    "topic": "Currents of North Atlantic Ocean",
+    "text": "<h3>North Atlantic Ocean Currents</h3><ul><li><strong>Warm Currents:</strong><ul><li><strong>North Equatorial Current:</strong> Present between equator and 10°N.</li><li><strong>Cayenne Current:</strong> Flows adjacent to French Guinea and enters into Caribbean Sea and Gulf of Mexico.</li><li><strong>Florida Current:</strong> Cayenne current near Florida (US coast).</li><li><strong>Antilles Current:</strong> Flows to the East of West Indies and other islands.</li><li><strong>Gulf Stream:</strong> Flows from US coast towards North-West Europe under the influence of Westerly winds.</li><li><strong>North Atlantic Drift:</strong> Gulf Stream bifurcates into North Atlantic drift (warm) and West Wind drift (cold) and Canaries current (cold).</li></ul></li><li><strong>Cold Currents:</strong><ul><li><strong>Labrador Current:</strong> Originates in Baffin bay and Davis Strait and merges with Gulf Stream near Newfoundland (famous fishing zone, Grand Bank).</li><li><strong>Irminger Current or Greenland Current:</strong> Flows between Greenland and Iceland and merges with North Atlantic drift.</li><li><strong>Canaries Current:</strong> Flows along the Western coast of North Africa between Madeira cape verde and joins North equatorial current.</li><li><strong>West Wind Drift:</strong> Flows towards UK.</li></ul></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Detailed list of warm and cold currents in the North Atlantic Ocean."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1157
+  },
+  {
+    "id": "ocean-currents-005",
+    "subject": "Geography",
+    "chapter": "Oceanography",
+    "topic": "Currents of South Atlantic and Indian Ocean",
+    "text": "<h3>South Atlantic Ocean</h3><ul><li><strong>Warm Currents:</strong><ul><li><strong>South Equatorial Current:</strong> Flows between equator and 10°S.</li><li><strong>Brazilian Current:</strong> Flows to the East coast of Brazil from equator towards pole.</li></ul></li><li><strong>Cold Currents:</strong><ul><li><strong>Falkland Current:</strong> Flows along the South-East coast of South America from South to North.</li><li><strong>Benguela Current:</strong> Flows from South to North near the 'Cape of Good Hope'.</li><li><strong>West Wind Drift:</strong> Continuance of Brazilian and Falkland current.</li><li><strong>Guinea Current:</strong> Flows near coast of Guinea (Africa).</li></ul></li></ul><h3>Indian Ocean</h3><ul><li><strong>The Asiatic Monsoon:</strong> Influences the currents of the North Indian Ocean, while the currents of South Indian ocean are influenced by the atmosphere's anticyclonic circulation.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Detailed list of currents in the South Atlantic and Indian Oceans."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1157
+  },
+  {
+    "id": "geo-873-001",
+    "subject": "Geography",
+    "chapter": "Oceanography and Biogeography",
+    "topic": "Ocean Currents",
+    "text": "<ul><li><strong>North Equatorial Current:</strong> Flows from East to West, reaches East coast of Africa, turns Southward, crosses the equator and becomes the Mozambique current.</li><li><strong>Mozambique Current:</strong> Flows South along the East coast of Africa from the vicinity of the equator to about 35 degrees, where it is known as Agulhas stream.</li><li><strong>Agulhas Stream:</strong> Flows Westward along the Southern West of Madagascar and joins the Mozambique current along the East African coast.</li><li><strong>West Wind Drift Current:</strong> Flows across the Indian ocean to the South-West of Australia.</li><li><strong>North-East Monsoon Drift:</strong> Flows along the coast of India during winter.</li><li><strong>South-West Monsoon Drift:</strong> Flows along the coast of India during summer.</li><li><strong>South Equatorial Current:</strong> A significant Pacific, Atlantic and Indian ocean current that flows East-West between the equator and about 20 degrees South.</li><li><strong>Somalia Current:</strong> An ocean boundary current that runs along the coast of Somalia and Oman in the Western Indian ocean; analogous to the Gulf stream in the Atlantic ocean.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of major global ocean currents and their flow patterns."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1158
+  },
+  {
+    "id": "geo-873-002",
+    "subject": "Geography",
+    "chapter": "Oceanography",
+    "topic": "Tides",
+    "text": "<p>The rises and fall of the sea level as a result of the forces between the Earth, the Moon and the Sun is called a Tide. The interval between two tides is 12 hrs and 26 min.</p><p>There are two types of tides:</p><ul><li><strong>Spring Tides:</strong> When the Earth, the Moon and the Sun are in a straight line (also called SYZYGY), the Sun enhances the gravitational pull of the Moon, creating a condition of higher high tides and lower low tides.</li><li><strong>Neap Tides:</strong> When the Sun and Moon are at right angles to the Earth. The Sun partially contracts the pull of the Moon producing lower high tides.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and classification of tides including Spring and Neap tides."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1158
+  },
+  {
+    "id": "geo-873-003",
+    "subject": "Geography",
+    "chapter": "Biogeography",
+    "topic": "Natural Vegetation",
+    "text": "<p>Natural vegetation refers to those vegetations which grows naturally on the Earth's surface without any human interference.</p><ul><li><strong>Tropical Evergreen Rainforests:</strong> Characterised by long and evergreen trees with layered structure forming a canopy. Almost two-thirds of the world's flowering plants are found here. Hardwood trees like rosewood, teak, sal, ebony and mahogany are common. Found near the equator in Amazon basin, Zaire basin and South-East Asian region.</li><li><strong>Tropical Deciduous Forests:</strong> Also known as Monsoon Forests. Found in regions having monsoon climate (India, Myanmar, Thailand, parts of Indonesia, Malaysia, Indo-China, Philippines). Trees shed leaves during dry season. Teak, sal, bamboo, khair, bargad, peepal are important trees.</li><li><strong>Mediterranean Forests:</strong> Found in areas around Mediterranean Sea, Central Chile, South-West USA, Australia and Northern Africa. Xerophytic plants constitute natural vegetation. Known as 'Orchards of the World' for fruit cultivation (citrus fruits, oranges, figs, olives, grapes).</li><li><strong>Coniferous Forests:</strong> Extend in a band across Northern North America and Eurasia. Largest terrestrial biome. Consist of tall, softwood evergreen trees (pine, spruce, fir, hemlock). Trees are conical shaped with needle shaped leaves.</li><li><strong>Tropical Grasslands:</strong> Known as 'Savanna' in Africa and 'Campos' in Brazil. Grasses are very tall (3 to 4 metres). Scattered trees are thorny and have small leaves.</li><li><strong>Temperate Grasslands:</strong> Known as Prairies in North America, Pampas in South America, Downs in Australia, Velds in South Africa and Steppes in Europe. Dominant plants are grasses and forbs (few cm to 2 m). Known as 'Bread Basket' due to maize and wheat cultivation.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Classification of global natural vegetation types and their characteristics."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1158
+  },
+  {
+    "id": "geo-874-001",
+    "subject": "Geography",
+    "chapter": "Agriculture",
+    "topic": "Tropical Deserts and Tundra",
+    "text": "<p><strong>Tropical Deserts:</strong> These are located on the western margins of the continents between 15°-30° North and South of equator. These regions have hot and dry summers and receive very less rainfall. Vegetation is very scant, with succulent stems, long roots and leaves are reduced to spines.</p><p><strong>Tundra:</strong> Tundra covers large area in North Canada, North Russia, North Sweden and Finland. The vegetation of tundra is mostly herbaceous, consisting of a mixture of mosses, grasses and forbs, alongwith some dwarf shrubs, trees and lichens. A permanently frozen layer of soil called permafrost restrict growth of plant roots.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Description of Tropical Desert and Tundra biomes."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1159
+  },
+  {
+    "id": "geo-874-002",
+    "subject": "Geography",
+    "chapter": "Agriculture",
+    "topic": "Types of Agriculture",
+    "text": "<p><strong>Agriculture:</strong> Agriculture is a primary economic activity. It includes both, cultivation of crops and rearing of animals, to provide food and other products. Agriculture is practised under different combination of physical and socio-economic conditions which gives rise to different types of agriculture systems.</p><p><strong>Shifting Cultivation:</strong> It is also known as slash and burn cultivation as field to be cultivated is cleared by burning the vegetation. The cultivated patches are very small and cultivation is done with very primitive tools. This type of farming is widely practised by many tribes in the tropics, especially in Africa, South and Central America and South-East Asia.</p><p><strong>Intensive Subsistence Agriculture:</strong> This type of agriculture is practised on wide scale in densely populated regions of monsoonal Asia. In this type of agriculture the farmer owns a small piece of land, grown crops with the help of his family members and consumes almost the entire farm produce with little surplus to sell in the market. This type of agriculture widely practised in Thailand, Myanmar, Vietnam, Cambodia and India.</p><p><strong>Plantation Agriculture:</strong> Plantation agriculture is a form of commercial farming where crops are grown for profit. Large land areas are needed for this type of agriculture. It was introduced by the Europeans in colonies situated in the tropics. The major products of this type of farming are the tropical crops such as tea, coffer, rubber and oil palm etc has developed in parts of Asia, Africa and Latin America.</p><p><strong>Extensive Commercial Grain Farming:</strong> It is commercial form of agriculture where entire operations from ploughing to harvesting are mechanised. Grain crops, especially wheat is grown under extensive farming methods. This kind of farming is done by developed countries like USA, Australia and Russia.</p><p><strong>Mixed Farming:</strong> In this type of agriculture, equal importance is given to both crop cultivation and animal husbandry. It give earning to the farmers.</p><p><strong>Nomadic Herding:</strong> It is a primitive subsistence activity, based upon rearing of animals on natural pastures. People in this system keep on moving along with their animals in search of grazing areas. In Africa, cattle are the most important livestock, while in Sahara and Asiatic deserts, sheep, goats and camels are reared. In the mountainous areas of Tibet and Andes, Yak and llamas are reared and in arctic and sub-arctic regions, reindeer is most important animal.</p><p><strong>Mediterranean Agriculture:</strong> Specialised commercial farming practised in Mediterranean climatic region. Crops like wheat, barley and vegetables are grown for domestic consumption, while citrus fruits, olives and grapes are grown on commercial scale for export purpose. Main regions include countries on either side of Mediterranean in Europe, Southern California, Central Chile, South-Western South Africa and Western Australia.</p>",
+    "formulas": [],
+    "tables": [
+      "| Shifting Cultivation | Country |\n|---|---|\n| Ladang | Malaysia and Java |\n| Tamrai | Thailand |\n| Taungya | Myanmar (Burma) |\n| Caingin | Philippines |\n| Chena | Sri Lanka |\n| Milpa | Mexico |\n| Roca | Brazil |\n| Konuko | Venezuela |\n| Masole | Congo |\n| Tavy | Madagascar |\n| Ray | Vietnam and Laos |\n| Proka | Ghana |\n| Jhuming | India |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of various agricultural systems and shifting cultivation nomenclature."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1159
+  },
+  {
+    "id": "geo-875-001",
+    "subject": "Geography",
+    "chapter": "Economic Geography",
+    "topic": "Market Gardening",
+    "text": "<p><strong>Market Gardening</strong> is concerned with cultivation of high value crops like vegetables, fruits and flowers for urban markets. It is also known as <strong>Truck Farming</strong>. It is well developed in densely populated industrial districts of North-West Europe, North Eastern USA and Mediterranean regions.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and regional distribution of Market Gardening."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1160
+  },
+  {
+    "id": "geo-875-002",
+    "subject": "Geography",
+    "chapter": "Economic Geography",
+    "topic": "Agricultural Practices in the World",
+    "text": "<p>Various types of agricultural cultures and their descriptions.</p>",
+    "formulas": [],
+    "tables": [
+      "| Types of Cultures | Description |\n|---|---|\n| Apiculture | Raising of bees for commercial purpose |\n| Aquaculture | Rearing of aquatic animals or plants for food |\n| Floriculture | Cultivation of flowers |\n| Horticulture | Cultivation of fruits, vegetables and flowers on commercial scale |\n| Mariculture | Rearing of fish or other marine life for food |\n| Pisciculture | Controlled breeding and rearing of fish |\n| Sericulture | Commercial level production of silk worms |\n| Silviculture | Commercial cultivation of trees |\n| Viticulture | Cultivation of grapevines |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "List of agricultural practices and their definitions."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1160
+  },
+  {
+    "id": "geo-875-003",
+    "subject": "Geography",
+    "chapter": "Economic Geography",
+    "topic": "Major Crops of the World and their Top Producers",
+    "text": "<p>Table showing top three countries for various food, fibre, and plantation crops.</p>",
+    "formulas": [],
+    "tables": [
+      "| Crops | Countries Rankwise |\n|---|---|\n| <strong>Food Crops</strong> | | \n| Rice/Paddy | 1. China 2. India 3. Indonesia |\n| Wheat | 1. China 2. India 3. United States |\n| Millet | 1. India 2. Niger 3. China |\n| Maize/corn | 1. United States 2. China 3. Brazil |\n| Oat | 1. Russia 2. Canada 3. Finland |\n| Pulses | 1. India 2. Pakistan 3. Canada |\n| <strong>Fibre Crops</strong> | | \n| Cotton | 1. China 2. India 3. United States |\n| Jute | 1. India 2. Bangladesh 3. China |\n| <strong>Plantation Crops</strong> | | \n| Rubber | 1. Thailand 2. Indonesia 3. Vietnam 4. India |\n| Tobacco | 1. China 2. Brazil 3. India |\n| Coconut | 1. Indonesia 2. Philippines 3. India |\n| Sugarcane | 1. Brazil 2. India 3. China |\n| Tea | 1. China 2. India 3. Kenya |\n| Coffee | 1. Brazil 2. Vietnam 3. Indonesia |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Global crop production rankings."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1160
+  },
+  {
+    "id": "geo-875-004",
+    "subject": "Geography",
+    "chapter": "Economic Geography",
+    "topic": "Livestock Farming / Animal Husbandry",
+    "text": "<p>It refers to rearing of animals for food and other human uses. The world 'Livestock' applies primarily to cattle, chickens, goats, pigs, horses and sheep. Poultry farmers keep chickens, turkeys, geese and other birds for meat and eggs.</p><ul><li>Top Beef producer of world are USA, Brazil, European Union, China and India.</li><li>India is the world's largest producer of milk. It is the leading exporter of skimmed milk powder. The world's largest exportes of milk and milk products are New Zealand, the European Union, Australia and the United States.</li></ul><p><strong>DAIRY FARMING</strong></p><ul><li>It is highly capital intensive and advanced form of farm activity.</li><li>It is practised mainly near urban and industrial centres.</li><li>Denmark and Sweden have witnessed the maximum development of this type of farming.</li></ul><p>Some animals like sheeps, goats and rabbits reared for wool production also. Australia is the leading producer of wool followed by New Zealand and China. Temperate grasslands like Steppes in Russia, Prairies in North America, Pampas in Argentina, Veldt in South Africa and Downs in Southern Australia supports highly intensive livestock industry.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of livestock, dairy farming, and wool production."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1160
+  },
+  {
+    "id": "geo-875-005",
+    "subject": "Geography",
+    "chapter": "Economic Geography",
+    "topic": "Fisheries",
+    "text": "<p>Fisheries constitute an important economic activity in the coastal regions of the world, especially in the temperate latitudes. Fisheries can be classified into two groups - fresh water fisheries and marine fisheries.</p><ul><li>Around 90% of the fishes are caught from the sea while remaining is obtained from fresh water. The top ten largest fish producing countries in the world are China, Peru, India, Indonesia, USA, Chile, Japan, Thailand, Vietnam and Russia.</li><li>Major exporters of fish and fishery products in the world are China, Norway, Thailand, USA and Denmark and major importers of fish and fishery products are Japan, USA, Spain, France and Italy.</li></ul><p>There are four major fishing grounds in the world:</p><ol><li><strong>North-East Atlantic Region</strong>: Dogger Bank located in the North Sea is one of the most important fishing ground. Important species of this region are Cod and Herring.</li><li><strong>North-West Atlantic Region</strong>: Grand Bank and Georges Bank are important fishing grounds. Important species of this region are Cod, Lobster, Oyster and Herring.</li><li><strong>North-West Pacific Region</strong>: Countries involved in fishing in this region are China, Japan, Russia, North and South Korea.</li><li><strong>North-East Pacific Region</strong>: This region include coastal regions of Canada and USA. Important species of this region are Halibut, Sardine, Salmon and Tuna.</li></ol>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of global fisheries, major producers, exporters, and fishing grounds."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1160
+  },
+  {
+    "id": "minerals_energy_001",
+    "subject": "Geography",
+    "chapter": "Minerals and Energy Resources",
+    "topic": "Minerals and Energy Resources",
+    "text": "<p><strong>Minerals:</strong> A naturally occurring substance that has a definite chemical composition and physical properties is called mineral. Minerals are formed in different types of geological environments, under varying conditions. They are created by natural processes without any human interference.</p><p><strong>Energy Resources:</strong> Energy resources are generally defined as anything that can be used as a source of energy. Some energy resources are coal, petroleum and natural gas etc.</p>",
+    "formulas": [],
+    "tables": [
+      "| Minerals | Countries in Decreasing Order of Production |\n|---|---|\n| Iron ore | China, Australia, Brazil, India, Russia |\n| Maganese | China, South Africa, Australia, Brazil, Gabon |\n| Bauxite | Australia, China, Brazil |\n| Aluminium | China, Russia, Canada, UAE, India |\n| Copper | Chile, China, Peru, USA, Congo |\n| Silver | Mexico, China, Peru, Russia, Australia |\n| Gold | China, Australia, Russia, USA, Canada |\n| Tin | China, Indonesia, Peru, Bolivia, Brazil |\n| Zinc | China, Russia, Australia, USA, Canada |\n| Uranium | Kazakhstan, Canada, Australia, Niger, Namibia |",
+      "| Resources | Major Producer Countries |\n|---|---|\n| Coal | China, USA, Australia, India |\n| Petroleum | USA, Saudi Arabia, Russia, China |\n| Natural Gas | USA, Russia, Qatar, Iran |\n| Uranium | Kazakhstan (First), Canada, Australia, Niger, Namibia |\n| Wind Energy | China, USA, Germany, Spain, India |\n| Solar Energy | Germany, China, Italy, Japan, USA, Spain, France |\n| Hydro-electricity | China (First), Canada, Brazil, USA, Norway, New Zealand, India |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of mineral definitions, energy resources, and global production distribution tables."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1161
+  },
+  {
+    "id": "industries_001",
+    "subject": "Geography",
+    "chapter": "Industries",
+    "topic": "Industries and Transport",
+    "text": "<p><strong>Industries:</strong> All economic activities namely; primary, secondary, tertiary and quaternary, revolve around obtaining and utilising resources necessary for survival. Among all, these secondary activities add value to natural resources by transforming raw materials into valuable products.</p>",
+    "formulas": [],
+    "tables": [
+      "| Industries | Major Countries |\n|---|---|\n| Iron and Steel Industry | Russia, China, Usa, Japan, India, Britain |\n| Cotton Textile | China, India, USA |\n| Jute Industry | India, Bangladesh, China |\n| Woolen Textile | Australia, China, USA |\n| Paper Industries | China, USA, Germany, Japan |\n| Ship Building | China, South Korea, Japan |\n| Aircraft Building | USA, Britain, Russia, France |\n| Automobile Industry | China, USA, Japan, Germany, South Korea, India |\n| Petro Chemical | USA, Belgium, Japan, Netherlands, China, South Korea, Taiwan |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition of industries and a table showing major global industrial distributions."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1161
+  },
+  {
+    "id": "transport_001",
+    "subject": "Geography",
+    "chapter": "Transport",
+    "topic": "Transport Systems",
+    "text": "<p><strong>Transport:</strong> Transport along with communication is considered as lifeline of an economy. The principle modes of transportation includes land transport, waterways, airways and pipelines.</p><p><strong>Road Transport:</strong> Roadways are the most universal and accessible form of transportation. It is also very economical for short distances. Germany was the first country in the world to establish a nation wide highway network. USA has world's longest and biggest road network followed by China, India, Brazil and Russia. Pan-American Highway is the longest highway in the world.</p><p><strong>Rail Transport:</strong> It is preferred mode of land transport for bulky goods passengers over long distances. The first train was started on 27th September, 1825 between Stockton to Darlington in England. United States has world's largest rail network, followed by Russia and China. Trans-Siberian Railway is the longest railway line in the world.</p><p><strong>Air Transport:</strong> Air transport is the fastest but costliest mode of transport. The development of air transport started after the World War I. But the actual development of this transport took place after the World War II. Two types of services are performed by air transport: 1. <strong>Inter-Continental Global:</strong> This includes the longest services. e.g. services between the continents. 2. <strong>Continental Air Route:</strong> These services are performed among the countries within a continent. e.g. India-China.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of road, rail, and air transport systems, including historical facts and global rankings."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1161
+  },
+  {
+    "id": "geo-877-001",
+    "subject": "Geography",
+    "chapter": "Transport and Human Geography",
+    "topic": "Water Transport and Major Routes",
+    "text": "<p><strong>National Air Route:</strong> Perform services for long distance within the country. e.g. Mumbai-Delhi.</p><p><strong>International Air Transport Authority (IATA):</strong></p><ul><li>It is an international trade body created over 60 years ago by a group of airlines. Today, IATA represents 240 airlines comprising 84% of total air traffic.</li><li>The organisation also represents, leads and serves the airline industry in general.</li></ul><p><strong>Water Transport:</strong></p><ul><li>Both ocean water transport and Inland water transport form the part of water transport.</li><li>Waterways are the most suitable and cheapest mode of transport for carrying international trade.</li></ul><p><strong>Important Sea Routes of the World:</strong></p><ul><li><strong>North Atlantic Sea Route (Big Trunk):</strong> It links North-Eastern USA and North-Western Europe. It is busiest route in the world.</li><li><strong>South Atlantic Sea Route:</strong> This route connects North America and Europe with South America.</li><li><strong>Mediterranean-Indian Ocean Sea Route:</strong> It connects highly industrialised West European region with East Africa, South Africa, South-East Asia and Australia and New Zealand.</li><li><strong>Cape of Good Hope Route:</strong> It connects West European and West African countries with Brazil, Argentina and Uruguay in South America.</li><li><strong>North Pacific Sea Route:</strong> This route links the ports of West-coast of North America with those of Asia.</li><li><strong>South Pacific Sea Route:</strong> This route is an important connecting link between South and North America with Australia, New Zealand and various Pacific islands via Panama Canal.</li></ul><p><strong>Major Canal System of the World:</strong></p><ul><li><strong>Suez Canal:</strong> It was constructed in 1869. This is the largest canal in the world, that connects Port Said in North and Port Suez in South Linking Red Sea and Mediterranean Sea.</li><li><strong>Panama Canal:</strong> It is constructed across the Panama Isthmus between Panama city and Colon, connecting the Pacific Ocean and the Caribbean Sea.</li><li><strong>Kiel Canal:</strong> This canal in Germany connects the North Sea with the Baltic Sea.</li><li><strong>Manchester Shipping Canal:</strong> It connects Manchester with Eastham.</li><li><strong>North-Sea Canal:</strong> It joins North-sea with Amsterdam.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of air and water transport systems, including major global sea routes and canal systems."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1162
+  },
+  {
+    "id": "geo-877-002",
+    "subject": "Geography",
+    "chapter": "Human Geography",
+    "topic": "Inland Waterways and Human Races",
+    "text": "<p><strong>Inland Waterways:</strong></p><ul><li>Inland waterways were the chief mode of transportation before the advent of railways.</li><li>The major oceans of world are connected with each other thus, forming a continuous expanse of water providing links to most parts of the world.</li></ul><p><strong>Major Inland Waterways of the World:</strong></p><ul><li><strong>Rhine Waterways:</strong> It is navigable for 700 km from Rotterdam (Netherlands) to Basel (Switzerland). This is world's most heavily used waterways.</li><li><strong>Danube Waterway:</strong> Danube river rises in Black Forest and flow Eastward in Eastern Europe. It is navigable upto Taurna Severin.</li><li><strong>Volga Waterways:</strong> It is an important waterways of Russia and is navigable for 11200 km. The Volga-Moscow Canal connects it with Moscow region and Volga-Don canal with Black sea.</li><li><strong>Great Lakes-St. Lawrence Seaway:</strong> The Great lakes of North America, Superior, Hurie, Erie and Ontario are connected by Soo canal and Welland canal. Great Lakes along with estuary of St. Lawrence river form the waterways.</li><li><strong>Mississippi Waterways:</strong> The Mississippi-Ohio waterway connects interior part of USA with Gulf of Mexico.</li></ul><p><strong>Races:</strong></p><ul><li>Race is a term used for large group of people with some basic inherited physical characteristics common. e.g. skin colour, hair, facial features, eye colour, head shape etc.</li><li>Four major human races are Caucasoid, Australoid, Mongoloid and Negroid.</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| Trait | Caucasoid | Mongoloid | Negroid | Australoid |\n|---|---|---|---|---|\n| Skin colour | Pale reddish white to olive brown | Saffron to yellow brown | Brown to brown-black | Skin colour is of chocolate |\n| Head form | Long to broad and short, medium high to very high | Predominantly broad, height medium | Predominantly long height low to medium | Dolichocephalic |\n| Face | Narrow to medium broad, tends to high, no prognathism | Medium broad to very broad, malars high and flat, tends to medium high | Medium broad to narrow, tends to medium high, strong prognathism | Large heavy jaws and prognathism |\n| Hair | Hair colour, light blonde to dark brown | Hair colour, brown to brown black | Hair colour, brown black | Hair is silky, black and wavy |\n| Eye colour | Light blue to dark brown | Brown to dark brown | Brown to brown black | dark brown |\n| Nose | Bridge usually high | Bridge usually low to medium | Bridge usually low | |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Details on major inland waterways and classification of human races based on physical traits."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1162
+  },
+  {
+    "id": "geo-pop-001",
+    "subject": "Geography",
+    "chapter": "Human Geography",
+    "topic": "Major Tribes of the World",
+    "text": "<p>The term <strong>tribe</strong> refers to a cultural or social rather than a biological or racial group.</p>",
+    "formulas": [],
+    "tables": [
+      "| Tribe | Country/Region |\n|---|---|\n| Aborigines | Australia |\n| Apache | South-West America |\n| Ainu | Japan |\n| Amerinds | America |\n| Acta | Philippines |\n| Bantu | Central and Southern America |\n| Beja | Egypt |\n| Berber | Northern coast of Africa |\n| Beduoins | Arabia, Syria, North Africa |\n| Bora | Columbia, Brazil |\n| Bushmen | Kalahari Desert in Africa |\n| Buryats | Siberia, Central Asia |\n| Chukchi | Chukchi Peninsula (Russia) |\n| Dayak | Borneo (Indonesia) |\n| Fellah | Middle East, North Africa |\n| Fulani | Nigeria |\n| Han | China |\n| Hottentots | South-West Africa |\n| Hausa | Nigeria |\n| Hadza | Tanzania |\n| Inca | Peru, Mexico |\n| Inuit | Greenland, Canada, Alaska |\n| Jarawa | Andaman (India) |\n| Kamasin | Siberia |\n| Karakalpak | Central Asia |\n| Kirghiz | Kyrgyzstan |\n| Kubu | Sumatra (Indonesia) |\n| Kurds | Turkey, Iran, Iraq, Syria |\n| Kung | Southern Africa |\n| Kamba | Kenya |\n| Kikuyu | Kenya |\n| Lapps | Finland, Sweden, Norway, Russia |\n| Lepcha | Sikkim |\n| Maori | Australia |\n| Papuan | New Guinea |\n| Red Indian | USA |\n| Semang | Malaysia |\n| Shan | Myanmar |\n| Swahili | Kenya, Tanzania |\n| Tatars | Mongolian Plateau |\n| Tungus | Siberia |\n| Vedda | Sri Lanka |\n| Yuit | Alaska, Siberia |\n| Zulu | South Africa |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "A comprehensive list of major tribes across the globe and their respective regions."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1163
+  },
+  {
+    "id": "geo-pop-002",
+    "subject": "Geography",
+    "chapter": "Human Geography",
+    "topic": "Population",
+    "text": "<p><strong>Population</strong> refers to the whole number of people living in a country or region. <strong>Demography</strong> is the scientific study of human population.</p><h3>Population Distribution</h3><ul><li>Population is not distributed evenly in all parts of the world. Some places have sparse (scattered) population and some have dense population.</li><li>Sparsely populated places tend to be difficult places to live. These are usually places with hostile environment e.g. desert areas of the world.</li><li>More than 75% of the world's population lives in the continents of Africa and Asia.</li></ul><h3>Population Density</h3><ul><li><strong>Density</strong> is defined as number of persons in per unit area. The density varies not only from one country to another within a continent but also from one part to the other within a country.</li><li>The highest densities are found in North-Eastern USA, North-West Europe, South Asia, South-East Asia and East Asia.</li><li>The lowest densities are found in hot and cold deserts, areas around pole, high rainfall area near equator.</li></ul><h3>Demographic Variables</h3><ul><li><strong>Birth Rate:</strong> Number of live births per 1000 population in a given year. High birth rate found in Africa while lowest is in Europe.</li><li><strong>Death Rate:</strong> Number of deaths per 1000 population in a given year.</li><li><strong>Infant Mortality Rate:</strong> The number of deaths of infants under per 1000 live births in a year.</li><li><strong>Maternal Mortality Rate:</strong> The number of women who die as a result of pregnancy and child birth complications per 100000 live births in a year.</li><li><strong>Total Fertility Rate:</strong> The average number of children that would be born alive to a women.</li><li><strong>Population Pyramid:</strong> A bar chart that is arranged vertically to show the distribution of population by age and sex. Males are on the left and females on the right.</li></ul>",
+    "formulas": [],
+    "tables": [
+      "| Country | Population (million) | Country | Population (million) |\n|---|---|---|---|\n| 1. China | 1369 | 2. India | 1270 |\n| 3. USA | 321 | 4. Indonesia | 255 |\n| 5. Brazil | 204 | 6. Pakistan | 189 |\n| 7. Nigeria | 183 | 8. Bangladesh | 158 |\n| 9. Russia | 146 | 10. Japan | 126 |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of population distribution, density, and key demographic variables."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1163
+  },
+  {
+    "id": "geo-879-001",
+    "subject": "Geography",
+    "chapter": "Human Geography",
+    "topic": "Demographic and Migration Concepts",
+    "text": "<p><strong>Doubling Time:</strong> The number of years required for the population of an area to double itself, at current rate of population growth.</p><p><strong>Age-Dependency Ratio:</strong> The ratio of persons in the ages defined as dependent (under 15 years and over 64 years) to persons in the ages defined as economically productive (15-64 years).</p><p><strong>Demographic Transition:</strong> It refers to shift of birth and death rates from high to low levels. The decline in fertility is always delayed leading to population growth.</p><p><strong>Migration:</strong> Migration means the movement of people from one place to the other.</p><p><strong>Types of Migration:</strong></p><ul><li>In the context of domestic migration, migration can be either in-migration or out-migration.<ul><li><strong>In-migration:</strong> The process of entering one administrative sub-division of a country from another sub-division.</li><li><strong>Out-migration:</strong> The process of leaving one sub-division of a country to take up residence in another.</li></ul></li><li>International migration can be classified into the following:<ul><li><strong>Emigration:</strong> It refers to the process of leaving one country to take up permanent or semi-permanent residence in another.</li><li><strong>Immigration:</strong> It is a process of entering one country from another to take up permanent or semi-permanent residence.</li></ul></li><li><strong>Refugee:</strong> A person who is residing outside country of his/her origin due to fear of persecution for reasons of race, religion, nationality or political opinion.</li><li><strong>Internally Displaced Person:</strong> A person who is forced to leave his/her home region due to unfavourable conditions, but does not cross any boundary.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions of key demographic terms including Doubling Time, Age-Dependency Ratio, Demographic Transition, and various types of migration."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1164
+  },
+  {
+    "id": "geo-879-002",
+    "subject": "Geography",
+    "chapter": "Human Geography",
+    "topic": "Human Development",
+    "text": "<p><strong>Human Development:</strong></p><ul><li>Development means qualitative change, which is always value positive.</li><li>The concept of human development was introduced by Dr Mahbub-ul-Haq. Dr Haq has described human development as that development that enlarges people choices and improves their lives. The four pillars of human development are equality, sustainability, productivity and empowerment.</li></ul><p><strong>Human Development Index:</strong></p><ul><li>The Human Development Report is an annual milestone publication by the Human Development Report office of the United Nations Development Programme (UNDP).</li><li>The Report was first launched in 1990 by the world renowned Pakistani economist Mahbub-ul-Haq and Indian Nobel laureate Amartya Sen.</li><li>Human development is measured in terms of life expectancy at birth, education and per capita income.</li><li>Norway has highest HDI ranking. India ranks 130th in the list.</li><li>(i) HDi ranking (2016)</li><li>(ii) India ranks 131</li><li>(iii) Norway topped the Index</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of Human Development, its pillars, the Human Development Index (HDI), and historical context of the UNDP report."
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1164
   }
 ]
