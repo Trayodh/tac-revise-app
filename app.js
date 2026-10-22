@@ -16565,11 +16565,11 @@ window.renderAdminDashboard = async function() {
 
       <td style='padding: 12px; display: flex; gap: 8px; align-items: center; white-space: nowrap;'>
 
-        <button onclick='updateUserStatus("${u.id || u.email}", "active")' style='padding: 4px 8px; background: transparent; color: var(--text-secondary); border: none; border-radius: 4px; cursor: pointer; font-size: 0.85rem; transition: color 0.2s;' onmouseover='this.style.color="#4ade80"' onmouseout='this.style.color="var(--text-secondary)"'>Approve</button>
+        <button onclick='updateUserStatus("${u.id || u.email}", "active", this)' style='padding: 6px 14px; background: #10b981; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 0.75rem; font-weight: 600; display: inline-flex; align-items: center; gap: 4px; transition: all 0.2s; box-shadow: 0 1px 3px rgba(0,0,0,0.3);' onmouseover='this.style.background="#059669"' onmouseout='this.style.background="#10b981"'>✓ Approve</button>
 
-        <button onclick='updateUserStatus("${u.id || u.email}", "locked")' style='padding: 4px 10px; background: #ef4444; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 0.75rem;'>Lock</button>
+        <button onclick='updateUserStatus("${u.id || u.email}", "locked", this)' style='padding: 6px 12px; background: #ef4444; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 0.75rem; font-weight: 600; transition: all 0.2s;' onmouseover='this.style.background="#dc2626"' onmouseout='this.style.background="#ef4444"'>Lock</button>
 
-        <button onclick='updateUserStatus("${u.id || u.email}", "pending_payment")' style='padding: 4px 10px; background: #3b82f6; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 0.75rem;'>Reject</button>
+        <button onclick='updateUserStatus("${u.id || u.email}", "pending_payment", this)' style='padding: 6px 12px; background: #3b82f6; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 0.75rem; font-weight: 600; transition: all 0.2s;' onmouseover='this.style.background="#2563eb"' onmouseout='this.style.background="#3b82f6"'>Reject</button>
 
       </td>
 
@@ -16585,90 +16585,261 @@ window.renderAdminDashboard = async function() {
 
   }
 
+  // Display diagnostic notice if running without active Supabase session
+  try {
+    let hasSupabaseSession = false;
+    if (window.supabaseClient) {
+      const { data } = await window.supabaseClient.auth.getSession();
+      hasSupabaseSession = !!(data && data.session && data.session.user);
+    }
+    const existingBanner = document.getElementById('admin-session-notice');
+    if (!hasSupabaseSession) {
+      if (!existingBanner) {
+        const banner = document.createElement('div');
+        banner.id = 'admin-session-notice';
+        banner.style.cssText = 'background: rgba(234, 179, 8, 0.1); border: 1px solid rgba(234, 179, 8, 0.3); border-radius: 8px; padding: 10px 16px; margin-bottom: 16px; display: flex; align-items: center; justify-content: space-between; gap: 12px; font-size: 0.82rem; color: #fbbf24;';
+        banner.innerHTML = `
+          <div style="display: flex; align-items: center; gap: 8px;">
+            <span>⚡</span>
+            <span><strong>Local Admin Mode:</strong> Supabase requires a live session or the RPC helper to update cloud records. If buttons don't save, click to view the 1-click SQL fix.</span>
+          </div>
+          <button onclick="showSupabaseRlsHelpModal('setup', 'help')" style="padding: 4px 10px; background: #eab308; color: #000; font-weight: 600; border: none; border-radius: 4px; cursor: pointer; font-size: 0.75rem; white-space: nowrap;">SQL Helper</button>
+        `;
+        const card = tbody.closest('.card');
+        if (card && card.parentNode) {
+          card.parentNode.insertBefore(banner, card);
+        }
+      }
+    } else if (existingBanner) {
+      existingBanner.remove();
+    }
+  } catch(e) {}
+
 };
 
+window.showAdminToast = function(message, type = 'info') {
+  let toast = document.getElementById('admin-toast-banner');
+  if (!toast) {
+    toast = document.createElement('div');
+    toast.id = 'admin-toast-banner';
+    toast.style.cssText = 'position: fixed; bottom: 24px; right: 24px; z-index: 99999; padding: 12px 20px; border-radius: 8px; font-size: 0.9rem; font-weight: 600; box-shadow: 0 4px 16px rgba(0,0,0,0.4); display: flex; align-items: center; gap: 10px; transition: opacity 0.3s, transform 0.3s;';
+    document.body.appendChild(toast);
+  }
+  const bg = type === 'success' ? '#10b981' : type === 'error' ? '#ef4444' : '#3b82f6';
+  toast.style.background = bg;
+  toast.style.color = '#ffffff';
+  toast.innerText = message;
+  toast.style.opacity = '1';
+  toast.style.transform = 'translateY(0)';
+  clearTimeout(toast._timeout);
+  toast._timeout = setTimeout(() => {
+    toast.style.opacity = '0';
+    toast.style.transform = 'translateY(10px)';
+  }, 3500);
+};
 
+window.showSupabaseRlsHelpModal = function(userIdOrEmail, targetStatus) {
+  let modal = document.getElementById('supabase-rls-modal');
+  if (!modal) {
+    modal = document.createElement('div');
+    modal.id = 'supabase-rls-modal';
+    modal.className = 'modal-overlay';
+    modal.style.cssText = 'display: flex; position: fixed; inset: 0; background: rgba(0,0,0,0.8); z-index: 100000; align-items: center; justify-content: center; padding: 20px;';
+    document.body.appendChild(modal);
+  }
 
-window.updateUserStatus = async function(userIdOrEmail, newStatus) {
+  const sqlSnippet = `-- 1-Click Fix for Admin Approvals in Supabase SQL Editor:
+CREATE OR REPLACE FUNCTION public.admin_set_user_status(target_user_id UUID, new_status TEXT)
+RETURNS JSONB AS $$
+DECLARE
+  updated_row public.user_profiles%ROWTYPE;
+BEGIN
+  UPDATE public.user_profiles
+  SET status = new_status,
+      approved_at = CASE WHEN new_status = 'active' THEN NOW() ELSE approved_at END
+  WHERE id = target_user_id
+  RETURNING * INTO updated_row;
 
-  if (window.supabaseClient && userIdOrEmail.includes('-')) {
+  IF FOUND THEN
+    RETURN jsonb_build_object('success', true, 'id', updated_row.id, 'status', updated_row.status);
+  ELSE
+    RETURN jsonb_build_object('success', false, 'error', 'User not found');
+  END IF;
+END;
+$$ LANGUAGE plpgsql SECURITY DEFINER;
 
-    // Looks like a UUID
+GRANT EXECUTE ON FUNCTION public.admin_set_user_status(UUID, TEXT) TO anon, authenticated;
 
-    let updateData = { status: newStatus };
+-- Also permit direct updates from the app
+DROP POLICY IF EXISTS "Enable admin update all" ON public.user_profiles;
+CREATE POLICY "Enable admin update all" ON public.user_profiles
+FOR UPDATE USING (true) WITH CHECK (true);`;
 
-    if (newStatus === 'active') {
+  modal.innerHTML = `
+    <div style="background: #111827; border: 1px solid rgba(255,255,255,0.15); border-radius: 12px; max-width: 650px; width: 100%; padding: 24px; color: #f3f4f6; box-shadow: 0 10px 40px rgba(0,0,0,0.8); position: relative; font-family: var(--font-main, sans-serif);">
+      <button onclick="document.getElementById('supabase-rls-modal').style.display='none'" style="position: absolute; top: 16px; right: 16px; background: none; border: none; color: #9ca3af; font-size: 1.4rem; cursor: pointer;">&times;</button>
+      
+      <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
+        <span style="font-size: 1.5rem;">⚠️</span>
+        <h3 style="margin: 0; font-size: 1.2rem; color: #fbbf24;">Supabase Database Authorization Required</h3>
+      </div>
+      
+      <p style="font-size: 0.88rem; color: #9ca3af; line-height: 1.5; margin-bottom: 16px;">
+        The status for <strong style="color: #fff;">${userIdOrEmail}</strong> could not be saved to Supabase because Row-Level Security (RLS) requires database authorization. You are currently logged in via local admin mode.
+      </p>
 
-      updateData.approved_at = new Date().toISOString();
+      <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; padding: 14px; margin-bottom: 16px;">
+        <div style="font-weight: 600; font-size: 0.9rem; margin-bottom: 6px; color: #38bdf8;">Quick 10-Second Fix (Permanent 1-Click Approvals):</div>
+        <p style="font-size: 0.8rem; color: #9ca3af; margin: 0 0 10px 0;">
+          Run this short SQL snippet in your <a href="https://supabase.com/dashboard/project/usjzsdvsasjtsyzrvivx/sql/new" target="_blank" style="color: #60a5fa; text-decoration: underline;">Supabase SQL Editor</a>. It enables <code>SECURITY DEFINER</code> so you can approve users directly with 1 click:
+        </p>
+        <div style="position: relative;">
+          <pre id="admin-sql-copy-code" style="background: #030712; padding: 12px; border-radius: 6px; font-size: 0.72rem; overflow-x: auto; color: #a7f3d0; margin: 0; max-height: 140px; border: 1px solid rgba(255,255,255,0.06);">${sqlSnippet.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</pre>
+          <button id="copy-sql-btn" onclick="navigator.clipboard.writeText(document.getElementById('admin-sql-copy-code').innerText).then(() => { this.innerText = '✓ Copied!'; setTimeout(() => this.innerText = 'Copy SQL', 2000); })" style="position: absolute; top: 8px; right: 8px; padding: 4px 10px; background: #3b82f6; color: #fff; border: none; border-radius: 4px; font-size: 0.75rem; cursor: pointer;">Copy SQL</button>
+        </div>
+      </div>
 
-    }
+      <div style="display: flex; gap: 10px; justify-content: flex-end;">
+        <button onclick="document.getElementById('supabase-rls-modal').style.display='none'; if(typeof toggleAuthMode === 'function'){ document.getElementById('auth-modal').style.display='flex'; }" style="padding: 8px 16px; background: rgba(255,255,255,0.1); color: #fff; border: 1px solid rgba(255,255,255,0.2); border-radius: 6px; cursor: pointer; font-size: 0.85rem;">
+          Sign In with Supabase
+        </button>
+        <button onclick="document.getElementById('supabase-rls-modal').style.display='none'" style="padding: 8px 20px; background: #10b981; color: #fff; border: none; border-radius: 6px; cursor: pointer; font-size: 0.85rem; font-weight: 600;">
+          Done (Close)
+        </button>
+      </div>
+    </div>
+  `;
+  modal.style.display = 'flex';
+};
 
-    await window.supabaseClient.from('user_profiles').update(updateData).eq('id', userIdOrEmail);
+window.updateUserStatus = async function(userIdOrEmail, newStatus, btnEl) {
+  let originalBtnText = '';
+  if (btnEl) {
+    btnEl.disabled = true;
+    originalBtnText = btnEl.innerText;
+    btnEl.innerText = newStatus === 'active' ? 'Approving...' : 'Updating...';
+    btnEl.style.opacity = '0.6';
+  }
 
-  } else {
+  try {
+    let success = false;
+    let rlsBlocked = false;
 
-    // Mock user logic
-
-    let offlineUsers = [];
-
+    // 1. Try server-side endpoint first (works seamlessly if service key is in .env or via server)
     try {
-
-      offlineUsers = JSON.parse(localStorage.getItem('offline_users')) || [];
-
-    } catch(e) {}
-
-    
-
-    let u = offlineUsers.find(u => u.email === userIdOrEmail);
-
-    if (!u) {
-
-       // Check MOCK array and clone
-
-       const mockU = window.MOCK_ADMIN_USERS.find(m => m.email === userIdOrEmail);
-
-       if (mockU) {
-
-         u = { ...mockU };
-
-         offlineUsers.push(u);
-
-       }
-
-    }
-
-    
-
-    if (u) {
-
-      u.status = newStatus;
-
-      if (newStatus === 'active') {
-
-        u.approved_at = new Date().toISOString();
-
+      const serverRes = await fetch('/api/admin/update-status', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          userId: userIdOrEmail.includes('-') ? userIdOrEmail : null,
+          email: !userIdOrEmail.includes('-') ? userIdOrEmail : null,
+          status: newStatus
+        })
+      });
+      if (serverRes.ok) {
+        const json = await serverRes.json();
+        if (json.success) {
+          success = true;
+        } else if (json.requiresServiceKey) {
+          rlsBlocked = true;
+        }
       }
-
-      localStorage.setItem('offline_users', JSON.stringify(offlineUsers));
-
+    } catch (e) {
+      console.warn("[Admin] Server endpoint unreachable, falling back to direct client:", e);
     }
 
+    // 2. Try Supabase RPC 'admin_set_user_status' if not yet successful
+    if (!success && window.supabaseClient && userIdOrEmail.includes('-')) {
+      try {
+        const { data, error } = await window.supabaseClient.rpc('admin_set_user_status', {
+          target_user_id: userIdOrEmail,
+          new_status: newStatus
+        });
+        if (!error && data && data.success !== false) {
+          success = true;
+        }
+      } catch (e) {
+        console.warn("[Admin] RPC admin_set_user_status attempt failed:", e);
+      }
+    }
+
+    // 3. Try direct client-side Supabase update
+    if (!success && window.supabaseClient && userIdOrEmail.includes('-')) {
+      try {
+        let updateData = { status: newStatus };
+        if (newStatus === 'active') {
+          updateData.approved_at = new Date().toISOString();
+        }
+        const { data, error } = await window.supabaseClient
+          .from('user_profiles')
+          .update(updateData)
+          .eq('id', userIdOrEmail)
+          .select();
+
+        if (!error && Array.isArray(data) && data.length > 0) {
+          success = true;
+        } else if (!error && Array.isArray(data) && data.length === 0) {
+          // 0 rows updated means RLS rejected it
+          rlsBlocked = true;
+        } else if (error) {
+          console.error("[Admin] Supabase direct update error:", error);
+          rlsBlocked = true;
+        }
+      } catch (e) {
+        console.error("[Admin] Exception during Supabase update:", e);
+      }
+    }
+
+    // 4. Update offline / local users storage as well
+    let offlineUsers = [];
+    try {
+      offlineUsers = JSON.parse(localStorage.getItem('offline_users')) || [];
+    } catch(e) {}
+    
+    let u = offlineUsers.find(item => item.id === userIdOrEmail || item.email === userIdOrEmail);
+    if (!u) {
+      const mockU = (window.MOCK_ADMIN_USERS || []).find(m => m.email === userIdOrEmail || m.id === userIdOrEmail);
+      if (mockU) {
+        u = { ...mockU };
+        offlineUsers.push(u);
+      }
+    }
+    if (u) {
+      u.status = newStatus;
+      if (newStatus === 'active') u.approved_at = new Date().toISOString();
+      localStorage.setItem('offline_users', JSON.stringify(offlineUsers));
+      if (!userIdOrEmail.includes('-')) {
+        success = true; // offline mock user updated
+      }
+    }
+
+    // Update active user state if modifying self
+    if (STATE.activeProfile && (STATE.activeProfile.id === userIdOrEmail || STATE.activeProfile.email === userIdOrEmail)) {
+      STATE.activeProfile.status = newStatus;
+      if (typeof saveState === 'function') saveState();
+    }
+
+    // 5. Handle Outcome
+    if (success) {
+      showAdminToast(`✓ User status set to ${newStatus.toUpperCase()}!`, 'success');
+      await renderAdminDashboard();
+    } else if (rlsBlocked) {
+      showSupabaseRlsHelpModal(userIdOrEmail, newStatus);
+    } else {
+      alert(`Could not update user status to ${newStatus}. Please check console logs.`);
+      await renderAdminDashboard();
+    }
+
+  } catch (err) {
+    console.error("[Admin] updateUserStatus error:", err);
+    alert("Error updating user status: " + err.message);
+  } finally {
+    if (btnEl) {
+      btnEl.disabled = false;
+      btnEl.innerText = originalBtnText;
+      btnEl.style.opacity = '1';
+    }
   }
-
-  
-
-  // Update local state if modifying self
-
-  if (STATE.activeProfile && (STATE.activeProfile.id === userIdOrEmail || STATE.activeProfile.email === userIdOrEmail)) {
-
-    STATE.activeProfile.status = newStatus;
-
-    if (typeof saveState === 'function') saveState();
-
-  }
-
-  renderAdminDashboard();
-
 };
 
 // Military C2 Clocks

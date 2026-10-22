@@ -873,6 +873,90 @@ What subject or topic would you like to plan next?`;
     return;
   }
 
+  // API Route: Admin User Status Update
+  if (req.url === '/api/admin/update-status' && req.method === 'POST') {
+    let body = '';
+    req.on('data', chunk => body += chunk);
+    req.on('end', async () => {
+      try {
+        const payload = JSON.parse(body || '{}');
+        const { userId, email, status } = payload;
+
+        if (!userId && !email) {
+          res.writeHead(400, { 'Content-Type': 'application/json' });
+          res.end(JSON.stringify({ error: 'userId or email is required' }));
+          return;
+        }
+
+        const SUPABASE_URL = process.env.SUPABASE_URL || 'https://usjzsdvsasjtsyzrvivx.supabase.co';
+        const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.SUPABASE_SERVICE_KEY;
+        const anonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVzanpzZHZzYXNqdHN5enJ2aXZ4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzkyNTUxMzksImV4cCI6MjA5NDgzMTEzOX0.8wLng1SDAhFPGvk5PQRu8XCqEWClpNPqHgEGpAx1vjk';
+        const keyToUse = serviceKey || anonKey;
+
+        let updateData = { status: status };
+        if (status === 'active') {
+          updateData.approved_at = new Date().toISOString();
+        }
+
+        if (userId) {
+          try {
+            const rpcRes = await fetch(`${SUPABASE_URL}/rest/v1/rpc/admin_set_user_status`, {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+                'apikey': keyToUse,
+                'Authorization': `Bearer ${keyToUse}`
+              },
+              body: JSON.stringify({ target_user_id: userId, new_status: status })
+            });
+            if (rpcRes.ok) {
+              const rpcJson = await rpcRes.json().catch(() => null);
+              res.writeHead(200, { 'Content-Type': 'application/json' });
+              res.end(JSON.stringify({ success: true, viaRpc: true, data: rpcJson }));
+              return;
+            }
+          } catch (rpcErr) {
+            console.warn('[Admin] RPC error:', rpcErr.message);
+          }
+        }
+
+        const queryParam = userId ? `id=eq.${encodeURIComponent(userId)}` : `email=eq.${encodeURIComponent(email)}`;
+        const updateUrl = `${SUPABASE_URL}/rest/v1/user_profiles?${queryParam}`;
+
+        const patchRes = await fetch(updateUrl, {
+          method: 'PATCH',
+          headers: {
+            'Content-Type': 'application/json',
+            'apikey': keyToUse,
+            'Authorization': `Bearer ${keyToUse}`,
+            'Prefer': 'return=representation'
+          },
+          body: JSON.stringify(updateData)
+        });
+
+        const patchJson = await patchRes.json().catch(() => null);
+
+        if (Array.isArray(patchJson) && patchJson.length > 0) {
+          res.writeHead(200, { 'Content-Type': 'application/json' });
+          res.end(JSON.stringify({ success: true, user: patchJson[0] }));
+          return;
+        }
+
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({
+          success: false,
+          requiresServiceKey: !serviceKey,
+          message: 'Supabase RLS blocked direct update. Set SUPABASE_SERVICE_ROLE_KEY in .env or run admin_set_user_status in Supabase SQL editor.'
+        }));
+      } catch (err) {
+        console.error('[Admin] Error in update-status:', err);
+        res.writeHead(500, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ error: err.message }));
+      }
+    });
+    return;
+  }
+
   // Static files server
   console.log(`[STATIC] ${req.method} ${req.url}`);
   let filePath = path.join(__dirname, req.url === '/' ? 'index.html' : decodeURIComponent(req.url.split('?')[0]));

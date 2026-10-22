@@ -96,10 +96,12 @@ def get_book_priority(pdf_name):
     # TIER 4: DEFENCE & SPECIALS
     if 'defence_pdf.pdf' in lower:
         return (4, 10)
-    if 'general-science-book-ssbcrack.pdf' in lower or 'general_science_ssbcrack.pdf' in lower:
+    if 'general-science-book-ssbcrack.pdf' in lower:
         return (4, 20)
     if 'afcat_reasoning_notes.pdf' in lower:
         return (4, 30)
+    if 'general_science_ssbcrack.pdf' in lower:
+        return (4, 40)
 
     # TIER 5: PREVIOUS YEAR PAPERS
     if any(k in lower for k in ['pyq', 'qp', 'paper', 'solved', '202', '201']):
