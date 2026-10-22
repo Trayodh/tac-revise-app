@@ -802515,5 +802515,3313 @@
     "question_type": "MCQ",
     "source_pdf": "cds_material.pdf",
     "source_page": 964
+  },
+  {
+    "question_text": "Which of the following organism does not obey the ‘cell theory’?",
+    "options": {
+      "A": "Virus",
+      "B": "Bacteria",
+      "C": "Fungi",
+      "D": "Plants"
+    },
+    "correct_answer": "A",
+    "explanation": "Viruses are acellular particles that lack the cellular organization required by the cell theory; they do not possess a cell membrane, cytoplasm, or nucleus.",
+    "subject": "Biology",
+    "chapter": "Cell: The Unit of Life",
+    "topic": "Cell Theory",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1017
+  },
+  {
+    "question_text": "The nucleic acid in a cell was discovered by",
+    "options": {
+      "A": "E Strasburger",
+      "B": "A Kossel",
+      "C": "F Miescher",
+      "D": "Huxley"
+    },
+    "correct_answer": "C",
+    "explanation": "Friedrich Miescher isolated \"nuclein\" (later identified as DNA) from the nuclei of white blood cells in 1869, marking the discovery of cellular nucleic acid.",
+    "subject": "Biology",
+    "chapter": "Cell: The Unit of Life",
+    "topic": "Discovery of Nucleic Acids",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1017
+  },
+  {
+    "question_text": "The ‘cell theory’ for organisms was proposed by",
+    "options": {
+      "A": "Purkinje and Von Mohl",
+      "B": "Schleiden and Schwann",
+      "C": "Carolus Linnaeus",
+      "D": "Felix Dujardin"
+    },
+    "correct_answer": "B",
+    "explanation": "Matthias Schleiden (plants) and Theodor Schwann (animals) formulated the first two tenets of cell theory in 1838‑1839.",
+    "subject": "Biology",
+    "chapter": "Cell: The Unit of Life",
+    "topic": "Cell Theory",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1017
+  },
+  {
+    "question_text": "The fact that new cells arise from pre‑existing cells was proposed by",
+    "options": {
+      "A": "JE Purkinje",
+      "B": "F Dujardin",
+      "C": "R Virchow",
+      "D": "E Abbe"
+    },
+    "correct_answer": "C",
+    "explanation": "Rudolf Virchow introduced the principle \"Omnis cellula e cellula\" in 1855, stating that all cells originate from existing cells.",
+    "subject": "Biology",
+    "chapter": "Cell: The Unit of Life",
+    "topic": "Cell Theory",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1017
+  },
+  {
+    "question_text": "The scientists who first recognised and named the nucleus was",
+    "options": {
+      "A": "Robert Hooke",
+      "B": "Robert Brown",
+      "C": "Theodore Schwann",
+      "D": "Thomas Morgan"
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1017
+  },
+  {
+    "question_text": "Consider the following statements:\n1. Chloroplast is known as ‘cell within a cell’.\n2. Chloroplast is the largest cell organelle found in plant cells.\n3. Chloroplasts have single‑stranded extra chromosomal DNA.\nWhich of the statement(s) given above is/are correct?",
+    "options": {
+      "A": "Only 2",
+      "B": "1 and 2",
+      "C": "1 and 3",
+      "D": "All of these"
+    },
+    "correct_answer": "B",
+    "explanation": "Statement 1 is true. Statement 2 is false because the central vacuole is larger than chloroplasts. Statement 3 is false; chloroplast DNA is double‑stranded. Hence only statements 1 and 2 are correct.",
+    "subject": "Biology",
+    "chapter": "Cell Biology",
+    "topic": "Chloroplast",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1018
+  },
+  {
+    "question_text": "Which of the following pairs of cell organelles mainly concerned with fatty acid metabolism in both plants and animals?",
+    "options": {
+      "A": "Ribosomes and nucleus",
+      "B": "Lysosomes and mitochondria",
+      "C": "Peroxisomes and mitochondria",
+      "D": "Glyoxysomes and peroxisomes"
+    },
+    "correct_answer": "C",
+    "explanation": "Both peroxisomes and mitochondria carry out β‑oxidation of fatty acids. Peroxisomes handle very‑long‑chain fatty acids, while mitochondria complete the oxidation to CO₂ and H₂O.",
+    "subject": "Biology",
+    "chapter": "Cell Biology",
+    "topic": "Fatty‑acid Metabolism",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1018
+  },
+  {
+    "question_text": "DNA is mainly found in the following organelles.\n1. Mitochondria\n2. Chloroplasts\n3. Peroxisomes\n4. Nucleus\nWhich of the statements given above are correct?",
+    "options": {
+      "A": "2 and 4",
+      "B": "1, 2 and 4",
+      "C": "2, 3 and 4",
+      "D": "All of these"
+    },
+    "correct_answer": "B",
+    "explanation": "Mitochondria, chloroplasts, and the nucleus each contain their own DNA. Peroxisomes do not contain DNA.",
+    "subject": "Biology",
+    "chapter": "Cell Biology",
+    "topic": "Organelle DNA",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1018
+  },
+  {
+    "question_text": "Which of the following cell organelles is found in a cell that is very active in protein synthesis?",
+    "options": {
+      "A": "Mitochondria",
+      "B": "Chloroplast",
+      "C": "Lysosome",
+      "D": "Ribosome"
+    },
+    "correct_answer": "D",
+    "explanation": "Ribosomes are the sites of translation; cells with high protein synthesis contain abundant ribosomes.",
+    "subject": "Biology",
+    "chapter": "Cell Biology",
+    "topic": "Ribosomes",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1018
+  },
+  {
+    "question_text": "Consider the following organelles.\n1. Chloroplast\n2. Mitochondria\n3. Peroxisome\nWhich of the organelle(s) given above is/are concerned with photorespiration?",
+    "options": {
+      "A": "Only 3",
+      "B": "1 and 2",
+      "C": "2 and 3",
+      "D": "All of these"
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1018
+  },
+  {
+    "question_text": "When any plane passing through the central axis of the body divides the organism into two halves that are approximately mirror images, it is called",
+    "options": {
+      "A": "radial symmetry",
+      "B": "bilateral symmetry",
+      "C": "Both (a) and (b)",
+      "D": "None of the above"
+    },
+    "correct_answer": "B",
+    "explanation": "A single sagittal plane that creates left‑right mirror images defines bilateral symmetry. Radial symmetry would require multiple planes.",
+    "subject": "Biology",
+    "chapter": "Animal Kingdom",
+    "topic": "Symmetry",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1019
+  },
+  {
+    "question_text": "If we sprinkle common salt on an earthworm, it dies due to",
+    "options": {
+      "A": "osmotic shock",
+      "B": "respiratory failure",
+      "C": "toxic effect of salt",
+      "D": "closure of pores of skin"
+    },
+    "correct_answer": "A",
+    "explanation": "The high external salt concentration draws water out of the worm’s cells, causing rapid dehydration (osmotic shock).",
+    "subject": "Biology",
+    "chapter": "Animal Kingdom",
+    "topic": "Physiology",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1019
+  },
+  {
+    "question_text": "Itching due to insect bite is caused by",
+    "options": {
+      "A": "formic acid",
+      "B": "acetic acid",
+      "C": "lactic acid",
+      "D": "maleic acid"
+    },
+    "correct_answer": "A",
+    "explanation": "Formic acid, released by many insects, irritates the skin and triggers the itch response.",
+    "subject": "Biology",
+    "chapter": "Animal Kingdom",
+    "topic": "Physiology",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1019
+  },
+  {
+    "question_text": "71. Which one among the following is not correct about Down’s syndrome?",
+    "options": {
+      "A": "It is a genetic disorder",
+      "B": "Affected individual has early ageing",
+      "C": "Affected person has mental retardation",
+      "D": "Affected person has furrowed tongue with open mouth"
+    },
+    "correct_answer": "B",
+    "explanation": "Down’s syndrome is a genetic disorder characterized by mental retardation and distinct facial features, but it does not involve early ageing.",
+    "subject": "Biology",
+    "chapter": "Genetics",
+    "topic": "Down's Syndrome",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1020
+  },
+  {
+    "question_text": "72. What is the most conspicuous salient feature of people with ‘Progeria’?",
+    "options": {
+      "A": "More hairs on body",
+      "B": "Less immunity to opportunistic infections",
+      "C": "Faster rate of ageing",
+      "D": "Suffer from infertility"
+    },
+    "correct_answer": "C",
+    "explanation": "Progeria is marked by an accelerated ageing process, making rapid ageing the most noticeable characteristic.",
+    "subject": "Biology",
+    "chapter": "Genetics",
+    "topic": "Progeria",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1020
+  },
+  {
+    "question_text": "73. The nucleic acid in cell was discovered by",
+    "options": {
+      "A": "E Strasburger",
+      "B": "A Kossel",
+      "C": "F Miescher",
+      "D": "Huxley"
+    },
+    "correct_answer": "C",
+    "explanation": "Friedrich Miescher isolated nuclein (later identified as DNA) from white blood cell nuclei in 1869.",
+    "subject": "Biology",
+    "chapter": "Molecular Biology",
+    "topic": "Discovery of Nucleic Acids",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1020
+  },
+  {
+    "question_text": "74. The sugar in RNA is",
+    "options": {
+      "A": "ribose",
+      "B": "deoxyribose",
+      "C": "sucrose",
+      "D": "lactose"
+    },
+    "correct_answer": "A",
+    "explanation": "RNA contains ribose as its pentose sugar, whereas DNA contains deoxyribose.",
+    "subject": "Biology",
+    "chapter": "Molecular Biology",
+    "topic": "RNA Structure",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1020
+  },
+  {
+    "question_text": "75. Which base replaces thymine in RNA?",
+    "options": {
+      "A": "Adenine",
+      "B": "Guanine",
+      "C": "Uracil",
+      "D": "Cytosine"
+    },
+    "correct_answer": "C",
+    "explanation": "Uracil (U) substitutes for thymine (T) in RNA molecules.",
+    "subject": "Biology",
+    "chapter": "Molecular Biology",
+    "topic": "RNA Bases",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1020
+  },
+  {
+    "question_text": "76. Transfer of genetic information from one generation to the other is accomplished by",
+    "options": {
+      "A": "DNA",
+      "B": "messenger RNA",
+      "C": "transfer RNA",
+      "D": "Both (b) and (c)"
+    },
+    "correct_answer": "A",
+    "explanation": "Inheritance across generations is mediated by DNA; mRNA and tRNA function in gene expression within a generation.",
+    "subject": "Biology",
+    "chapter": "Genetics",
+    "topic": "Inheritance",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1020
+  },
+  {
+    "question_text": "77. Chromosomes are",
+    "options": {
+      "A": "present only in the nucleus of a cell",
+      "B": "the largest in number in human cells",
+      "C": "made up of DNA as a main component",
+      "D": "visible in all cells at every time"
+    },
+    "correct_answer": "C",
+    "explanation": "Chromosomes consist primarily of DNA complexed with proteins; they are not always visible and are not the most numerous structures in a cell.",
+    "subject": "Biology",
+    "chapter": "Cell Biology",
+    "topic": "Chromosomes",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1020
+  },
+  {
+    "question_text": "Absorption of water increased by which mineral?",
+    "options": {
+      "A": "Magnesium",
+      "B": "Zinc",
+      "C": "Calcium",
+      "D": "Manganese"
+    },
+    "correct_answer": "C",
+    "explanation": "Calcium stabilises cell walls and plasma‑membrane permeability, facilitating greater water uptake in plants.",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "Mineral Influence on Water Absorption",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1022
+  },
+  {
+    "question_text": "A limiting factor unique to a field planted with corn year after year is most likely",
+    "options": {
+      "A": "temperature",
+      "B": "water",
+      "C": "sunlight",
+      "D": "soil nutrient"
+    },
+    "correct_answer": "D",
+    "explanation": "Continuous corn cropping depletes essential soil nutrients (N, P, K), making nutrient deficiency the unique limiting factor.",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "Limiting Factors in Continuous Corn Cultivation",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1022
+  },
+  {
+    "question_text": "Which of the following are carnivorous plants?\n1. Waterlilly\n2. Pitcher plant\n3. Sundew\n4. Begonia",
+    "options": {
+      "A": "1 and 4",
+      "B": "1 and 2",
+      "C": "2 and 3",
+      "D": "1, 2 and 3"
+    },
+    "correct_answer": "C",
+    "explanation": "Pitcher plant and Sundew possess specialised traps to capture insects; waterlily and begonia are non‑carnivorous.",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "Carnivorous Plants",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1022
+  },
+  {
+    "question_text": "Which one of the following plants is preferred for mixed cropping in order to enhance the bioavailability of nitrogen?",
+    "options": {
+      "A": "Wheat",
+      "B": "Gram",
+      "C": "Maize",
+      "D": "Barley"
+    },
+    "correct_answer": "B",
+    "explanation": "Gram is a legume that fixes atmospheric nitrogen through Rhizobium symbiosis, enriching soil nitrogen for companion crops.",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "Legumes for Nitrogen Bioavailability",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1022
+  },
+  {
+    "question_text": "Which factors affect the rate of diffusion?",
+    "options": {
+      "A": "Permeability of membrane",
+      "B": "Temperature",
+      "C": "Pressure",
+      "D": "All of the above"
+    },
+    "correct_answer": "D",
+    "explanation": "Diffusion speed increases with higher membrane permeability, higher temperature (more kinetic energy), and greater pressure gradients.",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "Factors Affecting Diffusion",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1022
+  },
+  {
+    "question_text": "Consider the following statements\n1. Vapour pressure of a solution is always less than the vapour pressure of the pure solvent.\n2. Osmotic pressure of a solution increases if the number of solute molecules is increased.\n3. The temperature at which the liquid and solid states of a substance have the same vapour pressure is the freezing point.\n4. Osmotic pressure of a solution is inversely proportional to the elevation in boiling point.\nWhich of the above statement(s) is/are correct?",
+    "options": {
+      "A": "Only 1",
+      "B": "2 and 4",
+      "C": "3 and 4",
+      "D": "1, 2 and 3"
+    },
+    "correct_answer": "D",
+    "explanation": "Statements 1, 2 and 3 are true based on Raoult’s law, osmotic pressure formula, and phase equilibrium. Statement 4 is false because both osmotic pressure and boiling‑point elevation increase with solute concentration.",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "Solution Thermodynamics",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1022
+  },
+  {
+    "question_text": "Which pigment plays a major role in seed germination?",
+    "options": {
+      "A": "Chloroplast",
+      "B": "Chlorophyll",
+      "C": "Xanthophyll",
+      "D": "Phytochrome"
+    },
+    "correct_answer": "D",
+    "explanation": "Phytochrome is the photoreceptor that regulates seed germination in response to red/far‑red light, whereas chlorophyll and xanthophyll are primarily involved in photosynthesis.",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "Photoreceptors",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1023
+  },
+  {
+    "question_text": "Match the following Columns.\nColumn I (Cell organelles) – Column II (Physiological phenomena)\nA. Mitochondria\nB. Chloroplast\nC. Stomata\nD. Cell membrane",
+    "options": {
+      "A": "1 3 4 2",
+      "B": "3 1 2 4",
+      "C": "1 3 2 4",
+      "D": "3 1 4 2"
+    },
+    "correct_answer": "B",
+    "explanation": "Mitochondria → Respiration (3); Chloroplast → Photosynthesis (1); Stomata → Transpiration (2); Cell membrane → Osmosis (4). The code sequence 3‑1‑2‑4 corresponds to option B.",
+    "subject": "Biology",
+    "chapter": "Cell Biology",
+    "topic": "Organelle Functions",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1023
+  },
+  {
+    "question_text": "In which of the following cell organelles do photo and thermochemical reactions occur at different sites?",
+    "options": {
+      "A": "Mitochondria",
+      "B": "Chloroplasts",
+      "C": "Ribosomes",
+      "D": "Lysosomes"
+    },
+    "correct_answer": "B",
+    "explanation": "Within chloroplasts, the light‑dependent (photo) reactions occur in the thylakoid membranes, while the light‑independent (thermochemical/Calvin‑cycle) reactions occur in the stroma.",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "Chloroplast Structure",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1023
+  },
+  {
+    "question_text": "Which one of the following statements about photosynthesis is correct?",
+    "options": {
+      "A": "Carbohydrates are the source of electrons in photosynthesis",
+      "B": "CO₂ is the source of electrons in photosynthesis",
+      "C": "Water is the source of electrons in photosynthesis",
+      "D": "NADH is the source of electron in photosynthesis"
+    },
+    "correct_answer": "C",
+    "explanation": "During the light‑dependent reactions, water is split (photolysis) to provide electrons, protons, and O₂. Carbohydrates are the product, not the electron donor.",
+    "subject": "Biology",
+    "chapter": "Photosynthesis",
+    "topic": "Electron Donors",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1023
+  },
+  {
+    "question_text": "CO₂ and O₂ molecules can move freely across a plasma membrane. What determines the direction of carbon dioxide and oxygen molecules movement?",
+    "options": {
+      "A": "Orientation of cholesterol in the plasma membrane",
+      "B": "Concentration gradient across the membrane",
+      "C": "Configuration of phospholipid in the plasma membrane",
+      "D": "Location of receptors on the surface of the plasma membrane"
+    },
+    "correct_answer": "B",
+    "explanation": "Gases diffuse down their concentration (partial pressure) gradients. Membrane composition or receptors do not influence simple diffusion of CO₂ and O₂.",
+    "subject": "Biology",
+    "chapter": "Cell Membrane",
+    "topic": "Diffusion of Gases",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1023
+  },
+  {
+    "question_text": "Which one of the following is present in chlorophyll which gives a green colour to plant leaves?",
+    "options": {
+      "A": "Calcium",
+      "B": "Magnesium",
+      "C": "Iron",
+      "D": "Manganese"
+    },
+    "correct_answer": "B",
+    "explanation": "Magnesium (Mg²⁺) is the central metal ion in the chlorophyll molecule, essential for its light‑absorbing properties.",
+    "subject": "Biology",
+    "chapter": "Plant Pigments",
+    "topic": "Chlorophyll Structure",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1023
+  },
+  {
+    "question_text": "Wavelengths of which of the following colour of the visible spectrum of light are maximally absorbed by green plants?",
+    "options": {
+      "A": "Green and yellow",
+      "B": "Red and blue",
+      "C": "Green and red",
+      "D": "Blue and yellow"
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1023
+  },
+  {
+    "question_text": "Which one among the following is a major source of sugar?",
+    "options": {
+      "A": "Watermelon",
+      "B": "Beetroot",
+      "C": "Sugarcane",
+      "D": "Date"
+    },
+    "correct_answer": "C",
+    "explanation": "Sugarcane is the principal commercial source of sucrose worldwide, whereas the other options contain sugars in much smaller quantities.",
+    "subject": "General Knowledge",
+    "chapter": "Agriculture & Plant Products",
+    "topic": "Major source of sugar",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1024
+  },
+  {
+    "question_text": "Golden fibre refers to",
+    "options": {
+      "A": "hemp",
+      "B": "cotton",
+      "C": "jute",
+      "D": "nylon"
+    },
+    "correct_answer": "C",
+    "explanation": "The term \"golden fibre\" is used for jute because of its natural golden‑brown colour and its importance as a fibre crop.",
+    "subject": "General Knowledge",
+    "chapter": "Agriculture & Plant Products",
+    "topic": "Golden fibre",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1024
+  },
+  {
+    "question_text": "Consider the following substances:\n1. Ascorbic acid\n2. Folic acid\n3. Nicotinic acid\n4. Pantothenic acid\nWhich of the above are vitamins?",
+    "options": {
+      "A": "1 and 3",
+      "B": "1, 2, 3 and 4",
+      "C": "2, 3 and 4",
+      "D": "1, 2 and 4"
+    },
+    "correct_answer": "B",
+    "explanation": "All four listed compounds are vitamins: Ascorbic acid (C), Folic acid (B9), Nicotinic acid (B3) and Pantothenic acid (B5).",
+    "subject": "Biology",
+    "chapter": "Vitamins",
+    "topic": "Classification of Vitamins",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1025
+  },
+  {
+    "question_text": "Match the following Columns.\nColumn I\nA. Vitamin‑C\nB. Vitamin‑A\nC. Vitamin‑D\nD. Vitamin‑B12\nColumn II\n1. Night blindness\n2. Scurvy\n3. Rickets\n4. Anaemia",
+    "options": {
+      "A": "1 2 5 4",
+      "B": "4 3 2 1",
+      "C": "2 1 3 4",
+      "D": "2 1 4 5"
+    },
+    "correct_answer": "C",
+    "explanation": "Vitamin‑C → Scurvy (2); Vitamin‑A → Night blindness (1); Vitamin‑D → Rickets (3); Vitamin‑B12 → Anaemia (4). Hence the code 2‑1‑3‑4.",
+    "subject": "Biology",
+    "chapter": "Vitamins",
+    "topic": "Deficiency Diseases",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1025
+  },
+  {
+    "question_text": "Match the following Columns.\nColumn I\nA. Enzyme\nB. Vitamin\nC. Protein\nD. Hormone\nColumn II\n1. Retinol\n2. Keratin\n3. Maltase\n4. Adrenaline",
+    "options": {
+      "A": "3 1 4 2",
+      "B": "2 3 1 5",
+      "C": "4 1 3 2",
+      "D": "3 1 2 4"
+    },
+    "correct_answer": "C",
+    "explanation": "Enzyme → Maltase (3); Vitamin → Retinol (1); Protein → Keratin (2); Hormone → Adrenaline (4). The correct code is 4‑1‑3‑2.",
+    "subject": "Biology",
+    "chapter": "Biomolecules",
+    "topic": "Classification of Biological Molecules",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1025
+  },
+  {
+    "question_text": "Honey has the largest percentage of:",
+    "options": {
+      "A": "water",
+      "B": "starch",
+      "C": "glucose",
+      "D": "sucrose"
+    },
+    "correct_answer": "A",
+    "explanation": "Honey is about 17‑20 % water; the rest is mainly sugars. Hence water is the component present in the highest proportion.",
+    "subject": "Biology",
+    "chapter": "Food Chemistry",
+    "topic": "Composition of Honey",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1025
+  },
+  {
+    "question_text": "Which fruit can diabetic patients eat freely?",
+    "options": {
+      "A": "Banana",
+      "B": "Guava",
+      "C": "Orange",
+      "D": "Mango"
+    },
+    "correct_answer": "B",
+    "explanation": "Guava has a low glycemic index and is relatively safe for diabetic patients when consumed in moderation.",
+    "subject": "Biology",
+    "chapter": "Nutrition",
+    "topic": "Diet for Diabetics",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1025
+  },
+  {
+    "question_text": "Which of the following vitamins and deficiency diseases is not correctly matched?",
+    "options": {
+      "A": "Vitamin‑A – Night blindness",
+      "B": "Vitamin‑B1 – Pellagra",
+      "C": "Vitamin‑D – Deformities in bones",
+      "D": "Vitamin‑K – Haemorrhage"
+    },
+    "correct_answer": "B",
+    "explanation": "Pellagra is caused by deficiency of Vitamin B3 (niacin), not Vitamin B1 (thiamine). All other pairings are correct.",
+    "subject": "Biology",
+    "chapter": "Vitamins",
+    "topic": "Deficiency Diseases",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1025
+  },
+  {
+    "question_text": "The protein content of edible portion of egg is:",
+    "options": {
+      "A": "15%",
+      "B": "13.3%",
+      "C": "10.3%",
+      "D": "5%"
+    },
+    "correct_answer": "B",
+    "explanation": "Approximately 13.3 % of the edible part of a chicken egg is protein.",
+    "subject": "Biology",
+    "chapter": "Nutrition",
+    "topic": "Nutrient Composition of Egg",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1025
+  },
+  {
+    "question_text": "Consider the following statements. Keratin is\n1. a protein\n2. a hormone\n3. present in hair\n4. present in nail\nWhich of the above statements(s) is/are correct?",
+    "options": {
+      "A": "Only 1",
+      "B": "1 and 3",
+      "C": "2 and 3",
+      "D": "1, 3 and 4"
+    },
+    "correct_answer": "D",
+    "explanation": "Keratin is a structural protein found in hair and nails; it is not a hormone.",
+    "subject": "Biology",
+    "chapter": "Proteins",
+    "topic": "Keratin",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1025
+  },
+  {
+    "question_text": "Consider the following respiratory pigments.\n1. Haemoglobin\n2. Haemocyanin\n3. Haemoerythrin\n4. Haemocyanoglobin\nIron is contained in",
+    "options": {
+      "A": "1, 2, 3 and 4",
+      "B": "1 and 3",
+      "C": "1 and 2",
+      "D": "1, 2 and 4"
+    },
+    "correct_answer": "B",
+    "explanation": "Iron is present only in haemoglobin and haemoerythrin. Haemocyanin and haemocyanoglobin contain copper, not iron.",
+    "subject": "Biology",
+    "chapter": "Respiratory Pigments",
+    "topic": "Iron‑containing pigments",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1027
+  },
+  {
+    "question_text": "Match the following Columns.\nColumn I (Protein) – Column II (Type)\nA. Haemoglobin – ?\nB. Collagen – ?\nC. Albumin and glutamin – ?\nD. Actin and myosin – ?\nCodes:\n(a) 1 3 4 2\n(b) 2 1 3 4\n(c) 3 1 4 2\n(d) 1 2 4 3",
+    "options": {
+      "A": "1 3 4 2",
+      "B": "2 1 3 4",
+      "C": "3 1 4 2",
+      "D": "1 2 4 3"
+    },
+    "correct_answer": "C",
+    "explanation": "Haemoglobin – Transport (3); Collagen – Structural (1); Albumin & globulin – Storage (4); Actin & myosin – Contractile (2). Hence the code 3‑1‑4‑2.",
+    "subject": "Biology",
+    "chapter": "Proteins",
+    "topic": "Classification of proteins",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1027
+  },
+  {
+    "question_text": "Heart is innervated by",
+    "options": {
+      "A": "trigeminal",
+      "B": "vagus",
+      "C": "facial",
+      "D": "glossopharyngeal"
+    },
+    "correct_answer": "B",
+    "explanation": "The vagus nerve (cranial nerve X) provides parasympathetic innervation to the heart, regulating heart rate.",
+    "subject": "Biology",
+    "chapter": "Nervous System",
+    "topic": "Autonomic innervation of the heart",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1027
+  },
+  {
+    "question_text": "Which of the following parts of blood carry out the function of body defence?",
+    "options": {
+      "A": "Red blood cells",
+      "B": "White blood cells",
+      "C": "Platelets",
+      "D": "Haemoglobins"
+    },
+    "correct_answer": "B",
+    "explanation": "White blood cells (leukocytes) are responsible for immune defence against pathogens.",
+    "subject": "Biology",
+    "chapter": "Blood Components",
+    "topic": "Functions of blood cells",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1027
+  },
+  {
+    "question_text": "What does sphygmomanometer measure?",
+    "options": {
+      "A": "Blood pressure",
+      "B": "Velocity of fluids",
+      "C": "Temperature",
+      "D": "Curvature of spherical surfaces"
+    },
+    "correct_answer": "A",
+    "explanation": "A sphygmomanometer is a medical device used to measure arterial blood pressure.",
+    "subject": "Biology",
+    "chapter": "Medical Instruments",
+    "topic": "Blood pressure measurement",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1027
+  },
+  {
+    "question_text": "White blood cells act",
+    "options": {
+      "A": "as a defence against infection",
+      "B": "as source of energy",
+      "C": "for clotting blood",
+      "D": "as a medium for oxygen transport from lung to tissues"
+    },
+    "correct_answer": "A",
+    "explanation": "Leukocytes protect the body by identifying and destroying pathogens.",
+    "subject": "Biology",
+    "chapter": "Blood Components",
+    "topic": "Functions of white blood cells",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1027
+  },
+  {
+    "question_text": "Dim‑vision in the evening and night results from the deficiency of which one of the following?",
+    "options": {
+      "A": "Vitamin‑A",
+      "B": "Vitamin‑E",
+      "C": "Vitamin‑B12",
+      "D": "Vitamin‑C"
+    },
+    "correct_answer": "A",
+    "explanation": "Vitamin‑A deficiency impairs the synthesis of rhodopsin in rod cells, leading to night blindness (nyctalopia).",
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "topic": "Vision – Night Blindness",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1028
+  },
+  {
+    "question_text": "Human ear ossicles are",
+    "options": {
+      "A": "incus and stapes",
+      "B": "stapes",
+      "C": "incus, malleus and stapes",
+      "D": "incus and malleus"
+    },
+    "correct_answer": "C",
+    "explanation": "The three ossicles of the middle ear are the malleus, incus, and stapes, forming a chain that transmits sound vibrations.",
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "topic": "Auditory System – Ossicles",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1028
+  },
+  {
+    "question_text": "In neurons, action potential is produced due to",
+    "options": {
+      "A": "Ca2+",
+      "B": "K+",
+      "C": "Mn+",
+      "D": "Na+"
+    },
+    "correct_answer": "D",
+    "explanation": "An action potential is initiated by a rapid influx of Na⁺ through voltage‑gated sodium channels, causing depolarisation of the neuronal membrane.",
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "topic": "Nervous System – Action Potential",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1028
+  },
+  {
+    "question_text": "Sensitive pigment layer of eye is",
+    "options": {
+      "A": "sclerotic",
+      "B": "retina",
+      "C": "cornea",
+      "D": "None of these"
+    },
+    "correct_answer": "B",
+    "explanation": "The retina is the innermost layer of the eye that contains photoreceptor cells (rods and cones) with light‑sensitive pigments.",
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "topic": "Vision – Retina",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1028
+  },
+  {
+    "question_text": "The largest cell in the human body is",
+    "options": {
+      "A": "nerve cell",
+      "B": "muscle cell",
+      "C": "liver cell",
+      "D": "kidney cell"
+    },
+    "correct_answer": "A",
+    "explanation": "Among somatic cells, neurons (especially motor neurons) are the largest due to their long axons. The ovum is larger but is not listed.",
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "topic": "Cell Biology – Largest Cells",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1028
+  },
+  {
+    "question_text": "The cavity present in the Graafian follicle is",
+    "options": {
+      "A": "amniotic cavity",
+      "B": "archenteron",
+      "C": "antrum",
+      "D": "ostium"
+    },
+    "correct_answer": "C",
+    "explanation": "The mature Graafian follicle contains a fluid‑filled cavity called the **antrum**.",
+    "subject": "Biology",
+    "chapter": "Reproductive System",
+    "topic": "Graafian Follicle",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1029
+  },
+  {
+    "question_text": "Testosterone is secreted by",
+    "options": {
+      "A": "Leydig’s cells",
+      "B": "Sertoli cells",
+      "C": "corpus luteum",
+      "D": "oxyntic cells"
+    },
+    "correct_answer": "A",
+    "explanation": "Leydig cells in the testes synthesize and secrete testosterone under LH stimulation.",
+    "subject": "Biology",
+    "chapter": "Endocrine System",
+    "topic": "Testosterone Secretion",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1029
+  },
+  {
+    "question_text": "Why are pregnant women recommended substantial intake of green leafy vegetables in their diet, especially in the 1st trimester?",
+    "options": {
+      "A": "They are a rich source of chlorophyll",
+      "B": "They are a rich source of lecithin",
+      "C": "They are a rich source of folic acid which is required for DNA synthesis",
+      "D": "They are a rich source of essential fatty acids required for cell anabolism"
+    },
+    "correct_answer": "C",
+    "explanation": "Green leafy vegetables provide high amounts of **folic acid (vitamin B9)**, essential for DNA synthesis and preventing neural‑tube defects in early pregnancy.",
+    "subject": "Nutrition",
+    "chapter": "Micronutrients",
+    "topic": "Green Leafy Vegetables in Pregnancy",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1029
+  },
+  {
+    "question_text": "Which one among the following statements is correct?",
+    "options": {
+      "A": "All proteins are enzymes",
+      "B": "All enzymes are proteins",
+      "C": "None of the enzymes is protein",
+      "D": "None of the proteins is enzyme"
+    },
+    "correct_answer": "B",
+    "explanation": "The majority of enzymes are proteins, although a few RNA molecules (ribozymes) also have catalytic activity. In standard biology exams the accepted answer is **All enzymes are proteins**.",
+    "subject": "Biochemistry",
+    "chapter": "Proteins and Enzymes",
+    "topic": "Relationship Between Proteins and Enzymes",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1029
+  },
+  {
+    "question_text": "Which one among the following is the correct pathway for the elimination of urine?",
+    "options": {
+      "A": "Kidneys, ureters, bladder, urethra",
+      "B": "Kidneys, urethra, bladder, ureters",
+      "C": "Urethra, ureters, bladder, kidneys",
+      "D": "Bladder, ureters, kidneys, urethra"
+    },
+    "correct_answer": "A",
+    "explanation": "Urine is produced in the kidneys, travels through the ureters to the bladder for storage, and is expelled via the urethra.",
+    "subject": "Biology",
+    "chapter": "Urinary System",
+    "topic": "Urine Elimination Pathway",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1030
+  },
+  {
+    "question_text": "Assertion (A): During indigestion, milk of magnesia is taken to get rid of the stomach pain.\nReason (R): Milk of magnesia is a base and it neutralises the excess acid in the stomach.",
+    "options": {
+      "A": "Both A and R are true and R is the correct explanation of A",
+      "B": "Both A and R are true, but R is not the correct explanation of A",
+      "C": "A is true, but R is false",
+      "D": "A is false, but R is true"
+    },
+    "correct_answer": "A",
+    "explanation": "Milk of magnesia is an alkaline antacid; it neutralises excess gastric acid, relieving pain caused by indigestion.",
+    "subject": "Biology",
+    "chapter": "Digestive System",
+    "topic": "Antacids",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1030
+  },
+  {
+    "question_text": "In human digestive system, the process of digestion starts in",
+    "options": {
+      "A": "oesophagus",
+      "B": "buccal cavity",
+      "C": "duodenum",
+      "D": "stomach"
+    },
+    "correct_answer": "B",
+    "explanation": "Mechanical breakdown and enzymatic action (salivary amylase) begin in the buccal cavity (mouth).",
+    "subject": "Biology",
+    "chapter": "Digestive System",
+    "topic": "Start of Digestion",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1030
+  },
+  {
+    "question_text": "Which one among the following structures or cells is not present in connective tissues?",
+    "options": {
+      "A": "Chondrocytes",
+      "B": "Axon",
+      "C": "Collagen fibre",
+      "D": "Lymphocytes"
+    },
+    "correct_answer": "B",
+    "explanation": "Connective tissue contains chondrocytes, collagen fibres, and lymphocytes, but axons (nerve fibers) belong to nervous tissue.",
+    "subject": "Biology",
+    "chapter": "Connective Tissue",
+    "topic": "Cellular Components",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1030
+  },
+  {
+    "question_text": "Which one among the following statements is not true for mammals?",
+    "options": {
+      "A": "They possess hairs on the body",
+      "B": "Some of them lay eggs",
+      "C": "Their heart is three-chambered",
+      "D": "Some are aquatic"
+    },
+    "correct_answer": "C",
+    "explanation": "Mammals have a four‑chambered heart; a three‑chambered heart is characteristic of reptiles and amphibians.",
+    "subject": "Biology",
+    "chapter": "Mammalogy",
+    "topic": "General Characteristics",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1030
+  },
+  {
+    "question_text": "Neutrophils and lymphocytes originate from",
+    "options": {
+      "A": "kidney tubule",
+      "B": "spleen",
+      "C": "bone marrow",
+      "D": "lymph node"
+    },
+    "correct_answer": "C",
+    "explanation": "Both neutrophils and lymphocytes are derived from hematopoietic stem cells in the bone marrow.",
+    "subject": "Biology",
+    "chapter": "Hematology",
+    "topic": "Leukocyte Development",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1030
+  },
+  {
+    "question_text": "Absorption of water in the human body can be found in\n1. renal tubule in kidney.\n2. hepatic cells in liver.\n3. large intestine.\n4. pancreatic duct.\nSelect the correct answer using the codes given below:",
+    "options": {
+      "A": "1, 2 and 3",
+      "B": "1 and 3",
+      "C": "2 and 4",
+      "D": "Only 3"
+    },
+    "correct_answer": "B",
+    "explanation": "Significant water reabsorption occurs in the renal tubules of the kidney and in the large intestine; the liver and pancreatic duct are not major sites for water absorption.",
+    "subject": "Biology",
+    "chapter": "Physiology",
+    "topic": "Water Absorption",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1030
+  },
+  {
+    "question_text": "Cobalt is associated with",
+    "options": {
+      "A": "growth hormone",
+      "B": "vitamin-B12",
+      "C": "haemoglobin",
+      "D": "intestinal enzymes"
+    },
+    "correct_answer": "B",
+    "explanation": "Cobalt is a central component of vitamin B12 (cobalamin), essential for DNA synthesis and red blood cell formation.",
+    "subject": "Biology",
+    "chapter": "Micronutrients",
+    "topic": "Trace Elements",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1030
+  },
+  {
+    "question_text": "Match the following Columns.\nColumn I (Scientist)\nColumn II (Work)\nA. F. G. Banting\nB. J. Lister\nC. Louis Pasteur\nD. E. Jenner\nCodes:\n(a) 4 3 2 1\n(b) 4 2 1 3\n(c) 3 4 2 1\n(d) 1 4 3 2",
+    "options": {
+      "A": "4 3 2 1",
+      "B": "4 2 1 3",
+      "C": "3 4 2 1",
+      "D": "1 4 3 2"
+    },
+    "correct_answer": "A",
+    "explanation": "FG Banting discovered insulin (4). J Lister introduced carbolic acid as an antiseptic (3). Louis Pasteur formulated the germ theory (2). Edward Jenner developed smallpox vaccination (1). Hence the correct code sequence is 4‑3‑2‑1, option (a).",
+    "subject": "General Science",
+    "chapter": "Scientists and Their Discoveries",
+    "topic": "Contributions of Notable Scientists",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1031
+  },
+  {
+    "question_text": "Which of the following diseases are preventable by vaccine?\n1. Tetanus\n2. Polio\n3. Leprosy\n4. Pertussis\nSelect the correct answer using the codes given below:",
+    "options": {
+      "A": "1 and 3",
+      "B": "2 and 4",
+      "C": "1, 2 and 4",
+      "D": "All of these"
+    },
+    "correct_answer": "D",
+    "explanation": "Vaccines exist for tetanus, polio, leprosy (BCG provides partial protection), and pertussis. Therefore all listed diseases are vaccine‑preventable.",
+    "subject": "General Science",
+    "chapter": "Vaccines and Preventable Diseases",
+    "topic": "Vaccine‑Preventable Diseases",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1031
+  },
+  {
+    "question_text": "Which one of the following causes the chikungunya disease?",
+    "options": {
+      "A": "Bacteria",
+      "B": "Helminthic worm",
+      "C": "Protozoan",
+      "D": "Virus"
+    },
+    "correct_answer": "D",
+    "explanation": "Chikungunya is caused by the chikungunya virus, an RNA virus of the *Alphavirus* genus.",
+    "subject": "General Science",
+    "chapter": "Infectious Agents",
+    "topic": "Cause of Chikungunya",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1031
+  },
+  {
+    "question_text": "Match the following Columns.\nColumn I (Vaccines)\nColumn II (Diseases)\nA. BCG vaccine\nB. BPL vaccine\nC. Chloroquine\nD. Penicillin\nCodes:\n(a) 3 4 1 2\n(b) 3 4 2 1\n(c) 4 3 2 1\n(d) 4 3 1 2",
+    "options": {
+      "A": "3 4 1 2",
+      "B": "3 4 2 1",
+      "C": "4 3 2 1",
+      "D": "4 3 1 2"
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1031
+  },
+  {
+    "question_text": "Cancer is more common in older people because",
+    "options": {
+      "A": "their immune systems have degenerated",
+      "B": "the supply of certain hormones declines with age",
+      "C": "their bodies are unable to adjust to the changing environment",
+      "D": "they have accumulated more mutations"
+    },
+    "correct_answer": "D",
+    "explanation": "With advancing age, cells acquire more DNA damage and mutations. The accumulation of oncogenic mutations over time is the main reason for the higher incidence of cancer in older individuals.",
+    "subject": "Biology",
+    "chapter": "Cancer Biology",
+    "topic": "Age‑related incidence",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1032
+  },
+  {
+    "question_text": "Consider the following statements regarding antibiotics.\n1. They are used to destroy disease‑causing bacteria.\n2. They can be applied to the skin, swallowed or injected to fight microorganisms inside the body.\n3. They are effective against disease‑causing viruses.\n4. The first antibiotic to be discovered was tetracycline.\nWhich of the statement(s) given above is/are correct?",
+    "options": {
+      "A": "1 and 2",
+      "B": "1, 2 and 4",
+      "C": "Only 1",
+      "D": "2, 3 and 4"
+    },
+    "correct_answer": "A",
+    "explanation": "Statements 1 and 2 are true. Antibiotics do **not** work against viruses (statement 3 false) and the first antibiotic discovered was **penicillin**, not tetracycline (statement 4 false). Hence option A is correct.",
+    "subject": "Biology",
+    "chapter": "Microbiology",
+    "topic": "Antibiotics – basic facts",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1032
+  },
+  {
+    "question_text": "Which one of the following diseases in humans can spread through air?",
+    "options": {
+      "A": "Dengue",
+      "B": "Tuberculosis",
+      "C": "HIV‑AIDS",
+      "D": "Goitre"
+    },
+    "correct_answer": "B",
+    "explanation": "Tuberculosis is transmitted via aerosolised droplets expelled when an infected person coughs or sneezes, making it an airborne disease.",
+    "subject": "Biology",
+    "chapter": "Infectious Diseases",
+    "topic": "Air‑borne transmission",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1032
+  },
+  {
+    "question_text": "The word ‘vaccination’ has been derived from a Latin word which relates to",
+    "options": {
+      "A": "pig",
+      "B": "horse",
+      "C": "cow",
+      "D": "dog"
+    },
+    "correct_answer": "C",
+    "explanation": "‘Vaccination’ comes from the Latin *vacca* meaning **cow**, reflecting Edward Jenner’s use of cow‑pox material to protect against smallpox.",
+    "subject": "Biology",
+    "chapter": "Immunology",
+    "topic": "Etymology of vaccination",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1032
+  },
+  {
+    "question_text": "Measles is a disease caused by",
+    "options": {
+      "A": "bacteria",
+      "B": "virus",
+      "C": "protozoan",
+      "D": "worm"
+    },
+    "correct_answer": "B",
+    "explanation": "Measles is caused by the measles virus, a single‑stranded, negative‑sense RNA virus of the *Paramyxoviridae* family.",
+    "subject": "Biology",
+    "chapter": "Virology",
+    "topic": "Measles causative agent",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1032
+  },
+  {
+    "question_text": "The mandate of the scheme entitled ‘Directly Observed Treatment, Short‑Course (DOTS)’ launched by WHO is to ensure that",
+    "options": {
+      "A": "doctors treat patients with medicine for a short duration",
+      "B": "doctors do not start treatment without a trial",
+      "C": "patients complete their course of drug",
+      "D": "patients voluntarily take vaccines"
+    },
+    "correct_answer": "C",
+    "explanation": "DOTS aims to guarantee that patients **complete the full course of anti‑TB medication** under direct observation, preventing drug resistance and relapse.",
+    "subject": "Public Health",
+    "chapter": "Tuberculosis Control Programs",
+    "topic": "DOTS objectives",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1032
+  },
+  {
+    "question_text": "Penicillin inhibits synthesis of bacterial",
+    "options": {
+      "A": "cell wall",
+      "B": "protein",
+      "C": "RNA",
+      "D": "DNA"
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1032
+  },
+  {
+    "question_text": "Which among the following statements about biofertilisers are correct?\n1. Azotobacter is one of the nitrogen-fixing bacteria used as a biofertiliser.\n2. They have to be applied to the leaves of the plant only.\n3. They alter the chemical composition of the soil.\n4. They can be used along with organic fertilisers.",
+    "options": {
+      "A": "1 and 4",
+      "B": "1, 2 and 4",
+      "C": "2 and 3",
+      "D": "All of these"
+    },
+    "correct_answer": "A",
+    "explanation": "Azotobacter (statement 1) and the ability to be used with organic fertilisers (statement 4) are true. Biofertilisers are applied to soil, not only to leaves, so statement 2 is false. While they improve nutrient availability, the exam expects statement 3 to be considered false, making only 1 and 4 correct.",
+    "subject": "General Knowledge",
+    "chapter": "Agriculture",
+    "topic": "Biofertilisers",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1033
+  },
+  {
+    "question_text": "Which one of the following is not biodegradable?",
+    "options": {
+      "A": "Woollen mat",
+      "B": "Silver foil",
+      "C": "Leather bag",
+      "D": "Jute basket"
+    },
+    "correct_answer": "B",
+    "explanation": "Silver foil is a metal and does not decompose by microbial action, unlike wool, leather, and jute which are organic materials.",
+    "subject": "General Knowledge",
+    "chapter": "Environment",
+    "topic": "Biodegradability",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1033
+  },
+  {
+    "question_text": "Which one of the following plants is used for green manuring in India?",
+    "options": {
+      "A": "Wheat",
+      "B": "Sunnhemp",
+      "C": "Cotton",
+      "D": "Rice"
+    },
+    "correct_answer": "B",
+    "explanation": "Sunnhemp (*Crotalaria juncea*) is a fast‑growing legume widely cultivated as a green manure crop because it adds nitrogen and organic matter to the soil.",
+    "subject": "General Knowledge",
+    "chapter": "Agriculture",
+    "topic": "Green Manuring",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1033
+  },
+  {
+    "question_text": "Which among the following are the most important raw materials for manufacturing of soap?",
+    "options": {
+      "A": "Fats and caustic alkali",
+      "B": "Fats and potash",
+      "C": "Fats and acid",
+      "D": "Vegetable oil and potash"
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1033
+  },
+  {
+    "question_text": "Who led the migration of Jains to the Deccan after Mahavira's death?",
+    "options": {
+      "A": "Bhadrabahu",
+      "B": "Parshvanatha",
+      "C": "Mahavira",
+      "D": "Chandragupta Maurya"
+    },
+    "correct_answer": "A",
+    "explanation": "Bhadrabahu guided a group of Jains to the Deccan during a severe famine after Mahavira’s death.",
+    "subject": "Jainism",
+    "chapter": "History",
+    "topic": "Migration after Mahavira's death",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1045
+  },
+  {
+    "question_text": "How many Tirthankaras are there in Jainism?",
+    "options": {
+      "A": "12",
+      "B": "24",
+      "C": "108",
+      "D": "36"
+    },
+    "correct_answer": "B",
+    "explanation": "Jain tradition recognizes a total of 24 Tirthankaras, with Mahavira being the 24th.",
+    "subject": "Jainism",
+    "chapter": "Tirthankaras",
+    "topic": "List and Symbols",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1045
+  },
+  {
+    "question_text": "Which of the following is NOT one of the three Ratnas (Way of Nirvana) in Jainism?",
+    "options": {
+      "A": "Right faith",
+      "B": "Right knowledge",
+      "C": "Right conduct",
+      "D": "Right devotion"
+    },
+    "correct_answer": "D",
+    "explanation": "The three Ratnas are Right Faith (Samyak Vishwas), Right Knowledge (Samyak Gyan), and Right Conduct (Samyak Karma). Right devotion is not part of this triad.",
+    "subject": "Jainism",
+    "chapter": "Philosophy",
+    "topic": "Three Ratnas (Way of Nirvana)",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1045
+  },
+  {
+    "question_text": "Which principle was added by Mahavira to the original four principles given by Parshvanatha?",
+    "options": {
+      "A": "Ahimsa (non‑injury)",
+      "B": "Satya (non‑lying)",
+      "C": "Aparigraha (non‑possession)",
+      "D": "Brahmacharya (continency)"
+    },
+    "correct_answer": "D",
+    "explanation": "Parshvanatha taught the first four vows (Ahimsa, Satya, Aparigraha, Asteya). Mahavira later added the fifth vow, Brahmacharya.",
+    "subject": "Jainism",
+    "chapter": "Ethics",
+    "topic": "Five Main Teachings",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1045
+  },
+  {
+    "question_text": "What is the emblem/symbol associated with Tirthankara Mahavira?",
+    "options": {
+      "A": "Lion",
+      "B": "Elephant",
+      "C": "Bull",
+      "D": "Boar"
+    },
+    "correct_answer": "A",
+    "explanation": "Mahavira’s emblem is the **lion**, distinguishing his statues and iconography from other Tirthankaras.",
+    "subject": "Jainism",
+    "chapter": "Tirthankaras",
+    "topic": "Tirthankara Symbols",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1045
+  },
+  {
+    "question_text": "Read the following statements with reference to the 6th century to 4th century BC.\n1. The Mahajanapadas bear the names of the dominant Kshatriya lineage in most cases.\n2. People in the 6th century BC did not know the use of iron.\n3. By the 6th century BC a class of free peasants and merchants had emerged.\n4. Private property in the form of animals, land and its produce had emerged by the 6th century BC.\nWhich of the statement(s) given above is/are correct?",
+    "options": {
+      "A": "Only 2",
+      "B": "3 and 4",
+      "C": "1, 2 and 4",
+      "D": "Only 4"
+    },
+    "correct_answer": "B",
+    "explanation": "Statement 1 is inaccurate because Mahajanapadas were named after tribal groups, not specifically Kshatriya lineages. Statement 2 is false; iron was already in use by the 6th century BC. Statements 3 and 4 correctly describe the emergence of free peasants/merchants and private property. Hence option B (3 and 4) is correct.",
+    "subject": "History",
+    "chapter": "Ancient India",
+    "topic": "Mahajanapadas – Socio‑economic features",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1055
+  },
+  {
+    "question_text": "Consider the following statements with regard to the Vedic texts.\n1. Brahmanas deal with metaphysical problems.\n2. Upanishad deal with methods of performing Vedic rituals.\n3. Atharva Veda documents folk tradition.\n4. Rig Veda carries linguistic similarities with the Avesta.\nWhich of the statements given above are correct?",
+    "options": {
+      "A": "1 and 2",
+      "B": "2 and 3",
+      "C": "3 and 4",
+      "D": "All of these"
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1055
+  },
+  {
+    "question_text": "Mahavir Swami belonged to which clan?",
+    "options": {
+      "A": "Kosala",
+      "B": "Huna",
+      "C": "Jantriak",
+      "D": "Sakya"
+    },
+    "correct_answer": "D",
+    "explanation": "Mahavira, the 24th Jain Tirthankara, was born into the Sakya clan.",
+    "subject": "History",
+    "chapter": "Ancient Indian History",
+    "topic": "Mahavira's Clan",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1059
+  },
+  {
+    "question_text": "Match the following (Places of Historical Monuments) with the country they are located in.\nList I:\nA. Angkorwat\nB. Borobudur\nC. Barmiyan\nD. Anuradhapuram\nList II:\n1. Afghanistan\n2. Sri Lanka\n3. Java\n4. Cambodia\n5. Nepal",
+    "options": {
+      "A": "2 3 4 1",
+      "B": "4 3 1 2",
+      "C": "3 4 1 3",
+      "D": "5 4 3 1"
+    },
+    "correct_answer": "B",
+    "explanation": "Angkor Wat → Cambodia (4), Borobudur → Java (3), Barmiyan (Bamiyan) → Afghanistan (1), Anuradhapuram → Sri Lanka (2). Hence the code 4‑3‑1‑2 corresponds to option B.",
+    "subject": "History",
+    "chapter": "World Heritage Sites",
+    "topic": "Geographical Locations of Monuments",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1059
+  },
+  {
+    "question_text": "Arrange the following events in chronological order.\n1. Reign of Kanishka\n2. Visit of Hieun Tsang\n3. Alexander’s invasion\n4. Ashoka’s Kalinga War",
+    "options": {
+      "A": "2, 1, 3, 4",
+      "B": "1, 3, 4, 2",
+      "C": "3, 4, 1, 2",
+      "D": "3, 4, 2, 1"
+    },
+    "correct_answer": "C",
+    "explanation": "Alexander’s invasion (326 BCE) → Ashoka’s Kalinga War (261 BCE) → Reign of Kanishka (c. 127‑150 CE) → Visit of Hieun Tsang (c. 630 CE). Hence the order is 3‑4‑1‑2.",
+    "subject": "History",
+    "chapter": "Ancient Indian History",
+    "topic": "Chronology of Major Events",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1060
+  },
+  {
+    "question_text": "Match the following:\nList I: A. Hinduism, B. Jainism, C. Buddhism, D. Islam\nList II: 1. Eight Fold Path, 2. Monotheism, 3. Divinity, 4. Three Fold Path",
+    "options": {
+      "A": "2 1 / 4 3",
+      "B": "2 4 / 1 3",
+      "C": "3 4 / 1 2",
+      "D": "3 4 / 2 1"
+    },
+    "correct_answer": "C",
+    "explanation": "Hinduism – Divinity (3); Jainism – Three Fold Path (4); Buddhism – Eight Fold Path (1); Islam – Monotheism (2). The matching 3‑4‑1‑2 corresponds to option (c).",
+    "subject": "Religion",
+    "chapter": "World Religions",
+    "topic": "Core Doctrines",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1060
+  },
+  {
+    "question_text": "Consider the following statement(s) related to life events of Buddha. Which is incorrect?\n(a) Buddha was born at Lumbini and he was younger contemporary of Mahavira.\n(b) Buddha got enlightenment under Peepal tree at Bodh Gaya.\n(c) Buddha delivered his first Sermon at Rajgir.\n(d) Death of Buddha or Mahaparinirvana took place at Kusinagar.",
+    "options": {
+      "A": "Statement (a)",
+      "B": "Statement (b)",
+      "C": "Statement (c)",
+      "D": "Statement (d)"
+    },
+    "correct_answer": "A",
+    "explanation": "Buddha (563‑483 BCE) was **older** than Mahavira (599‑527 BCE); therefore statement (a) is false. The other statements are correct.",
+    "subject": "Religion",
+    "chapter": "Buddhism",
+    "topic": "Life of Gautama Buddha",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1060
+  },
+  {
+    "question_text": "Which one among the following is not a characteristic of Rig Vedic Aryans?\n(a) They were acquainted with horses, chariots and the use of bronze\n(b) They were acquainted with the use of iron\n(c) They were acquainted with the cow, which formed the most important form of wealth\n(d) They were acquainted with the use of copper and the modern ploughshare",
+    "options": {
+      "A": "(a)",
+      "B": "(b)",
+      "C": "(c)",
+      "D": "(d)"
+    },
+    "correct_answer": "B",
+    "explanation": "Iron technology appears later, in the later Vedic period. The Rig Vedic Aryans did not use iron, making option (b) the correct choice.",
+    "subject": "History",
+    "chapter": "Rig Vedic Period",
+    "topic": "Socio‑Economic Characteristics",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1060
+  },
+  {
+    "question_text": "The earliest Buddhist literature which deal with the stories of the various birth of Buddha are",
+    "options": {
+      "A": "Vinaya pitakas",
+      "B": "Sutta pitakas",
+      "C": "Abhidhamma pitakas",
+      "D": "Jatakas"
+    },
+    "correct_answer": "D",
+    "explanation": "The **Jātakas** are collections of tales describing the previous lives of the Buddha, making them the earliest literature on his births.",
+    "subject": "Religion",
+    "chapter": "Buddhist Literature",
+    "topic": "Jātakas – Birth Stories",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1060
+  },
+  {
+    "question_text": "Consider the following statement(s) regarding Sankhya school:\n1. Sankhya does not accept the theory of rebirth or transmigration of soul.\n2. Sankhya holds that it is the self‑knowledge that leads to liberation and not any exterior influence or agent.\nSelect the correct answer using the codes given below.",
+    "options": {
+      "A": "Only 1",
+      "B": "Only 2",
+      "C": "Both 1 and 2",
+      "D": "Neither 1 nor 2"
+    },
+    "correct_answer": "B",
+    "explanation": "Sankhya accepts the doctrine of rebirth; it teaches that liberation (kaivalya) is attained through self‑knowledge, not through any external deity or agent.",
+    "subject": "History",
+    "chapter": "Ancient Indian Philosophy",
+    "topic": "Sankhya School",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1061
+  },
+  {
+    "question_text": "Who among the following is known to have maintained the Silk Route and trade?",
+    "options": {
+      "A": "Ashoka",
+      "B": "Kanishka",
+      "C": "Vima Kadphises",
+      "D": "Vasudeva"
+    },
+    "correct_answer": "B",
+    "explanation": "Kanishka, the Kushan emperor (c. 127‑150 CE), expanded and protected the Silk Route, fostering extensive trade between India, Central Asia and the Roman world.",
+    "subject": "History",
+    "chapter": "Ancient Indian Trade",
+    "topic": "Silk Route",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1061
+  },
+  {
+    "question_text": "The ruler of Kushan dynasty, Kanishka was the follower of",
+    "options": {
+      "A": "Jainism",
+      "B": "Hinayanism",
+      "C": "Hinduism",
+      "D": "Mahayanism"
+    },
+    "correct_answer": "D",
+    "explanation": "Kanishka was a great patron of Mahayana Buddhism, supporting its monasteries and spreading its teachings across his empire.",
+    "subject": "History",
+    "chapter": "Religions of Ancient India",
+    "topic": "Kushan Religious Patronage",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1061
+  },
+  {
+    "question_text": "The famous book ‘Brihat Katha’ was written by",
+    "options": {
+      "A": "Gunadhya",
+      "B": "Panini",
+      "C": "Sarva Varman",
+      "D": "Radhagupt"
+    },
+    "correct_answer": "A",
+    "explanation": "‘Brihat Katha’, a massive collection of romantic and adventurous tales, is attributed to the author Gunadhya.",
+    "subject": "History",
+    "chapter": "Ancient Indian Literature",
+    "topic": "Brihat Katha",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1061
+  },
+  {
+    "question_text": "Which of the following inscription are related to Satavahana period?",
+    "options": {
+      "A": "Nanaghat",
+      "B": "Nasik",
+      "C": "Paithan",
+      "D": "Both ‘a’ and ‘b’"
+    },
+    "correct_answer": "D",
+    "explanation": "Both the Nanaghat and Nasik inscriptions are dated to the Satavahana era and provide important epigraphic evidence of that dynasty.",
+    "subject": "History",
+    "chapter": "Satavahana Period",
+    "topic": "Epigraphy",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1061
+  },
+  {
+    "question_text": "Consider the following place(s):\n1. Ajanta Caves\n2. Lepakshi Temple\n3. Sanchi Stupa\nWhich of the above places is/are also known for mural paintings?",
+    "options": {
+      "A": "Only 1",
+      "B": "1 and 2",
+      "C": "All of these",
+      "D": "None of these"
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1061
+  },
+  {
+    "question_text": "The site of Harappa is located on the bank of which river?",
+    "options": {
+      "A": "Saraswati",
+      "B": "Indus",
+      "C": "Beas",
+      "D": "Ravi"
+    },
+    "correct_answer": "B",
+    "explanation": "Harappa lies on the banks of the Indus River, which provided water for agriculture and facilitated trade within the Harappan civilization.",
+    "subject": "History",
+    "chapter": "Indus Valley Civilization",
+    "topic": "Geographical Location",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1062
+  },
+  {
+    "question_text": "Ashokan inscriptions of Mansehra and Shahbazgadhi are written in:",
+    "options": {
+      "A": "Prakrit language, Kharoshthi script",
+      "B": "Prakrit language, Brahmi script",
+      "C": "Prakrit‑Aramaic language, Brahmi script",
+      "D": "Aramaic language, Kharoshthi script"
+    },
+    "correct_answer": "A",
+    "explanation": "These north‑western Ashokan edicts use the Prakrit language rendered in the Kharoshthi script, which was prevalent in the Gandhara region.",
+    "subject": "History",
+    "chapter": "Ashokan Inscriptions",
+    "topic": "Scripts and Languages",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1062
+  },
+  {
+    "question_text": "Which Chinese traveller visited the kingdoms of Harshavardhana and Kumar Bhaskar Varma?",
+    "options": {
+      "A": "I‑Tsing",
+      "B": "Fa‑Hien",
+      "C": "Hiuen Tsang",
+      "D": "Sun Shuyun"
+    },
+    "correct_answer": "B",
+    "explanation": "Fa‑Hien (Faxian) traveled to India in the early 5th century CE and recorded his observations of the courts of Harshavardhana in the north and Kumar Bhaskar Varma in Bengal.",
+    "subject": "History",
+    "chapter": "Chinese Travelers to India",
+    "topic": "Fa‑Hien",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1062
+  },
+  {
+    "question_text": "Which Indus city was known for water management?",
+    "options": {
+      "A": "Lothal",
+      "B": "Mohenjodaro",
+      "C": "Harappa",
+      "D": "Dholavira"
+    },
+    "correct_answer": "D",
+    "explanation": "Dholavira possessed an elaborate system of reservoirs, step‑wells, and rain‑water harvesting, making it the most advanced site for water management among the Indus cities.",
+    "subject": "History",
+    "chapter": "Indus Valley Cities",
+    "topic": "Water Management",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1062
+  },
+  {
+    "question_text": "Who among the following scholars were contemporary of Kanishka?\n1. Ashvaghosa\n2. Nagarjuna\n3. Vasumitra\n4. Chanakya",
+    "options": {
+      "A": "1 and 2",
+      "B": "3 and 4",
+      "C": "2 and 4",
+      "D": "1, 2 and 3"
+    },
+    "correct_answer": "A",
+    "explanation": "Both Aśvaghoṣa (poet‑philosopher) and Nagarjuna (Buddhist philosopher) lived during the reign of Emperor Kanishka (2nd century CE). Chanakya lived centuries earlier, and Vasumitra is not recognized as a contemporary figure.",
+    "subject": "History",
+    "chapter": "Kanishka’s Era",
+    "topic": "Contemporary Scholars",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1062
+  },
+  {
+    "question_text": "The polity of the Harappan people, as derived from the material evidence, was:",
+    "options": {
+      "A": "Secular‑federalist",
+      "B": "Theocratic‑federalist",
+      "C": "Oligarchic",
+      "D": "Theocratic‑unitary"
+    },
+    "correct_answer": "D",
+    "explanation": "Uniform urban planning, centralized granaries, and standardized weights suggest a centralized authority that combined religious and administrative functions, i.e., a theocratic‑unitary system.",
+    "subject": "History",
+    "chapter": "Harappan Polity",
+    "topic": "Government Type",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1062
+  },
+  {
+    "question_text": "Which one among the following is NOT true of the Silk Routes?",
+    "options": {
+      "A": "Historians have identified several silk routes over land and sea",
+      "B": "Silk routes have linked Asia with Europe and Northern Africa",
+      "C": "Silk routes existed before the Christian era and thrived almost up to the 15th century",
+      "D": "As a result of silk route trade, precious metals like gold and silver, flowed from Asia to Europe"
+    },
+    "correct_answer": "D",
+    "explanation": "Gold and silver primarily moved from Europe (and the Mediterranean) to Asia, not the other way round. Hence statement D is inaccurate.",
+    "subject": "History",
+    "chapter": "Silk Routes",
+    "topic": "Key Characteristics",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1062
+  },
+  {
+    "question_text": "Statement I: Kali age reflects the presence of deep social crisis characterised by varnasankara i.e. intermixture of varnas or social orders.\nStatement II: The Vaiśyas and Śūdras (peasants, artisans and labourers) either refused to perform producing functions or pay taxes or supply necessary labour for economic production resulting in weakening of Brahminical social order and social tension.\nWhich of the following codes is correct?",
+    "options": {
+      "A": "Both the statements are true and Statement II is the correct explanation of Statement I",
+      "B": "Both the statements are true, but Statement II is not the correct explanation of Statement I",
+      "C": "Statement I is true, but Statement II is false",
+      "D": "Statement I is false, but Statement II is true"
+    },
+    "correct_answer": "B",
+    "explanation": "Both statements accurately describe features of the Kali age, but the economic refusal by Vaiśyas and Śūdras is not the direct cause of the varṇasaṅkara social intermixture; therefore, Statement II does not explain Statement I.",
+    "subject": "History",
+    "chapter": "Medieval India",
+    "topic": "Kali Age",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1063
+  },
+  {
+    "question_text": "Among the precious stones, the most extensive foreign trade during the Gupta age was that of:",
+    "options": {
+      "A": "Diamonds",
+      "B": "Ruby",
+      "C": "Pearl",
+      "D": "Sapphire"
+    },
+    "correct_answer": "A",
+    "explanation": "Historical records and archaeological finds indicate that Indian diamonds were the major export commodity in the Gupta period, reaching markets in West Asia and the Roman world.",
+    "subject": "History",
+    "chapter": "Gupta Period",
+    "topic": "Trade in Precious Stones",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1063
+  },
+  {
+    "question_text": "Which of the following statement(s) is/are not correct about Bhakti tradition in South India?\n1. Earliest Bhakti Movements in India were led by Alvar and Nayanar saints.\n2. Naalayira Divya Prabandham, frequently described as Tamil Veda is an anthology of compositions by the Alvars.\n3. Karaikkal Ammaiyar, women Alvar saints, supported patriarchal norms.",
+    "options": {
+      "A": "1 and 2",
+      "B": "Only 3",
+      "C": "Only 2",
+      "D": "All of these"
+    },
+    "correct_answer": "B",
+    "explanation": "Statements 1 and 2 are correct. Statement 3 is incorrect because Karaikkal Ammaiyar is celebrated for her intense devotion and renunciation, not for supporting patriarchal norms.",
+    "subject": "History",
+    "chapter": "Bhakti Movement",
+    "topic": "South Indian Bhakti",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1063
+  },
+  {
+    "question_text": "Sangam literature formed a very important source for the reconstruction of the history of South India. It was written in:",
+    "options": {
+      "A": "Tamil",
+      "B": "Kannada",
+      "C": "Telugu",
+      "D": "Malayalam"
+    },
+    "correct_answer": "A",
+    "explanation": "Sangam literature is a corpus of ancient Tamil poems composed between c. 300 BCE and 300 CE, providing valuable insights into early South Indian society, polity, and culture.",
+    "subject": "History",
+    "chapter": "Ancient South India",
+    "topic": "Sangam Literature",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1063
+  },
+  {
+    "question_text": "The only inscribed stone portrait of Emperor Ashoka has been found at:",
+    "options": {
+      "A": "Sanchi",
+      "B": "Amaravati",
+      "C": "Kanaganahalli",
+      "D": "Ajanta"
+    },
+    "correct_answer": "C",
+    "explanation": "Archaeological excavations at Kanaganahalli (Karnataka) uncovered a stone portrait bearing an Ashokan inscription, the sole example of such a portrait known to date.",
+    "subject": "History",
+    "chapter": "Mauryan Empire",
+    "topic": "Ashoka's Inscriptions",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1063
+  },
+  {
+    "question_text": "Which one among the following was not an attribute of Samudragupta described in Prayag Prashasti?",
+    "options": {
+      "A": "Sharp and polished intellect",
+      "B": "Accomplished sculptor",
+      "C": "Fine musical performances",
+      "D": "Poetical talent of a genius"
+    },
+    "correct_answer": "B",
+    "explanation": "The Prayag Prashasti praises Samudragupta for his intellect, music, and poetry, but it never mentions him as an accomplished sculptor.",
+    "subject": "General Studies - History",
+    "chapter": "Ancient Indian History",
+    "topic": "Samudragupta",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1064
+  },
+  {
+    "question_text": "Kamandaka’s Nitisara is a contribution to",
+    "options": {
+      "A": "Logic and Philosophy",
+      "B": "Mathematics",
+      "C": "Political morality",
+      "D": "Grammar"
+    },
+    "correct_answer": "C",
+    "explanation": "*Nitisara* deals with statecraft, ethics of governance and diplomatic conduct, placing it squarely in the realm of political morality.",
+    "subject": "General Studies - History",
+    "chapter": "Ancient Indian History",
+    "topic": "Political Thought",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1064
+  },
+  {
+    "question_text": "The Lilavati of Bhaskara is a standard text on",
+    "options": {
+      "A": "Mathematics",
+      "B": "Surgery",
+      "C": "Poetics",
+      "D": "Linguistics"
+    },
+    "correct_answer": "A",
+    "explanation": "*Lilavati* is a celebrated medieval Indian textbook on arithmetic, algebra, geometry and number theory.",
+    "subject": "General Studies - History",
+    "chapter": "Ancient Indian History",
+    "topic": "Science & Mathematics",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1064
+  },
+  {
+    "question_text": "The Agrahara in early India was",
+    "options": {
+      "A": "the name of a village or land granted to Brahmins",
+      "B": "the garland of flowers of Agar",
+      "C": "the grant of land to officers and soldiers",
+      "D": "land of village settled by Vaishya farmers"
+    },
+    "correct_answer": "A",
+    "explanation": "An *agrahara* refers to a Brahmin settlement or land grant given by a ruler to Brahmins for religious and educational purposes.",
+    "subject": "General Studies - History",
+    "chapter": "Ancient Indian History",
+    "topic": "Land Grants",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1064
+  },
+  {
+    "question_text": "Consider the following statement(s) about votive inscriptions in the 2nd century BC:\n1. They record gifts made to religious institutions.\n2. They tell us about the idea of transference of the meritorious results of the action of one person to another person.\nWhich of the statement(s) given above is/are correct?",
+    "options": {
+      "A": "Only 1",
+      "B": "Only 2",
+      "C": "Both 1 and 2",
+      "D": "Neither 1 nor 2"
+    },
+    "correct_answer": "C",
+    "explanation": "Both statements are accurate: the inscriptions document donations and reflect the belief in the transfer of spiritual merit (*punya*) to others.",
+    "subject": "General Studies - History",
+    "chapter": "Ancient Indian History",
+    "topic": "Epigraphy",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1064
+  },
+  {
+    "question_text": "Which of the following statement(s) is/are true?\n1. Faxian’s Gaoseng Faxian Zhuan was the earliest first-hand Chinese account of Buddhist sites and practices in India.\n2. Faxian was only 25 year old at the time of writing the text.\n3. Faxian’s main aim in coming to India was to obtain and take back texts containing monastic rules.\nSelect the correct answer using the codes given below.",
+    "options": {
+      "A": "Only 3",
+      "B": "Only 2",
+      "C": "1 and 3",
+      "D": "All of these"
+    },
+    "correct_answer": "C",
+    "explanation": "Statements 1 and 3 are correct. Faxian’s travelogue is the earliest Chinese eyewitness account, and his chief purpose was to collect Buddhist Vinaya texts. He was older than 25 when he wrote the work.",
+    "subject": "General Studies - History",
+    "chapter": "Ancient Indian History",
+    "topic": "Travel Literature",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1064
+  },
+  {
+    "question_text": "Who led the third expedition that conquered Sind in AD 712?",
+    "options": {
+      "A": "Al-Hajjaj",
+      "B": "Mohammed-bin-Qasim",
+      "C": "Jaipala",
+      "D": "Anandapala"
+    },
+    "correct_answer": "B",
+    "explanation": "The third expedition, led by Mohammed-bin-Qasim, successfully captured Sind in AD 712 after two earlier failures.",
+    "subject": "History",
+    "chapter": "Muslim Invasion",
+    "topic": "Arab Conquest of Sind",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1065
+  },
+  {
+    "question_text": "Which temple was plundered by Mahmud of Ghazni in 1025?",
+    "options": {
+      "A": "Kashi Vishwanath",
+      "B": "Somnath",
+      "C": "Meenakshi",
+      "D": "Jagannath"
+    },
+    "correct_answer": "B",
+    "explanation": "Mahmud of Ghazni plundered the Somnath temple, a major Shiva shrine on the Kathiawar coast, in 1025.",
+    "subject": "History",
+    "chapter": "Muslim Invasion",
+    "topic": "Mahmud of Ghazni",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1065
+  },
+  {
+    "question_text": "How many expeditions did Mahmud of Ghazni launch between 1001 and 1027?",
+    "options": {
+      "A": "10",
+      "B": "12",
+      "C": "15",
+      "D": "17"
+    },
+    "correct_answer": "D",
+    "explanation": "Historical records state that Mahmud conducted 17 expeditions during this period.",
+    "subject": "History",
+    "chapter": "Muslim Invasion",
+    "topic": "Mahmud of Ghazni",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1065
+  },
+  {
+    "question_text": "Who was the court historian of Mahmud of Ghazni?",
+    "options": {
+      "A": "Firdausi",
+      "B": "Al Beruni",
+      "C": "Utbi",
+      "D": "Farukhi"
+    },
+    "correct_answer": "C",
+    "explanation": "Utbi served as Mahmud’s court historian and authored *Kitab‑ul‑Yamini*.",
+    "subject": "History",
+    "chapter": "Muslim Invasion",
+    "topic": "Mahmud of Ghazni",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1065
+  },
+  {
+    "question_text": "Which poet wrote the Shahnama?",
+    "options": {
+      "A": "Al Beruni",
+      "B": "Firdausi",
+      "C": "Farukhi",
+      "D": "Utbi"
+    },
+    "correct_answer": "B",
+    "explanation": "Firdausi, the Persian poet, composed the epic *Shahnama*.",
+    "subject": "History",
+    "chapter": "Muslim Invasion",
+    "topic": "Mahmud of Ghazni",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1065
+  },
+  {
+    "question_text": "Mohammed Ghori was the last Turkish conqueror of North India. True or False?",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_answer": "A",
+    "explanation": "Mohammed Ghori is historically recognized as the last major Turkish ruler to hold dominion over North India.",
+    "subject": "History",
+    "chapter": "Muslim Invasion",
+    "topic": "Mohammed Ghori",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1065
+  },
+  {
+    "question_text": "Who introduced the silver coin (tanka) and the copper coin (jital) in the Delhi Sultanate?",
+    "options": {
+      "A": "Iltutmish",
+      "B": "Razia Sultan",
+      "C": "Aibak",
+      "D": "Khwarizm Shah"
+    },
+    "correct_answer": "A",
+    "explanation": "Iltutmish introduced the silver coin *tanka* and the copper coin *jital* as part of his monetary reforms to stabilize the economy of the Delhi Sultanate.",
+    "subject": "History",
+    "chapter": "Delhi Sultanate",
+    "topic": "Coinage and Military",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1066
+  },
+  {
+    "question_text": "Which ruler is known as the father of tomb building and completed the Qutub Minar?",
+    "options": {
+      "A": "Iltutmish",
+      "B": "Razia Sultan",
+      "C": "Bahram Shah",
+      "D": "Ala‑ud‑din Masud Shah"
+    },
+    "correct_answer": "A",
+    "explanation": "Iltutmish is credited with building Sultan Garhi and completing the Qutub Minar, earning him the title of the father of tomb building.",
+    "subject": "History",
+    "chapter": "Delhi Sultanate",
+    "topic": "Architecture",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1066
+  },
+  {
+    "question_text": "Who was the first and last Muslim woman ruler of medieval India?",
+    "options": {
+      "A": "Razia Sultan",
+      "B": "Aisha",
+      "C": "Khadija",
+      "D": "Fatima"
+    },
+    "correct_answer": "A",
+    "explanation": "Razia Sultan was the only Muslim woman to rule the Delhi Sultanate, making her both the first and last female ruler of that period.",
+    "subject": "History",
+    "chapter": "Delhi Sultanate",
+    "topic": "Reign and Legacy",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1066
+  },
+  {
+    "question_text": "Which governor of Lahore raised the first rebellion against Razia Sultan?",
+    "options": {
+      "A": "Kabir Khan",
+      "B": "Altunia",
+      "C": "Bahram Shah",
+      "D": "Nasir‑ud‑din"
+    },
+    "correct_answer": "A",
+    "explanation": "Kabir Khan, the Governor of Lahore, was the first to rebel against Razia Sultan’s authority.",
+    "subject": "History",
+    "chapter": "Delhi Sultanate",
+    "topic": "Reign and Legacy",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1066
+  },
+  {
+    "question_text": "What was the name of the group of forty powerful Turkish nobles known as Turkan‑i‑Chalgani?",
+    "options": {
+      "A": "Turkan‑i‑Chalgani",
+      "B": "Forty Noble Families",
+      "C": "Forty Slave Officers",
+      "D": "Forty Merchants"
+    },
+    "correct_answer": "A",
+    "explanation": "The group of forty powerful Turkish nobles was officially called *Turkan‑i‑Chalgani* or *Chalisa*.",
+    "subject": "History",
+    "chapter": "Delhi Sultanate",
+    "topic": "Governance and Administration",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1066
+  },
+  {
+    "question_text": "Which officer was responsible for controlling markets under Ala‑ud‑din Khilji?",
+    "options": {
+      "A": "Shahna‑i‑Mandi",
+      "B": "Naib‑i‑Riyasat",
+      "C": "Munhiyas",
+      "D": "Diwani Riyasat"
+    },
+    "correct_answer": "A",
+    "explanation": "The markets were supervised by an officer titled Shahna‑i‑Mandi.",
+    "subject": "History",
+    "chapter": "Delhi Sultanate",
+    "topic": "Market Reforms",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1067
+  },
+  {
+    "question_text": "Which of the following was introduced by Ala‑ud‑din Khilji?",
+    "options": {
+      "A": "Dagh system",
+      "B": "Huliya",
+      "C": "Cash payment to soldiers",
+      "D": "All of the above"
+    },
+    "correct_answer": "D",
+    "explanation": "Ala‑ud‑din Khilji introduced the dagh system, huliya, and cash payment to soldiers.",
+    "subject": "History",
+    "chapter": "Delhi Sultanate",
+    "topic": "Land Revenue and Military Reforms",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1067
+  },
+  {
+    "question_text": "Who authored the historical works *Tarikh-i-Firozshahi* and *Fatwa-i-Jahandari*?",
+    "options": {
+      "A": "Ziauddin Barani",
+      "B": "Khizr Khan",
+      "C": "Bahlol Lodhi",
+      "D": "Timur"
+    },
+    "correct_answer": "A",
+    "explanation": "Ziauddin Barani was a court historian of the Delhi Sultanate and wrote *Tarikh-i-Firozshahi* and *Fatwa-i-Jahandari*.",
+    "subject": "History",
+    "chapter": "Delhi Sultanate",
+    "topic": "Works of Barani",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1068
+  },
+  {
+    "question_text": "Which coin was introduced by Ziauddin Barani?",
+    "options": {
+      "A": "Adha",
+      "B": "Bikh",
+      "C": "Masnad-i-Ali",
+      "D": "None of the above"
+    },
+    "correct_answer": "A",
+    "explanation": "Barani introduced the *Adha* coin, worth 50% of a jital, as part of his monetary reforms.",
+    "subject": "History",
+    "chapter": "Delhi Sultanate",
+    "topic": "Coinage",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1068
+  },
+  {
+    "question_text": "In which year did Timur reach Delhi during his invasion?",
+    "options": {
+      "A": "1398",
+      "B": "1405",
+      "C": "1389",
+      "D": "1410"
+    },
+    "correct_answer": "A",
+    "explanation": "Timur arrived in Delhi in December 1398, initiating a campaign that devastated the city.",
+    "subject": "History",
+    "chapter": "Delhi Sultanate",
+    "topic": "Timur Invasion",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1068
+  },
+  {
+    "question_text": "Who was the founder of the Sayyid dynasty?",
+    "options": {
+      "A": "Khizr Khan",
+      "B": "Mubarak Shah",
+      "C": "Mohammed Shah",
+      "D": "Ala-ud-din Alam Shah"
+    },
+    "correct_answer": "A",
+    "explanation": "Khizr Khan, a collaborator of Timur, established the Sayyid dynasty after the fall of the Tughlaq dynasty.",
+    "subject": "History",
+    "chapter": "Delhi Sultanate",
+    "topic": "Sayyid Dynasty",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1068
+  },
+  {
+    "question_text": "Which dynasty ruled Delhi for 75 years and was of Afghan origin?",
+    "options": {
+      "A": "Sayyid",
+      "B": "Lodhi",
+      "C": "Mamluk",
+      "D": "Tughlaq"
+    },
+    "correct_answer": "B",
+    "explanation": "The Lodhi dynasty, composed of Afghan rulers, governed Delhi for 75 years following the Sayyid dynasty.",
+    "subject": "History",
+    "chapter": "Delhi Sultanate",
+    "topic": "Lodhi Dynasty",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1068
+  },
+  {
+    "question_text": "Which ruler introduced the system of auditing of accounts in the Lodhi dynasty?",
+    "options": {
+      "A": "Bahlol Lodhi",
+      "B": "Sikandar Lodhi",
+      "C": "Khizr Khan",
+      "D": "Timur"
+    },
+    "correct_answer": "B",
+    "explanation": "Sikandar Lodhi, the third ruler of the Lodhi dynasty, established an auditing system to improve fiscal management.",
+    "subject": "History",
+    "chapter": "Delhi Sultanate",
+    "topic": "Lodhi Reforms",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1068
+  },
+  {
+    "question_text": "Which mosque was built by Qutub-ud-din Aibak in Delhi?",
+    "options": {
+      "A": "Quwwat-ul-Islam Mosque",
+      "B": "Qutub Minar",
+      "C": "Alai Darwaza",
+      "D": "Jammat Khana Masjid"
+    },
+    "correct_answer": "A",
+    "explanation": "Qutub-ud-din Aibak, the first ruler of the Delhi Sultanate, commissioned the construction of the Quwwat-ul-Islam Mosque in Delhi, which is considered the first mosque built in the city.",
+    "subject": "Indian History",
+    "chapter": "Sultanate Architecture",
+    "topic": "Quwwat-ul-Islam Mosque",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1069
+  },
+  {
+    "question_text": "Who founded the Vijayanagara Empire in 1336?",
+    "options": {
+      "A": "Harihar I and Bukka I",
+      "B": "Muhammad Bin Tughlaq",
+      "C": "Alauddin Khilji",
+      "D": "Harihar I alone"
+    },
+    "correct_answer": "A",
+    "explanation": "The Vijayanagara Empire was founded by the brothers Harihar I and Bukka I in 1336, after being advised by Vidyaranya to reconvert to Hinduism.",
+    "subject": "Indian History",
+    "chapter": "Vijayanagara Empire",
+    "topic": "Founders Harihara I and Bukka I",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1069
+  },
+  {
+    "question_text": "Which fort was built by Muhammad Bin Tughlaq?",
+    "options": {
+      "A": "Tughlaqabad Fort",
+      "B": "Qutub Minar",
+      "C": "Alai Darwaza",
+      "D": "Moth ki Masjid"
+    },
+    "correct_answer": "A",
+    "explanation": "Muhammad Bin Tughlaq constructed the Tughlaqabad Fort in Delhi as part of his plan to establish a new capital for his dynasty.",
+    "subject": "Indian History",
+    "chapter": "Sultanate Architecture",
+    "topic": "Tughlaqabad Fort",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1069
+  },
+  {
+    "question_text": "Who was the prime minister of Sikandar Lodhi?",
+    "options": {
+      "A": "Wazir Miya Bhoiya",
+      "B": "Alai Darwaza",
+      "C": "Jammat Khana Masjid",
+      "D": "Tughlaqabad Fort"
+    },
+    "correct_answer": "A",
+    "explanation": "Wazir Miya Bhoiya served as the prime minister (Wazir) of Sikandar Lodhi, the last ruler of the Lodhi dynasty in Delhi.",
+    "subject": "Indian History",
+    "chapter": "Sultanate Architecture",
+    "topic": "Prime Ministers of Delhi Sultanate",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1069
+  },
+  {
+    "question_text": "Which dynasty was the Sangama Dynasty?",
+    "options": {
+      "A": "The ruling dynasty of Vijayanagara Empire",
+      "B": "The dynasty of Delhi Sultanate",
+      "C": "The dynasty of Mughal Empire",
+      "D": "The dynasty of Maratha Empire"
+    },
+    "correct_answer": "A",
+    "explanation": "The Sangama Dynasty was the first ruling dynasty of the Vijayanagara Empire, founded by Harihar I and Bukka I.",
+    "subject": "Indian History",
+    "chapter": "Vijayanagara Empire",
+    "topic": "Sangama Dynasty",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1069
+  },
+  {
+    "question_text": "Which ruler converted Harihar and Bukka to Islam?",
+    "options": {
+      "A": "Mohammed-bin-Tughlaq",
+      "B": "Vidyaranya",
+      "C": "Qutub-ud-din Aibak",
+      "D": "Alauddin Khilji"
+    },
+    "correct_answer": "A",
+    "explanation": "Mohammed-bin-Tughlaq brought Harihar and Bukka to the center, converted them to Islam, and later sent them back to South India to quell rebellion.",
+    "subject": "Indian History",
+    "chapter": "Vijayanagara Empire",
+    "topic": "Founders Harihara I and Bukka I",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1069
+  },
+  {
+    "question_text": "Which city was the capital of Harihara I?",
+    "options": {
+      "A": "Anagundi",
+      "B": "Gutti",
+      "C": "Madurai",
+      "D": "Delhi"
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1069
+  },
+  {
+    "question_text": "Who is credited with the authorship of *Mahanataka Sudhanidhi* and a commentary on the Brahma Sutras of Badarayana?",
+    "options": {
+      "A": "Deva Raya I",
+      "B": "Deva Raya II",
+      "C": "Krishna Deva Raya",
+      "D": "Narasimha Suluva"
+    },
+    "correct_answer": "B",
+    "explanation": "Deva Raya II was a scholar who authored *Mahanataka Sudhanidhi* and wrote a commentary on the Brahma Sutras, showcasing his literary prowess.",
+    "subject": "History",
+    "chapter": "Vijayanagara Empire",
+    "topic": "Patronage of Literature",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1070
+  },
+  {
+    "question_text": "Which dynasty experienced the First Usurpation in about 1485?",
+    "options": {
+      "A": "Saluva",
+      "B": "Tuluva",
+      "C": "Vijayanagara",
+      "D": "Bahmani"
+    },
+    "correct_answer": "A",
+    "explanation": "The Saluva Dynasty saw the First Usurpation when Governor Narasimha Suluva seized the throne around 1485.",
+    "subject": "History",
+    "chapter": "Vijayanagara Empire",
+    "topic": "Political Instability",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1070
+  },
+  {
+    "question_text": "During Narasimha’s reign, who held the real power behind the throne?",
+    "options": {
+      "A": "Timma",
+      "B": "Imadi Narasimha",
+      "C": "Narsa Nayak",
+      "D": "Vira Narasimha"
+    },
+    "correct_answer": "C",
+    "explanation": "Narsa Nayak acted as the regent and wielded actual authority while Narasimha was a minor.",
+    "subject": "History",
+    "chapter": "Vijayanagara Empire",
+    "topic": "Regency",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1070
+  },
+  {
+    "question_text": "Which ruler was known as Andhra Pitamaha?",
+    "options": {
+      "A": "Deva Raya II",
+      "B": "Krishna Deva Raya",
+      "C": "Narasimha Suluva",
+      "D": "Timma"
+    },
+    "correct_answer": "B",
+    "explanation": "Krishna Deva Raya earned the title Andhra Pitamaha, reflecting his patronage of Telugu culture.",
+    "subject": "History",
+    "chapter": "Vijayanagara Empire",
+    "topic": "Cultural Titles",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1070
+  },
+  {
+    "question_text": "With which Portuguese Governor did Krishna Deva Raya maintain friendly relations?",
+    "options": {
+      "A": "Albuquerque",
+      "B": "Friar Luis",
+      "C": "Bhatkal",
+      "D": "None of the above"
+    },
+    "correct_answer": "A",
+    "explanation": "Krishna Deva Raya had cordial ties with Governor Albuquerque, who was a key figure in Portuguese-Vijayanagara diplomacy.",
+    "subject": "History",
+    "chapter": "Vijayanagara Empire",
+    "topic": "Diplomacy",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1070
+  },
+  {
+    "question_text": "What title did Krishna Deva Raya adopt that means 'restorer of the Yavana kingdom'?",
+    "options": {
+      "A": "Yavanaraja Sthapanacharya",
+      "B": "Abhinava-Bhoja",
+      "C": "Andhra Pitamaha",
+      "D": "Vira Narasimha"
+    },
+    "correct_answer": "A",
+    "explanation": "The title *Yavanaraja Sthapanacharya* signifies his role in restoring the Yavana (Bahmani) kingdom.",
+    "subject": "History",
+    "chapter": "Vijayanagara Empire",
+    "topic": "Royal Titles",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1070
+  },
+  {
+    "question_text": "Which dynasty was founded by Vira Narasimha after deposing Imadi Narasimha?",
+    "options": {
+      "A": "Saluva",
+      "B": "Tuluva",
+      "C": "Vijayanagara",
+      "D": "Bahmani"
+    },
+    "correct_answer": "B",
+    "explanation": "Vira Narasimha established the Tuluva Dynasty following the Second Usurpation in 1505.",
+    "subject": "History",
+    "chapter": "Vijayanagara Empire",
+    "topic": "Dynastic Succession",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1070
+  },
+  {
+    "question_text": "Which mosque was constructed in Vijayanagara during Deva Raya II’s reign?",
+    "options": {
+      "A": "Mosque of Deva Raya",
+      "B": "Mosque of Saluva",
+      "C": "Mosque of Tuluva",
+      "D": "None of the above"
+    },
+    "correct_answer": "A",
+    "explanation": "Deva Raya II ordered the construction of a mosque in Vijayanagara and placed a copy of the Quran before his throne, exemplifying religious tolerance.",
+    "subject": "History",
+    "chapter": "Vijayanagara Empire",
+    "topic": "Religious Tolerance",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1070
+  },
+  {
+    "question_text": "Which ruler built the Gol Gumbaz?",
+    "options": {
+      "A": "Yusuf Adil Shah",
+      "B": "Mohammed Adil Shah",
+      "C": "Quli Qutub Shah",
+      "D": "Ali Barid"
+    },
+    "correct_answer": "B",
+    "explanation": "Mohammed Adil Shah, a ruler of the Adilshahi dynasty, commissioned the construction of the Gol Gumbaz, a monumental mausoleum in Bijapur.",
+    "subject": "History",
+    "chapter": "Deccan Sultanates",
+    "topic": "Adilshahi",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1071
+  },
+  {
+    "question_text": "Which city was founded by Mohammed Quli Qutub Shah?",
+    "options": {
+      "A": "Hyderabad",
+      "B": "Golconda",
+      "C": "Bidar",
+      "D": "Daulatabad"
+    },
+    "correct_answer": "A",
+    "explanation": "Mohammed Quli Qutub Shah established the city of Hyderabad in 1591 and built the iconic Charminar as its centerpiece.",
+    "subject": "History",
+    "chapter": "Deccan Sultanates",
+    "topic": "Qutub Shahi",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1071
+  },
+  {
+    "question_text": "What is the term for visiting a pilgrimage site associated with a venerated figure in Islam?",
+    "options": {
+      "A": "Ziyarat",
+      "B": "Khanqah",
+      "C": "Silsila",
+      "D": "Dakhini"
+    },
+    "correct_answer": "A",
+    "explanation": "In Islamic tradition, a pilgrimage to a shrine of a revered person, such as a saint or the Prophet Muhammad, is called **Ziyarat**.",
+    "subject": "Religion",
+    "chapter": "Sufi Movements",
+    "topic": "Sufism Basics",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1071
+  },
+  {
+    "question_text": "Which dynasty was annexed by Aurangzeb in 1687?",
+    "options": {
+      "A": "Adilshahi",
+      "B": "Qutub Shahi",
+      "C": "Imad Shahi",
+      "D": "Barid Shahi"
+    },
+    "correct_answer": "B",
+    "explanation": "Aurangzeb annexed the Qutub Shahi dynasty in 1687, bringing the Golconda region under Mughal control.",
+    "subject": "History",
+    "chapter": "Deccan Sultanates",
+    "topic": "Qutub Shahi",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1071
+  },
+  {
+    "question_text": "The term \"Khanqah\" refers to:",
+    "options": {
+      "A": "A fort",
+      "B": "A pilgrimage site",
+      "C": "An abode of Sufi",
+      "D": "A dynasty"
+    },
+    "correct_answer": "C",
+    "explanation": "A **Khanqah** is a Sufi lodge or monastery where saints live, teach, and conduct spiritual gatherings.",
+    "subject": "Religion",
+    "chapter": "Sufi Movements",
+    "topic": "Khanqah",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1071
+  },
+  {
+    "question_text": "Which saint is credited with writing the *Ramcharitamanas*?",
+    "options": {
+      "A": "Surdas",
+      "B": "Tulsidas",
+      "C": "Ramdas",
+      "D": "Namdev"
+    },
+    "correct_answer": "B",
+    "explanation": "Tulsidas, a 16th‑century poet, composed the *Ramcharitamanas*, a retelling of the Ramayana in Awadhi.",
+    "subject": "Indian Religious History",
+    "chapter": "Saguna Saints",
+    "topic": "Biography and Contributions",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1072
+  },
+  {
+    "question_text": "Which saint founded the Nath monastic movement?",
+    "options": {
+      "A": "Gorakhnath",
+      "B": "Chaitanya Mahaprabhu",
+      "C": "Shankara Deva",
+      "D": "Mirabai"
+    },
+    "correct_answer": "A",
+    "explanation": "Gorakhnath is recognized as the founder of the Nath Hindu monastic movement, especially prominent in Himalayan states.",
+    "subject": "Indian Religious History",
+    "chapter": "Saguna Saints",
+    "topic": "Biography and Contributions",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1072
+  },
+  {
+    "question_text": "Which saint is known for the devotional poetry form *Abhanga*?",
+    "options": {
+      "A": "Tukaram",
+      "B": "Ramdas",
+      "C": "Eknath",
+      "D": "Namdev"
+    },
+    "correct_answer": "A",
+    "explanation": "Tukaram, a contemporary of Shivaji, is celebrated for his *Abhanga* devotional poems dedicated to Vithoba.",
+    "subject": "Indian Religious History",
+    "chapter": "Bhakti Saints of Maharashtra",
+    "topic": "Biography and Contributions",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1072
+  },
+  {
+    "question_text": "Which saint’s works include *Kavitawali* and *Vinay Patrika*?",
+    "options": {
+      "A": "Mirabai",
+      "B": "Tulsidas",
+      "C": "Surdas",
+      "D": "Chaitanya Mahaprabhu"
+    },
+    "correct_answer": "B",
+    "explanation": "Tulsidas authored several works such as *Kavitawali* and *Vinay Patrika* alongside the *Ramcharitamanas*.",
+    "subject": "Indian Religious History",
+    "chapter": "Saguna Saints",
+    "topic": "Biography and Contributions",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1072
+  },
+  {
+    "question_text": "Which saint is associated with the *Kirtan* system in Bengal?",
+    "options": {
+      "A": "Chaitanya Mahaprabhu",
+      "B": "Shankara Deva",
+      "C": "Namdev",
+      "D": "Ramdas"
+    },
+    "correct_answer": "A",
+    "explanation": "Chaitanya Mahaprabhu introduced the *Kirtan* (devotional singing) system as part of Gaudiya Vaishnavism.",
+    "subject": "Indian Religious History",
+    "chapter": "Saguna Saints",
+    "topic": "Biography and Contributions",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1072
+  },
+  {
+    "question_text": "Which saint was a blind poet from Agra and a disciple of Vallabhacharya?",
+    "options": {
+      "A": "Surdas",
+      "B": "Gorakhnath",
+      "C": "Mirabai",
+      "D": "Tulsidas"
+    },
+    "correct_answer": "A",
+    "explanation": "Surdas, a blind poet from Agra, was a disciple of Vallabhacharya and sang Krishna’s glory in *Sursagar*.",
+    "subject": "Indian Religious History",
+    "chapter": "Saguna Saints",
+    "topic": "Biography and Contributions",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1072
+  },
+  {
+    "question_text": "Which saint founded the *Ek Sharan Sampradaya*?",
+    "options": {
+      "A": "Shankara Deva",
+      "B": "Ramdas",
+      "C": "Eknath",
+      "D": "Namdev"
+    },
+    "correct_answer": "A",
+    "explanation": "Shankara Deva established the *Ek Sharan Sampradaya* (Mahapurushiya Sampradaya) and divided the universe into *Aswatantra* and *Swatantra*.",
+    "subject": "Indian Religious History",
+    "chapter": "Saguna Saints",
+    "topic": "Biography and Contributions",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1072
+  },
+  {
+    "question_text": "Which saint is known for the *Padavali* verses?",
+    "options": {
+      "A": "Mirabai",
+      "B": "Tukaram",
+      "C": "Ramdas",
+      "D": "Eknath"
+    },
+    "correct_answer": "A",
+    "explanation": "Mirabai, a princess of Merta, composed the devotional verses known as *Padavali*.",
+    "subject": "Indian Religious History",
+    "chapter": "Saguna Saints",
+    "topic": "Biography and Contributions",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1072
+  },
+  {
+    "question_text": "Which saint served as the spiritual guru of Shivaji?",
+    "options": {
+      "A": "Ramdas",
+      "B": "Tukaram",
+      "C": "Namdev",
+      "D": "Eknath"
+    },
+    "correct_answer": "A",
+    "explanation": "Ramdas was the spiritual mentor of Shivaji and authored the *Dashbodh* text.",
+    "subject": "Indian Religious History",
+    "chapter": "Bhakti Saints of Maharashtra",
+    "topic": "Biography and Contributions",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1072
+  },
+  {
+    "question_text": "Who founded the Mughal Empire?",
+    "options": {
+      "A": "Humayun",
+      "B": "Babur",
+      "C": "Akbar",
+      "D": "Sher Shah Suri"
+    },
+    "correct_answer": "B",
+    "explanation": "Zahir-ud-din Muhammad Babur, a Turk, founded the Mughal Empire in 1526 after defeating Ibrahim Lodhi at the First Battle of Panipat.",
+    "subject": "History",
+    "chapter": "Mughal Empire",
+    "topic": "Founding",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1073
+  },
+  {
+    "question_text": "Which battle marked Babur's victory over Ibrahim Lodhi?",
+    "options": {
+      "A": "Battle of Khanwa",
+      "B": "Battle of Chausa",
+      "C": "Battle of Panipat",
+      "D": "Battle of Ghaghra"
+    },
+    "correct_answer": "C",
+    "explanation": "The First Battle of Panipat in 1526 was where Babur defeated Ibrahim Lodhi, establishing Mughal control over northern India.",
+    "subject": "History",
+    "chapter": "Mughal Empire",
+    "topic": "Early Battles",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1073
+  },
+  {
+    "question_text": "Which military technology did Babur introduce to India?",
+    "options": {
+      "A": "Archery",
+      "B": "Gunpowder and artillery",
+      "C": "Siege towers",
+      "D": "Crossbows"
+    },
+    "correct_answer": "B",
+    "explanation": "Babur brought gunpowder and artillery, weapons that were becoming common in Europe and Turkey, into Indian warfare.",
+    "subject": "History",
+    "chapter": "Mughal Empire",
+    "topic": "Military Innovations",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1073
+  },
+  {
+    "question_text": "Who defeated Humayun at the Battle of Chausa?",
+    "options": {
+      "A": "Akbar",
+      "B": "Sher Shah Suri",
+      "C": "Rana Sangram Singh",
+      "D": "Mahmud Lodhi"
+    },
+    "correct_answer": "B",
+    "explanation": "Sher Shah Suri defeated Humayun at the Battle of Chausa in 1539, leading to Humayun's temporary loss of the empire.",
+    "subject": "History",
+    "chapter": "Mughal Empire",
+    "topic": "Humayun's Reign",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1073
+  },
+  {
+    "question_text": "What was the name of Humayun's second capital?",
+    "options": {
+      "A": "Dinpanah",
+      "B": "Sher Mandal",
+      "C": "Kabul",
+      "D": "Amarkot"
+    },
+    "correct_answer": "A",
+    "explanation": "Humayun built Dinpanah at Delhi as his second capital after the loss of his first capital.",
+    "subject": "History",
+    "chapter": "Mughal Empire",
+    "topic": "Humayun's Reign",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1073
+  },
+  {
+    "question_text": "At what age did Akbar ascend to the throne?",
+    "options": {
+      "A": "10",
+      "B": "13",
+      "C": "15",
+      "D": "18"
+    },
+    "correct_answer": "B",
+    "explanation": "Akbar became emperor at the age of 13 after the death of his father Humayun in 1556.",
+    "subject": "History",
+    "chapter": "Mughal Empire",
+    "topic": "Akbar's Early Life",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1073
+  },
+  {
+    "question_text": "Which title did Akbar’s eldest son Salim adopt upon ascending the Mughal throne?",
+    "options": {
+      "A": "Shah‑Jahan",
+      "B": "Nur‑ud‑din Mohammed Jahangir",
+      "C": "Pad‑Shah Begum",
+      "D": "I’timad‑ud‑Daulah"
+    },
+    "correct_answer": "B",
+    "explanation": "Salim adopted the title *Nur‑ud‑din Mohammed Jahangir* when he became emperor in 1605.",
+    "subject": "History",
+    "chapter": "Mughal Empire",
+    "topic": "Jahangir's Reign",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1074
+  },
+  {
+    "question_text": "Which Mughal emperor was known for his political influence through the title *Pad‑Shah Begum*?",
+    "options": {
+      "A": "Akbar",
+      "B": "Jahangir",
+      "C": "Nur Jahan",
+      "D": "Shah Jahan"
+    },
+    "correct_answer": "C",
+    "explanation": "Nur Jahan held the title *Pad‑Shah Begum* and had significant political influence during Jahangir’s reign.",
+    "subject": "History",
+    "chapter": "Mughal Empire",
+    "topic": "Nur Jahan’s Influence",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1074
+  },
+  {
+    "question_text": "Which military campaign was disrupted due to the division between Pro‑Nur Jahan and Anti‑Nur Jahan factions?",
+    "options": {
+      "A": "Conquest of Kangra",
+      "B": "Recovery of Kandahar",
+      "C": "Battle of Mewar",
+      "D": "Siege of Ahmednagar"
+    },
+    "correct_answer": "B",
+    "explanation": "The internal court conflict over Nur Jahan’s influence hampered the military operation to recover Kandahar.",
+    "subject": "History",
+    "chapter": "Mughal Empire",
+    "topic": "Nur Jahan’s Influence",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1074
+  },
+  {
+    "question_text": "Who was the first English envoy to the Mughal court in 1608?",
+    "options": {
+      "A": "Sir Thomas Roe",
+      "B": "Captain Hawkins",
+      "C": "Sir William Hawkins",
+      "D": "Sir Thomas Roe"
+    },
+    "correct_answer": "B",
+    "explanation": "Captain Hawkins visited the Mughal court between 1608 and 1611, initiating English diplomatic presence.",
+    "subject": "History",
+    "chapter": "Mughal Empire",
+    "topic": "English Trade Relations",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1074
+  },
+  {
+    "question_text": "Which city did NOT host an English factory established during the early 17th century?",
+    "options": {
+      "A": "Surat",
+      "B": "Agra",
+      "C": "Ahmedabad",
+      "D": "Delhi"
+    },
+    "correct_answer": "D",
+    "explanation": "English factories were set up in Surat, Agra, Ahmedabad, and Broach, but not in Delhi during that period.",
+    "subject": "History",
+    "chapter": "Mughal Empire",
+    "topic": "English Trade Relations",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1074
+  },
+  {
+    "question_text": "Which Mughal prince conquered Kangra in 1620?",
+    "options": {
+      "A": "Jahangir",
+      "B": "Khurram",
+      "C": "Khusrau",
+      "D": "Shaharyar"
+    },
+    "correct_answer": "B",
+    "explanation": "Prince Khurram (later Shah Jahan) conquered Kangra in 1620.",
+    "subject": "History",
+    "chapter": "Mughal Empire",
+    "topic": "Jahangir's Reign",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1074
+  },
+  {
+    "question_text": "What was the relationship between Mumtaz Mahal and Khurram?",
+    "options": {
+      "A": "Sisters",
+      "B": "Wives",
+      "C": "Mother and son",
+      "D": "Unrelated"
+    },
+    "correct_answer": "B",
+    "explanation": "Mumtaz Mahal married Khurram (Shah Jahan) in 1612.",
+    "subject": "History",
+    "chapter": "Mughal Empire",
+    "topic": "Shah Jahan",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1074
+  },
+  {
+    "question_text": "Which title was awarded to Khurram after the fall of Ahmednagar in 1617?",
+    "options": {
+      "A": "Shah‑Jahan",
+      "B": "Nur‑Jahan",
+      "C": "Pad‑Shah Begum",
+      "D": "I’timad‑ud‑Daulah"
+    },
+    "correct_answer": "A",
+    "explanation": "After Ahmednagar fell, Khurram was rewarded with the title *Shah‑Jahan*.",
+    "subject": "History",
+    "chapter": "Mughal Empire",
+    "topic": "Jahangir's Reign",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1074
+  },
+  {
+    "question_text": "In which year was Shivaji Maharaj born?",
+    "options": {
+      "A": "1627",
+      "B": "1630",
+      "C": "1625",
+      "D": "1635"
+    },
+    "correct_answer": "A",
+    "explanation": "Shivaji was born in the hill fort of Shivner in 1627, as recorded in historical accounts.",
+    "subject": "History",
+    "chapter": "Marathas",
+    "topic": "Biography",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1076
+  },
+  {
+    "question_text": "Which fort did Shivaji capture in 1656?",
+    "options": {
+      "A": "Toran",
+      "B": "Raigarh",
+      "C": "Poona",
+      "D": "Purandhar"
+    },
+    "correct_answer": "A",
+    "explanation": "Shivaji captured the fort of Toran in 1656, marking the beginning of his fort‑raiding campaigns.",
+    "subject": "History",
+    "chapter": "Marathas",
+    "topic": "Military Campaigns",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1076
+  },
+  {
+    "question_text": "Who was killed by Shivaji during the encounter with Bijapur’s forces?",
+    "options": {
+      "A": "Afzal Khan",
+      "B": "Shaista Khan",
+      "C": "Muazzam",
+      "D": "Jai Singh"
+    },
+    "correct_answer": "A",
+    "explanation": "Afzal Khan, the general of Ali Adil Shah of Bijapur, was killed by Shivaji using the deadly weapon called Baghnakh.",
+    "subject": "History",
+    "chapter": "Marathas",
+    "topic": "Military Campaigns",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1076
+  },
+  {
+    "question_text": "What title did Shivaji assume after his coronation in 1674?",
+    "options": {
+      "A": "Maharaja",
+      "B": "Chhatrapati",
+      "C": "Raja",
+      "D": "King"
+    },
+    "correct_answer": "B",
+    "explanation": "After coronation, Shivaji adopted the title **Chhatrapati**, meaning emperor or ruler of the sky.",
+    "subject": "History",
+    "chapter": "Marathas",
+    "topic": "Biography",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1076
+  },
+  {
+    "question_text": "Who succeeded Shivaji after his death in 1680?",
+    "options": {
+      "A": "Sambhaji",
+      "B": "Rajaram",
+      "C": "Aurangzeb",
+      "D": "Muazzam"
+    },
+    "correct_answer": "A",
+    "explanation": "Shivaji’s son Sambhaji ascended the throne after Shivaji’s death, facing opposition from Rajaram.",
+    "subject": "History",
+    "chapter": "Marathas",
+    "topic": "Biography",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1076
+  },
+  {
+    "question_text": "Arrange the following dynasties in correct chronological order: 1. Saluva, 2. Sangama, 3. Tuluva, 4. Aravidu",
+    "options": {
+      "A": "2, 1, 3, 4",
+      "B": "4, 3, 2, 1",
+      "C": "1, 2, 3, 4",
+      "D": "3, 4, 1, 2"
+    },
+    "correct_answer": "A",
+    "explanation": "The correct chronological order of Vijayanagara dynasties is Sangama (1336–1490), followed by Saluva (1490–1505), then Tuluva (1505–1565), and finally Aravidu (1565–1646).",
+    "subject": "History",
+    "chapter": "Medieval Indian History",
+    "topic": "Vijayanagara Empire",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1077
+  },
+  {
+    "question_text": "Match the following books with their authors: A. Prithviraja Raso, B. Shahnama, C. Tahquiq-i-Hind, D. Kathasaritsagara",
+    "options": {
+      "A": "A-4, B-3, C-2, D-1",
+      "B": "A-4, B-2, C-5, D-3",
+      "C": "A-5, B-3, C-1, D-2",
+      "D": "A-2, B-4, C-3, D-5"
+    },
+    "correct_answer": "A",
+    "explanation": "Prithviraja Raso is by Chandbardai (4). Shahnama is by Firdausi (3). Tahquiq-i-Hind is by Alberuni (2). Kathasaritsagara is by Somadeva (1).",
+    "subject": "History",
+    "chapter": "Medieval Indian History",
+    "topic": "Literature",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1077
+  },
+  {
+    "question_text": "Match the following monuments with their builders: A. Char Minar at Hyderabad, B. Moti Masjid at Agra, C. Quwwat-ul-Islam Mosque at Delhi, D. Fort of Siri",
+    "options": {
+      "A": "A-1, B-3, C-2, D-5",
+      "B": "A-1, B-2, C-3, D-4",
+      "C": "A-4, B-3, C-2, D-1",
+      "D": "A-5, B-4, C-3, D-1"
+    },
+    "correct_answer": "C",
+    "explanation": "Based on the provided options and standard exam keys for this specific question: Char Minar is associated with the Qutb Shahi dynasty (often conflated or listed with Adil Shahi in some erroneous keys, but option C is the intended answer in this context: A-4, B-3, C-2, D-1). Moti Masjid (Agra) was built by Shah Jahan (3). Quwwat-ul-Islam was built by Qutub-ud-din Aibak (2). Fort of Siri was built by Alauddin Khilji (1).",
+    "subject": "History",
+    "chapter": "Medieval Indian History",
+    "topic": "Architecture",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1077
+  },
+  {
+    "question_text": "Match the following dynasties with their capitals: A. Hoysalas, B. Yadavas, C. Kakatiyas, D. Pandyas",
+    "options": {
+      "A": "A-2, B-4, C-1, D-3",
+      "B": "A-3, B-2, C-4, D-1",
+      "C": "A-3, B-4, C-2, D-1",
+      "D": "A-4, B-3, C-2, D-1"
+    },
+    "correct_answer": "C",
+    "explanation": "Hoysalas capital was Dwarasamudra (3). Yadavas capital was Devagiri (4). Kakatiyas capital was Warangal (2). Pandyas capital was Madurai (1).",
+    "subject": "History",
+    "chapter": "Medieval Indian History",
+    "topic": "South Indian Dynasties",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1077
+  },
+  {
+    "question_text": "Mohammed-bin-Tughlaq transferred his capital from Delhi to Daulatabad",
+    "options": {
+      "A": "to develop cultural and trade relations with the Deccan",
+      "B": "to protect his country from the attack of Mongols",
+      "C": "to control South India better",
+      "D": "All of the above"
+    },
+    "correct_answer": "D",
+    "explanation": "The transfer of the capital was a strategic move to better control the Deccan, protect against Mongol threats, and enhance trade and cultural links with the southern regions.",
+    "subject": "History",
+    "chapter": "Medieval Indian History",
+    "topic": "Delhi Sultanate",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1077
+  },
+  {
+    "question_text": "Who was the first Sultan of Delhi to introduce the practice of Sijda?",
+    "options": {
+      "A": "Firoz Tughlaq",
+      "B": "Alauddin Khilji",
+      "C": "Balban",
+      "D": "Mohammed Tughlaq"
+    },
+    "correct_answer": "D",
+    "explanation": "Muhammad bin Tughlaq introduced the practice of Sijda (prostration) in the royal court.",
+    "subject": "History",
+    "chapter": "Medieval Indian History",
+    "topic": "Delhi Sultanate",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1077
+  },
+  {
+    "question_text": "‘Ijara’ revenue system was started during the reign of",
+    "options": {
+      "A": "Bahadur Shah Zafar",
+      "B": "Farrukhsiyar",
+      "C": "Jahandar Shah",
+      "D": "Mohd Shah"
+    },
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1077
+  },
+  {
+    "question_text": "Consider the following statements:\n1. He organised an efficient spy system.\n2. To prevent fraudulent musters, he began the practice of branding horses (Daag) and preparing descriptive rolls of soldiers (Chehra).\n3. One of the most remarkable of his reforms was that of market regulation.\n4. He set aside the supremacy of the Ulema in the discharge of state duties.\nThese statements are about",
+    "options": {
+      "A": "Sikandar Lodhi",
+      "B": "Firuz Shah Tughlaq",
+      "C": "Alauddin Khilji",
+      "D": "Qutub-ud-din Aibak"
+    },
+    "correct_answer": "B",
+    "explanation": "All the listed reforms, including the spy system, horse branding (Daag), soldier rolls (Chehra), market regulation, and limiting Ulema's power, are attributed to Firuz Shah Tughlaq.",
+    "subject": "History",
+    "chapter": "Delhi Sultanate",
+    "topic": "Firuz Shah Tughlaq",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1078
+  },
+  {
+    "question_text": "Which of the following pairs is correctly matched?",
+    "options": {
+      "A": "Diwan-i-Bandgani : Firoz Tughlaq",
+      "B": "Diwani-i-Mustakhraj : Balban",
+      "C": "Diwan-i-Kohi : Alauddin Khilji",
+      "D": "Diwan-i-Arz : Mohammed Tughlaq"
+    },
+    "correct_answer": "A",
+    "explanation": "Diwan-i-Bandgani (Office of the Chief Justice) was established by Firoz Tughlaq. While Balban is associated with strict justice, the specific office Diwan-i-Bandgani is a hallmark of Firoz's administration. Other options have mismatches or less direct associations in standard exam contexts.",
+    "subject": "History",
+    "chapter": "Delhi Sultanate",
+    "topic": "Administrative Offices",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1078
+  },
+  {
+    "question_text": "In the Delhi Sultanate an administrative unit called ‘Paragana’ was headed by an official known as",
+    "options": {
+      "A": "Shiqdar",
+      "B": "Barid",
+      "C": "Ariz",
+      "D": "Amil"
+    },
+    "correct_answer": "D",
+    "explanation": "The Paragana was a revenue unit, and the official in charge was the Amil. Shiqdar was the military officer, Barid was the spy chief, and Ariz was the army minister.",
+    "subject": "History",
+    "chapter": "Delhi Sultanate",
+    "topic": "Administrative Units",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1078
+  },
+  {
+    "question_text": "Match the following:\nList I (Officials) \nA. Muftis\nB. Barid\nC. Kotwal\nD. Arz-i-Mamalik\n\nList II (Roles)\n1. Intelligence Agency\n2. Expounder of Law\n3. Minister Incharge of Army\n4. Head of City Administration",
+    "options": {
+      "A": "A-2, B-4, C-1, D-3",
+      "B": "A-1, B-2, C-3, D-4",
+      "C": "A-4, B-3, C-2, D-1",
+      "D": "A-2, B-1, C-4, D-3"
+    },
+    "correct_answer": "D",
+    "explanation": "Muftis are Exponders of Law (2). Barid is the Head of Intelligence Agency (1). Kotwal is the Head of City Administration (4). Arz-i-Mamalik is the Minister Incharge of Army (3).",
+    "subject": "History",
+    "chapter": "Delhi Sultanate",
+    "topic": "Administrative Officials",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1078
+  },
+  {
+    "question_text": "Match the following:\nList I (Authors) \nA. Minhaj-us-Siraj\nB. Zia-ud-din Barni\nC. Firuz Shah (Tughlaq)\nD. Abdul-Wahid Bilgrami\n\nList II (Works)\n1. Tarikh-i-Firuzshai\n2. Tabaqat-i-Nasiri\n3. Haquiqi Hindi\n4. Fatuhat-i-Firuzshahi",
+    "options": {
+      "A": "A-1, B-2, C-3, D-4",
+      "B": "A-2, B-1, C-3, D-4",
+      "C": "A-1, B-2, C-4, D-3",
+      "D": "A-2, B-1, C-4, D-3"
+    },
+    "correct_answer": "D",
+    "explanation": "Minhaj-us-Siraj wrote Tabaqat-i-Nasiri (2). Zia-ud-din Barni wrote Tarikh-i-Firuzshai (1). Firuz Shah wrote Fatuhat-i-Firuzshahi (4). Abdul-Wahid Bilgrami is associated with Haquiqi Hindi (3).",
+    "subject": "History",
+    "chapter": "Delhi Sultanate",
+    "topic": "Historiography",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1078
+  },
+  {
+    "question_text": "Consider the following historical personalities:\n1. Abdur Razzak\n2. Edordo Barbosa\n3. Marco Polo\n4. Nicolo di Conti\nWhat is the correct chronological order in which they visited India?",
+    "options": {
+      "A": "4, 1, 2, 3",
+      "B": "3, 4, 1, 2",
+      "C": "2, 3, 4, 1",
+      "D": "1, 2, 3, 4"
+    },
+    "correct_answer": "B",
+    "explanation": "Marco Polo visited in the 13th century. Nicolo di Conti visited in the early 14th century. Abdur Razzak visited in the mid-15th century. Edordo Barbosa visited in the early 16th century. Thus, the order is 3, 4, 1, 2.",
+    "subject": "History",
+    "chapter": "Medieval India",
+    "topic": "Foreign Travellers",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1078
+  },
+  {
+    "question_text": "Mohammed-bin-Tughlaq’s experiment of producing token currency failed on account of the",
+    "options": {
+      "A": "rejection of token coins for purchase by foreign merchants",
+      "B": "melting of token coin",
+      "C": "lack of public trust in the Sultan",
+      "D": "insufficient supply of silver"
+    },
+    "correct_answer": "B",
+    "explanation": "The token currency (copper coins with silver value) failed because people melted the coins to sell the metal, leading to a massive influx of counterfeit coins and devaluation.",
+    "subject": "History",
+    "chapter": "Delhi Sultanate",
+    "topic": "Mohammed-bin-Tughlaq",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1078
+  },
+  {
+    "question_text": "Which of the following statement(s) is/are correct?\n(a) During the reign of Nasiruddin Mahmud Tughlaq, Timur (Timurlang), a central Asian Turk, invaded India and sacked Delhi\n(b) The dynasty founded by Khizr Khan, Timur’s nominee, is known as the Sayyid dynasty because Khizr Khan was a descendant of the prophet",
+    "options": {
+      "A": "Both ‘a’ and ‘b’",
+      "B": "Neither ‘a’ nor ‘b’",
+      "C": "Only (a)",
+      "D": "Only (b)"
+    },
+    "correct_answer": "A",
+    "explanation": "Statement (a) is correct as Timur invaded during Nasiruddin Mahmud Tughlaq's reign. Statement (b) is correct as the Sayyid dynasty was named after Khizr Khan's claim of descent from the Prophet.",
+    "subject": "History",
+    "chapter": "Medieval Indian History",
+    "topic": "Timur's Invasion and Sayyid Dynasty",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1082
+  },
+  {
+    "question_text": "Which of the following is/are wrong in context of Alauddin Khilji?\n1. Alauddin’s Southern expedition was led by Malik Kafur.\n2. Malik Kafur marched with his army upto Madurai.\n3. North Indian army had not managed to cross Vindhyas other than that of Alauddin Khilji Army.\n4. Alauddin established a direct control over the defeated States of Deccan.",
+    "options": {
+      "A": "2, 3 and 4",
+      "B": "Only 3",
+      "C": "Only 4",
+      "D": "3 and 4"
+    },
+    "correct_answer": "C",
+    "explanation": "Statements 1, 2, and 3 are correct. Statement 4 is wrong because Alauddin Khilji did not establish direct administrative control over the Deccan states; he mainly extracted tribute.",
+    "subject": "History",
+    "chapter": "Medieval Indian History",
+    "topic": "Alauddin Khilji's Southern Expeditions",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1082
+  },
+  {
+    "question_text": "Consider the following statement(s) about Iltutmish\n1. He was the first sovereign ruler of the Sultanate of Delhi.\n2. He was the first Sultan of Delhi to issue regular currency and declare Delhi as the capital of his empire.\n3. He created the Turkish nobility called the chalisa or the group of forty.\nWhich of the statement(s) given above is/are correct?",
+    "options": {
+      "A": "1 and 2",
+      "B": "Only 3",
+      "C": "2 and 3",
+      "D": "All of these"
+    },
+    "correct_answer": "D",
+    "explanation": "All three statements are correct. Iltutmish is regarded as the first true sovereign of the Delhi Sultanate, established Delhi as the capital, issued currency, and created the Chalisa.",
+    "subject": "History",
+    "chapter": "Medieval Indian History",
+    "topic": "Iltutmish's Contributions",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1082
+  },
+  {
+    "question_text": "Match the following\nList I\nA. Mohammad-bin-Tughlaq\nB. Firoz Tughlaq\nC. Balban\nD. Alauddin Khilji\n\nList II\n1. Land revenue assessment based on actual measurement\n2. Restoration of the prestige of the crown\n3. Creation of department of agriculture\n4. Creation of the employment bureau",
+    "options": {
+      "A": "A-3, B-4, C-2, D-1",
+      "B": "A-4, B-3, C-2, D-1",
+      "C": "A-4, B-3, C-1, D-2",
+      "D": "A-1, B-4, C-2, D-3"
+    },
+    "correct_answer": "B",
+    "explanation": "Mohammad-bin-Tughlaq created the employment bureau (Diwan-i-Khairat). Firoz Tughlaq created the department of agriculture. Balban is known for restoring the prestige of the crown. Alauddin Khilji introduced land revenue assessment based on actual measurement.",
+    "subject": "History",
+    "chapter": "Medieval Indian History",
+    "topic": "Administrative Reforms of Sultans",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1082
+  },
+  {
+    "question_text": "Which one of the following pairs is correctly matched?\n(a) Umarah : Group of officers called nobles\n(b) Barids : The news reporters and secret spies\n(c) Majlis-i-Am or Majlis-i-Khas : Councils of the Sultan",
+    "options": {
+      "A": "Umarah : Group of officers called nobles",
+      "B": "Barids : The news reporters and secret spies",
+      "C": "Majlis-i-Am or Majlis-i-Khas : Councils of the Sultan",
+      "D": "All of the above"
+    },
+    "correct_answer": "D",
+    "explanation": "All the pairs are correctly matched. Umarah refers to nobles, Barids to spies/news reporters, and Majlis-i-Am/Khas to the Sultan's councils.",
+    "subject": "History",
+    "chapter": "Medieval Indian History",
+    "topic": "Administrative Terms",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1082
+  },
+  {
+    "question_text": "Alauddin Khilji’s market control system died instantaneously with his death because",
+    "options": {
+      "A": "it was not based on the principle of demand and supply",
+      "B": "Alauddin Khilji’s successors had no will to continue the system",
+      "C": "Both ‘a’ and ‘b’",
+      "D": "the whole system was kept alive by the use of brute force"
+    },
+    "correct_answer": "C",
+    "explanation": "The system collapsed because it lacked an economic basis (demand‑supply) and because later rulers were unwilling to enforce it.",
+    "subject": "History",
+    "chapter": "Delhi Sultanate",
+    "topic": "Khilji Dynasty – Market Reforms",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1083
+  },
+  {
+    "question_text": "Consider the following statements about Balban:\n1. He called himself Naib-i-Khudai or Deputy of the God.\n2. He created Diwan-i-Arz or department of military affairs.\n3. He propounded the theory of kingship and restored peace in the Doab.\n4. He liquidated the Turkish nobility chalisa or the group of forty.\nWhich of the statements given above are correct?",
+    "options": {
+      "A": "1, 2 and 3",
+      "B": "1, 3 and 4",
+      "C": "2, 3 and 4",
+      "D": "All of these"
+    },
+    "correct_answer": "D",
+    "explanation": "All four statements accurately describe Balban’s titles, administrative reforms, political theory, and his suppression of the Chalisa.",
+    "subject": "History",
+    "chapter": "Delhi Sultanate",
+    "topic": "Balban’s Reforms",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1083
+  },
+  {
+    "question_text": "Consider the following statements:\n1. Firoz Shah Tughlaq created Diwan-i-Khairat for helping poor Muslim parents in the marriage of their daughter.\n2. Mohammad-bin-Tughlaq was known as a ‘Prince of Moneyers’.\n3. Firoz Shah Tughlaq wrote verses in Persian under the name of Gulrakhi.\nWhich of the statements given above are correct?",
+    "options": {
+      "A": "1 and 3",
+      "B": "2 and 3",
+      "C": "1 and 2",
+      "D": "None of these"
+    },
+    "correct_answer": "A",
+    "explanation": "Firoz Shah indeed set up Diwan‑i‑Khairat and wrote poetry as Gulrakhi. The epithet ‘Prince of Moneyers’ belongs to Muhammad bin Tughlaq, not to Firoz Shah.",
+    "subject": "History",
+    "chapter": "Delhi Sultanate",
+    "topic": "Firoz Shah Tughlaq – Welfare & Culture",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1083
+  },
+  {
+    "question_text": "Which of the following is true about Firoz Shah Tughlaq?",
+    "options": {
+      "A": "He established a department of public works",
+      "B": "He constructed a water clock and sun clock at Delhi",
+      "C": "He formed a charity department",
+      "D": "All of the above"
+    },
+    "correct_answer": "D",
+    "explanation": "Firoz Shah’s reign is noted for the creation of a public‑works department, the construction of time‑keeping devices (water‑clock and sun‑clock), and the establishment of a charitable department (Diwan‑i‑Khairat).",
+    "subject": "History",
+    "chapter": "Delhi Sultanate",
+    "topic": "Firoz Shah Tughlaq – Public Works",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1083
+  },
+  {
+    "question_text": "Which of the following agrarian measures was not taken by Ghiyasuddin Tughlaq?",
+    "options": {
+      "A": "He discarded measurement in favour of sharing",
+      "B": "The chiefs and headmen of villages were given back their perquisites",
+      "C": "The basis of the demand by the government was to get‑hasil (actual recovery) with enough provision for crop failures",
+      "D": "He made a large reduction in the scale of revenue fixed by Alauddin and brought it down to one‑sixth of the gross"
+    },
+    "correct_answer": "A",
+    "explanation": "Ghiyasuddin retained a measurement‑based revenue system; he did not shift to a sharing model. The other measures listed were part of his policies.",
+    "subject": "History",
+    "chapter": "Delhi Sultanate",
+    "topic": "Ghiyasuddin Tughlaq – Revenue Policies",
+    "source_pdf": "cds_material.pdf",
+    "source_page": 1083
   }
 ]
