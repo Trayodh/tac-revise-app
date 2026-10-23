@@ -179056,5 +179056,2291 @@
     "content": "# Bombay Blood Group (Oh Phenotype)\n\n- **Definition**: A rare ABO blood group lacking the H antigen on red blood cells.\n\n- **Genetic Basis**: Mutation in the **FUT1** gene prevents synthesis of the H antigen, which is the precursor for A and B antigens.\n\n- **Transfusion Compatibility**:\n  - Individuals with the Bombay phenotype can **only receive blood** from other Bombay phenotype donors.\n  - They **cannot receive** blood from A, B, AB, or O groups, even though they are phenotypically O.\n\n- **Clinical Significance**:\n  - Requires careful blood typing and cross‑matching.\n  - Rare but critical for safe transfusion practices.\n\n> **Key Takeaway**: The Bombay blood group is an extremely rare phenotype that is incompatible with all standard ABO blood types, necessitating specialized donor matching.",
     "source_pdf": "General-Science-Book-SSBCrack.pdf",
     "source_page": 122
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Infectious Diseases",
+    "subchapter": "Tuberculosis",
+    "topic": "Tuberculosis",
+    "content": "# Tuberculosis (TB)\n\n- **Causative agent**: *Mycobacterium tuberculosis*.\n- **Transmission**: Airborne droplets from an infected person.\n- **Clinical features**: Chronic cough, fever, night sweats, weight loss.\n- **Diagnosis**: Sputum smear microscopy, culture, GeneXpert MTB/RIF.\n- **Treatment**: Standard 6‑month regimen (2 months of INH, RIF, PZA, EMB followed by 4 months of INH and RIF).\n- **Prevention**: BCG vaccination, early detection, and treatment of latent TB.\n- **Public health impact**: Leading cause of death from a single infectious agent worldwide.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 123
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Infectious Diseases",
+    "subchapter": "Leprosy",
+    "topic": "Leprosy",
+    "content": "# Leprosy (Hansen’s Disease)\n\n- **Causative agent**: *Mycobacterium leprae*.\n- **Transmission**: Prolonged close contact; airborne droplets.\n- **Clinical spectrum**: Tuberculoid (paucibacillary) to lepromatous (multibacillary).\n- **Key features**: Hypopigmented skin lesions, loss of sensation, peripheral neuropathy.\n- **Diagnosis**: Skin smears, biopsy, PCR.\n- **Treatment**: Multi‑drug therapy (MDT) – dapsone + rifampicin (+ clofazimine for multibacillary).\n- **Prevention**: Early detection, MDT, contact tracing.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 123
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Infectious Diseases",
+    "subchapter": "Malaria",
+    "topic": "Malaria",
+    "content": "# Malaria\n\n- **Causative agents**: *Plasmodium falciparum*, *P. vivax*, *P. ovale*, *P. malariae*, *P. knowlesi*.\n- **Vector**: Female *Anopheles* mosquitoes.\n- **Life cycle**: Liver stage → blood stage → mosquito stage.\n- **Symptoms**: Fever, chills, headache, anemia, splenomegaly.\n- **Diagnosis**: Microscopy, rapid diagnostic tests (RDTs).\n- **Treatment**: Artemisinin‑based combination therapies (ACTs) for *P. falciparum*; chloroquine for *P. vivax* (in chloroquine‑sensitive areas).\n- **Prevention**: Insecticide‑treated nets, indoor residual spraying, prophylaxis, vaccination (RTS,S).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 123
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biotechnology",
+    "subchapter": "PRINT Technology",
+    "topic": "PRINT (Particle Replication in Non-wetting Templates)",
+    "content": "# PRINT Technology\n\n- **Full form**: Particle Replication In Non‑wetting Templates.\n- **Field**: Biomaterials and tissue engineering.\n- **Principle**: Uses a non‑wetting template to replicate micro‑ and nano‑scale particles.\n- **Applications**: Fabrication of artificial blood, drug delivery systems, and micro‑structured scaffolds.\n- **Advantages**: Precise control over particle size, shape, and composition; scalable production.\n- **Key researchers**: Dr. R. K. Gupta and collaborators (Indian Institute of Technology, Kanpur).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 123
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Public Health",
+    "subchapter": "Expanded Programme on Immunization (EPI)",
+    "topic": "EPI 1978",
+    "content": "# Expanded Programme on Immunization (EPI)\n\n- **Launch**: 1978, India.\n- **Objective**: Reduce morbidity and mortality from diphtheria, pertussis, tetanus, poliomyelitis, and childhood tuberculosis.\n- **Core vaccines (1978)**: DPT (diphtheria, pertussis, tetanus), OPV (oral polio), BCG (tuberculosis).\n- **Measles vaccine**: Added later with the Universal Immunization Programme (UIP) in 1985‑86.\n- **Impact**: Significant decline in vaccine‑preventable diseases; current coverage includes measles, hepatitis B, and others.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 123
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Medical Technology",
+    "subchapter": "Cyberknife",
+    "topic": "Cyberknife",
+    "content": "# CyberKnife\n\n- **Definition**: A robotic radiosurgery system that delivers highly focused radiation beams to tumors.\n- **Technology**: Uses real‑time imaging (CT/MRI) to track tumor motion and adjust beam delivery.\n- **Applications**: Brain tumors, spinal tumors, liver tumors, prostate cancer, and other solid tumors.\n- **Advantages**: Non‑invasive, precise dose delivery, minimal damage to surrounding healthy tissue.\n- **Key manufacturer**: Accuray Incorporated.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 123
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Botany",
+    "subchapter": "Plant Reproduction",
+    "topic": "Vivipary",
+    "content": "# Vivipary\n\nVivipary is a reproductive strategy in which seeds germinate and seedlings grow while still attached to the mother plant. The seedling then drops or is transported elsewhere to establish itself. This phenomenon is most commonly observed in mangrove species, especially in the genus **Rhizophora**. Vivipary allows seedlings to have a head start in the harsh intertidal environment, increasing their chances of survival.\n\n**Key Points**\n- Occurs in mangroves (e.g., *Rhizophora* spp.)\n- Seedling develops while still attached to the parent\n- Provides advantage in unstable, saline habitats\n- Contrast with typical seed dormancy and dispersal\n\n**Examples**\n- *Rhizophora mangle* (red mangrove)\n- *Avicennia* spp. (black mangrove)\n\n**Related Terms**\n- **Mangrove**: Salt-tolerant trees and shrubs in tropical intertidal zones.\n- **Seedling**: Young plant that has emerged from a seed.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 124
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Botany",
+    "subchapter": "Plant Anatomy",
+    "topic": "Rhizophora",
+    "content": "# Rhizophora\n\n*Rhizophora* is a genus of mangrove trees known for their distinctive prop roots and viviparous reproduction. They thrive in tropical intertidal zones and play a crucial role in coastal protection.\n\n**Key Features**\n- Prop roots that provide stability in soft, waterlogged soils\n- Viviparous seed germination\n- Salt-excreting leaves\n- Rapid growth rates\n\n**Ecological Importance**\n- Stabilize shorelines and reduce erosion\n- Provide habitat for marine and terrestrial species\n- Sequester carbon effectively\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 124
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Botany",
+    "subchapter": "Medicinal Plants",
+    "topic": "Zingiber officinale",
+    "content": "# Zingiber officinale (Ginger)\n\n**Useful Part**: The **rhizome** is the primary medicinal and culinary component of ginger.\n\n**Phytochemicals**\n- Gingerol, shogaol, paradol\n- Anti-inflammatory, antioxidant, antiemetic properties\n\n**Common Uses**\n- Relieve nausea and motion sickness\n- Reduce muscle pain and soreness\n- Aid digestion\n- Traditional medicine for colds and flu\n\n**Preparation**\n- Fresh or dried rhizome\n- Powdered, extracts, teas, oils\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 124
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Zoology",
+    "subchapter": "Comparative Anatomy",
+    "topic": "Beta‑Keratin",
+    "content": "# Beta‑Keratin\n\nBeta‑keratin is a fibrous structural protein found in the epidermal layers of reptiles, birds, and some amphibians. It provides hardness and protection.\n\n**Distribution**\n- **Reptiles**: Scales, claws, beaks\n- **Birds**: Feathers, beaks, claws\n- **Amphibians**: Skin (less abundant than alpha‑keratin)\n\n**Properties**\n- High tensile strength\n- Resistant to abrasion and UV radiation\n- Forms the basis of protective integuments\n\n**Comparison with Alpha‑Keratin**\n- Alpha‑keratin is predominant in mammals (hair, nails)\n- Beta‑keratin has a beta‑sheet structure, giving it rigidity\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 124
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Pharmacology",
+    "subchapter": "Antipyretics",
+    "topic": "Antipyretic Medicines",
+    "content": "# Antipyretic Medicines\n\n**Definition**: Drugs that reduce fever by lowering the hypothalamic set‑point.\n\n**Mechanism of Action**\n- Inhibit cyclo‑oxygenase (COX) enzymes → ↓ prostaglandin E₂ (PGE₂)\n- PGE₂ is responsible for raising body temperature during infection\n\n**Common Antipyretics**\n- Acetaminophen (Paracetamol)\n- Ibuprofen\n- Aspirin (acetylsalicylic acid)\n- Naproxen\n\n**Clinical Use**\n- Fever management in infections, inflammatory conditions, post‑operative care\n- Often combined with analgesics for pain relief\n\n**Side Effects**\n- GI irritation (NSAIDs)\n- Hepatotoxicity (acetaminophen overdose)\n- Allergic reactions\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 124
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Hematology",
+    "subchapter": "Anemia",
+    "topic": "Bone Marrow Failure",
+    "content": "# Bone Marrow Failure\n\n**Definition**: A condition where the bone marrow cannot produce sufficient red blood cells, leading to anemia.\n\n**Types**\n- **Aplastic Anemia**: Failure of all cell lines\n- **Pure Red Cell Aplasia**: Specific loss of erythroid precursors\n- **Myelodysplastic Syndromes**: Dysplastic marrow with ineffective hematopoiesis\n\n**Causes**\n- Autoimmune disorders\n- Chemotherapy or radiation\n- Viral infections (e.g., parvovirus B19)\n- Genetic disorders (e.g., Fanconi anemia)\n\n**Clinical Features**\n- Fatigue, pallor, shortness of breath\n- Increased susceptibility to infections\n- Bleeding tendencies in severe cases\n\n**Diagnosis**\n- Complete blood count (CBC)\n- Bone marrow biopsy\n- Reticulocyte count\n\n**Management**\n- Blood transfusions\n- Immunosuppressive therapy\n- Hematopoietic stem cell transplantation\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 124
+  },
+  {
+    "subject": "Medicine",
+    "chapter": "Hematology",
+    "subchapter": "Anemias",
+    "topic": "Aplastic Anemia",
+    "content": "# Aplastic Anemia\n\nAplastic anemia is a rare but serious blood disorder in which the bone marrow fails to produce sufficient new cells to replenish blood cells. It is characterized by pancytopenia (low red cells, white cells, and platelets) and can lead to severe anemia, increased risk of infections, and bleeding. The condition may be idiopathic or secondary to infections, drugs, toxins, or autoimmune processes. Treatment often involves immunosuppressive therapy, bone marrow transplantation, or supportive care such as transfusions.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 125
+  },
+  {
+    "subject": "Anatomy",
+    "chapter": "Connective Tissue",
+    "subchapter": "Tissue Types",
+    "topic": "Ligaments",
+    "content": "# Ligaments\n\nLigaments are fibrous connective tissues that connect bone to bone, providing joint stability and limiting excessive movement. They are composed mainly of dense regular connective tissue rich in collagen fibers. Unlike tendons, which attach muscle to bone, ligaments attach bone to bone. Reticular fibers form a network in organs like the spleen, and raphe are fibrous seams that join two structures, such as the palatine raphe in the mouth.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 125
+  },
+  {
+    "subject": "Radiation Oncology",
+    "chapter": "Brachytherapy",
+    "subchapter": "Treatment Modalities",
+    "topic": "Brachytherapy as Offshoot of Radiotherapy",
+    "content": "# Brachytherapy\n\nBrachytherapy involves placing radioactive sources directly inside or near a tumor, delivering high doses of radiation locally while sparing surrounding healthy tissue. It is an offshoot of external beam radiotherapy, which uses high-energy X-rays or particles from outside the body. Brachytherapy is commonly used for cervical, prostate, breast, and skin cancers.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 125
+  },
+  {
+    "subject": "Evolutionary Biology",
+    "chapter": "Mammalian Evolution",
+    "subchapter": "Phylogenetic Sequence",
+    "topic": "Evolutionary Sequence: Echidna → Kangaroo → Whale",
+    "content": "# Evolutionary Sequence\n\nThe correct evolutionary sequence from the most primitive to the most derived among the listed mammals is:\n1. **Echidna** – a monotreme, one of the earliest mammalian lineages that lay eggs.\n2. **Kangaroo** – a marsupial, representing a later divergence with live birth and pouch development.\n3. **Whale** – a placental mammal that evolved from terrestrial ancestors into fully aquatic life.\nThis sequence reflects increasing complexity and adaptation to diverse ecological niches.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 125
+  },
+  {
+    "subject": "Ophthalmology",
+    "chapter": "Eye Anatomy",
+    "subchapter": "Cornea",
+    "topic": "Cornea Vascularization",
+    "content": "# Cornea\n\nThe cornea is the transparent, avascular outer layer of the eye that allows light to enter. It lacks blood vessels to maintain clarity and relies on tear film and aqueous humor for nutrition. In contrast, the sclera, choroid, and iris are vascularized tissues.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 125
+  },
+  {
+    "subject": "Botany",
+    "chapter": "Desert Research",
+    "subchapter": "Research Institutes",
+    "topic": "Central Arid Zone Research Institute (CAZRI)",
+    "content": "# CAZRI\n\nThe Central Arid Zone Research Institute (CAZRI) is located in Jodhpur, Rajasthan, India. It focuses on research related to desert flora and fauna, studying plant adaptations, soil conservation, and biodiversity in arid ecosystems.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 125
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Botany",
+    "subchapter": "Plant Nutrition",
+    "topic": "Saprophytes",
+    "content": "The Indian Pipe Plant (Monotropa) is a total saprophyte, thriving on dead or decayed organic matter.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 126
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Botany",
+    "subchapter": "Plant Reproduction",
+    "topic": "Monocarpic Plants",
+    "content": "Monocarpic plants produce flowers only once in their lifetime.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 126
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Botany",
+    "subchapter": "Leaf Morphology",
+    "topic": "Phyllotaxy",
+    "content": "Phyllotaxy refers to the manner of arrangement of leaves on a stem or branch.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 126
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Entomology",
+    "subchapter": "Bioluminescence",
+    "topic": "Luciferin",
+    "content": "Luciferin is a pigment found in fireflies, responsible for their bioluminescence.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 126
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Plant Adaptation",
+    "subchapter": "Marine Adaptation",
+    "topic": "Angiosperms",
+    "content": "Angiosperms show the least adaptation to marine water compared to pteridophytes, gymnosperms, and bryophytes.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 126
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Plant Physiology",
+    "subchapter": "Hormones",
+    "topic": "Abscisic Acid",
+    "content": "Abscisic acid reduces transpiration by preventing water loss from plant leaves during low water availability.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 126
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Vitamins",
+    "subchapter": "Vitamin C",
+    "topic": "Vitamin C",
+    "content": "# Vitamin C (Ascorbic Acid)\n\n- **Chemical Formula:** C₆H₈O₆\n- **Classification:** Water‑soluble vitamin\n- **Key Functions:**\n  - Antioxidant – scavenges free radicals\n  - Collagen synthesis – essential for connective tissue, skin, and wound healing\n  - Enhances iron absorption from plant sources\n  - Supports immune function\n- **Sources:** Citrus fruits, berries, kiwi, bell peppers, broccoli, spinach\n- **Deficiency:** Scurvy – bleeding gums, bruising, anemia\n- **Relevance to Water Purification:** After iodine disinfection, vitamin C is recommended because it is stable, water‑soluble, and does not interfere with iodine’s antimicrobial action. It also helps neutralize any residual iodine, improving taste and safety of drinking water.\n- **Recommended Daily Intake:** 75–90 mg for adults; higher doses (up to 2000 mg) may be used for specific health conditions.\n- **Safety:** Generally safe; high doses can cause gastrointestinal upset and kidney stones in susceptible individuals.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 127
+  },
+  {
+    "subject": "Microbiology",
+    "chapter": "Pathogens and Disease",
+    "subchapter": "Koch's Postulates",
+    "topic": "Koch's Postulates",
+    "content": "# Koch's Postulates\n\n1. **Presence in Diseased Organisms:** The microorganism must be found in all organisms suffering from the disease, but not in healthy ones.\n2. **Isolation and Culture:** The microorganism must be isolated from a diseased organism and grown in pure culture.\n3. **Reproduction of Disease:** The cultured microorganism should cause the disease when introduced into a healthy, susceptible host.\n4. **Re‑Isolation:** The same microorganism must be re‑isolated from the experimentally infected host.\n\n**Significance:**\n- Provides a systematic framework to establish causation between a microbe and a disease.\n- Pioneered by Dr. Robert Koch (1877–1910), who applied these criteria to *Bacillus anthracis*, *Mycobacterium tuberculosis*, and *Vibrio cholerae*.\n- Basis for modern microbiological diagnostics and vaccine development.\n\n**Limitations:**\n- Some pathogens cannot be cultured in vitro.\n- Some diseases are caused by multiple agents or by non‑microbial factors.\n- Ethical constraints in infecting humans.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 127
+  },
+  {
+    "subject": "Pharmacology",
+    "chapter": "Antimicrobial Agents",
+    "subchapter": "Anti‑Tuberculosis Drugs",
+    "topic": "SHREZ",
+    "content": "# SHREZ (Sulfamethoxazole + Trimethoprim)\n\n- **Composition:** Combination of the sulfonamide *sulfamethoxazole* and the dihydrofolate reductase inhibitor *trimethoprim*.\n- **Mechanism of Action:**\n  - *Sulfamethoxazole* inhibits *folic acid* synthesis by competing with para‑aminobenzoic acid (PABA).\n  - *Trimethoprim* blocks *dihydrofolate reductase*, preventing conversion of dihydrofolate to tetrahydrofolate.\n  - The synergistic effect results in potent bactericidal activity against *Mycobacterium tuberculosis* and other bacteria.\n- **Clinical Use:** Primarily used for *tuberculosis* (especially in combination regimens) and for various bacterial infections such as urinary tract infections, *Pseudomonas* infections, and *Staphylococcus* infections.\n- **Dosage & Administration:** Typically 1 g sulfamethoxazole + 200 mg trimethoprim orally twice daily, but dosage varies with indication.\n- **Side Effects:** Rash, photosensitivity, gastrointestinal upset, rare bone marrow suppression.\n- **Contraindications:** Severe renal impairment, sulfa allergy, pregnancy (trimethoprim).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 127
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Microbiology & Biotechnology",
+    "topic": "Vector Control Techniques",
+    "content": "### Vector Control Techniques\n- **Population Suppression vs. Disease Resistance**: For vector-borne diseases like Malaria and Dengue, population suppression techniques are often favored over disease resistance techniques.\n- **RIDL (Release of Insects carrying a Dominant Lethal)**: This is a specific population suppression technique used to reduce vector populations.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 128
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Microbiology & Biotechnology",
+    "topic": "Defensin-1 and Antibiotic Resistance",
+    "content": "### Defensin-1\n- **Source**: Honey bees produce a protein called **Defensin-1**.\n- **Function**: Defensin-1 has the property of resisting microbial colonization on epithelial surfaces.\n- **Medical Application**: Scientists (e.g., at the Academic Medical Centre, Amsterdam) are researching Defensin-1 for its potential to develop drugs against antibiotic-resistant bacteria. The protein is found in honey.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 128
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Microbiology",
+    "topic": "Gram Staining",
+    "content": "### Gram Staining Mechanism\n- **Gram-Positive Bacteria**: Identified by Gram staining because their cell walls contain a **thick layer of peptidoglycan** with relatively low lipid content.\n- **Gram-Negative Bacteria**: Have a thin peptidoglycan layer and an outer membrane rich in lipids (lipopolysaccharides).\n- **Key Differentiator**: The high concentration of peptidoglycan in Gram-positive bacteria allows them to retain the crystal violet stain during the decolorization process.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 128
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Human Physiology",
+    "topic": "Cardiovascular System",
+    "content": "### Sinoatrial (SA) Node\n- **Function**: Acts as the natural pacemaker of the human heart.\n- **Location**: Located in the **Right Auricle** (Right Atrium).\n- **Role**: Initiates the electrical impulse that triggers the heartbeat.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 129
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Biotechnology",
+    "topic": "GMOs and LMOs",
+    "content": "### GMO vs. LMO\n- **GMO (Genetically Modified Organism)**: An organism whose genetic material has been altered using genetic engineering techniques. It can be alive or dead (e.g., modified proteins, cells, or whole organisms).\n- **LMO (Living Modified Organism)**: A living organism that possesses a novel combination of genetic material obtained through the use of modern biotechnology.\n- **Key Facts**:\n  1. **Viability**: GMOs are not essentially dead; they can include LMOs (which are alive and can grow) as well as non-living modified entities.\n  2. **Patentability**: Both GMOs and LMOs can be patented, subject to specific legal jurisdictions and criteria.\n  3. **Modification Method**: Both are typically modified using genetic engineering. LMOs are a subset of GMOs that are specifically living.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 129
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Microbiology",
+    "subchapter": "",
+    "topic": "Bacteriophage",
+    "content": "### Bacteriophage\nA **bacteriophage** (or phage) is a **virus that infects and destroys bacteria**. It attaches to the bacterial cell surface, injects its genetic material, and uses the host machinery to replicate, eventually lysing the bacterial cell.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 130
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Cell Biology",
+    "subchapter": "",
+    "topic": "Lysosome",
+    "content": "### Lysosome\nLysosomes are membrane‑bound organelles containing **hydrolytic enzymes** capable of breaking down macromolecules, old organelles, and even whole cells (autolysis). They play a crucial role in cellular digestion and waste removal.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 130
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Dermatology",
+    "subchapter": "",
+    "topic": "Pityriasis simplex capillitii",
+    "content": "### Pityriasis simplex capillitii\nCommonly known as **dandruff**, it is a superficial scalp condition characterized by flaky, white or yellowish scales.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 130
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Genetics",
+    "subchapter": "",
+    "topic": "Turner Syndrome",
+    "content": "### Turner Syndrome\nA chromosomal disorder in females caused by **monosomy X** (45,X0). Affected individuals have **45 chromosomes** instead of the normal 46.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 130
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Botany",
+    "subchapter": "",
+    "topic": "Ornithophily",
+    "content": "### Ornithophily\n**Ornithophily** is pollination **by birds**. Flowers adapted to bird pollination often have bright colors, sturdy structures, and produce copious nectar.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 130
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Entomology",
+    "subchapter": "",
+    "topic": "Apis mellifera",
+    "content": "### Apis mellifera\nThe scientific name **Apis mellifera** refers to the **Western honey bee**, a social insect known for producing honey and pollinating many crops.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 130
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Medical Imaging",
+    "subchapter": "",
+    "topic": "MRI Principle",
+    "content": "### MRI (Magnetic Resonance Imaging)\nMRI primarily exploits the magnetic properties of **hydrogen nuclei (protons)** abundant in water and fat tissues. The alignment and relaxation of these protons in a strong magnetic field generate the imaging signal.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 130
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Human Anatomy & Physiology",
+    "subchapter": "Oral Health",
+    "topic": "Halitosis",
+    "content": "# Halitosis\n\n- **Definition**: Halitosis is the medical term for *bad breath*.\n- **Causes**:\n  - Poor oral hygiene (plaque, tartar)\n  - Dry mouth (xerostomia)\n  - Dental problems (cavities, gum disease)\n  - Certain foods (garlic, onions)\n  - Systemic conditions (diabetes, kidney disease)\n- **Prevention**:\n  - Brush teeth twice daily with fluoride toothpaste\n  - Floss daily\n  - Use mouthwash\n  - Stay hydrated\n  - Regular dental check‑ups\n- **Clinical relevance**: Often a symptom of underlying systemic disease; important for clinicians to assess.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 131
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Human Anatomy & Physiology",
+    "subchapter": "Vision",
+    "topic": "Color Blindness",
+    "content": "# Color Blindness\n\n- **Definition**: A visual impairment where the individual has difficulty distinguishing certain colors.\n- **Types**:\n  - *Red‑green* (most common, often X‑linked recessive)\n  - *Blue‑yellow*\n  - *Complete color blindness* (achromatopsia)\n- **Causes**:\n  - **Genetic**: Most common; mutations in opsin genes.\n  - **Acquired**: Retinal disease, optic nerve damage, certain medications.\n- **Key Points**:\n  - Not all color blindness is genetic.\n  - Diagnosis via Ishihara plates or color vision tests.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 131
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Human Anatomy & Physiology",
+    "subchapter": "Vision",
+    "topic": "Night Blindness",
+    "content": "# Night Blindness (Nyctalopia)\n\n- **Definition**: Difficulty seeing in low‑light or dark conditions.\n- **Common Causes**:\n  - **Vitamin A deficiency** (xerophthalmia)\n  - Retinal dystrophies (e.g., retinitis pigmentosa)\n  - Cataracts, glaucoma\n  - Certain medications (e.g., antihistamines)\n- **Clinical Note**: Not all night blindness is due to malnutrition; many acquired causes exist.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 131
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Nutrition & Food Science",
+    "subchapter": "Fortification",
+    "topic": "Vitamin A in Milk",
+    "content": "# Vitamin A Fortification in Milk\n\n- **Why**: Vitamin A is fat‑soluble and is lost during the skimming (fat removal) process.\n- **Fortification**: Many countries add vitamin A to skimmed milk to prevent deficiency.\n- **Recommended Daily Allowance (RDA)**:\n  - Children 1–3 yrs: 300 µg RAE\n  - Adults: 700–900 µg RAE\n- **Benefits**: Supports vision, immune function, and epithelial health.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 131
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Zoology",
+    "topic": "Bubo bubo",
+    "content": "# Bubo bubo (Eurasian Eagle‑Owl)\n\n- **Scientific Name**: *Bubo bubo*.\n- **Common Name**: Eurasian eagle‑owl.\n- **Habitat**: Europe, Asia, North Africa.\n- **Characteristics**:\n  - Large owl with ear tufts.\n  - Powerful talons and keen eyesight.\n  - Nocturnal predator.\n- **Ecological Role**: Controls rodent populations.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 131
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Zoology",
+    "subchapter": "Human Interest Groups",
+    "topic": "Gypsophils",
+    "content": "# Gypsophils\n\n- **Definition**: A term used to describe people who have a particular fondness for vultures.\n- **Etymology**: Derived from Greek *gyps* (vulture) + *philos* (loving).\n- **Cultural Context**: Often used in anthropological studies of communities that revere vultures.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 131
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Basic Elements",
+    "topic": "Common Elements in Daily Life",
+    "content": "# Common Elements\n\n- **Nitrogen (N)**: 78% of Earth's atmosphere; essential for amino acids and nucleic acids.\n- **Hydrogen (H)**: Lightest element; key component of water and organic molecules.\n- **Calcium (Ca)**: Major component of bones and teeth; vital for muscle contraction.\n- **Sodium (Na)**: Electrolyte; important for nerve impulse transmission.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 131
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Genetics & Biotechnology",
+    "topic": "Genetic Modification Techniques",
+    "content": "**RIDL (Refractory Insect Disease Line):** A genetic modification technique developed to combat **Malaria**. It involves modifying mosquitoes to reduce the transmission of the malaria parasite.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 133
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Human Physiology & Nutrition",
+    "topic": "Vitamins and Acids",
+    "content": "**Vitamin Acids vs. Fatty Acids:**\n- **Folic Acid:** Vitamin B9.\n- **Pantothenic Acid:** Vitamin B5.\n- **Ascorbic Acid:** Vitamin C.\n- **Oleic Acid:** A monounsaturated omega-9 fatty acid, **NOT** a vitamin.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 133
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Microbiology",
+    "topic": "Virus Structure",
+    "content": "**Bacteriophage Genetic Material:** Bacteriophages (viruses that infect bacteria) contain **either RNA or DNA**, but never both simultaneously. This distinguishes them from some other biological entities that might have both in different life stages or contexts, though viruses generally have one type of nucleic acid.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 133
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Animal Diseases",
+    "topic": "Foot and Mouth Disease (FMD)",
+    "content": "**Foot and Mouth Disease (FMD):** A highly contagious viral disease affecting cloven-hoofed animals. The primary hosts include **Cattle, Sheep, and Pigs**.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 133
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Botany",
+    "topic": "Plant Classification",
+    "content": "**Turmeric (Curcuma longa):** Belongs to the **Ginger** family (Zingiberaceae). It is a rhizome, similar to ginger and galangal.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 133
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Immunology",
+    "topic": "Vaccination History",
+    "content": "**Smallpox Vaccination:** The first successful vaccination was developed for **Smallpox** (caused by the Variola virus) by Edward Jenner in 1796, using material from Cowpox.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 133
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Human Physiology",
+    "topic": "Calcium Storage",
+    "content": "Approximately **99%** of the body's calcium is stored in bones and teeth. The remaining 1% is found in blood and soft tissues, playing a critical role in muscle contraction, nerve transmission, and blood clotting.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 134
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Human Physiology",
+    "topic": "Electrolytes and Body Fluids",
+    "content": "Both **Sodium** and **Potassium** play vital roles in restoring and maintaining body fluid balance. They are key electrolytes that regulate osmotic pressure, nerve impulse transmission, and muscle function.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 134
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Plant Physiology",
+    "topic": "Fiber Classification",
+    "content": "**Bast fibers** are obtained from the **Phloem** (inner bark) of plants. Examples include Jute, Hemp, and Flax. **Cotton** is NOT a bast fiber; it is a seed fiber obtained from the seed coat of the cotton plant.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 134
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Nutrition",
+    "topic": "Macronutrients (Metals)",
+    "content": "The metals required in **maximum quantities** (macronutrients) in a living organism are **Potassium, Sodium, Magnesium, and Calcium**. Metals like Manganese, Molybdenum, and Copper are micronutrients required in trace amounts.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 134
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Cell Biology",
+    "topic": "Genetics",
+    "content": "**Genes** help to determine the character (traits) of a cell. While the nucleus houses the genetic material and chromosomes are the structures carrying genes, the specific units of heredity that dictate characteristics are the genes.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 134
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Human Genetics",
+    "subchapter": "Color Vision",
+    "topic": "Color Blindness",
+    "content": "### Color Blindness\n- **Prevalence:** More common in males due to its X‑linked recessive inheritance.\n- **Genetics:** The trait is carried on the X chromosome. Males (XY) express the condition if their single X chromosome carries the defective gene. Females (XX) must have both X chromosomes defective to exhibit color blindness, which is rare but possible.\n- **Implication:** If both X chromosomes in a woman are defective, she will be color blind.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 135
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Psychology",
+    "subchapter": "Phobias",
+    "topic": "Agyrophobia",
+    "content": "### Agyrophobia\n- **Definition:** Fear of crossing roads or streets.\n- **Classification:** A specific phobia under the category of **situational phobias**.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 135
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Human Physiology",
+    "subchapter": "Blood",
+    "topic": "Red Blood Cell Lifespan",
+    "content": "### Red Blood Cell (RBC) Lifespan\n- **Average lifespan:** **100–120 days** in the human circulatory system.\n- **Physiological relevance:** After this period, senescent RBCs are removed by the spleen and liver.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 135
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Plant Physiology",
+    "subchapter": "Plant Hormones",
+    "topic": "Gibberellins",
+    "content": "### Gibberellins\n- **Discovery:** First recognized in **1926** by Japanese scientist **Eiichi Kurosawa**.\n- **Context of discovery:** While studying *bakanae* disease (foolish seedling disease) in rice.\n- **Function:** Promote stem elongation, seed germination, and other growth processes in plants.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 135
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Psychology",
+    "subchapter": "Phobias vs. Sensitivities",
+    "topic": "Photophobia",
+    "content": "### Photophobia\n- **Definition:** Excessive sensitivity to light, not a fear.\n- **Distinction:** Unlike true phobias (e.g., claustrophobia, algophobia, anthophobia), photophobia is a physiological response causing aversion to bright light.\n- **Related terms:** *Photophobia* is often confused with a fear of light, but medically it refers to light intolerance.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 135
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Digestive System",
+    "subchapter": "Stomach and Duodenum",
+    "topic": "Stomach and Duodenum",
+    "content": "# Stomach and Duodenum\n\n- **Stomach**: A muscular organ that receives food from the esophagus and secretes gastric juices (HCl, pepsin) to initiate protein digestion.\n- **Duodenum**: The first segment of the small intestine, receiving chyme from the stomach and digestive enzymes from the pancreas and bile from the liver.\n- **Key",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 136
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Genetics",
+    "topic": "Human Chromosomes",
+    "content": "- **Smallest Human Chromosome**: Chromosome 21 is the smallest human chromosome.\n- **Composition**: It is made up of approximately 47 million nucleotides.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 137
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Immunology",
+    "topic": "Antigens and Vaccines",
+    "content": "- **Nature of Antigens**: Most antigens are either **proteins** or **polysaccharides**.\n- **Lipids as Antigens**: Lipids are not typically antigens on their own. However, they can function as antigens when they combine with proteins or polysaccharides.\n- **Vaccines**: Most vaccines contain antigens to stimulate an immune response.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 137
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Pathology",
+    "topic": "Types of Cancer",
+    "content": "- **Most Common Cancer**: **Carcinoma** represents the most commonly found cancers in the world.\n- **Other Types**: Sarcoma, Lymphoma, and Germ cell tumors are other types of cancer but are less common than carcinoma.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 137
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Medical History",
+    "topic": "Anesthesia",
+    "content": "- **Ancient Anesthesia**: Anesthesia has been practiced since ancient times to allow patients to undergo surgery without distress and pain.\n- **Source**: **Opium (poppy)** is the most ancient source of anesthesia preparations.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 137
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Nutrition & Health",
+    "topic": "Antioxidants",
+    "content": "- **Red Wine Benefits**: Certain wines, such as Red Wine, possess health benefits.\n- **Mechanism**: These benefits are attributed to the presence of **antioxidants**, which work in the body to combat free radicals.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 137
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Human Physiology",
+    "topic": "Liver Functions",
+    "content": "The liver is a vital organ responsible for storing essential vitamins, including Vitamin A, Vitamin D, and Vitamin B12. Additionally, the liver produces albumin, which is one of the major protein components of blood serum.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 138
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Plant Physiology",
+    "topic": "Photosynthesis",
+    "content": "RuBisCO (Ribulose-1,5-bisphosphate carboxylase oxygenase) is an enzyme. It is the first enzyme involved in the Calvin Cycle of Carbon Fixation during photosynthesis.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 138
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Zoology",
+    "topic": "Sensory Systems in Vertebrates",
+    "content": "The acoustico-lateralis system, which demonstrates hearing and sound sensory mechanisms, is found in fishes.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 138
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Food Chemistry",
+    "topic": "Wine Composition",
+    "content": "The red color of red wine is primarily due to the presence of pigments.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 138
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Human Physiology",
+    "topic": "Organ Regeneration",
+    "content": "The **Liver** is the only internal human organ capable of significant regeneration. Unlike other organs such as the pancreas, kidney, or spleen, the liver can regrow to its original size and function after partial removal or damage.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 139
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Animal Physiology",
+    "topic": "Digestion in Horses",
+    "content": "Horses are able to digest cellulose from grasses because they possess a **hind gut** (specifically the cecum and large intestine) where symbiotic bacteria break down cellulose. They are not ruminants and do not have a multi-chambered stomach like cows or sheep.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 139
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Animal Husbandry",
+    "topic": "Animal Breeds",
+    "content": "**Jamnapari** is a well-known breed of **Goat**. It is native to India and is valued for both milk and meat production.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 139
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Plant Physiology",
+    "topic": "Radiocarbon Dating",
+    "content": "Radiocarbon dating of plants is possible due to the process of **Photosynthesis**. During photosynthesis, plants absorb carbon dioxide from the atmosphere, incorporating radioactive Carbon-14 ($^{14}C$) into their tissues. When the plant dies, the intake of $^{14}C$ stops, and the isotope decays at a known rate, allowing age estimation.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 139
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Human Physiology",
+    "topic": "Vitamins and Metabolism",
+    "content": "**Vitamin B** complex (specifically B1, B2, B3, B5, B6, B7, B9, and B12) is essential for the breakdown of energy molecules such as glucose. These vitamins act as coenzymes in cellular respiration and metabolic pathways.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 139
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Human Physiology",
+    "topic": "Circulatory System Disorders",
+    "content": "**Ischemia** is defined as a restriction in blood supply to tissues, usually due to obstruction or narrowing of a blood vessel. This leads to a shortage of oxygen and glucose needed for cellular metabolism. It is distinct from necrosis (tissue death) or hypoxia (general oxygen deficiency).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 139
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Plant Biology",
+    "subchapter": "Classification of Plants",
+    "topic": "Magnoliophyta (Angiosperms)",
+    "content": "### Magnoliophyta (Angiosperms)\n- **Magnoliophyta** is the scientific name for the group of plants commonly known as **Angiosperms**.\n- Angiosperms are **flowering plants** that produce seeds enclosed within a fruit.\n- They represent the most diverse and largest group of plants, comprising over 300,000 species.\n- Major characteristics include:\n  - Presence of true flowers.\n  - Seeds develop inside an ovary which matures into a fruit.\n  - Vascular tissue organized into **xylem** and **phloem**.\n- Angiosperms are divided into two major classes: **Monocotyledons (monocots)** and **Dicotyledons (dicots)**.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 140
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Blood Physiology",
+    "subchapter": "Blood Components",
+    "topic": "Hematocrit",
+    "content": "### Hematocrit (HCT)\n- **Definition:** The proportion of blood volume that is occupied by red blood cells (RBCs).\n- **Formula:** \\[ \\text{Hematocrit} = \\frac{\\text{Volume of RBCs}}{\\text{Total Blood Volume}} \\times 100\\% \\]\n- **Normal ranges:**\n  - Adult males: **40‑54 %**\n  - Adult females: **36‑48 %**\n- **Clinical relevance:**\n  - Used to assess anemia, polycythemia, and hydration status.\n  - Important in **doping tests** for athletes because RBCs carry oxygen; unusually high HCT may indicate blood‑boosting practices.\n  - **Blood donation:** Donors typically need a hematocrit of **≥38 %** to be eligible.\n- **Additional facts:**\n  - Hematocrit values also reflect iron status; low HCT can indicate iron deficiency.\n  - In some exam questions, the ion that enhances blood coagulation is asked. The correct answer is **Fe³⁺ (iron)**, not Ca²⁺, Na⁺, or K⁺.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 140
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Immunology",
+    "subchapter": "Vaccines",
+    "topic": "History of Vaccines",
+    "content": "### First Vaccine Developed – Smallpox\n- **Vaccine:** Smallpox vaccine\n- **Inventor:** **Edward Jenner** (1749‑1823)\n- **Year:** **1796**\n- **Method:** Jenner used material from cowpox lesions (vaccinia) to confer immunity against smallpox.\n- **Significance:** Marked the beginning of modern immunization; led to the eventual eradication of smallpox in 1980.\n- **Other early vaccines:**\n  - Rabies vaccine (Louis Pasteur, 1885)\n  - Cholera and tetanus vaccines were developed later in the 19th‑20th centuries.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 140
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Respiratory Physiology",
+    "subchapter": "Gas Toxicity",
+    "topic": "Oxygen Toxicity",
+    "content": "### Oxygen Toxicity\n- **Definition:** A condition resulting from the harmful effects of breathing oxygen at **high partial pressures** (usually >0.5 atm) for prolonged periods.\n- **Types:**\n  1. **Pulmonary (chronic) toxicity:** Caused by prolonged exposure to high O₂ concentrations (e.g., >0.6 atm) leading to inflammation, edema, and reduced lung compliance.\n  2. **Central nervous system (CNS) toxicity:** Occurs during exposure to very high pressures (e.g., >1.4 atm) such as in scuba diving; can cause seizures, visual disturbances, and loss of consciousness.\n- **Symptoms:** Cough, chest pain, dyspnea, visual disturbances, seizures.\n- **Prevention:** Limiting exposure time, using mixed‑gas breathing mixtures, and monitoring partial pressure of oxygen (Pₒ₂).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 140
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Public Health & Epidemiology",
+    "subchapter": "Disease Eradication & Control",
+    "topic": "Smallpox Eradication",
+    "content": "# Smallpox Eradication in India\n- **Certification Year**: India was certified free of variola (smallpox virus) in **1977**.\n- **Programme**: The certification was achieved through the *Indian National Smallpox Eradication Programme (NSEP)* and its intensified version *INSEP*.\n- **Global Context**: Smallpox was declared eradicated worldwide by the WHO in 1980, but India achieved certification earlier due to aggressive vaccination and surveillance efforts.\n- **Key Takeaway**: 1977 marks the year India was officially recognized as free from smallpox, a milestone in global public health.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 141
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Animal Physiology & Acoustic Communication",
+    "subchapter": "Ultrasonic Hearing",
+    "topic": "Galton's Whistle",
+    "content": "# Galton's Whistle\n- **Purpose**: Designed by Sir Francis Galton to produce ultrasonic waves that are inaudible to humans but audible to dogs and other animals.\n- **Frequency Range**: Humans can hear up to ~20 kHz; dogs, cats, dolphins, bats, and mice can hear above this limit.\n- **Application**: Used in training dogs and cats; the whistle appears silent to humans but can be heard by the animals.\n- **Scientific Insight**: Demonstrates species-specific hearing ranges and the use of ultrasonic signals in animal communication.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 141
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Virology",
+    "subchapter": "Retroviral Enzymes",
+    "topic": "Integrase in HIV",
+    "content": "# Integrase Enzyme\n- **Virus**: Human Immunodeficiency Virus (HIV) – the causative agent of AIDS.\n- **Function**: Integrase catalyzes the insertion of viral DNA into the host genome, a critical step in viral replication.\n- **Clinical Relevance**: Integrase inhibitors are a class of antiretroviral drugs used to treat HIV infection.\n- **Key Fact**: Among the listed diseases, only AIDS (caused by HIV) produces an integrase enzyme.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 141
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Human Anatomy",
+    "subchapter": "Skeletal System",
+    "topic": "Strongest Bone",
+    "content": "# Strongest Bone in the Human Body\n- **Bone**: Femur (thigh bone).\n- **Strength**: The femur is the longest and strongest bone, capable of supporting the weight of the body and resisting bending forces.\n- **Comparison**: While the temporal bone is dense, the femur’s combination of length, cortical thickness, and biomechanical design makes it the strongest.\n- **Clinical Note**: Femoral fractures are common in high-impact injuries but the bone’s strength allows it to withstand significant forces.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 141
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Animal Biotechnology",
+    "subchapter": "Cloning",
+    "topic": "First Cloned Buffalo",
+    "content": "# First Cloned Buffalo\n- **Country**: India.\n- **Date**: February 2009.\n- **Location**: National Dairy Research Institute, Karnal.\n- **Significance**: Demonstrated the feasibility of cloning large mammals and opened avenues for agricultural biotechnology.\n- **Method**: Somatic cell nuclear transfer (SCNT) was used to create the cloned animal.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 141
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Global Health Initiatives",
+    "subchapter": "International Funding",
+    "topic": "Global Fund to Fight AIDS, TB, Malaria",
+    "content": "# Global Fund (GFATM)\n- **Full Name**: Global Fund to Fight AIDS, Tuberculosis and Malaria.\n- **Common Names**: The Global Fund, GFATM.\n- **Establishment Year**: **2000**.\n- **Purpose**: Mobilize and disburse resources to support national programs for HIV/AIDS, TB, and malaria.\n- **Impact**: Has financed millions of interventions worldwide, contributing significantly to disease control and prevention.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 141
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Botany",
+    "topic": "Plant Classification",
+    "content": "### Non-vascular Embryophytes\n- **Definition**: Non-vascular embryophytes are plants that lack specialized vascular tissues (xylem and phloem) for transport but produce embryos.\n- **Common Name**: They are also known as **Bryophytes**.\n- **Examples**: Mosses, liverworts, and hornworts.\n- **Distinction**: They are distinct from Pteridophytes (vascular seedless plants), Algae (non-embryophytes), and Gymnosperms (vascular seed plants).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 142
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Botany",
+    "topic": "Unique Plant Species",
+    "content": "### Rafflesia\n- **Characteristics**: Rafflesia is known for having the **largest flowers** in the world.\n- **Habitat**: Found in many parts of **South East Asia**.\n- **Nature**: It is a **Parasitic Plant**. It lacks roots, stems, and leaves, and derives nutrients from its host vine.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 142
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Zoology",
+    "topic": "Animal Classification",
+    "content": "### Lemurs\n- **Classification**: Lemurs are primates.\n- **Group**: They belong to the order **Primates**.\n- **Distinction**: They are not rodents, bats (Chiroptera), or sloths (Folivora).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 142
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Human Anatomy",
+    "topic": "Circulatory System",
+    "content": "### Human Umbilical Cord\n- **Structure**: The umbilical cord contains blood vessels that connect the fetus to the placenta.\n- **Arteries**: There are **2 umbilical arteries** present in the human umbilical cord.\n- **Veins**: There is typically 1 umbilical vein.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 142
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Human Anatomy",
+    "topic": "Sensory Organs",
+    "content": "### Lacrimal Apparatus\n- **Function**: The lacrimal system is responsible for the production and drainage of tears.\n- **Components**: Includes the lacrimal gland, lacrimal ducts, lacrimal sac, and associated bones (lacrimal bone).\n- **Associated Organ**: These structures are parts of the **Eye**.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 142
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Genetics",
+    "topic": "History of Genetics",
+    "content": "### Father of Modern Genetics\n- **Scientist**: **William Bateson** is called the father of Modern Genetics.\n- **Contribution**: He coined the term 'genetics' and was a strong advocate for Mendel's laws of inheritance.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 142
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Ecology",
+    "topic": "Biocenosis",
+    "content": "**Biocenosis**: Defined as the community of organisms occupying a specific area. It is distinct from the study of energy transformations (which relates to ecology/thermodynamics) or specific ecosystem parts.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 143
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Plant Kingdom",
+    "topic": "Commercial Sources of Sugar",
+    "content": "**Commercial Sugar Sources**:\n1. **Sugarcane**: Most commonly *Saccharum officinarum*.\n2. **Sugar Beet**: *Beta vulgaris* (also known as Chukandar). Widely used as a commercial crop for table sugar.\n\n**Other Plant Identifications**:\n- *Gloriosa superba*: Glory Lily (ornamental plant).\n- *Asparagus pulmosus*: Ornamental plant.\n- *Toona cilata*: Timber plant, source of Indian Redwood.\n- *Brassica alba*: Common mustard.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 143
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry/Food Science",
+    "subchapter": "Food Purity Standards",
+    "topic": "ICUMSA Numbers",
+    "content": "**ICUMSA Numbers**: Used to express the purity (color) of **Refined Edible Sugar**. Lower ICUMSA numbers indicate higher purity/whiteness.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 143
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Plant Anatomy",
+    "topic": "Coconut Structure",
+    "content": "**Coconut Coir**: Obtained from the **Mesocarp** of the coconut fruit. The mesocarp is the fibrous layer between the outer epicarp and the hard inner endocarp.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 143
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Plant Physiology",
+    "topic": "Adaptive Roots",
+    "content": "**Respiratory Roots**: Found in **Mangroves**. These are specialized aerial roots that help the plant breathe in waterlogged, oxygen-poor soil. Marshy plants, epiphytes, and submerged hydrophytes have different root adaptations (e.g., pneumatophores in some marshy plants, but Mangroves are the classic example for respiratory roots in this context).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 143
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Botany",
+    "topic": "Medicinal Plants",
+    "content": "### Liquorice (Mulethi)\n- **Scientific Name**: *Glycyrrhiza glabra*\n- **Source Part**: Obtained from the **Roots** of the plant.\n- **Forms**: Used as a powder.\n- **Medicinal Uses**:\n  - Effective expectorant used in Ayurvedic medicines.\n  - Ingredient in many modern cough syrups.\n  - Used in treating mouth ulcers and peptic ulcers.\n  - Used in *Jastimadhu* (a traditional tooth powder).\n\n### Ashwagandha (Indian Ginseng)\n- **Scientific Name**: *Withania somnifera*\n- **Common Name**: Ashwagandha\n- **Alias**: Known as **Indian Ginseng** due to its adaptogenic properties.\n\n### Radish\n- **Scientific Name**: *Raphanus sativus*\n- **Edible Parts**: \n  - **Roots** (primary edible part).\n  - **Leaves** (edible).\n  - **Fruits** (seedpods are edible).\n  - *Note*: All parts (Roots, Leaves, Fruits) are considered edible.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 144
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Microbiology",
+    "topic": "History of Microbiology",
+    "content": "### Terminology in Microbiology\n- **Term 'Bacterium'**: Coined by **Christian Gottfried Ehrenberg**.\n- **Key Figures**:\n  - **Antonie van Leeuwenhoek**: Known for early microscopy and observation of microorganisms.\n  - **Louis Pasteur**: Known for pasteurization and germ theory.\n  - **Robert Koch**: Known for Koch's postulates and identification of specific pathogens.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 144
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Botany",
+    "topic": "Heterotrophic plants",
+    "content": "A heterotrophic plant is unable to synthesize a particular organic compound and therefore obtains its nutrition by feeding on dead organic matter. Such plants are also referred to as saprophytes.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 145
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Medicine",
+    "subchapter": "Professional qualifications",
+    "topic": "FRCS",
+    "content": "FRCS stands for **Fellow of the Royal College of Surgeons**. It is a prestigious qualification awarded to surgeons in many parts of the world.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 145
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Psychology",
+    "subchapter": "Phobias",
+    "topic": "Hodophobia",
+    "content": "Hodophobia is the irrational fear of traveling.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 145
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Human Anatomy",
+    "subchapter": "Thoracic cavity",
+    "topic": "Pleura",
+    "content": "The pleura is a serous membrane that surrounds the **lungs**.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 145
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Plant habitats",
+    "topic": "Helophytes",
+    "content": "Plants that grow in marshy or water‑logged areas are called **Helophytes**.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 145
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Genetics",
+    "subchapter": "Historical discoveries",
+    "topic": "One Gene – One Enzyme concept",
+    "content": "The Nobel Prize in 1958 for the **One Gene – One Enzyme** concept was awarded to **George Beadle and Edward Tatum**.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 145
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Botany",
+    "subchapter": "Beverage Plants",
+    "topic": "Beverage Plants",
+    "content": "# Beverage Plants\n\n- **Camellia sinensis** – Source of tea.\n- **Theobroma cacao** – Source of cocoa and chocolate.\n- **Coffea arabica** – Source of coffee.\n- **Alonsoa grandiflora** – Ornamental plant, not used for beverages.\n\nThese plants are cultivated for their edible or drinkable parts, primarily leaves or seeds that are processed into beverages.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 146
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Microbiology",
+    "subchapter": "Bread Spoilage",
+    "topic": "Mucor on Bread",
+    "content": "# Bread Spoilage by Mucor\n\n- **Mucor** is a filamentous fungus that commonly grows on bread, especially when stored in warm, humid conditions.\n- It produces a characteristic greenish‑brown mycelium and a foul odor.\n- Unlike yeasts (e.g., *Saccharomyces cerevisiae*) or bacteria, *Mucor* is a mold that thrives on carbohydrates.\n- Prevention: keep bread refrigerated, use airtight packaging, and consume within a few days.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 146
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Endocrinology",
+    "subchapter": "Blood Glucose Regulation",
+    "topic": "Hypoglycemia",
+    "content": "# Hypoglycemia\n\n- **Definition**: A condition where blood glucose levels fall below the normal range (typically <70 mg/dL).\n- **Causes**: Excess insulin, missed meals, certain medications, or endocrine disorders.\n- **Symptoms**: Shakiness, sweating, confusion, palpitations, and in severe cases, loss of consciousness.\n- **Management**: Immediate intake of fast‑acting carbohydrates (e.g., glucose tablets, fruit juice).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 146
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Immunology",
+    "subchapter": "Polio Vaccine",
+    "topic": "Jonas Salk",
+    "content": "# Jonas Salk and the Polio Vaccine\n\n- **Jonas Salk** (1914‑1995) developed the first effective inactivated polio vaccine (IPV) in 1955.\n- The vaccine uses killed poliovirus strains, inducing immunity without risk of vaccine‑derived polio.\n- Salk’s work led to a dramatic decline in polio cases worldwide and paved the way for eradication efforts.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 146
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Forensic Science",
+    "subchapter": "DNA Fingerprinting",
+    "topic": "Alec Jeffreys",
+    "content": "# Alec Jeffreys and DNA Fingerprinting\n\n- **Alec Jeffreys** (born 1944) pioneered DNA profiling in 1984.\n- His technique analyzes short tandem repeats (STRs) in the genome, producing a unique DNA fingerprint.\n- Applications: criminal investigations, paternity testing, identification of remains, and wildlife conservation.\n- Jeffreys’ work revolutionized forensic science and earned him the Nobel Prize in Physiology or Medicine (2023).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 146
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Pathology",
+    "subchapter": "Ailments and Affected Organs",
+    "topic": "Cystitis",
+    "content": "# Cystitis\n\n- **Definition**: Inflammation of the urinary bladder.\n- **Common Causes**: Urinary tract infections (UTIs), especially by *Escherichia coli*.\n- **Symptoms**: Frequent urination, burning sensation, lower abdominal pain, and sometimes hematuria.\n- **Affected Organ**: Bladder (not the caecum). The caecum is part of the large intestine and is associated with conditions like appendicitis or caecal ulcers.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 146
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Human Physiology & Genetics",
+    "topic": "Disease Terminology and Metabolic Disorders",
+    "content": "### Disease Terminology\n- **Encephalitis**: The suffix '-encephalitis' indicates inflammation or disorder of the **Brain**.\n\n### Metabolic Disorders\n- **Wilson's Disease**: A genetic disorder where **copper** accumulates in tissues, particularly the liver and brain.\n- **Fabry Disease**: Deficiency of alpha-galactosidase A.\n- **Canavan Disease**: Deficiency of aspartoacylase.\n- **Gunther Disease**: X-linked recessive disorder affecting vitamin K-dependent clotting factors.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 147
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Human Physiology",
+    "topic": "Blood Coagulation and Blood Groups",
+    "content": "### Blood Coagulation\n- **Thrombin Activation**: **Calcium ions (Ca²⁺)** are essential for both the activation and action of thrombin in the blood clotting cascade.\n\n### Blood Groups (ABO System)\n- **Blood Group B**:\n  - **Red Blood Cells (RBCs)**: Contain **B antigens**.\n  - **Plasma**: Contains **Anti-A antibodies** (agglutinins).\n  - *Note*: Individuals with Group B blood can receive blood from Group B and Group O donors.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 147
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Human Physiology",
+    "topic": "Autonomic Nervous System",
+    "content": "### Autonomic Nervous System Functions\n- **Sympathetic Nervous System** ('Fight or Flight'):\n  - Enhances heart rate and contractility.\n  - Constricts blood vessels (vasoconstriction).\n  - Dilates pupils (mydriasis).\n  - **Relaxes** the urinary bladder (to inhibit urination).\n- **Parasympathetic Nervous System** ('Rest and Digest'):\n  - Slows heart rate.\n  - Dilates blood vessels (vasodilation).\n  - Constricts pupils (miosis).\n  - **Contracts** the urinary bladder (to promote urination).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 147
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Zoology",
+    "topic": "Animal Classification",
+    "content": "### Animal Phyla\n- **Arthropoda**: The **largest** animal phylum, comprising over 80% of all known animal species (insects, arachnids, crustaceans, myriapods).\n- Other major phyla include Mollusca, Chordata (Mammalia is a class within Chordata), and Annelida.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 147
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Molecular Biology",
+    "topic": "DNA Replication Enzymes",
+    "content": "- **Polymerase**: An enzyme that synthesizes new strands of DNA or RNA by adding nucleotides to a growing chain. It is the primary enzyme responsible for DNA replication.\n- **Helicase**: Unwinds the DNA double helix.\n- **Primase**: Synthesizes RNA primers for DNA replication.\n- **Diastase**: An enzyme (amylase) that breaks down starch.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 148
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Microbiology",
+    "topic": "Bacterial Morphology",
+    "content": "- **Sarcinae**: Bacterial cells found in cubical packets (cubes of 8 or more cells).\n- **Tetracocci**: Bacteria arranged in groups of four.\n- **Streptococci**: Bacteria arranged in chains.\n- **Staphylococci**: Bacteria arranged in grape-like clusters.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 148
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Botany",
+    "topic": "Economic Botany",
+    "content": "- **Atropa belladonna**: A poisonous plant (Deadly Nightshade) used in medicine but **not** a food plant.\n- **Allium cepa**: Onion (Food plant).\n- **Allium sativum**: Garlic (Food plant).\n- **Asparagus officinalis**: Asparagus (Food plant).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 148
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Botany",
+    "topic": "Plant Ecology and Soil Preference",
+    "content": "- **Calcifuges**: Plants that grow in most acidic soils (low calcium content).\n- **Calcicoles**: Plants that grow in calcareous (alkaline/high calcium) soils.\n- **Calcareous**: Refers to soil rich in calcium carbonate.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 148
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Botany",
+    "topic": "Adaptations in Plants",
+    "content": "- **Pneumatophores**: Negatively geotropic roots that grow upward from the soil or water to facilitate gaseous exchange.\n- **Halophytes**: Salt-tolerant plants, often found in mangroves, which possess pneumatophores.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 148
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Zoology",
+    "topic": "Anatomy of Vertebrates",
+    "content": "- **Cloaca**: A posterior opening that serves as the common exit for the intestinal, reproductive, and urinary tracts.\n- **Presence**: Found in Aves (Birds), Amphibians, and Reptiles.\n- **Absence**: Not present in Pisces (Fish) or Mammals.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 148
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Reproductive Biology",
+    "topic": "Hermaphroditism",
+    "content": "**Hermaphroditism** is a condition in which an individual possesses both ovarian and testicular tissues, i.e., both female and male reproductive organs. Such individuals may exhibit characteristics of both sexes and can be classified as true hermaphrodites (functional gonads of both types) or ovotesticular disorder. It is distinct from conditions like Swyer syndrome, penile agenesis, or polyorchidism.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 150
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Engineering Biology",
+    "subchapter": "Bio‑inspired Engineering",
+    "topic": "Bionics",
+    "content": "**Bionics** is the interdisciplinary branch of science that studies the functions, characteristics, and phenomena observed in the living world and applies this knowledge to the design and development of machines, devices, and systems. It integrates principles from biology, physiology, and engineering to create bio‑inspired technologies such as prosthetic limbs, robotic sensors, and adaptive control systems.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 150
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Environmental Health",
+    "subchapter": "Occupational Diseases",
+    "topic": "Silicosis & Silico‑tuberculosis",
+    "content": "**Silicosis** is a chronic lung disease caused by inhalation of crystalline silica dust, leading to fibrosis of lung tissue. **Silico‑tuberculosis** occurs when silicosis predisposes the individual to tuberculosis infection. In India, the main centers of these diseases are **stone quarries and stone‑crushing factories**, where workers are exposed to high concentrations of silica dust. Other industries such as glass manufacturing, fireworks, and brick kilns have lower incidence compared to stone‑related operations.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 150
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Agricultural Science",
+    "subchapter": "Cereal Crops",
+    "topic": "Triticale",
+    "content": "**Triticale** is a man‑made cereal grain produced by hybridizing wheat (*Triticum*) and rye (*Secale*). It combines the high yield and quality of wheat with the hardiness and disease resistance of rye, making it a valuable crop for marginal soils. Triticale is classified as a hybrid seed rather than a genetically modified organism.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 150
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Soil Science",
+    "subchapter": "Soil Orders",
+    "topic": "Histosols",
+    "content": "**Histosols** are a soil order characterized by a high content of organic matter, primarily derived from partially decomposed plant material (peat). They are typically found in wetlands, bogs, and marshes. The main constituent of Histosols is **organic matter**, which gives these soils their dark color and high water‑holding capacity.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 150
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Demography",
+    "subchapter": "Population Metrics",
+    "topic": "Net Reproduction Rate (NRR)",
+    "content": "The **Net Reproduction Rate (NRR)** denotes the average number of daughters that would be born to a woman (or a cohort of women) over her lifetime if she were to experience the age‑specific fertility rates of a given period and survive through the reproductive ages. An NRR of 1 indicates a replacement level fertility, while values above 1 imply a growing population.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 150
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Human Biology",
+    "subchapter": "Saliva",
+    "topic": "Saliva Composition",
+    "content": "Saliva of a healthy human is **slightly alkaline** (pH ~7.4). It contains enzymes such as amylase, lipase, and has antimicrobial properties that help maintain oral health. The slightly alkaline environment aids in neutralizing acids produced by bacteria in the mouth.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 151
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Infectious Diseases",
+    "subchapter": "Project Kavach",
+    "topic": "Project Kavach",
+    "content": "Project Kavach is a national initiative in India aimed at combating **AIDS**. It focuses on prevention, testing, treatment, and awareness programs to reduce the spread of HIV and support affected individuals.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 151
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biotechnology",
+    "subchapter": "Human Embryonic Cloning",
+    "topic": "Human Embryonic Cloning",
+    "content": "The **United Kingdom** was the first country to issue research licenses for human embryonic cloning to create stem cells. This regulatory framework allows scientists to study embryonic stem cells for medical research while ensuring ethical oversight.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 151
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Infectious Diseases",
+    "subchapter": "Viral Diseases",
+    "topic": "Japanese Encephalitis",
+    "content": "Japanese encephalitis is caused by a **virus** from the family *Flaviviridae*. It is a mosquito‑borne disease transmitted primarily by *Culex* species. The virus infects the central nervous system, leading to inflammation of the brain.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 151
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Infectious Diseases",
+    "subchapter": "Viral Diseases",
+    "topic": "Mumps",
+    "content": "Mumps is caused by the **mumps virus**, a member of the *Paramyxoviridae* family. It primarily affects the salivary glands, causing swelling and pain, and can lead to complications such as meningitis or orchitis.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 151
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Infectious Diseases",
+    "subchapter": "Protozoan Diseases",
+    "topic": "Kala Azar",
+    "content": "Kala Azar, also known as visceral leishmaniasis, is caused by **protozoan parasites** of the genus *Leishmania*. The disease is transmitted by the bite of infected sandflies and can be fatal if untreated.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 151
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Diseases and Pathogens",
+    "topic": "Kala Azar (Visceral Leishmaniasis)",
+    "content": "- **Disease Name**: Kala Azar, also known as Dum dum fever or Visceral leishmaniasis.\n- **Causative Agent**: Protozoa of the *Leishmania* genus.\n- **Vector**: Sandfly.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 152
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "History of Medicine",
+    "topic": "Scientists and Discoveries",
+    "content": "- **Robert Koch**: Worked on Tuberculosis (identified the causative agent *Mycobacterium tuberculosis*).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 152
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Botany",
+    "topic": "Carnivorous Plants",
+    "content": "- **Carnivorous Plants**: Plants that derive some or most of their nutrients from trapping and consuming animals or protozoans.\n- **Examples**: Pitcher plant, Venus Fly Trap, Waterwheel plant.\n- **Non-Carnivorous Example**: Marsh Mallow is not a carnivorous plant.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 152
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Zoology/Anatomy",
+    "topic": "Heart Structure",
+    "content": "- **Four-Chambered Heart**: Found in Mammals and Birds.\n- **Archosaurs**: Crocodilians and birds show complete separation of the heart into two pumps, resulting in four heart chambers.\n- **Mammals**: Also possess a four-chambered heart.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 152
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Human Physiology",
+    "topic": "Urine Composition",
+    "content": "- **Glucose in Urine**: In a healthy person, the percentage of glucose in urine is 0%.\n- **Mechanism**: The kidneys reabsorb all filtered glucose back into the blood under normal conditions.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 152
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Space Science",
+    "subchapter": "Indian Space Programme",
+    "topic": "ASLV Full Form",
+    "content": "### ASLV – Augmented Satellite Launch Vehicle\n\n- **Full Form:** **A**ugmented **S**atellite **L**aunch **V**ehicle\n- Developed by ISRO as an improvement over the earlier **SLV‑3**.\n- First flight: 24 March 1987.\n- Intended to demonstrate technologies for future launch vehicles.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 153
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Space Science",
+    "subchapter": "Indian Space Programme",
+    "topic": "India's First Experimental Satellite Launch Vehicle",
+    "content": "### SLV‑3 – First Experimental Satellite Launch Vehicle\n\n- **Designation:** **S**atellite **L**aunch **V**ehicle‑3 (SLV‑3)\n- **Purpose:** To place a small satellite (≈ 40 kg) into low‑Earth orbit.\n- **First successful launch:** 18 July 1980, placing **Rohini Sat‑1** into orbit.\n- Marked India's entry into independent satellite launch capability.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 153
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Space Science",
+    "subchapter": "Indian Space Programme",
+    "topic": "GSLV Fuel Configuration",
+    "content": "### GSLV – Fuel Types Used\n\n- **First (Core) Stage:** Solid propellant (S125 solid motor).\n- **Second (Upper) Stage:** Liquid propellant – cryogenic **liquid hydrogen (LH₂)** and **liquid oxygen (LOX)**.\n- Hence, the vehicle uses **solid fuel in the first stage and liquid fuel in the second stage**.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 153
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Space Science",
+    "subchapter": "Indian Space Programme",
+    "topic": "Establishment of ISRO",
+    "content": "### Indian Space Research Organisation (ISRO)\n\n- **Date of establishment:** **15 August 1969**.\n- Formed under the Department of Space, Government of India.\n- Initially set up as the **Indian National Committee for Space Research (INCOSPAR)** in 1962; later upgraded to ISRO in 1969.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 153
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Space Science",
+    "subchapter": "Indian Space Programme",
+    "topic": "ISRO Headquarters",
+    "content": "### Location of ISRO Headquarters\n\n- **City:** **Bengaluru (Bangalore), Karnataka, India**.\n- The main campus is known as the **ISRO Headquarters (ISRO HQ)** and houses the office of the Chairman and senior leadership.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 153
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Space Science",
+    "subchapter": "Indian Space Programme",
+    "topic": "Common Misconceptions about Indian Space Research",
+    "content": "### Facts vs. Myths\n\n| Statement | Truth |\n|-----------|-------|\n| The first satellite launched in India was **Aryabhata**. | **True** – launched on 19 April 1975.\n| Dr. **Vikram Sarabhai** is known as the **Father of Indian Space Research**. | **True** – he laid the foundation of ISRO.\n| **ISRO was set up in 1962**. | **False** – ISRO was formally established in **1969**; 1962 marks the formation of INCOSPAR.\n| **ISRO reports to the Department of Space, India**. | **True** – the Department of Space is the parent ministry.\n\nThe incorrect statement often quoted in quizzes is the 1962 establishment year.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 153
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Space Science",
+    "subchapter": "Indian Space Programme",
+    "topic": "IRNSS Overview",
+    "content": "### IRNSS – Indian Regional Navigation Satellite System\n\n- **Purpose:** Provides accurate position‑fixing services over India and the surrounding region (≈ 1,500 km radius).\n- **Also known as:** **NavIC** (Navigation with Indian Constellation).\n- **Type of system:** **Navigation satellite** constellation (7 satellites in total).\n- **Operational since:** 2018.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 153
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Indian Space Program",
+    "subchapter": "Key Missions and Institutions",
+    "topic": "India’s First Man/Woman in Space",
+    "content": "### India’s First Man/Woman in Space\n- **First Indian man in space**: *Rakesh Sharma* (1979, Soyuz 39).\n- **First Indian woman in space**: *Kalpana Chawla* (1997, Space Shuttle Columbia).\n- Both astronauts were part of international missions; India has not yet launched a crewed spacecraft.\n- **Key takeaway**: Rakesh Sharma and Kalpana Chawla are celebrated as pioneers of Indian human spaceflight.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 154
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Indian Space Program",
+    "subchapter": "Launch Facilities",
+    "topic": "Satish Dhawan Space Centre (SDSC), SHAR",
+    "content": "### Satish Dhawan Space Centre (SDSC), SHAR\n- **Location**: *Sriharikota*, Andhra Pradesh, India.\n- **Established**: 1962, named after Dr. Satish Dhawan.\n- **Primary Functions**: Launch site for ISRO’s PSLV, GSLV, and other rockets.\n- **Key Launch Pads**: Pad 1 (PSLV), Pad 2 (GSLV), Pad 3 (PSLV).\n- **Significance**: First Indian launch site; hosts most of India’s satellite launches.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 154
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Indian Space Program",
+    "subchapter": "Missions",
+    "topic": "Chandrayaan‑I",
+    "content": "### Chandrayaan‑I\n- **Launch Date**: 22 October 2008.\n- **Vehicle**: PSLV‑C11.\n- **Mission Type**: *Lunar probe*.\n- **Objectives**: Search for water ice, study lunar surface composition, and test technologies for future missions.\n- **Key Achievements**: First Indian mission to the Moon; discovered water molecules on the lunar surface.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 154
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Indian Space Program",
+    "subchapter": "Early Satellites",
+    "topic": "APPLE, INSAT‑2 and Soviet Assistance",
+    "content": "### Early Indian Satellites\n- **APPLE (1975)**: India’s first experimental satellite.\n  - *Orbit*: Low Earth Orbit (LEO).\n  - *Launch Vehicle*: Soviet‑made launch vehicle.\n  - *Significance*: Demonstrated India’s capability to build and launch a satellite.\n- **INSAT‑2 (1983)**: First indigenously built Indian satellite.\n  - *Purpose*: Communication, meteorology, and broadcasting.\n  - *Launch Vehicle*: Indian‑made SLV‑3.\n- **Key Takeaway**: APPLE was assisted by the Soviet Union; INSAT‑2 marked India’s first fully indigenous satellite.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 154
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Indian Space Program",
+    "subchapter": "Defense Research",
+    "topic": "Headquarters of DRDO",
+    "content": "### Headquarters of DRDO\n- **Location**: *New Delhi*, India.\n- **Established**: 1961.\n- **Functions**: Research and development of defense technologies, including missile systems, radar, and electronics.\n- **Key Fact**: DRDO’s central office is situated in the capital, coordinating all defense research activities.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 154
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Indian Space Program",
+    "subchapter": "Navigation Satellites",
+    "topic": "IRNSS‑1E Launch Vehicle",
+    "content": "### IRNSS‑1E Launch Vehicle\n- **Satellite**: IRNSS‑1E (Indian Regional Navigation Satellite System).\n- **Launch Vehicle**: *PSLV‑C31*.\n- **Launch Date**: 23 December 2017.\n- **Launch Site**: Satish Dhawan Space Centre (Sriharikota).\n- **Significance**: Fifth satellite in the IRNSS constellation, enhancing regional navigation coverage.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 154
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Indian Space Program",
+    "subchapter": "Navigation Satellites",
+    "topic": "IRNSS Constellation Facts",
+    "content": "### IRNSS Constellation\n- **Total Satellites**: 7 (3 Geostationary, 4 Non‑Geostationary).\n- **Launch Status**: 5 satellites launched as of 2023.\n- **Primary Function**: Regional navigation and positioning (similar to GPS, GLONASS, Galileo).\n- **Services**: Provides accurate positioning, navigation, and timing for India and surrounding regions.\n- **Note**: IRNSS does **not** provide mapping or tracking services; those are handled by other satellite systems.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 154
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Space Technology",
+    "subchapter": "Cryogenic Engines",
+    "topic": "Countries with Cryogenic Engine Technology",
+    "content": "Cryogenic engine technology is a critical component for heavy-lift launch vehicles. As per the source material, **Canada** is identified as a country that does not possess indigenous cryogenic engine technology, whereas Russia, Japan, and China are recognized as having this capability.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 155
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Space Technology",
+    "subchapter": "Indian Launch Vehicles",
+    "topic": "Heaviest Rocket of India",
+    "content": "The **GSLV Mark 3** (Geosynchronous Satellite Launch Vehicle Mark III) is the heaviest rocket developed by India. It is a three-stage launch vehicle with two solid rocket boosters, a core liquid stage, and a cryogenic upper stage. Other options like RH 75, RH 300, and RH 200 refer to sounding rockets, which are significantly lighter and used for sub-orbital research.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 155
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Space Technology",
+    "subchapter": "Mars Orbiter Mission (Mangalyaan)",
+    "topic": "Facts about India's Mars Mission",
+    "content": "Key facts about the Mars Orbiter Mission (MOM), also known as Mangalyaan:\n1. **Launch Date**: Launched on **5 November 2013** (Note: The source text contains a typo stating 2012; the correct historical date is 2013).\n2. **Significance**: It was India's first interplanetary mission.\n3. **Global Rank**: ISRO became the **fourth** space agency to reach Mars (after NASA, ESA, and Roscosmos).\n4. **Asian First**: India is the **first Asian nation** to reach Mars orbit.\n5. **Success**: It achieved orbit insertion on the first attempt, making India the first country to do so on its maiden attempt.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 155
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Space Technology",
+    "subchapter": "Chandrayaan-1",
+    "topic": "Details of Chandrayaan-1 Mission",
+    "content": "Key facts about Chandrayaan-1:\n1. **Launch**: Launched by ISRO in **October 2008**.\n2. **Vehicle**: Launched using a **PSLV-XL** rocket (serial number C13).\n3. **Orbit Insertion**: Successfully inserted into lunar orbit on **8 November 2008**.\n4. **Announcement**: The project was announced by Prime Minister **Atal Bihari Vajpayee** in his Independence Day speech on **15 August 2003**.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 155
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Space Technology",
+    "subchapter": "Polar Satellite Launch Vehicle (PSLV)",
+    "topic": "Development of PSLV",
+    "content": "The **Polar Satellite Launch Vehicle (PSLV)** was developed and operated **indigenously in India** by the Indian Space Research Organisation (ISRO). It is not a collaborative project with Russia, USA, or UK. PSLV is a four-stage launch vehicle, with the first and fourth stages being solid propellant and the second and third stages being liquid propellant.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 155
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Space Technology",
+    "subchapter": "ISRO Facilities",
+    "topic": "Thumba Equatorial Rocket Launching Station (TERLS)",
+    "content": "The **Thumba Equatorial Rocket Launching Station (TERLS)** is situated in **Kerala**, India. It is the first spaceport in India and is located near Thumba village in Thiruvananthapuram district. It is primarily used for sounding rocket launches.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 155
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Space Technology",
+    "subchapter": "ISRO Facilities",
+    "topic": "Vikram Sarabhai Space Centre (VSSC)",
+    "content": "The **Vikram Sarabhai Space Centre (VSSC)** is located in **Thiruvananthapuram, Kerala**. It is the premier space research and development center of ISRO, responsible for the design and development of launch vehicles, satellites, and space applications.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 155
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Space Technology",
+    "subchapter": "ISRO and Satellites",
+    "topic": "Indian Space Program Facts",
+    "content": "- **USA Partnership**: The USA is identified as India's biggest partner in the development of space programmes.\n- **First Satellite Launch Vehicle (SLV)**: India's first satellite launch vehicle was the SLV (Satellite Launch Vehicle).\n- **SROS**: Stands for Stretched Rohini Satellite Series.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 156
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Scientific Institutions",
+    "subchapter": "Locations of Key Institutes",
+    "topic": "Institute Locations",
+    "content": "- **Artyabhatta Institute of Observational Sciences**: Located in Nainital.\n- **S.N. Bose National Centre for Basic Sciences**: Located in Kolkata.\n- **Indian Institute of Astrophysics**: Located in Bangalore (Note: Option C in source text claims Odisha, which is factually incorrect; the correct location is Bangalore, Karnataka).\n- **Indian Institute of Geomagnetism**: Located in Mumbai (Note: Option D in source text claims Mumbai; the primary headquarters is in Mumbai, with a center in Haldia, West Bengal).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 156
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Space Technology",
+    "subchapter": "ISRO Facilities",
+    "topic": "Master Control Facility",
+    "content": "- **Master Control Facility (MCF)**: Located in Bhopal, Madhya Pradesh. (Note: Option D in source text suggests 'Both a & b' referring to Hasan and Bhopal. While Bhopal is the primary MCF, the question context implies Bhopal is the key answer for 'Master Control Facility' in standard exams, though some sources may conflate it with other centers. Standard fact: MCF is in Bhopal).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 156
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Defence",
+    "subchapter": "Indian Defence System",
+    "topic": "Defence Hierarchy and Commands",
+    "content": "- **First Indian Chief of Army Staff**: General K.M. Cariappa (Note: Source text says 'G.M. Kariyappa', likely a typo for K.M. Cariappa).\n- **DRDO**: The Department of Defence Research and Development (DRDO) comes under the Ministry of Defence.\n- **Eastern Command HQ**: The Headquarters of the Eastern Command of the Indian Army is in Kolkata, West Bengal (Note: Option C in source text claims Odisha, which is incorrect).\n- **Chief of Air Force Title**: The Chief of the Air Force is called the **Air Chief Marshal**.\n- **Indian Army Officer Rank Order (Decreasing)**: Field Marshal > General > Lieutenant General > Major General.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 156
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Defence",
+    "subchapter": "Missile Technology",
+    "topic": "Agni V Missile",
+    "content": "- **Agni V**: An intercontinental ballistic missile (ICBM).\n- **Development**: Indigenously developed by India.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 156
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics & Astronomy",
+    "subchapter": "Missile Technology",
+    "topic": "Indian Missile Systems",
+    "content": "- **Nirbhay**: A cruise missile with a range of approximately 1000 km.\n- **Brahmos**: A supersonic cruise missile developed jointly by India (DRDO) and Russia (NPO Mashinostroyeniya). It is not solely developed by DRDO.\n- **Astra**: An Air-to-Air (BVR) missile, not an Air-to-Surface missile.\n- **Agni-III**: An intermediate-range ballistic missile with a range of 3000 to 5000 km.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 157
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics & Astronomy",
+    "subchapter": "Cosmology",
+    "topic": "Expansion of the Universe",
+    "content": "- **Edwin Hubble** speculated and provided observational evidence that the universe is expanding (Hubble's Law).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 157
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics & Astronomy",
+    "subchapter": "Planetary Motion",
+    "topic": "Laws of Planetary Motion",
+    "content": "- **Johannes Kepler** propounded the three laws of planetary motion (Kepler's Laws).\n- **Galileo Galilei** was the first to prove through telescopic observations that the Earth and other planets revolve around the Sun (heliocentric model support).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 157
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics & Astronomy",
+    "subchapter": "Stellar Physics",
+    "topic": "Composition and Energy Sources",
+    "content": "- **Most Abundant Element**: Hydrogen is the most abundant element in the universe.\n- **Stellar Energy Source**: Stars and the Sun generate energy through **Nuclear Fusion** (specifically, the fusion of hydrogen into helium).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 157
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics & Astronomy",
+    "subchapter": "Astronomical Instruments",
+    "topic": "Measurement Devices",
+    "content": "- **Interferometer**: A device employed to measure the diameters of stars and the size of our galaxy (Milky Way) by combining light from two or more separate telescopes.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 157
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Solar System",
+    "subchapter": "Small Celestial Bodies",
+    "topic": "Asteroids vs Comets",
+    "content": "### Asteroids\n- Small, rocky planetoids.\n- Primarily located in the asteroid belt between Mars and Jupiter.\n- Do **not** develop a visible tail.\n\n### Comets\n- Composed of frozen gases (ices) mixed with dust, rock, and metallic material.\n- Originate mainly from the Kuiper Belt and Oort Cloud, not confined between Venus and Mercury.\n- When approaching the Sun, sublimation of ices creates a **perceptible glowing tail**.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 158
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Solar System",
+    "subchapter": "Planetary Characteristics",
+    "topic": "Planetary Moons",
+    "content": "#### Moons of the Planets\n- **Jupiter** possesses the greatest number of natural satellites in the Solar System (over 90 confirmed moons).\n- Saturn follows with a large count of moons, but fewer than Jupiter.\n- Mars, Venus, Mercury, and Neptune have significantly fewer moons.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 158
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Solar System",
+    "subchapter": "Planetary Visibility",
+    "topic": "Morning Star / Evening Star",
+    "content": "The planet **Venus** is called the *Morning Star* or *Evening Star* because it appears brightest in the sky shortly before sunrise or after sunset, depending on its position relative to Earth and the Sun.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 158
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Solar System",
+    "subchapter": "Planetary Orbits",
+    "topic": "Orbital Periods",
+    "content": "#### Orbital Periods (sidereal)\n- **Mercury** completes one revolution around the Sun in **88 Earth days**.\n- Venus: ~225 days, Earth: 365 days, Mars: 687 days, etc.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 158
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Solar System",
+    "subchapter": "Planetary Densities",
+    "topic": "Density of Saturn",
+    "content": "Saturn has an average density of **0.687 g/cm³**, which is **less than the density of water (1 g/cm³)**. Consequently, if placed in a sufficiently large body of water, Saturn would **float**.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 158
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Atmospheric Layers",
+    "subchapter": "Stratosphere",
+    "topic": "Lower Stratosphere Conditions",
+    "content": "The **lower stratosphere** (approximately 10–20 km altitude) is characterized by:\n- Very low water‑vapour content; clouds are rare, leading to **minimal cloud formation**.\n- Very weak **vertical wind** (vertical motion) compared with the troposphere, providing a relatively stable environment for high‑altitude jet aircraft.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 158
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Solar System",
+    "subchapter": "Planets and Minor Bodies",
+    "topic": "Nearest Star to the Sun",
+    "content": "# Nearest Star to the Sun\n\n- **Proxima Centauri** is the closest star to the Sun, located at a distance of **4.24 light‑years**.\n- It is part of the Alpha Centauri star system, which also includes Alpha Centauri A and B.\n- Proxima Centauri is a red dwarf with a mass of about 0.12 M☉ and a radius of ~0.14 R☉.\n- The star hosts at least one exoplanet (Proxima b) in its habitable zone.\n\n---\n\n# Planets of the Solar System\n\n| Planet | Order from Sun | Approx. Radius (km) | Approx. Mass (M⊕) | Key Features |\n|--------|----------------|---------------------|-------------------|--------------|\n| Mercury | 1 | 2 440 | 0.055 | Smallest planet, no atmosphere |\n| Venus | 2 | 6 052 | 0.815 | Thick CO₂ atmosphere, surface pressure 92 atm |\n| Earth | 3 | 6 371 | 1.000 | Only known planet with liquid water |\n| Mars | 4 | 3 390 | 0.107 | Thin CO₂ atmosphere, polar ice caps |\n| Jupiter | 5 | 69 911 | 317.8 | Largest planet, gas giant |\n| Saturn | 6 | 58 232 | 95.2 | Rings, gas giant |\n| Uranus | 7 | 25 362 | 14.5 | Ice giant, axial tilt ~98° |\n| Neptune | 8 | 24 622 | 17.1 | Ice giant, blue color |\n\n- **Smallest planet**: Mercury (not listed in some MCQs). Among the options given, **Neptune** is the smallest of the four gas giants.\n\n---\n\n# Asteroid Belt\n\n- The **asteroid belt** lies between the orbits of Mars and Jupiter.\n- It contains millions of rocky bodies ranging from dust‑size particles to dwarf planets like Ceres.\n- These bodies are remnants from the early Solar System that never coalesced into a planet.\n- The belt is divided into inner, middle, and outer regions, with the inner belt being the most populated.\n\n---\n\n# Comets\n\n- **Comets** are icy bodies that release gas and dust when heated by the Sun, forming a coma and sometimes a tail.\n- **Halley’s Comet** (1P/Halley) has an orbital period of about **75–76 years**.\n- It is one of the most famous periodic comets and has been observed for millennia.\n\n---\n\n# Minor Bodies: Meteors, Meteoroids, and Asteroids\n\n- **Meteoroids**: Small particles in space that can become meteors when entering Earth’s atmosphere.\n- **Meteors**: The streak of light produced when a meteoroid burns up in the atmosphere.\n- **Asteroids**: Larger rocky bodies, primarily found in the asteroid belt.\n\n---\n\n# Summary\n\n- **Nearest star**: Proxima Centauri.\n- **Nearest planet**: Mercury.\n- **Smallest planet**: Mercury (Neptune is the smallest among the gas giants).\n- **Asteroid belt**: Located between Mars and Jupiter.\n- **Halley’s Comet**: Period ~75–76 years.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 159
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Solar System",
+    "subchapter": "Stellar Neighborhood",
+    "topic": "Alpha Centauri System",
+    "content": "# Alpha Centauri Star System\n\n- The **Alpha Centauri** system is the closest star system to the Solar System.\n- It consists of three stars: **Alpha Centauri A**, **Alpha Centauri B** (a binary pair), and the red dwarf **Proxima Centauri**.\n- Proxima Centauri is the nearest individual star to the Sun.\n- The system is located at a distance of about **4.37 light‑years** from Earth.\n- Proxima Centauri hosts at least one exoplanet, **Proxima b**, which lies in the star’s habitable zone.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 159
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Solar System",
+    "subchapter": "Planetary Science",
+    "topic": "Planetary Sizes and Masses",
+    "content": "# Comparative Planetary Sizes\n\n| Planet | Radius (km) | Mass (M⊕) |\n|--------|-------------|-----------|\n| Mercury | 2 440 | 0.055 |\n| Venus | 6 052 | 0.815 |\n| Earth | 6 371 | 1.000 |\n| Mars | 3 390 | 0.107 |\n| Jupiter | 69 911 | 317.8 |\n| Saturn | 58 232 | 95.2 |\n| Uranus | 25 362 | 14.5 |\n| Neptune | 24 622 | 17.1 |\n\n- The **smallest planet** in the Solar System is Mercury.\n- Among the gas giants, **Neptune** has the smallest radius and mass.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 159
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Solar System",
+    "subchapter": "Comets and Periodic Orbits",
+    "topic": "Halley’s Comet",
+    "content": "# Halley’s Comet (1P/Halley)\n\n- **Orbital period**: ~75–76 years.\n- **Perihelion**: Closest approach to the Sun, occurs every 75–76 years.\n- **Historical observations**: Recorded by ancient civilizations; first modern observation by Edmond Halley in 1705.\n- **Composition**: Icy nucleus with dust and gas, producing a visible coma and tail.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 159
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Solar System",
+    "subchapter": "Minor Bodies",
+    "topic": "Asteroid Belt",
+    "content": "# Asteroid Belt\n\n- Located between the orbits of **Mars** and **Jupiter**.\n- Contains millions of rocky bodies, ranging from dust to dwarf planets like **Ceres**.\n- The belt is a remnant of the early Solar System that never formed a planet due to Jupiter’s strong gravitational influence.\n- Asteroids are classified into families based on orbital characteristics and composition.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 159
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Astronomy",
+    "subchapter": "Solar System and Space Exploration",
+    "topic": "Planetary Facts and Space History",
+    "content": "- **Moon Landing**: Humans first landed on the moon in **1969** (Apollo 11 mission).\n- **Appearance of Space**: In space, the sky appears **black** to an astronaut because there is no atmosphere to scatter sunlight (Rayleigh scattering).\n- **Red Planet**: **Mars** is commonly known as the Red Planet due to the presence of iron oxide (rust) on its surface.\n- **Earth's Revolution**: The Earth revolves around the Sun in approximately **365.25 days** (which is why a leap year occurs every 4 years).\n- **IAU Designations**: The International Astronomical Union (IAU) assigns specific numbers to minor planets and dwarf planets. For example, Pluto is designated as **134340**.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 160
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics & Astronomy",
+    "subchapter": "Astronomical Facts",
+    "topic": "Black Holes and Earth-Sun Distance",
+    "content": "- **Black Hole Information**: Subrahmanyan Chandrasekhar (S. Chandrasekhar) provided the first significant theoretical information regarding Black Holes (Chandrasekhar limit).\n- **Earth-Sun Distance**: The average distance of the Earth from the Sun is approximately **149.6 million km** (1 Astronomical Unit).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 161
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics & Astronomy",
+    "subchapter": "Planetary Science",
+    "topic": "Earth's Nickname",
+    "content": "- **Blue/Green Planet**: Earth is commonly referred to as the 'Blue Planet' or 'Green Planet' due to the presence of water and vegetation.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 161
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "History of Physics",
+    "topic": "Key Scientists and Contributions",
+    "content": "- **Galileo Galilei**: Associated with the law of inertia, kinematical equations, and early telescopic observations.\n- **Guglielmo Marconi (G. Marconi)**: Invented wireless telegraphy, radio, and wireless messaging.\n- **J.J. Thomson**: Discovered the electron.\n- **Isaac Newton**: Major contributions include the Universal Law of Gravitation, Laws of Motion, and the development of Calculus.\n- **Enrico Fermi (A. Fermi)**: Known for the identification of artificial radioactive elements and work on nuclear physics.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 161
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Scientists and Contributions",
+    "topic": "Otto Hahn and Lise Meitner",
+    "content": "Otto Hahn and Lise Meitner (referred to as 'Stassman' in the source text, likely a typo for Meitner or Strassmann) are credited with the discovery of **Nuclear Fission**.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 162
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Scientists and Contributions",
+    "topic": "Thales",
+    "content": "Thales (referred to as 'Thels' in the source text) is associated with the discovery of **Static Electricity** (specifically, the electrostatic effect of rubbing amber).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 162
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Scientists and Contributions",
+    "topic": "Robert Millikan",
+    "content": "Robert Millikan is famous for his **Oil Drop Experiment**, which determined the **Electronic Charge** (elementary charge).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 162
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Scientists and Contributions",
+    "topic": "Isaac Newton",
+    "content": "Isaac Newton's major contributions include the **Law of Cooling** (Newton's Law of Cooling) and the formulation of laws of motion and gravity. Note: Thermionic Emission is not associated with Newton.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 162
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Scientists and Contributions",
+    "topic": "Heinrich Hertz",
+    "content": "Heinrich Hertz (referred to as 'Henric Hertz') is credited with the experimental verification and generation of **Electromagnetic Waves**.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 162
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Electrical Instruments",
+    "topic": "Ammeter",
+    "content": "An **Ammeter** is a measuring device used to measure the **electric current** in a circuit. It is connected in series with the component in which the current is to be measured. It does not measure altitude.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 162
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Automobile Engines",
+    "subchapter": "Carburettor",
+    "topic": "Function and Replacement",
+    "content": "### Carburettor\n- **Definition**: A device that blends air and fuel for an internal combustion engine.\n- **Modern Replacement**: In most automotive applications, carburettors have been largely supplanted by **fuel injection systems**, which provide more precise fuel metering and better efficiency.\n- **Key Points**:\n  - The carburettor ensures the correct air‑fuel ratio (typically around 14.7:1 for gasoline).\n  - Fuel injection uses electronic control units (ECUs) to deliver fuel directly into the intake manifold or combustion chamber.\n  - Advantages of fuel injection over carburettors include improved fuel economy, lower emissions, and better engine performance.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 163
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Inventions and Inventors",
+    "subchapter": "Physics",
+    "topic": "Contributions of Scientists",
+    "content": "### Jeans\n- **Contributions**: Jeans is credited with the invention of the lens camera and the tyre. These inventions significantly advanced photographic technology and transportation safety.\n\n### Fahrenheit\n- **Contributions**: Daniel Gabriel Fahrenheit is best known for inventing the mercury‑in‑glass thermometer, which introduced the Fahrenheit temperature scale. His work laid the foundation for modern thermometry.\n\n### Einstein\n- **Contributions**: Albert Einstein proposed a theoretical design for a refrigerator that operates without moving parts, known as the *Einstein refrigerator*. Although never built, it demonstrated the feasibility of a frictionless cooling system.\n\n### Otis\n- **Contributions**: Elisha Otis invented the safety elevator (lift) in 1854. His safety brake prevented the car from falling if the hoisting cable failed, revolutionizing vertical transportation in buildings.\n\n### Janson & Janson\n- **Contributions**: The Janson brothers (John and John Janson) are credited with early developments in the electric microphone, contributing to the field of acoustics and communication technology.\n\n### Walter Hunt\n- **Contributions**: Walter Hunt invented the power loom, a mechanized weaving device that increased textile production efficiency. His invention was a key step in the Industrial Revolution.\n\n### Petrol Car\n- **Contributions**: The Janson brothers also played a role in the early development of the petrol (internal combustion) car, helping to pioneer automotive engineering.\n\n---\n**Key Formulas & Definitions**\n- **Thermometer**: A device that measures temperature by the expansion of a liquid (e.g., mercury) in a glass tube.\n- **Safety Elevator**: An elevator equipped with a mechanical brake that engages automatically if the hoisting cable breaks.\n- **Power Loom**: A mechanized loom that automates the weaving process, using a series of cams and pulleys to control the shuttle.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 164
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Inventions and Inventors",
+    "subchapter": "Communication and Electrical Devices",
+    "topic": "Wireless Telegraphy and Key Inventors",
+    "content": "- **Wireless Telegraphy**: Invented by **Guglielmo Marconi**.\n- **Machine Gun**: A fully automatic mounted or portable firearm designed to fire bullets in quick succession. It was invented by **Hiram Maxim** (Note: The source text incorrectly attributes it to 'James Pakal' in a statement, but standard historical fact is Hiram Maxim).\n- **Robert Mallet**: Considered the 'Father of Seismology'. He invented the **Seismometer** (source text spells it 'Sismometer').\n- **Tape Recorder**: Invented by **Ferdinand Poulson** (listed as 'Poulson' in source).\n- **Crascograph**: Invented by **J. C. Bose**.\n- **Steam Engine**: Significantly improved by **James Watt**.\n- **Dynamo**: Invented by **Michael Faraday**.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 165
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Electricity and Magnetism",
+    "topic": "SI Units",
+    "content": "- **SI Unit of Electric Charge**: **Coulomb** (C).\n- **SI Unit of Potential Difference**: Volt (V).\n- **SI Unit of Electric Current**: Ampere (A).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 165
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Electricity",
+    "topic": "Electric Charge and Conductors",
+    "content": "### Electric Charge and Force\n- **Coulomb's Law Application**: The force exerted by one coulomb of electric charge on an equal charge placed at a distance of one metre is **9 × 10⁹ Newton**.\n- **Electron Charge**: An electron possesses a negative charge of **1.60 × 10⁻¹⁹ C**.\n- **Coulomb Definition**: One coulomb is equivalent to the charge of approximately **6.25 × 10¹⁸ electrons**.\n\n### Conductors and Insulators\n- **Conductors**: Substances that allow electricity to flow easily. Examples include **Silver, Copper, and Aluminium**.\n- **Insulators**: Substances through which electricity cannot flow. Examples include **Rubber**.\n- **Mechanism of Conduction**: For a substance to be a conductor of electricity, it must contain **free electrons** (electrons that are not strongly bound to the nucleus and can move freely).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 166
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Electricity",
+    "subchapter": "Static Electricity",
+    "topic": "Examples of Static Electricity",
+    "content": "### Static Electricity\n- **Definition**: Static electricity is the accumulation of electric charge on the surface of objects.\n- **Common examples**:\n  1. **Glass rod rubbed with silk cloth** – electrons are transferred from the glass to the silk, leaving the glass positively charged.\n  2. **Ebonite rod rubbed with wool** – electrons are transferred from the wool to the ebonite, leaving the ebonite negatively charged.\n  3. **Lightning in the sky** – a massive discharge of static electricity between clouds or between a cloud and the ground.\n- **Key point**: All the above phenomena are manifestations of static electricity.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 167
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Electricity",
+    "subchapter": "Electric Potential",
+    "topic": "Definition of Electric Potential",
+    "content": "### Electric Potential\n- **Definition**: The work done in moving a unit positive charge from infinity to a point in an electric field is called **electric potential** at that point.\n- **Unit**: Volt (V).\n- **Relation**: Electric potential difference (voltage) between two points is the work done per unit charge in moving the charge between those points.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 167
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Electricity",
+    "subchapter": "Resistance and Ohm’s Law",
+    "topic": "Ohm and Its Units",
+    "content": "### Ohm (Ω)\n- **Definition**: One ohm is the resistance that allows a current of one ampere to flow when a potential difference of one volt is applied.\n- **Formula**: \\[ 1\\,\\Omega = \\frac{1\\,\\text{V}}{1\\,\\text{A}} \\]\n- **Incorrect options**: \\(1\\,\\text{V}\\times1\\,\\text{A}\\) gives power (watt), not resistance.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 167
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Electricity",
+    "subchapter": "Classification of Materials",
+    "topic": "Based on Electrical Resistance",
+    "content": "### Classification of Materials by Resistance\n- **Good Conductors**: Materials with very low resistance (e.g., silver, copper, aluminium).\n- **Insulators**: Materials with very high resistance (e.g., rubber, glass, wood).\n- **Resistors**: Components specifically designed to provide a known resistance; not a material class but a device.\n- **Note**: In many textbooks, the three broad categories are *conductors, insulators, and semiconductors*. The MCQ options list “Good conductors”, “Resistors”, and “Insulators”, which collectively cover the main categories, so “All of the above” can be accepted in that context.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 167
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Electricity",
+    "subchapter": "Resistivity Factors",
+    "topic": "Factors Affecting Resistance of a Conductor",
+    "content": "### Factors Influencing Resistance\nThe resistance \\(R\\) of a uniform conductor is given by:\n\\[ R = \\rho \\frac{L}{A} \\]\nwhere:\n- \\(\\rho\\) = resistivity of the material (depends on **material**).\n- \\(L\\) = **length** of the conductor (directly proportional).\n- \\(A\\) = cross‑sectional area (inversely proportional).\n- **Temperature** also affects resistivity; for most metals, resistance increases with temperature.\nThus, **length, material, and temperature** all affect resistance.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 167
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Electricity",
+    "subchapter": "Resistance and Length",
+    "topic": "Effect of Doubling Length on Resistance",
+    "content": "### Effect of Length on Resistance\nFrom \\(R = \\rho \\frac{L}{A}\\):\n- If the length \\(L\\) is **doubled**, the resistance \\(R\\) also **doubles** (assuming material and cross‑section remain unchanged).\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 167
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Electricity",
+    "subchapter": "Safety Equipment",
+    "topic": "Protective Gear for Electricians",
+    "content": "### Safety Gear for Working with Electricity\n- **Rubber hand gloves** are the standard protective equipment for electricians because rubber is an excellent insulator.\n- Other materials (woollen, synthetic, cotton) do not provide sufficient insulation against electric shock.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 167
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Resistance and Conductivity",
+    "subchapter": "Resistance",
+    "topic": "Definition and Dependence",
+    "content": "# Resistance\n\n- **Definition**: Resistance (R) is the property of a material that opposes the flow of electric current.\n- **Formula**: \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 168
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Electricity",
+    "topic": "Current Detecting Instruments",
+    "content": "A **Galvanometer** is a sensitive instrument used to detect the presence of small electric currents in a circuit. It works on the principle that a current-carrying conductor placed in a magnetic field experiences a force. While an **Ammeter** is used to measure the magnitude of current, the Galvanometer is primarily known as a current-detecting instrument.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 169
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Electricity",
+    "topic": "Rheostat",
+    "content": "A **Rheostat** is a variable resistor used to control the current in an electrical circuit. It is essentially a **variable resistance** device. By adjusting the length of the resistive wire in the circuit, the resistance can be changed, thereby controlling the flow of current.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 169
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Electricity",
+    "topic": "Ohm's Law",
+    "content": "**Ohm's Law** states that the current ($I$) flowing through a conductor between two points is directly proportional to the voltage ($V$) across the two points, provided the temperature and other physical conditions remain constant. The relationship is expressed as $V = IR$. This law gives the fundamental relationship between current and potential difference.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 169
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Electricity",
+    "topic": "Formula for Current",
+    "content": "Based on Ohm's Law ($V = IR$), the formula for calculating current is **$I = V/R$**, where:\n- $I$ is the current in Amperes (A).\n- $V$ is the potential difference (voltage) in Volts (V).\n- $R$ is the resistance in Ohms ($\\Omega$).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 169
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Electricity",
+    "topic": "Proportionality of Current",
+    "content": "According to Ohm's Law ($I = V/R$):\n- Current is **directly proportional** to Potential Difference (Voltage).\n- Current is **inversely proportional** to Resistance. As resistance increases, current decreases, and vice versa.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 169
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Electricity",
+    "topic": "Factors Affecting Resistance",
+    "content": "The resistance ($R$) of a conductor depends on several factors:\n1. **Length ($L$):** Resistance is directly proportional to length ($R \\propto L$).\n2. **Nature of Material:** Different materials have different resistivities ($\\rho$).\n3. **Thickness/Cross-sectional Area ($A$):** Resistance is inversely proportional to the cross-sectional area ($R \\propto 1/A$).\n4. **Temperature:** Resistance generally increases with temperature for conductors.\nTherefore, resistance depends on **all of the above** factors.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 169
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Electricity",
+    "topic": "SI Units of Electrical Quantities",
+    "content": "- **Resistance:** The SI unit is the **Ohm ($\\Omega$)**.\n- **Voltage/Potential Difference:** The SI unit is the **Volt (V)**.\n- **Current:** The SI unit is the **Ampere (A)**.\n- **Power:** The SI unit is the **Watt (W)**.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 169
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Electricity",
+    "topic": "Measuring Instruments",
+    "content": "An **Ammeter** is the electronic device used to measure electric current in Amperes. It is connected in series with the circuit. Other instruments like Altimeters (measure altitude) and Audiometers (measure hearing) are unrelated to electrical current measurement.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 169
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Scientific Instruments",
+    "subchapter": "Electrical Instruments",
+    "topic": "Electroscope",
+    "content": "# Electroscope\n\n**Definition**: An electroscope is a simple device that detects the presence of electric charge on a body. It typically consists of a metal rod with a pair of thin metal leaves at the bottom.\n\n**Principle**: When a charged object is brought near the rod, the leaves repel each other due to like charges, indicating the presence and polarity of the charge.\n\n**Uses**: Basic demonstration of static electricity, educational experiments, and preliminary charge detection in laboratories.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 171
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Scientific Instruments",
+    "subchapter": "Electrical Instruments",
+    "topic": "Electric Meter",
+    "content": "# Electric Meter\n\n**Definition**: An electric meter (also known as an electricity meter) measures the amount of electric energy consumed by a residence or business.\n\n**Principle**: It uses a rotating disk or electronic circuitry to record the total kilowatt-hours (kWh) of electricity used.\n\n**Uses**: Billing for electricity consumption, monitoring energy usage, and managing power loads.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 171
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Scientific Instruments",
+    "subchapter": "Electrical Instruments",
+    "topic": "Electrometer",
+    "content": "# Electrometer\n\n**Definition**: An electrometer is a highly sensitive instrument used to measure very small electric charges or potentials.\n\n**Principle**: It typically employs a capacitor or a Faraday cage to detect minute changes in charge, often using a galvanometer or a digital readout.\n\n**Uses**: Measuring ionization, detecting leakage currents, and in high‑precision electrical experiments.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 171
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Scientific Instruments",
+    "subchapter": "Optical Instruments",
+    "topic": "Electron Microscope",
+    "content": "# Electron Microscope\n\n**Definition**: An electron microscope uses a beam of electrons to create an image of a specimen, providing much higher resolution than light microscopes.\n\n**Principle**: Electrons are accelerated and focused by electromagnetic lenses, and the interaction with the sample produces an image.\n\n**Uses**: Material science, biology, nanotechnology, and semiconductor inspection.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 171
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Scientific Instruments",
+    "subchapter": "Optical Instruments",
+    "topic": "Endoscope",
+    "content": "# Endoscope\n\n**Definition**: An endoscope is a flexible or rigid tube equipped with a light source and camera, used to view internal parts of the body.\n\n**Principle**: Light is transmitted through the tube to illuminate the area, and the image is projected onto a screen or recorded.\n\n**Uses**: Medical diagnostics (e.g., colonoscopy, bronchoscopy), surgical guidance, and veterinary examinations.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 171
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Scientific Instruments",
+    "subchapter": "Optical Instruments",
+    "topic": "Density Meter",
+    "content": "# Density Meter\n\n**Definition**: A density meter measures the density of liquids or solids by determining their mass per unit volume.\n\n**Principle**: Common methods include the Archimedes principle (hydrostatic weighing) or oscillation of a vibrating element.\n\n**Uses**: Quality control in manufacturing, oil and gas industry, and laboratory analysis.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 171
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Scientific Instruments",
+    "subchapter": "Mechanical Devices",
+    "topic": "Escalator",
+    "content": "# Escalator\n\n**Definition**: An escalator is a moving staircase that transports people between different floors.\n\n**Principle**: Powered by an electric motor, the steps are linked in a continuous loop and move along a sloped track.\n\n**Uses**: Public transportation in malls, airports, and transit stations.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 171
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Scientific Instruments",
+    "subchapter": "Gravimetric Instruments",
+    "topic": "Gravimeter",
+    "content": "# Gravimeter\n\n**Definition**: A gravimeter measures the local acceleration due to gravity.\n\n**Principle**: It uses a suspended mass or a pendulum; variations in gravitational force cause measurable changes in the system.\n\n**Uses**: Geophysical surveys, mineral exploration, and fundamental physics experiments.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 171
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Scientific Instruments",
+    "subchapter": "Hydrographic Instruments",
+    "topic": "Fathometer",
+    "content": "# Fathometer\n\n**Definition**: A fathometer (or depth sounder) measures the depth of water bodies.\n\n**Principle**: It emits a sound pulse and measures the time taken for the echo to return from the seabed.\n\n**Uses**: Navigation, marine research, and underwater mapping.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 171
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Scientific Instruments",
+    "subchapter": "Rotational Instruments",
+    "topic": "Gyroscope",
+    "content": "# Gyroscope\n\n**Definition**: A gyroscope is a device that maintains orientation based on angular momentum.\n\n**Principle**: A spinning rotor resists changes to its axis of rotation, providing stable reference for navigation.\n\n**Uses**: Aircraft attitude indicators, ship compasses, and inertial navigation systems.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 171
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Scientific Instruments",
+    "subchapter": "Thermal Instruments",
+    "topic": "Dilatometers",
+    "content": "# Dilatometers\n\n**Definition**: Dilatometers measure the change in volume or dimensions of a material as a function of temperature.\n\n**Principle**: They detect expansion or contraction using mechanical or optical methods.\n\n**Uses**: Material science, thermal analysis, and quality control.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 171
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Scientific Instruments",
+    "subchapter": "Electrical Instruments",
+    "topic": "Galvanometer",
+    "content": "# Galvanometer\n\n**Definition**: A galvanometer is a sensitive instrument for detecting and measuring electric current.\n\n**Principle**: It uses a coil in a magnetic field; the current induces a torque that deflects a needle.\n\n**Uses**: Current measurement in laboratories, calibration of instruments, and educational demonstrations.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 171
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Scientific Instruments",
+    "subchapter": "Mechanical Instruments",
+    "topic": "Dynamometer",
+    "content": "# Dynamometer\n\n**Definition**: A dynamometer measures force, torque, or power output of engines or motors.\n\n**Principle**: It converts mechanical energy into a measurable electrical signal or uses strain gauges.\n\n**Uses**: Automotive testing, industrial machinery, and research.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 171
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Measurement Instruments",
+    "topic": "Optical and Medical Devices",
+    "content": "- **Photometer**: A device used to compare the illumination and intensity of two light sources.\n- **Polygraph**: A device used to examine the truthfulness of a human being (lie detector).\n- **Stethoscope**: A medical device used to listen to the vibrations of the heart and lungs.\n- **Seismograph**: An instrument used to measure the intensity and magnitude of earthquakes.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 172
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Electromagnetism",
+    "topic": "Magnetic Effects of Current",
+    "content": "- **Discovery**: The magnetic field of current was discovered by **Hans Christian Oersted**.\n- **Magnetic Effect**: The magnetic effect of current gives rise to a **mechanical force**.\n- **Cause of Magnetic Field**: The magnetic effect around a wire is due to the **current flowing in it**.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 172
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Magnetic Effects of Electric Current",
+    "topic": "Applications of Magnetic Effect",
+    "content": "The magnetic effect of electric current is utilized in various devices. Key examples include:\n- **Electric Motor**: Converts electrical energy into mechanical energy using the interaction between a magnetic field and current.\n- **Telephone**: Uses electromagnets in the receiver to convert electrical signals into sound.\n- **Radio**: Utilizes electromagnetic principles for signal transmission and reception.\nTherefore, all these devices utilize the magnetic effect of current.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 173
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Magnetic Effects of Electric Current",
+    "topic": "Magnetic Field Lines around a Straight Conductor",
+    "content": "When current flows through a straight wire, it produces a magnetic field around it. The magnetic field lines are **concentric circles** centered on the wire. The direction of these circles can be determined using the Right-Hand Thumb Rule.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 173
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Magnetic Effects of Electric Current",
+    "topic": "Maxwell's Right-Hand Thumb Rule",
+    "content": "**Maxwell's Right-Hand Thumb Rule** states that if you hold a current-carrying straight conductor in your right hand such that the thumb points towards the direction of current, then the direction in which the fingers encircle the conductor gives the direction of the magnetic field lines.\n- **Thumb**: Direction of Current.\n- **Fingers**: Direction of Magnetic Field Lines.\nThis rule is also known as the **Corkscrew Rule**.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 173
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Magnetic Effects of Electric Current",
+    "topic": "Strength of Magnetic Field in Current-Carrying Conductors",
+    "content": "The strength of the magnetic field produced by a current-carrying conductor depends on the geometry of the conductor:\n1. **Straight Wire**: Produces a relatively weak field.\n2. **Circular Loop**: Produces a stronger field at the center compared to a straight wire.\n3. **Solenoid**: A long coil with many turns produces the strongest and most uniform magnetic field inside it. The field inside a solenoid is nearly uniform and strong.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 173
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Magnetic Effects of Electric Current",
+    "topic": "Factors Affecting Magnetic Field of a Circular Coil",
+    "content": "The strength of the magnetic field produced by a current-carrying circular coil can be increased by:\n1. **Increasing the number of turns** of the wire.\n2. **Increasing the current** flowing through the coil.\n3. **Decreasing the radius** of the coil (bringing the wire closer to the center).\nAll these factors contribute to a stronger magnetic field.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 173
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Magnetic Effects of Electric Current",
+    "topic": "Definition of Solenoid",
+    "content": "A **Solenoid** is defined as a long coil containing a large number of close turns of insulated copper wire wound in the shape of a cylinder. It behaves like a bar magnet with a definite north and south pole when current flows through it.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 173
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Magnetism and Electromagnetism",
+    "topic": "Solenoids and Electromagnets",
+    "content": "### Magnetic Field of a Solenoid\n- The magnetic field produced by a current-carrying solenoid is similar to the magnetic field produced by a **Bar magnet**.\n- Inside the solenoid, the magnetic field lines are **parallel straight lines**, indicating a uniform magnetic field.\n\n### Electromagnets\n- **Construction**: An electromagnet consists of a long coil of insulated copper wire (solenoid) wound on a **soft iron core**.\n- **Factors affecting strength**: The strength of the magnetic field produced by a current-carrying solenoid depends on:\n  1. The **number of turns** in the solenoid.\n  2. The **strength of the current** flowing through it.\n  3. The **nature of the core material** (soft iron is preferred for electromagnets as it loses magnetism when current is switched off).\n\n### Permanent Magnets vs. Electromagnets\n- **Permanent Magnets**: Made from hard magnetic materials like **Alnico** (Aluminum, Nickel, Cobalt) or **Cobalt steel**. They retain magnetism permanently.\n- **Electromagnets**: Made using soft magnetic materials (like soft iron). They do not retain magnetism when the current is stopped.\n- **Materials NOT used for electromagnets**: Hard magnetic materials like Carbon steel, Alnico, and Cobalt steel are generally not used for making electromagnets because they retain residual magnetism (hysteresis), which is undesirable for switches and relays.\n\n### Applications\n- Strong permanent magnets are used in devices such as **microphones**, speakers, and electric motors.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 174
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Magnetism",
+    "subchapter": "Magnetic Effects of Current",
+    "topic": "Detection of concealed conductors",
+    "content": "### Magnetic effect for detecting hidden conductors\n- When an alternating current flows through a concealed conductor, it creates an alternating magnetic field around it.\n- Hand‑held magnetic field detectors (e.g., a search coil or a Hall‑effect probe) sense this field.\n- The **magnetic effect** is therefore used to locate hidden wiring in walls, floors, and ceilings.\n- This method is non‑destructive and works even when the conductor is insulated.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 175
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Magnetism",
+    "subchapter": "Biological Magnetic Fields",
+    "topic": "Significant magnetic fields in the human body",
+    "content": "### Organs producing measurable magnetic fields\n- The **heart** generates a magnetic field of about 0.1–0.2 µT, detectable as a magnetocardiogram (MCG).\n- The **brain** produces magnetic fields of the order of 10–100 fT, recorded as magnetoencephalography (MEG).\n- These fields are the two most significant endogenous magnetic fields in the human body.\n- Other organs (e.g., lungs, kidneys) produce fields that are orders of magnitude weaker and are generally not measurable with current techniques.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 175
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Magnetism",
+    "subchapter": "Historical Discoveries",
+    "topic": "Hans Christian Ørsted’s discovery",
+    "content": "### Ørsted’s experiment (1820)\n- Ørsted observed that a compass needle deflected when placed near a current‑carrying wire.\n- This was the first demonstration that **electric current produces a magnetic field**.\n- The observation implied that a **mechanical force** acts on a conductor placed in an external magnetic field, laying the foundation for the motor effect.\n- Ørsted’s work sparked the development of electromagnetism and earned him the Nobel Prize in Physics (1903, posthumously).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 175
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Magnetism",
+    "subchapter": "Force on a Current‑Carrying Conductor",
+    "topic": "Maximum force condition",
+    "content": "### When is the magnetic force maximum?\n- The magnetic force on a straight conductor of length \\(L\\) carrying current \\(I\\) in a magnetic field \\(B\\) is given by:\n  \\[ \\mathbf{F} = I\\,\\mathbf{L} \\times \\mathbf{B} \\]\n- The magnitude is \\(F = I L B \\sin\\theta\\), where \\(\\theta\\) is the angle between \\(\\mathbf{L}\\) (direction of current) and \\(\\mathbf{B}\\).\n- **Maximum force** occurs when \\(\\sin\\theta = 1\\), i.e., when \\(\\theta = 90^{\\circ}\\).\n- Therefore, the conductor experiences the greatest force when it is **perpendicular** to the magnetic field.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 175
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Magnetism",
+    "subchapter": "Fleming’s Left‑Hand Rule",
+    "topic": "Direction of force on a current‑carrying conductor",
+    "content": "### Fleming’s Left‑Hand Rule (Motor Rule)\n- **Thumb** → Direction of **motion** (or force) on the conductor.\n- **First finger** → Direction of **magnetic field** (from North to South).\n- **Second finger** → Direction of **conventional current** (positive to negative).\n- The rule is a mnemonic for the vector cross‑product \\(\\mathbf{F} = I\\,\\mathbf{L} \\times \\mathbf{B}\\).\n- It is used to determine the direction of the force when the current direction and magnetic field direction are known.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 175
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Magnetism",
+    "subchapter": "Fleming’s Left‑Hand Rule",
+    "topic": "Thumb indication",
+    "content": "### Thumb meaning in Fleming’s left‑hand rule\n- In the left‑hand rule, the **thumb points in the direction of the motion (or force)** experienced by the conductor.\n- This motion is the result of the interaction between the current (second finger) and the magnetic field (first finger).\n- Remember: **Thumb = Thrust (Force), First = Field, Second = Current**.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 175
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Electricity and Magnetism",
+    "subchapter": "Electromagnetic Devices",
+    "topic": "Fleming's Left-Hand Rule",
+    "content": "# Fleming's Left-Hand Rule\\n\\nFleming's left-hand rule is used to determine the direction of the **force** on a current-carrying conductor placed in a magnetic field. The rule is applied using the left hand:\\n\\n- **Forefinger** – points in the direction of the magnetic field (**B**).\\n- **Second finger** – points in the direction of the electric current (**I**).\\n- **Thumb** – points in the direction of the force (**F**) exerted on the conductor.\\n\\n> **Mnemonic**: *B* for **B**field, *I* for **I**nput current, *F* for **F**orce.\\n\\n**Formula**: \\n\\n\\[ \\mathbf{F} = I \\mathbf{L} \\times \\mathbf{B} \\]\\n\\nwhere \\(\\mathbf{L}\\) is the length vector of the conductor.\\n\\n**Applications**: Used in electric motors, generators, and any device where magnetic forces act on moving charges.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 176
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Electricity and Magnetism",
+    "subchapter": "Electromagnetic Devices",
+    "topic": "Lorentz Force and Deflection of Conductors",
+    "content": "# Lorentz Force\\n\\nWhen a conductor carrying current \\(I\\) is placed in a magnetic field \\(\\mathbf{B}\\), the charges inside experience a force given by the Lorentz equation:\\n\\n\\[ \\mathbf{F} = q(\\mathbf{E} + \\mathbf{v} \\times \\mathbf{B}) \\]\\n\\nFor a current-carrying wire, the electric field term is negligible, and the force per unit length becomes:\\n\\n\\[ \\frac{\\mathbf{F}}{L} = I \\mathbf{B} \\times \\hat{\\mathbf{L}} \\]\\n\\n**Deflection**: The direction of the deflection of the conductor indicates the direction of the magnetic force acting on it. This principle is used in devices such as the galvanometer and in determining the polarity of magnetic fields.\\n\\n**Key Point**: The deflection direction is **not** the direction of the current or the magnetic field alone; it is the resultant force direction.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 176
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Electricity and Magnetism",
+    "subchapter": "Electromagnetic Devices",
+    "topic": "Electric Motor",
+    "content": "# Electric Motor\\n\\nAn electric motor converts **electrical energy** into **mechanical energy** by exploiting the interaction between magnetic fields and electric currents.\\n\\n**Basic Working Principle**:\\n1. Current flows through a coil (armature) placed in a magnetic field.\\n2. The Lorentz force acts on the coil, producing torque.\\n3. The torque turns the rotor, delivering mechanical work.\\n\\n**Common Applications**: Electric fans, washing machines, refrigerators, electric vehicles, and many household appliances.\\n\\n**Key Components**:\\n- **Armature** (coil)\\n- **Commutator** (reverses current direction)\\n- **Brushes** (conductive contacts)\\n- **Permanent magnets** or **electromagnets** (create magnetic field)\\n\\n**Efficiency**: Typically 70–90% depending on design and load.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 176
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Electricity and Magnetism",
+    "subchapter": "Electromagnetic Devices",
+    "topic": "Commutator and Brushes",
+    "content": "# Commutator and Brushes\\n\\nIn a DC motor, the **commutator** is a rotary switch that reverses the direction of current in the armature windings as the rotor turns. This ensures that the torque remains in the same direction.\\n\\n- **Commutator**: A segmented copper sleeve attached to the rotor. It connects the armature windings to the external circuit via the brushes.\\n- **Brushes**: Carbon or graphite strips that maintain electrical contact with the rotating commutator. They transfer current from the stationary supply to the rotating armature.\\n\\n**Functionality**:\\n- When the rotor reaches a certain angle, the commutator switches the current direction in the coil.\\n- This reversal prevents the motor from stopping and keeps the torque continuous.\\n\\n**Maintenance Tip**: Brushes wear out over time and need periodic replacement to maintain efficient motor operation.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 176
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Electricity and Magnetism",
+    "subchapter": "Energy Conversion Devices",
+    "topic": "Battery",
+    "content": "# Battery\\n\\nA battery is a device that converts **chemical energy** into **electrical energy** through electrochemical reactions.\\n\\n**Types**:\\n- **Primary batteries** (non-rechargeable): e.g., alkaline, zinc‑carbon.\\n- **Secondary batteries** (rechargeable): e.g., lead‑acid, lithium‑ion, nickel‑metal hydride.\\n\\n**Key Components**:\\n- **Anode** (negative electrode): site of oxidation.\\n- **Cathode** (positive electrode): site of reduction.\\n- **Electrolyte**: medium that allows ion transport.\\n\\n**Voltage**: Determined by the difference in electrode potentials.\\n\\n**Applications**: Portable electronics, electric vehicles, backup power supplies.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 176
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Kinematics and Energy",
+    "topic": "Potential Energy",
+    "content": "# Potential Energy\\n\\nPotential energy is the energy possessed by a body due to its position or configuration relative to a reference point. The most common form is **gravitational potential energy**:\\n\\n\\[ U = mgh \\]\\n\\nwhere \\(m\\) is mass, \\(g\\) is acceleration due to gravity, and \\(h\\) is height above the reference level.\\n\\nOther forms include **elastic potential energy** (spring), **chemical potential energy**, and **electrostatic potential energy**.\\n\\n**Key Concept**: Potential energy can be converted into kinetic energy when the body moves under the influence of a force.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 176
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Work, Energy and Power",
+    "topic": "Units of Energy and Power",
+    "content": "### Units of Energy and Power\n\n1. **Joule (J)**:\n   - The SI unit of **Work** and **Energy**.\n   - Defined as the work done when a force of 1 Newton displaces an object by 1 meter in the direction of the force.\n\n2. **Commercial Unit of Energy**:\n   - The commercial unit of electrical energy is the **Kilowatt-hour (kWh)**.\n   - 1 kWh = 1000 W × 3600 s = 3,600,000 Joules (3.6 MJ).\n   - Often referred to as 1 \"unit\" of electricity.\n\n3. **Units of Power**:\n   - **Watt (W)**: SI unit of power.\n   - **Kilowatt (kW)**: 1000 Watts.\n   - **Horsepower (hp)**: Approximately 746 Watts.\n   - **Milliwatt (mW)**: 1/1000th of a Watt. This is the smallest unit among common power units listed in standard contexts (compared to Watt, Kilowatt, and Horsepower).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 177
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Work, Energy and Power",
+    "topic": "Conservation of Energy and Calculations",
+    "content": "### Conservation of Energy and Calculations\n\n1. **Free Fall and Total Energy**:\n   - When an object falls freely towards the ground, its **Total Mechanical Energy** (Sum of Kinetic Energy + Potential Energy) **remains constant**.\n   - As the object falls, Potential Energy decreases while Kinetic Energy increases by the same amount.\n\n2. **Energy Transfer Calculation**:\n   - Formula: $Energy (J) = Power (W) \\times Time (s)$\n   - Example: A 100 W bulb running for 1 minute (60 seconds) transfers $100 \\times 60 = 6000$ Joules of energy.\n\n3. **Electrical Energy Consumption (in kWh)**:\n   - Formula: $Energy (kWh) = \\frac{Power (W) \\times Time (h)}{1000}$\n   - Example: A 60 W radio running for 50 hours consumes $\\frac{60 \\times 50}{1000} = \\frac{3000}{1000} = 3$ kWh (or 3 units).\n\n4. **Work and Energy Relationship**:\n   - When work is done on a body, the body **gains energy**.\n   - Work is the measure of energy transfer.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 177
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Mechanics",
+    "topic": "Work Done",
+    "content": "Work done on an object is defined as the product of the force applied, the displacement of the object, and the cosine of the angle between the force and displacement vectors ($W = F \\cdot d \\cdot \\cos\\theta$). Therefore, work done depends on displacement, the angle between force and displacement, and the force applied. It does **not** depend on the initial velocity of the object.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 178
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Optics",
+    "topic": "Nature of Light",
+    "content": "Light is said to have a **dual nature** because it exhibits properties of both waves and particles. Wave properties include reflection, diffraction, interference, and polarization. Particle properties are demonstrated by phenomena such as the photoelectric effect. The nature of light is explained by both Wave Theory and Particle Theory.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 178
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Optics",
+    "topic": "Reflection of Light",
+    "content": "1. **Reflectors**: Polished and shining surfaces reflect more light compared to unpolished surfaces. **Silver** is considered the best metal reflector of light.\n2. **Terminology**: An **incident ray** is the ray of light that falls on the mirror surface. The point where it falls is the point of incidence. The ray sent back is the reflected ray. The normal is the line perpendicular (right angle) to the mirror surface at the point of incidence.\n3. **Laws of Reflection**:\n   - (i) The incident ray, the normal ray, and the reflected ray all lie in the same plane.\n   - (ii) The angle of reflection is always equal to the angle of incidence ($\\theta_i = \\theta_r$).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 178
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Optics",
+    "topic": "Reflection of Light",
+    "content": "### Reflection of Light\n- **Regular Reflection**: Occurs when a parallel beam of incident light is reflected as a parallel beam in one direction. This happens on smooth, polished surfaces.\n- **Diffuse Reflection**: Occurs when light reflects in different directions from a rough surface.\n- **Mirror Image**: The image of our face seen in a mirror is formed due to the reflection of light.\n\n### Images\n- **Object**: Anything which gives out light rays or reflects light rays to enter the eye.\n- **Real Image**: An image formed by the actual intersection of light rays. It can be projected on a screen. Example: Image formed on a cinema screen.\n- **Virtual Image**: An image formed by the apparent intersection of light rays. It cannot be projected on a screen. Example: Image seen in a plane mirror.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 179
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Astronomy",
+    "topic": "Eclipses and Shadows",
+    "content": "### Lunar Eclipse\n- **Occurrence**: A lunar eclipse occurs when the Earth is positioned between the Sun and the Moon, casting its shadow on the Moon.\n- **Phase**: It happens during the **Full Moon** phase.\n- **Note**: A Solar Eclipse occurs when the Moon is between the Earth and the Sun.\n\n### Earth's Shadows\n- **Umbra**: The darker, central part of the shadow where the light source is completely blocked.\n- **Penumbra**: The outer, lighter part of the shadow where the light source is only partially blocked.\n- **Antumbra**: The region beyond the umbra where the occluding body is entirely within the cone of the shadow but appears smaller than the light source (partly shaded area beyond the umbra in specific contexts, though typically associated with annular eclipses).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 179
   }
 ]
