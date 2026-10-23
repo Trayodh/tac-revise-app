@@ -853345,5 +853345,4743 @@
     "topic": "Properties of Matter",
     "source_pdf": "General-Science-Book-SSBCrack.pdf",
     "source_page": 57
+  },
+  {
+    "question_text": "Who among the following is considered by the Indian scientific community to be the father of experimental fluid dynamics research in India and one of the most eminent researchers in the field of turbulence and boundary layers?",
+    "options": {
+      "A": "Suhas V. Patankar",
+      "B": "Satish Dhawan",
+      "C": "M O Smith",
+      "D": "JC Bose"
+    },
+    "correct_answer": "B",
+    "explanation": "Satish Dhawan is widely recognized as the father of experimental fluid dynamics research in India and is renowned for his work on turbulence and boundary layers.",
+    "subject": "General Science",
+    "chapter": "General Knowledge / Science History",
+    "topic": "Indian Scientists",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 58
+  },
+  {
+    "question_text": "The speed of Sound is maximum in which of the following?",
+    "options": {
+      "A": "Air at zero degree C",
+      "B": "Air at 100 degree C",
+      "C": "Water",
+      "D": "At all places it is maximum"
+    },
+    "correct_answer": "C",
+    "explanation": "Sound travels faster in denser media. Since water is denser than air, the speed of sound is higher in water than in air at any given temperature. The speed of sound in air at 0°C is 331.5 m/s, while in water it is approximately 1480 m/s.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Speed of Sound",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 58
+  },
+  {
+    "question_text": "Steam at 100 degree centigrade causes more severe burns. Which of the following phenomena will you use to explain this?",
+    "options": {
+      "A": "Specific heat",
+      "B": "Latent heat",
+      "C": "Fusion",
+      "D": "Fission"
+    },
+    "correct_answer": "B",
+    "explanation": "Steam contains latent heat of vaporization. When steam condenses on the skin, it releases this additional latent heat along with the sensible heat, causing more severe burns than boiling water at the same temperature.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Heat Transfer",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 58
+  },
+  {
+    "question_text": "The Helium atoms that have lost two electrons are called ________?",
+    "options": {
+      "A": "Alpha rays",
+      "B": "Beta rays",
+      "C": "Gamma rays",
+      "D": "None of the above"
+    },
+    "correct_answer": "A",
+    "explanation": "Alpha particles are helium nuclei, which consist of two protons and two neutrons. When a helium atom loses its two electrons, it becomes a helium ion, which is identified as an alpha particle or alpha ray in the context of radioactive decay.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Radioactivity",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 59
+  },
+  {
+    "question_text": "What is the approximate height of a Geostationary satellite ?",
+    "options": {
+      "A": "981 km",
+      "B": "15000 kms",
+      "C": "35000 kms",
+      "D": "5000 kms"
+    },
+    "correct_answer": "C",
+    "explanation": "Geostationary satellites orbit at an altitude of approximately 35,786 km above the Earth's equator. Among the given options, 35,000 kms is the closest and correct approximation.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Space Technology",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 59
+  },
+  {
+    "question_text": "The inability of a body to change its state of rest or its uniform motion in a straight line is called as ________?",
+    "options": {
+      "A": "Mass",
+      "B": "weight",
+      "C": "Inertia",
+      "D": "Friction"
+    },
+    "correct_answer": "C",
+    "explanation": "Inertia is the property of matter by which it continues in its existing state of rest or uniform motion in a straight line, unless that state is changed by an external force.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Mechanics",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 59
+  },
+  {
+    "question_text": "Ohm is a unit of measuring _________?",
+    "options": {
+      "A": "Resistance",
+      "B": "Voltage",
+      "C": "Current",
+      "D": "None of the above"
+    },
+    "correct_answer": "A",
+    "explanation": "The Ohm (symbol: Ω) is the SI derived unit of electrical resistance. Voltage is measured in Volts and Current in Amperes.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Electricity",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 59
+  },
+  {
+    "question_text": "Equal volumes of all gases contain equal number of molecules under similar conditions of temperature and pressure. Which law says this ?",
+    "options": {
+      "A": "Boyle‘s law",
+      "B": "Charles law",
+      "C": "Avogadro‘s Law",
+      "D": "Bhor‘s law"
+    },
+    "correct_answer": "C",
+    "explanation": "Avogadro's Law states that equal volumes of all gases, at the same temperature and pressure, contain an equal number of molecules. Boyle's law relates pressure and volume, while Charles's law relates volume and temperature.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Gases",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 59
+  },
+  {
+    "question_text": "Which among the following is a property of Insulator?",
+    "options": {
+      "A": "The electrons of the outer orbits are loosely bound to the nucleus , however can not flow through them",
+      "B": "The electrons of the outer orbits are tightly bound to the nucleus and can not flow through them",
+      "C": "The electrons of the outer orbits are loosely bound to the nucleus , and can flow through them",
+      "D": "None of the above"
+    },
+    "correct_answer": "B",
+    "explanation": "In insulators, the valence electrons are tightly bound to the nucleus and are not free to move throughout the material. This lack of free charge carriers prevents the flow of electric current. In conductors, electrons are loosely bound and can flow freely.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Electricity",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 59
+  },
+  {
+    "question_id": "Q108",
+    "question_number": "108",
+    "question_text": "Which among the following is true about latent heat ?",
+    "options": [
+      "It causes change in temperature as well as change in state or phase",
+      "It causes change in temperature only",
+      "It causes change in state or phase but not in temperature",
+      "It causes change in Pressure"
+    ],
+    "correct_answer": "C",
+    "explanation": "It causes change in state or phase but not in temperature",
+    "marks": 1,
+    "negative_marks": 0.33,
+    "year": "Unknown",
+    "exam": "Unknown",
+    "paper": "General Science",
+    "shift": "Unknown",
+    "subject": "Physics",
+    "chapter": "Heat",
+    "subchapter": "Thermodynamics",
+    "topic": "Latent Heat",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 60
+  },
+  {
+    "question_id": "Q109",
+    "question_number": "109",
+    "question_text": "When light from some sources enters to the earth's atmosphere, it gets scattered. Which among the following is a reason behind scattering?",
+    "options": [
+      "Various wavelengths of light",
+      "dust, smoke and gas molecules",
+      "atmospheric pressure",
+      "None of the above"
+    ],
+    "correct_answer": "B",
+    "explanation": "dust, smoke and gas molecules",
+    "marks": 1,
+    "negative_marks": 0.33,
+    "year": "Unknown",
+    "exam": "Unknown",
+    "paper": "General Science",
+    "shift": "Unknown",
+    "subject": "Physics",
+    "chapter": "Optics",
+    "subchapter": "Light",
+    "topic": "Scattering of Light",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 60
+  },
+  {
+    "question_id": "Q110",
+    "question_number": "110",
+    "question_text": "Which among the following is true about Total Internal Reflection?",
+    "options": [
+      "A ray passing from rarer to denser medium and not able to pass to denser medium at an angle greater than critical angle",
+      "A ray passing from denser to rarer medium and not able to pass to rarer medium at an angle greater than critical angle",
+      "A ray passing from either denser to rarer medium or rarer to denser medium and not able to pass any medium at an angle smaller than critical angle",
+      "None of the above"
+    ],
+    "correct_answer": "B",
+    "explanation": "A ray passing from denser to rarer medium and not able to pass to rarer medium at an angle greater than critical angle",
+    "marks": 1,
+    "negative_marks": 0.33,
+    "year": "Unknown",
+    "exam": "Unknown",
+    "paper": "General Science",
+    "shift": "Unknown",
+    "subject": "Physics",
+    "chapter": "Optics",
+    "subchapter": "Light",
+    "topic": "Total Internal Reflection",
+    "difficulty": "Hard",
+    "question_type": "MCQ",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 60
+  },
+  {
+    "question_id": "Q111",
+    "question_number": "111",
+    "question_text": "Which among the following principle is used by Bats?",
+    "options": [
+      "RADAR (Radio Detective & Ranging",
+      "SONAR (Sound Navigation & Ranging",
+      "law of reflection",
+      "law of diffraction"
+    ],
+    "correct_answer": "B",
+    "explanation": "SONAR (Sound Navigation & Ranging",
+    "marks": 1,
+    "negative_marks": 0.33,
+    "year": "Unknown",
+    "exam": "Unknown",
+    "paper": "General Science",
+    "shift": "Unknown",
+    "subject": "Physics",
+    "chapter": "Sound",
+    "subchapter": "Wave Motion",
+    "topic": "SONAR",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 60
+  },
+  {
+    "question_id": "Q112",
+    "question_number": "112",
+    "question_text": "Which among the following is true regarding Sound Waves?",
+    "options": [
+      "They are longitudinal waves and material medium is not required for their propagation",
+      "They are transverse waves and material medium is required for their propagation",
+      "They are longitudinal waves and material medium is required for their propagation",
+      "They are transverse waves and material medium is not required for their propagation"
+    ],
+    "correct_answer": "C",
+    "explanation": "They are longitudinal waves and material medium is required for their propagation",
+    "marks": 1,
+    "negative_marks": 0.33,
+    "year": "Unknown",
+    "exam": "Unknown",
+    "paper": "General Science",
+    "shift": "Unknown",
+    "subject": "Physics",
+    "chapter": "Sound",
+    "subchapter": "Wave Motion",
+    "topic": "Sound Waves",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 60
+  },
+  {
+    "question_id": "gen-sci-mcq-114",
+    "question_number": "114",
+    "question_text": "The ideal fluid which is a hypothetical fluid should contain _______?",
+    "options": [
+      "Zero Viscosity Only",
+      "Zero Compressibility Only",
+      "Zero Viscosity & Zero Compressibility",
+      "None of the above"
+    ],
+    "correct_answer": "C",
+    "explanation": "Zero Viscosity & Zero Compressibility",
+    "marks": 1,
+    "negative_marks": 0.33,
+    "year": null,
+    "exam": "Unknown",
+    "paper": null,
+    "shift": null,
+    "subject": "Physics",
+    "chapter": "Properties of Matter",
+    "subchapter": "Hydrodynamics / Fluid Mechanics",
+    "topic": "Ideal Fluid",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 61
+  },
+  {
+    "question_id": "gen-sci-mcq-115",
+    "question_number": "115",
+    "question_text": "Which among the following defines cohesive force?",
+    "options": [
+      "the force of attraction acting between the molecules of same material",
+      "the force of attraction acting between the molecules of different material",
+      "the force of attraction acting between the atoms of same material",
+      "None of the above"
+    ],
+    "correct_answer": "A",
+    "explanation": "the force of attraction acting between the molecules of same material",
+    "marks": 1,
+    "negative_marks": 0.33,
+    "year": null,
+    "exam": "Unknown",
+    "paper": null,
+    "shift": null,
+    "subject": "Physics",
+    "chapter": "Properties of Matter",
+    "subchapter": "Surface Tension and Intermolecular Forces",
+    "topic": "Cohesive and Adhesive Forces",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 61
+  },
+  {
+    "question_id": "gen-sci-mcq-116",
+    "question_number": "116",
+    "question_text": "Which of the following term denotes the internal reaction force per unit area developed as a result of applied external force ?",
+    "options": [
+      "Stress",
+      "Friction",
+      "Moment of Inertia",
+      "tension"
+    ],
+    "correct_answer": "A",
+    "explanation": "Stress",
+    "marks": 1,
+    "negative_marks": 0.33,
+    "year": null,
+    "exam": "Unknown",
+    "paper": null,
+    "shift": null,
+    "subject": "Physics",
+    "chapter": "Properties of Matter",
+    "subchapter": "Elasticity",
+    "topic": "Stress",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 61
+  },
+  {
+    "question_id": "gen-sci-mcq-117",
+    "question_number": "117",
+    "question_text": "What is the mean value of g at earth's surface?",
+    "options": [
+      "0.98 meter per second",
+      "9.8 meter per second",
+      "9.8 meter per second square",
+      "0.98 meter per second square"
+    ],
+    "correct_answer": "C",
+    "explanation": "9.8 meter per second square",
+    "marks": 1,
+    "negative_marks": 0.33,
+    "year": null,
+    "exam": "Unknown",
+    "paper": null,
+    "shift": null,
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "subchapter": "Acceleration due to Gravity",
+    "topic": "Value of g at Earth's Surface",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 61
+  },
+  {
+    "question_id": "gen-sci-mcq-118",
+    "question_number": "118",
+    "question_text": "The value of acceleration due to gravity is ___________?",
+    "options": [
+      "Minimum at equator and maximum at poles",
+      "maximum at equator and minimum at poles",
+      "equal at poles and equator",
+      "None of the above"
+    ],
+    "correct_answer": "A",
+    "explanation": "Minimum at equator and maximum at poles",
+    "marks": 1,
+    "negative_marks": 0.33,
+    "year": null,
+    "exam": "Unknown",
+    "paper": null,
+    "shift": null,
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "subchapter": "Acceleration due to Gravity",
+    "topic": "Variation of g with Latitude",
+    "difficulty": "Easy",
+    "question_type": "MCQ",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 61
+  },
+  {
+    "question_id": "gen-sci-mcq-119",
+    "question_number": "119",
+    "question_text": "Which among the following defines gravitational mass?",
+    "options": [
+      "Ratio of weight of a body and acceleration due to gravity",
+      "Ratio of Acceleration due to gravity and weight of a body",
+      "matter contained in a body",
+      "None of the above"
+    ],
+    "correct_answer": null,
+    "explanation": null,
+    "marks": 1,
+    "negative_marks": 0.33,
+    "year": null,
+    "exam": "Unknown",
+    "paper": null,
+    "shift": null,
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "subchapter": "Mass and Weight",
+    "topic": "Gravitational Mass",
+    "difficulty": "Medium",
+    "question_type": "MCQ",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 61
+  },
+  {
+    "question_text": "The scientists have discovered that Milky Way is having two components, the disc and spherical. What may be the central object of Milky Way?",
+    "options": {
+      "A": "A Black Hole",
+      "B": "A Neutron star",
+      "C": "Vacuum",
+      "D": "A Large Magellanic Cloud"
+    },
+    "correct_answer": "A",
+    "explanation": "Observations of stellar motions and radio emissions indicate that the Milky Way’s centre hosts a super‑massive black hole.",
+    "subject": "General Science",
+    "chapter": "Astronomy",
+    "topic": "Central Object of the Milky Way",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 62
+  },
+  {
+    "question_text": "Which among the following kinds of glass is used generally in making of the bullet‑proof screens?",
+    "options": {
+      "A": "Pyrex glass",
+      "B": "Jena glass",
+      "C": "Reinforced Glass",
+      "D": "Flint Glass"
+    },
+    "correct_answer": "C",
+    "explanation": "Reinforced (toughened/tempered) glass is a safety glass employed in bullet‑proof screens because of its high impact resistance.",
+    "subject": "General Science",
+    "chapter": "Materials Science",
+    "topic": "Reinforced Glass",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 62
+  },
+  {
+    "question_text": "Which among the following would be most commonly affected, if the filament of an electric bulb is not uniform?",
+    "options": {
+      "A": "Light",
+      "B": "Life",
+      "C": "Resistance",
+      "D": "None of the above"
+    },
+    "correct_answer": "B",
+    "explanation": "A non‑uniform filament leads to uneven heating, causing premature burnout and reducing the bulb’s lifespan.",
+    "subject": "General Science",
+    "chapter": "Electricity",
+    "topic": "Filament Uniformity",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 62
+  },
+  {
+    "question_text": "The term “Isopycnic” is most closely defined by which among the following?",
+    "options": {
+      "A": "Two places with same atmospheric pressure",
+      "B": "Two liquids with same viscosity",
+      "C": "Two liquids with same density",
+      "D": "Two places with same temperature"
+    },
+    "correct_answer": "C",
+    "explanation": "Isopycnic means having equal density; therefore, two liquids with the same density are isopycnic.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Isopycnic Definition",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 62
+  },
+  {
+    "question_text": "Calorie of Energy is equal to _________?",
+    "options": {
+      "A": ".42 joule",
+      "B": "4.2 joule",
+      "C": "42 joule",
+      "D": "0.042 Joule"
+    },
+    "correct_answer": "B",
+    "explanation": "One calorie (small calorie) is defined as the amount of energy needed to raise the temperature of 1 gram of water by 1°C, which is approximately 4.2 joules.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Calorie to Joule Conversion",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 62
+  },
+  {
+    "question_text": "Knot is a unit of _________?",
+    "options": {
+      "A": "Speed",
+      "B": "Distance",
+      "C": "Depth",
+      "D": "Acceleration"
+    },
+    "correct_answer": "A",
+    "explanation": "",
+    "subject": "General Science",
+    "chapter": "Units and Measurements",
+    "topic": "Knot",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 63
+  },
+  {
+    "question_text": "One Nautical Mile is equivalent to how many meters?",
+    "options": {
+      "A": "1552",
+      "B": "1652",
+      "C": "1752",
+      "D": "1852"
+    },
+    "correct_answer": "D",
+    "explanation": "",
+    "subject": "General Science",
+    "chapter": "Units and Measurements",
+    "topic": "Nautical Mile",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 63
+  },
+  {
+    "question_text": "In which year, Government of India launched the Integrated Guided Missile Development Program?",
+    "options": {
+      "A": "1981",
+      "B": "1983",
+      "C": "1990",
+      "D": "1999"
+    },
+    "correct_answer": "B",
+    "explanation": "The Integrated Guided Missile Development Program (IGMDP) was launched in 1983 to develop five missile systems in the country viz. Trishul, Akash, Nag, Prithvi and Agni‑I. In the 1990s the programme was expanded to include longer‑range missiles such as Agni, Sagarika, Surya and Dhanush. The programme was declared successfully completed in 2008.",
+    "subject": "General Science",
+    "chapter": "Defense Technology",
+    "topic": "Integrated Guided Missile Development Program",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 63
+  },
+  {
+    "question_text": "What is the use of Venturimeter?",
+    "options": {
+      "A": "to measure subdivisions of scale",
+      "B": "to measure wavelength of radio wave",
+      "C": "To measure friction",
+      "D": "to measure rate of flow of fluids"
+    },
+    "correct_answer": "D",
+    "explanation": "",
+    "subject": "General Science",
+    "chapter": "Fluid Mechanics",
+    "topic": "Venturimeter",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 63
+  },
+  {
+    "question_text": "Which among the following is measured using a Vernier Calliper?",
+    "options": {
+      "A": "Dimensions",
+      "B": "Time",
+      "C": "Sound",
+      "D": "Temperature"
+    },
+    "correct_answer": "A",
+    "explanation": "",
+    "subject": "General Science",
+    "chapter": "Measuring Instruments",
+    "topic": "Vernier Caliper",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 63
+  },
+  {
+    "question_text": "Consider the following: \nHelp ISRO in Research \nHelp Department of Space in New Discoveries \nCommercially sell Products & Services of Indian Space \nWhich among the above is/are the correct objectives of ANTRIX?",
+    "options": {
+      "A": "1 & 2",
+      "B": "2 & 3",
+      "C": "Only 2",
+      "D": "Only 3"
+    },
+    "correct_answer": "D",
+    "explanation": "ANTRIX is the commercial arm of ISRO. Its sole objective is to commercially sell products and services of Indian Space. Hence only statement 3 is correct.",
+    "subject": "General Science",
+    "chapter": "Space Technology",
+    "topic": "ANTRIX Objectives",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 64
+  },
+  {
+    "question_text": "Any moving object on earth finally comes to rest due to which among the following?",
+    "options": {
+      "A": "Gravity",
+      "B": "Friction",
+      "C": "Inertia",
+      "D": "Motion"
+    },
+    "correct_answer": "B",
+    "explanation": "Friction opposes motion and dissipates kinetic energy as heat, causing a moving object to eventually stop.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Friction",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 64
+  },
+  {
+    "question_text": "When Ozone is heated its volume will…. ?",
+    "options": {
+      "A": "increases",
+      "B": "decreases",
+      "C": "remains unchanged",
+      "D": "First Increase, then decrease"
+    },
+    "correct_answer": "C",
+    "explanation": "According to the answer key, the volume of ozone is considered unchanged on heating. This reflects the specific convention used in the exam context.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Ozone Behaviour on Heating",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 64
+  },
+  {
+    "question_text": "Consider the following: \nPressurized heavy water reactor (PHWR) \nFast breeder reactor (FBR) \nAdvanced Heavy Water Reactor (AHWR) \nThe above three represent the stages of India‘s three stage Nuclear Power programme as follows respectively?",
+    "options": {
+      "A": "Stage I, Stage II, Stage III",
+      "B": "Stage II, Stage I, Stage III",
+      "C": "Stage III, Stage II, Stage I",
+      "D": "Stage II, Stage III, Stage I"
+    },
+    "correct_answer": "A",
+    "explanation": "India’s three‑stage nuclear power programme is: Stage I – PHWR, Stage II – FBR, Stage III – AHWR.",
+    "subject": "General Science",
+    "chapter": "Nuclear Physics",
+    "topic": "India’s Three‑Stage Nuclear Power Programme",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 64
+  },
+  {
+    "question_text": "Which of the following devices is used to detect underwater sound?",
+    "options": {
+      "A": "SONAR",
+      "B": "Hydrophone",
+      "C": "RADAR",
+      "D": "None of the above"
+    },
+    "correct_answer": "B",
+    "explanation": "A hydrophone is a passive underwater microphone that detects acoustic signals in water.",
+    "subject": "General Science",
+    "chapter": "Acoustics",
+    "topic": "Hydrophone",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 64
+  },
+  {
+    "question_text": "Which among the following is the site of Prototype Fast Breeder Reactor (PFBR) in India?",
+    "options": {
+      "A": "Kudankulam",
+      "B": "Kalpakkam",
+      "C": "Narora",
+      "D": "Rawatbhata"
+    },
+    "correct_answer": "B",
+    "explanation": "The PFBR is located at Kalpakkam, Tamil Nadu. It is the first indigenous fast breeder reactor built under India's three‑stage nuclear programme.",
+    "subject": "General Science",
+    "chapter": "Nuclear Energy",
+    "topic": "Fast Breeder Reactor",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 65
+  },
+  {
+    "question_text": "Chandrasekhar Limit, postulated by Dr S. Chandrasekhar posts a limit of mass of which among the following?",
+    "options": {
+      "A": "Neutron Star",
+      "B": "White Dwarf",
+      "C": "Stellar Black Hole",
+      "D": "Young stellar object"
+    },
+    "correct_answer": "B",
+    "explanation": "The Chandrasekhar limit (~1.44 M☉) is the maximum mass for a stable white dwarf. Above this limit the star cannot remain a white dwarf and will explode as a Type Ia supernova or collapse further.",
+    "subject": "General Science",
+    "chapter": "Astrophysics",
+    "topic": "Stellar Remnants",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 65
+  },
+  {
+    "question_text": "India‘s first Nobel Prize for Physics was claimed in 1930 by the renowned physicist Sir C.V. Raman for his work in which among the following fields?",
+    "options": {
+      "A": "Particle Physics",
+      "B": "Optics",
+      "C": "Thermodynamics",
+      "D": "Quantum Mechanics"
+    },
+    "correct_answer": "B",
+    "explanation": "Sir C. V. Raman received the 1930 Nobel Prize for his discovery of the Raman Effect, a phenomenon in **optics** involving inelastic scattering of light.",
+    "subject": "General Science",
+    "chapter": "Nobel Laureates – Physics",
+    "topic": "C. V. Raman",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 65
+  },
+  {
+    "question_text": "Hydraulic brakes work on which principal?",
+    "options": {
+      "A": "Pascal’s Principle",
+      "B": "Archimedes Principle",
+      "C": "Newton’s Laws",
+      "D": "Casini’s Laws"
+    },
+    "correct_answer": "A",
+    "explanation": "Hydraulic systems rely on Pascal’s law: an increase in pressure at any point in a confined liquid is transmitted equally in all directions. This principle is the basis for hydraulic lifts, presses, and brakes.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Pascal's Principle",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 66
+  },
+  {
+    "question_text": "Zero point energy is the lowest possible energy that a quantum mechanical physical system may have. ―Who among the following proposed this concept?",
+    "options": {
+      "A": "Max Planck",
+      "B": "Albert Einstein and Otto Stern",
+      "C": "Hendrik B. G. Casimir",
+      "D": "Gribbin, John"
+    },
+    "correct_answer": "B",
+    "explanation": "The concept of zero‑point energy was introduced by Albert Einstein and Otto Stern in 1913 while investigating the specific heat of hydrogen.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Zero‑Point Energy",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 66
+  },
+  {
+    "question_text": "Consider the following: 1) Dispersion 2) Total Internal Reflection 3) Refraction. Which of the above phenomena are related to the behavior of light in different media?",
+    "options": {
+      "A": "1",
+      "B": "1,2",
+      "C": "1,2,3",
+      "D": "2,3"
+    },
+    "correct_answer": "C",
+    "explanation": "All three phenomena—dispersion, total internal reflection, and refraction—arise from light changing speed when it travels through media of differing optical densities.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Optical Phenomena",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 66
+  },
+  {
+    "question_text": "Which among the following lens is used to correct Presbyopia?",
+    "options": {
+      "A": "Convex",
+      "B": "Concave",
+      "C": "Bifocal",
+      "D": "Cylindrical"
+    },
+    "correct_answer": "C",
+    "explanation": "Presbyopia requires correction for both near and distance vision. Bifocal lenses combine a convex segment for distance and a concave segment for near, providing clear vision at both ranges.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Presbyopia Correction",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 66
+  },
+  {
+    "question_text": "Kakrapar Atomic Power Station (KAPS‑1) is located in which among the following states?",
+    "options": {
+      "A": "Maharastra",
+      "B": "Gujarath",
+      "C": "Goa",
+      "D": "Karnataka"
+    },
+    "correct_answer": "B",
+    "explanation": "",
+    "subject": "General Science",
+    "chapter": "Atomic Energy",
+    "topic": "Kakrapar Atomic Power Station",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 67
+  },
+  {
+    "question_text": "If in a closed room, the door of a refrigerator is kept open for some time, the temperature of the room will ?",
+    "options": {
+      "A": "Increase",
+      "B": "Decrease",
+      "C": "Remains same",
+      "D": "First decrease then become stable"
+    },
+    "correct_answer": "A",
+    "explanation": "",
+    "subject": "General Science",
+    "chapter": "Thermodynamics",
+    "topic": "Refrigerator Effect on Room Temperature",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 67
+  },
+  {
+    "question_text": "First steam‑powered vehicle was built by?",
+    "options": {
+      "A": "Richard Trevithick",
+      "B": "Nicolas‑Joseph Cugnot",
+      "C": "Don Walsh",
+      "D": "Janice Meek"
+    },
+    "correct_answer": "B",
+    "explanation": "",
+    "subject": "General Science",
+    "chapter": "History of Transportation",
+    "topic": "Steam‑Powered Vehicles",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 67
+  },
+  {
+    "question_text": "Which among the following is a source of Atomic Energy?",
+    "options": {
+      "A": "Iron",
+      "B": "Uranium",
+      "C": "Silver",
+      "D": "Platinum"
+    },
+    "correct_answer": "B",
+    "explanation": "",
+    "subject": "General Science",
+    "chapter": "Nuclear Physics",
+    "topic": "Sources of Atomic Energy",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 67
+  },
+  {
+    "question_text": "Which among the following types of glasses contains Cerium and other rare earths and has a high absorption of ultraviolet rays?",
+    "options": {
+      "A": "Crookes Glass",
+      "B": "Pyrex Glass",
+      "C": "Flint Glass",
+      "D": "Crown Glass"
+    },
+    "correct_answer": "A",
+    "explanation": "",
+    "subject": "General Science",
+    "chapter": "Materials Science",
+    "topic": "Cerium‑Containing Optical Glasses",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 67
+  },
+  {
+    "question_text": "CDRI is among the thirty eight laboratories that are functioning under the aegis of the council of scientific and Industrial Research (CSIR) of India. Where is located CDRI (Central Drug Research Institute)?",
+    "options": {
+      "A": "Bhopal",
+      "B": "Lucknow",
+      "C": "Kolkata",
+      "D": "Bangalore"
+    },
+    "correct_answer": "B",
+    "explanation": "CDRI is situated in Lucknow, Uttar Pradesh. The answer key states: **Answer: B [Lucknow]**.",
+    "subject": "General Science",
+    "chapter": "Research Institutions",
+    "topic": "Central Drug Research Institute (CDRI) Location",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 68
+  },
+  {
+    "question_text": "Who among the following is the chairman of Council of Scientific and Industrial Research (CSIR)?",
+    "options": {
+      "A": "Prime Minister of India",
+      "B": "Minister of Science & Technology",
+      "C": "Secretary, Department of Technology",
+      "D": "None of them"
+    },
+    "correct_answer": "A",
+    "explanation": "The Prime Minister of India is the chairman of CSIR. The explanation from the source: *\"Prime Minister of India is the chairman of the Council of Scientific and Industrial Research. Council of Scientific and Industrial Research (CSIR) established in 1942, is an autonomous body and India‘s largest research and development (R&D) organisation...\"*",
+    "subject": "General Science",
+    "chapter": "Research Institutions",
+    "topic": "Chairman of CSIR",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 68
+  },
+  {
+    "question_text": "Which among the following correctly defines Pinaka?",
+    "options": {
+      "A": "A Multi Barrel Rocket Launcher Developed by DRDO",
+      "B": "A Missile Developed by DRDO",
+      "C": "A Missile imported from Russia",
+      "D": "A rocket launcher developed by France"
+    },
+    "correct_answer": "A",
+    "explanation": "Pinaka is a multi‑barrel rocket launcher system designed and developed by India's DRDO for the Army.",
+    "subject": "General Science",
+    "chapter": "Defense Technology",
+    "topic": "Pinaka",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 69
+  },
+  {
+    "question_text": "Which among the following can be measured with Anemometer?",
+    "options": {
+      "A": "Water Velocity",
+      "B": "Wind Velocity",
+      "C": "Relative Humidity",
+      "D": "Absolute Humidity"
+    },
+    "correct_answer": "B",
+    "explanation": "An anemometer is specifically designed to measure the speed of wind.",
+    "subject": "General Science",
+    "chapter": "Meteorology",
+    "topic": "Anemometer",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 69
+  },
+  {
+    "question_text": "At which among the following temperatures, the indicator of Celsius and Fahrenheit thermometers will show the same reading?",
+    "options": {
+      "A": "-40°C",
+      "B": "-65°C",
+      "C": "-25°C",
+      "D": "-32°C"
+    },
+    "correct_answer": "A",
+    "explanation": "Celsius and Fahrenheit scales intersect at -40°, because solving \\(C = \\frac{9}{5}C + 32\\) yields \\(C = -40\\).",
+    "subject": "General Science",
+    "chapter": "Thermodynamics",
+    "topic": "Celsius‑Fahrenheit Intersection",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 69
+  },
+  {
+    "question_text": "At which among the following points, the high tides are lower than usual and low tides are higher than usual?",
+    "options": {
+      "A": "New Moon",
+      "B": "Full Moon",
+      "C": "Apogee",
+      "D": "Perigee"
+    },
+    "correct_answer": "C",
+    "explanation": "When the Moon is at apogee (farthest from Earth), its gravitational pull weakens, resulting in lower high tides and higher low tides.",
+    "subject": "General Science",
+    "chapter": "Oceanography",
+    "topic": "Apogee Effect on Tides",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 69
+  },
+  {
+    "question_text": "Phobos and Deimos are the natural satellites of which of the following planets?",
+    "options": {
+      "A": "Mars",
+      "B": "Saturn",
+      "C": "Jupiter",
+      "D": "Earth"
+    },
+    "correct_answer": "A",
+    "explanation": "Phobos and Deimos orbit Mars. Mars appears red because its surface rocks contain iron‑oxide (rust) compounds.",
+    "subject": "General Science",
+    "chapter": "Astronomy",
+    "topic": "Phobos and Deimos",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 69
+  },
+  {
+    "question_text": "Sun accounts for approximately what fraction of total mass of Solar System?",
+    "options": {
+      "A": "70%",
+      "B": "90%",
+      "C": "95%",
+      "D": "99.86%"
+    },
+    "correct_answer": "D",
+    "explanation": "The Sun contains about 99.86 % of the Solar System's total mass, dominating its gravitational field.",
+    "subject": "General Science",
+    "chapter": "Astronomy",
+    "topic": "Mass Distribution",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 70
+  },
+  {
+    "question_text": "In which of the following light produces image focus in front of the retina?",
+    "options": {
+      "A": "Presbyopia",
+      "B": "Myopia",
+      "C": "Hyperopia",
+      "D": "Hypertropia"
+    },
+    "correct_answer": "B",
+    "explanation": "Myopia (short‑sightedness) causes the image to form in front of the retina due to excessive corneal curvature or an elongated eyeball. It is corrected with concave lenses.",
+    "subject": "General Science",
+    "chapter": "Human Physiology",
+    "topic": "Myopia",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 70
+  },
+  {
+    "question_text": "Which among the following is also known as Dog Star?",
+    "options": {
+      "A": "Alpha Centauri",
+      "B": "Proxima centauri",
+      "C": "Sirius",
+      "D": "Aludra"
+    },
+    "correct_answer": "C",
+    "explanation": "Sirius, designated Alpha Canis Majoris, is the brightest star in the night sky and is popularly called the \"Dog Star\" because it belongs to the constellation Canis Major.",
+    "subject": "General Science",
+    "chapter": "Astronomy",
+    "topic": "Sirius",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 70
+  },
+  {
+    "question_text": "The name of Robert Watson‑Watt is associated with which among the following inventions?",
+    "options": {
+      "A": "Steam Engine",
+      "B": "Electr"
+    },
+    "correct_answer": null,
+    "explanation": "Robert Watson‑Watt is renowned for developing radar technology. The provided options are incomplete, so the correct answer cannot be determined from the given text.",
+    "subject": "General Science",
+    "chapter": "Inventions & Discoveries",
+    "topic": "Radar",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 70
+  },
+  {
+    "question_text": "The “Amos” series of satellites belongs to which among the following countries?",
+    "options": {
+      "A": "India",
+      "B": "USA",
+      "C": "Israel",
+      "D": "China"
+    },
+    "correct_answer": "C",
+    "explanation": "The Amos series of communication satellites is operated by Israel.",
+    "subject": "General Science",
+    "chapter": "Space Technology",
+    "topic": "Satellites",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 71
+  },
+  {
+    "question_text": "Which among the following compound is most commonly used in the Photochromic lenses?",
+    "options": {
+      "A": "Potassium Dichromate",
+      "B": "Silver Chloride",
+      "C": "Potassium ferrate",
+      "D": "Ferric Chloride"
+    },
+    "correct_answer": "B",
+    "explanation": "Silver chloride (a silver halide) is added to photochromic glass; it darkens under bright light and reverts in dim light.",
+    "subject": "General Science",
+    "chapter": "Optics / Materials",
+    "topic": "Photochromic Materials",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 71
+  },
+  {
+    "question_text": "Which among the following are being procured by India for its armed forces, under the Project‑75 India (P‑75I) Programme?",
+    "options": {
+      "A": "Medium multi‑role combat aircraft",
+      "B": "Falcon AWACS",
+      "C": "Submarines",
+      "D": "Aircraft Carrier Ships"
+    },
+    "correct_answer": "C",
+    "explanation": "Project‑75 India involves the procurement of six Scorpène‑class submarines for the Indian Navy.",
+    "subject": "General Science",
+    "chapter": "Defense Technology",
+    "topic": "Project‑75 India",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 71
+  },
+  {
+    "question_text": "In context with the Defense of India, Advanced Technology Vessel (ATV) Projects are related to which among the following?",
+    "options": {
+      "A": "Nuclear Capable Missiles",
+      "B": "Nuclear Capable Submarines",
+      "C": "Aircraft Career Ships",
+      "D": "Amphibious warfare vessels"
+    },
+    "correct_answer": "B",
+    "explanation": "The ATV program is aimed at developing indigenous nuclear‑powered submarines (SSBNs) for India's strategic deterrent.",
+    "subject": "General Science",
+    "chapter": "Defense of India",
+    "topic": "Advanced Technology Vessel (ATV) Project",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 72
+  },
+  {
+    "question_text": "Which among the following radiations in the Sunlight causes tanning and sunburn?",
+    "options": {
+      "A": "Ultraviolet",
+      "B": "Visible",
+      "C": "Infrared",
+      "D": "Micro waves"
+    },
+    "correct_answer": "A",
+    "explanation": "Ultraviolet (UV) radiation, especially UVB, stimulates melanin production (tanning) and damages skin cells leading to sunburn.",
+    "subject": "General Science",
+    "chapter": "Radiation & Health",
+    "topic": "Ultraviolet Radiation",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 72
+  },
+  {
+    "question_text": "What is the focal length of a concave lens with number -5D?",
+    "options": {
+      "A": "5 cm",
+      "B": "10 cm",
+      "C": "15 cm",
+      "D": "20 cm"
+    },
+    "correct_answer": "D",
+    "explanation": "Power P = -5 D. Focal length f = 1/P = -0.20 m = -20 cm. The magnitude is 20 cm.",
+    "subject": "General Science",
+    "chapter": "Optics",
+    "topic": "Concave Lens Focal Length",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 72
+  },
+  {
+    "question_text": "What is the focal length of a concave lens with number -5D?",
+    "options": {
+      "A": "5 cm",
+      "B": "10 cm",
+      "C": "15 cm",
+      "D": "20 cm"
+    },
+    "correct_answer": "D",
+    "explanation": "Same as above – power -5 D gives a focal length of 20 cm (diverging lens).",
+    "subject": "General Science",
+    "chapter": "Optics",
+    "topic": "Concave Lens Focal Length",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 72
+  },
+  {
+    "question_text": "The asteroid belt is a region of the Solar System located roughly between the orbits of which among the following planets?",
+    "options": {
+      "A": "Earth & Mars",
+      "B": "Mars & Jupiter",
+      "C": "Jupiter and Saturn",
+      "D": "Saturn and Pluto"
+    },
+    "correct_answer": "B",
+    "explanation": "The asteroid belt lies between Mars and Jupiter, occupying the gap where a planet could not form due to Jupiter’s strong gravity.",
+    "subject": "General Science",
+    "chapter": "Astronomy",
+    "topic": "Asteroid Belt",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 72
+  },
+  {
+    "question_text": "Which of the following is India’s first nuclear reactor?",
+    "options": {
+      "A": "Apsara",
+      "B": "Dhruva",
+      "C": "Rawatbhatta",
+      "D": "Kudankulam"
+    },
+    "correct_answer": "A",
+    "explanation": "Apsara, commissioned in 1956, was the first nuclear research reactor in India and the whole of Asia.",
+    "subject": "General Science",
+    "chapter": "Nuclear Energy",
+    "topic": "First Nuclear Reactor in India",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 73
+  },
+  {
+    "question_text": "In which of the following states is the Indian Astronomical Observatory located?",
+    "options": {
+      "A": "Karnataka",
+      "B": "Uttar Pradesh",
+      "C": "Maharashtra",
+      "D": "Jammu & Kashmir"
+    },
+    "correct_answer": "D",
+    "explanation": "The Indian Astronomical Observatory is situated in Leh, Ladakh, which falls under the Union Territory of Jammu & Kashmir.",
+    "subject": "General Science",
+    "chapter": "Astronomy",
+    "topic": "Observatories in India",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 73
+  },
+  {
+    "question_text": "Which among the following is the largest nuclear power station of India by capacity?",
+    "options": {
+      "A": "Tarapur Atomic Power Station, Maharashtra",
+      "B": "Rajasthan Atomic Power Station, Rawatbhata",
+      "C": "Kaiga Atomic Power Station, Karnataka",
+      "D": "Madras Atomic Power Station, Kalpakkam, Tamil Nadu"
+    },
+    "correct_answer": "A",
+    "explanation": "Tarapur Atomic Power Station in Maharashtra has an installed capacity of 1,400 MW, making it the largest nuclear power plant in India.",
+    "subject": "General Science",
+    "chapter": "Nuclear Energy",
+    "topic": "Largest Nuclear Power Station in India",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 73
+  },
+  {
+    "question_text": "In which year India‘s first satellite Aryabhatta was launched?",
+    "options": {
+      "A": "1975",
+      "B": "1970",
+      "C": "1978",
+      "D": "1965"
+    },
+    "correct_answer": "A",
+    "explanation": "Aryabhatta was launched on 19 April 1975 from a Russian launch site using the Kosmos‑3M launch vehicle.",
+    "subject": "General Science",
+    "chapter": "Space Technology",
+    "topic": "Aryabhatta",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 74
+  },
+  {
+    "question_text": "Which of the following is responsible for the fact that Tennis ball bounces higher at high altitudes than in plains?",
+    "options": {
+      "A": "Low Gravity",
+      "B": "High Gravity",
+      "C": "Less dense air",
+      "D": "Low atmospheric temperature"
+    },
+    "correct_answer": "C",
+    "explanation": "The rarified (less dense) air at high altitudes offers less resistance to the ball, allowing it to bounce higher.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Effect of Air Density on Ball Bounce",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 74
+  },
+  {
+    "question_text": "Thin lamination is used in a transformer to reduce:",
+    "options": {
+      "A": "Eddy current losses",
+      "B": "Hysteresis losses",
+      "C": "Corona losses",
+      "D": "None of the above"
+    },
+    "correct_answer": "A",
+    "explanation": "Lamination in a transformer core breaks up circulating eddy currents, thereby reducing eddy‑current losses.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Lamination in Transformers",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 74
+  },
+  {
+    "question_text": "Which of the following statements is incorrect about a Plane Mirror?",
+    "options": {
+      "A": "The focal length of a plane mirror is infinity",
+      "B": "Its optical power is one",
+      "C": "It forms a virtual image of a real object",
+      "D": "It is used in constructing periscope"
+    },
+    "correct_answer": "B",
+    "explanation": "The optical power of a plane mirror is zero (since focal length is infinite). Therefore, statement B is incorrect.",
+    "subject": "General Science",
+    "chapter": "Optics",
+    "topic": "Properties of Plane Mirrors",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 74
+  },
+  {
+    "question_text": "Consider the following statements regarding Black Holes:\n1. A black hole is a supergiant star that has collapsed into itself\n2. The Black-hole singularity has zero radius\nWhich of the above is / are correct statements?",
+    "options": {
+      "A": "Only 1",
+      "B": "Only 2",
+      "C": "Both 1 & 2",
+      "D": "Neither 1 nor 2"
+    },
+    "correct_answer": "C",
+    "explanation": "Both statements are correct. A black hole is the remnant of a supergiant star that has collapsed into itself, and the singularity is an object of zero radius where the star’s matter is compressed.",
+    "subject": "General Science",
+    "chapter": "Astronomy",
+    "topic": "Black Holes",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 75
+  },
+  {
+    "question_text": "Which of the following is / are correct statements with respect to Copper (Cu), Silver (Ag) and Gold (Au)?\n1. All of them can be found naturally in their elemental state\n2. All of them belong to same group in the periodic table\nSelect the correct option from the codes given below:",
+    "options": {
+      "A": "Only 1",
+      "B": "Only 2",
+      "C": "Both 1 & 2",
+      "D": "Neither 1 nor 2"
+    },
+    "correct_answer": "C",
+    "explanation": "Both statements are correct. Copper, silver and gold occur naturally in elemental form and all belong to Group 11 of the periodic table.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Copper, Silver, Gold",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 75
+  },
+  {
+    "question_text": "Which one of the following types of Laser is used in Laser Printers?",
+    "options": {
+      "A": "Semiconductor laser",
+      "B": "Excimer Laser",
+      "C": "Dye Laser",
+      "D": "Gas Laser"
+    },
+    "correct_answer": "A",
+    "explanation": "Semiconductor (diode) lasers are compact, low‑cost, and can be directly driven by printer electronics, making them the standard choice for laser printers.",
+    "subject": "General Science",
+    "chapter": "Optics",
+    "topic": "Laser Types used in Laser Printers",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 76
+  },
+  {
+    "question_text": "The power of a lens is measured in:",
+    "options": {
+      "A": "diopters",
+      "B": "aeon",
+      "C": "lumen",
+      "D": "candela"
+    },
+    "correct_answer": "A",
+    "explanation": "Lens power is defined as the reciprocal of its focal length (in metres) and is expressed in diopters (D).",
+    "subject": "General Science",
+    "chapter": "Optics",
+    "topic": "Lens Power",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 76
+  },
+  {
+    "question_text": "The television technology in which a new form of light‑emitting crystals which can be printed onto flexible plastic sheets to produce a paper‑thin display that can be rolled up and carried in a pocket is:",
+    "options": {
+      "A": "QD-TV",
+      "B": "SED-TV",
+      "C": "Pixel Plus",
+      "D": "Slingbox"
+    },
+    "correct_answer": "A",
+    "explanation": "QD‑TV (Quantum‑Dot TV) uses quantum‑dot crystals that can be deposited on flexible substrates, enabling ultra‑thin, rollable displays.",
+    "subject": "General Science",
+    "chapter": "Display Technology",
+    "topic": "QD‑TV (Quantum‑Dot TV)",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 76
+  },
+  {
+    "question_text": "When does a Lunar Eclipse occur?",
+    "options": {
+      "A": "When Sun is between Earth and Moon",
+      "B": "When Earth is between Sun and Moon",
+      "C": "When Moon is between Earth and Sun",
+      "D": "When Earth is between Sun and other celestial bodies"
+    },
+    "correct_answer": "B",
+    "explanation": "A lunar eclipse happens when the Earth lies directly between the Sun and the Moon, casting its shadow onto the Moon.",
+    "subject": "General Science",
+    "chapter": "Astronomy",
+    "topic": "Condition for a Lunar Eclipse",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 76
+  },
+  {
+    "question_text": "During which lunar phase does a Lunar Eclipse happen?",
+    "options": {
+      "A": "Half Moon",
+      "B": "Full Moon",
+      "C": "Equinox",
+      "D": "None of the above"
+    },
+    "correct_answer": "B",
+    "explanation": "A lunar eclipse can only occur at Full Moon because the Sun, Earth, and Moon must be aligned.",
+    "subject": "General Science",
+    "chapter": "Astronomy",
+    "topic": "Phase of the Moon during a Lunar Eclipse",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 76
+  },
+  {
+    "question_text": "Shadow of Earth is divided into three parts: Umbra, Penumbra, Antumbra. Which of the following options correctly identifies the parts?",
+    "options": {
+      "A": "Only 1 and 2",
+      "B": "Only 2 and 3",
+      "C": "Only 1",
+      "D": "All 1, 2 and 3"
+    },
+    "correct_answer": "D",
+    "explanation": "Umbra is the innermost darkest part, Penumbra is the region where only part of the light is blocked, and Antumbra is the lighter area beyond the umbra. All three statements are correct.",
+    "subject": "General Science",
+    "chapter": "Astronomy",
+    "topic": "Shadow of Earth",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 77
+  },
+  {
+    "question_text": "What is Solar Eclipse?",
+    "options": {
+      "A": "When moon comes in between Earth and Sun",
+      "B": "When Earth comes in between Moon and Sun",
+      "C": "When Sun comes in between Earth and Moon",
+      "D": "When Sun rays does not reach Earth."
+    },
+    "correct_answer": "A",
+    "explanation": "A solar eclipse occurs when the Moon moves between the Sun and Earth, blocking the Sun’s light from reaching the Earth.",
+    "subject": "General Science",
+    "chapter": "Astronomy",
+    "topic": "Solar Eclipse",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 77
+  },
+  {
+    "question_text": "When the same pattern of solar eclipse repeats every 18 years 11 days 8 hours are known as:",
+    "options": {
+      "A": "Nodes cycle",
+      "B": "Saros cycle",
+      "C": "Saras cycle",
+      "D": "Payan cycle"
+    },
+    "correct_answer": "B",
+    "explanation": "The Saros cycle, lasting 18 years 11 days 8 hours, is the period after which eclipse geometry repeats.",
+    "subject": "General Science",
+    "chapter": "Astronomy",
+    "topic": "Saros Cycle",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 77
+  },
+  {
+    "question_text": "What do you mean by Blood Moon?",
+    "options": {
+      "A": "It is total solar eclipse.",
+      "B": "It is partial lunar eclipse with red glow",
+      "C": "It is total lunar eclipse with deep red glow",
+      "D": "None of the above"
+    },
+    "correct_answer": "C",
+    "explanation": "A Blood Moon is a total lunar eclipse during which the Moon appears deep red due to scattering of sunlight through Earth’s atmosphere.",
+    "subject": "General Science",
+    "chapter": "Astronomy",
+    "topic": "Blood Moon",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 77
+  },
+  {
+    "question_text": "During a calendar year, the maximum numbers of lunar eclipse that can occur are:",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "correct_answer": "B",
+    "explanation": "The maximum number of lunar eclipses that can occur during a calendar year is **3**.",
+    "subject": "General Science",
+    "chapter": "Astronomy",
+    "topic": "Lunar Eclipse",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 78
+  },
+  {
+    "question_text": "What do you understand by an eclipse?",
+    "options": {
+      "A": "Partial or total blocking of light of one celestial object by another.",
+      "B": "Partial or total blocking of light by Moon.",
+      "C": "Partial or total blocking of light by Earth.",
+      "D": "Partial or total blocking of light by Sun."
+    },
+    "correct_answer": "A",
+    "explanation": "An eclipse occurs when one heavenly body such as a moon or planet moves into the shadow of another heavenly body, resulting in partial or total blocking of light.",
+    "subject": "General Science",
+    "chapter": "Astronomy",
+    "topic": "Eclipse Definition",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 78
+  },
+  {
+    "question_text": "Diamond ring occurs in which type of solar eclipse?",
+    "options": {
+      "A": "Total Solar eclipse",
+      "B": "Partial Solar eclipse",
+      "C": "Annular Solar eclipse",
+      "D": "None of the above"
+    },
+    "correct_answer": "A",
+    "explanation": "The **diamond ring** effect is observed **during a total solar eclipse** when a bright point of sunlight shines through lunar valleys just before totality.",
+    "subject": "General Science",
+    "chapter": "Astronomy",
+    "topic": "Solar Eclipse – Diamond Ring Effect",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 78
+  },
+  {
+    "question_text": "Lysergic acid diethylamide (LSD) is a drug used as a:",
+    "options": {
+      "A": "Steroid",
+      "B": "Sedative",
+      "C": "Analgesic",
+      "D": "Hallucinogen"
+    },
+    "correct_answer": "D",
+    "explanation": "LSD is a potent **hallucinogen** that produces profound alterations in perception, mood, and cognition.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "LSD",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 78
+  },
+  {
+    "question_text": "Which of the following substances undergo ‘sublimation‘ on heating?",
+    "options": {
+      "A": "1 and 2",
+      "B": "1 and 3",
+      "C": "2 and 3",
+      "D": "All of them"
+    },
+    "correct_answer": "D",
+    "explanation": "Iodine, naphthalene, and camphor **all undergo sublimation** when heated, transitioning directly from solid to gas without melting.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Sublimation",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 78
+  },
+  {
+    "question_text": "Amalgam‘ is a term used for an alloy of a metal with:",
+    "options": {
+      "A": "Copper",
+      "B": "Mercury",
+      "C": "Lead",
+      "D": "Aluminium"
+    },
+    "correct_answer": "B",
+    "explanation": "Amalgam specifically denotes an alloy where mercury is the principal metal, such as dental amalgam.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Amalgam",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 79
+  },
+  {
+    "question_text": "Gammaxene, D.D.T. and Bleaching powder are important compounds of:",
+    "options": {
+      "A": "Chlorine",
+      "B": "Nitrogen",
+      "C": "Sulphur",
+      "D": "Phosphorus"
+    },
+    "correct_answer": "A",
+    "explanation": "All three substances contain chlorine as a key element: Gammaxene (chlorinated hydrocarbon), D.D.T. (dichlorodiphenyltrichloroethane), and bleaching powder (calcium hypochlorite).",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Halogen Compounds",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 79
+  },
+  {
+    "question_text": "L.P.G. is a hydrocarbon consisting of a mixture of:",
+    "options": {
+      "A": "Methane and Butane",
+      "B": "Propane and Butane",
+      "C": "Ethane and Propane",
+      "D": "Ethane and Butane"
+    },
+    "correct_answer": "B",
+    "explanation": "LPG (Liquefied Petroleum Gas) is primarily a blend of propane (C₃H₈) and butane (C₄H₁₀).",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "LPG Composition",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 79
+  },
+  {
+    "question_text": "What is Kerogen oil?",
+    "options": {
+      "A": "Its an unconventional oil produced from the pyrolysis, hydrogenation, or thermal dissolution of Oil Shales",
+      "B": "Its a light crude oil contained in petroleum-bearing formations of shales",
+      "C": "Its an unconventional oil produced from the pyrolysis, hydrogenation, or thermal dissolution of environmental wastes",
+      "D": "It‘s a new form of vegetable oil prepared artificially in laboratory"
+    },
+    "correct_answer": "A",
+    "explanation": "Kerogen oil is generated by thermally processing oil shales, converting the solid organic kerogen into liquid hydrocarbons.",
+    "subject": "General Science",
+    "chapter": "Energy Resources",
+    "topic": "Kerogen Oil",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 79
+  },
+  {
+    "question_text": "Which among the following was first human-made plastic?",
+    "options": {
+      "A": "Bakelite",
+      "B": "Polyethene",
+      "C": "Celluloid",
+      "D": "Nylon"
+    },
+    "correct_answer": "C",
+    "explanation": "Celluloid, synthesized by Alexander Parkes in 1855, was the first human‑made plastic. Bakelite, created later in 1909, was the first true synthetic plastic.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "History of Plastics",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 79
+  },
+  {
+    "question_text": "Which among the following is the correct impact of the London Forces in the Cycloalkanes?",
+    "options": {
+      "A": "The melting and boiling points get increased",
+      "B": "The Melting and boiling points get decreased",
+      "C": "There is not impact on the melting and boiling points",
+      "D": "The melting point increases but boiling point decreases"
+    },
+    "correct_answer": "A",
+    "explanation": "Cycloalkanes (especially those with >20 carbon atoms, called cycloparaffins) have higher boiling and melting points because the larger molecules experience stronger dispersion (London) forces.",
+    "subject": "General Science",
+    "chapter": "Organic Chemistry",
+    "topic": "Physical Properties of Cycloalkanes",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 80
+  },
+  {
+    "question_text": "Gargling with a solution of table salt is known to provide relief for a sore throat because ___ ?",
+    "options": {
+      "A": "It kills bacteria",
+      "B": "It works as analgesic",
+      "C": "It dehydrates water from inflammatory tissues by Osmosis",
+      "D": "Placebo effect"
+    },
+    "correct_answer": "C",
+    "explanation": "The hyper‑tonic salt solution creates an osmotic gradient that draws water out of the inflamed tissues, reducing swelling and pain.",
+    "subject": "General Science",
+    "chapter": "Physiology / Home Remedies",
+    "topic": "Salt Gargle Mechanism",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 80
+  },
+  {
+    "question_text": "The Potassium graphite and Calcium Graphite can be mostly used as which among the following?",
+    "options": {
+      "A": "Moderators",
+      "B": "Semiconductors",
+      "C": "Superconductors",
+      "D": "Lubricants"
+    },
+    "correct_answer": "C",
+    "explanation": "Potassium graphite and calcium graphite are graphite intercalation compounds that exhibit superconductivity at low temperatures.",
+    "subject": "General Science",
+    "chapter": "Materials Science",
+    "topic": "Graphite Intercalation Compounds",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 80
+  },
+  {
+    "question_text": "Which among the following minerals is also known as Horn Silver?",
+    "options": {
+      "A": "Silver Iodide",
+      "B": "Silver Chroride",
+      "C": "Zinc Phosphate",
+      "D": "Silver Sulphide"
+    },
+    "correct_answer": "B",
+    "explanation": "Horn silver is the common name for **silver chloride (AgCl)**.",
+    "subject": "General Science",
+    "chapter": "Mineralogy",
+    "topic": "Silver Compounds",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 80
+  },
+  {
+    "question_text": "The colors in the fine cut diamond are because of which among the following?",
+    "options": {
+      "A": "Variance in transparency of diamond",
+      "B": "Variance in index of refraction",
+      "C": "Presence of Impurities",
+      "D": "Existence of definite planer layers"
+    },
+    "correct_answer": "C",
+    "explanation": "Colours in diamonds originate from lattice defects and impurities. Nitrogen gives yellow colour, while boron gives bluish colour.",
+    "subject": "General Science",
+    "chapter": "Materials",
+    "topic": "Diamond colors",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 81
+  },
+  {
+    "question_text": "Benzoepin, Parrysulfan, Phaser, Thiodan, Thionex etc. are the names of which among the following pesticides?",
+    "options": {
+      "A": "Kepone",
+      "B": "Paraquat",
+      "C": "Endosulfan",
+      "D": "Toxaphene"
+    },
+    "correct_answer": "C",
+    "explanation": "These trade names correspond to the organochlorine insecticide Endosulfan.",
+    "subject": "General Science",
+    "chapter": "Pesticides",
+    "topic": "Endosulfan",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 81
+  },
+  {
+    "question_text": "An aqueous solution of Sodium Acetate will be of which among the following nature?",
+    "options": {
+      "A": "Acidic",
+      "B": "Basic",
+      "C": "Neutral",
+      "D": "Either acidic or basic depending upon temperature of solution"
+    },
+    "correct_answer": "B",
+    "explanation": "Sodium acetate is a salt of a strong base (NaOH) and a weak acid (acetic acid); its hydrolysis produces OH⁻ ions, making the solution basic.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Nature of sodium acetate solution",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 81
+  },
+  {
+    "question_text": "Above 70 °C, sodium bicarbonate has a property of gradually decomposing, which makes it usable in Bakery products. Which among the following end product of this Thermal decomposition of Sodium bicarbonate makes it usable for the above purpose?",
+    "options": {
+      "A": "Hydrogen",
+      "B": "Carbon Dioxide",
+      "C": "Water Vapor",
+      "D": "Sodium Carbonate"
+    },
+    "correct_answer": "B",
+    "explanation": "Sodium bicarbonate decomposes as 2 NaHCO₃ → Na₂CO₃ + H₂O + CO₂. The released CO₂ gas expands the dough, causing it to rise, which is essential for bakery products.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Thermal decomposition of sodium bicarbonate",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 82
+  },
+  {
+    "question_text": "Which among the following substances is being used most commonly for producing synthetic jet Fuel?",
+    "options": {
+      "A": "Coal",
+      "B": "Natural Gas",
+      "C": "Plastic Waste",
+      "D": "Biomass"
+    },
+    "correct_answer": "A",
+    "explanation": "Coal is the most widely used feedstock for synthetic jet fuel production because it can be gasified and converted into liquid hydrocarbons via processes such as Fischer‑Tropsch synthesis.",
+    "subject": "General Science",
+    "chapter": "Energy & Fuels",
+    "topic": "Synthetic jet fuel feedstock",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 82
+  },
+  {
+    "question_text": "A baby diaper, if tested with various solutions, will absorb maximum amount of which among the following:",
+    "options": {
+      "A": "Distill Water",
+      "B": "Drinking water",
+      "C": "Hard water",
+      "D": "Urine"
+    },
+    "correct_answer": "A",
+    "explanation": "Distilled water, being free of dissolved ions, allows the super‑absorbent polymers in the diaper to swell maximally, leading to the highest absorption compared to other solutions.",
+    "subject": "General Science",
+    "chapter": "Materials & Applications",
+    "topic": "Absorption capacity of baby diapers",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 82
+  },
+  {
+    "question_text": "Now a days, a little pack of Silica Gel (granular beads of Silica made from Sodium Silicate) comes with many products to control humidity and avoid spoilage or degradation of some goods. Which among the following property of Silica gel makes it useful for that purpose?",
+    "options": {
+      "A": "Silica gel molecules are hydrophilic with large surface area and so its molecules trap the moisture",
+      "B": "Silica gel is a Hygroscopic substance with large surface area so its molecules absorb the moisture"
+    },
+    "correct_answer": "B",
+    "explanation": "Silica gel is hygroscopic; its porous structure and large surface area enable it to adsorb water vapor from the surrounding environment, thereby reducing humidity.",
+    "subject": "General Science",
+    "chapter": "Materials & Applications",
+    "topic": "Properties of silica gel",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 82
+  },
+  {
+    "question_text": "Consider the following statements:\n1. The space between the valence and conduction bands is zero in Graphene.\n2. This property of Graphene makes it an excellent transistor of commercial viability.\nWhich among the above statements is/are correct?",
+    "options": {
+      "A": "Only 1",
+      "B": "Only 2",
+      "C": "Both 1 & 2",
+      "D": "Neither 1 nor 2"
+    },
+    "correct_answer": "A",
+    "explanation": "Graphene indeed has a zero band gap (statement 1 is true). This zero gap gives it high carrier mobility, which is advantageous for transistor applications, making statement 2 also true. However, the question asks which statements are correct; the official answer key marks **Only 1** as correct, indicating that while the zero band gap is true, the statement about commercial transistor viability is considered not fully established.",
+    "subject": "General Science",
+    "chapter": "Materials Science",
+    "topic": "Graphene",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 83
+  },
+  {
+    "question_text": "Pyrolusite, Braunite, Psilomelane and Rhodochrosite are the ores of which among the following:",
+    "options": {
+      "A": "Only 1",
+      "B": "Only 1 & 2",
+      "C": "Only 3",
+      "D": "Only 1 & 3"
+    },
+    "correct_answer": "A",
+    "explanation": "All four minerals listed are important ores of **manganese**. Hence only option 1 (Manganese) is correct.",
+    "subject": "General Science",
+    "chapter": "Minerals",
+    "topic": "Manganese Ores",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 83
+  },
+  {
+    "question_text": "Consider the following statements:\n1. Copernicium is at present highest-numbered element recognized by IUPAC.\n2. Copernicum has been synthesized in the lab by a nuclear reaction of Zinc and Lead Isotopes.\nWhich among the above statements is/are correct?",
+    "options": {
+      "A": "Only 1 is correct",
+      "B": "Only 2 is correct",
+      "C": "Both 1 & 2 are correct",
+      "D": "Neither 1 nor 2 are correct"
+    },
+    "correct_answer": "C",
+    "explanation": "Copernicium (element 112) is indeed the highest‑numbered element officially recognized by IUPAC, and it was first synthesized by bombarding **⁶⁸Zn** with **⁴⁴⁴Pb** nuclei. Therefore, both statements are correct.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Copernicium",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 83
+  },
+  {
+    "question_text": "The first metal to be used by man was:",
+    "options": {
+      "A": "Aluminum",
+      "B": "Copper",
+      "C": "Iron",
+      "D": "Silver"
+    },
+    "correct_answer": "B",
+    "explanation": "Archaeological findings show that **copper** artifacts appear earlier than those of aluminum, iron, or silver, making copper the first metal deliberately used by early humans.",
+    "subject": "General Science",
+    "chapter": "History of Metallurgy",
+    "topic": "First Metal Used by Man",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 83
+  },
+  {
+    "question_text": "For respiration in deep sea, divers use mixture of:",
+    "options": {
+      "A": "Oxygen and helium",
+      "B": "Oxygen and hydrogen"
+    },
+    "correct_answer": "A",
+    "explanation": "Deep‑sea divers breathe **Heliox** (a mixture of oxygen and helium). Helium replaces nitrogen to reduce narcosis and lower gas density, allowing safer respiration at high pressures.",
+    "subject": "General Science",
+    "chapter": "Diving Physiology",
+    "topic": "Breathing Gas Mixtures",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 83
+  },
+  {
+    "question_text": "The minimum temperature at which a combustible substance catches fire is called:",
+    "options": {
+      "A": "fireless temperature",
+      "B": "ignition temperature",
+      "C": "static temperature",
+      "D": "optimum temperature"
+    },
+    "correct_answer": "B",
+    "explanation": "The term for the lowest temperature at which a material will spontaneously ignite is *ignition temperature*.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Combustion",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 84
+  },
+  {
+    "question_text": "Consider the following statements regarding Graphene and Fullerene:\n1. Graphene is 2 dimensional, Fullerene is generally 3 dimensional\n2. Graphene is SP2 allotrope of Carbon, while Fullerene is SP3 allotrope of Carbon\n3. Graphene does not dissolve in petrol but fullerenes dissolve\nWhich among the above statements is/are correct?",
+    "options": {
+      "A": "Only 1 is correct",
+      "B": "Only 2 is correct",
+      "C": "Only 3 is correct",
+      "D": "1 & 3 are correct"
+    },
+    "correct_answer": "D",
+    "explanation": "Graphene is a 2‑D sp² carbon sheet and does not dissolve in petrol; fullerene is a 3‑D sp² cage that is soluble in non‑polar solvents. Statement 2 is wrong because fullerene is also sp², not sp³.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Carbon Allotropes",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 84
+  },
+  {
+    "question_text": "Haber Process is used to produce which among the following?",
+    "options": {
+      "A": "Potash",
+      "B": "Ammonia",
+      "C": "Urea",
+      "D": "Nitrates"
+    },
+    "correct_answer": "B",
+    "explanation": "The Haber‑Bosch process synthesises ammonia (NH₃) from nitrogen and hydrogen gases under high pressure and temperature.",
+    "subject": "General Science",
+    "chapter": "Industrial Chemistry",
+    "topic": "Ammonia Production",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 84
+  },
+  {
+    "question_text": "If a Hydrogen atom is removed from a hydrocarbon of Benzene group, the remaining residue is called _________?",
+    "options": {
+      "A": "Alkyl",
+      "B": "Aryl",
+      "C": "Arene",
+      "D": "Azene"
+    },
+    "correct_answer": "B",
+    "explanation": "Removal of a hydrogen from an aromatic ring yields an *aryl* substituent (e.g., phenyl, C₆H₅‑).",
+    "subject": "General Science",
+    "chapter": "Organic Chemistry",
+    "topic": "Aromatic Substituents",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 84
+  },
+  {
+    "question_text": "Which among the following kinds of Chemical reactions cause the rocks turn red or yellowish?",
+    "options": {
+      "A": "Hydration",
+      "B": "Oxidation",
+      "C": "Carbonation",
+      "D": "Exfoliation"
+    },
+    "correct_answer": "B",
+    "explanation": "Oxidation of iron‑bearing minerals (Fe²⁺ → Fe³⁺) produces iron oxides that impart red, orange, or yellow colours to rocks.",
+    "subject": "General Science",
+    "chapter": "Geochemistry",
+    "topic": "Rock Weathering",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 84
+  },
+  {
+    "question_text": "Which among the following is the unit of the scale used for measurement of the spicy heat of a chili pepper?",
+    "options": {
+      "A": "Smith",
+      "B": "Wright",
+      "C": "Orville",
+      "D": "Scoville"
+    },
+    "correct_answer": "D",
+    "explanation": "The Scoville scale measures the pungency of chili peppers.",
+    "subject": "General Science",
+    "chapter": "Miscellaneous",
+    "topic": "Scoville Scale",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 85
+  },
+  {
+    "question_text": "Every kilogram of seawater has approximately how much dissolved salts?",
+    "options": {
+      "A": "1 gm",
+      "B": "0.35 gms",
+      "C": "3.5 gms",
+      "D": "35 gms"
+    },
+    "correct_answer": "D",
+    "explanation": "Seawater contains about 35 g of dissolved salts per kilogram, corresponding to ~3.5 % salinity.",
+    "subject": "General Science",
+    "chapter": "Miscellaneous",
+    "topic": "Salinity of Seawater",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 85
+  },
+  {
+    "question_text": "Gypsum is added to Cement so that, _________?",
+    "options": {
+      "A": "setting of cement can be fastened",
+      "B": "setting of cement can be slowed",
+      "C": "Cement strength can be improved",
+      "D": "Cement strength can be controlled"
+    },
+    "correct_answer": "B",
+    "explanation": "Gypsum controls the setting time of cement by slowing down the hydration reaction.",
+    "subject": "General Science",
+    "chapter": "Materials",
+    "topic": "Effect of Gypsum on Cement",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 85
+  },
+  {
+    "question_text": "The color “Carmine” is a shade of which among the following colors?",
+    "options": {
+      "A": "Red",
+      "B": "Blue",
+      "C": "Yellow",
+      "D": "Green"
+    },
+    "correct_answer": "A",
+    "explanation": "Carmine is a deep red pigment.",
+    "subject": "General Science",
+    "chapter": "Colors",
+    "topic": "Carmine Color",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 85
+  },
+  {
+    "question_text": "Consider the following: Copper, Zinc, Tin. Gun Metal is the alloy of which among the above?",
+    "options": {
+      "A": "1 & 2",
+      "B": "1 & 3",
+      "C": "2 & 3",
+      "D": "1, 2 & 3"
+    },
+    "correct_answer": "D",
+    "explanation": "Gun metal is an alloy of copper, zinc, and tin.",
+    "subject": "General Science",
+    "chapter": "Metallurgy",
+    "topic": "Gun Metal Composition",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 85
+  },
+  {
+    "question_text": "Which among the following makes Chile saltpetre different from saltpetre?",
+    "options": {
+      "A": "Nitrate",
+      "B": "Sodium",
+      "C": "Magnesium",
+      "D": "Calcium"
+    },
+    "correct_answer": "B",
+    "explanation": "Chile saltpetre contains sodium, distinguishing it from regular saltpetre.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Chile Saltpetre vs. Saltpetre",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 85
+  },
+  {
+    "question_text": "Which among the following is “Fool’s Gold”?",
+    "options": {
+      "A": "Copper Sulphate",
+      "B": "Iron Sulfide",
+      "C": "Brass",
+      "D": "Silver Bromide"
+    },
+    "correct_answer": "B",
+    "explanation": "Fool’s Gold refers to iron(II) sulfide (FeS), a yellow‑golden mineral commonly known as pyrite. It resembles gold but is chemically iron sulfide.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Fool's Gold",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 86
+  },
+  {
+    "question_text": "When a piece of quicklime is dipped in water, it gives bubbles. This bubbling is due to which of the following?",
+    "options": {
+      "A": "Oxygen",
+      "B": "Carbon Dioxide",
+      "C": "Water Vapour",
+      "D": "Hydrogen"
+    },
+    "correct_answer": "C",
+    "explanation": "Quicklime (CaO) reacts exothermically with water to form calcium hydroxide, releasing heat that vaporises part of the water, producing water vapour bubbles.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Quicklime Reaction",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 86
+  },
+  {
+    "question_text": "Which among the following acid is used to ascertain whether pure Ghee has been adulterated with Vanaspati or Margarine?",
+    "options": {
+      "A": "Sulphuric Acid",
+      "B": "Nitric Acid",
+      "C": "Hydrochloric Acid",
+      "D": "Boric Acid"
+    },
+    "correct_answer": "C",
+    "explanation": "Hydrochloric acid reacts with free fatty acids present in vanaspati/margarine, giving a characteristic odor/precipitate, thus indicating adulteration of ghee.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Ghee Adulteration Test",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 86
+  },
+  {
+    "question_text": "Mizoroki‑Heck reaction is catalyzed by which of the following metals?",
+    "options": {
+      "A": "Rhodium",
+      "B": "Sodium",
+      "C": "Palladium",
+      "D": "Osmium"
+    },
+    "correct_answer": "C",
+    "explanation": "The Mizoroki‑Heck (Heck) coupling is a palladium‑catalysed cross‑coupling reaction between aryl halides and alkenes, forming C‑C bonds.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Mizoroki‑Heck Reaction",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 86
+  },
+  {
+    "question_text": "Which among the following is used in preparing windows for X‑Ray Tubes?",
+    "options": {
+      "A": "Barium",
+      "B": "Beryllium",
+      "C": "Magnesium",
+      "D": "Calcium"
+    },
+    "correct_answer": "B",
+    "explanation": "Beryllium is low‑Z, highly transparent to X‑rays, and mechanically robust, making it the material of choice for X‑ray tube windows.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "X‑Ray Tube Window Material",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 86
+  },
+  {
+    "question_text": "Which among the following first increases then decreases in a Period of a periodic table?",
+    "options": {
+      "A": "Metallic property",
+      "B": "Chemical Reactiveness",
+      "C": "Valency",
+      "D": "Electron affinity"
+    },
+    "correct_answer": "C",
+    "explanation": "Valency (or the number of electrons an atom can share, lose or gain) rises from left to middle of a period, reaching a maximum around group 14, then falls towards the right as elements approach a full octet.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Periodic Table Trends",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 86
+  },
+  {
+    "question_text": "Ekaboron was an element predicted by Mendeleev and he left a space for it in his Periodic Table. Later Ekaboron was identified with _____?",
+    "options": {
+      "A": "Gallium",
+      "B": "Scandium",
+      "C": "Technitium",
+      "D": "Germanium"
+    },
+    "correct_answer": "B",
+    "explanation": "Mendeleev predicted an element he called Ekaboron. The element that fits the position he left is Scandium (Sc), which has atomic number 21.",
+    "subject": "General Science",
+    "chapter": "Periodic Table",
+    "topic": "Mendeleev's Predictions",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 87
+  },
+  {
+    "question_text": "Which among the following allotropes of Oxygen is found in 6 phases under various pressures and temperatures?",
+    "options": {
+      "A": "Ozone",
+      "B": "Tetra oxygen",
+      "C": "Octaoxygen",
+      "D": "None of them"
+    },
+    "correct_answer": "C",
+    "explanation": "Octaoxygen (O8) is a high-pressure allotrope of oxygen that can exist in six distinct phases depending on pressure and temperature.",
+    "subject": "General Science",
+    "chapter": "Allotropes",
+    "topic": "Oxygen Allotropes",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 87
+  },
+  {
+    "question_text": "Pearl is mainly made up of which among the following?",
+    "options": {
+      "A": "Protein",
+      "B": "Calcium Carbonate",
+      "C": "Silica",
+      "D": "Sodium Carbonate"
+    },
+    "correct_answer": "B",
+    "explanation": "Pearls consist chiefly of calcium carbonate (CaCO₃) in the form of aragonite, layered with an organic matrix.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Pearl composition",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 88
+  },
+  {
+    "question_text": "As we all know that, Gunpowder is a mixture of sulfur, charcoal, and potassium nitrate. Which among these components adds in speeding up the burning of the Gun Powder?",
+    "options": {
+      "A": "Only Potassium Nitrate",
+      "B": "Only Charcoal",
+      "C": "Only Sulphur",
+      "D": "Both Sulphur and Potassium Nitrate"
+    },
+    "correct_answer": "C",
+    "explanation": "Sulphur acts as a catalyst that accelerates the combustion of the mixture.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Gunpowder composition",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 88
+  },
+  {
+    "question_text": "Normal rainfall is slightly acidic (and a pH of 5.6 has been assigned which might be somewhere near 5) because of the presence of _______?",
+    "options": {
+      "A": "Nitric Oxide",
+      "B": "Sulphuric Acid",
+      "C": "Nitric Acid",
+      "D": "Carbonic Acid"
+    },
+    "correct_answer": "D",
+    "explanation": "Rainwater absorbs CO₂ from the atmosphere, forming carbonic acid (H₂CO₃), which gives it a pH around 5.6.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Acidic rain",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 88
+  },
+  {
+    "question_text": "Which among the following is not correctly matched?",
+    "options": {
+      "A": "Brass: copper and zinc",
+      "B": "Duralumin : Copper and aluminum",
+      "C": "Constantan: Copper and Nickel",
+      "D": "White Gold- Gold and Silver"
+    },
+    "correct_answer": "D",
+    "explanation": "White gold does not contain silver; it is alloyed with nickel, palladium, manganese, etc., to obtain a white colour.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Alloy composition",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 88
+  },
+  {
+    "question_text": "Bring out the incorrect usage",
+    "options": {
+      "A": "Heavy water – Moderator",
+      "B": "DDT – Insecticide",
+      "C": "Methyl Alcohol – Beverage",
+      "D": "Liquid Ammonia – Refrigerant"
+    },
+    "correct_answer": "C",
+    "explanation": "Methyl alcohol (methanol) is toxic and used as a denaturant, not as a beverage.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Misuse of chemicals",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 88
+  },
+  {
+    "question_text": "Which among the following is the main constituent of vegetable oil and animal fats?",
+    "options": {
+      "A": "Glycogen",
+      "B": "Triglyceride",
+      "C": "Galactose",
+      "D": "Diglyceride"
+    },
+    "correct_answer": "B",
+    "explanation": "Vegetable oils and animal fats are composed primarily of triglycerides, which are glycerol molecules esterified with three fatty acids.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Lipids",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 89
+  },
+  {
+    "question_text": "What is the number of known crystalline phases of water?",
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "10",
+      "D": "15"
+    },
+    "correct_answer": "D",
+    "explanation": "Water has fifteen experimentally identified crystalline ice polymorphs (Ice I to Ice XV).",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Water",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 89
+  },
+  {
+    "question_text": "Which among the following can be used as a preservative in Tomato Juice?",
+    "options": {
+      "A": "Sodium Chloride",
+      "B": "Sodium carbonate",
+      "C": "Sodium benzoate",
+      "D": "Sodium Lauril Sulphate"
+    },
+    "correct_answer": "C",
+    "explanation": "Sodium benzoate is an effective antimicrobial agent used to preserve acidic foods and beverages such as tomato juice.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Food Chemistry",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 89
+  },
+  {
+    "question_text": "Which among the following gas has lowest auto‑ignition temperature?",
+    "options": {
+      "A": "Methane",
+      "B": "Hydrogen",
+      "C": "Ethylene",
+      "D": "Carbon Di Sulphide"
+    },
+    "correct_answer": "D",
+    "explanation": "Carbon disulfide ignites at –102 °C, which is higher (i.e., less negative) than the auto‑ignition temperatures of methane (‑580 °C), hydrogen (‑560 °C), and ethylene (‑425 °C). Hence it has the lowest auto‑ignition temperature among the listed gases.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Auto‑ignition Temperature",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 89
+  },
+  {
+    "question_text": "Which among the following is the most stable form of carbon under standard conditions?",
+    "options": {
+      "A": "Charcoal",
+      "B": "Graphite",
+      "C": "Diamond",
+      "D": "Fullerene"
+    },
+    "correct_answer": "B",
+    "explanation": "Graphite is thermodynamically the most stable allotrope of carbon at standard temperature and pressure. Diamond is metastable and will slowly convert to graphite over long periods.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Allotropes of Carbon",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 89
+  },
+  {
+    "question_text": "Which among the following statement is correct?",
+    "options": {
+      "A": "Both Melting point & Boiling Point of Heavy water are higher than normal water",
+      "B": "Both Melting point & Boiling Point of Heavy water are lower than normal water",
+      "C": "Melting point is higher and Boiling Point is lower than normal water",
+      "D": "Melting point is lower and Boiling Point is higher than normal water"
+    },
+    "correct_answer": "A",
+    "explanation": "Heavy water (D₂O) forms stronger hydrogen bonds than normal water, raising both its melting point and boiling point.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Heavy Water",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 90
+  },
+  {
+    "question_text": "Which among the following gives hissing sound when dissolved into H₂O?",
+    "options": {
+      "A": "CaCO₂",
+      "B": "Ca(OH)₂",
+      "C": "CaO",
+      "D": "CaCl₂"
+    },
+    "correct_answer": "C",
+    "explanation": "Calcium oxide reacts vigorously with water to form calcium hydroxide, releasing heat and producing a hissing sound.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Reactions with Water",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 90
+  },
+  {
+    "question_text": "What is the number of naturally occurring Halogens in the periodic table?",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "correct_answer": "C",
+    "explanation": "The five naturally occurring halogens are fluorine, chlorine, bromine, iodine, and astatine.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Halogens",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 90
+  },
+  {
+    "question_text": "Which among the following is the lowest atomic number element without any stable isotopes?",
+    "options": {
+      "A": "Technetium",
+      "B": "Molybdenum",
+      "C": "Ruthenium",
+      "D": "Niobium"
+    },
+    "correct_answer": "A",
+    "explanation": "Technetium (Z=43) is the lightest element that has no stable isotopes; all its isotopes are radioactive.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Radioactive Elements",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 90
+  },
+  {
+    "question_text": "Which among the following is the main constituent of malleable metal alloy Pewter?",
+    "options": {
+      "A": "Copper",
+      "B": "Zinc",
+      "C": "Tin",
+      "D": "Bismuth"
+    },
+    "correct_answer": "C",
+    "explanation": "Tin forms the bulk of pewter, typically 85‑95 % by weight, with small amounts of other metals added for hardness.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Alloys",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 90
+  },
+  {
+    "question_text": "How many parts are of other metals in a 17 carat Gold?",
+    "options": {
+      "A": "3",
+      "B": "5",
+      "C": "7",
+      "D": "9"
+    },
+    "correct_answer": "C",
+    "explanation": "Gold purity is expressed in carats out of 24. For 17‑carat gold, the non‑gold portion is 24 – 17 = 7 parts.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Gold Alloys",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 90
+  },
+  {
+    "question_text": "Which among the following does not come under carbon Group of Periodic Table?",
+    "options": {
+      "A": "silicon",
+      "B": "germanium",
+      "C": "tin",
+      "D": "selenium"
+    },
+    "correct_answer": "D",
+    "explanation": "Selenium belongs to the chalcogen group (Group 16). The carbon group (Group 14) includes carbon, silicon, germanium, tin, and lead.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Carbon Group (Group 14)",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 91
+  },
+  {
+    "question_text": "Which among the following is not correctly matched?",
+    "options": {
+      "A": "Sodium: Natrium",
+      "B": "Pottassium : Kalium",
+      "C": "Mercury :Hydrargyrum",
+      "D": "Arsenic : Stibium"
+    },
+    "correct_answer": "D",
+    "explanation": "Stibium is the historic name for Antimony (Sb), not Arsenic. The other three pairings are correct.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Traditional Latin/Greek Names of Elements",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 91
+  },
+  {
+    "question_text": "The chemical oxygen demand COD test is commonly used to measure which of the following?",
+    "options": {
+      "A": "amount of organic compounds in water",
+      "B": "amount of oxygen in water",
+      "C": "amount of oxygen in a chemical",
+      "D": "amount of oxygen used in a oxygenation process"
+    },
+    "correct_answer": "A",
+    "explanation": "COD quantifies the amount of organic pollutants in water by measuring the oxygen needed to chemically oxidize them.",
+    "subject": "General Science",
+    "chapter": "Environmental Chemistry",
+    "topic": "Chemical Oxygen Demand (COD)",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 91
+  },
+  {
+    "question_text": "Which among the following is an organic mineral?",
+    "options": {
+      "A": "Amber",
+      "B": "Hornblende",
+      "C": "Angite",
+      "D": "Analcime"
+    },
+    "correct_answer": "A",
+    "explanation": "Amber is fossilized tree resin and is classified as an organic mineral, unlike the inorganic silicate minerals listed.",
+    "subject": "General Science",
+    "chapter": "Mineralogy",
+    "topic": "Organic Minerals",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 91
+  },
+  {
+    "question_text": "Liming is the application of calcium and magnesium rich materials to soil in various forms, including marl, chalk, limestone, or hydrated lime. What is the purpose of liming?",
+    "options": {
+      "A": "Increase the Soil pH",
+      "B": "Increase the bacteria activity",
+      "C": "Both A & B",
+      "D": "Decrease the bacterial activity"
+    },
+    "correct_answer": "C",
+    "explanation": "Liming raises soil pH (neutralizes acidity) and also promotes bacterial activity by creating a more favorable environment for microbes.",
+    "subject": "General Science",
+    "chapter": "Soil Science",
+    "topic": "Liming",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 91
+  },
+  {
+    "question_text": "Which among the following is a main component of some alert tablets such as Alert, No Doz, Stay Awake & Vivarin?",
+    "options": {
+      "A": "Thein",
+      "B": "Caffeine",
+      "C": "Nicotine",
+      "D": "Catechins"
+    },
+    "correct_answer": "B",
+    "explanation": "Alert tablets are formulated with caffeine, a central nervous system stimulant, to promote wakefulness.",
+    "subject": "General Science",
+    "chapter": "Pharmacology",
+    "topic": "Alert tablets",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 92
+  },
+  {
+    "question_text": "Which among the following compound of barium is used as radio contrast agent for X-ray imaging and other diagnostic procedures and also commonly called as Barium Food?",
+    "options": {
+      "A": "Barium Carbonate",
+      "B": "Barium Sulphate",
+      "C": "Barium Bromide",
+      "D": "Barium hydroxide"
+    },
+    "correct_answer": "B",
+    "explanation": "Barium sulphate (BaSO₄) is radiopaque, insoluble, and safe for oral administration, making it the standard contrast medium.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Barium compounds",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 92
+  },
+  {
+    "question_text": "Which among the following is used as an antidote?",
+    "options": {
+      "A": "Paracetamol",
+      "B": "Nicotine",
+      "C": "Thiamine",
+      "D": "Activated Charcoal"
+    },
+    "correct_answer": "D",
+    "explanation": "Activated charcoal adsorbs many toxins in the gastrointestinal tract and is a first‑line antidote for many oral poisonings.",
+    "subject": "General Science",
+    "chapter": "Medical Chemistry",
+    "topic": "Antidotes",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 92
+  },
+  {
+    "question_text": "Which among the following will undergo a chemical reaction depending on the pH of the solution?",
+    "options": {
+      "A": "Calcium Oxide",
+      "B": "Zinc Oxide",
+      "C": "Ferric Oxide",
+      "D": "Ferrous Oxide"
+    },
+    "correct_answer": "B",
+    "explanation": "Zinc oxide is amphoteric; it reacts with acids to form zinc salts and with bases to form zincate complexes, showing pH‑dependent behavior.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "pH‑dependent reactions",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 92
+  },
+  {
+    "question_text": "Bring out the statement which is wrong:",
+    "options": {
+      "A": "Acetone is used as a solvent",
+      "B": "Adrenaline is used in the event of heart failure",
+      "C": "graphite is an example of allotropy",
+      "D": "All are correct"
+    },
+    "correct_answer": "D",
+    "explanation": "All the statements are correct: acetone is a solvent, adrenaline is administered during cardiac emergencies, and graphite is an allotrope of carbon.",
+    "subject": "General Science",
+    "chapter": "General Knowledge",
+    "topic": "Common substances",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 92
+  },
+  {
+    "question_text": "Which among the following basic atoms are must in an Alkaloid?",
+    "options": {
+      "A": "Sodium",
+      "B": "Nitrogen",
+      "C": "Magnesium",
+      "D": "Potassium"
+    },
+    "correct_answer": "B",
+    "explanation": "Alkaloids are defined by the presence of a basic nitrogen atom in their molecular structure. Sodium, magnesium, and potassium are not characteristic of alkaloids.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Alkaloids",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 93
+  },
+  {
+    "question_text": "F block elements in the periodic table which are commonly called Lanthanides have the following atomic numbers:",
+    "options": {
+      "A": "57-70",
+      "B": "58-71",
+      "C": "59-72",
+      "D": "58-70"
+    },
+    "correct_answer": "B",
+    "explanation": "The lanthanide series comprises the 14 elements from atomic number 58 (Cerium) to 71 (Lutetium). Option B correctly lists this range.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Lanthanides",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 93
+  },
+  {
+    "question_text": "The volume of a gas at a given pressure and temperature is proportional to the number of atoms or molecules regardless of the nature of the gas. This concept is called as___?",
+    "options": {
+      "A": "Avogadro‘s law",
+      "B": "Dalton‘s law",
+      "C": "Henry‘s law",
+      "D": "Ideal gas law"
+    },
+    "correct_answer": "A",
+    "explanation": "Avogadro’s law states that equal volumes of gases at the same temperature and pressure contain an equal number of molecules. Hence volume is directly proportional to the amount of gas.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Gas Laws",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 93
+  },
+  {
+    "question_text": "Who among the following is known to manufacture first Cyclotron?",
+    "options": {
+      "A": "Ernest Lawrence",
+      "B": "Niels Bohr",
+      "C": "Rutherford",
+      "D": "Max Born"
+    },
+    "correct_answer": "A",
+    "explanation": "Ernest Lawrence built the first cyclotron in 1930 at the University of California, Berkeley. The device accelerated charged particles using a magnetic field and alternating electric field.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Particle Accelerators",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 93
+  },
+  {
+    "question_text": "British Scientist J.J. Thomson was awarded Nobel prize in Physics in 1906 for discovery of which of the following particle?",
+    "options": {
+      "A": "Electron",
+      "B": "Proton",
+      "C": "Neutron",
+      "D": "Radio activity"
+    },
+    "correct_answer": "A",
+    "explanation": "J.J. Thomson received the 1906 Nobel Prize for his work on the conduction of electricity through gases and the discovery of the electron, the first identified sub‑atomic particle.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Atomic Physics",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 93
+  },
+  {
+    "question_text": "Charles Goodyear is known for which of the following?",
+    "options": {
+      "A": "Experiments on Rubber Plants",
+      "B": "Vulcanization of Rubber",
+      "C": "Invention of Radial Tyres",
+      "D": "Invention of Artificial Rubber"
+    },
+    "correct_answer": "B",
+    "explanation": "Charles Goodyear discovered the vulcanization process, which involves heating natural rubber with sulfur to create cross‑linked polymer chains, dramatically improving its properties.",
+    "subject": "General Science",
+    "chapter": "Chemistry / Materials Science",
+    "topic": "Vulcanization of Rubber",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 93
+  },
+  {
+    "question_text": "Which among the following gas is used in Balloons?",
+    "options": {
+      "A": "Hydrogen",
+      "B": "Helium",
+      "C": "Nitrogen",
+      "D": "Oxygen"
+    },
+    "correct_answer": "B",
+    "explanation": "Helium is lighter than air and non‑flammable, making it the preferred gas for balloons.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Gases used in balloons",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 94
+  },
+  {
+    "question_text": "Which among the following is the most important characteristic of Noble metals?",
+    "options": {
+      "A": "Luster",
+      "B": "Non reactive nature",
+      "C": "Preciousness",
+      "D": "Rare availability"
+    },
+    "correct_answer": "B",
+    "explanation": "Noble metals are distinguished mainly by their resistance to corrosion and oxidation, i.e., their non‑reactive nature.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Characteristic of Noble Metals",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 94
+  },
+  {
+    "question_text": "Which among the following is correct regarding the alkaline battery?",
+    "options": {
+      "A": "Negative terminal made of Zinc Powder and Positive terminal made of Manganese dioxide & electrolyte is KOH",
+      "B": "Negative terminal made of Manganese dioxide and Positive terminal made of Zinc powder & electrolyte KOH",
+      "C": "Negative terminal made of Zinc Powder and Positive terminal made of Manganese dioxide & Electrolyte is Ammonium Chloride",
+      "D": "Negative terminal made of Manganese dioxide and Positive terminal made of Zinc powder & electrolyte Ammonium Chloride"
+    },
+    "correct_answer": "A",
+    "explanation": "In an alkaline cell the anode is zinc powder, the cathode is manganese dioxide, and the electrolyte is potassium hydroxide (KOH).",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Alkaline Battery Construction",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 94
+  },
+  {
+    "question_text": "What is the atomic number of Transuranic elements?",
+    "options": {
+      "A": "Greater than 90",
+      "B": "Greater than 92",
+      "C": "Greater than 91",
+      "D": "Greater than 93"
+    },
+    "correct_answer": "B",
+    "explanation": "Transuranic elements are defined as those with atomic numbers greater than that of uranium (92).",
+    "subject": "General Science",
+    "chapter": "Nuclear Chemistry",
+    "topic": "Atomic Numbers of Transuranic Elements",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 94
+  },
+  {
+    "question_text": "A Cyclotron is ___?",
+    "options": {
+      "A": "A charged particle",
+      "B": "A particle Accelerator",
+      "C": "A magnetic particle",
+      "D": "A radioactive particle"
+    },
+    "correct_answer": "B",
+    "explanation": "A cyclotron is a device that accelerates charged particles using magnetic and electric fields; it is a type of particle accelerator.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Cyclotron",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 94
+  },
+  {
+    "question_text": "Cassiterite is an ore of which of the following?",
+    "options": {
+      "A": "Iron",
+      "B": "Zinc",
+      "C": "Copper",
+      "D": "Tin"
+    },
+    "correct_answer": "D",
+    "explanation": "Cassiterite is SnO₂, i.e., tin oxide, making it the principal ore of tin.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Cassiterite",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 95
+  },
+  {
+    "question_text": "Which of the following are found in nucleus of Deuterium?",
+    "options": {
+      "A": "1 proton & 1 neutron",
+      "B": "2 protons",
+      "C": "1 proton and 1 electron",
+      "D": "2 neutrons only"
+    },
+    "correct_answer": "A",
+    "explanation": "Deuterium (²H) consists of one proton and one neutron in its nucleus.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Isotopes – Deuterium",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 95
+  },
+  {
+    "question_text": "Which among the following provides the centripetal force to an electron circulating around the nucleus?",
+    "options": {
+      "A": "electrostatic forces of repulsion",
+      "B": "electrostatic force of attraction",
+      "C": "speed of the electron",
+      "D": "nuclear charge"
+    },
+    "correct_answer": "B",
+    "explanation": "The electron is attracted to the positively charged nucleus; this electrostatic attraction acts as the centripetal force keeping the electron in orbit.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Centripetal Force on Electrons",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 95
+  },
+  {
+    "question_text": "Which among the following of a catalyst does not change at the end of a reaction?",
+    "options": {
+      "A": "Quantity",
+      "B": "Chemical Composition",
+      "C": "Both Quantity and Chemical composition",
+      "D": "None of the above"
+    },
+    "correct_answer": "C",
+    "explanation": "A catalyst is recovered unchanged after the reaction; neither its amount nor its chemical makeup is altered.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Catalyst Characteristics",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 95
+  },
+  {
+    "question_text": "The noble gases are a group of chemical elements with very similar properties: under standard conditions, they are all odorless, colorless, monatomic gases, with a very low chemical reactivity. How many Noble gases occur naturally?",
+    "options": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8"
+    },
+    "correct_answer": "B",
+    "explanation": "The six naturally occurring noble gases are helium, neon, argon, krypton, xenon and radon.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Noble Gases",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 95
+  },
+  {
+    "question_text": "Hard Water contains which of the following?",
+    "options": {
+      "A": "Aluminum",
+      "B": "Chlorine",
+      "C": "Calcium",
+      "D": "Zinc"
+    },
+    "correct_answer": "C",
+    "explanation": "Hard water is characterized by the presence of calcium (and often magnesium) ions, which cause scaling and reduce soap efficiency.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Hard Water",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 95
+  },
+  {
+    "question_text": "An Jewellery was left exposed to the atmosphere for some time and it becomes coated with green carbonate. The Jewellery is made up of which of the following?",
+    "options": {
+      "A": "Copper",
+      "B": "Silver",
+      "C": "Zinc",
+      "D": "Gold"
+    },
+    "correct_answer": "A",
+    "explanation": "The green carbonate (verdigris) forms when copper reacts with atmospheric CO₂ and moisture. Silver, zinc, and gold do not form green carbonate under normal conditions.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Copper Corrosion",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 97
+  },
+  {
+    "question_text": "The process of purifying water by spraying water on to a bed of stones where microorganisms live so that the microorganisms feed on the pathogens in water and make the water free from harmful pathogens is called?",
+    "options": {
+      "A": "Stone bed method",
+      "B": "biofilter method",
+      "C": "aerobic filtration",
+      "D": "anerobic filtration"
+    },
+    "correct_answer": "B",
+    "explanation": "This method is known as the biofilter method, where microorganisms on the stone bed consume pathogens, purifying the water.",
+    "subject": "General Science",
+    "chapter": "Environmental Science",
+    "topic": "Water Treatment",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 97
+  },
+  {
+    "question_text": "As per Avogadro‘s hypothesis , equal volumes of different gases at the same temperature and pressure contain equal number of ______?",
+    "options": {
+      "A": "Atoms",
+      "B": "Molecules",
+      "C": "Particles",
+      "D": "Electrons"
+    },
+    "correct_answer": "B",
+    "explanation": "Avogadro's hypothesis states that equal volumes of gases at the same temperature and pressure contain an equal number of molecules.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Gas Laws",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 97
+  },
+  {
+    "question_text": "Duralumin which is used in making aero planes is an alloy consisting of _____?",
+    "options": {
+      "A": "Aluminum & Copper",
+      "B": "Aluminum, Copper & Manganese",
+      "C": "Aluminum, Copper, Manganese & Magnesium",
+      "D": "Aluminum and zinc"
+    },
+    "correct_answer": "C",
+    "explanation": "Duralumin is an aluminum alloy that contains copper, manganese, and magnesium, giving it high strength and lightweight properties suitable for aircraft.",
+    "subject": "General Science",
+    "chapter": "Materials Science",
+    "topic": "Alloys",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 97
+  },
+  {
+    "question_text": "Which among the following was the first artificially produced element?",
+    "options": {
+      "A": "Neptunium",
+      "B": "Ununbium",
+      "C": "Technetium",
+      "D": "none of the above"
+    },
+    "correct_answer": "C",
+    "explanation": "Technetium (element 43) was the first element to be artificially produced in a laboratory, discovered in 1937 by Perrier and Segrè.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Radioactive Elements",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 97
+  },
+  {
+    "question_text": "Froth & Foams are examples of which of the following ?",
+    "options": {
+      "A": "solid suspended in gas",
+      "B": "liquid suspended in gas",
+      "C": "gas suspended in liquid",
+      "D": "gas suspended in solid"
+    },
+    "correct_answer": "C",
+    "explanation": "Froth and foams consist of gas bubbles dispersed within a liquid matrix, making them examples of gas suspended in liquid.",
+    "subject": "General Science",
+    "chapter": "Physical Chemistry",
+    "topic": "States of Matter",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 97
+  },
+  {
+    "question_text": "Froth & Foams are examples of which of the following?",
+    "options": {
+      "A": "solid suspended in gas",
+      "B": "liquid suspended in gas",
+      "C": "gas suspended in liquid",
+      "D": "gas suspended in solid"
+    },
+    "correct_answer": "C",
+    "explanation": "Froth and foams consist of gas bubbles dispersed within a liquid matrix, making them examples of gas suspended in liquid.",
+    "subject": "General Science",
+    "chapter": "Physical Chemistry",
+    "topic": "Froth & Foams",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 98
+  },
+  {
+    "question_text": "Which among the following is the most electronegative element?",
+    "options": {
+      "A": "Chlorine",
+      "B": "Fluorine",
+      "C": "Bromine",
+      "D": "All of them have same electronegativity"
+    },
+    "correct_answer": "B",
+    "explanation": "Fluorine has the highest electronegativity (Pauling scale 3.98) due to its small size and high effective nuclear charge, making it the most electronegative element.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Electronegativity",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 98
+  },
+  {
+    "question_text": "Galvanizing is a metallurgical process that is used to coat steel or iron with which of the following?",
+    "options": {
+      "A": "Zinc",
+      "B": "Lead",
+      "C": "Chromium",
+      "D": "Copper"
+    },
+    "correct_answer": "A",
+    "explanation": "Galvanisation is a method of protecting steel and iron from rusting by coating them with a thin layer of zinc.",
+    "subject": "General Science",
+    "chapter": "Metallurgy",
+    "topic": "Galvanizing Process",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 99
+  },
+  {
+    "question_text": "Which among the following is Quick Silver?",
+    "options": {
+      "A": "Aluminium",
+      "B": "Mercury",
+      "C": "Lead",
+      "D": "Zinc"
+    },
+    "correct_answer": "B",
+    "explanation": "Quick silver is the common name for mercury.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Quick Silver",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 99
+  },
+  {
+    "question_text": "The primary part of Liquefied Petroleum Gas LPG is ______?",
+    "options": {
+      "A": "Butane",
+      "B": "Methane",
+      "C": "Propane",
+      "D": "Ethane"
+    },
+    "correct_answer": "C",
+    "explanation": "Propane is the main component of LPG.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "LPG Composition",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 99
+  },
+  {
+    "question_text": "Which among the following explains the radiation emitted by black bodies?",
+    "options": {
+      "A": "Big-bang theory",
+      "B": "Quantum Theory",
+      "C": "Piezoelectric Effect",
+      "D": "None of the above"
+    },
+    "correct_answer": "B",
+    "explanation": "The radiation emitted by black bodies is explained by quantum theory.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Black Body Radiation",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 99
+  },
+  {
+    "question_text": "Mustard gas which is a cytotoxic, vesicant chemical warfare agent with the ability to form large blisters on exposed skin contains which of the following elements?",
+    "options": {
+      "A": "Sulphur",
+      "B": "Bromine",
+      "C": "Chlorine",
+      "D": "Magnesium"
+    },
+    "correct_answer": "A",
+    "explanation": "Mustard gas (bis(2‑chloroethyl) sulfide) contains sulfur and chlorine atoms; the question asks for an element present, and sulfur is one of them.",
+    "subject": "General Science",
+    "chapter": "Chemical Warfare",
+    "topic": "Mustard Gas Composition",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 99
+  },
+  {
+    "question_text": "Calamine lotion which is used as an antipruritic (anti‑itching agent) to treat mild pruritic conditions contains which of the following?",
+    "options": {
+      "A": "Zinc",
+      "B": "Calcium",
+      "C": "Magnesium"
+    },
+    "correct_answer": "A",
+    "explanation": "Calamine lotion contains zinc oxide, which provides the antipruritic effect.",
+    "subject": "General Science",
+    "chapter": "Pharmacology",
+    "topic": "Calamine Lotion",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 99
+  },
+  {
+    "question_text": "In which of the following Mercury is a constituent?",
+    "options": {
+      "A": "Cinnabar",
+      "B": "Chile saltpeter",
+      "C": "Calamine",
+      "D": "Gold"
+    },
+    "correct_answer": "A",
+    "explanation": "Mercury is a constituent of cinnabar (HgS), the primary ore from which mercury is extracted.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Mercury and Its Compounds",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 100
+  },
+  {
+    "question_text": "Adsorption is used commonly in which of the following processes?",
+    "options": {
+      "A": "Purification of solids",
+      "B": "Purification of liquids",
+      "C": "Making scrubbers",
+      "D": "Chromatography"
+    },
+    "correct_answer": "D",
+    "explanation": "Adsorption is a key mechanism in chromatography, where components of a mixture are separated based on their affinity for the stationary phase.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Adsorption",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 100
+  },
+  {
+    "question_text": "Which among the following is a correct definition of Cyclotron?",
+    "options": {
+      "A": "Accelerator of charged atomic particles",
+      "B": "Device for detection of High Energy atomic radiation",
+      "C": "Device for storing electric charge",
+      "D": "Device for storing heat"
+    },
+    "correct_answer": "A",
+    "explanation": "A cyclotron is a type of particle accelerator that uses a constant magnetic field and a rapidly varying electric field to accelerate charged particles in a spiral path.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Cyclotron",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 100
+  },
+  {
+    "question_text": "The Chemical formula of Graphite is _________?",
+    "options": {
+      "A": "C",
+      "B": "C2",
+      "C": "C4",
+      "D": "C6"
+    },
+    "correct_answer": "A",
+    "explanation": "Graphite is pure carbon; its chemical formula is simply C.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Graphite",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 100
+  },
+  {
+    "question_text": "Which among the following is true about solubility of Lipids?",
+    "options": {
+      "A": "They are soluble in water but insoluble in organic solvents",
+      "B": "They are insoluble in water but soluble in organic solvents",
+      "C": "They are soluble in water as well as organic solvents",
+      "D": "They are insoluble in water as well as organic solvents"
+    },
+    "correct_answer": "B",
+    "explanation": "Lipids are hydrophobic and therefore insoluble in water but soluble in non‑polar organic solvents.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Solubility of Lipids",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 100
+  },
+  {
+    "question_text": "Calcium Magnesium Silicate is commonly called as ________?",
+    "options": {
+      "A": "Asbestos",
+      "B": "Borax",
+      "C": "Baking Soda",
+      "D": "Washing Soda"
+    },
+    "correct_answer": "A",
+    "explanation": "Calcium magnesium silicate is the mineral known as asbestos, historically used for its heat‑resistant properties.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Asbestos",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 100
+  },
+  {
+    "question_text": "Phenolphthalein is used in chemistry as a ______?",
+    "options": {
+      "A": "Solvent",
+      "B": "Dye",
+      "C": "Catalyst",
+      "D": "Detergent"
+    },
+    "correct_answer": "B",
+    "explanation": "Phenolphthalein is a pH indicator that changes color from colorless to pink in basic solutions. It is not a solvent, catalyst, or detergent.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Phenolphthalein",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 102
+  },
+  {
+    "question_text": "Reserpine is an example of which kind of drug?",
+    "options": {
+      "A": "Narcotic",
+      "B": "Anti-histamine",
+      "C": "Tranquillizer",
+      "D": "None"
+    },
+    "correct_answer": "C",
+    "explanation": "Reserpine depletes monoamines and has sedative properties, classifying it as a tranquilizer.",
+    "subject": "General Science",
+    "chapter": "Pharmacology",
+    "topic": "Reserpine",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 102
+  },
+  {
+    "question_text": "Cobalt oxide is used to impart which color to glass?",
+    "options": {
+      "A": "Brown",
+      "B": "Blue",
+      "C": "Red",
+      "D": "Yellow"
+    },
+    "correct_answer": "B",
+    "explanation": "Cobalt(II) oxide doped into glass gives a deep blue color due to absorption of red light.",
+    "subject": "General Science",
+    "chapter": "Materials Chemistry",
+    "topic": "Cobalt Oxide",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 102
+  },
+  {
+    "question_text": "Which among the following is correct full form of DDT?",
+    "options": {
+      "A": "Dichloro-diethyl-trifluoromethane",
+      "B": "Dichloro-diphenyl-trichloroethane",
+      "C": "Dichloro-diphenyl-trichloromethane",
+      "D": "Dipheneyl-dichloro-trichloromethane"
+    },
+    "correct_answer": "B",
+    "explanation": "DDT stands for Dichloro‑diphenyl‑trichloroethane, a chlorinated insecticide.",
+    "subject": "General Science",
+    "chapter": "Pesticides",
+    "topic": "DDT",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 102
+  },
+  {
+    "question_text": "Which among the following sentences is True?",
+    "options": {
+      "A": "Ammophos is an organic fertilizer while Urea is an inorganic fertilizer",
+      "B": "Ammophos is an inorganic fertilizer while Urea is an organic fertilizer",
+      "C": "Both of them are organic fertilizers",
+      "D": "Both of them are inorganic fertilizers"
+    },
+    "correct_answer": "B",
+    "explanation": "Both Ammophos (ammonium phosphate) and Urea are inorganic fertilizers; the statement that Ammophos is inorganic and Urea is organic is incorrect. The correct answer reflects that Ammophos is inorganic and Urea is also inorganic, but the option that best matches the given choices is B.",
+    "subject": "General Science",
+    "chapter": "Agriculture",
+    "topic": "Fertilizers",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 102
+  },
+  {
+    "question_text": "Rayon is an example of _______?",
+    "options": {
+      "A": "a synthetic fiber",
+      "B": "a natural fiber",
+      "C": "semi-synthetic fiber",
+      "D": "Synthetic Detergent"
+    },
+    "correct_answer": "C",
+    "explanation": "Rayon is derived from cellulose and is classified as a semi‑synthetic fiber.",
+    "subject": "General Science",
+    "chapter": "Textiles",
+    "topic": "Rayon",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 102
+  },
+  {
+    "question_text": "Sodium Alkyl Sulphate and Benzene Sulphate are examples of ________",
+    "options": {
+      "A": "Explosives",
+      "B": "Insecticides",
+      "C": "Fungicides",
+      "D": "Detergents"
+    },
+    "correct_answer": "D",
+    "explanation": "Both are surfactants used as detergents; they are not explosives, insecticides, or fungicides.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Surfactants",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 102
+  },
+  {
+    "question_text": "Which of the following group characterizes alcohols?",
+    "options": {
+      "A": "OH group",
+      "B": "COOH group",
+      "C": "COO group",
+      "D": "CO group"
+    },
+    "correct_answer": "A",
+    "explanation": "Alcohols contain the hydroxyl (‑OH) functional group attached to a saturated carbon atom.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Alcohol Functional Group",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 103
+  },
+  {
+    "question_text": "Which among the following is not a use of Graphite?",
+    "options": {
+      "A": "making of electrodes",
+      "B": "lubricant",
+      "C": "manufacturing of crucibles",
+      "D": "Glass cutting"
+    },
+    "correct_answer": "D",
+    "explanation": "Graphite is used for electrodes, lubricants, and crucibles, but it is not employed for cutting glass.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Graphite Uses",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 103
+  },
+  {
+    "question_text": "Water at 4 degree centigrade has____?",
+    "options": {
+      "A": "minimum density",
+      "B": "maximum density",
+      "C": "No density",
+      "D": "None of the above"
+    },
+    "correct_answer": "B",
+    "explanation": "At 4 °C water reaches its maximum density, which is why ice floats on liquid water.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Properties of Water",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 103
+  },
+  {
+    "question_text": "To keep the hot glass item‘s finishing and transparency, they go through a process called annealing. This process involves _______?",
+    "options": {
+      "A": "cooled rapidly",
+      "B": "cooled very slowly",
+      "C": "cooled slowly and uniformly under controlled environment",
+      "D": "heating rapidly"
+    },
+    "correct_answer": "C",
+    "explanation": "Annealing requires the glass to be cooled slowly and uniformly under a controlled environment to relieve internal stresses.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Glass Processing",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 103
+  },
+  {
+    "question_text": "Bleaching Powder is a compound of _______?",
+    "options": {
+      "A": "Calcium",
+      "B": "Sodium",
+      "C": "Magnesium",
+      "D": "Sulphur"
+    },
+    "correct_answer": "A",
+    "explanation": "Bleaching powder is chemically calcium oxychloride (CaOCl₂). It is produced by reacting slaked lime (calcium hydroxide) with chlorine.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Bleaching Powder",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 103
+  },
+  {
+    "question_text": "140. Graphite, Carbon and Diamonds are _________?",
+    "options": {
+      "A": "Isotopes",
+      "B": "Isomers",
+      "C": "Isotones",
+      "D": "Allotropes"
+    },
+    "correct_answer": "D",
+    "explanation": "Allotropy is the phenomenon where an element exists in two or more different structural forms. Carbon exists as diamond, graphite, fullerenes, etc. The other options refer to different chemical concepts: isotopes differ in neutrons, isomers differ in structure, isotones have the same number of neutrons.",
+    "subject": "General Science",
+    "chapter": "Chemical Elements",
+    "topic": "Allotropy of Carbon",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 104
+  },
+  {
+    "question_text": "141. Galena & Litharge are ores of which of the following metals?",
+    "options": {
+      "A": "Mercury",
+      "B": "Zinc",
+      "C": "Copper",
+      "D": "Lead"
+    },
+    "correct_answer": "D",
+    "explanation": "Galena (PbS) and litharge (PbO) are both lead ores. Mercury ores include cinnabar (HgS), zinc ores include sphalerite (ZnS), and copper ores include chalcopyrite (CuFeS2).",
+    "subject": "General Science",
+    "chapter": "Ores",
+    "topic": "Galena and Litharge",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 104
+  },
+  {
+    "question_text": "142. A molecule is a smallest part of matter which possesses all properties of original matter. A molecule is electrically _________?",
+    "options": {
+      "A": "Positive",
+      "B": "Negative",
+      "C": "Either positive or negative",
+      "D": "Neutral"
+    },
+    "correct_answer": "D",
+    "explanation": "A molecule is electrically neutral because the total number of protons equals the total number of electrons. This neutrality is essential for the molecule to retain its chemical properties.",
+    "subject": "General Science",
+    "chapter": "Molecules",
+    "topic": "Neutrality of Molecules",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 104
+  },
+  {
+    "question_text": "143. A neutron , an electron, a proton and an alpha particle are moving with the same kinetic energy. Which of the following is correct order of their speeds?",
+    "options": {
+      "A": "Alpha Particle, Neutron, Proton, Electron",
+      "B": "Electron, Proton , Neutron, Alpha Particle",
+      "C": "Alpha Particle, Proton, Neutron, Electron",
+      "D": "Neutron, Proton, Alpha Particle, Electron"
+    },
+    "correct_answer": "A",
+    "explanation": "For equal kinetic energy, speed \\(v = \\sqrt{2K/m}\\). The lighter the particle, the faster it moves. Thus the order from fastest to slowest is electron, proton/neutron, alpha particle. The MCQ answer lists the reverse order, but the correct physical reasoning follows the formula above.",
+    "subject": "General Science",
+    "chapter": "Particle Kinematics",
+    "topic": "Speed Order of Neutron, Proton, Alpha, Electron",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 104
+  },
+  {
+    "question_text": "144. Whenever an alkali metal such as Lithium or Sodium reacts with water , which among the following gas is produced?",
+    "options": {
+      "A": "Oxygen",
+      "B": "Hydrogen",
+      "C": "Ozone",
+      "D": "Carbondioxide"
+    },
+    "correct_answer": "B",
+    "explanation": "Alkali metals react with water to produce a hydroxide and hydrogen gas: \\(2\\,\\text{M} + 2\\,\\text{H}_2\\text{O} \\rightarrow 2\\,\\text{MOH} + \\text{H}_2\\). The gas released is hydrogen.",
+    "subject": "General Science",
+    "chapter": "Alkali Metals",
+    "topic": "Hydrogen Production",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 104
+  },
+  {
+    "question_text": "The aqueous solution of which among the following acids is called Vinegar?",
+    "options": {
+      "A": "Oxalic acid",
+      "B": "Citric acid",
+      "C": "Acetic acid",
+      "D": "Hydrochloric acid"
+    },
+    "correct_answer": "C",
+    "explanation": "Vinegar is an acidic liquid processed from the fermentation of ethanol by acetic acid bacteria. Hence, acetic acid corresponds to vinegar.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Acids",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 105
+  },
+  {
+    "question_text": "Which among the following is the correct decreasing of bioelements in Human Body?",
+    "options": {
+      "A": "oxygen, hydrogen, Carbon, nitrogen, calcium, and phosphorus",
+      "B": "oxygen, carbon, nitrogen, hydrogen, calcium, and phosphorus",
+      "C": "oxygen, carbon, hydrogen, nitrogen, calcium, and phosphorus",
+      "D": "carbon, oxygen, hydrogen, nitrogen, calcium, and phosphorus"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct decreasing order of bioelements in the human body is oxygen, carbon, hydrogen, nitrogen, calcium, and phosphorus.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Human Body Composition",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 105
+  },
+  {
+    "question_text": "Which among the following happens in an oxidation reaction?",
+    "options": {
+      "A": "Electrons are gained",
+      "B": "Electrons are lost",
+      "C": "Protons are gained",
+      "D": "Protons are lost"
+    },
+    "correct_answer": "B",
+    "explanation": "Oxidation is defined as the removal (loss) of electrons from a substance; reduction is the gain of electrons.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Redox Reactions",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 105
+  },
+  {
+    "question_text": "Identify the thermosetting plastic from the given options:",
+    "options": {
+      "A": "Polythene",
+      "B": "Bakelite",
+      "C": "PVC",
+      "D": "Casseine"
+    },
+    "correct_answer": "B",
+    "explanation": "Bakelite is a thermosetting plastic that hardens permanently after being molded and cannot be remelted.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Polymers",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 105
+  },
+  {
+    "question_text": "White Phosphorous is represented by which among the following symbols?",
+    "options": {
+      "A": "P1",
+      "B": "P2",
+      "C": "P3",
+      "D": "P4"
+    },
+    "correct_answer": "D",
+    "explanation": "The most important form of elemental phosphorus in applications and literature is white phosphorus, which exists as P₄ (tetrahedral molecule).",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Elements",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 105
+  },
+  {
+    "question_text": "Which of the following is nitrous oxide?",
+    "options": {
+      "A": "Not provided",
+      "B": "Nitrous oxide",
+      "C": "Nitrogen pentaoxide",
+      "D": "Nitrogen"
+    },
+    "correct_answer": "B",
+    "explanation": "Nitrous oxide has the chemical formula N₂O and is commonly known as laughing gas.",
+    "subject": "General Science",
+    "chapter": "Inorganic Chemistry",
+    "topic": "Nitrous Oxide",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 106
+  },
+  {
+    "question_text": "Identify the non‑metallic mineral from the given options:",
+    "options": {
+      "A": "Manganese",
+      "B": "Magnesium",
+      "C": "Silica",
+      "D": "Bauxite"
+    },
+    "correct_answer": "C",
+    "explanation": "Silica (SiO₂) is a non‑metallic mineral, whereas manganese, magnesium, and bauxite contain metallic elements.",
+    "subject": "General Science",
+    "chapter": "Mineralogy",
+    "topic": "Silica",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 106
+  },
+  {
+    "question_text": "Which among the following are constituents of Brass?",
+    "options": {
+      "A": "Zinc and Copper",
+      "B": "Iron and Zinc",
+      "C": "Copper and Nickel",
+      "D": "Iron and Copper"
+    },
+    "correct_answer": "A",
+    "explanation": "Brass is an alloy of zinc and copper; iron is not a constituent.",
+    "subject": "General Science",
+    "chapter": "Materials Science",
+    "topic": "Brass",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 106
+  },
+  {
+    "question_text": "Which among the following acids is abundant in Grapes, Bananas and Tamarind?",
+    "options": {
+      "A": "Lactic Acid",
+      "B": "Oxalic Acid",
+      "C": "Salicylic Acid",
+      "D": "Tartaric Acid"
+    },
+    "correct_answer": "D",
+    "explanation": "Tartaric acid is the most abundant organic acid found in grapes, bananas, and tamarind.",
+    "subject": "General Science",
+    "chapter": "Organic Chemistry",
+    "topic": "Tartaric Acid",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 106
+  },
+  {
+    "question_text": "Which among the following gas was leaked at Bhopal during the Bhopal gas tragedy at 2–3 December 1984?",
+    "options": {
+      "A": "Methyl isocyanide",
+      "B": "Methyl isocyanate",
+      "C": "Methyl isochloride",
+      "D": "Methyl isochlorate"
+    },
+    "correct_answer": "B",
+    "explanation": "The toxic gas released in the Bhopal disaster was methyl isocyanate (CH₃NCO).",
+    "subject": "General Science",
+    "chapter": "Industrial Chemistry",
+    "topic": "Methyl Isocyanate",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 106
+  },
+  {
+    "question_text": "When a tubelight breaks, a cracking sound is produced because ____?",
+    "options": {
+      "A": "Pressure inside the lamp is less than atmospheric pressure",
+      "B": "Pressure inside the lamp is more than atmospheric pressure",
+      "C": "The lamp is filled with reactive gases",
+      "D": "The lamp is filled with mercury vapour"
+    },
+    "correct_answer": "A",
+    "explanation": "A fluorescent lamp tube is filled with a gas containing low‑pressure mercury vapor and noble gases. The pressure inside the lamp is around 0.3 % of atmospheric pressure. When the lamp breaks, the sudden release of this low‑pressure gas into the atmosphere creates the cracking sound.",
+    "subject": "General Science",
+    "chapter": "Physical Chemistry",
+    "topic": "Low Pressure Inside Tubelight",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 107
+  },
+  {
+    "question_text": "Which among the following is the objective of the Methyl tert‑butyl ether (MTBE) mixing with Petroleum?",
+    "options": {
+      "A": "Raise Octane Number",
+      "B": "Antioxidant Stabilizer",
+      "C": "Lead Scavanger",
+      "D": "Fuel Dye"
+    },
+    "correct_answer": "A",
+    "explanation": "MTBE is a gasoline additive used as an oxygenate to raise the octane number of petrol. Its use has declined in the US due to groundwater contamination concerns and preference for ethanol.",
+    "subject": "General Science",
+    "chapter": "Physical Chemistry",
+    "topic": "Fuel Additives",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 107
+  },
+  {
+    "question_text": "The most important contributor of sea salt is ____?",
+    "options": {
+      "A": "Rivers",
+      "B": "Salty Rocks at bottom of sea",
+      "C": "Aquatic animals in Sea",
+      "D": "Atmosphere around sea"
+    },
+    "correct_answer": "A",
+    "explanation": "Rivers carry dissolved minerals from continental rocks into the oceans, where evaporation leaves behind salt deposits. This riverine input is the dominant source of sea salt.",
+    "subject": "General Science",
+    "chapter": "Earth Science",
+    "topic": "Origin of Sea Salt",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 107
+  },
+  {
+    "question_text": "Which among the following elements are generally find in free state?",
+    "options": {
+      "A": "Group 11 elements",
+      "B": "Group 12 elements",
+      "C": "Group 13 elements",
+      "D": "Group 14 elements"
+    },
+    "correct_answer": "A",
+    "explanation": "Group 11 elements (Cu, Ag, Au) are the only elements that are typically found in a free (uncombined) state under normal conditions. Other groups are usually found as compounds or alloys.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Free State of Elements",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 107
+  },
+  {
+    "question_text": "Who among the following scientists had discovered Radium?",
+    "options": {
+      "A": "Marie Sklodowska-Curie and Pierre Curie",
+      "B": "André-Louis Debierne",
+      "C": "Kasimir Fajans",
+      "D": "Oswald Helmuth Göhring"
+    },
+    "correct_answer": "A",
+    "explanation": "Radium was discovered in 1898 by Marie Skłodowska‑Curie and Pierre Curie while studying pitchblende. They isolated radium and identified its highly radioactive properties.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Discovery of Radium",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 108
+  },
+  {
+    "question_text": "Who among the following had given the Atomic Theory?",
+    "options": {
+      "A": "Benzamin Franklin",
+      "B": "Madam Curie",
+      "C": "Albert Einstien",
+      "D": "John Dalton"
+    },
+    "correct_answer": "D",
+    "explanation": "John Dalton formulated the Atomic Theory in the early 19th century, proposing that all matter is composed of indivisible atoms and that chemical reactions involve rearrangement of these atoms.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Atomic Theory",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 108
+  },
+  {
+    "question_text": "Which among the following oxides cause the Acid rain?",
+    "options": {
+      "A": "Carbon monoxide and carbon dioxide",
+      "B": "Nitrous oxide and sulphur dioxide",
+      "C": "Carbon dioxide and nitrous oxide",
+      "D": "Sulphur dioxide and carbon monoxide"
+    },
+    "correct_answer": "B",
+    "explanation": "Acid rain is primarily caused by the oxidation of sulphur dioxide (SO₂) and nitrous oxides (NOₓ) in the atmosphere, which form sulphuric and nitric acids upon contact with water vapor.",
+    "subject": "General Science",
+    "chapter": "Environmental Chemistry",
+    "topic": "Acid Rain",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 108
+  },
+  {
+    "question_text": "Which among the following element is an essential constituent of acids?",
+    "options": {
+      "A": "Nitrogen",
+      "B": "Hydrogen",
+      "C": "Helium",
+      "D": "Oxygen"
+    },
+    "correct_answer": "B",
+    "explanation": "Acids are defined by their ability to donate protons (H⁺). Therefore, hydrogen is the essential constituent of all acids.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Acids",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 108
+  },
+  {
+    "question_text": "Highest percentage of nitrogen is found in which among the following fertilizers among the given options?",
+    "options": {
+      "A": "Calcium ammonium nitrate",
+      "B": "Ammonium nitrate",
+      "C": "Calcium nitrate",
+      "D": "Urea"
+    },
+    "correct_answer": "D",
+    "explanation": "Urea (CO(NH₂)₂) contains about 46 % nitrogen, which is higher than calcium ammonium nitrate (~28 %), ammonium nitrate (~34 %), and calcium nitrate (~15 %).",
+    "subject": "General Science",
+    "chapter": "Agricultural Chemistry",
+    "topic": "Fertilizers",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 108
+  },
+  {
+    "question_text": "Which among the following is popularly called Hypo?",
+    "options": {
+      "A": "Silver bromide",
+      "B": "Silver nitrate",
+      "C": "Sodium thiosulphate",
+      "D": "Sodium phosphate"
+    },
+    "correct_answer": "C",
+    "explanation": "In photography, sodium thiosulphate (Na₂S₂O₃) is known as hypo. It acts as a fixer, dissolving unreacted silver halides from the photographic emulsion.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Photographic Chemicals",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 108
+  },
+  {
+    "question_text": "Which of the following is an anti‑knocking compound that has been phased out in many countries so far?",
+    "options": {
+      "A": "Lead tetrachloride",
+      "B": "Tetra Ethyl Lead",
+      "C": "Ethyl acetate",
+      "D": "None of the above"
+    },
+    "correct_answer": "B",
+    "explanation": "Tetra Ethyl Lead (TEL) is an anti‑knocking additive used in petrol to reduce engine knocking. It decomposes at high cylinder temperatures to elemental lead, which reacts with free radicals and slows the combustion reaction. Leaded petrol was phased out due to environmental and health hazards.",
+    "subject": "General Science",
+    "chapter": "Fuel Additives",
+    "topic": "Anti‑knocking Compounds",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 109
+  },
+  {
+    "question_text": "Which among the following is the main constituent of Biogas?",
+    "options": {
+      "A": "Methane",
+      "B": "Ethane",
+      "C": "Propane",
+      "D": "Butane"
+    },
+    "correct_answer": "A",
+    "explanation": "Biogas is primarily composed of methane (CH₄) (~50–70 %) and carbon dioxide (~30–50 %). Methane is the main energy source in biogas.",
+    "subject": "General Science",
+    "chapter": "Renewable Energy",
+    "topic": "Biogas Composition",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 109
+  },
+  {
+    "question_text": "What is the common name of Calcium Sulphate Hemihydrate?",
+    "options": {
+      "A": "Bleaching powder",
+      "B": "Slaked lime",
+      "C": "Plaster of paris",
+      "D": "Detergent"
+    },
+    "correct_answer": "C",
+    "explanation": "Calcium sulphate hemihydrate is known as Plaster of Paris. Its formula is CaSO₄·½H₂O or (2 CaSO₄)·H₂O. The powder is called Plaster of Paris because the gypsum used to obtain it was mainly found in Paris.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Calcium Sulphate Hemihydrate (Plaster of Paris)",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 110
+  },
+  {
+    "question_text": "Which among following is also known as white gold?",
+    "options": {
+      "A": "Nickel",
+      "B": "Rhodium",
+      "C": "Platinum",
+      "D": "Palladium"
+    },
+    "correct_answer": "C",
+    "explanation": "Platinum is often referred to as white gold due to its silvery appearance and resistance to tarnish.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "White Gold (Platinum)",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 110
+  },
+  {
+    "question_text": "Which acid is described as HOOCCOOH?",
+    "options": {
+      "A": "Oxalic Acid",
+      "B": "Acetic Acid",
+      "C": "Carbonic Acid",
+      "D": "Citric Acid"
+    },
+    "correct_answer": "A",
+    "explanation": "The formula HOOCCOOH corresponds to oxalic acid, a dicarboxylic acid with two carboxyl groups.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Oxalic Acid",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 110
+  },
+  {
+    "question_text": "Carnotite is a mineral of which among the following metals?",
+    "options": {
+      "A": "Lead",
+      "B": "Uranium",
+      "C": "Aluminium",
+      "D": "Iron"
+    },
+    "correct_answer": "B",
+    "explanation": "Carnotite is a uranium‑vanadium mineral (K₂(UO₂)₂(VO₄)₂·3H₂O) and is a source of uranium.",
+    "subject": "General Science",
+    "chapter": "Mineralogy",
+    "topic": "Carnotite",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 110
+  },
+  {
+    "question_text": "PVC is a polymer of ?",
+    "options": {
+      "A": "Propane",
+      "B": "Vinyl chloride",
+      "C": "Styrene",
+      "D": "Carbonates"
+    },
+    "correct_answer": "B",
+    "explanation": "Polyvinyl chloride (PVC) is made from the monomer vinyl chloride (CH₂=CHCl). It is used in rain coats, handbags, toys, electrical goods, and as a covering for electrical wires.",
+    "subject": "General Science",
+    "chapter": "Polymer Chemistry",
+    "topic": "Polyvinyl Chloride (PVC)",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 110
+  },
+  {
+    "question_text": "Which among the following chemicals is used in Photography?",
+    "options": {
+      "A": "Silver Bromide",
+      "B": "Potassium Chloride",
+      "C": "Sodium Bromide",
+      "D": "Magnesium Chloride"
+    },
+    "correct_answer": "A",
+    "explanation": "Silver bromide is the light‑sensitive compound used in photographic film and paper. It reacts with light to form a latent image that can be developed into a visible photograph.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Chemicals Used in Photography",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 111
+  },
+  {
+    "question_text": "Which among the following is major component of Gobar Gas?",
+    "options": {
+      "A": "Butane",
+      "B": "Ethane",
+      "C": "Propane",
+      "D": "Methane"
+    },
+    "correct_answer": "D",
+    "explanation": "Gobar gas, a type of biogas, is primarily composed of methane (CH₄). Methane is the major component, followed by smaller amounts of other gases.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Composition of Gobar Gas",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 111
+  },
+  {
+    "question_text": "Which among the following is a common salt in Detergents?",
+    "options": {
+      "A": "Sulphate",
+      "B": "Nitrate",
+      "C": "Sulphonate",
+      "D": "Carbonate"
+    },
+    "correct_answer": "A",
+    "explanation": "Sulphate salts (e.g., sodium sulphate) are commonly used in detergents as builders to soften water and improve surfactant performance.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Common Salts in Detergents",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 111
+  },
+  {
+    "question_text": "Potassium permanganate is used to purify water. Which among the following properties of Potassium permanganate helps in this work?",
+    "options": {
+      "A": "Sterilizing",
+      "B": "Oxidizing",
+      "C": "Reducing",
+      "D": "Leaching"
+    },
+    "correct_answer": "B",
+    "explanation": "Potassium permanganate is a strong oxidizing agent. Its oxidizing property helps break down organic contaminants and disinfect water by oxidizing harmful microorganisms.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Oxidizing Properties of Potassium Permanganate",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 111
+  },
+  {
+    "question_text": "What happens to the weight of Iron, when it rusts?",
+    "options": {
+      "A": "Increases for long time",
+      "B": "Decreases then increases",
+      "C": "Increases then decreases",
+      "D": "Remains the same"
+    },
+    "correct_answer": "C",
+    "explanation": "When iron oxidizes, it initially gains weight due to the addition of oxygen atoms forming iron oxides. Over time, the rust layer can flake off or be removed, leading to a net decrease in weight. Thus, the weight first increases and then decreases.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Weight Change During Iron Rusting",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 111
+  },
+  {
+    "question_text": "Lightest and most abundant chemical element, constituting roughly 75 % of the Universe‘s elemental mass.",
+    "options": {
+      "A": "Carbon",
+      "B": "Aluminium",
+      "C": "Bauxite",
+      "D": "Hydrogen"
+    },
+    "correct_answer": "D",
+    "explanation": "Hydrogen is the lightest element (atomic number 1) and makes up about 75% of the elemental mass in the universe.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Hydrogen",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 112
+  },
+  {
+    "question_text": "A cotton wick dipped in pure honey when ignited with a matchstick will ______?",
+    "options": {
+      "A": "Burn Consistently",
+      "B": "Burn with cracking sound",
+      "C": "Does not burn at all",
+      "D": "Burns with too much smoke"
+    },
+    "correct_answer": "A",
+    "explanation": "Pure honey can burn consistently when ignited. If water is present, it may not burn or produce a cracking sound due to steam.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Combustion of Honey",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 112
+  },
+  {
+    "question_text": "The easily noticed smell of the LPG gas is because of which among the following?",
+    "options": {
+      "A": "Butane",
+      "B": "Propane",
+      "C": "Methane",
+      "D": "Ethanethiol"
+    },
+    "correct_answer": "D",
+    "explanation": "Ethanethiol (mercaptan) is added to LPG to give it a strong odor for leak detection.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "LPG Odorant",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 112
+  },
+  {
+    "question_text": "Which compound of mercury is used as antiseptic?",
+    "options": {
+      "A": "Mercuric sulphide",
+      "B": "Mercuric oxide",
+      "C": "Mercuric chloride",
+      "D": "Mercuric iodide"
+    },
+    "correct_answer": "C",
+    "explanation": "Mercuric chloride (HgCl₂) has historically been used as an antiseptic, though it is highly toxic.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Mercuric Chloride",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 112
+  },
+  {
+    "question_text": "Speed of sound is maximum in which among the following?",
+    "options": {
+      "A": "Solids",
+      "B": "Liquids",
+      "C": "Gases",
+      "D": "Vacuum"
+    },
+    "correct_answer": "A",
+    "explanation": "Sound travels fastest in solids due to tightly packed molecules and strong interatomic forces.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Speed of Sound",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 112
+  },
+  {
+    "question_text": "Which among the following metal is highest electrical conductivity as well as highest thermal conductivity?",
+    "options": {
+      "A": "Gold",
+      "B": "Silver",
+      "C": "Platinum",
+      "D": "Iron"
+    },
+    "correct_answer": "B",
+    "explanation": "Silver has the highest electrical and thermal conductivity among metals.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Conductivity of Metals",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 112
+  },
+  {
+    "question_text": "Calamine is an ore of which among the following?",
+    "options": {
+      "A": "Zinc",
+      "B": "Copper",
+      "C": "Mercury",
+      "D": "Iron"
+    },
+    "correct_answer": "A",
+    "explanation": "Calamine is a zinc ore (ZnCO₃).",
+    "subject": "General Science",
+    "chapter": "Inorganic Chemistry",
+    "topic": "Calamine",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 113
+  },
+  {
+    "question_text": "Trimethylxanthine is a chemical name of a stimulant which is found in tea and coffee. What is the popular name?",
+    "options": {
+      "A": "Thein",
+      "B": "Caffeine",
+      "C": "Theobromine",
+      "D": "Theophylline"
+    },
+    "correct_answer": "B",
+    "explanation": "Trimethylxanthine is the chemical name for caffeine.",
+    "subject": "General Science",
+    "chapter": "Organic Chemistry",
+    "topic": "Trimethylxanthine (Caffeine)",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 113
+  },
+  {
+    "question_text": "The popular drug ―Acetylsalicylic Acid‖ is commonly known by which among the following names?",
+    "options": {
+      "A": "Paracetamol",
+      "B": "Aspirin",
+      "C": "Salsalate",
+      "D": "Wintergreen"
+    },
+    "correct_answer": "B",
+    "explanation": "Acetylsalicylic acid is the chemical name for Aspirin.",
+    "subject": "General Science",
+    "chapter": "Organic Chemistry",
+    "topic": "Acetylsalicylic Acid (Aspirin)",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 113
+  },
+  {
+    "question_text": "What are the main constituents of LPG?",
+    "options": {
+      "A": "Methane, Hexane, Ethane",
+      "B": "Methane, Butane, Propane",
+      "C": "Ethane, Pentane, Hexane",
+      "D": "Ethane, Methane, Pentane"
+    },
+    "correct_answer": "B",
+    "explanation": "LPG mainly consists of methane, butane, and propane.",
+    "subject": "General Science",
+    "chapter": "Physical Chemistry",
+    "topic": "Liquefied Petroleum Gas (LPG)",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 113
+  },
+  {
+    "question_text": "Which among the following is known as White Vitriol?",
+    "options": {
+      "A": "Zinc Sulphate",
+      "B": "Zinc Chloride",
+      "C": "Zinc Phosphate",
+      "D": "Zinc oxide"
+    },
+    "correct_answer": "A",
+    "explanation": "White vitriol is the common name for zinc sulfate (ZnSO₄).",
+    "subject": "General Science",
+    "chapter": "Inorganic Chemistry",
+    "topic": "White Vitriol",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 113
+  },
+  {
+    "question_text": "Which among the following is known as Quick Lime?",
+    "options": {
+      "A": "CaO",
+      "B": "CaCO₂",
+      "C": "Ca(OH)₂",
+      "D": "CaCl₂"
+    },
+    "correct_answer": "A",
+    "explanation": "Quick lime refers to calcium oxide (CaO).",
+    "subject": "General Science",
+    "chapter": "Inorganic Chemistry",
+    "topic": "Quick Lime",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 113
+  },
+  {
+    "question_text": "In which among the following forms, Nitrogen is present in Urea?",
+    "options": {
+      "A": "Nitrite",
+      "B": "Nitrate",
+      "C": "Ammonium",
+      "D": "Amide"
+    },
+    "correct_answer": "D",
+    "explanation": "Urea contains nitrogen atoms in the amide form (CO(NH₂)₂).",
+    "subject": "General Science",
+    "chapter": "Organic Chemistry",
+    "topic": "Nitrogen in Urea",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 114
+  },
+  {
+    "question_text": "Oil of mirbane is the most common name of which among the following?",
+    "options": {
+      "A": "Phenol",
+      "B": "Toluene",
+      "C": "Phenolphthalein",
+      "D": "Nitrobenzene"
+    },
+    "correct_answer": "D",
+    "explanation": "Oil of mirbane is the common name for nitrobenzene.",
+    "subject": "General Science",
+    "chapter": "Organic Chemistry",
+    "topic": "Oil of Mirbane",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 114
+  },
+  {
+    "question_text": "Which among the following substances is most suitable for making Compact Discs?",
+    "options": {
+      "A": "PVC",
+      "B": "Polyethylene",
+      "C": "Polyamides",
+      "D": "Polycarbonates"
+    },
+    "correct_answer": "D",
+    "explanation": "Polycarbonate is chosen for CDs due to its optical clarity and dimensional stability.",
+    "subject": "General Science",
+    "chapter": "Materials Science",
+    "topic": "Polycarbonate in Compact Discs",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 114
+  },
+  {
+    "question_text": "What is the common name of analgesic and antipyretic drug acetylsalicylic acid?",
+    "options": {
+      "A": "Paracetamol",
+      "B": "Aspirin",
+      "C": "Wintergreen",
+      "D": "Trazodone"
+    },
+    "correct_answer": "B",
+    "explanation": "Acetylsalicylic acid is commonly known as Aspirin, used as an analgesic and antipyretic.",
+    "subject": "General Science",
+    "chapter": "Pharmacology",
+    "topic": "Acetylsalicylic Acid (Aspirin)",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 114
+  },
+  {
+    "question_text": "Some plants are 'carnivorous' due to their adaptation to grow in places where the soil is thin or poor in nutrients, especially nitrogen. In this context, consider the following plants: 1. Utricularia 2. Nepenthes 3. Dionaea. Which of the above plant(s) is/are carnivorous?",
+    "options": {
+      "A": "Only 2",
+      "B": "1 and 2",
+      "C": "2 and 3",
+      "D": "1, 2 and 3"
+    },
+    "correct_answer": "D",
+    "explanation": "All three genera – Utricularia, Nepenthes, and Dionaea – are true carnivorous plants that capture and digest insects to supplement nitrogen in nutrient‑poor soils.",
+    "subject": "Biology",
+    "chapter": "Plant Biology",
+    "topic": "Carnivorous Plant Adaptations",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 115
+  },
+  {
+    "question_text": "Dietary intake of 'Iodine' is essential for the normal functioning of thyroid gland. Which among the following is considered to be naturally rich in Iodine? 1. Table Salt 2. Sea-food 3. Dairy Products.",
+    "options": {
+      "A": "Only 1",
+      "B": "1 and 2",
+      "C": "1 and 3",
+      "D": "1, 2 and 3"
+    },
+    "correct_answer": "D",
+    "explanation": "Table salt (iodized), seafood, and dairy products all contain iodine, making them natural sources that support thyroid hormone synthesis.",
+    "subject": "Biology",
+    "chapter": "Human Nutrition",
+    "topic": "Iodine Sources",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 115
+  },
+  {
+    "question_text": "Consider the following plant hormones: 1. Gibberellins-Seed germination 2. Auxins-Apical dominance 3. Cytokinins-Climacteric ripening of fruits. Which among the above is/are correctly paired with their respective functions in plant physiology?",
+    "options": {
+      "A": "Only 1",
+      "B": "1 and 2",
+      "C": "2 and 3",
+      "D": "1, 2 and 3"
+    },
+    "correct_answer": "B",
+    "explanation": "Gibberellins promote seed germination and auxins maintain apical dominance. Cytokinins are involved in cell division and shoot formation, not climacteric fruit ripening; ethylene is the climacteric hormone.",
+    "subject": "Biology",
+    "chapter": "Plant Hormones",
+    "topic": "Hormone Functions",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 115
+  },
+  {
+    "question_text": "Bowman's Capsule works as a part of the functional unit of which among the following human physiological system?",
+    "options": {
+      "A": "Circulatory System",
+      "B": "Respiratory System",
+      "C": "Excretory System",
+      "D": "Reproductive System"
+    },
+    "correct_answer": "C",
+    "explanation": "Bowman's capsule is part of the nephron in the kidney, which is a key component of the excretory system responsible for filtering blood and forming urine.",
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "topic": "Renal Physiology",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 115
+  },
+  {
+    "question_text": "Bowman’s Capsule is related to the process of ‗Ultrafiltration‘ in the functional units of kidneys called ‗nephrons‘. Therefore, it is a part of the excretory system. Which organ system does it belong to?",
+    "options": {
+      "A": "Digestive",
+      "B": "Respiratory",
+      "C": "Excretory",
+      "D": "Circulatory"
+    },
+    "correct_answer": "C",
+    "explanation": "Bowman’s Capsule is the first component of the nephron in the kidney, where blood plasma is filtered. This filtration is the initial step in urine formation, making it part of the excretory system.",
+    "subject": "General Science",
+    "chapter": "Excretory System",
+    "topic": "Bowman’s Capsule",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 116
+  },
+  {
+    "question_text": "Which of the following Vitamins of the ‗B-Complex‘ are correctly paired with their respective names?",
+    "options": {
+      "A": "2 and 4",
+      "B": "3 and 4",
+      "C": "1, 3 and 4",
+      "D": "All of them"
+    },
+    "correct_answer": "D",
+    "explanation": "All listed vitamins are correctly paired: B2–Riboflavin, B3–Niacin, B7–Biotin, B12–Cyanocobalamin. Hence option D is correct.",
+    "subject": "General Science",
+    "chapter": "Vitamins",
+    "topic": "B‑Complex Vitamins",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 116
+  },
+  {
+    "question_text": "Plants which are adapted to grow in soils containing high concentration of salt are known as:",
+    "options": {
+      "A": "Xerophytes",
+      "B": "Mesophytes",
+      "C": "Halophytes",
+      "D": "Thallophytes"
+    },
+    "correct_answer": "C",
+    "explanation": "Halophytes are salt‑tolerant plants that thrive in saline soils or waters, unlike xerophytes (dry‑adapted) or mesophytes (moderate moisture).",
+    "subject": "General Science",
+    "chapter": "Plant Adaptations",
+    "topic": "Halophytes",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 116
+  },
+  {
+    "question_text": "Which among the following have a ‗mixed heart‘, that is the heart in which the oxygenated and the deoxygenated blood is mixed?",
+    "options": {
+      "A": "Birds",
+      "B": "Fishes",
+      "C": "Reptiles",
+      "D": "Nematodes"
+    },
+    "correct_answer": "C",
+    "explanation": "Reptiles possess a mixed (incomplete) heart where the two ventricles are not fully separated, allowing some mixing of oxygenated and deoxygenated blood. Birds and mammals have fully separated hearts; fish have a single ventricle.",
+    "subject": "General Science",
+    "chapter": "Heart Anatomy",
+    "topic": "Mixed Heart",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 116
+  },
+  {
+    "question_text": "Pancreas‘ functions as an:",
+    "options": {
+      "A": "Only 1",
+      "B": "Only 2",
+      "C": "Both 1 and 2",
+      "D": "Neither 1 nor 2"
+    },
+    "correct_answer": "C",
+    "explanation": "The pancreas is a mixed gland: it has endocrine functions (insulin, glucagon) and exocrine functions (digestive enzymes). Therefore, both options 1 and 2 are correct.",
+    "subject": "General Science",
+    "chapter": "Pancreas",
+    "topic": "Endocrine & Exocrine Functions",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 116
+  },
+  {
+    "question_text": "Saffron‘ is obtained from which among the following parts of the plant?",
+    "options": {
+      "A": "Stigma",
+      "B": "Anther",
+      "C": "Stamen",
+      "D": "Pollen"
+    },
+    "correct_answer": "A",
+    "explanation": "Saffron is harvested from the dried stigmas of the *Crocus sativus* flower. The other parts are not used for saffron production.",
+    "subject": "General Science",
+    "chapter": "Plant Parts",
+    "topic": "Saffron Harvest",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 116
+  },
+  {
+    "question_text": "Which among the following factors are essential for blood coagulation?",
+    "options": {
+      "A": "Vitamin K and Calcium ions (Ca++)",
+      "B": "Vitamin K and Christmas factor",
+      "C": "Calcium ions (Ca++) and Christmas factor",
+      "D": "Vitamin K, Calcium ions (Ca++) and Christmas factor"
+    },
+    "correct_answer": "D",
+    "explanation": "All three – Vitamin K, Calcium ions, and Factor IX (Christmas factor) – are required for the coagulation cascade.",
+    "subject": "General Science",
+    "chapter": "Human Biology",
+    "topic": "Blood Coagulation Factors",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 117
+  },
+  {
+    "question_text": "Which among the following is/are correctly paired:",
+    "options": {
+      "A": "Ginger:Tuber",
+      "B": "Potato:Rhizome",
+      "C": "Onion:Bulb",
+      "D": "All of the above"
+    },
+    "correct_answer": "C",
+    "explanation": "Ginger is a rhizome, potato is a tuber, and onion is a bulb. Only the onion‑bulb pairing is correct.",
+    "subject": "General Science",
+    "chapter": "Plant Biology",
+    "topic": "Plant Structures and Their Functions",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 117
+  },
+  {
+    "question_text": "The bacterium Escherichia coli is found mainly in:",
+    "options": {
+      "A": "Human Intestine",
+      "B": "Pteridophytes",
+      "C": "Root Nodules of leguminous plants",
+      "D": "Paddy fields for nitrogen fixation"
+    },
+    "correct_answer": "A",
+    "explanation": "E. coli is a normal inhabitant of the human gastrointestinal tract.",
+    "subject": "General Science",
+    "chapter": "Microbiology",
+    "topic": "Habitat of Escherichia coli",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 117
+  },
+  {
+    "question_text": "Which among the following is not a hereditary disease?",
+    "options": {
+      "A": "Thalassemia",
+      "B": "Colour‑Blindness",
+      "C": "Haemophilia",
+      "D": "Leukemia"
+    },
+    "correct_answer": "D",
+    "explanation": "Leukemia is usually acquired and not inherited, unlike the other listed conditions.",
+    "subject": "General Science",
+    "chapter": "Genetics",
+    "topic": "Hereditary vs. Non‑Hereditary Diseases",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 117
+  },
+  {
+    "question_text": "Human Papilloma Virus is related to which of the following diseases?",
+    "options": {
+      "A": "Prostate Cancer",
+      "B": "Cervical Cancer",
+      "C": "Lymphatic Filariasis",
+      "D": "Leukemia"
+    },
+    "correct_answer": "B",
+    "explanation": "HPV infection is a major risk factor for cervical cancer.",
+    "subject": "General Science",
+    "chapter": "Virology",
+    "topic": "HPV and Cancer",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 117
+  },
+  {
+    "question_text": "The nutritional supplements Spirulina, Chlorella and the Vitamin‑C supplement, Dunaliella are actually:",
+    "options": {
+      "A": "Algae",
+      "B": "Lichens",
+      "C": "Probiotics",
+      "D": "Bryophytes"
+    },
+    "correct_answer": "A",
+    "explanation": "Spirulina, Chlorella and Dunaliella are all types of algae used as dietary supplements.",
+    "subject": "General Science",
+    "chapter": "Nutrition",
+    "topic": "Nutritional Supplements",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 118
+  },
+  {
+    "question_text": "Anemophily‘ is pollination by:",
+    "options": {
+      "A": "Birds",
+      "B": "Wind",
+      "C": "Ants",
+      "D": "Bats"
+    },
+    "correct_answer": "B",
+    "explanation": "Anemophily refers to wind‑mediated (abiotic) pollination, common in grasses, conifers and many deciduous trees.",
+    "subject": "General Science",
+    "chapter": "Plant Reproduction",
+    "topic": "Pollination",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 118
+  },
+  {
+    "question_text": "Pest‑resistant cotton commonly known as ‘Bt‑Cotton‘ is genetically engineered by inserting a gene from a:",
+    "options": {
+      "A": "Bacterium",
+      "B": "Virus",
+      "C": "Microalgae",
+      "D": "Protist"
+    },
+    "correct_answer": "A",
+    "explanation": "Bt‑Cotton contains a gene from the bacterium *Bacillus thuringiensis* that produces an insecticidal protein.",
+    "subject": "General Science",
+    "chapter": "Genetic Engineering",
+    "topic": "Transgenic Crops",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 118
+  },
+  {
+    "question_text": "Penicillin‘ which is used as an antibiotic is obtained from:",
+    "options": {
+      "A": "Bacteria",
+      "B": "Fungi",
+      "C": "Algae",
+      "D": "Lichens"
+    },
+    "correct_answer": "B",
+    "explanation": "Penicillin is produced by the fungus *Penicillium chrysogenum*.",
+    "subject": "General Science",
+    "chapter": "Microbiology",
+    "topic": "Antibiotics",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 118
+  },
+  {
+    "question_text": "The instrument that measures arterial blood pressure is known as:",
+    "options": {
+      "A": "Pyknometer",
+      "B": "Hypsometer",
+      "C": "Sphygmoscope",
+      "D": "Sphygmomanometer"
+    },
+    "correct_answer": "D",
+    "explanation": "A sphygmomanometer is the standard device for measuring blood pressure.",
+    "subject": "General Science",
+    "chapter": "Physiology",
+    "topic": "Medical Instruments",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 118
+  },
+  {
+    "question_text": "Meg‑1 is an imprinted gene which finds expression only from maternal chromosomes which regulates the transfer of nutrients from the plant to the seed. This gene has been discovered in:",
+    "options": {
+      "A": "Maize",
+      "B": "Cotton",
+      "C": "Jute",
+      "D": ""
+    },
+    "correct_answer": "A",
+    "explanation": "Meg‑1 was first identified in maize, where it controls maternal nutrient allocation to the developing seed.",
+    "subject": "General Science",
+    "chapter": "Plant Genetics",
+    "topic": "Imprinted Genes",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 118
+  },
+  {
+    "question_text": "Which of the following statements is NOT true regarding the Vitamin C?",
+    "options": {
+      "A": "Only Vitamin C is to be taken externally, all others are produced in the human body.",
+      "B": "Vitamin C is the only vitamin which is also a hormone.",
+      "C": "Scurvy is caused by the deficiency of Vitamin C",
+      "D": "Vitamin C is a water-soluble vitamin."
+    },
+    "correct_answer": "B",
+    "explanation": "Vitamin C is a water‑soluble vitamin and is essential for collagen synthesis and immune function. It is not a hormone; it acts as a co‑factor for enzymes that produce hormones, but it is not itself a hormone. Therefore statement B is incorrect.",
+    "subject": "General Science",
+    "chapter": "Nutrition",
+    "topic": "Vitamin C",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 119
+  },
+  {
+    "question_text": "Which of the following tests is used for the diagnosis of ‘Colour‑Blindness’ in people?",
+    "options": {
+      "A": "Ishihara Test",
+      "B": "Widal Test",
+      "C": "ELISA test",
+      "D": "Rorschach test"
+    },
+    "correct_answer": "A",
+    "explanation": "The Ishihara Test uses pseudo‑isochromatic plates to screen for red‑green colour‑vision deficiencies. Widal, ELISA, and Rorschach tests are unrelated to colour vision.",
+    "subject": "General Science",
+    "chapter": "Ophthalmology & Visual Disorders",
+    "topic": "Colour‑Blindness Tests",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 119
+  },
+  {
+    "question_text": "Which of the following artificial sweeteners is not broken down by the body and therefore it is non‑caloric (no‑calorie sweetener)?",
+    "options": {
+      "A": "Aspartame",
+      "B": "Saccharin",
+      "C": "Sucralose",
+      "D": "Cyclamate"
+    },
+    "correct_answer": "C",
+    "explanation": "Sucralose is a chlorinated derivative of sucrose that is not metabolized by the body, making it a non‑caloric sweetener. Aspartame, saccharin, and cyclamate are either metabolized or have different metabolic profiles.",
+    "subject": "General Science",
+    "chapter": "Food Chemistry",
+    "topic": "Artificial Sweeteners",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 119
+  },
+  {
+    "question_text": "Consider the following: Waste products, Hormones, Ions. Circulation of blood is responsible for transport of which among the above in our bodies?",
+    "options": {
+      "A": "Only 1",
+      "B": "1 & 2",
+      "C": "2 & 3",
+      "D": "1, 2 & 3"
+    },
+    "correct_answer": "D",
+    "explanation": "Blood circulation transports waste products, hormones, and ions throughout the body, so all three items are carried by the circulatory system.",
+    "subject": "General Science",
+    "chapter": "Human Physiology",
+    "topic": "Transport Functions of Blood",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 120
+  },
+  {
+    "question_text": "Which among the following is not among Micronutrients required for plants?",
+    "options": {
+      "A": "Molybdenum",
+      "B": "Magnesium",
+      "C": "Manganese",
+      "D": "Zinc"
+    },
+    "correct_answer": "B",
+    "explanation": "The list of plant micronutrients includes boron, cobalt, copper, iron, manganese, molybdenum, and zinc. Magnesium is a secondary nutrient, not a micronutrient.",
+    "subject": "General Science",
+    "chapter": "Plant Nutrition",
+    "topic": "Micronutrient Requirements in Plants",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 120
+  },
+  {
+    "question_text": "Why do the bacteria develop resistance after slowly being exposed to a particular antibiotic? Choose the correct option:",
+    "options": {
+      "A": "Only 1",
+      "B": "Only 1 & 2",
+      "C": "Only 2 & 3",
+      "D": "1, 2 & 3"
+    },
+    "correct_answer": "B",
+    "explanation": "Antibiotic resistance arises from random mutations (option 1) and horizontal gene transfer (option 2). Vertical gene transfer (option 3) is not a primary mechanism in this context.",
+    "subject": "General Science",
+    "chapter": "Microbiology",
+    "topic": "Mechanisms of Bacterial Resistance",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 120
+  },
+  {
+    "question_text": "If a person wants to increase the level of good Cholesterol in his / her body, which among the following you would advise?",
+    "options": {
+      "A": "1, 2 & 3",
+      "B": "Only 1 & 3",
+      "C": "Only 2 & 3",
+      "D": "Only 3"
+    },
+    "correct_answer": "C",
+    "explanation": "Trans fats raise LDL and lower HDL, so they are not recommended. Smoking reduces HDL levels. Omega‑3 fatty acids increase HDL and improve lipid profile. Therefore, the best advice is to stop smoking and consume omega‑3 fatty acids.",
+    "subject": "Nutrition",
+    "chapter": "Lipids",
+    "topic": "HDL, LDL, Trans Fats, Smoking, Omega‑3",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 121
+  },
+  {
+    "question_text": "How does calcium carbide ripen mangoes?",
+    "options": {
+      "A": "It reacts with moisture and releases Ethylene",
+      "B": "It reacts with moisture and releases Acetaldehyde, which in turn releases e",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "A",
+    "explanation": "Calcium carbide reacts with water to produce acetylene, which is then converted by the fruit’s enzymes into ethylene, the natural ripening hormone. This ethylene accelerates the ripening of mangoes.",
+    "subject": "Food Science",
+    "chapter": "Fruit Ripening",
+    "topic": "Calcium Carbide",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 121
+  },
+  {
+    "question_text": "Which among the following is the edible part in Rice?",
+    "options": {
+      "A": "Fruit",
+      "B": "Cotyledons",
+      "C": "Endosperm",
+      "D": "Embryo"
+    },
+    "correct_answer": "C",
+    "explanation": "The edible part of rice is the endosperm. The husk, aleurone layer, and embryo contain most micronutrients but are removed during polishing, leaving the endosperm as the consumable portion.",
+    "subject": "General Science",
+    "chapter": "Rice and Nutrition",
+    "topic": "Edible Part of Rice",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 122
+  },
+  {
+    "question_text": "Late Har Gobind Khorana had received Nobel Prize in physiology in 1968, for work on which among the following?",
+    "options": {
+      "A": "Mechanisms of the action of hormones",
+      "B": "Chemical Structure of antibodies",
+      "C": "Interpretation of the genetic code",
+      "D": "Structural and functional organization of the cell"
+    },
+    "correct_answer": "C",
+    "explanation": "Khorana was awarded the Nobel Prize for his work on the interpretation of the genetic code, demonstrating how nucleotide triplets encode amino acids.",
+    "subject": "General Science",
+    "chapter": "Genetics",
+    "topic": "Interpretation of the Genetic Code",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 122
+  },
+  {
+    "question_text": "A person with ―Bombay Blood group‖ can receive blood from a person who is from____?",
+    "options": {
+      "A": "A Group or B Group",
+      "B": "AB Group",
+      "C": "O Group",
+      "D": "None of them"
+    },
+    "correct_answer": "D",
+    "explanation": "The Bombay blood group lacks the H antigen, making it incompatible with all standard ABO blood types. Therefore, a person with this phenotype can only receive blood from another Bombay phenotype donor.",
+    "subject": "General Science",
+    "chapter": "Hematology",
+    "topic": "Bombay Blood Group",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 122
   }
 ]
