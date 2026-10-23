@@ -183875,5 +183875,523 @@
     },
     "source_pdf": "General-Science-Book-SSBCrack.pdf",
     "source_page": 268
+  },
+  {
+    "id": "gen-sci-001",
+    "subject": "Physics",
+    "chapter": "Optics",
+    "topic": "Concave Lens",
+    "text": "<p>From the ray diagram, it is very clear that the image of the object placed at infinity from a concave lens is virtual, diminished, and at the focus of the lens.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Description of a ray diagram showing light rays from an object at infinity passing through a concave lens to form a virtual, diminished image at the focus."
+    ],
+    "details": {
+      "summary": "Properties of image formed by a concave lens for an object at infinity."
+    },
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 270
+  },
+  {
+    "id": "gen-sci-002",
+    "subject": "Physics",
+    "chapter": "Fluid Mechanics",
+    "topic": "Pressure in Fluids",
+    "text": "<p>Pressure exerted by the fluid column depends on height (h), density (r), and acceleration due to gravity (g). It is independent of the area of the cross-section of the vessel.</p>",
+    "formulas": [
+      "P = hrg"
+    ],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Factors affecting fluid pressure."
+    },
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 270
+  },
+  {
+    "id": "gen-sci-003",
+    "subject": "Physics",
+    "chapter": "Waves and Sound",
+    "topic": "Sonar and Resonance",
+    "text": "<ul><li><strong>Sonar (Sound Navigation and Ranging):</strong> A technique that uses sound propagation to navigate, communicate with, or detect objects on or under the surface of the water, such as in submarine navigation. It uses ultrasonic waves with a frequency > 20,000 Hz.</li><li><strong>Resonance:</strong> The tendency of a system to oscillate at greater amplitude at some frequencies than at others.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions of Sonar and Resonance."
+    },
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 270
+  },
+  {
+    "id": "gen-sci-004",
+    "subject": "Physics",
+    "chapter": "Fluid Dynamics",
+    "topic": "Turbulent Flow",
+    "text": "<p>Turbulent flow is accompanied by random, irregular, local circular currents called vortices.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition of turbulent flow."
+    },
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 270
+  },
+  {
+    "id": "gen-sci-005",
+    "subject": "Physics",
+    "chapter": "Magnetism",
+    "topic": "Magnetic Poles",
+    "text": "<p>1 m from an equal and a similar pole repels it with a force of 1 N.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Basic property of magnetic poles."
+    },
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 270
+  },
+  {
+    "id": "gen-sci-006",
+    "subject": "Chemistry",
+    "chapter": "Medical Chemistry",
+    "topic": "X-ray Imaging",
+    "text": "<p>Barium is a good absorber of X-rays and helps the stomach to appear clearly in medical imaging.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Use of Barium in X-rays."
+    },
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 270
+  },
+  {
+    "id": "chem-001",
+    "subject": "Chemistry",
+    "chapter": "General Science",
+    "topic": "Chemical Properties",
+    "text": "<p><strong>Acid Rain:</strong> Oxides of Sulphur and nitrogen are responsible for acid rain. Sulphur dioxide and nitrogen oxide react with water molecules in the atmosphere to produce acids.</p><p><strong>Fireworks:</strong> Magnesium burns with a very bright white light, used to add white sparks or improve the overall brilliance of a firework.</p><p><strong>Hardness of Water:</strong> The main cause of hardness of water is the presence of Ca or Mg ions. When hard water containing these ions is treated with soap solution, it reacts to form a white cruddy precipitate known as scum.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Notes on acid rain, magnesium in fireworks, and water hardness."
+    },
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 276
+  },
+  {
+    "id": "note_001",
+    "subject": "Biology",
+    "chapter": "Cell Biology",
+    "topic": "Prokaryotic vs Eukaryotic Cells",
+    "text": "<p>A <strong>prokaryote</strong> is a single-celled organism that lacks a membrane-bound nucleus (karyon). Plant and animal cells are both <strong>eukaryotic cells</strong>, sharing features such as a cell membrane, mitochondria, and endoplasmic reticulum. Chloroplasts are specific to plant cells (eukaryotic). Ribosomes are present in both prokaryotes and eukaryotes.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Comparison of prokaryotic and eukaryotic cell structures."
+    },
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 280
+  },
+  {
+    "id": "note_002",
+    "subject": "Biology",
+    "chapter": "Animal Kingdom",
+    "topic": "Characteristics of Mammals",
+    "text": "<ul><li><strong>Vertebrates:</strong> Possess a backbone or spine.</li><li><strong>Thermoregulation:</strong> Regulate body temperature to live in diverse climates.</li><li><strong>Physical traits:</strong> Have hair on their bodies.</li><li><strong>Reproduction:</strong> Produce milk to feed their babies.</li><li><strong>Heart structure:</strong> Four-chambered heart (two atria and two ventricles), shared with birds.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Key biological characteristics defining mammals."
+    },
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 280
+  },
+  {
+    "id": "note_003",
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "topic": "Digestive System",
+    "text": "<p>In the human digestive system, the process of digestion begins in the <strong>buccal cavity</strong> (mouth). It is the starting point of the digestive system for humans and animals, extending from the lips to the throat, and includes the oral cavity, tongue, and jaw.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of the initial stage of human digestion."
+    },
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 280
+  },
+  {
+    "id": "note_004",
+    "subject": "Biology",
+    "chapter": "Diseases",
+    "topic": "Tuberculosis (TB)",
+    "text": "<p>TB bacteria are expelled into the air when a person with TB disease of the lungs or throat coughs, sneezes, speaks, or sings. Transmission occurs when nearby people breathe in these bacteria.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Transmission mechanism of Tuberculosis."
+    },
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 280
+  },
+  {
+    "id": "gen-sci-001",
+    "subject": "General Science",
+    "chapter": "Biology and Chemistry",
+    "topic": "Biological and Chemical Facts",
+    "text": "<p><strong>Archaeopteryx:</strong> A genus of dinosaur closely related to birds, serving as evidence for the origin of birds from reptiles.</p><p><strong>Vitamin K:</strong> A group of fat-soluble vitamins essential for the synthesis of proteins required for blood coagulation.</p><p><strong>pH Scale:</strong> Measures acidity or alkalinity of an aqueous solution, typically ranging from 0-14.</p><p><strong>Antibiotics:</strong> Effective against bacterial infections but ineffective against viral infections due to differences in genetic makeup.</p><p><strong>Hormones:</strong> Secretin and cholecystokinin activate the pancreas and gall bladder to discharge secretions.</p><p><strong>Blood Groups:</strong> Blood group B can donate to B and AB, and receive from B and O.</p><p><strong>Blood Chemistry:</strong> If human blood becomes acidic (low pH), CO2 levels increase and the O2 carrying capacity of haemoglobin is reduced.</p>",
+    "formulas": [],
+    "tables": [
+      "| Material | pH value |\n|---|---|\n| Sea water | 8.4 |\n| Human blood | 7.4 |\n| Milk | 6.4 |\n| Human urine | 6.0 |\n| Alcohol | 2.8 |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Collection of miscellaneous scientific facts covering biology, chemistry, and human physiology."
+    },
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 282
+  },
+  {
+    "id": "gs-fact-femur-001",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Human Anatomy, Skeletal System",
+    "text": "<p>By most measures the <strong>femur</strong> is the <strong>strongest bone</strong> in the body. The femur is also the <strong>longest bone</strong> in the body.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Facts about the human femur bone, its strength and length."
+    },
+    "mcq": null,
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 289
+  },
+  {
+    "id": "gs-fact-hypothalamus-013",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Human Physiology, Nervous System, Ageing Process",
+    "text": "<p><strong>13. (c)</strong> The US team of scientists found the mechanism in the <strong>hypothalamus</strong>- which is located deep inside the brain and showed that it is responsible for the <strong>ageing process</strong>. Scientists carried out a series of experiments to find that they could extend the lives of mice by a fifth, without the problems such as animals suffering from muscle weakness, bone loss or memory problems associated with old age.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Research on the hypothalamus and its role in the ageing process, including experiments on mice."
+    },
+    "mcq": null,
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 289
+  },
+  {
+    "id": "gs-fact-photosphere-014",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Astronomy, Sun's Structure",
+    "text": "<p><strong>14. (b)</strong> The visible surface of the Sun, the <strong>photosphere</strong>, is the layer below which the Sun becomes opaque to visible light. Above the photosphere visible sunlight is free to propagate into space, and its energy escapes the Sun entirely.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and characteristics of the Sun's photosphere."
+    },
+    "mcq": null,
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 289
+  },
+  {
+    "id": "gs-fact-iisc-015",
+    "subject": "General Science",
+    "chapter": "Current Affairs",
+    "topic": "Indian Institutions, Science & Technology",
+    "text": "<p><strong>15. (b)</strong> <strong>Indian Institute of Science (IISC)</strong> is a public university for scientific research and higher education located in Bengaluru (formerly Bangalore), India. Established in 1899 with active support from Jamshetji Tata it is also locally known as the \"Tata Institute\". It acquired the status of a Deemed University in 1958. IISC is widely regarded as India's finest institution in its field, and has made significant contribution to advanced computing, space, and nuclear technologies.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Information about the Indian Institute of Science (IISC), its history, location, and contributions."
+    },
+    "mcq": null,
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 289
+  },
+  {
+    "id": "gs-fact-ionization-energy-016",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Atomic Structure, Chemical Properties, Reducing Agents",
+    "text": "<p><strong>16. (b)</strong> Elements with a low <strong>ionization energy</strong> tend to be <strong>reducing agents</strong> and form cations.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Relationship between ionization energy, reducing agents, and cation formation."
+    },
+    "mcq": null,
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 289
+  },
+  {
+    "id": "gs-fact-limonite-017",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Ores, Iron Ores",
+    "text": "<p><strong>17. (a)</strong> <strong>Limonite</strong> is an <strong>iron ore</strong> consisting of a mixture of hydrated iron(III) oxide-hydroxides in varying composition.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and composition of Limonite, an iron ore."
+    },
+    "mcq": null,
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 289
+  },
+  {
+    "id": "gs-fact-calcitonin-018",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Human Physiology, Endocrine System, Hormones, Calcium Homeostasis",
+    "text": "<p><strong>18. (a)</strong> The <strong>thyroid</strong> also produces <strong>calcitonin</strong>, which plays a role in <strong>calcium homeostasis</strong>.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Role of calcitonin, produced by the thyroid, in calcium regulation."
+    },
+    "mcq": null,
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 289
+  },
+  {
+    "id": "gs-fact-plasmodesmata-019",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Cell Biology, Plant Cells",
+    "text": "<p><strong>19. (c)</strong> <strong>Plasmodesmata</strong> (singular: plasmodesma) are microscopic channels which traverse the cell walls of plant cells and some algal cells, enabling transport and communication between them. Plasmodesmata evolved independently in several lineages, and species that have these structures.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition, function, and evolution of plasmodesmata in plant and algal cells."
+    },
+    "mcq": null,
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 289
+  },
+  {
+    "id": "gs-fact-statistical-mechanics-020",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Statistical Mechanics, Thermodynamics",
+    "text": "<p><strong>20. (a)</strong> The aim of <strong>statistical mechanics</strong> is the interpretation and prediction of the observed macroscopic properties of matter in terms of the mechanical properties of the constituent molecules and the nature of the interaction among them. It is restricted to the non-equilibrium statistical mechanics of non-reacting gases that is to the theory of transport phenomena.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and scope of statistical mechanics, focusing on its aim and limitations."
+    },
+    "mcq": null,
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 289
+  },
+  {
+    "id": "gs-fact-unspecified-021",
+    "subject": "General Science",
+    "chapter": "Miscellaneous",
+    "topic": "Unspecified Answer",
+    "text": "<p><strong>21. (d)</strong></p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "An isolated answer option without a corresponding question or statement."
+    },
+    "mcq": null,
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 289
+  },
+  {
+    "id": "gs-fact-hematite-022",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Ores, Iron Ores, Mineralogy",
+    "text": "<p><strong>22. (a)</strong> <strong>Hematite</strong>, also spelled as haematite, is the mineral form of <strong>iron oxide</strong>, one of several iron oxides. Hematite crystallizes in the rhombohedral lattice system, and it has the same crystal structure as ilmenite and corundum.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition, composition, and crystal structure of Hematite, an iron ore."
+    },
+    "mcq": null,
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 289
+  },
+  {
+    "id": "gs-fact-endocrine-system-023",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Human Physiology, Endocrine System, Glands, Hormones",
+    "text": "<p><strong>23. (c)</strong> The <strong>endocrine system</strong> refers to the collection of glands of an organism that secrete <strong>hormones</strong> directly into the circulatory system to be carried toward a distant target organ. The major endocrine glands include the pineal gland, pituitary gland, pancreas, ovaries, testes, thyroid gland, parathyroid gland, hypothalamus, gastrointestinal tract and adrenal glands.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition of the endocrine system, its function, and a list of major endocrine glands."
+    },
+    "mcq": null,
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 289
+  },
+  {
+    "id": "DFGT-U-GTA-INSTR-001",
+    "subject": "General Ability Test",
+    "chapter": "Examination Instructions",
+    "topic": "Test Booklet Guidelines",
+    "text": "<p><strong>General Instructions for General Ability Test:</strong></p><ul><li><strong>Time Allowed:</strong> Two Hours and Thirty Minutes.</li><li><strong>Maximum Marks:</strong> 600.</li><li><strong>Test Booklet Series:</strong> A.</li><li><strong>Structure:</strong> Contains 150 items (questions) in two parts: PART-A and PART-B.</li><li><strong>Marking Scheme:</strong> All items carry equal marks.</li><li><strong>Penalty for Wrong Answers:</strong> There is a penalty of one-third (1/3) of the marks assigned to that question for wrong answers.</li><li><strong>Multiple Answers:</strong> If a candidate gives more than one answer, it is treated as a wrong answer even if one of the given answers is correct.</li><li><strong>Blank Answers:</strong> No penalty for questions left blank.</li><li><strong>Procedure:</strong> Candidates must encode Roll Number and Test Booklet Series on the OMR Answer Sheet. Only the Answer Sheet is to be handed over to the invigilator after the examination.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Front cover of a General Ability Test booklet, Series A, showing instructions for candidates including time limit, marking scheme, and penalty details."
+    ],
+    "details": {
+      "summary": "This document outlines the standard instructions for the General Ability Test, including exam duration, marking criteria, and penalty rules for incorrect answers."
+    },
+    "source_pdf": "scratch\\pdf_downloads\\nda_gat_mock_1.pdf",
+    "source_page": 40
+  },
+  {
+    "id": "DFGT-U-GTA-INSTR-001",
+    "subject": "General Ability Test",
+    "chapter": "Examination Instructions",
+    "topic": "Test Booklet Guidelines",
+    "text": "<p><strong>General Instructions for General Ability Test:</strong></p><ul><li><strong>Time Allowed:</strong> Two Hours and Thirty Minutes.</li><li><strong>Maximum Marks:</strong> 600.</li><li><strong>Test Booklet Series:</strong> A.</li><li><strong>Structure:</strong> Contains 150 items (questions) in two parts: PART-A and PART-B.</li><li><strong>Marking Scheme:</strong> All items carry equal marks.</li><li><strong>Penalty for Wrong Answers:</strong> There is a penalty of one-third (1/3) of the marks assigned to that question for wrong answers.</li><li><strong>Multiple Answers:</strong> If a candidate gives more than one answer, it will be treated as a wrong answer even if one of the given answers is correct.</li><li><strong>Blank Answers:</strong> If a question is left blank, there is no penalty.</li><li><strong>Procedure:</strong> Candidates must encode Roll Number and Test Booklet Series on the OMR Answer Sheet. Only the Answer Sheet is to be handed over to the invigilator after the examination.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Test Booklet cover page for General Ability Test, Series A, with instructions for candidates."
+    ],
+    "details": {
+      "summary": "Instructions for the General Ability Test (DFGT-U-GTA) including time, marking scheme, and OMR handling."
+    },
+    "source_pdf": "scratch\\pdf_downloads\\gat_syllabus\\QP-GAT-NDANA-EXAM-II-2021-161121.pdf",
+    "source_page": 40
+  },
+  {
+    "id": "note_001",
+    "subject": "Mathematics",
+    "chapter": "Statistics and Probability",
+    "topic": "Data Interpretation",
+    "text": "<p>The following table provides the percentage distribution of vowels (A, E, I, O, U) in a book:</p><table><tr><th>स्वर</th><th>A</th><th>E</th><th>I</th><th>O</th><th>U</th></tr><tr><td>प्रतिशतता</td><td>20</td><td>45</td><td>15</td><td>8</td><td>12</td></tr></table>",
+    "formulas": [],
+    "tables": [
+      "| स्वर | A | E | I | O | U |\n|---|---|---|---|---|---|\n| प्रतिशतता | 20 | 45 | 15 | 8 | 12 |"
+    ],
+    "image_descriptions": [
+      "A table showing the percentage distribution of vowels A, E, I, O, U as 20, 45, 15, 8, and 12 respectively."
+    ],
+    "details": {
+      "summary": "Data table for vowel frequency distribution."
+    },
+    "source_pdf": "CAPF_CSE_Papers\\QP_CAPF_2023_GAI_07082023.pdf",
+    "source_page": 26
+  },
+  {
+    "id": "note-001",
+    "subject": "Mathematics",
+    "chapter": "Statistics and Data Interpretation",
+    "topic": "Vowel Occurrence Survey",
+    "text": "<p>The following table represents the percentage occurrence of vowels in a book:</p><table><thead><tr><th>Vowel</th><th>A</th><th>E</th><th>I</th><th>O</th><th>U</th></tr></thead><tbody><tr><td>Percentage</td><td>20</td><td>45</td><td>15</td><td>8</td><td>12</td></tr></tbody></table>",
+    "formulas": [],
+    "tables": [
+      "| Vowel | A | E | I | O | U |\n|---|---|---|---|---|---|\n| Percentage | 20 | 45 | 15 | 8 | 12 |"
+    ],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Data table showing percentage distribution of vowels A, E, I, O, U in a book."
+    },
+    "source_pdf": "CAPF_CSE_Papers\\QP_CAPF_2023_GAI_07082023.pdf",
+    "source_page": 27
+  },
+  {
+    "id": "instr-001",
+    "subject": "General Ability and Intelligence",
+    "chapter": "Examination Instructions",
+    "topic": "Test Booklet Guidelines",
+    "text": "<p><strong>General Instructions for the Test Booklet:</strong></p><ul><li><strong>Total Items:</strong> 125 questions.</li><li><strong>Language:</strong> Questions are provided in both Hindi and English.</li><li><strong>Marking:</strong> Select only one response per item on the OMR Answer Sheet.</li><li><strong>Marks:</strong> All items carry equal marks.</li><li><strong>Penalty for Wrong Answers:</strong> There is a penalty for wrong answers marked by a candidate.</li><li><strong>Deduction:</strong> For each question for which a wrong answer has been given, one-third of the marks assigned to that question will be deducted as penalty.</li><li><strong>Multiple Answers:</strong> If a candidate gives more than one answer, it will be treated as a wrong answer even if one of the given answers happens to be correct.</li><li><strong>Blank Answers:</strong> If a question is left blank, there will be no penalty.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Test Booklet cover page with series A, indicating General Ability and Intelligence exam, 250 maximum marks, and 125 questions."
+    ],
+    "details": {
+      "summary": "Instructions for the General Ability and Intelligence test booklet, including marking schemes and penalty rules."
+    },
+    "source_pdf": "CAPF_CSE_Papers\\QP_CAPF_2023_GAI_07082023.pdf",
+    "source_page": 44
+  },
+  {
+    "id": "NDA-GAT-INSTR-001",
+    "subject": "General Ability Test",
+    "chapter": "Examination Instructions",
+    "topic": "General Guidelines",
+    "text": "<p><strong>General Ability Test Instructions:</strong></p><ul><li><strong>Test Booklet Series:</strong> A</li><li><strong>Time Allowed:</strong> Two Hours and Thirty Minutes</li><li><strong>Maximum Marks:</strong> 600</li><li><strong>Total Items:</strong> 150 questions</li><li><strong>Structure:</strong> Two parts (PART-A and PART-B).</li><li><strong>Language:</strong> Printed in both Hindi and English.</li><li><strong>Marking:</strong> Select only one response per item. Use the provided OMR Answer Sheet.</li><li><strong>Penalty for wrong answers:</strong> One-third (1/3) of the marks assigned to the question will be deducted for each wrong answer.</li><li><strong>Multiple answers:</strong> If more than one answer is marked, it is treated as a wrong answer.</li><li><strong>Blank answers:</strong> No penalty if a question is left blank.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Test Booklet cover page for General Ability Test, Series A, containing instructions for candidates."
+    ],
+    "details": {
+      "summary": "This document outlines the standard instructions for the General Ability Test, including marking schemes, penalty rules, and structural details of the test booklet."
+    },
+    "mcq": null,
+    "source_pdf": "scratch\\pdf_downloads\\gat_syllabus\\QP-NDA-I-23-GENERAL-ABILITY-TEST-170423.pdf",
+    "source_page": 44
+  },
+  {
+    "id": "HGY-P-JHKI-INSTR",
+    "subject": "General Studies",
+    "chapter": "Examination Instructions",
+    "topic": "General Guidelines",
+    "text": "<p><strong>Examination Instructions for General Studies Paper I:</strong></p><ul><li><strong>Time Allowed:</strong> Two Hours</li><li><strong>Maximum Marks:</strong> 200</li><li><strong>Total Items:</strong> 100 questions</li><li><strong>Language:</strong> Printed in both Hindi and English.</li><li><strong>Marking Scheme:</strong> All items carry equal marks.</li><li><strong>Negative Marking:</strong> Penalty for wrong answers is one-third (1/3) of the marks assigned to that question.</li><li><strong>Multiple Answers:</strong> If a candidate gives more than one answer, it is treated as a wrong answer.</li><li><strong>Blank Answers:</strong> No penalty for questions left blank.</li><li><strong>Candidate Responsibility:</strong> Candidates must encode Roll Number and Test Booklet Series (A, B, C, or D) on the OMR Answer Sheet.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Test Booklet cover page showing the series code 'A', the paper title 'General Studies Paper-I', and standard examination instructions."
+    ],
+    "details": {
+      "summary": "This document is the cover page of a General Studies Paper I test booklet, outlining the rules, marking scheme, and administrative instructions for the examination."
+    },
+    "mcq": null,
+    "source_pdf": "AFCAT Papers\\CAPF Paper 1 & CSE papers\\CSP_2020_GS_Paper-1.pdf",
+    "source_page": 48
+  },
+  {
+    "id": "VGYH-U-FGT-001",
+    "subject": "General Studies",
+    "chapter": "Examination Instructions",
+    "topic": "General Guidelines",
+    "text": "<p><strong>Test Booklet Details:</strong></p><ul><li><strong>Subject:</strong> General Studies Paper - I</li><li><strong>Time Allowed:</strong> Two Hours</li><li><strong>Maximum Marks:</strong> 200</li><li><strong>Total Items:</strong> 100 questions</li><li><strong>Language:</strong> Bilingual (Hindi and English)</li></ul><p><strong>Key Instructions:</strong></p><ul><li>Check for unprinted, torn, or missing pages immediately.</li><li>Fill Roll Number and Test Booklet Series (A, B, C, or D) carefully on the OMR sheet.</li><li>Mark responses <strong>ONLY</strong> on the separate Answer Sheet.</li><li>All items carry equal marks.</li><li>Hand over the Answer Sheet to the invigilator after the examination.</li><li>Rough work sheets are provided at the end of the booklet.</li></ul><p><strong>Penalty for Wrong Answers:</strong></p><ul><li>There is a penalty for wrong answers marked in objective type question papers.</li><li><strong>Penalty:</strong> One-third (1/3) of the marks assigned to that question will be deducted.</li><li>If more than one answer is given, it is treated as a wrong answer and attracts the same penalty.</li><li>No penalty for questions left blank.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "A box provided for the candidate to enter their Roll Number on the Test Booklet."
+    ],
+    "details": {
+      "summary": "This document outlines the standard instructions for a General Studies Paper I examination, including marking schemes, penalty structures for incorrect answers, and administrative procedures for candidates."
+    },
+    "source_pdf": "CAPF_CSE_Papers\\GENERAL STUDIES PAPER I.pdf",
+    "source_page": 48
   }
 ]
