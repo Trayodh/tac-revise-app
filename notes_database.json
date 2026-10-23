@@ -181342,5 +181342,545 @@
     "content": "### Lunar Eclipse\n- **Occurrence**: A lunar eclipse occurs when the Earth is positioned between the Sun and the Moon, casting its shadow on the Moon.\n- **Phase**: It happens during the **Full Moon** phase.\n- **Note**: A Solar Eclipse occurs when the Moon is between the Earth and the Sun.\n\n### Earth's Shadows\n- **Umbra**: The darker, central part of the shadow where the light source is completely blocked.\n- **Penumbra**: The outer, lighter part of the shadow where the light source is only partially blocked.\n- **Antumbra**: The region beyond the umbra where the occluding body is entirely within the cone of the shadow but appears smaller than the light source (partly shaded area beyond the umbra in specific contexts, though typically associated with annular eclipses).",
     "source_pdf": "General-Science-Book-SSBCrack.pdf",
     "source_page": 179
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Human Anatomy",
+    "subchapter": "Circulatory System",
+    "topic": "Blood Vessels",
+    "content": "# Blood Vessels\n\nBlood vessels are tubular structures that transport blood throughout the body. They are classified based on their function and structure:\n\n- **Arteries** – Large vessels that carry oxygen‑rich blood away from the heart. They have thick, elastic walls to withstand high pressure.\n- **Veins** – Vessels that return deoxygenated blood back to the heart. They have thinner walls and valves to prevent backflow.\n- **Capillaries** – The smallest vessels (diameter ~5–10 µm). They facilitate exchange of gases, nutrients, and waste between blood and tissues.\n- **Arterioles** – Small branches of arteries that regulate blood flow into capillary beds.\n- **Venules** – Small vessels that collect blood from capillaries and merge into veins.\n- **Lymphatic vessels** – Part of the immune system; they transport lymph fluid and immune cells.\n\n**Key facts**\n- Capillaries have the smallest diameter, allowing efficient diffusion.\n- Arteries are the only vessels that carry blood away from the heart.\n- Veins contain valves to aid return flow against gravity.\n\n**Common misconceptions**\n- Some think veins carry oxygenated blood; in most of the body they carry deoxygenated blood.\n- Capillaries are often called “tiny tubes,” but they are actually the site of nutrient exchange.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 182
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Nutrition",
+    "subchapter": "Vitamins",
+    "topic": "Vitamin B Complex",
+    "content": "# Vitamin B Complex\n\nThe B‑vitamin group consists of eight water‑soluble vitamins that act as co‑enzymes in metabolic pathways:\n\n| Vitamin | Common Name | Function | Food Sources |\n|---------|-------------|----------|--------------|\n| B1 | Thiamine | Energy metabolism, nerve function | Whole grains, pork, legumes |\n| B2 | Riboflavin | Antioxidant, energy production | Milk, eggs, leafy greens |\n| B3 | Niacin | DNA repair, skin health | Meat, fish, nuts |\n| B5 | Pantothenic Acid | Hormone synthesis | Chicken, avocados, mushrooms |\n| B6 | Pyridoxine | Amino‑acid metabolism | Bananas, potatoes, poultry |\n| B7 | Biotin | Fatty‑acid synthesis | Egg yolk, nuts, seeds |\n| B9 | Folic Acid | DNA synthesis, fetal development | Leafy greens, beans, citrus |\n| B12 | Cobalamin | Red‑blood‑cell formation | Meat, dairy, fortified cereals |\n\n**Important note** – **Ascorbic acid (Vitamin C)** is *not* part of the B‑vitamin complex.\n\n**Key points**\n- B‑vitamins are essential for energy production and cellular repair.\n- Deficiencies can lead to anemia, neuropathy, and developmental disorders.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 182
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Plant Biology",
+    "subchapter": "Fungi",
+    "topic": "Characteristics of Fungi",
+    "content": "# Fungi\n\nFungi are a distinct kingdom of organisms that share several key traits:\n\n- **No chlorophyll** – They cannot perform photosynthesis.\n- **Cell walls contain chitin** – Unlike plants (cellulose) and bacteria (peptidoglycan).\n- **Obligate heterotrophs** – Obtain nutrients by absorbing dissolved organic material.\n- **Reproduction** – Can be sexual (spores) or asexual (conidia, budding).\n- **Ecological roles** – Decomposers, mutualists (mycorrhizae), pathogens.\n\n**Common misconception** – Fungi are often mistakenly called plants because they grow on the ground and have a stationary lifestyle.\n\n**Key facts**\n- Fungi release spores that can travel long distances.\n- They play a crucial role in nutrient cycling by breaking down complex organic matter.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 182
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Animal Biology",
+    "subchapter": "Reptiles",
+    "topic": "Defining Features of Reptiles",
+    "content": "# Reptiles\n\nReptiles are a class of vertebrates characterized by:\n\n- **Cold‑blooded (ectothermic)** – Body temperature depends on the environment.\n- **Scaly skin** – Keratinized scales protect against desiccation.\n- **Egg‑laying (oviparous)** – Most reptiles lay eggs with leathery shells.\n- **Lungs for respiration** – Though some have reduced lung capacity.\n- **Three‑chambered heart** (most species) – Allows partial mixing of oxygenated and deoxygenated blood.\n\n**Key points**\n- Reptiles evolved from amphibians and are adapted to terrestrial life.\n- They exhibit a wide range of sizes, from small lizards to large snakes.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 182
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Microbiology",
+    "subchapter": "Airborne Diseases",
+    "topic": "Transmission of Airborne Illnesses",
+    "content": "# Airborne Diseases\n\nAirborne diseases are infections transmitted through tiny particles that remain suspended in the air for extended periods. Key characteristics:\n\n- **Transmission mode** – Droplets or aerosols released when an infected person coughs, sneezes, or talks.\n- **Examples** – Measles, chickenpox, tuberculosis, influenza.\n- **Control measures** – Vaccination, mask usage, ventilation, isolation of infected individuals.\n\n**Important fact** – Measles is one of the most contagious airborne diseases, with an R₀ of 12–18.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 182
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Plant Biology",
+    "subchapter": "Reproduction",
+    "topic": "Pollen",
+    "content": "# Pollen\n\nPollen is the fine, yellow dust that carries the male gametophyte of seed plants. Key features:\n\n- **Structure** – Contains a pollen grain with a protective exine and a pollen tube that grows to fertilize the ovule.\n- **Function** – Enables sexual reproduction in flowering plants.\n- **Economic importance** – Source of honey, essential for agriculture (crop pollination).\n- **Allergy** – Pollen is a common allergen causing hay fever.\n\n**Key facts**\n- Pollen grains are produced in the anthers of flowers.\n- They can travel long distances by wind, insects, or animals.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 182
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Digestive System",
+    "subchapter": "Bile",
+    "topic": "Bile Production and Function",
+    "content": "# Bile\n\nBile is a digestive fluid produced by the **liver** and stored in the gallbladder. Its main components and functions:\n\n- **Composition** – Bile salts, bilirubin, cholesterol, electrolytes, and water.\n- **Functions**:\n  - **Emulsification of fats** – Increases surface area for lipase action.\n  - **Excretion of waste** – Bilirubin (from hemoglobin breakdown) and excess cholesterol.\n  - **Neutralization of gastric acid** – Helps maintain intestinal pH.\n- **Regulation** – Bile flow is stimulated by cholecystokinin (CCK) when fats enter the duodenum.\n\n**Key point** – The liver is the sole organ responsible for bile production.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 182
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Human Physiology",
+    "topic": "Hormones and Endocrine System",
+    "content": "### Steroid Hormones\n- **Estrogen** is a steroid hormone. It is derived from cholesterol.\n- **Non-steroid hormones** include peptide/protein hormones such as **Insulin**, **Glucagon**, and **Oxytocin**.\n\n### Liver Functions\nThe liver performs several vital functions, including:\n1. **Regulation of blood sugar**: Through glycogen storage and release.\n2. **Enzyme activation**: Activation of various enzymes and vitamins.\n3. **Detoxification**: Breaking down toxins, drugs, and alcohol.\n- **Note**: Reproduction is **not** a function of the liver; it is the function of the reproductive system.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 183
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Biocides and Rodenticides",
+    "topic": "Types and Mechanisms of Biocides",
+    "content": "### Biocides\n- **Definition**: Substances used to control or kill biological organisms.\n- **Forms**: Common forms include **Iodine** and **Bleach** (Sodium Hypochlorite).\n- **Non-biocides**: **Salt** and **Sugar** are generally not classified as biocides in this context (though high concentrations can be preservatives, they are not standard biocides like iodine/bleach).\n- **Mechanism**: Biocides primarily work by **controlling bacteria** or other pathogens, rather than just managing material form or solely controlling insects (which is the role of insecticides).\n\n### Rodenticides\n- **Definition**: A medicine or substance used to **kill animals** (specifically rodents like rats and mice).\n- **Common Type**: The most commonly used rodenticides are **Anti-coagulants** in nature. They work by preventing blood clotting, leading to internal bleeding in the rodent.\n- **Distinction**: \n  - *Anthelmintics* kill worms.\n  - *Pesticides* is a broader term, but rodenticides are specific to rodents.\n  - *Lubricants* reduce friction and are unrelated.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 183
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Acids and Bases",
+    "topic": "Common Acids in Food",
+    "content": "### Acids in Fruits\n- **Lemon**: Contains **Citric Acid**.\n- **Other Common Acids**:\n  - **Malic Acid**: Found in apples and grapes.\n  - **Lactic Acid**: Found in sour milk and muscles (after exercise).\n  - **Tartaric Acid**: Found in tamarind and grapes.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 183
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Polymers and Materials",
+    "topic": "Rubber and Vulcanization",
+    "content": "- **Natural Rubber**: It is an **Elastomer** characterized by high elasticity.\n- **Vulcanization**: A chemical process where a sample of **rubber** is mixed with **sulphur** and **litharge** to improve its properties.\n- **NBR**: Stands for **Acrylonitrile-butadiene rubber**.\n- **Synthetic Rubber**: Characterized by having **higher molecular weight**.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 184
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Classification of Elements",
+    "topic": "Element Types",
+    "content": "- **Types of Elements**: The standard classification of elements includes **Metals**, **Non-Metals**, and **Metalloids**.\n- **Note**: 'Gases' is a state of matter, not a fundamental type of element classification in this context.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 184
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Petroleum and Fuels",
+    "topic": "Petroleum Sources and Usage",
+    "content": "- **Natural Form**: Natural petroleum is found in the form of **Crude Oil**.\n- **Consumption**: The **US (United States)** is the country that consumes the maximum amount of petroleum.\n- **Applications**: Petroleum is widely used in the **Automobile**, **Petro Chemical**, and **Medical** fields. It is **not** used in 'Marketing'.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 184
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Hydrocarbons",
+    "topic": "Petroleum Composition",
+    "content": "Petroleum is a natural resource found in the earth's crust. It is primarily a combination of chains of hydrogen and **Carbon** atoms. These compounds are known as hydrocarbons.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 185
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Periodic Table",
+    "topic": "Atomic Radius Trends",
+    "content": "1. **Down a Group**: Atomic radius increases as one moves down a group (e.g., Group 1) due to the addition of new electron shells.\n2. **Across a Period**: Atomic radius decreases as one moves from left to right across a period (e.g., Period 2) due to increasing nuclear charge pulling electrons closer.\n3. **Isoelectronic Species**: Species with the same number of electrons. Among isoelectronic species, the ionic radius decreases as the positive charge on the cation increases (or as the negative charge on the anion decreases). Therefore, a smaller positive charge on a cation results in a *larger* ionic radius, not smaller.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 185
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Environmental Science",
+    "subchapter": "Climate Change",
+    "topic": "Greenhouse Gases",
+    "content": "1. **Greenhouse Gases (GHGs)**: Include Carbon Dioxide (CO2), Methane (CH4), Water Vapours (H2O), and Nitrous Oxide. **Carbon Monoxide (CO)** is a pollutant but is not classified as a primary greenhouse gas.\n2. **Effect of Excess GHGs**: Leads to the Greenhouse Effect, trapping heat and causing global warming (excess heat), not deforestation or increased snow.\n3. **Energy Interaction**: Greenhouse gases absorb and re-emit **Long Wave** (infrared) radiation from the Earth's surface.\n4. **Necessity**: A moderate presence of greenhouse gases is **Required/Necessary** for maintaining Earth's temperature suitable for life. Without them, Earth would be too cold.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 185
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Polymers",
+    "topic": "PVC",
+    "content": "PVC stands for **Polyvinyl Chloride**. It is a widely used synthetic plastic polymer.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 185
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Elements",
+    "topic": "Heaviest Metal",
+    "content": "### Heaviest Metal\n- **Osmium** is the heaviest naturally occurring metal with a density of about 22.59 g/cm³.\n- Other heavy metals include mercury, iron, and nickel, but they are less dense than osmium.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 186
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Green Chemistry",
+    "topic": "Definitions",
+    "content": "### Green Chemistry vs. Environmental Chemistry\n- **Green Chemistry** focuses on designing chemical products and processes that reduce or eliminate the use and generation of hazardous substances, emphasizing the **effects of chemical pollutants on nature**.\n- **Environmental Chemistry** deals with the **technological approaches to prevent, control, and remediate pollution**, studying the fate and transport of chemicals in the environment.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 186
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Green Chemistry",
+    "topic": "Greener Reaction Conditions Award (1996)",
+    "content": "### Greener Reaction Conditions Award – 1996\n- The award for **Greener Reaction Conditions** in 1996 was presented to **Dow Chemical** for its contributions to environmentally benign chemical processes.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 186
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Green Chemistry",
+    "topic": "Clean Oxidation",
+    "content": "### Clean Oxidation Agents\n- **Supercritical carbon dioxide (scCO₂)**\n- **Supercritical hydrogen (scH₂)**\n- **Aqueous hydrogen peroxide (H₂O₂)**\nAll of the above can be employed as clean oxidation media, offering reduced waste and safer reaction conditions.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 186
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Green Chemistry",
+    "topic": "Green Solvents",
+    "content": "### Origin of Green Solvents\n- Green solvents are **derived from renewable resources** such as biomass, plant oils, and biodegradable polymers, minimizing reliance on non‑renewable fossil‑based feedstocks.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 186
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Environmental Science",
+    "subchapter": "Pollution Types",
+    "topic": "Pollutants from Tobacco Waste",
+    "content": "### Soil Pollution from Tobacco Waste\n- Improper disposal of **tobacco (e.g., chewing tobacco, cigarette butts) and related waste** on roads leads to **soil contamination**, introducing toxic substances like nicotine, heavy metals, and plastic residues.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 186
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Environmental Science",
+    "subchapter": "Greenhouse Gases",
+    "topic": "Non‑Greenhouse Gases",
+    "content": "### Greenhouse Gas Classification\n- **Carbon monoxide (CO)** is **not** considered a greenhouse gas.\n- **Ozone (O₃)**, **methane (CH₄)**, and **water vapour (H₂O)** are recognized greenhouse gases that contribute to the greenhouse effect.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 186
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Environmental Science",
+    "subchapter": "Air Pollution",
+    "topic": "Photochemical Smog",
+    "content": "# Photochemical Smog\\n\\nPhotochemical smog, also known as *summer smog*, forms in warm, dry, and sunny climates when sunlight drives chemical reactions between pollutants. The primary components are:\\n\\n- **Nitrogen oxides (NOx)** – mainly NO and NO₂.\\n- **Ozone (O₃)** – produced photochemically from NO₂.\\n- **Volatile Organic Compounds (VOCs)** – unsaturated hydrocarbons such as benzene, toluene, and isoprene.\\n\\nThese species react in the presence of sunlight to produce secondary pollutants like ozone and peroxyacetyl nitrate (PAN). Sulfur trioxide (SO₃) is *not* a typical component of photochemical smog.\\n\\n**Key points**\\n- Smog formation requires sunlight, heat, and precursor pollutants.\\n- Control strategies focus on reducing NOx and VOC emissions.\\n- Health impacts include respiratory irritation and reduced lung function.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 187
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Water Treatment",
+    "subchapter": "Biological Treatment",
+    "topic": "Removal of Biological Impurities",
+    "content": "# Removal of Biological Impurities\\n\\nBiological impurities in water include bacteria, viruses, protozoa, and algae. Common treatment methods are:\\n\\n| Method | Principle | Typical Use | Limitations |\\n|--------|-----------|-------------|-------------|\\n| **Sedimentation** | Gravity settling of suspended solids | Primary treatment | Ineffective for microorganisms |\\n| **Boiling** | Heat kills microorganisms | Simple, low-tech | Energy-intensive |\\n| **Sterilization** | Heat, radiation, or chemicals kill all microbes | Disinfection step | Requires careful control |\\n| **Distillation** | Vaporization and condensation | Removes all dissolved solids | Energy-intensive, not cost-effective |\\n\\n**Sterilization** (e.g., autoclaving, UV, chemical disinfectants) is the most effective method for eliminating biological contaminants in water treatment processes.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 187
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Analytical Chemistry",
+    "subchapter": "Titration",
+    "topic": "Hardness Determination",
+    "content": "# Hardness Determination in Water\\n\\nWater hardness is mainly due to calcium (Ca²⁺) and magnesium (Mg²⁺) ions. The most common titrimetric method uses a complexometric indicator that forms a colored complex with these ions.\\n\\n- **Eriochrome Black T (EBT)** – forms a wine‑red complex with Ca²⁺ and Mg²⁺; the endpoint is a color change to blue.\\n- **Phenolphthalein** – used for acid–base titrations, not suitable for hardness.\\n- **Methyl orange** – pH indicator, not used for hardness.\\n- **Thymol blue** – pH indicator, not used for hardness.\\n\\n**Key formula**\\n\\[\\text{Hardness (mg/L CaCO}_3) = 2.5 \\times \\text{(volume of EDTA in L)}\\]\\n\\nThe indicator EBT is the standard choice for hardness determination.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 187
+  },
+  {
+    "subject": "General Science",
+    "chapter": "History of Chemistry",
+    "subchapter": "Pioneers",
+    "topic": "Father of Modern Chemistry",
+    "content": "# Antoine Lavoisier – Father of Modern Chemistry\\n\\n- **Antoine Lavoisier (1743–1794)** is credited with establishing the law of conservation of mass and the concept of chemical elements.\\n- He introduced a systematic nomenclature for chemical substances.\\n- Lavoisier disproved the phlogiston theory and demonstrated that combustion involves oxygen.\\n- His work laid the foundation for modern chemical analysis and stoichiometry.\\n\\n**Key contributions**\\n- Law of Conservation of Mass\\n- Chemical nomenclature\\n- Identification of oxygen and hydrogen as distinct elements\\n- Development of quantitative chemical analysis",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 187
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Atomic Theory",
+    "subchapter": "Historical Development",
+    "topic": "Atomic Theory",
+    "content": "# John Dalton’s Atomic Theory\\n\\nJohn Dalton (1766–1844) proposed the first modern atomic theory in the early 19th century. His key postulates were:\\n\\n1. All matter is composed of indivisible atoms.\\n2. Atoms of a given element are identical in mass and properties.\\n3. Atoms of different elements differ in mass and properties.\\n4. Chemical reactions involve rearrangement of atoms.\\n5. Compounds are formed by fixed ratios of atoms.\\n\\nDalton’s theory explained the law of multiple proportions and provided a quantitative framework for chemistry.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 187
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Nuclear Physics",
+    "subchapter": "Constituents of the Nucleus",
+    "topic": "Nucleon",
+    "content": "# Nucleon\\n\\n- **Nucleon** is a collective term for the particles that make up the atomic nucleus.\\n- It includes **protons** (positively charged) and **neutrons** (neutral).\\n- Electrons are not nucleons; they orbit the nucleus.\\n- The term is often used in nuclear physics to refer to either a proton or a neutron.\\n\\n**Key formula**\\n\\[\\text{Mass number } A = Z + N\\]\\nwhere \\(Z\\) is the number of protons and \\(N\\) is the number of neutrons.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 187
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Atomic Structure",
+    "subchapter": "Mass Number",
+    "topic": "Mass Number",
+    "content": "# Mass Number\\n\\n- The **mass number (A)** of an atom is the total number of nucleons (protons + neutrons) in its nucleus.\\n- It is an integer and is used to identify isotopes.\\n- Example: Carbon‑12 has 6 protons and 6 neutrons, so \\(A = 12\\).\\n\\n**Key points**\\n- Mass number is not the same as atomic mass (which is a weighted average).\\n- Isotopes of an element have the same atomic number but different mass numbers.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 187
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Atomic Structure",
+    "subchapter": "Charge",
+    "topic": "Electrical Charge of Atom",
+    "content": "# Electrical Charge of an Atom\\n\\n- A neutral atom has an equal number of protons (positive charge) and electrons (negative charge).\\n- The net charge of a neutral atom is **zero**.\\n- Ions are formed when atoms gain or lose electrons, resulting in a net positive or negative charge.\\n\\n**Key formula**\\n\\[\\text{Net charge} = (+e)\\times Z + (-e)\\times N_e\\]\\nwhere \\(Z\\) is the number of protons and \\(N_e\\) is the number of electrons.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 187
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Atomic Structure",
+    "topic": "Atomic Properties and Nucleus",
+    "content": "### Atomic Properties\n- The atomic properties of an element depend primarily upon the **number of protons in the nucleus** (atomic number).\n\n### Nuclear Composition Calculation\n- For an isotope denoted as $^A_Z X$:\n  - $Z$ = Number of Protons (Atomic Number)\n  - $A$ = Mass Number (Protons + Neutrons)\n  - Number of Neutrons = $A - Z$\n- **Example**: For Radium-226 ($^{226}_{88}\\text{Ra}$):\n  - Protons = 88\n  - Neutrons = $226 - 88 = 138$",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 188
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Nuclear Physics",
+    "topic": "Radioactivity and Radiation Types",
+    "content": "### History of Radioactivity\n- **Henri Becquerel** is credited as the inventor/discoverer of radioactivity.\n\n### Types of Nuclear Radiation\n1. **Alpha ($\\alpha$) Rays**:\n   - Nature: Helium nuclei ($^4_2\\text{He}$).\n   - Charge: **Two unit positive charges** (+2).\n   - Penetrating Power: Lowest.\n2. **Beta ($\\beta$) Rays**:\n   - Nature: High-speed electrons or positrons.\n   - Charge: **Negative** (for $\\beta^-$) or Positive (for $\\beta^+$).\n   - Penetrating Power: Moderate.\n3. **Gamma ($\\gamma$) Rays**:\n   - Nature: Electromagnetic waves (photons).\n   - Charge: Neutral (0).\n   - Penetrating Power: **Maximum**.\n\n### Radioactive Elements\n- Common naturally occurring radioactive elements include **Astatine** and **Francium**.\n- **Titanium** and **Zirconium** are stable, non-radioactive elements.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 188
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Atomic Structure",
+    "topic": "Isotopes of Hydrogen",
+    "content": "Hydrogen has three naturally occurring isotopes:\n1. **Protium**: The most common isotope, containing 1 proton and 0 neutrons.\n2. **Deuterium**: Contains 1 proton and 1 neutron.\n3. **Tritium**: Contains 1 proton and 2 neutrons. It is radioactive.\n\n*Note: 'Iterium' is not an isotope of hydrogen.*",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 190
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Atomic Structure",
+    "topic": "Isotopes, Isobars, and Isotones",
+    "content": "- **Isotopes**: Atoms of the same element (same atomic number/protons) with different mass numbers (different neutrons). Example: $^{16}O_8$, $^{17}O_8$, $^{18}O_8$ are isotopes of Oxygen.\n- **Isotones**: Atoms of different elements that have the same number of neutrons.\n- **Isobars**: Atoms of different elements that have the same mass number (total nucleons) but different atomic numbers.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 190
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Nuclear Chemistry",
+    "topic": "Radioactive Isotopes and Applications",
+    "content": "- **Tritium**: The radioactive isotope of hydrogen.\n- **Rock Age Determination**: Uranium isotopes are used in radioactive age estimation techniques to determine the age of rocks.\n- **Medical Applications**:\n  - **Phosphorus-32**: Used to control blood cancer (Leukaemia).\n  - **Iodine-131**: Used for thyroid disorders.\n  - **Cobalt-60**: Used in radiotherapy for cancer treatment.\n  - **Sodium-24**: Used to study blood flow.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 190
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Atomic Structure",
+    "topic": "Isoelectronic Species",
+    "content": "Isoelectronic species are atoms or ions that have the same number of electrons.\n- **Aluminum ion ($Al^{3+}$)**: Aluminum (Atomic No. 13) loses 3 electrons to form $Al^{3+}$, resulting in 10 electrons (configuration: 2, 8).\n- **Chloride ion ($Cl^-$)**: Chlorine (Atomic No. 17) gains 1 electron to form $Cl^-$, resulting in 18 electrons.\n- **Fluoride ion ($F^-$)**: Fluorine (Atomic No. 9) gains 1 electron to form $F^-$, resulting in 10 electrons.\n- **Sulfide ion ($S^{2-}$)**: Sulfur (Atomic No. 16) gains 2 electrons to form $S^{2-}$, resulting in 18 electrons.\n\n*Correction/Note based on standard chemistry*: $Al^{3+}$ (10 e-) is isoelectronic with $F^-$ (10 e-), $O^{2-}$, $N^{3-}$, $Ne$, $Na^+$, and $Mg^{2+}$. The provided MCQ option A ($Cl^-$) has 18 electrons, which is **not** isoelectronic with $Al^{3+}$. Option D ($F^-$) has 10 electrons, which **is** isoelectronic with $Al^{3+}$. Based on the provided text's likely intended answer key for such exams, $F^-$ is the correct scientific match.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 190
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Atomic Structure and Isotopes",
+    "topic": "Isobars and Isomers",
+    "content": "- **Isobars**: Atoms of different elements that have the same mass number but different atomic numbers.\n- **Isomers**: Different compounds with the same molecular formula but different structures. In the context of nuclear physics, isomeric states are produced by the emission of **Gamma-rays**.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 191
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Chemical Bonding and Molecular Geometry",
+    "topic": "Molecular Shapes and Bonding",
+    "content": "- **Methane (CH4)**: Contains **single covalent bonds** between carbon and hydrogen atoms.\n- **Ethylene (C2H4)**: Has a **coplanar triangular** (trigonal planar) shape around each carbon atom due to sp2 hybridization.\n- **Tetrahedral Geometry**: **Carbon tetrachloride (CCl4)** is a classic example of a tetrahedral molecule. Ammonia is pyramidal, Water is bent, and Acetylene is linear.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 191
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Ionic Compounds and Properties",
+    "topic": "Conductivity and Intermolecular Forces",
+    "content": "- **Conductivity in Molten Salt**: Fused (molten) sodium chloride conducts electricity due to the presence of **free ions** (Na+ and Cl-), not free electrons.\n- **Boiling Point of Water**: Water has a higher boiling point than expected for its molecular weight due to the presence of strong **hydrogen bonding** among H2O molecules.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 191
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Redox Reactions",
+    "topic": "Oxidation and Reduction",
+    "content": "- **Oxidation**: The process defined as the **tendency to donate electrons** (loss of electrons).\n- **Reduction**: The process defined as the gain of electrons.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 191
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Redox Reactions",
+    "topic": "Oxidation and Reduction",
+    "content": "### Oxidation\n- Definition: Loss of electrons by an atom, ion, or molecule.\n- Example: Rusting of iron (Fe → Fe²⁺ + 2e⁻).\n\n### Reduction\n- Definition: Gain of electrons by an atom, ion, or molecule.\n- Example: The tendency to accept electrons is called **reduction**.\n\n### Key Points\n- Oxidation and reduction always occur together (redox pair).\n- Oxidizing agent gains electrons (is reduced); reducing agent loses electrons (is oxidized).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 192
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Oxidation‑Number Rules",
+    "topic": "Oxidation State of Chlorine",
+    "content": "#### Common oxidation numbers of chlorine\n| Compound | Oxidation number of Cl |\n|----------|------------------------|\n| Hydrochloric acid (HCl) | -1 |\n| Zinc chloride (ZnCl₂) | -1 (each Cl) |\n| Hypochlorous acid (HOCl) | **+1** |\n| Molecular chlorine (Cl₂) | 0 |\n\n**Answer:** In hypochlorous acid, chlorine exhibits a +1 oxidation state.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 192
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Oxidation‑Number Rules",
+    "topic": "Oxidation State of Chromium in K₂Cr₂O₇",
+    "content": "The dichromate ion (Cr₂O₇²⁻) contains chromium in the **+6** oxidation state.\n\nCalculation:\n- Let the oxidation number of Cr be x.\n- Total charge: 2x + 7(-2) = -2 → 2x - 14 = -2 → 2x = 12 → x = +6.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 192
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Salts",
+    "topic": "Mohr's Salt",
+    "content": "### Mohr's Salt (Ammonium Iron(II) Sulfate)\n- **Formula:** (NH₄)₂Fe(SO₄)₂·6H₂O\n- **Classification:** **Double salt** (a crystalline compound formed from two different salts that crystallize together in a definite stoichiometric ratio).\n- Used as a source of Fe²⁺ in analytical chemistry because it is more stable than simple ferrous sulfate.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 192
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Acid–Base Theories",
+    "topic": "Arrhenius Definition of Acids",
+    "content": "### Arrhenius Theory (1887)\n- **Acid:** Substance that **produces hydrogen ions (H⁺)** in aqueous solution.\n- First to state that hydrogen is the fundamental component of all acids.\n- Example: HCl → H⁺ + Cl⁻.\n\nLater theories (Bronsted‑Lowry, Lewis) expanded the concept, but the Arrhenius definition remains foundational in introductory chemistry.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 192
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Materials and Solutions",
+    "subchapter": "Alloys",
+    "topic": "Silver Alloys",
+    "content": "# Silver Alloys\\n\\nSilver alloys are mixtures of silver with other metals to improve mechanical properties, reduce cost, or impart specific characteristics. Common silver alloys include:\\n\\n- **Horn Silver** (also called *horn silver* or *copper‑silver*): A mixture of silver, copper, and zinc. It has a bright, silvery appearance and is used in jewelry and decorative items.\\n- **German Silver** (also known as *nickel silver* or *German silver*): An alloy of copper, nickel, and zinc. Despite its name, it contains no silver. It is used in musical instruments, watch cases, and electrical connectors.\\n- **Ruby Silver**: A less common alloy that contains silver, copper, and a small amount of iron or other metals to give a reddish hue. It is mainly used for ornamental purposes.\\n- **Lunar Caustic**: Not an alloy; the term refers to a chemical reagent (often a caustic solution) used in lunar sample analysis. It does not contain silver.\\n\\n**Key Points**\\n- Alloys are solid solutions where one metal is dissolved in another.\\n- The addition of other metals can improve strength, corrosion resistance, or reduce density.\\n- Silver alloys are widely used in jewelry, electrical contacts, and decorative arts.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 193
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physical Chemistry",
+    "subchapter": "Gaseous Laws",
+    "topic": "Avogadro's Law",
+    "content": "# Avogadro's Law\\n\\n**Statement**: Equal volumes of gases, at the same temperature and pressure, contain an equal number of molecules.\\n\\n**Formula**:\\n\\[ V \\propto n \\]\\nwhere *V* is the volume and *n* is the number of moles (or molecules). For a fixed temperature and pressure, the ratio of volumes equals the ratio of moles.\\n\\n**Significance**:\\n- Provides the basis for the concept of the mole.\\n- Allows conversion between volume and number of particles.\\n- Essential for stoichiometric calculations involving gases.\\n\\n**Historical Context**: Proposed by Amedeo Avogadro in 1811, it was later confirmed experimentally by J. L. Gay-Lussac and others.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 193
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physical Chemistry",
+    "subchapter": "Suspensions and Solutions",
+    "topic": "Smoke",
+    "content": "# Smoke\\n\\n**Definition**: A suspension of solid particles (e.g., soot, ash) dispersed in a gas (usually air). It is a *heterogeneous mixture* because the particles are not uniformly distributed.\\n\\n**Characteristics**:\\n- Particles are large enough to scatter light (Tyndall effect).\\n- Settles out over time if left undisturbed.\\n- Not a true solution because the solid particles do not dissolve.\\n\\n**Applications**: Understanding smoke is important in fire safety, environmental monitoring, and combustion engineering.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 193
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physical Chemistry",
+    "subchapter": "Mixtures",
+    "topic": "Air",
+    "content": "# Air\\n\\n**Composition**: Roughly 78% nitrogen, 21% oxygen, 0.9% argon, 0.04% carbon dioxide, and trace gases.\\n\\n**Concept**: Air is a *gas mixture* where each component behaves as if it were alone at the same temperature and pressure. This is described by the *ideal gas law* and Dalton's law of partial pressures.\\n\\n**Solution of Gas in Gas**: In a gas mixture, each gas can be considered a *solution* of one gas in another. The partial pressure of each component is analogous to the concentration in a liquid solution.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 193
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Materials and Solutions",
+    "subchapter": "Alloys",
+    "topic": "Alloys",
+    "content": "# Alloys\\n\\n**Definition**: A solid solution of two or more metals (or a metal and a non‑metal) where one metal is dissolved in another.\\n\\n**Types**:\\n- **Solid Solution Alloys**: Uniform distribution of solute atoms in the solvent lattice.\\n- **Intermetallic Compounds**: Ordered structures with specific stoichiometry.\\n\\n**Examples**: Steel (iron + carbon), brass (copper + zinc), bronze (copper + tin).\\n\\n**Properties**: Improved strength, hardness, corrosion resistance, and electrical conductivity compared to pure metals.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 193
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Food Chemistry",
+    "subchapter": "Emulsions",
+    "topic": "Milk",
+    "content": "# Milk\\n\\n**Composition**: Water (~87%), fat (~3–4%), proteins (casein, whey), lactose, minerals, and vitamins.\\n\\n**Emulsion**: Milk is a *stable emulsion* where fat globules (~1–5 µm) are dispersed in the aqueous phase. The casein micelles act as emulsifiers, preventing coalescence.\\n\\n**Properties**:\\n- **Creaming**: Fat rises to the surface if left undisturbed.\\n- **Stability**: Temperature and pH changes can destabilize the emulsion.\\n\\n**Applications**: Understanding milk’s emulsion is crucial in dairy processing, nutrition, and food science.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 193
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physical Chemistry",
+    "subchapter": "Acid–Base Chemistry",
+    "topic": "pH",
+    "content": "# pH\\n\\n**Definition**: A logarithmic scale that quantifies the acidity or basicity of a solution.\\n\\n**Formula**:\\n\\[ \\text{pH} = -\\log_{10}[\\text{H}^+] \\]\\nwhere \\([\\text{H}^+]\\) is the molar concentration of hydrogen ions.\\n\\n**Interpretation**:\\n- pH 0–6: Acidic\\n- pH 7: Neutral\\n- pH 8–14: Basic\\n\\n**Example**: If pH = 6, then \\([\\text{H}^+] = 10^{-6}\\) M.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 193
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physical Chemistry",
+    "subchapter": "Acid–Base Chemistry",
+    "topic": "Hydroxyl Ion Concentration",
+    "content": "# Hydroxyl Ion Concentration\\n\\n**Water Dissociation Constant (Kw)**:\\n\\[ K_w = [\\text{H}^+][\\text{OH}^-] = 1.0 \\times 10^{-14} \\text{ at } 25^{\\circ}\\text{C} \\]\\n\\n**Calculation**: Given \\([\\text{H}^+] = 10^{-4}\\) M,\\n\\[ [\\text{OH}^-] = \\frac{K_w}{[\\text{H}^+]} = \\frac{1.0 \\times 10^{-14}}{1.0 \\times 10^{-4}} = 1.0 \\times 10^{-10}\\text{ M} \\]\\n\\n**Interpretation**: The solution is acidic (pH < 7) and the hydroxyl ion concentration is very low.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 193
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Redox Reactions and Oxidation States",
+    "topic": "Oxidation State Rules and Examples",
+    "content": "### Oxidation State Rules and Examples\n\n1. **Oxidation State of Manganese in KMnO4 (Potassium Permanganate)**:\n   - Potassium (K) has an oxidation state of +1.\n   - Oxygen (O) typically has an oxidation state of -2.\n   - Let the oxidation state of Manganese (Mn) be $x$.\n   - Equation: $1(+1) + x + 4(-2) = 0 \\Rightarrow 1 + x - 8 = 0 \\Rightarrow x = +7$.\n   - **Fact**: The oxidation state of Mn in KMnO4 is **+7**.\n\n2. **Element with Constant Oxidation State**:\n   - **Fluorine (F)** is the most electronegative element and does not form positive oxidation states in its compounds.\n   - **Fact**: The oxidation state of Fluorine is always **-1** in all its compounds (except in its elemental form F2, where it is 0).\n   - Note: Oxygen is usually -2 but can be -1 (peroxides), -1/2 (superperoxides), or +2 (in OF2). Hydrogen is usually +1 but can be -1 (hydrides). Carbon varies widely.\n\n3. **Oxidation State of Oxygen in OF2 (Oxygen Difluoride)**:\n   - Fluorine is more electronegative than Oxygen.\n   - Fluorine always has an oxidation state of -1.\n   - Let the oxidation state of Oxygen be $x$.\n   - Equation: $x + 2(-1) = 0 \\Rightarrow x = +2$.\n   - **Fact**: In OF2, the oxidation state of Oxygen is **+2**.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 194
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Acids, Bases, and Salts",
+    "topic": "Definitions and Indicators",
+    "content": "### Acids, Bases, and Indicators\n\n1. **Definition of Acid (Brønsted-Lowry Theory)**:\n   - An acid is a substance that **donates (provides) a proton (H+ ion)**.\n   - Example: $HCl \\rightarrow H^+ + Cl^-$.\n\n2. **Definition of Alkali/Base (Brønsted-Lowry Theory)**:\n   - An alkali (or base) is a substance that **accepts a proton (H+ ion)**.\n   - Note: In Lewis theory, a base is an electron pair donor, but in the context of standard acid-base definitions in general science exams, 'accepts proton' is the primary definition for alkalis/bases reacting with acids.\n\n3. **Litmus Paper Indicators**:\n   - **Blue Litmus Paper**: Turns **Red** in the presence of an **Acid**.\n   - **Red Litmus Paper**: Turns **Blue** in the presence of a **Base/Alkali**.\n   - **Fact**: Acids turn blue litmus red; Alkalis turn red litmus blue.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 194
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Acids, Bases and Salts",
+    "topic": "pH Scale and Measurement",
+    "content": "- **Inventor of pH Scale**: The pH scale was introduced by **Søren Sørensen** (often referred to as Sorensan in older texts) in 1909.\n- **Human Blood pH**: The average pH of human blood is **7.4** (slightly alkaline).\n- **Milk pH**: The average pH of milk is approximately **6.6** (slightly acidic).\n- **Pure Water pH**: The pH of pure water at 25°C is **7** (neutral).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 195
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Metals and Non-metals",
+    "topic": "Zinc Compounds",
+    "content": "- **Philosopher's Wool**: **Zinc oxide** (ZnO) is historically known as philosopher's wool due to its white, fluffy appearance when zinc is burned in air.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 195
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Electrochemistry",
+    "topic": "Electrolysis",
+    "content": "- **Electrolytic Cell**: The container employed in the process of electrolysis is called a **Voltammeter** (or electrolytic cell).\n- **Oxidation**: In electrolysis, oxidation (loss of electrons) occurs at the **Anode** (positive electrode).\n- **Reduction**: In electrolysis, reduction (gain of electrons) occurs at the **Cathode** (negative electrode).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 195
   }
 ]

@@ -410,11 +410,15 @@ def extract_page(pdf_path, page_num):
         
         if result:
             if isinstance(result, list):
-                notes = result
+                notes = [x for x in result if isinstance(x, dict)]
                 questions = []
+            elif isinstance(result, dict):
+                raw_n = result.get("notes_database", [])
+                raw_q = result.get("question_database", [])
+                notes = [x for x in raw_n if isinstance(x, dict)] if isinstance(raw_n, list) else []
+                questions = [x for x in raw_q if isinstance(x, dict)] if isinstance(raw_q, list) else []
             else:
-                notes = result.get("notes_database", [])
-                questions = result.get("question_database", [])
+                return None
             return {"notes": notes, "questions": questions}
         return None
     except Exception as e:

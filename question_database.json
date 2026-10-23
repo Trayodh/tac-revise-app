@@ -862749,5 +862749,1344 @@
     "topic": "Shadows",
     "source_pdf": "General-Science-Book-SSBCrack.pdf",
     "source_page": 179
+  },
+  {
+    "question_text": "Which of the following is a large blood vessel that carries blood away from the heart?",
+    "options": {
+      "A": "Vein",
+      "B": "Artery",
+      "C": "Capillary",
+      "D": "Nerve"
+    },
+    "correct_answer": "B",
+    "explanation": "Arteries are the large vessels that transport oxygen‑rich blood from the heart to the rest of the body. Veins return blood to the heart, capillaries are the smallest vessels, and nerves are not blood vessels.",
+    "subject": "General Science",
+    "chapter": "Human Anatomy",
+    "topic": "Blood Vessels",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 182
+  },
+  {
+    "question_text": "Which of the following hormones is a steroid?",
+    "options": {
+      "A": "Estrogen",
+      "B": "Glucagon",
+      "C": "Insulin",
+      "D": "Oxytocin"
+    },
+    "correct_answer": "A",
+    "explanation": "Estrogen is a steroid hormone derived from cholesterol. Glucagon, Insulin, and Oxytocin are peptide or protein hormones.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Hormones",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 183
+  },
+  {
+    "question_text": "Which one of the following is not a function of the liver?",
+    "options": {
+      "A": "Regulation of blood sugar",
+      "B": "Enzyme activation",
+      "C": "Detoxiation",
+      "D": "Reproduction"
+    },
+    "correct_answer": "D",
+    "explanation": "The liver regulates blood sugar, activates enzymes, and detoxifies the blood. Reproduction is a function of the reproductive organs, not the liver.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Human Physiology",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 183
+  },
+  {
+    "question_text": "Which one is not the form of Biocides?",
+    "options": {
+      "A": "Salt",
+      "B": "Iodine",
+      "C": "Sugar",
+      "D": "Bleech"
+    },
+    "correct_answer": "C",
+    "explanation": "Iodine and Bleach are common biocides/disinfectants. While salt can act as a preservative, Sugar is generally not classified as a biocide in standard scientific contexts compared to chemical disinfectants. Note: In some specific contexts, salt is also not a biocide, but Sugar is the least likely to be considered a biocide agent in standard MCQs of this type. *Correction based on standard exam keys*: Often 'Salt' and 'Sugar' are distractors. Iodine and Bleach are definitely biocides. Between Salt and Sugar, Sugar is typically the answer for 'not a biocide' in these specific SSB/NDA question banks.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Biocides",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 183
+  },
+  {
+    "question_text": "How biocides work?",
+    "options": {
+      "A": "Control the multiplication of insects",
+      "B": "Kill the insects",
+      "C": "Manage the original form of material",
+      "D": "Control the bacteria"
+    },
+    "correct_answer": "D",
+    "explanation": "Biocides are primarily used to control or kill bacteria, viruses, and other pathogens. Insecticides are used for insects.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Biocides",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 183
+  },
+  {
+    "question_text": "What is Rodenticide?",
+    "options": {
+      "A": "A medicine to kill worms",
+      "B": "A medicine to kill animals",
+      "C": "A lubricant",
+      "D": "A pesticide"
+    },
+    "correct_answer": "B",
+    "explanation": "Rodenticides are substances used to kill rodents (animals). While they are a type of pesticide, 'A medicine to kill animals' is the specific definition in this context. 'Medicine to kill worms' refers to anthelmintics.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Rodenticides",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 183
+  },
+  {
+    "question_text": "Most commonly used Rodenticides are _______ in nature.",
+    "options": {
+      "A": "Anti pesticides",
+      "B": "Anti solvent",
+      "C": "Anti Coagulant",
+      "D": "Non anti coagulant"
+    },
+    "correct_answer": "C",
+    "explanation": "The most common modern rodenticides are anti-coagulants (e.g., Warfarin), which prevent blood clotting and cause internal bleeding in rodents.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Rodenticides",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 183
+  },
+  {
+    "question_text": "Which acid is present in lemon?",
+    "options": {
+      "A": "marlic acid",
+      "B": "citric acid",
+      "C": "lactic acid",
+      "D": "tartaric acid"
+    },
+    "correct_answer": "B",
+    "explanation": "Lemons contain citric acid. Malic acid is in apples, lactic acid in sour milk, and tartaric acid in tamarind.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Acids",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 183
+  },
+  {
+    "question_text": "Natural rubber is a ________ which is having high elasticity.",
+    "options": {
+      "A": "Substance",
+      "B": "Material",
+      "C": "Elastomer",
+      "D": "Chemical using carbon as main compound"
+    },
+    "correct_answer": "C",
+    "explanation": "Natural rubber is classified as an elastomer due to its high elasticity.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Rubber and Vulcanization",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 184
+  },
+  {
+    "question_text": "How will you define the process of Vulcanization?",
+    "options": {
+      "A": "Sample of butane mixed with sulphur and litharge",
+      "B": "Sample of propane mixed with sulphur and litharge",
+      "C": "Sample of plastic formed carbon mixed with sulphur and litharge",
+      "D": "Sample of rubber mixed with sulphur and litharge"
+    },
+    "correct_answer": "D",
+    "explanation": "Vulcanization involves mixing rubber with sulphur and litharge to enhance its durability and elasticity.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Rubber and Vulcanization",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 184
+  },
+  {
+    "question_text": "What is NBR?",
+    "options": {
+      "A": "Normal Acrylonitrile-butadiene rubber",
+      "B": "Natural Acrylonitrile-butadiene rubber",
+      "C": "N Acrylonitrile-butane rubber",
+      "D": "Acrylonitrile-butadiene rubber"
+    },
+    "correct_answer": "D",
+    "explanation": "NBR stands for Acrylonitrile-butadiene rubber.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Rubber and Vulcanization",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 184
+  },
+  {
+    "question_text": "A synthetic rubber is having__________weight.",
+    "options": {
+      "A": "Higher resistance",
+      "B": "Lower density",
+      "C": "Higher molecular",
+      "D": "Higher atomic"
+    },
+    "correct_answer": "C",
+    "explanation": "Synthetic rubbers are polymers and thus have higher molecular weight.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Rubber and Vulcanization",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 184
+  },
+  {
+    "question_text": "Which of the following is not a type of elements?",
+    "options": {
+      "A": "Metals",
+      "B": "Non Metals",
+      "C": "Metalloids",
+      "D": "Gases"
+    },
+    "correct_answer": "D",
+    "explanation": "Metals, Non-Metals, and Metalloids are types of elements. Gases refer to a state of matter, not a type of element.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Element Types",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 184
+  },
+  {
+    "question_text": "In which form the natural petroleum is found?",
+    "options": {
+      "A": "Gaslette",
+      "B": "Kerosene",
+      "C": "Crude Oil",
+      "D": "Tar"
+    },
+    "correct_answer": "C",
+    "explanation": "Natural petroleum is found in the form of Crude Oil.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Petroleum Sources and Usage",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 184
+  },
+  {
+    "question_text": "Which country consumes maximum petroleum?",
+    "options": {
+      "A": "Saudi Arabia",
+      "B": "India",
+      "C": "UK",
+      "D": "US"
+    },
+    "correct_answer": "D",
+    "explanation": "The United States (US) is the largest consumer of petroleum.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Petroleum Sources and Usage",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 184
+  },
+  {
+    "question_text": "In which field petroleum is not used?",
+    "options": {
+      "A": "Automobile",
+      "B": "Petro Chemical",
+      "C": "Medical",
+      "D": "Marketing"
+    },
+    "correct_answer": "D",
+    "explanation": "Petroleum is used in Automobile, Petro Chemical, and Medical fields, but not in Marketing.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Petroleum Sources and Usage",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 184
+  },
+  {
+    "question_text": "Petroleum is a combination of chains of hydrogen and _______ present in earth’s crust.",
+    "options": {
+      "A": "butana",
+      "B": "hydrocarbon",
+      "C": "Carbon",
+      "D": "proplene"
+    },
+    "correct_answer": "C",
+    "explanation": "Petroleum is composed of hydrocarbons, which are chains of hydrogen and carbon atoms. While 'hydrocarbon' describes the class of compounds, the specific element missing from the phrase 'chains of hydrogen and ___' is Carbon.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Petroleum Composition",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 185
+  },
+  {
+    "question_text": "Which of the following is wrong statement?",
+    "options": {
+      "A": "Atomic radius of the elements increases as one moves down the first group of the periodic table",
+      "B": "Atomic radius of the elements decreases as one moves across from left to right in the 2nd period of the",
+      "C": "Amongst isoelectronic species, smaller the positive charge on the cation, smaller is the ionic radius",
+      "D": "Amongst isoelectronic species, greater the negative charge on the anion, larger is the ionic radius"
+    },
+    "correct_answer": "C",
+    "explanation": "Statement C is incorrect. Among isoelectronic species, a smaller positive charge on a cation means less nuclear pull relative to the electron count, resulting in a *larger* ionic radius, not smaller. For example, Na+ (11 protons) is larger than Mg2+ (12 protons) because Mg2+ has a higher positive charge pulling the same number of electrons closer.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Atomic Radius Trends",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 185
+  },
+  {
+    "question_text": "Which of the following is not a greenhouse gas?",
+    "options": {
+      "A": "Carbon Dioxide",
+      "B": "Methane",
+      "C": "Carbon monoxide",
+      "D": "Water vapours"
+    },
+    "correct_answer": "C",
+    "explanation": "Carbon Dioxide, Methane, and Water Vapours are major greenhouse gases. Carbon Monoxide (CO) is a toxic air pollutant but does not significantly absorb infrared radiation in the same way as primary greenhouse gases.",
+    "subject": "General Science",
+    "chapter": "Environmental Science",
+    "topic": "Greenhouse Gases",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 185
+  },
+  {
+    "question_text": "What is the result of presence of green gases in excess?",
+    "options": {
+      "A": "Deforestation",
+      "B": "Decay of Earth‘s crust",
+      "C": "Excess of heat",
+      "D": "More snow on Earth"
+    },
+    "correct_answer": "C",
+    "explanation": "Excess greenhouse gases trap more heat in the atmosphere, leading to global warming, which is characterized by an excess of heat.",
+    "subject": "General Science",
+    "chapter": "Environmental Science",
+    "topic": "Greenhouse Effect",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 185
+  },
+  {
+    "question_text": "The greenhouse gases spread ______ energy.",
+    "options": {
+      "A": "Short Wave",
+      "B": "Long Wave",
+      "C": "Mid Wave",
+      "D": "Ultra Wave"
+    },
+    "correct_answer": "B",
+    "explanation": "Greenhouse gases absorb and re-emit long-wave infrared radiation (heat) emitted by the Earth's surface. They are relatively transparent to short-wave solar radiation.",
+    "subject": "General Science",
+    "chapter": "Environmental Science",
+    "topic": "Greenhouse Effect",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 185
+  },
+  {
+    "question_text": "The presence of the greenhouse gases is ________ for human life.",
+    "options": {
+      "A": "Harmful",
+      "B": "Required",
+      "C": "Necessary",
+      "D": "Harmless"
+    },
+    "correct_answer": "B",
+    "explanation": "A natural level of greenhouse gases is required to maintain Earth's average temperature at a level suitable for life. Without them, Earth would be too cold for most life forms.",
+    "subject": "General Science",
+    "chapter": "Environmental Science",
+    "topic": "Greenhouse Gases",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 185
+  },
+  {
+    "question_text": "Which of the following is the acronym of PVC?",
+    "options": {
+      "A": "polyvinyl chloride",
+      "B": "polyvinyl carbobate",
+      "C": "phosphor vanadiu chloride",
+      "D": "phosphavinyl chloride"
+    },
+    "correct_answer": "A",
+    "explanation": "PVC stands for Polyvinyl Chloride, a common synthetic plastic polymer.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Polymers",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 185
+  },
+  {
+    "question_text": "Which of the following is the heaviest metal?",
+    "options": {
+      "A": "osmium",
+      "B": "mercury",
+      "C": "iron",
+      "D": "nickel"
+    },
+    "correct_answer": "A",
+    "explanation": "Osmium has the highest density among naturally occurring metals (≈22.59 g/cm³), making it the heaviest.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Heaviest Metal",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 186
+  },
+  {
+    "question_text": "Consider following statements: I. Green chemistry focuses on effects of chemical pollutants on nature. II. Environmental chemistry focuses on technological approach to prevent pollution. Which statement(s) is/are correct?",
+    "options": {
+      "A": "Only I",
+      "B": "Only II",
+      "C": "Both I & II",
+      "D": "Neither I nor II"
+    },
+    "correct_answer": "C",
+    "explanation": "Both statements correctly describe the primary emphasis of green chemistry (environmental impact) and environmental chemistry (technological mitigation).",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Definitions",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 186
+  },
+  {
+    "question_text": "Which one of the following received the Greener Reaction Conditions Award in 1996?",
+    "options": {
+      "A": "Dow Chemical",
+      "B": "Exon Chemicals",
+      "C": "US EPA",
+      "D": "None of these"
+    },
+    "correct_answer": "A",
+    "explanation": "Dow Chemical was honored in 1996 for its development of greener reaction processes.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Greener Reaction Conditions Award (1996)",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 186
+  },
+  {
+    "question_text": "Which of the following is used for clean oxidation?",
+    "options": {
+      "A": "Supercritical carbon dioxide",
+      "B": "Supercritical hydrogen",
+      "C": "Aqueous hydrogen peroxide",
+      "D": "All of these"
+    },
+    "correct_answer": "D",
+    "explanation": "All listed media—scCO₂, scH₂, and aqueous H₂O₂—are employed as clean oxidation agents in green chemistry.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Clean Oxidation",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 186
+  },
+  {
+    "question_text": "Green solvents are derived from ______.",
+    "options": {
+      "A": "Renewable resources",
+      "B": "Carbon resources",
+      "C": "Non-renewable resources",
+      "D": "All of these"
+    },
+    "correct_answer": "A",
+    "explanation": "Green solvents are specifically sourced from renewable feedstocks such as biomass, plant oils, and biodegradable materials.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Green Solvents",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 186
+  },
+  {
+    "question_text": "Eating tobacco and throwing on the road can produce______pollutant.",
+    "options": {
+      "A": "Air",
+      "B": "Soil",
+      "C": "Noise",
+      "D": "Water"
+    },
+    "correct_answer": "B",
+    "explanation": "Discarded tobacco waste contaminates the soil with nicotine, heavy metals, and plastic residues.",
+    "subject": "General Science",
+    "chapter": "Environmental Science",
+    "topic": "Pollutants from Tobacco Waste",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 186
+  },
+  {
+    "question_text": "Which of the following is not green house gas?",
+    "options": {
+      "A": "CO",
+      "B": "O3",
+      "C": "CH4",
+      "D": "H2O Vapour"
+    },
+    "correct_answer": "A",
+    "explanation": "Carbon monoxide (CO) does not have significant greenhouse properties, unlike ozone (O₃), methane (CH₄), and water vapour (H₂O).",
+    "subject": "General Science",
+    "chapter": "Environmental Science",
+    "topic": "Greenhouse Gases",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 186
+  },
+  {
+    "question_text": "Which of the following is not the components of photochemical smog that occurs in warm, dry and sunny climate?",
+    "options": {
+      "A": "NO2",
+      "B": "O3",
+      "C": "SO3",
+      "D": "Unsaturated hydrocarbon"
+    },
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 187
+  },
+  {
+    "question_text": "The atomic properties depend upon:",
+    "options": {
+      "A": "Number of nucleons in the nucleus",
+      "B": "Number of protons in the nucleus",
+      "C": "Number of neutrons in the nucleus",
+      "D": "None of these"
+    },
+    "correct_answer": "B",
+    "explanation": "Atomic properties are determined by the atomic number, which is the number of protons in the nucleus.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Atomic Structure",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 188
+  },
+  {
+    "question_text": "The number of neutrons and protons in the nucleus of 88Ra226 are:",
+    "options": {
+      "A": "138 and 88",
+      "B": "88 and 138",
+      "C": "226 and 88",
+      "D": "88 and 226"
+    },
+    "correct_answer": "A",
+    "explanation": "For $^{226}_{88}\\text{Ra}$, Protons = 88. Neutrons = Mass Number - Atomic Number = 226 - 88 = 138. The question asks for neutrons and protons respectively, so 138 and 88.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Atomic Structure",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 188
+  },
+  {
+    "question_text": "Who was the inventor of radioactivity?",
+    "options": {
+      "A": "Madam Curie",
+      "B": "Irine Curie",
+      "C": "Henery Bacqurel",
+      "D": "Rutherford"
+    },
+    "correct_answer": "C",
+    "explanation": "Henri Becquerel discovered radioactivity in 1896.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Nuclear Physics",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 188
+  },
+  {
+    "question_text": "The penetrating power of which of the following invisible radiations emitting from the nucleus has its maximum value:",
+    "options": {
+      "A": "a-rays",
+      "B": "f)-rays",
+      "C": "y-rays",
+      "D": "None of these"
+    },
+    "correct_answer": "C",
+    "explanation": "Gamma ($\\gamma$) rays have the highest penetrating power among alpha, beta, and gamma radiations.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Nuclear Physics",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 188
+  },
+  {
+    "question_text": "Which of the following is negatively charged?",
+    "options": {
+      "A": "Alpha-rays",
+      "B": "Beta-rays",
+      "C": "Gama-rays",
+      "D": "X-ray"
+    },
+    "correct_answer": "B",
+    "explanation": "Beta rays (specifically beta-minus) consist of electrons and are negatively charged. Alpha rays are positive, and Gamma rays are neutral.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Nuclear Physics",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 188
+  },
+  {
+    "question_text": "How many charges alpha-rays consist of?",
+    "options": {
+      "A": "Two unit positive charges",
+      "B": "Unit negative charge",
+      "C": "Unit positive charge",
+      "D": "None of these"
+    },
+    "correct_answer": "A",
+    "explanation": "An alpha particle is a helium nucleus consisting of 2 protons and 2 neutrons, giving it a charge of +2.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Nuclear Physics",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 188
+  },
+  {
+    "question_text": "Which of the following is not a radioactive element?",
+    "options": {
+      "A": "Astatine",
+      "B": "Francium",
+      "C": "Titanium",
+      "D": "Zirconium"
+    },
+    "correct_answer": "C",
+    "explanation": "Astatine and Francium are radioactive. Titanium and Zirconium are generally stable, but in the context of standard MCQs comparing these, Titanium is often cited as a stable structural metal, whereas Zirconium can have radioactive isotopes but is stable in its common form. However, looking at standard NDA/CDS questions, Titanium is the clear non-radioactive stable element compared to the highly radioactive Astatine and Francium. Note: Zirconium is also stable, but Titanium is the standard answer in this specific question bank context for 'not radioactive' when contrasted with heavy radioactive elements.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Nuclear Physics",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 188
+  },
+  {
+    "question_text": "Which of the following is the unit of radioactivity?",
+    "options": {
+      "A": "Curie",
+      "B": "Becquerel",
+      "C": "Rutherford",
+      "D": "All of these"
+    },
+    "correct_answer": "B",
+    "explanation": "The SI unit of radioactivity is the becquerel (Bq), equal to one disintegration per second. The curie (Ci) is an older unit (1 Ci = 3.7×10^10 Bq). Rutherford is not a recognized unit of radioactivity.",
+    "subject": "General Science",
+    "chapter": "Radioactivity",
+    "topic": "Units of Radioactivity",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 189
+  },
+  {
+    "question_text": "The substance (element) obtained after emission of a beta-particle from \\(^{22}_{11}\\text{Na}\\):",
+    "options": {
+      "A": "Mg",
+      "B": "Mn",
+      "C": "Ag",
+      "D": "Pb"
+    },
+    "correct_answer": "A",
+    "explanation": "Beta‑minus decay converts a neutron into a proton, increasing the atomic number by one while the mass number remains unchanged. Sodium (Z=11) becomes magnesium (Z=12).",
+    "subject": "General Science",
+    "chapter": "Radioactivity",
+    "topic": "Beta Decay",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 189
+  },
+  {
+    "question_text": "The half‑life of a radioactive substance is 4 months. The time required for ¾ of the substance to decay is:",
+    "options": {
+      "A": "3 months",
+      "B": "4 months",
+      "C": "8 months",
+      "D": "12 months"
+    },
+    "correct_answer": "C",
+    "explanation": "To decay ¾ of the material, only ¼ remains. After n half‑lives, the remaining fraction is (1/2)^n = 1/4 → n = 2. Two half‑lives × 4 months = 8 months.",
+    "subject": "General Science",
+    "chapter": "Radioactivity",
+    "topic": "Half‑Life Calculations",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 189
+  },
+  {
+    "question_text": "The estimation of the age of the earth is done by:",
+    "options": {
+      "A": "Uranium dating",
+      "B": "Carbon dating",
+      "C": "Atomic clock",
+      "D": "Bio clock"
+    },
+    "correct_answer": "A",
+    "explanation": "Uranium‑lead dating, a radiometric method, is used to determine the age of the Earth (≈4.5 billion years). Carbon‑14 dating is limited to relatively recent (≤50,000 years) organic materials.",
+    "subject": "General Science",
+    "chapter": "Radioactivity",
+    "topic": "Radiometric Dating",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 189
+  },
+  {
+    "question_text": "The isotope of any atomic nucleus is in which:",
+    "options": {
+      "A": "Number of neutrons be same but number of protons be different",
+      "B": "Number of protons be same but the number of neutrons be different",
+      "C": "Number of protons and neutrons both are same",
+      "D": "Number of protons and neutrons both are different"
+    },
+    "correct_answer": "B",
+    "explanation": "Isotopes are atoms of the same element (same proton number) that differ in neutron number, giving different mass numbers.",
+    "subject": "General Science",
+    "chapter": "Radioactivity",
+    "topic": "Isotopes",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 189
+  },
+  {
+    "question_text": "The group displacement law is propounded by:",
+    "options": {
+      "A": "Sody & Fujan",
+      "B": "Rutherford & Sody",
+      "C": "Rutherford & Fujan",
+      "D": "Rutherford & Madam Curie"
+    },
+    "correct_answer": "B",
+    "explanation": "The displacement (or transmutation) law, also known as the Rutherford‑Soddy law, states that the total atomic number and total mass number are conserved in radioactive displacements.",
+    "subject": "General Science",
+    "chapter": "Radioactivity",
+    "topic": "Displacement Law",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 189
+  },
+  {
+    "question_text": "Which of the following is estimated by the radiocarbon dating?",
+    "options": {
+      "A": "Age of the human being",
+      "B": "Age of the fossils",
+      "C": "Disease of the human body",
+      "D": "Purity of the metals"
+    },
+    "correct_answer": "B",
+    "explanation": "Radiocarbon (C‑14) dating measures the remaining C‑14 in organic remains to estimate the age of fossils and archaeological samples up to about 50,000 years.",
+    "subject": "General Science",
+    "chapter": "Radioactivity",
+    "topic": "Carbon‑14 Dating",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 189
+  },
+  {
+    "question_text": "The number of isotopes in hydrogen:",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "B",
+    "explanation": "Hydrogen has three isotopes: protium (¹H, no neutron), deuterium (²H, one neutron), and tritium (³H, two neutrons).",
+    "subject": "General Science",
+    "chapter": "Radioactivity",
+    "topic": "Hydrogen Isotopes",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 189
+  },
+  {
+    "question_text": "Which of the following is not the isotope of hydrogen?",
+    "options": {
+      "A": "Protium",
+      "B": "Deuterium",
+      "C": "Iterium",
+      "D": "Tritium"
+    },
+    "correct_answer": "C",
+    "explanation": "The isotopes of hydrogen are Protium, Deuterium, and Tritium. Iterium is not an isotope of hydrogen.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Isotopes of Hydrogen",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 190
+  },
+  {
+    "question_text": "$^{16}O_8$, $^{17}O_8$, $^{18}O_8$ are called:",
+    "options": {
+      "A": "Isotopes",
+      "B": "Isotones",
+      "C": "Isobars",
+      "D": "Isoneutrons"
+    },
+    "correct_answer": "A",
+    "explanation": "These atoms have the same atomic number (8) but different mass numbers (16, 17, 18), which defines them as isotopes.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Isotopes, Isobars, and Isotones",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 190
+  },
+  {
+    "question_text": "What is the radioactive isotope of hydrogen is called?",
+    "options": {
+      "A": "Deuterium",
+      "B": "Rotium",
+      "C": "Radium",
+      "D": "Tritium"
+    },
+    "correct_answer": "D",
+    "explanation": "Tritium is the radioactive isotope of hydrogen. Deuterium is stable, and Radium is a different element.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Isotopes of Hydrogen",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 190
+  },
+  {
+    "question_text": "Which isotope is used through the radioactive age estimation technique to obtain (determine) the age of rocks?",
+    "options": {
+      "A": "Uranium isotope",
+      "B": "Plutonium isotope",
+      "C": "Thorium isotope",
+      "D": "Carbon isotope"
+    },
+    "correct_answer": "A",
+    "explanation": "Uranium isotopes (specifically Uranium-238) are commonly used in radiometric dating to determine the age of rocks. Carbon dating is used for organic materials up to ~50,000 years old.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Radioactive Isotopes and Applications",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 190
+  },
+  {
+    "question_text": "The radio isotope used to control the disease like blood cancer (Leukaemia) is:",
+    "options": {
+      "A": "Phosphorus-32",
+      "B": "Cobalt-60",
+      "C": "Iodine-131",
+      "D": "Sodium-24"
+    },
+    "correct_answer": "A",
+    "explanation": "Phosphorus-32 is used in the treatment of blood cancers like Leukaemia. Iodine-131 is for thyroid, and Cobalt-60 is for external beam radiotherapy.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Radioactive Isotopes and Applications",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 190
+  },
+  {
+    "question_text": "Isotones are those which have:",
+    "options": {
+      "A": "Equal number of protons",
+      "B": "Equal number of neutrons",
+      "C": "Equal number of nucleons",
+      "D": "None of these"
+    },
+    "correct_answer": "B",
+    "explanation": "Isotones are atoms of different elements that have the same number of neutrons. Isotopes have equal protons, and Isobars have equal nucleons (mass number).",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Isotopes, Isobars, and Isotones",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 190
+  },
+  {
+    "question_text": "The iso electronic of $Al^{3+}$ is:",
+    "options": {
+      "A": "$Cl^-$",
+      "B": "$Al$",
+      "C": "$S^-$",
+      "D": "$F^-$"
+    },
+    "correct_answer": "D",
+    "explanation": "$Al^{3+}$ has 10 electrons (13 protons - 3 electrons). $F^-$ has 10 electrons (9 protons + 1 electron). Therefore, they are isoelectronic. $Cl^-$ has 18 electrons, and $S^-$ (assuming $S^{2-}$) has 18 electrons.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Isoelectronic Species",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 190
+  },
+  {
+    "question_text": "The element which has same mass number but different atomic number is called:",
+    "options": {
+      "A": "Isotope",
+      "B": "Isobar",
+      "C": "Isoneutronic",
+      "D": "Isoelectronic"
+    },
+    "correct_answer": "B",
+    "explanation": "Isobars are atoms of different elements (different atomic numbers) that have the same mass number.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Atomic Structure",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 191
+  },
+  {
+    "question_text": "By the emission of which isomers are produced:",
+    "options": {
+      "A": "Alpha-ray",
+      "B": "Beta-ray",
+      "C": "Gama-ray",
+      "D": "X-ray"
+    },
+    "correct_answer": "C",
+    "explanation": "Nuclear isomers are produced when a nucleus is left in an excited state, which decays by emitting gamma rays.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Nuclear Chemistry",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 191
+  },
+  {
+    "question_text": "How many molecules have the methane?",
+    "options": {
+      "A": "Double bond",
+      "B": "Triple bond",
+      "C": "Single covalent bond",
+      "D": "None of these"
+    },
+    "correct_answer": "C",
+    "explanation": "Methane (CH4) consists of carbon and hydrogen atoms connected by single covalent bonds.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Chemical Bonding",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 191
+  },
+  {
+    "question_text": "What is the shape of the ethylene molecule?",
+    "options": {
+      "A": "Linear",
+      "B": "Tetrahedral",
+      "C": "Coplanar triangular",
+      "D": "Hectohedral"
+    },
+    "correct_answer": "C",
+    "explanation": "Ethylene (C2H4) has a planar structure where the atoms around each carbon are arranged in a trigonal planar (coplanar triangular) geometry.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Molecular Geometry",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 191
+  },
+  {
+    "question_text": "Which of the following compound is tetrahedral?",
+    "options": {
+      "A": "Ammonia",
+      "B": "Carbon tetrachloride",
+      "C": "Water",
+      "D": "Acetylene"
+    },
+    "correct_answer": "B",
+    "explanation": "Carbon tetrachloride (CCl4) has a tetrahedral geometry. Ammonia is pyramidal, Water is bent, and Acetylene is linear.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Molecular Geometry",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 191
+  },
+  {
+    "question_text": "Through the fused sodium chloride, electric current can pass out due to the presence of:",
+    "options": {
+      "A": "Free electron",
+      "B": "Free ion",
+      "C": "Free molecule",
+      "D": "The atoms of sodium and chlorine"
+    },
+    "correct_answer": "B",
+    "explanation": "In the fused (molten) state, ionic compounds like NaCl dissociate into free ions (Na+ and Cl-), which allow the conduction of electricity.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Ionic Compounds",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 191
+  },
+  {
+    "question_text": "The higher boiling point of the water occurs due to:",
+    "options": {
+      "A": "Its more specific heat",
+      "B": "Its more value of the dielectric constant",
+      "C": "Less molecular disassociation in H20",
+      "D": "Presence of hydrogen bonding among the molecules of H20"
+    },
+    "correct_answer": "D",
+    "explanation": "Water molecules form strong hydrogen bonds with each other, requiring more energy to break these bonds, thus resulting in a higher boiling point.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Intermolecular Forces",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 191
+  },
+  {
+    "question_text": "The tendency to donate the electron is called:",
+    "options": {
+      "A": "Oxidation",
+      "B": "Reduction",
+      "C": "Neutralization",
+      "D": "Substitution"
+    },
+    "correct_answer": "A",
+    "explanation": "Oxidation is defined as the loss or donation of electrons. Reduction is the gain of electrons.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Redox Reactions",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 191
+  },
+  {
+    "question_text": "The tendency to accept the electron is called:",
+    "options": {
+      "A": "Oxidation",
+      "B": "Reduction",
+      "C": "catylisation",
+      "D": "Self induction"
+    },
+    "correct_answer": "B",
+    "explanation": "Accepting electrons corresponds to a gain of electrons, which is the definition of reduction.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Oxidation and Reduction",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 192
+  },
+  {
+    "question_text": "The hydrogen burning process is directly associated with:",
+    "options": {
+      "A": "Hydrolysis",
+      "B": "Reduction",
+      "C": "Oxidation",
+      "D": "Hydrogenation"
+    },
+    "correct_answer": "C",
+    "explanation": "Combustion of hydrogen (2H₂ + O₂ → 2H₂O) involves hydrogen losing electrons to oxygen, i.e., oxidation.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Redox Reactions",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 192
+  },
+  {
+    "question_text": "The rusting of the iron is the example of:",
+    "options": {
+      "A": "Oxidation",
+      "B": "Reduction",
+      "C": "Polymerisation",
+      "D": "Galvanization"
+    },
+    "correct_answer": "A",
+    "explanation": "Rusting involves iron reacting with oxygen and losing electrons, which is an oxidation process.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Corrosion",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 192
+  },
+  {
+    "question_text": "In which of the following chlorine has +1 oxidation number?",
+    "options": {
+      "A": "Hypochlorous acid",
+      "B": "Hydrochloric acid",
+      "C": "Zinc chloride",
+      "D": "Chlorine"
+    },
+    "correct_answer": "A",
+    "explanation": "In HOCl, chlorine is bonded to oxygen (more electronegative) and hydrogen; the oxidation state of chlorine is +1.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Oxidation Numbers",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 192
+  },
+  {
+    "question_text": "The element chromium (Cr) has its oxidation number in K₂Cr₂O₇:",
+    "options": {
+      "A": "+6",
+      "B": "-2",
+      "C": "+7",
+      "D": "-7"
+    },
+    "correct_answer": "A",
+    "explanation": "Balancing the charges in the dichromate ion gives each chromium an oxidation state of +6.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Oxidation Numbers",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 192
+  },
+  {
+    "question_text": "Mohr salt is:",
+    "options": {
+      "A": "Simple salt",
+      "B": "Hybrid salt",
+      "C": "Double salt",
+      "D": "Complex salt"
+    },
+    "correct_answer": "C",
+    "explanation": "Mohr's salt (ammonium iron(II) sulfate) crystallizes as a double salt composed of two different ionic compounds.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Salts",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 192
+  },
+  {
+    "question_text": "Hydrogen is the most fundamental component of all the acid, it is firstly stated by:",
+    "options": {
+      "A": "Arrhenius",
+      "B": "Bronsted",
+      "C": "Devi",
+      "D": "Lori"
+    },
+    "correct_answer": "A",
+    "explanation": "Svante Arrhenius introduced the concept that acids produce hydrogen ions (H⁺) in aqueous solution.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Acid–Base Theories",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 192
+  },
+  {
+    "question_text": "In which of the following silver is not to be present?",
+    "options": {
+      "A": "Horn silver",
+      "B": "German silver",
+      "C": "Ruby silver",
+      "D": "Lunar caustic"
+    },
+    "correct_answer": "D",
+    "explanation": "Horn silver, German silver, and Ruby silver are all silver alloys. Lunar caustic is a chemical reagent and does not contain silver.",
+    "subject": "General Science",
+    "chapter": "Materials and Solutions",
+    "topic": "Silver Alloys",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 193
+  },
+  {
+    "question_text": "The oxidation state of manganese (Mn) in KMnO4 is:",
+    "options": {
+      "A": "+2",
+      "B": "-2",
+      "C": "+7",
+      "D": "-7"
+    },
+    "correct_answer": "C",
+    "explanation": "In KMnO4, K is +1 and O is -2. Let Mn be x. $1 + x + 4(-2) = 0 \\Rightarrow x = +7$.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Oxidation States",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 194
+  },
+  {
+    "question_text": "The element whose oxidation state in its every compound is same:",
+    "options": {
+      "A": "Carbon",
+      "B": "Fluorine",
+      "C": "Hydrogen",
+      "D": "Oxygen"
+    },
+    "correct_answer": "B",
+    "explanation": "Fluorine is the most electronegative element and always has an oxidation state of -1 in its compounds. Oxygen can be -1, -1/2, or +2. Hydrogen can be +1 or -1. Carbon varies.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Oxidation States",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 194
+  },
+  {
+    "question_text": "The oxidation state of oxygen in OF2 is:",
+    "options": {
+      "A": "+2",
+      "B": "-2",
+      "C": "+1",
+      "D": "-1"
+    },
+    "correct_answer": "A",
+    "explanation": "Fluorine is more electronegative than oxygen, so F is -1. Let O be x. $x + 2(-1) = 0 \\Rightarrow x = +2$.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Oxidation States",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 194
+  },
+  {
+    "question_text": "The acid is a substance which:",
+    "options": {
+      "A": "Accepts (gains) electron",
+      "B": "Donates electrons",
+      "C": "Provides (donates) proton",
+      "D": "Donates OH- ion"
+    },
+    "correct_answer": "C",
+    "explanation": "According to the Brønsted-Lowry theory, an acid is a proton (H+) donor.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Acids and Bases",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 194
+  },
+  {
+    "question_text": "The alkali is a substance which:",
+    "options": {
+      "A": "Provides (donates) proton",
+      "B": "Accepts proton",
+      "C": "Donates electron",
+      "D": "Accepts electron pair"
+    },
+    "correct_answer": "B",
+    "explanation": "According to the Brønsted-Lowry theory, a base/alkali is a proton (H+) acceptor.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Acids and Bases",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 194
+  },
+  {
+    "question_text": "The substance which makes the blue litmus paper red is :",
+    "options": {
+      "A": "Acid",
+      "B": "Base",
+      "C": "Alkali",
+      "D": "Salt"
+    },
+    "correct_answer": "A",
+    "explanation": "Acids turn blue litmus paper red.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Indicators",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 194
+  },
+  {
+    "question_text": "The substance which makes the red litmus paper blue is:",
+    "options": {
+      "A": "Acid",
+      "B": "Alkali",
+      "C": "Salt",
+      "D": "None of these"
+    },
+    "correct_answer": "B",
+    "explanation": "Alkalis (bases) turn red litmus paper blue.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Indicators",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 194
+  },
+  {
+    "question_text": "The first time pH value measurement is done by:",
+    "options": {
+      "A": "Leviatiae",
+      "B": "Pristley",
+      "C": "Cauvendish",
+      "D": "Sorensan"
+    },
+    "correct_answer": "D",
+    "explanation": "The pH scale was proposed by Søren Sørensen (Sorensan) in 1909.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "pH Scale",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 195
+  },
+  {
+    "question_text": "The average pH value of the human blood is:",
+    "options": {
+      "A": "5.4",
+      "B": "6.2",
+      "C": "7.4",
+      "D": "8.7"
+    },
+    "correct_answer": "C",
+    "explanation": "Human blood maintains a slightly alkaline pH of approximately 7.4.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "pH Values",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 195
+  },
+  {
+    "question_text": "The average pH value of the milk is:",
+    "options": {
+      "A": "6.1",
+      "B": "6.6",
+      "C": "7.4",
+      "D": "8"
+    },
+    "correct_answer": "B",
+    "explanation": "Milk is slightly acidic with an average pH of around 6.6.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "pH Values",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 195
+  },
+  {
+    "question_text": "What is the pH value of pure water?",
+    "options": {
+      "A": "6.4",
+      "B": "6.6",
+      "C": "7",
+      "D": "7.4"
+    },
+    "correct_answer": "C",
+    "explanation": "Pure water is neutral and has a pH of 7 at standard temperature.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "pH Values",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 195
+  },
+  {
+    "question_text": "Which of the following is called philosopher's wool?",
+    "options": {
+      "A": "Zinc bromide",
+      "B": "Zinc nitrate",
+      "C": "Zinc oxide",
+      "D": "Zinc chloride"
+    },
+    "correct_answer": "C",
+    "explanation": "Zinc oxide is known as philosopher's wool.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Zinc Compounds",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 195
+  },
+  {
+    "question_text": "The container employed in the process of electrolysis is called:",
+    "options": {
+      "A": "Ammeter",
+      "B": "Voltmeter",
+      "C": "Voltammeter",
+      "D": "Calorimeter"
+    },
+    "correct_answer": "C",
+    "explanation": "A voltammeter is the apparatus used for electrolysis.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Electrolysis",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 195
+  },
+  {
+    "question_text": "In the process of electrolysis oxidation occurs at:",
+    "options": {
+      "A": "Cathode",
+      "B": "Anode",
+      "C": "Both of these",
+      "D": "None of these"
+    },
+    "correct_answer": "B",
+    "explanation": "Oxidation (loss of electrons) takes place at the anode.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Electrolysis",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 195
+  },
+  {
+    "question_text": "In the process of electrolysis reduction occurs at :",
+    "options": {
+      "A": "Cathode",
+      "B": "Anode",
+      "C": "Both of these",
+      "D": "None of these"
+    },
+    "correct_answer": "A",
+    "explanation": "Reduction (gain of electrons) takes place at the cathode.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Electrolysis",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 195
   }
 ]

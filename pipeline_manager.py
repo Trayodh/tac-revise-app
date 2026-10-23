@@ -186,9 +186,12 @@ def run_pipeline():
             
         result = extract_page(pdf_name, page_num)
         
-        if result:
-            notes = result.get('notes', [])
-            questions = result.get('questions', [])
+        if result and isinstance(result, dict):
+            raw_notes = result.get('notes', [])
+            raw_questions = result.get('questions', [])
+            
+            notes = [n for n in raw_notes if isinstance(n, dict)]
+            questions = [q for q in raw_questions if isinstance(q, dict)]
             
             for n in notes:
                 n['source_pdf'] = pdf_name
