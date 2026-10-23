@@ -937231,5 +937231,864 @@
     "topic": "Adjectives of Number",
     "source_pdf": "afcat_reasoning_notes.pdf",
     "source_page": 178
+  },
+  {
+    "question_text": "Where should the adverb 'too' be placed in relation to an adjective or adverb?",
+    "options": {
+      "A": "After the adjective/adverb",
+      "B": "Before the adjective/adverb",
+      "C": "At the end of the sentence",
+      "D": "Between the subject and verb"
+    },
+    "correct_answer": "B",
+    "explanation": "According to Rule 8, the adverb 'too' goes before an Adjective or Adverb (e.g., too slowly, too late).",
+    "subject": "English Grammar",
+    "chapter": "Adverbs",
+    "topic": "Placement of 'Too'",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 181
+  },
+  {
+    "question_text": "In the sentence 'She is wise enough to allow her son to go,' where is the adverb 'enough' placed?",
+    "options": {
+      "A": "Before the adjective 'wise'",
+      "B": "After the adjective 'wise'",
+      "C": "Before the noun 'son'",
+      "D": "At the beginning of the sentence"
+    },
+    "correct_answer": "B",
+    "explanation": "According to Rule 9, the adverb 'enough' goes after an Adjective or an Adverb. Here, it follows the adjective 'wise'.",
+    "subject": "English Grammar",
+    "chapter": "Adverbs",
+    "topic": "Placement of 'Enough'",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 181
+  },
+  {
+    "question_text": "Which of the following phrases is correctly used before a noun?",
+    "options": {
+      "A": "Many too people",
+      "B": "Too many people",
+      "C": "People too many",
+      "D": "Much too pain"
+    },
+    "correct_answer": "B",
+    "explanation": "According to Rule 10, 'too many' and 'too much' are used before a noun. 'Too many people' is the correct structure.",
+    "subject": "English Grammar",
+    "chapter": "Adverbs",
+    "topic": "Placement before Nouns",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 181
+  },
+  {
+    "question_text": "What is the primary function of a verb in a sentence?",
+    "options": {
+      "A": "To describe a noun",
+      "B": "To tell about an action or state",
+      "C": "To connect two clauses",
+      "D": "To modify an adjective"
+    },
+    "correct_answer": "B",
+    "explanation": "A verb is defined as a word that tells about an action or state. It is the main word in a sentence.",
+    "subject": "English Grammar",
+    "chapter": "Verbs",
+    "topic": "Definition and Function",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 181
+  },
+  {
+    "question_text": "Identify the type of verb in the sentence: 'The dog ran.'",
+    "options": {
+      "A": "Transitive Verb",
+      "B": "Intransitive Verb",
+      "C": "Helping Verb",
+      "D": "Modal Verb"
+    },
+    "correct_answer": "B",
+    "explanation": "'Ran' is an intransitive verb because it does not require an object to complete the sentence's meaning.",
+    "subject": "English Grammar",
+    "chapter": "Verbs",
+    "topic": "Intransitive Verbs",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 181
+  },
+  {
+    "question_text": "Which of the following sentences contains a transitive verb?",
+    "options": {
+      "A": "The Sun shines.",
+      "B": "They jumped.",
+      "C": "She writes a letter.",
+      "D": "The dog ran."
+    },
+    "correct_answer": "C",
+    "explanation": "'Writes' is a transitive verb because it requires an object ('a letter') to complete the sentence. The other options contain intransitive verbs.",
+    "subject": "English Grammar",
+    "chapter": "Verbs",
+    "topic": "Transitive Verbs",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 181
+  },
+  {
+    "question_text": "Choose the correct form of the verb \"to be\" in the present tense: \"She ___ going to school.\"",
+    "options": {
+      "A": "am",
+      "B": "is",
+      "C": "are",
+      "D": "was"
+    },
+    "correct_answer": "B",
+    "explanation": "The subject \"She\" is a singular third‑person pronoun, so the correct auxiliary verb is \"is\".",
+    "subject": "English",
+    "chapter": "Verbs",
+    "topic": "Auxiliary Verbs – Present Tense",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 182
+  },
+  {
+    "question_text": "Choose the correct form of the verb \"to be\" in the past tense: \"They ___ at the party.\"",
+    "options": {
+      "A": "am",
+      "B": "is",
+      "C": "were",
+      "D": "was"
+    },
+    "correct_answer": "C",
+    "explanation": "The subject \"They\" is plural, so the past tense auxiliary verb is \"were\".",
+    "subject": "English",
+    "chapter": "Verbs",
+    "topic": "Auxiliary Verbs – Past Tense",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 182
+  },
+  {
+    "question_text": "Identify the correct past participle form: \"He has ___ a new car.\"",
+    "options": {
+      "A": "buy",
+      "B": "bought",
+      "C": "buying",
+      "D": "buys"
+    },
+    "correct_answer": "B",
+    "explanation": "The past participle of \"buy\" is \"bought\", used after \"has\" in the present perfect tense.",
+    "subject": "English",
+    "chapter": "Verbs",
+    "topic": "Verb Forms – Past Participle",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 182
+  },
+  {
+    "question_text": "Which sentence uses the correct verb form? \"I have ___ a book.\"",
+    "options": {
+      "A": "read",
+      "B": "reads",
+      "C": "reading",
+      "D": "readed"
+    },
+    "correct_answer": "A",
+    "explanation": "\"Read\" is the past participle of \"read\" and is used after \"have\" in the present perfect tense.",
+    "subject": "English",
+    "chapter": "Verbs",
+    "topic": "Verb Forms – Past Participle",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 182
+  },
+  {
+    "question_text": "Which rule applies to the sentence: \"None of those reasons ___ valid.\"",
+    "options": {
+      "A": "is",
+      "B": "are",
+      "C": "was",
+      "D": "were"
+    },
+    "correct_answer": "A",
+    "explanation": "The expression \"None of\" takes a singular verb; therefore \"is\" is correct.",
+    "subject": "English",
+    "chapter": "Verbs",
+    "topic": "Singular vs Plural – Rule 4",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 182
+  },
+  {
+    "question_text": "Choose the correct verb form: \"The team ___ a new record.\"",
+    "options": {
+      "A": "set",
+      "B": "sets",
+      "C": "setting",
+      "D": "seted"
+    },
+    "correct_answer": "A",
+    "explanation": "\"Set\" is the past tense and past participle of \"set\"; it matches the simple past tense in the sentence.",
+    "subject": "English",
+    "chapter": "Verbs",
+    "topic": "Verb Forms – Past Tense",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 182
+  },
+  {
+    "question_text": "Which auxiliary verb is correct in the present tense: \"They ___ going to the market.\"",
+    "options": {
+      "A": "am",
+      "B": "is",
+      "C": "are",
+      "D": "was"
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 182
+  },
+  {
+    "question_text": "Which modal verb is used to express the idea of knowing the willingness of the other person, as in 'Shall I open the door for you?'",
+    "options": {
+      "A": "Should",
+      "B": "Shall",
+      "C": "Would",
+      "D": "Must"
+    },
+    "correct_answer": "B",
+    "explanation": "According to the text, 'Shall' is used to express the idea of knowing the willingness of the other person. Example: 'Shall I open the door for you?'",
+    "subject": "English Grammar",
+    "chapter": "Modal Verbs",
+    "topic": "Usage of 'Shall'",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 184
+  },
+  {
+    "question_text": "In the sentence 'Should you work hard, you will get success,' the word 'Should' is used in the sense of:",
+    "options": {
+      "A": "Obligation",
+      "B": "Future in the past",
+      "C": "If",
+      "D": "Probability"
+    },
+    "correct_answer": "C",
+    "explanation": "The text states that 'Should' is used to express Condition and is used in the sense of 'if'. Example: 'Should you work hard, you will get success.'",
+    "subject": "English Grammar",
+    "chapter": "Modal Verbs",
+    "topic": "Usage of 'Should'",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 184
+  },
+  {
+    "question_text": "The form 'Should + Have' is used to express:",
+    "options": {
+      "A": "Future possibility",
+      "B": "Obligation in the past",
+      "C": "Strong desire",
+      "D": "Polite request"
+    },
+    "correct_answer": "B",
+    "explanation": "The text explains that 'Should + Have' is used to express obligation in the past and may imply the non-performance of the action.",
+    "subject": "English Grammar",
+    "chapter": "Modal Verbs",
+    "topic": "Should + Have",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 184
+  },
+  {
+    "question_text": "Which modal verb is used to make a request more politely, as in 'Would you accompany me to the railway station?'",
+    "options": {
+      "A": "Must",
+      "B": "Shall",
+      "C": "Would",
+      "D": "Should"
+    },
+    "correct_answer": "C",
+    "explanation": "The text states that 'Would' is used for making requests more politely. Example: 'Would you accompany me to the railway station?'",
+    "subject": "English Grammar",
+    "chapter": "Modal Verbs",
+    "topic": "Usage of 'Would'",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 184
+  },
+  {
+    "question_text": "In the sentence 'He has a big house. He must be rich,' the modal verb 'Must' is used to express:",
+    "options": {
+      "A": "Necessity",
+      "B": "Order",
+      "C": "Deduction/Inference",
+      "D": "Strong Possibility"
+    },
+    "correct_answer": "C",
+    "explanation": "The text categorizes 'He has a big house. He must be rich' under 'Deduction, Inference', where 'must' is used to draw a logical conclusion based on evidence.",
+    "subject": "English Grammar",
+    "chapter": "Modal Verbs",
+    "topic": "Usage of 'Must'",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 184
+  },
+  {
+    "question_text": "Which modal verb is used to express 'Strong Possibility' in place of 'may', as in 'The teacher must be in the class.'?",
+    "options": {
+      "A": "Should",
+      "B": "Would",
+      "C": "Shall",
+      "D": "Must"
+    },
+    "correct_answer": "D",
+    "explanation": "The text states that 'Must' is used to express Strong Possibility (in place of 'may'). Example: 'It is ten. The teacher must be in the class.'",
+    "subject": "English Grammar",
+    "chapter": "Modal Verbs",
+    "topic": "Usage of 'Must'",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 184
+  },
+  {
+    "question_text": "Which of the following is a compound preposition?",
+    "options": {
+      "A": "in front of",
+      "B": "above",
+      "C": "on top of",
+      "D": "during"
+    },
+    "correct_answer": "C",
+    "explanation": "A compound preposition is formed by a preposition combined with a noun, adjective, or adverb. *On top of* is a compound preposition, whereas *above* is a simple preposition and *in front of* is a phrasal preposition.",
+    "subject": "English",
+    "chapter": "Prepositions",
+    "topic": "Compound Prepositions",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 185
+  },
+  {
+    "question_text": "Which preposition is used with longer periods of time such as month, year, or season?",
+    "options": {
+      "A": "at",
+      "B": "in",
+      "C": "on",
+      "D": "since"
+    },
+    "correct_answer": "B",
+    "explanation": "The preposition **in** is used with longer periods of time (month, year, season, part of day). For example, *I will finish the project in a month.*",
+    "subject": "English",
+    "chapter": "Prepositions",
+    "topic": "Prepositions of Time",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 185
+  },
+  {
+    "question_text": "Which preposition is used with days and dates?",
+    "options": {
+      "A": "in",
+      "B": "on",
+      "C": "at",
+      "D": "since"
+    },
+    "correct_answer": "B",
+    "explanation": "The preposition **on** is used with days (e.g., *on Sundays*) and dates (e.g., *on 26th April*).",
+    "subject": "English",
+    "chapter": "Prepositions",
+    "topic": "Prepositions of Time",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 185
+  },
+  {
+    "question_text": "Choose the correct preposition to fill in the blank: There is a light hanging ______ the table.",
+    "options": {
+      "A": "on",
+      "B": "over",
+      "C": "above",
+      "D": "under"
+    },
+    "correct_answer": "B",
+    "explanation": "'Over' is used when a thing is exactly upwards of some other thing and is not touching it. A light hanging above a table fits this definition.",
+    "subject": "English",
+    "chapter": "Prepositions",
+    "topic": "Over vs Above",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 186
+  },
+  {
+    "question_text": "Select the appropriate preposition: Her level of intelligence is ______ all others.",
+    "options": {
+      "A": "over",
+      "B": "above",
+      "C": "on",
+      "D": "upon"
+    },
+    "correct_answer": "B",
+    "explanation": "'Above' is used when something is at a higher level than some other thing. Intelligence is an abstract level, so 'above' is correct.",
+    "subject": "English",
+    "chapter": "Prepositions",
+    "topic": "Over vs Above",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 186
+  },
+  {
+    "question_text": "Fill in the blank: A pen is lying ______ your chair.",
+    "options": {
+      "A": "beneath",
+      "B": "below",
+      "C": "under",
+      "D": "on"
+    },
+    "correct_answer": "C",
+    "explanation": "'Under' is used when something is exactly below some other thing and the two things are not touching each other. A pen on the floor under a chair is not touching the chair.",
+    "subject": "English",
+    "chapter": "Prepositions",
+    "topic": "Under vs Beneath vs Below",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 186
+  },
+  {
+    "question_text": "Choose the correct preposition: There are many minerals ______ the Earth.",
+    "options": {
+      "A": "under",
+      "B": "below",
+      "C": "beneath",
+      "D": "over"
+    },
+    "correct_answer": "C",
+    "explanation": "'Beneath' is used when a thing is under some other thing and it is touching its surface. Minerals are part of the Earth's crust, touching the surface from below.",
+    "subject": "English",
+    "chapter": "Prepositions",
+    "topic": "Under vs Beneath vs Below",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 186
+  },
+  {
+    "question_text": "Select the correct preposition for mode of transport: I usually go to office ______ bus.",
+    "options": {
+      "A": "in",
+      "B": "by",
+      "C": "on",
+      "D": "with"
+    },
+    "correct_answer": "B",
+    "explanation": "'By' is used with all kinds of vehicles to indicate the mode of transport.",
+    "subject": "English",
+    "chapter": "Prepositions",
+    "topic": "By, To, Towards, Across",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 186
+  },
+  {
+    "question_text": "Fill in the blank: This road goes ______ his home.",
+    "options": {
+      "A": "to",
+      "B": "towards",
+      "C": "across",
+      "D": "on"
+    },
+    "correct_answer": "B",
+    "explanation": "'Towards' is used to refer to a direction. The road leads in the direction of his home.",
+    "subject": "English",
+    "chapter": "Prepositions",
+    "topic": "By, To, Towards, Across",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 186
+  },
+  {
+    "question_text": "Which conjunction is used to express the sequence of events?",
+    "options": {
+      "A": "If",
+      "B": "After",
+      "C": "Because",
+      "D": "Unless"
+    },
+    "correct_answer": "B",
+    "explanation": "The conjunction *after* is used to indicate that one event follows another.",
+    "subject": "English",
+    "chapter": "Subordinating Conjunctions",
+    "topic": "Usage of After",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 188
+  },
+  {
+    "question_text": "Choose the correct sentence that uses *if* to express a condition.",
+    "options": {
+      "A": "I will go to the party after you finish your homework.",
+      "B": "If you study, you will pass the exam.",
+      "C": "She is happy although she is tired.",
+      "D": "He will not come unless he is invited."
+    },
+    "correct_answer": "B",
+    "explanation": "The sentence *If you study, you will pass the exam* uses *if* to introduce a conditional clause.",
+    "subject": "English",
+    "chapter": "Subordinating Conjunctions",
+    "topic": "Usage of If",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 188
+  },
+  {
+    "question_text": "Which conjunction shows contrast between two clauses?",
+    "options": {
+      "A": "Because",
+      "B": "Though",
+      "C": "Until",
+      "D": "When"
+    },
+    "correct_answer": "B",
+    "explanation": "*Though* (and its variants *although*, *even though*) is used to show contrast.",
+    "subject": "English",
+    "chapter": "Subordinating Conjunctions",
+    "topic": "Contrast Conjunctions",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 188
+  },
+  {
+    "question_text": "Fill in the blank: *If only, I would be a Prime Minister.*",
+    "options": {
+      "A": "If only",
+      "B": "Unless",
+      "C": "Because",
+      "D": "Whenever"
+    },
+    "correct_answer": "A",
+    "explanation": "The phrase *If only* expresses a specific, often hypothetical condition.",
+    "subject": "English",
+    "chapter": "Subordinating Conjunctions",
+    "topic": "Specific Condition",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 188
+  },
+  {
+    "question_text": "Which conjunction indicates the extent of time?",
+    "options": {
+      "A": "Till",
+      "B": "As",
+      "C": "When",
+      "D": "Rather than"
+    },
+    "correct_answer": "A",
+    "explanation": "*Till* is used to indicate the extent of time.",
+    "subject": "English",
+    "chapter": "Subordinating Conjunctions",
+    "topic": "Time Extent",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 188
+  },
+  {
+    "question_text": "Choose the sentence that uses *as* to show cause.",
+    "options": {
+      "A": "As I left my home, I found a purse.",
+      "B": "She is weak as she was ill.",
+      "C": "I will not pass unless you study.",
+      "D": "They are not ready to pay until they get the house."
+    },
+    "correct_answer": "A",
+    "explanation": "*As* can indicate cause, as in *As I left my home, I found a purse*.",
+    "subject": "English",
+    "chapter": "Subordinating Conjunctions",
+    "topic": "Time, Cause, Reason",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 188
+  },
+  {
+    "question_text": "Which conjunction is used to express a negative condition?",
+    "options": {
+      "A": "Unless",
+      "B": "When",
+      "C": "Whenever",
+      "D": "After"
+    },
+    "correct_answer": "A",
+    "explanation": "*Unless* introduces a negative condition.",
+    "subject": "English",
+    "chapter": "Subordinating Conjunctions",
+    "topic": "Negative Condition",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 188
+  },
+  {
+    "question_text": "Fill in the blank: *Do not go until I come.*",
+    "options": {
+      "A": "Unless",
+      "B": "Until",
+      "C": "Because",
+      "D": "If"
+    },
+    "correct_answer": "B",
+    "explanation": "*Until* indicates a negative time condition.",
+    "subject": "English",
+    "chapter": "Subordinating Conjunctions",
+    "topic": "Negative Time",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 188
+  },
+  {
+    "question_text": "Which conjunction expresses a preference or choice?",
+    "options": {
+      "A": "Whenever",
+      "B": "Rather than",
+      "C": "When",
+      "D": "Because"
+    },
+    "correct_answer": "B",
+    "explanation": "*Rather than* is used to express preference or choice.",
+    "subject": "English",
+    "chapter": "Subordinating Conjunctions",
+    "topic": "Preference or Choice",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 188
+  },
+  {
+    "question_text": "Choose the sentence that uses *whenever* correctly.",
+    "options": {
+      "A": "Whenever I wanted to meet him, he didn’t come.",
+      "B": "I will go to the party after you finish your homework.",
+      "C": "She is happy although she wants to be more.",
+      "D": "I stayed home because it was raining."
+    },
+    "correct_answer": "A",
+    "explanation": "*Whenever* indicates a definite situation that occurs every time.",
+    "subject": "English",
+    "chapter": "Subordinating Conjunctions",
+    "topic": "Definite Situation",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 188
+  },
+  {
+    "question_text": "Which conjunction is used to express purpose, similar to 'in order that'?",
+    "options": {
+      "A": "Even if",
+      "B": "So that",
+      "C": "As soon as",
+      "D": "Provided that"
+    },
+    "correct_answer": "B",
+    "explanation": "According to the text, 'So that' is used to express purpose just as 'in order that' is used.",
+    "subject": "English Grammar",
+    "chapter": "Conjunctions",
+    "topic": "Usage of 'So that'",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 189
+  },
+  {
+    "question_text": "Complete the sentence: 'He has been granted his freedom ______ he leaves the country.'",
+    "options": {
+      "A": "even if",
+      "B": "as soon as",
+      "C": "on condition that",
+      "D": "as well as"
+    },
+    "correct_answer": "C",
+    "explanation": "'On condition that' is used to express a condition which is a necessity for another action, as shown in the example: 'He has been granted his freedom on condition that he leaves the country.'",
+    "subject": "English Grammar",
+    "chapter": "Conjunctions",
+    "topic": "Usage of 'On condition that'",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 189
+  },
+  {
+    "question_text": "Which pair of conjunctions is used to express an imaginary situation?",
+    "options": {
+      "A": "Scarcely / Hardly",
+      "B": "As if / As though",
+      "C": "While / When",
+      "D": "Lest / Should"
+    },
+    "correct_answer": "B",
+    "explanation": "'As if' and 'as though' are used to express an imaginary situation, e.g., 'It looks as if it’s going to rain.'",
+    "subject": "English Grammar",
+    "chapter": "Conjunctions",
+    "topic": "Usage of 'As though/As if'",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 189
+  },
+  {
+    "question_text": "According to Rule 1 of Conjunctions, 'Scarcely' or 'Hardly' is always followed by:",
+    "options": {
+      "A": "then",
+      "B": "after",
+      "C": "when / before",
+      "D": "because"
+    },
+    "correct_answer": "C",
+    "explanation": "Rule 1 states that 'Scarcely/hardly' is always followed by 'when' or 'before'.",
+    "subject": "English Grammar",
+    "chapter": "Conjunctions",
+    "topic": "Rule 1: Scarcely/Hardly",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 189
+  },
+  {
+    "question_text": "Which of the following statements about the conjunction 'Lest' is correct?",
+    "options": {
+      "A": "It is followed by 'will'.",
+      "B": "It is followed by 'should' and 'not' is not used with it.",
+      "C": "It is used to express purpose.",
+      "D": "It joins two actions happening one after another."
+    },
+    "correct_answer": "B",
+    "explanation": "Rule 2 states that 'Lest' is followed by 'should' and 'Not' is not used with it.",
+    "subject": "English Grammar",
+    "chapter": "Conjunctions",
+    "topic": "Rule 2: Lest",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 189
+  },
+  {
+    "question_text": "'As well as' is used to join two nouns or phrases of the same rank, similar to which co-ordinating conjunction?",
+    "options": {
+      "A": "But",
+      "B": "Or",
+      "C": "And",
+      "D": "Nor"
+    },
+    "correct_answer": "C",
+    "explanation": "The text states that 'As well as' is used to join two nouns (persons) or phrases of the same rank just as co-ordinating conjunction 'and' does.",
+    "subject": "English Grammar",
+    "chapter": "Conjunctions",
+    "topic": "Usage of 'As well as'",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 189
+  },
+  {
+    "question_text": "Which sentence correctly uses present continuous with *always*?",
+    "options": {
+      "A": "She is always complaining.",
+      "B": "She always is complaining.",
+      "C": "She always complains.",
+      "D": "She is always complained."
+    },
+    "correct_answer": "A",
+    "explanation": "Present continuous with *always* describes a repeated action that annoys the speaker. The correct form is *She is always complaining.*",
+    "subject": "English",
+    "chapter": "Grammar",
+    "topic": "Rule 8 – Present Continuous with ‘Always’",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 191
+  },
+  {
+    "question_text": "Which sentence correctly follows Rule 9 (past tense in principal and subordinate clauses)?",
+    "options": {
+      "A": "I felt that she is a little worried.",
+      "B": "I felt that she was a little worried.",
+      "C": "I felt that she had a little worried.",
+      "D": "I felt that she will be a little worried."
+    },
+    "correct_answer": "B",
+    "explanation": "Both the main clause (*I felt*) and the subordinate clause (*she was a little worried*) are in the past tense, satisfying Rule 9.",
+    "subject": "English",
+    "chapter": "Grammar",
+    "topic": "Rule 9 – Past Tense in Principal and Subordinate Clauses",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 191
+  },
+  {
+    "question_text": "Which sentence correctly uses simple past for sequential actions with *before*?",
+    "options": {
+      "A": "She changed her dress before she goes to bed.",
+      "B": "She changed her dress before she went to bed.",
+      "C": "She changes her dress before she went to bed.",
+      "D": "She changed her dress before she goes to bed."
+    },
+    "correct_answer": "B",
+    "explanation": "Both actions are in simple past, indicating a sequence: *She changed her dress before she went to bed.*",
+    "subject": "English",
+    "chapter": "Grammar",
+    "topic": "Rule 11 – Simple Past for Sequential Actions",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 191
+  },
+  {
+    "question_text": "Which sentence correctly uses present continuous to denote an action not happening at the time of speaking but part of a regular process?",
+    "options": {
+      "A": "He is writing a book.",
+      "B": "He is writing a book now.",
+      "C": "He is writing a book at the moment.",
+      "D": "He is writing a book at the moment."
+    },
+    "correct_answer": "A",
+    "explanation": "The sentence *He is writing a book* uses present continuous without time adverbs, indicating a regular process rather than an action occurring right now.",
+    "subject": "English",
+    "chapter": "Grammar",
+    "topic": "Rule 10 – Present Continuous for Regular Processes",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 191
+  },
+  {
+    "question_text": "Which sentence correctly uses the verb ending with *ss* and adds *es* in the third person singular?",
+    "options": {
+      "A": "He pass the ball to Hari.",
+      "B": "He passes the ball to Hari.",
+      "C": "He passs the ball to Hari.",
+      "D": "He pass the ball to Hari."
+    },
+    "correct_answer": "B",
+    "explanation": "The verb *pass* ends with *ss*, so the third person singular form is *passes*.",
+    "subject": "English",
+    "chapter": "Grammar",
+    "topic": "Subject-Verb Concord – Verb Endings",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 191
+  },
+  {
+    "question_text": "Neither the captain nor the players _______ present at the meeting.",
+    "options": {
+      "A": "was",
+      "B": "were",
+      "C": "have been",
+      "D": "is"
+    },
+    "correct_answer": "B",
+    "explanation": "According to Rule 6, when subjects are connected by 'neither...nor', the verb agrees with the nearest subject. Here, the nearest subject is 'the players' (plural), so the verb must be plural ('were').",
+    "subject": "English Grammar",
+    "chapter": "Subject-Verb Agreement",
+    "topic": "Rule 6: Correlative Conjunctions",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 192
+  },
+  {
+    "question_text": "_______ of students have passed the examination.",
+    "options": {
+      "A": "The number",
+      "B": "A number",
+      "C": "The numbers",
+      "D": "No number"
+    },
+    "correct_answer": "B",
+    "explanation": "According to Rule 7, 'A number of' is followed by a plural noun and a plural verb. 'The number of' would require a singular verb (e.g., 'The number of students has passed'). Since the verb is 'have' (plural), 'A number' is correct.",
+    "subject": "English Grammar",
+    "chapter": "Subject-Verb Agreement",
+    "topic": "Rule 7: 'A number of' vs 'The number of'",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 192
+  },
+  {
+    "question_text": "The cost and the price of the item _______ very high.",
+    "options": {
+      "A": "are",
+      "B": "is",
+      "C": "were",
+      "D": "have been"
+    },
+    "correct_answer": "B",
+    "explanation": "According to Rule 8, when two nouns are almost identical in meaning (cost and price) and used for emphasis, a singular verb is used. Therefore, 'is' is the correct choice.",
+    "subject": "English Grammar",
+    "chapter": "Subject-Verb Agreement",
+    "topic": "Rule 8: Identical Nouns for Emphasis",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 192
+  },
+  {
+    "question_text": "Bread and butter _______ my favorite breakfast.",
+    "options": {
+      "A": "are",
+      "B": "were",
+      "C": "is",
+      "D": "have been"
+    },
+    "correct_answer": "C",
+    "explanation": "According to Rule 9, when two nouns are part of the same idea and used as a phrase (Bread and butter), the verb is singular. Thus, 'is' is correct.",
+    "subject": "English Grammar",
+    "chapter": "Subject-Verb Agreement",
+    "topic": "Rule 9: Nouns as a Single Phrase/Idea",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 192
+  },
+  {
+    "question_text": "Either you or he _______ to blame for the mistake.",
+    "options": {
+      "A": "are",
+      "B": "is",
+      "C": "were",
+      "D": "have"
+    },
+    "correct_answer": "B",
+    "explanation": "According to Rule 6, with 'either...or', the verb agrees with the nearest subject. The nearest subject is 'he' (singular), so the singular verb 'is' is required.",
+    "subject": "English Grammar",
+    "chapter": "Subject-Verb Agreement",
+    "topic": "Rule 6: Correlative Conjunctions",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 192
   }
 ]
