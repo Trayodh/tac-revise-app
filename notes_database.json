@@ -181918,5 +181918,761 @@
     "source_book": "UPSC CDS & NDA 10-Year PYQ Synthesis",
     "page": 1,
     "content": "### PYQ Deep Analysis: Indian Monsoon Dynamics, Jet Streams & ENSO Teleconnections\n\n*Synthesized from analysis of 110+ UPSC CDS & CAPF questions on Indian Climatology.*\n\n#### 1. The 5 Driving Forces of the Indian Southwest Monsoon\n1. **Differential Heating of Land and Sea:** Creates low pressure over northwest India and high pressure over the South Indian Ocean.\n2. **Seasonal Shift of the ITCZ (Inter-Tropical Convergence Zone):** In summer, the ITCZ shifts northward over the Gangetic Plain (referred to as the *Monsoon Trough*).\n3. **Tibetan Plateau Heating:** Intensive heating of the Tibetan Plateau in summer causes strong vertical air convection and high-level anticyclone formation at ~9 km.\n4. **Subtropical Westerly Jet Stream (STWJ) Withdrawal:** The abrupt withdrawal of the STWJ from the southern slopes of the Himalayas to north of Tibet is the trigger for the **\"Burst of Monsoon\"** over India.\n5. **Tropical Easterly Jet Stream (TEJ):** Formed over the heated Tibetan Plateau, it descends over the Mascarene High (near Madagascar), intensifying the southwest monsoon winds.\n\n#### 2. Teleconnections: El Niño, La Niña, and Indian Ocean Dipole (IOD)\n| Ocean-Atmosphere Phenomenon | Mechanism | Impact on Indian Monsoon |\n| :--- | :--- | :--- |\n| **El Niño** (Warm ENSO phase) | Anomalous warming of central and eastern equatorial Pacific waters off Peru. Reversal/weakening of Walker Circulation. | **Drought / Deficit Rainfall** in Indian Monsoon (~60% correlation). |\n| **La Niña** (Cold ENSO phase) | Anomalous cooling of eastern Pacific waters; stronger trade winds. | **Normal to Surplus Monsoon**; increased flood risk. |\n| **Positive IOD** (+ve Indian Ocean Dipole) | Western Indian Ocean (near Arabian Sea) becomes warmer than Eastern Indian Ocean (near Indonesia). | **Boosts Indian Monsoon**, counteracting the negative effects of El Niño (e.g. Monsoon 1997 & 2019)! |\n| **Negative IOD** (-ve Indian Ocean Dipole) | Eastern Indian Ocean warmer than Western. | Weakens monsoon winds; suppresses rainfall over peninsular India. |\n\n#### 3. Winter Monsoon & Western Disturbances (UPSC Traps)\n- **Northeast Monsoon (Retreating Monsoon):**\n  - Originates as dry continental winds, picks up moisture while crossing the **Bay of Bengal**, and brings torrential winter rainfall to the **Coromandel Coast (Tamil Nadu)** in October–December.\n- **Western Disturbances:**\n  - Temperate extra-tropical cyclones originating over the **Mediterranean Sea**.\n  - Steered into northwest India by the **Subtropical Westerly Jet Stream**.\n  - Highly beneficial for winter **Rabi crops**, especially **Wheat** in Punjab, Haryana, and Western UP, and brings snowfall to Western Himalayas.\n"
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Catalysts",
+    "subchapter": "Industrial Catalysts",
+    "topic": "Definition and Classification of Catalysts",
+    "content": "# Catalysts\n\n- **Definition**: A substance that increases the rate of a chemical reaction without being consumed in the process.\n- **Types**:\n  - *Homogeneous*: Catalyst and reactants are in the same phase.\n  - *Heterogeneous*: Catalyst is in a different phase (most common in industry).\n  - *Enzymatic*: Biological catalysts.\n- **Key Properties**:\n  - *Selectivity*: Ability to favor a particular product.\n  - *Stability*: Resistance to deactivation (coking, sintering, poisoning).\n  - *Recyclability*: Ability to be recovered and reused.\n- **Common Industrial Catalysts**:\n  - *Nickel (Ni)* – hydrogenation of oils.\n  - *Platinum (Pt)* – lead chamber process, contact process for H₂SO₄.\n  - *Iron (Fe)* – Haber process for ammonia.\n  - *Molybdenum (Mo)* – used in some catalytic converters.\n\n> **Formula**: Rate = k[Reactants]ⁿ (k is the rate constant, increased by catalyst).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 197
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Catalysts",
+    "subchapter": "Industrial Catalysts",
+    "topic": "Catalysts in Hydrogenation of Oils",
+    "content": "## Hydrogenation of Oils\n\n- **Process**: Unsaturated fatty acids are converted to saturated fatty acids by adding hydrogen.\n- **Catalyst**: Nickel (Ni) powder or nickel on a support (e.g., alumina).\n- **Reaction**: \n  \n  \n  \n- **Applications**: Production of margarine, shortening, and solid fats.\n- **Advantages**: Low cost, high activity, good selectivity for partial hydrogenation.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 197
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Catalysts",
+    "subchapter": "Industrial Catalysts",
+    "topic": "Catalysts in the Lead Chamber Process",
+    "content": "## Lead Chamber Process\n\n- **Purpose**: Production of nitric acid (HNO₃).\n- **Catalyst**: Platinum (Pt) or a platinum alloy.\n- **Reaction**: \n  \n  \n- **Mechanism**: Platinum facilitates the oxidation of ammonia to nitric oxide, which is then absorbed in water to form nitric acid.\n- **Historical Note**: Developed in the 19th century; replaced by the Ostwald process.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 197
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Catalysts",
+    "subchapter": "Industrial Catalysts",
+    "topic": "Catalysts in the Contact Process",
+    "content": "## Contact Process\n\n- **Purpose**: Manufacture of sulfuric acid (H₂SO₄).\n- **Catalyst**: Platinum (Pt) or a platinum alloy.\n- **Key Reaction**:\n  \n  \n- **Operating Conditions**: 450–500 °C, 1–2 atm.\n- **Catalyst Role**: Accelerates the oxidation of SO₂ to SO₃.\n- **Catalyst Deactivation**: Sulfur deposition (sulfur poisoning) can reduce activity.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 197
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Catalysts",
+    "subchapter": "Industrial Catalysts",
+    "topic": "Catalysts in the Haber Process",
+    "content": "## Haber Process\n\n- **Purpose**: Synthesis of ammonia (NH₃) from nitrogen (N₂) and hydrogen (H₂).\n- **Catalyst**: Iron (Fe) with a small amount of potassium hydroxide (KOH) as promoter.\n- **Reaction**:\n  \n  \n- **Operating Conditions**: 400–500 °C, 150–300 atm.\n- **Catalyst Features**: High surface area, resistance to coking, ability to adsorb N₂ and H₂.\n- **Historical Significance**: Revolutionized fertilizer production and global agriculture.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 197
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Alternative Energy Sources",
+    "subchapter": "Biofuels",
+    "topic": "Ethanol Production from Sugarcane",
+    "content": "## Ethanol from Sugarcane\n\n- **Feedstock**: Sugarcane or its by‑product molasses.\n- **Process**:\n  1. **Fermentation**: Yeast converts sugars to ethanol.\n  2. **Distillation**: Separates ethanol from the fermentation broth.\n  3. **Dehydration** (optional): Removes residual water for fuel quality.\n- **Advantages**:\n  - Renewable source.\n  - Lower greenhouse gas emissions compared to fossil fuels.\n  - Can be blended with gasoline (e.g., E10, E20).\n- **Geographical Note**: Brazil is a leading producer of sugarcane ethanol.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 197
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Fuels and Energy",
+    "topic": "Composition of Gaseous Fuels",
+    "content": "- **Producer Gas**: A gaseous mixture primarily composed of carbon monoxide (CO) and nitrogen (N2).\n- **Natural Gas**: The main component is Methane (CH4).\n- **L.P.G. (Liquefied Petroleum Gas)**: The main component is Butane (C4H10), often mixed with Propane.\n- **Coal Gas**: Typically contains hydrogen, methane, and carbon monoxide.\n- **Water Gas**: A mixture of carbon monoxide and hydrogen.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 198
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Fuels and Energy",
+    "topic": "Calorific Value and Environmental Impact",
+    "content": "- **Calorific Value**: Hydrogen has the maximum calorific value among common fuels (approx. 142 kJ/g), followed by Natural Gas, Gasoline, and Charcoal.\n- **Environmental Pollution**: Hydrogen is considered the cleanest fuel as it produces only water upon combustion, resulting in minimum environmental pollution compared to Diesel, Coal, or Kerosene.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 198
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Fuels and Energy",
+    "topic": "Types of Coal",
+    "content": "- **Anthracite**: Has the highest percentage of carbon among coal types. It is hard, shiny, and burns with a short blue flame.\n- **Lignite**: Known as 'Brown Coal'. It has the lowest carbon content and highest moisture content among coals.\n- **Bituminous**: A hard black coal with a high carbon content, intermediate between lignite and anthracite.\n- **Peat**: A precursor to coal, not fully formed, with very low carbon content.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 198
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Fuels and Energy",
+    "topic": "Fuel Properties",
+    "content": "- **Anti-knocking Property**: The resistance of a fuel to knocking (premature ignition) in internal combustion engines is measured by the **Octane Number** (often referred to as Golden number in some contexts, though Octane is the standard term). Higher octane number indicates better anti-knocking properties.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 198
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Periodic Table",
+    "topic": "Classification and Properties of Elements",
+    "content": "### Periodic Table Classification\n- **Mendeleev's Periodic Table**: Classified elements based on **Atomic Mass**.\n- **Modern Periodic Table**: Classified elements based on **Atomic Number** (proposed by Moseley).\n- **Modern Periodic Law**: Propounded by **Moseley**.\n\n### Fundamental Properties\n- The **Atomic Number** is considered the most fundamental property of an element.\n\n### Extreme Properties of Elements\n- **Heaviest Metal**: **Mercury** (Note: In the context of this specific MCQ set, Mercury is listed as the answer for 'heaviest metal', though Osmium/Iridium are typically heavier by density. However, based on the provided text options and standard exam keys for this specific question bank, Mercury is the intended answer or there is a specific context regarding liquid metals/heavy elements in this source. *Correction*: Actually, looking at standard chemistry, Osmium is the densest. However, in many competitive exam contexts, questions about 'heaviest metal' often refer to **Mercury** if the options are limited to common metals, or it might be a trick question. Let's look at the options: Silver, Gold, Mercury, Platinum. Among these, Mercury is not the densest (Gold is ~19.3, Mercury is ~13.5, Platinum is ~21.4). Wait, let's re-evaluate standard facts. Platinum is denser than Gold. Gold is denser than Mercury. Silver is less dense. If the question asks for the heaviest *liquid* metal, it's Mercury. If it asks for the heaviest metal generally, it's Osmium. Given the options A. Silver, B. Gold, C. Mercury, D. Platinum, and the typical pattern of such questions, there might be an error in the source or a specific definition. However, for the purpose of extraction, I will record the facts as presented in standard science, but note the MCQ answer key if implied. Let's look at Q133. Lightest metal is Lithium. Lightest element is Hydrogen.\n\n*Re-evaluating Q132*: In many Indian competitive exam contexts, **Mercury** is often cited as the heaviest *liquid* metal. If the question implies 'heaviest metal' among the options provided in a specific context (like liquid state), it's Mercury. If it's general density, Platinum is the heaviest among the options. However, standard fact: **Lithium** is the lightest metal. **Hydrogen** is the lightest element. **Mercury** is the only metal that is liquid at room temperature. Let's stick to the explicit facts in the questions.\n\n**Key Facts:**\n1. Mendeleev classified by Atomic Mass.\n2. Moseley propounded the modern periodic law (based on Atomic Number).\n3. Modern periodic table is based on Atomic Number.\n4. Atomic Number is the most fundamental property.\n5. **Lithium** is the lightest metal.\n6. **Hydrogen** is the lightest element.\n7. **Mercury** is often associated with being the heaviest *liquid* metal (though the question text says 'heaviest metal', in the context of options A-D, if the answer key says Mercury, it's likely referring to its unique liquid state or is a flawed question. However, scientifically, Platinum is heavier than Mercury. Let's assume the question meant 'heaviest liquid metal' or the source has a specific key. I will extract the question as is.)",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 199
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Metallurgy",
+    "topic": "Ore Concentration Processes",
+    "content": "### Ore Concentration Methods\n- **Magnetic Separation Process**: Employed to remove magnetic impurities from ores. This method utilizes the magnetic properties of the ore or impurities to separate them.\n- **Froth Floatation Process**: The primary concentration process used for **sulphide ores**. It relies on the difference in the ability of ore particles and gangue to get wet by water or oil.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 200
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Metallurgy",
+    "topic": "Important Ores and Metals",
+    "content": "### Key Ores and Their Corresponding Metals\n- **Mercury**: Main ore is **Cinnabar** (HgS).\n- **Aluminium**: Extracted mainly from **Bauxite** (Al2O3·xH2O).\n- **Lead**: Ore is **Galena** (PbS).\n- **Thorium**: Ore is **Monazite** (a phosphate mineral containing thorium, cerium, and other rare earth elements).\n- **Radium**: Historically extracted from **Pitchblende** (uranium ore). Note: The source text contains a typo 'Pinch blend' which refers to Pitchblende.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 200
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Inorganic Chemistry",
+    "topic": "Common Chemical Compounds",
+    "content": "### Chemical Formulas\n- **Washing Soda**: Sodium Carbonate Decahydrate.\n  - Formula: **Na2CO3·10H2O**\n  - Distinction: Do not confuse with Baking Soda (Sodium Bicarbonate, NaHCO3) or Caustic Soda (Sodium Hydroxide, NaOH).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 200
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Inorganic Chemistry",
+    "topic": "Ocean Salinity",
+    "content": "### Ocean Salinity\n- The dominant salt contributing to the salinity of ocean water is **sodium chloride (NaCl)**.\n- Sodium chloride accounts for about **55 %** of the total dissolved salts in seawater, making it the most abundant ionic species.\n- Other salts such as magnesium chloride, calcium sulfate, etc., are present in much smaller concentrations.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 201
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Analytical Chemistry",
+    "topic": "Photographic Fixer",
+    "content": "### Photographic Fixer\n- The chemical commonly used as a fixer in photographic processing is **sodium thiosulphate (Na₂S₂O₃)**, also known as *hypo*.\n- It dissolves unreacted silver halide crystals from the emulsion, making the image permanent and light‑stable.\n- Sodium sulphate, ammonium persulphate and borax are not used as fixers.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 201
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Mineralogy",
+    "topic": "Soapstone (Talc)",
+    "content": "### Soapstone (Talc)\n- Soapstone, also called **talc**, is an extremely soft mineral.\n- Its principal chemical composition is **magnesium silicate (Mg₃Si₄O₁₀(OH)₂)**.\n- It is used for carving, as a lubricant, and in the manufacture of talc powder.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 201
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Metallurgy",
+    "topic": "Cost of Aluminium Production",
+    "content": "### Why Aluminium Is More Expensive Than Iron\n- Although aluminium is more abundant in the earth’s crust than iron, its **extraction process is far more energy‑intensive**.\n- Aluminium is obtained by electrolytic reduction of alumina (Al₂O₃) in the Hall‑Héroult process, requiring large amounts of electricity.\n- Iron is extracted via the blast‑furnace method, which is comparatively cheaper.\n- Hence, the **extraction processes of aluminium are more costly** than those of iron.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 201
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Industrial Chemistry",
+    "topic": "Key Requirement for Aluminium Plants",
+    "content": "### Minimum Requirement for Aluminium Production Apart from Bauxite\n- Besides bauxite (the raw material), the **most critical requirement for an aluminium plant is a reliable supply of electricity**.\n- The Hall‑Héroult electrolytic process consumes about **13–15 kWh of electricity per kilogram of aluminium** produced.\n- While coke, labour and market are important, electricity is the limiting factor.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 201
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Properties of Aluminium",
+    "topic": "Amphoteric Nature of Aluminium Hydroxide",
+    "content": "### Aluminium Hydroxide (Al(OH)₃)\n- Aluminium hydroxide is **amphoteric**, meaning it can react both as an acid and as a base.\n- It dissolves in strong acids forming aluminium salts and also reacts with strong bases to give aluminate ions (e.g., NaAl(OH)₄).\n- This property distinguishes aluminium compounds from many other metals.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 201
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Inorganic Compounds",
+    "topic": "Chemical Formula of Plaster of Paris",
+    "content": "### Plaster of Paris\n- Plaster of Paris is the **hemihydrate of calcium sulfate**, with the formula **CaSO₄·½H₂O**.\n- It can be represented stoichiometrically as **2 CaSO₄·H₂O**, which simplifies to the hemihydrate form.\n- When mixed with water, it rehydrates to form gypsum (CaSO₄·2H₂O).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 201
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Metals and Alloys",
+    "subchapter": "Iron and Steel",
+    "topic": "Iron Extraction",
+    "content": "# Iron Extraction\n\n- **Primary ore**: *Haematite* (Fe₂O₃) is the most abundant and economical iron ore.\n- **Smelting process**:\n  1. **Crushing & grinding** of ore to increase surface area.\n  2. **Concentration** by magnetic separation or flotation.\n  3. **Reduction** in a blast furnace:\n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \n     \\",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 202
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Metals and Non-metals",
+    "topic": "Properties and Uses of Metals",
+    "content": "- **Photography**: Silver Bromide (AgBr) is the primary substance used in photographic films due to its light-sensitive properties.\n- **Heaviest Metal**: Among common metals like Silver, Copper, Gold, and Lead, Lead is the heaviest.\n- **Liquid Metal**: Mercury (Hg) is the only metal that is liquid at ordinary temperature.\n- **Fluorescent Tubes**: These tubes typically contain Mercury vapour and Argon gas. The mercury vapour emits ultraviolet light when an electric current passes through it, which then excites the phosphor coating on the tube to produce visible light.\n- **Accumulator Cells**: Lead is the metal used in lead-acid accumulator cells (rechargeable batteries).\n- **Hardest Metal**: Among Gold, Iron, Platinum, and Lead, Iron is generally considered the hardest in this specific context (though in broader metallurgy, metals like Tungsten or Osmium are harder, Iron is the correct choice among the provided options for general science exams).\n- **Agricultural Emissions**: Methane (CH4) is the primary gas emitted from paddy fields due to anaerobic decomposition of organic matter in waterlogged soil.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 203
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Metals and Non-metals",
+    "topic": "Properties of Metals",
+    "content": "### Heaviest Metal\n- **Uranium** is considered the heaviest naturally occurring metal.\n- It has a high atomic mass and density compared to common metals like Copper, Aluminium, and Silver.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 204
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Inorganic Chemistry",
+    "topic": "Flame Tests and Fireworks",
+    "content": "### Colors in Firecrackers\n- The colors in fireworks are produced by the emission of light from excited electrons in metal salts.\n- **Strontium (Sr)** salts produce red colors.\n- **Barium (Ba)** salts produce green colors.\n- Other examples: Sodium (Yellow), Copper (Blue/Green), Potassium (Lilac).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 204
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics/Chemistry",
+    "subchapter": "Properties of Water",
+    "topic": "Density of Water",
+    "content": "### Maximum Density of Water\n- Water exhibits an anomalous expansion property.\n- The maximum density of liquid water occurs at **4°C** (specifically 3.98°C).\n- At temperatures below 4°C, water expands as it cools, which is why ice floats on water.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 204
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Solutions",
+    "topic": "Colligative Properties",
+    "content": "### Effect of Dissolving Salt in Water\n- Adding a non-volatile solute (like edible salt/NaCl) to water causes:\n  - **Boiling Point Elevation**: The boiling point increases.\n  - **Freezing Point Depression**: The freezing point decreases.\n- This is why salt is used to melt ice on roads and why salted water boils at a higher temperature.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 204
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Water Chemistry",
+    "topic": "Hardness of Water",
+    "content": "### Types of Water Hardness\n- **Temporary Hardness**: Caused by the presence of **bicarbonates** of calcium and magnesium. It can be removed by boiling.\n- **Permanent Hardness**: Caused by the presence of **chlorides** and **sulphates** of calcium and magnesium. It cannot be removed by boiling and requires chemical treatment (e.g., washing soda) or ion exchange.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 204
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Carbon and its Compounds",
+    "topic": "Allotropes of Carbon",
+    "content": "### Presence of Carbon\n- **Diamond**: Pure form of carbon (allotrope).\n- **Graphite**: Pure form of carbon (allotrope).\n- **Coal**: A complex mixture of organic compounds, primarily composed of carbon, along with hydrogen, oxygen, nitrogen, and sulfur.\n- Therefore, carbon is present in all three: Diamond, Graphite, and Coal.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 204
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Nuclear Physics",
+    "topic": "Nuclear Reactors",
+    "content": "### Role of Heavy Water\n- **Heavy Water (D₂O)** is used in nuclear reactors as a **Moderator**.\n- A moderator slows down fast neutrons produced during fission to thermal neutrons, which are more likely to cause further fission reactions in Uranium-235.\n- It is not primarily used as a fuel or ore, though it can act as a coolant in some designs, its primary distinct role in this context is moderation.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 204
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology/Chemistry",
+    "subchapter": "Biochemistry",
+    "topic": "Fundamental Elements of Life",
+    "content": "### Fundamental Element in Bio-compounds\n- **Carbon** is the most necessary fundamental element in all bio-compounds.\n- It forms the backbone of organic molecules (proteins, carbohydrates, lipids, nucleic acids) due to its ability to form stable covalent bonds with itself and other elements (C, H, O, N, S, P).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 204
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Carbon and its Compounds",
+    "topic": "Hardness of Materials",
+    "content": "**Hardness Scale:**\n- **Diamond** is the hardest known natural substance on Earth.\n- It is significantly harder than glass, quartz, and platinum.\n- This property makes diamond useful in cutting and grinding tools.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 205
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Carbon and its Compounds",
+    "topic": "Types of Coal",
+    "content": "**Coal Classification by Carbon Content:**\n- **Anthracite:** Has the highest percentage of carbon among coal types. It is the hardest and most carbon-rich form of coal.\n- **Bituminous:** Contains a moderate amount of carbon; it is the most common type of coal used for industrial purposes.\n- **Lignite:** Has a lower carbon content and higher moisture content compared to bituminous and anthracite.\n- **Peat:** The earliest stage of coal formation, with the lowest carbon content.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 205
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Carbon and its Compounds",
+    "topic": "Coke Production",
+    "content": "**Coke:**\n- Coke is a carbon-rich solid fuel derived from coal.\n- The ordinary and general type of coal used for the production of coke is **Bituminous** coal.\n- Bituminous coal is preferred because it yields a good quality coke with high carbon content and low impurities.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 205
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Environmental Chemistry",
+    "topic": "Vehicle Emissions",
+    "content": "**Vehicle Pollution:**\n- The primary polluted gas emitted from internal combustion engines (vehicles) is **Carbon Monoxide (CO)**.\n- CO is produced due to the incomplete combustion of carbon-based fuels.\n- It is toxic and binds to hemoglobin in the blood, reducing oxygen transport.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 205
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Environmental Chemistry",
+    "topic": "Air Pollutants",
+    "content": "**Major Air Pollutants:**\n- **Sulphur Dioxide (SO2)** is considered one of the most significant air pollutants, primarily from burning fossil fuels containing sulphur.\n- It contributes to acid rain and respiratory problems.\n- While Carbon Monoxide and Hydrocarbons are also pollutants, SO2 is often cited in general science contexts as a major cause of severe air pollution and environmental damage.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 205
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Carbon and its Compounds",
+    "topic": "Allotropes of Carbon",
+    "content": "**Dry Ice:**\n- Dry ice is the solid form of **Carbon Dioxide (CO2)**.\n- It is called 'dry' because it does not melt into a liquid at atmospheric pressure; instead, it sublimates directly into a gas.\n- It is used as a refrigerant and for creating fog effects.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 205
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Chemical Reactions",
+    "topic": "Types of Chemical Reactions",
+    "content": "**Combination Reaction:**\n- A chemical reaction in which two or more substances combine to form a **single** new substance.\n- General equation: $A + B \\rightarrow AB$.\n- Example: $2H_2 + O_2 \\rightarrow 2H_2O$.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 205
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Acids, Bases and Salts",
+    "topic": "Properties of Acids",
+    "content": "**Acids:**\n- Chemical substances that have a **sour taste**.\n- They turn blue litmus paper red.\n- They react with metals to produce hydrogen gas.\n- Examples: Citric acid (in lemons), Acetic acid (in vinegar).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 205
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Acids and Bases",
+    "topic": "Properties of Bases",
+    "content": "### Bases\\n- **Definition**: Substances that accept protons (H⁺) or donate hydroxide ions (OH⁻) in aqueous solution.\\n- **Key Property**: Have a **bitter taste** and a slippery feel.\\n- **Examples**: Sodium hydroxide (NaOH), calcium carbonate (CaCO₃).\\n- **pH Range**: >7 (typically 8‑14).\\n- **Indicator Reaction**: Turn red litmus paper blue.\\n- **Common Uses**: Soap making, neutralising acidic waste, industrial cleaning.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 206
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Acids and Bases",
+    "topic": "pH Scale",
+    "content": "### pH Scale\\n- **Definition**: A logarithmic scale that measures the hydrogen ion concentration \\([H^+]\\) of a solution.\\n- **Formula**: \\[ pH = -\\log_{10}[H^+] \\]\\n- **Range**: 0 (strongly acidic) to 14 (strongly basic); 7 is neutral (pure water).\\n- **Interpretation**:\\n  - \\(pH < 7\\): acidic solution.\\n  - \\(pH = 7\\): neutral.\\n  - \\(pH > 7\\): basic (alkaline) solution.\\n- **Applications**: Soil testing, water quality monitoring, food industry, clinical diagnostics.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 206
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Acids and Bases",
+    "topic": "Salts",
+    "content": "### Salts\\n- **Definition**: Ionic compounds formed when the hydrogen ion (H⁺) of an acid is replaced by a metal cation.\\n- **General Reaction**: \\[ \\text{Acid} + \\text{Metal} \\rightarrow \\text{Salt} + \\text{Hydrogen gas} \\]\\n- **Example**: \\[ 2HCl + Na_2 \\rightarrow 2NaCl + H_2 \\]\\n- **Properties**: Usually crystalline solids, high melting points, soluble in water (many). Conduct electricity when molten or dissolved.\\n- **Common Uses**: Food seasoning (NaCl), fertilizers, industrial chemicals.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 206
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Chemical Bonding",
+    "topic": "Ionic Bond",
+    "content": "### Ionic Bond\\n- **Definition**: A chemical bond formed by the **transfer of electrons** from a metal (donor) to a non‑metal (acceptor).\\n- **Result**: Formation of oppositely charged ions that attract each other (electrostatic attraction).\\n- **Characteristics**:\\n  - High melting & boiling points.\\n  - Conduct electricity in molten or aqueous state.\\n  - Typically form crystalline lattice structures.\\n- **Example**: Sodium chloride (NaCl) – Na donates one electron to Cl.\\n- **Formula Representation**: \\[ \\text{M}^{n+} + \\text{X}^{n-} \\rightarrow \\text{MX} \\]",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 206
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Chemical Bonding",
+    "topic": "Covalent Bond",
+    "content": "### Covalent Bond\\n- **Definition**: A chemical bond formed by the **sharing of electron pairs** between two atoms.\\n- **Types**:\\n  - **Single covalent bond** – one shared pair (e.g., H₂).\\n  - **Double covalent bond** – two shared pairs (e.g., O₂).\\n  - **Triple covalent bond** – three shared pairs (e.g., N₂).\\n- **Properties**:\\n  - Lower melting/boiling points than ionic compounds (generally).\\n  - Poor electrical conductivity.\\n  - Directional bonding leads to defined molecular shapes.\\n- **Examples**: Water (H₂O), carbon dioxide (CO₂), methane (CH₄).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 206
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Materials Science",
+    "topic": "Alloys",
+    "content": "### Alloys\\n- **Definition**: A **homogeneous mixture of two or more metals** (or a metal with a non‑metal) that exhibits metallic properties.\\n- **Purpose**: To improve strength, corrosion resistance, ductility, or other mechanical/electrical properties.\\n- **Common Examples**:\\n  - **Bronze** (Cu + Sn)\\n  - **Brass** (Cu + Zn)\\n  - **Stainless steel** (Fe + Cr + Ni)\\n- **Production**: Typically melted together and cast; may be wrought or cast.\\n- **Properties**: Often have a single phase (solid solution) or a mixture of phases; exhibit enhanced characteristics compared to constituent metals.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 206
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Organic Chemistry",
+    "topic": "Unsaturated Hydrocarbons – Alkenes",
+    "content": "### Alkenes (Unsaturated Hydrocarbons with a Double Bond)\\n- **Definition**: Hydrocarbons containing at least one carbon‑carbon **double bond (C=C)**.\\n- **General Formula**: \\[ C_nH_{2n} \\] (for acyclic alkenes).\\n- **Nomenclature**: Base name from the corresponding alkane, replace the suffix **-ane** with **-ene** (e.g., ethane → ethene).\\n- **Properties**:\\n  - More reactive than alkanes due to the π‑bond.\\n  - Undergo addition reactions (e.g., hydrogenation, halogenation).\\n  - Typically have lower boiling points than analogous alkanes.\\n- **Examples**: Ethene (C₂H₄), propene (C₃H₆), butene (C₄H₈).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 206
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Organic Chemistry",
+    "subchapter": "Unsaturated Hydrocarbons",
+    "topic": "Alkynes",
+    "content": "# Alkynes\n\nAlkynes are a class of unsaturated hydrocarbons that contain at least one carbon–carbon triple bond. They are the simplest members of the alkyne family and are represented by the general formula\n\n```\nRC≡CR'\n```\n\nwhere **R** and **R'** can be hydrogen or alkyl groups. The most common alkyne is **ethyne (acetylene)**, CH₂≡CH.\n\n## Key Properties\n- **Reactivity**: The triple bond is highly reactive, undergoing addition reactions (hydrogenation, halogenation, hydrohalogenation).\n- **Acidity**: Alkynes are more acidic than alkenes due to the sp hybridized carbon atoms.\n- **Boiling points**: Generally lower than alkanes of similar molecular weight because of weaker London dispersion forces.\n\n## Common Reactions\n| Reaction | General Equation | Example |\n|----------|------------------|--------|\n| Hydrogenation | RC≡CR' + H₂ → RCH₂CH₂R' | C₂H₂ + H₂ → C₂H₄ |\n| Halogenation | RC≡CR' + X₂ → RCHX–CHXR' | C₂H₂ + Br₂ → C₂HBr₂ |\n| Hydrohalogenation | RC≡CR' + HX → RCHX–CHXR' | C₂H₂ + HCl → C₂H₃Cl |\n\n## Practical Uses\n- Acetylene is widely used as a fuel for welding and cutting.\n- Alkynes serve as intermediates in the synthesis of pharmaceuticals and polymers.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 207
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Organic Chemistry",
+    "subchapter": "Isomerism",
+    "topic": "Isomers",
+    "content": "# Isomers\n\nIsomers are compounds that share the same molecular formula but differ in the arrangement of atoms or spatial orientation.\n\n## Types of Isomerism\n1. **Structural (Constitutional) Isomers** – Different connectivity of atoms.\n   - *Example*: Butane (C₄H₁₀) vs. isobutane (C₄H₁₀).\n2. **Stereoisomers** – Same connectivity but different spatial arrangement.\n   - *Enantiomers*: Non‑superimposable mirror images (e.g., (R)- and (S)-2-butanol).\n   - *Diastereomers*: Stereoisomers that are not mirror images.\n   - *Geometric (cis/trans) Isomers*: Differ in spatial arrangement around a double bond or ring.\n\n## Importance\n- Determines physical properties (boiling/melting points, solubility).\n- Influences biological activity; many drugs are stereospecific.\n\n## Identification\n- Use spectroscopic methods (NMR, IR, MS) to distinguish isomers.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 207
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Physical Chemistry",
+    "subchapter": "Solutions",
+    "topic": "Solvent",
+    "content": "# Solvent\n\nA **solvent** is the component of a solution that dissolves the solute. It is typically present in the largest quantity.\n\n## Characteristics\n- **Polarity**: Determines which solutes can dissolve (e.g., water dissolves ionic salts, ethanol dissolves both polar and non‑polar substances).\n- **Boiling point**: Influences the temperature at which a solution can be used.\n- **Chemical stability**: Should not react with the solute under normal conditions.\n\n## Common Solvents\n| Solvent | Polarity | Typical Uses |\n|---------|----------|--------------|\n| Water | High | Biological systems, aqueous reactions |\n| Ethanol | Moderate | Extraction, solvent for organic reactions |\n| Acetone | Low | Cleaning, solvent for polymers |\n\n## Role in Chemistry\n- Facilitates reactions by bringing reactants together.\n- Determines reaction mechanisms (e.g., SN1 vs SN2 in aqueous vs. non‑aqueous media).\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 207
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Organic Chemistry",
+    "subchapter": "Organic Compounds",
+    "topic": "Organic Compounds",
+    "content": "# Organic Compounds\n\nOrganic compounds are chemical species that contain carbon atoms bonded to hydrogen and often to other heteroatoms (O, N, S, halogens). They form the basis of life and many industrial materials.\n\n## Key Features\n- **C–H bonds**: Provide stability and reactivity.\n- **Functional groups**: Determine chemical behavior (e.g., alcohols, ketones, carboxylic acids).\n- **Polymers**: Long chains of repeating units (e.g., polyethylene, polystyrene).\n\n## Classification\n- **Alkanes**: Saturated hydrocarbons (single bonds).\n- **Alkenes**: Unsaturated hydrocarbons (double bonds).\n- **Alkynes**: Unsaturated hydrocarbons (triple bonds).\n- **Aromatic compounds**: Delocalized π electrons (benzene).\n\n## Applications\n- Pharmaceuticals, plastics, fuels, dyes, and many everyday products.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 207
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Physical Chemistry",
+    "subchapter": "Gas Solubility",
+    "topic": "Aeration",
+    "content": "# Aeration\n\n**Aeration** is the process of introducing air (or oxygen) into a liquid or solid medium. It is widely used in environmental engineering, food processing, and chemical manufacturing.\n\n## Mechanisms\n- **Diffusion**: Air bubbles rise, increasing contact surface.\n- **Mechanical stirring**: Enhances gas transfer.\n\n## Applications\n- **Water treatment**: Oxidation of pollutants, removal of dissolved gases.\n- **Aquaculture**: Maintaining dissolved oxygen levels for fish.\n- **Fermentation**: Aerobic fermentation processes.\n\n## Key Parameters\n- **Gas transfer coefficient (kLa)**: Rate of oxygen transfer per unit volume.\n- **Bubble size**: Smaller bubbles increase surface area.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 207
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Physical Chemistry",
+    "subchapter": "Allotropes",
+    "topic": "Allotropes",
+    "content": "# Allotropes\n\nAn **allotrope** is a different structural form of the same element, where atoms are bonded in distinct arrangements, leading to varied physical properties.\n\n## Common Examples\n- **Carbon**: Diamond (cubic lattice), graphite (layered sheets), fullerenes.\n- **Oxygen**: O₂ (dioxygen), O₃ (ozone).\n- **Nitrogen**: N₂ (diatomic), N₄ (rare, high‑pressure conditions).\n\n## Significance\n- Determines material properties such as hardness, conductivity, and reactivity.\n- Industrial relevance: diamond for cutting tools, graphite for batteries.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 207
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Physical Chemistry",
+    "subchapter": "Thermodynamics",
+    "topic": "Calorimetry",
+    "content": "# Calorimetry\n\n**Calorimetry** is the measurement of heat changes in physical or chemical processes. It is fundamental to thermodynamics and heat transfer studies.\n\n## Types of Calorimeters\n- **Bomb calorimeter**: Measures heat of combustion in a sealed container.\n- **Coffee‑cup calorimeter**: Measures heat of solution or reaction in an open system.\n- **Differential scanning calorimeter (DSC)**: Measures heat flow as a function of temperature.\n\n## Key Equations\n- **Heat (q)**: \\( q = m \\cdot c \\cdot \\Delta T \\)\n  - *m*: mass of substance\n  - *c*: specific heat capacity\n  - *ΔT*: temperature change\n- **Enthalpy change (ΔH)**: \\( \\Delta H = q_{\text{p}} \\) (at constant pressure)\n\n## Applications\n- Determining enthalpies of formation, combustion, and phase transitions.\n- Quality control in food and pharmaceutical industries.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 207
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Chemical Reactions",
+    "topic": "Combustion",
+    "content": "**Combustion**: The chemical process in which a compound combines with oxygen gas to form water, heat, and carbon dioxide. It is an exothermic reaction typically involving a fuel and an oxidizer.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 208
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Matter and Motion",
+    "topic": "Gas Movement",
+    "content": "**Effusion**: The process where a gas moves through a small opening into a chamber that contains no pressure (vacuum). This is distinct from diffusion, which involves the spreading of particles from an area of high concentration to low concentration without a barrier.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 208
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Redox Reactions",
+    "topic": "Oxidation",
+    "content": "**Oxidation**: A chemical reaction in which a substance loses electrons. It is often associated with the gain of oxygen or the loss of hydrogen. The opposite process, gaining electrons, is called reduction.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 208
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Nuclear Physics",
+    "topic": "Radioactivity",
+    "content": "**Radioactive Substance**: A substance that has an unstable nucleus capable of falling apart (decaying) by emitting radiation. This instability leads to the spontaneous transformation of the nucleus into a more stable state.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 208
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "subchapter": "Circulatory System",
+    "topic": "Blood Vessels",
+    "content": "### Blood Vessels\n- **Arteries**: Large blood vessels that carry blood **away** from the heart. They generally carry oxygenated blood (except pulmonary arteries).\n- **Veins**: Blood vessels that carry blood **towards** the heart. They generally carry deoxygenated blood (except pulmonary veins).\n- **Capillaries**: The smallest blood vessels in the body. They have the **smallest diameter** and facilitate the exchange of gases, nutrients, and waste products between blood and tissues.\n- **Arterioles and Venules**: Smaller branches of arteries and veins, respectively, but capillaries are the smallest.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 209
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Nutrition",
+    "subchapter": "Vitamins",
+    "topic": "Vitamin B Complex",
+    "content": "### Vitamins\n- **Vitamin B Complex**: A group of water-soluble vitamins. Common members include:\n  - Thiamine (Vitamin B1)\n  - Riboflavin (Vitamin B2)\n  - Folic Acid (Vitamin B9)\n  - Niacin (Vitamin B3)\n  - Pyridoxine (Vitamin B6)\n  - Cobalamin (Vitamin B12)\n- **Non-B Vitamins**: \n  - **Ascorbic Acid** is **Vitamin C**, which is **not** a member of the Vitamin B complex. It is a water-soluble vitamin essential for collagen synthesis and immune function.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 209
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Plant Kingdom",
+    "subchapter": "Fungi",
+    "topic": "Characteristics of Fungi",
+    "content": "### Fungi\n- Fungi are eukaryotic organisms that are distinct from plants, animals, and bacteria.\n- Unlike green plants, fungi **lack chlorophyll**.\n- Because they lack chlorophyll, fungi cannot perform photosynthesis and are therefore **heterotrophic** (they obtain nutrients by absorbing organic matter from their environment).\n- They are not plants in the strict botanical sense, but historically were classified under the plant kingdom due to their sessile nature.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 209
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Animal Kingdom",
+    "subchapter": "Reptilia",
+    "topic": "Characteristics of Reptiles",
+    "content": "### Reptiles\n- **Thermoregulation**: Reptiles are **cold-blooded** (ectothermic) animals. They rely on external sources of heat to regulate their body temperature.\n- **Respiration**: They breathe air using lungs.\n- **Skin**: Covered with dry, scaly skin.\n- **Reproduction**: Most reptiles are oviparous (egg-laying), but some are viviparous. Being egg-laying is not the sole defining characteristic as some fish and amphibians also lay eggs, but being cold-blooded is a primary physiological distinction from birds and mammals.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 209
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "subchapter": "Diseases",
+    "topic": "Modes of Transmission",
+    "content": "### Disease Transmission\n- **Air-borne Diseases**: Diseases transmitted through the air via respiratory droplets or aerosols.\n  - **Measles**: A highly contagious **air-borne** viral disease.\n- **Water/Food-borne Diseases**:\n  - **Typhoid**: Caused by *Salmonella typhi*, transmitted through contaminated food or water.\n- **Contact Diseases**:\n  - **Pink Eye (Conjunctivitis)**: Often transmitted through direct contact with infected surfaces or hands, or via droplets, but Measles is the classic example of a strictly air-borne viral infection in this context.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 209
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "subchapter": "Reproduction",
+    "topic": "Pollen",
+    "content": "### Pollen\n- **Definition**: Pollen is a fine, yellowish powder produced by the male part of a flower (anther).\n- **Function**: It contains the male gametes (sperm cells) of the plant.\n- **Significance**: It is essential for **pollination**, the process of transferring pollen from the anther to the stigma of a flower, leading to fertilization and seed production.\n- **Description**: Often described as tiny yellow grains found in the middle of flowers.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 209
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Human Physiology",
+    "subchapter": "Digestive System",
+    "topic": "Liver and Bile",
+    "content": "### Liver\n- The liver is the largest internal organ and performs many vital functions.\n- **Bile Production**: The liver synthesizes bile, a greenish fluid that aids in the digestion and absorption of fats.\n- **Functions**:\n  - Regulation of blood glucose levels through glycogen storage and gluconeogenesis.\n  - Synthesis of plasma proteins (e.g., albumin, clotting factors).\n  - Detoxification of ammonia, drugs, and metabolic waste.\n  - Metabolism of lipids, carbohydrates, and proteins.\n- **Not a function**: Reproduction is not a physiological role of the liver.\n\n---\n### Bile\n- Bile is stored in the gallbladder and released into the duodenum.\n- It contains bile salts, bilirubin, cholesterol, and electrolytes.\n\n---\n### Sweat Glands Distribution\n- The highest density of eccrine sweat glands is found on the **forehead**, **palms**, and **soles** of the feet.\n- These glands help regulate body temperature through perspiration.\n\n---\n### Hormones\n- **Steroid hormones** are derived from cholesterol and include estrogen, testosterone, cortisol, and aldosterone.\n- **Peptide/Protein hormones** include insulin, glucagon, and oxytocin.\n\n---\n### Vaccination History\n- **Edward Jenner** (1749‑1823) pioneered vaccination by using cowpox material to create immunity against smallpox in 1796.\n\n---\n### Proteins\n- Proteins are polymers of **amino acids** linked by peptide bonds.\n- They serve structural, enzymatic, transport, and regulatory functions in cells.\n\n---\n### Vitamins\n- **Vitamin A** is a fat‑soluble vitamin essential for vision, immune function, and cellular growth.\n- Rich dietary sources include liver, milk, egg yolk, and fish liver oil.\n\n---\n### Scientists and Their Contributions\n- **DNA Double Helix**: Discovered by James Watson, Francis Crick, and Maurice Wilkins (1953).\n- Other pairings listed (e.g., Linnaeus – bacteria, Harvey – classification) are incorrect.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 210
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Circulatory System",
+    "subchapter": "Heart Anatomy",
+    "topic": "Heart Composition",
+    "content": "# Heart Composition\n\n- The human heart is composed **exclusively of cardiac muscle tissue**.\n- Cardiac muscle is a **stratified, striated muscle** that is specialized for rhythmic contraction.\n- Unlike skeletal muscle, cardiac muscle cells are interconnected by intercalated discs, allowing coordinated contraction.\n- The heart’s continuous contraction and relaxation maintain the **continuous circuit** of blood flow throughout the body.\n\n> **Fact**: Blood travels in a continuous circuit, as described by Leuwenhock.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 211
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Genetics",
+    "subchapter": "Molecular Genetics",
+    "topic": "Hargobind Khorana and the Genetic Code",
+    "content": "# Hargobind Khorana and the Genetic Code\n\n- **Hargobind Khorana** (1922‑2018) was a pioneering molecular biologist who deciphered the **genetic code**.\n- He demonstrated how **triplet codons** in messenger RNA correspond to specific amino acids.\n- His work laid the foundation for modern genetics, biotechnology, and protein engineering.\n- Khorana’s research earned him the Nobel Prize in Physiology or Medicine in 1968.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 211
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Virology",
+    "subchapter": "Coronaviruses",
+    "topic": "SARS Coronavirus",
+    "content": "# SARS Coronavirus\n\n- **SARS (Severe Acute Respiratory Syndrome)** is caused by a coronavirus (SARS‑CoV).\n- It emerged in 2002‑2003 and is a **human‑infecting coronavirus** that can cause severe respiratory illness.\n- Symptoms include fever, cough, and shortness of breath; in severe cases, it can lead to pneumonia and death.\n- SARS is distinct from HIV and AIDS, which are caused by a retrovirus.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 211
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Digestive System",
+    "subchapter": "Protein Digestion",
+    "topic": "Initiation of Protein Digestion",
+    "content": "# Initiation of Protein Digestion\n\n- Protein digestion **begins in the stomach**.\n- Gastric glands secrete **pepsinogen**, which is converted to pepsin by hydrochloric acid (HCl).\n- Pepsin cleaves peptide bonds, producing smaller peptides.\n- Subsequent digestion occurs in the small intestine with pancreatic enzymes.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 211
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biochemistry",
+    "subchapter": "Acids in the Stomach",
+    "topic": "Hydrochloric Acid (HCl)",
+    "content": "# Hydrochloric Acid (HCl) in the Stomach\n\n- The stomach secretes **hydrochloric acid (HCl)**, a strong acid with a pH of 1–2.\n- HCl activates pepsinogen to pepsin and creates an acidic environment that denatures proteins.\n- It also kills many ingested pathogens.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 211
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Nutrition",
+    "subchapter": "Vitamins",
+    "topic": "Vitamin A and Xerophthalmia",
+    "content": "# Vitamin A and Xerophthalmia\n\n- **Xerophthalmia** is a degenerative eye disease caused by vitamin A deficiency.\n- Vitamin A (retinol) is essential for the synthesis of **rhodopsin**, a light‑sensing pigment in the retina.\n- Adequate intake prevents night blindness and other ocular disorders.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 211
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Immunology",
+    "subchapter": "White Blood Cells",
+    "topic": "White Blood Cells as Soldiers of the Body",
+    "content": "# White Blood Cells as Soldiers of the Body\n\n- White blood cells (leukocytes) are the **defenders** of the immune system.\n- They patrol the bloodstream, recognize pathogens, and initiate immune responses.\n- Their role is analogous to soldiers protecting the body from infection.\n",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 211
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Human Physiology & Diseases",
+    "topic": "Hepatitis",
+    "content": "**Hepatitis** is a general term for inflammation of the liver. It is primarily caused by **viruses** (Hepatitis A, B, C, D, and E). While other factors like alcohol or toxins can cause liver inflammation, in the context of infectious disease classification, it is most commonly associated with viral infections.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 212
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Nutrition & Biochemistry",
+    "topic": "Carbohydrates vs. Amino Acids",
+    "content": "**Carbohydrates** are biomolecules consisting of carbon, hydrogen, and oxygen. Common examples include:\n- **Maltose**: A disaccharide.\n- **Fructose**: A monosaccharide (fruit sugar).\n- **Glycogen**: A polysaccharide (storage form of glucose in animals).\n\n**Glycine** is **not** a carbohydrate; it is the simplest **amino acid** and a building block of proteins.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 212
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Human Physiology & Diseases",
+    "topic": "Nutrient-Deficiency & Tissue Associations",
+    "content": "Correct associations in human biology:\n- **Vitamin C**: Deficiency causes **Scurvy**.\n- **Carbohydrates**: Found in foods like **Potato**.\n- **Fats**: Found in foods like **Butter**.\n- **Haemoglobin**: A protein found in **Red Blood Cells** (not Skin). It is responsible for oxygen transport.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 212
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Human Physiology & Diseases",
+    "topic": "Communicable vs. Non-Communicable Diseases",
+    "content": "**Communicable diseases** are caused by pathogenic microorganisms (bacteria, viruses, fungi, parasites) and can be transmitted from one person to another.\n- **Measles**: A highly contagious viral disease (Communicable).\n- **Asthma**: A chronic respiratory condition (Non-communicable).\n- **Scurvy**: Caused by Vitamin C deficiency (Non-communicable).\n- **Diabetes**: A metabolic disorder (Non-communicable).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 212
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Human Physiology & Diseases",
+    "topic": "Disease-Organ Associations",
+    "content": "Correct disease-organ associations:\n- **Tuberculosis**: Affects the **Lungs** (caused by *Mycobacterium tuberculosis*).\n- **Filaria**: Affects **Lymph nodes** and vessels (caused by parasitic worms).\n- **Leukaemia**: A cancer of **Blood cells** (bone marrow).\n- **Encephalitis**: Inflammation of the **Brain** (not the Heart). Heart inflammation is called Myocarditis.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 212
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Nutrition & Biochemistry",
+    "topic": "Protein Content in Foods",
+    "content": "Among common food sources, **Soyabean** has the highest protein content per gram compared to Groundnut, Apple, and Wheat. Soyabean is a legume rich in complete proteins.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 212
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Nutrition & Biochemistry",
+    "topic": "Types of Keratin",
+    "content": "**Alpha-keratin** is a fibrous structural protein found in:\n- **Wool** (animal hair)\n- **Skin** (epidermis)\n- **Nails**\n- **Horns**\n\nIt is distinct from Beta-keratin (found in reptiles/birds) and other proteins like those in blood (hemoglobin) or eggs (albumin).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 212
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Botany & Fungi",
+    "topic": "Mushrooms",
+    "content": "**Mushrooms** are the fleshy, **fruiting bodies** of certain fungi. They are not the entire fungus (which includes the mycelium underground) but are the reproductive structures that produce spores. They can be grown in small sheds or plots.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 212
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Human Physiology",
+    "topic": "Blood and Circulatory System",
+    "content": "### Blood Pressure\nBlood pressure is defined as the amount of pressure exerted on the blood as a result of the heart's pumping function and the resistance offered by the arterial walls.\n\n### Leukaemia (Leukemia)\nLeukaemia is a disease resulting from a disorder in the blood. It is characterized by a marked increase in the number of white corpuscles (white blood cells) in the blood.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 213
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Human Physiology",
+    "topic": "Immune System",
+    "content": "### Defense Against Bacteria\nPhagocytes are the specific cells in the human body responsible for defending against bacteria. They engulf and digest pathogens.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 213
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Human Physiology",
+    "topic": "Nervous System",
+    "content": "### Neural Connections\nThe Medulla Oblongata is the part of the brainstem that contains nuclei for various reflexes and serves as a connection point for nerves. In the context of the provided MCQ, the Medulla is identified as the structure connected from the eyes to the ears (likely referring to the vestibular or auditory pathways passing through or originating near the brainstem, though anatomically the vestibulocochlear nerve connects ear to brain, and optic nerve eye to brain; the Medulla is the central hub in this specific question context).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 213
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Diseases and Disorders",
+    "topic": "Infectious Diseases",
+    "content": "### Disease Causation\n- **Athlete's foot**: Caused by a **Fungus**.\n- **Trichinosis**: Caused by eating uncooked pork containing larvae of *Trichinella spiralis* (a helminth/parasite), not bacterial infection.\n- **Sleeping sickness**: Caused by a protozoan parasite (*Trypanosoma*) transmitted by the bite of the tsetse fly, not by eating pork.\n- **Meningitis**: Can be caused by bacteria, viruses, or fungi, but is not specifically defined by protozoan tsetse fly bites (which cause Sleeping sickness).",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 213
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Nutrition",
+    "topic": "Vitamins in Vegetables",
+    "content": "### Vitamin Content in Vegetables\n**Tomato** is a vegetable that is abundant in both Vitamin A and Vitamin C.",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 213
   }
 ]

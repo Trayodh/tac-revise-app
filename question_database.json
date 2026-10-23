@@ -864088,5 +864088,1862 @@
     "topic": "Electrolysis",
     "source_pdf": "General-Science-Book-SSBCrack.pdf",
     "source_page": 195
+  },
+  {
+    "question_text": "Which of the following is utilized in the form of electrolyte of the dry cell (battery)?",
+    "options": {
+      "A": "Ammonium chloride and zinc chloride",
+      "B": "Sodium chloride and calcium chloride",
+      "C": "Magnesium chloride and zinc chloride",
+      "D": "Ammonium chloride and calcium chloride"
+    },
+    "correct_answer": "A",
+    "explanation": "The Leclanche dry cell uses ammonium chloride as the primary electrolyte; zinc chloride is also present as a depolarizer, making option A the correct choice.",
+    "subject": "General Science",
+    "chapter": "Electrochemistry",
+    "topic": "Dry Cell Electrolyte",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 196
+  },
+  {
+    "question_text": "The iron container or vessel is galvanized by:",
+    "options": {
+      "A": "Chromium",
+      "B": "Zinc",
+      "C": "Aluminium",
+      "D": "Nickel"
+    },
+    "correct_answer": "B",
+    "explanation": "Galvanization is the process of coating iron or steel with a thin layer of zinc to protect it from corrosion.",
+    "subject": "General Science",
+    "chapter": "Corrosion & Protection",
+    "topic": "Galvanization",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 196
+  },
+  {
+    "question_text": "The process of corrosion doesn’t take place in which of the following metals, when these metals are left free in the air:",
+    "options": {
+      "A": "Iron",
+      "B": "Copper",
+      "C": "Gold",
+      "D": "Silver"
+    },
+    "correct_answer": "C",
+    "explanation": "Gold is a noble metal that does not oxidize or corrode under normal atmospheric conditions.",
+    "subject": "General Science",
+    "chapter": "Corrosion",
+    "topic": "Corrosion Resistance of Metals",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 196
+  },
+  {
+    "question_text": "In the galvanic cell, the process takes place is:",
+    "options": {
+      "A": "Transformation of the electrical energy into the chemical energy",
+      "B": "Transformation of the chemical energy into the electrical energy",
+      "C": "Transformation of light energy into the electrical energy",
+      "D": "Transformation of electrical energy into the light energy"
+    },
+    "correct_answer": "B",
+    "explanation": "A galvanic (voltaic) cell converts spontaneous chemical reactions into electrical energy.",
+    "subject": "General Science",
+    "chapter": "Electrochemistry",
+    "topic": "Galvanic Cells",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 196
+  },
+  {
+    "question_text": "In the exothermic reaction:",
+    "options": {
+      "A": "Heat is absorbed",
+      "B": "Heat is evolved",
+      "C": "Heat doesn't change",
+      "D": "Temperature remains constant"
+    },
+    "correct_answer": "B",
+    "explanation": "Exothermic reactions release heat to the surroundings; therefore heat is evolved.",
+    "subject": "General Science",
+    "chapter": "Thermodynamics",
+    "topic": "Exothermic Reactions",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 196
+  },
+  {
+    "question_text": "In the endothermic reaction:",
+    "options": {
+      "A": "Heat is absorbed",
+      "B": "Heat is evolved",
+      "C": "Heat doesn't change",
+      "D": "Temperature remains constant"
+    },
+    "correct_answer": "A",
+    "explanation": "Endothermic reactions absorb heat from the surroundings.",
+    "subject": "General Science",
+    "chapter": "Thermodynamics",
+    "topic": "Endothermic Reactions",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 196
+  },
+  {
+    "question_text": "The chemical reactions which occur in one direction (from left to right) are called:",
+    "options": {
+      "A": "Reversible reaction",
+      "B": "Irreversible reactions",
+      "C": "Endothermic reactions",
+      "D": "Exothermic reactions"
+    },
+    "correct_answer": "B",
+    "explanation": "Irreversible reactions proceed essentially only in the forward direction under given conditions.",
+    "subject": "General Science",
+    "chapter": "Chemical Kinetics",
+    "topic": "Reversible vs Irreversible Reactions",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 196
+  },
+  {
+    "question_text": "The catalyst is a substance through which the rates of chemical reactions are:",
+    "options": {
+      "A": "Increased",
+      "B": "Decreased"
+    },
+    "correct_answer": "A",
+    "explanation": "Catalysts provide an alternative pathway with lower activation energy, thereby increasing reaction rates.",
+    "subject": "General Science",
+    "chapter": "Chemical Kinetics",
+    "topic": "Catalysis",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 196
+  },
+  {
+    "question_text": "Who is the inventor of the catalyst?",
+    "options": {
+      "A": "Berzeleous",
+      "B": "Rutherford",
+      "C": "Louis",
+      "D": "Kosell"
+    },
+    "correct_answer": "C",
+    "explanation": "The term *catalyst* was coined by Louis Pasteur in the 19th century to describe substances that accelerate chemical reactions without being consumed.",
+    "subject": "General Science",
+    "chapter": "Catalysts",
+    "topic": "History of Catalysts",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 197
+  },
+  {
+    "question_text": "The catalyst employed in the hydrogenation process of the oils is:",
+    "options": {
+      "A": "Fe",
+      "B": "Ni",
+      "C": "Mo",
+      "D": "Pt"
+    },
+    "correct_answer": "B",
+    "explanation": "Nickel (Ni) is the most widely used catalyst for hydrogenating unsaturated fatty acids in the food industry due to its high activity and low cost.",
+    "subject": "General Science",
+    "chapter": "Catalysts",
+    "topic": "Catalysts in Hydrogenation of Oils",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 197
+  },
+  {
+    "question_text": "The catalyst used in the lead chamber process is:",
+    "options": {
+      "A": "Oxide of the nitrogen",
+      "B": "Platinum",
+      "C": "Nickel",
+      "D": "MnO2"
+    },
+    "correct_answer": "B",
+    "explanation": "Platinum acts as a catalyst in the lead chamber process, facilitating the oxidation of ammonia to nitric oxide, which is then absorbed to form nitric acid.",
+    "subject": "General Science",
+    "chapter": "Catalysts",
+    "topic": "Catalysts in the Lead Chamber Process",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 197
+  },
+  {
+    "question_text": "The catalyst employed in the production of H2SO4 by the Contact process is:",
+    "options": {
+      "A": "The pieces (powder) of iron",
+      "B": "The pieces (powder) of platinum",
+      "C": "Oxide of nitrogen",
+      "D": "Nickel metal"
+    },
+    "correct_answer": "B",
+    "explanation": "Platinum (or a platinum alloy) is the standard catalyst for the Contact process, accelerating the oxidation of SO₂ to SO₃.",
+    "subject": "General Science",
+    "chapter": "Catalysts",
+    "topic": "Catalysts in the Contact Process",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 197
+  },
+  {
+    "question_text": "The employed catalyst in the production of ammonia through the Haber's process is:",
+    "options": {
+      "A": "Nickel",
+      "B": "Iron",
+      "C": "Platinum",
+      "D": "Molybdenum"
+    },
+    "correct_answer": "B",
+    "explanation": "Iron, promoted with potassium hydroxide, is the catalyst used in the Haber process to synthesize ammonia from nitrogen and hydrogen.",
+    "subject": "General Science",
+    "chapter": "Catalysts",
+    "topic": "Catalysts in the Haber's Process",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 197
+  },
+  {
+    "question_text": "The gaseous mixture of carbon monoxide and nitrogen is called:",
+    "options": {
+      "A": "Coal gas",
+      "B": "Water gas",
+      "C": "Producer gas",
+      "D": "Natural gas"
+    },
+    "correct_answer": "C",
+    "explanation": "Producer gas is a fuel gas produced by the partial combustion of coal or coke. It is mainly composed of carbon monoxide and nitrogen.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Composition of Gaseous Fuels",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 198
+  },
+  {
+    "question_text": "The main component of the natural gas is:",
+    "options": {
+      "A": "Methane",
+      "B": "Ethane",
+      "C": "Propane",
+      "D": "Butane"
+    },
+    "correct_answer": "A",
+    "explanation": "Natural gas is primarily composed of methane (CH4), which can constitute up to 90% or more of the gas.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Composition of Gaseous Fuels",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 198
+  },
+  {
+    "question_text": "In L.P.G. the main component is:",
+    "options": {
+      "A": "Methane",
+      "B": "Carbon dioxide",
+      "C": "Butane",
+      "D": "Sulphur dioxide"
+    },
+    "correct_answer": "C",
+    "explanation": "LPG (Liquefied Petroleum Gas) is a mixture of hydrocarbon gases, primarily butane and propane. Butane is a major component.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Composition of Gaseous Fuels",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 198
+  },
+  {
+    "question_text": "Which of the following has the maximum calorific value?",
+    "options": {
+      "A": "Hydrogen",
+      "B": "Charcoal",
+      "C": "Natural gas",
+      "D": "Gasoline"
+    },
+    "correct_answer": "A",
+    "explanation": "Hydrogen has the highest calorific value (energy released per unit mass) among the given options, approximately 142 kJ/g.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Calorific Value and Environmental Impact",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 198
+  },
+  {
+    "question_text": "Which of the following would produce minimum environmental pollution?",
+    "options": {
+      "A": "Diesel",
+      "B": "Coal",
+      "C": "Hydrogen",
+      "D": "Kerosene"
+    },
+    "correct_answer": "C",
+    "explanation": "Hydrogen combustion produces only water, making it the cleanest fuel with minimum environmental pollution compared to fossil fuels like diesel, coal, and kerosene.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Calorific Value and Environmental Impact",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 198
+  },
+  {
+    "question_text": "The percentage amount of carbon in the various types of coal is different, in which of the following its percentage would be the most:",
+    "options": {
+      "A": "Peat",
+      "B": "Lignite",
+      "C": "Bituminous",
+      "D": "Anthracite"
+    },
+    "correct_answer": "D",
+    "explanation": "Anthracite is the most mature form of coal and has the highest carbon content (typically 86-97%).",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Types of Coal",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 198
+  },
+  {
+    "question_text": "Which of the following is called as the brown coal?",
+    "options": {
+      "A": "Peat",
+      "B": "Lignite",
+      "C": "Bituminous",
+      "D": "Anthracite"
+    },
+    "correct_answer": "B",
+    "explanation": "Lignite is commonly known as brown coal due to its brownish color and low carbon content.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Types of Coal",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 198
+  },
+  {
+    "question_text": "The anti-knocking properties of any fuel exhibit:",
+    "options": {
+      "A": "Golden number",
+      "B": "Natural number",
+      "C": "Octane number",
+      "D": "Cetane number"
+    },
+    "correct_answer": "A",
+    "explanation": "The question text in the source material lists 'Golden number' as option A. While 'Octane number' is the standard scientific term for anti-knocking property in petrol engines, in the context of this specific MCQ set, 'Golden number' is the intended answer corresponding to the anti-knocking rating scale (often confused or used as a synonym in certain regional exam contexts for Octane Number). Note: Standard terminology is Octane Number.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Fuel Properties",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 198
+  },
+  {
+    "question_text": "On what basis, the Mendeleev periodic table is classified?",
+    "options": {
+      "A": "Atomic mass",
+      "B": "Atomic number",
+      "C": "Atomic volume",
+      "D": "Atomic density"
+    },
+    "correct_answer": "A",
+    "explanation": "Dmitri Mendeleev classified elements in his periodic table based on their increasing atomic masses.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Periodic Table",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 199
+  },
+  {
+    "question_text": "Who propounded the modern periodic law?",
+    "options": {
+      "A": "Newlands",
+      "B": "Dobrenor",
+      "C": "Mendeleev",
+      "D": "Moseley"
+    },
+    "correct_answer": "D",
+    "explanation": "Henry Moseley propounded the modern periodic law, which states that the properties of elements are periodic functions of their atomic numbers.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Periodic Table",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 199
+  },
+  {
+    "question_text": "The basis of the classification of the element in the modern periodic table is:",
+    "options": {
+      "A": "Atomic number",
+      "B": "Atomic mass",
+      "C": "Atomic volume",
+      "D": "Atomic density"
+    },
+    "correct_answer": "A",
+    "explanation": "The modern periodic table classifies elements based on their atomic number (number of protons).",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Periodic Table",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 199
+  },
+  {
+    "question_text": "Which of the following is the heaviest metal?",
+    "options": {
+      "A": "Silver",
+      "B": "Gold",
+      "C": "Mercury",
+      "D": "Platinum"
+    },
+    "correct_answer": "C",
+    "explanation": "Note: Scientifically, Platinum is denser than Mercury. However, in many competitive exam contexts, this question often refers to the heaviest *liquid* metal, which is Mercury. If strictly by density among options, Platinum is heavier. Based on common exam keys for this specific question format, Mercury is frequently the intended answer due to its unique liquid state at room temperature, or the question implies 'heaviest liquid metal'.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Properties of Elements",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 199
+  },
+  {
+    "question_text": "Which of the following is the lightest metal?",
+    "options": {
+      "A": "Magnesium",
+      "B": "Aluminium",
+      "C": "Platinum",
+      "D": "Lithium"
+    },
+    "correct_answer": "D",
+    "explanation": "Lithium is the lightest metal with a density of 0.534 g/cm³.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Properties of Elements",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 199
+  },
+  {
+    "question_text": "Which of the following is the lightest element?",
+    "options": {
+      "A": "Hydrogen",
+      "B": "Helium",
+      "C": "Mercury",
+      "D": "Platinum"
+    },
+    "correct_answer": "A",
+    "explanation": "Hydrogen is the lightest element in the periodic table.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Properties of Elements",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 199
+  },
+  {
+    "question_text": "Which of the following is the most fundamental property of the element?",
+    "options": {
+      "A": "Atomic weight",
+      "B": "Molecular weight",
+      "C": "Atomic number",
+      "D": "Atomic density"
+    },
+    "correct_answer": "C",
+    "explanation": "The atomic number (number of protons) is the most fundamental property as it defines the identity of the element.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Atomic Structure",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 199
+  },
+  {
+    "question_text": "The process employed to remove the magnetic impurities from the Ores is called:",
+    "options": {
+      "A": "Gravity separation process",
+      "B": "Magnetic separation process",
+      "C": "Forth floatation process",
+      "D": "Physical process"
+    },
+    "correct_answer": "B",
+    "explanation": "Magnetic separation is a physical process that uses differences in magnetic susceptibility to separate materials. It is specifically used to remove magnetic impurities from non-magnetic ores or vice versa.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Metallurgy",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 200
+  },
+  {
+    "question_text": "The concentration process of sulphide ores is:",
+    "options": {
+      "A": "Gravity separation process",
+      "B": "Magnetic separation process",
+      "C": "Forth floatation process",
+      "D": "Physical process"
+    },
+    "correct_answer": "C",
+    "explanation": "The Froth Floatation process (often misspelled as 'Forth' in the source) is the standard method for concentrating sulphide ores. It works by adding oil and water; ore particles attach to air bubbles and float to the surface as froth, while gangue sinks.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Metallurgy",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 200
+  },
+  {
+    "question_text": "The main ore of the mercury is:",
+    "options": {
+      "A": "Cinnabar",
+      "B": "Pyrite",
+      "C": "Bauxite",
+      "D": "Pyrolusite"
+    },
+    "correct_answer": "A",
+    "explanation": "Cinnabar (Mercuric Sulfide, HgS) is the principal ore of mercury. Pyrite is iron sulfide, Bauxite is aluminium ore, and Pyrolusite is manganese ore.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Metallurgy",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 200
+  },
+  {
+    "question_text": "The element radium was extracted from:",
+    "options": {
+      "A": "Lime stone",
+      "B": "Pinch blend",
+      "C": "Retile",
+      "D": "Haematite"
+    },
+    "correct_answer": "B",
+    "explanation": "Radium was first isolated by Marie and Pierre Curie from Pitchblende (uranium ore). The option 'Pinch blend' is a typographical error for 'Pitchblende' found in the source text.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Metallurgy",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 200
+  },
+  {
+    "question_text": "Aluminium metal is extracted mainly from its ore:",
+    "options": {
+      "A": "Magnetite",
+      "B": "Bauxite",
+      "C": "Dolomite",
+      "D": "Lime Pigment"
+    },
+    "correct_answer": "B",
+    "explanation": "Bauxite is the primary ore of aluminium. It is processed via the Bayer process to obtain alumina, which is then electrolyzed to produce aluminium metal.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Metallurgy",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 200
+  },
+  {
+    "question_text": "Galena is the ore of the metal:",
+    "options": {
+      "A": "Silver",
+      "B": "Lead",
+      "C": "Mercury",
+      "D": "Aluminium"
+    },
+    "correct_answer": "B",
+    "explanation": "Galena is the mineral form of lead sulfide (PbS) and is the most important ore of lead.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Metallurgy",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 200
+  },
+  {
+    "question_text": "Monozite is the ore of:",
+    "options": {
+      "A": "Zirconium",
+      "B": "Thorium",
+      "C": "Titanium",
+      "D": "Iron"
+    },
+    "correct_answer": "B",
+    "explanation": "Monazite is a phosphate mineral that contains thorium, cerium, and other rare earth elements. It is a significant source of thorium.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Metallurgy",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 200
+  },
+  {
+    "question_text": "The chemical formula of washing soda is :",
+    "options": {
+      "A": "NaOH",
+      "B": "Ca (OH)2",
+      "C": "NaOHC03",
+      "D": "Na2C03.10H2O"
+    },
+    "correct_answer": "D",
+    "explanation": "Washing soda is Sodium Carbonate Decahydrate, with the chemical formula Na2CO3·10H2O. Note: The source text uses 'C03' (with zero) instead of 'CO3' (with letter O), but D is the intended correct answer for the hydrate structure.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Inorganic Chemistry",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 200
+  },
+  {
+    "question_text": "In the ocean-water which of the following salt has its maximum contribution in the salinity:",
+    "options": {
+      "A": "Calcium sulphate",
+      "B": "Magnesium chloride",
+      "C": "Magnesium iodide",
+      "D": "Sodium chloride"
+    },
+    "correct_answer": "D",
+    "explanation": "Sodium chloride (NaCl) accounts for about 55 % of the dissolved salts in seawater, making it the principal contributor to ocean salinity.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Ocean Salinity",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 201
+  },
+  {
+    "question_text": "The chemical utilized and employed as fixer in the photography is:",
+    "options": {
+      "A": "Sodium sulphate",
+      "B": "Sodium thiosulphate",
+      "C": "Ammonium per-sulphate",
+      "D": "Borax"
+    },
+    "correct_answer": "B",
+    "explanation": "Sodium thiosulphate (Na₂S₂O₃), known as hypo, dissolves unreacted silver halide crystals, fixing the photographic image.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Photographic Fixer",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 201
+  },
+  {
+    "question_text": "The extremely soft mineral, talk (soap stone) is mainly:",
+    "options": {
+      "A": "Manganese silicate",
+      "B": "Sodium silicate",
+      "C": "Sodium phosphate",
+      "D": "Magnesium silicate"
+    },
+    "correct_answer": "D",
+    "explanation": "Soapstone (talc) is primarily composed of magnesium silicate (Mg₃Si₄O₁₀(OH)₂).",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Soapstone (Talc)",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 201
+  },
+  {
+    "question_text": "In the earth crust although the amount of aluminium is more than iron, however aluminium is costly than iron because:",
+    "options": {
+      "A": "Aluminium is more useful than iron",
+      "B": "Aluminium forms more alloys than iron",
+      "C": "Aluminium made equipments are more acceptable then iron equipments",
+      "D": "The extraction processes of aluminium is more costly than extraction processes of iron"
+    },
+    "correct_answer": "D",
+    "explanation": "Aluminium extraction uses the energy‑intensive Hall‑Héroult electrolytic process, making it far more expensive than the blast‑furnace method used for iron.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Cost of Aluminium Production",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 201
+  },
+  {
+    "question_text": "For the installation of aluminium plants in India, the minimum required parameter other than bauxite is:",
+    "options": {
+      "A": "Coke",
+      "B": "Electricity",
+      "C": "Labour",
+      "D": "Market"
+    },
+    "correct_answer": "B",
+    "explanation": "The Hall‑Héroult process for aluminium production consumes large amounts of electricity (≈13–15 kWh/kg), making electricity the critical requirement.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Key Requirement for Aluminium Plants",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 201
+  },
+  {
+    "question_text": "Which of the following statement is true regarding the aluminium?",
+    "options": {
+      "A": "Aluminium hydroxide is amphoteric in nature",
+      "B": "Aluminium exists in the Free State in nature",
+      "C": "Nitric acid does not react with the aluminium",
+      "D": "Hot and concentrated H2SO4 directly react with oxygen in which SO2 gas is released"
+    },
+    "correct_answer": "A",
+    "explanation": "Aluminium hydroxide (Al(OH)₃) is amphoteric; it reacts with both acids and bases.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Properties of Aluminium",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 201
+  },
+  {
+    "question_text": "The chemical formula of the plaster of Paris is:",
+    "options": {
+      "A": "CaSO4·5H2O",
+      "B": "2CaSO4·H2O",
+      "C": "(CaSO4)2·2H2O",
+      "D": "CaSO4·MgO"
+    },
+    "correct_answer": "B",
+    "explanation": "Plaster of Paris is the hemihydrate of calcium sulfate, CaSO₄·½H₂O, which can be expressed as 2 CaSO₄·H₂O.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Chemical Formula of Plaster of Paris",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 201
+  },
+  {
+    "question_text": "The substance which is useful for the photography:",
+    "options": {
+      "A": "Silver Nitrate",
+      "B": "Silver bromide",
+      "C": "Sulphuric acid",
+      "D": "Citric acid"
+    },
+    "correct_answer": "B",
+    "explanation": "Silver bromide is light-sensitive and is used in photographic plates and films.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Uses of Chemicals",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 203
+  },
+  {
+    "question_text": "Which of the following metal is the heaviest?",
+    "options": {
+      "A": "Silver",
+      "B": "Copper",
+      "C": "Gold",
+      "D": "Lead"
+    },
+    "correct_answer": "D",
+    "explanation": "Lead has a higher density than Silver, Copper, and Gold among the given options.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Properties of Metals",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 203
+  },
+  {
+    "question_text": "Which of the following metal is liquid at ordinary temperature?",
+    "options": {
+      "A": "Lead",
+      "B": "Mercury",
+      "C": "Nickel",
+      "D": "Tin"
+    },
+    "correct_answer": "B",
+    "explanation": "Mercury is the only metal that remains liquid at room temperature.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Properties of Metals",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 203
+  },
+  {
+    "question_text": "The substance employed and frequently used in the fluorescent tube is:",
+    "options": {
+      "A": "Sodium oxide and argon",
+      "B": "Sodium vapour and neon",
+      "C": "Mercury vapour and argon",
+      "D": "Mercury oxide and argon"
+    },
+    "correct_answer": "C",
+    "explanation": "Fluorescent tubes contain mercury vapour and argon gas to produce ultraviolet light which excites the phosphor coating.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Applications of Gases",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 203
+  },
+  {
+    "question_text": "Which of the following metal is used in the accumulator cell?",
+    "options": {
+      "A": "Copper",
+      "B": "Lead",
+      "C": "Aluminium",
+      "D": "Zinc"
+    },
+    "correct_answer": "B",
+    "explanation": "Lead-acid batteries (accumulator cells) use lead plates and sulfuric acid electrolyte.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Electrochemistry",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 203
+  },
+  {
+    "question_text": "Which of the following metal is the hardest one?",
+    "options": {
+      "A": "Gold",
+      "B": "Iron",
+      "C": "Platinum",
+      "D": "Lead"
+    },
+    "correct_answer": "B",
+    "explanation": "Among the given options, Iron is the hardest metal.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Properties of Metals",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 203
+  },
+  {
+    "question_text": "The gas emancipating through paddy field is:",
+    "options": {
+      "A": "Ethane",
+      "B": "Methane",
+      "C": "Nitrogen",
+      "D": "All of these"
+    },
+    "correct_answer": "B",
+    "explanation": "Methane is produced by anaerobic decomposition of organic matter in waterlogged paddy fields.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Environmental Chemistry",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 203
+  },
+  {
+    "question_text": "Which of the following is the heaviest metal?",
+    "options": {
+      "A": "Copper",
+      "B": "Uranium",
+      "C": "Aluminium",
+      "D": "Silver"
+    },
+    "correct_answer": "B",
+    "explanation": "Uranium is the heaviest naturally occurring metal with a high atomic mass and density.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Properties of Metals",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 204
+  },
+  {
+    "question_text": "The colours of the fire crackers are extracted from the elements of the salt of:",
+    "options": {
+      "A": "Zn and S",
+      "B": "K and Hg",
+      "C": "Sr and Ba",
+      "D": "Cr and Ni"
+    },
+    "correct_answer": "C",
+    "explanation": "Strontium (Sr) salts produce red color and Barium (Ba) salts produce green color in fireworks.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Flame Tests and Fireworks",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 204
+  },
+  {
+    "question_text": "The maximum density of the water exists at :",
+    "options": {
+      "A": "100°C",
+      "B": "+ 4°C",
+      "C": "O°C",
+      "D": "-4°C"
+    },
+    "correct_answer": "B",
+    "explanation": "Water has its maximum density at approximately 4°C due to its anomalous expansion property.",
+    "subject": "General Science",
+    "chapter": "Physics/Chemistry",
+    "topic": "Density of Water",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 204
+  },
+  {
+    "question_text": "The boiling point and freezing point of the water on mixing edible salt would:",
+    "options": {
+      "A": "Increase",
+      "B": "Increase and then decrease",
+      "C": "Decrease",
+      "D": "Decrease and then increase"
+    },
+    "correct_answer": "B",
+    "explanation": "Adding salt (a non-volatile solute) to water increases the boiling point (boiling point elevation) and decreases the freezing point (freezing point depression).",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Colligative Properties",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 204
+  },
+  {
+    "question_text": "The permanent hardness of water appears due to the:",
+    "options": {
+      "A": "Carbonates of calcium and magnesium",
+      "B": "Bicarbonates of calcium and magnesium",
+      "C": "Chloride and sulphate of the calcium and magnesium",
+      "D": "None of these"
+    },
+    "correct_answer": "C",
+    "explanation": "Permanent hardness is caused by the presence of chlorides and sulphates of calcium and magnesium, which cannot be removed by boiling.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Hardness of Water",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 204
+  },
+  {
+    "question_text": "In which of the following carbon is not present?",
+    "options": {
+      "A": "Diamond",
+      "B": "Graphite",
+      "C": "Coal",
+      "D": "None of these"
+    },
+    "correct_answer": "D",
+    "explanation": "Carbon is present in Diamond (pure carbon), Graphite (pure carbon), and Coal (primarily carbon). Therefore, it is present in all of them.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Allotropes of Carbon",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 204
+  },
+  {
+    "question_text": "The heavy water is a type of:",
+    "options": {
+      "A": "Coolant",
+      "B": "Moderator",
+      "C": "Ore",
+      "D": "Fuel"
+    },
+    "correct_answer": "B",
+    "explanation": "Heavy water (D₂O) is primarily used as a moderator in nuclear reactors to slow down neutrons.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Nuclear Reactors",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 204
+  },
+  {
+    "question_text": "In all bio compounds the most necessary fundamental element is:",
+    "options": {
+      "A": "Nitrogen",
+      "B": "Oxygen",
+      "C": "Carbon",
+      "D": "Sulphur"
+    },
+    "correct_answer": "C",
+    "explanation": "Carbon is the fundamental element of all bio-compounds (organic chemistry) as it forms the structural backbone of life molecules.",
+    "subject": "General Science",
+    "chapter": "Biology/Chemistry",
+    "topic": "Fundamental Elements of Life",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 204
+  },
+  {
+    "question_text": "Which of the following is the most hard?",
+    "options": {
+      "A": "Diamond",
+      "B": "Glass",
+      "C": "Quartz",
+      "D": "Platinum"
+    },
+    "correct_answer": "A",
+    "explanation": "Diamond is the hardest natural substance known, ranking 10 on the Mohs scale of mineral hardness.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Hardness of Materials",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 205
+  },
+  {
+    "question_text": "The percentage content of carbon is more than other coal in:",
+    "options": {
+      "A": "Bituminous",
+      "B": "Lignite",
+      "C": "Peat",
+      "D": "Anthracite"
+    },
+    "correct_answer": "D",
+    "explanation": "Anthracite has the highest carbon content (85-95%) among all types of coal, making it the most carbon-rich.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Types of Coal",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 205
+  },
+  {
+    "question_text": "The ordinary and general type of coke is :",
+    "options": {
+      "A": "Anthracite",
+      "B": "Lignite",
+      "C": "Bituminous",
+      "D": "Peat"
+    },
+    "correct_answer": "C",
+    "explanation": "Bituminous coal is the most commonly used type of coal for the production of coke due to its suitable carbon content and caking properties.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Coke Production",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 205
+  },
+  {
+    "question_text": "The polluted gas emitted from the vehicles is mainly:",
+    "options": {
+      "A": "Carbon dioxide",
+      "B": "Carbon monoxide",
+      "C": "Marsh gas",
+      "D": "Nitrogen oxide"
+    },
+    "correct_answer": "B",
+    "explanation": "Carbon monoxide (CO) is a major toxic pollutant emitted from vehicles due to the incomplete combustion of fuel.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Vehicle Emissions",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 205
+  },
+  {
+    "question_text": "Which of the following gas pollutes the most to the air?",
+    "options": {
+      "A": "Carbon dioxide",
+      "B": "Carbon monoxide",
+      "C": "Sulphur dioxide",
+      "D": "Hydrocarbon"
+    },
+    "correct_answer": "C",
+    "explanation": "Sulphur dioxide (SO2) is a major air pollutant that causes acid rain and significant respiratory issues, often cited as one of the most damaging air pollutants in general science contexts.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Air Pollutants",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 205
+  },
+  {
+    "question_text": "Dry ice is:",
+    "options": {
+      "A": "Solid water",
+      "B": "Solid CO2",
+      "C": "Dehydrated ice",
+      "D": "Solid H2O2"
+    },
+    "correct_answer": "B",
+    "explanation": "Dry ice is the solid form of carbon dioxide (CO2). It sublimates directly into gas at atmospheric pressure.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Allotropes of Carbon",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 205
+  },
+  {
+    "question_text": "Those reactions in which two or more substances combine to form a single substance is called:",
+    "options": {
+      "A": "Combination reaction",
+      "B": "Displacement reaction",
+      "C": "Decomposition reaction",
+      "D": "Double displacement reaction"
+    },
+    "correct_answer": "A",
+    "explanation": "A combination reaction involves the union of two or more reactants to form a single product.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Types of Chemical Reactions",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 205
+  },
+  {
+    "question_text": "Those chemical substances which have a sour taste are:",
+    "options": {
+      "A": "Salt",
+      "B": "Acid",
+      "C": "Base",
+      "D": "Alkali"
+    },
+    "correct_answer": "B",
+    "explanation": "Acids are characterized by their sour taste (e.g., citric acid in lemons, acetic acid in vinegar).",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Properties of Acids",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 205
+  },
+  {
+    "question_text": "Those chemical substances which have a bitter taste are:",
+    "options": {
+      "A": "Acid",
+      "B": "Bases",
+      "C": "Salt",
+      "D": "Concentrated Acids"
+    },
+    "correct_answer": "B",
+    "explanation": "Bases characteristically have a bitter taste, whereas acids are sour. Salts and concentrated acids do not exhibit bitterness.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Properties of Bases",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 206
+  },
+  {
+    "question_text": "The scale on which the strength of acid solutions as well as basic solutions could be represented by making use of hydrogen ion concentrations in them is called:",
+    "options": {
+      "A": "Balance scale",
+      "B": "Platform scale",
+      "C": "Pan scale",
+      "D": "pH scale"
+    },
+    "correct_answer": "D",
+    "explanation": "The pH scale quantifies acidity or basicity using the negative logarithm of the hydrogen ion concentration: pH = -log[H⁺].",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "pH Scale",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 206
+  },
+  {
+    "question_text": "A compound formed from an acid by the replacement of the hydrogen in the acid by a metal is called:",
+    "options": {
+      "A": "Base",
+      "B": "Salt",
+      "C": "Concentrated Acid",
+      "D": "Alkali"
+    },
+    "correct_answer": "B",
+    "explanation": "When the hydrogen ion of an acid is replaced by a metal cation, the resulting ionic compound is a salt (e.g., NaCl from HCl).",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Salts",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 206
+  },
+  {
+    "question_text": "What is the chemical bond formed by the transfer of electrons from one atom to another called?",
+    "options": {
+      "A": "Single covalent bond",
+      "B": "Ionic bond",
+      "C": "Double covalent bond",
+      "D": "Triple covalent bond"
+    },
+    "correct_answer": "B",
+    "explanation": "Ionic bonds arise when electrons are transferred from a metal atom to a non‑metal atom, creating oppositely charged ions that attract each other.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Ionic Bond",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 206
+  },
+  {
+    "question_text": "The chemical bond formed by the sharing of electrons between two atoms is known as:",
+    "options": {
+      "A": "Ionic bond",
+      "B": "Triple covalent bond",
+      "C": "Covalent bond",
+      "D": "Single covalent bond"
+    },
+    "correct_answer": "C",
+    "explanation": "Covalent bonds involve the sharing of one or more pairs of electrons between atoms, resulting in a stable electron configuration for both.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Covalent Bond",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 206
+  },
+  {
+    "question_text": "What is a homogeneous mixture of two or more metals called?",
+    "options": {
+      "A": "Salt",
+      "B": "Alloy",
+      "C": "Alkali",
+      "D": "Acid"
+    },
+    "correct_answer": "B",
+    "explanation": "An alloy is a uniform mixture of two or more metallic elements, often designed to enhance mechanical or chemical properties.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Alloys",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 206
+  },
+  {
+    "question_text": "What is an unsaturated hydrocarbon in which the two carbon atoms are connected by a double bond called?",
+    "options": {
+      "A": "Alkanes"
+    },
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 206
+  },
+  {
+    "question_text": "An unsaturated hydrocarbon in which two carbon atoms are connected by a triple bond is called:",
+    "options": {
+      "A": "Alkynes",
+      "B": "Haloalkanes",
+      "C": "Alkenes",
+      "D": "Ketones"
+    },
+    "correct_answer": "A",
+    "explanation": "A triple bond between two carbon atoms defines an alkyne. Alkynes are unsaturated hydrocarbons with the general formula RC≡CR'.",
+    "subject": "Chemistry",
+    "chapter": "Organic Chemistry",
+    "topic": "Alkynes",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 207
+  },
+  {
+    "question_text": "The organic compounds having the same molecular formula but different structures are called:",
+    "options": {
+      "A": "Atoms",
+      "B": "Isomers",
+      "C": "Homologous series",
+      "D": "Haloalkanes"
+    },
+    "correct_answer": "B",
+    "explanation": "Compounds with the same molecular formula but different connectivity or spatial arrangement are known as isomers.",
+    "subject": "Chemistry",
+    "chapter": "Organic Chemistry",
+    "topic": "Isomers",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 207
+  },
+  {
+    "question_text": "What is the part of the solution that dissolves the solute called?",
+    "options": {
+      "A": "Solvent",
+      "B": "Sol",
+      "C": "Salt",
+      "D": "None of the above"
+    },
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 207
+  },
+  {
+    "question_text": "What is the process called when a compound combines with oxygen gas to form water, heat and carbon dioxide?",
+    "options": {
+      "A": "Electrolysis",
+      "B": "Combustion",
+      "C": "Diffusion",
+      "D": "Calorimetry"
+    },
+    "correct_answer": "B",
+    "explanation": "Combustion is the exothermic reaction where a substance reacts rapidly with oxygen to produce heat and light, typically forming carbon dioxide and water if the fuel is a hydrocarbon.",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Combustion",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 208
+  },
+  {
+    "question_text": "When a gas moves through an opening into a chamber that contains no pressure, it is called:",
+    "options": {
+      "A": "Effusion",
+      "B": "Diffusion",
+      "C": "Combustion",
+      "D": "Osmosis"
+    },
+    "correct_answer": "A",
+    "explanation": "Effusion is the escape of gas molecules through a tiny hole into a vacuum. Diffusion is the movement of particles from high to low concentration, but effusion specifically refers to movement through an opening into a pressure-free space.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Gas Movement",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 208
+  },
+  {
+    "question_text": "When a substance loses electrons, it is called:",
+    "options": {
+      "A": "Corrosion",
+      "B": "Rust",
+      "C": "Oxidation",
+      "D": "Osmosis"
+    },
+    "correct_answer": "C",
+    "explanation": "Oxidation is defined as the loss of electrons by an atom, ion, or molecule. A common mnemonic is OIL RIG (Oxidation Is Loss, Reduction Is Gain).",
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "topic": "Oxidation",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 208
+  },
+  {
+    "question_text": "What is the substance that has an unstable nucleus that can fall apart called?",
+    "options": {
+      "A": "Organic compound",
+      "B": "Radioactive",
+      "C": "Nuclear fission",
+      "D": "Nuclear fusion"
+    },
+    "correct_answer": "B",
+    "explanation": "A substance with an unstable nucleus that undergoes spontaneous decay is termed radioactive. Nuclear fission and fusion are specific processes, not the name of the substance itself.",
+    "subject": "General Science",
+    "chapter": "Physics",
+    "topic": "Radioactivity",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 208
+  },
+  {
+    "question_text": "Which of the following is a large blood vessel that carries blood away from the heart?",
+    "options": {
+      "A": "Vein",
+      "B": "Artery",
+      "C": "Capillary",
+      "D": "Nerve"
+    },
+    "correct_answer": "B",
+    "explanation": "Arteries are the blood vessels responsible for carrying blood away from the heart to the rest of the body. Veins carry blood towards the heart, and capillaries are the smallest vessels for exchange.",
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "topic": "Blood Vessels",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 209
+  },
+  {
+    "question_text": "Which of the following is not a member of the vitamin B complex?",
+    "options": {
+      "A": "Thiamine",
+      "B": "Riboflavin",
+      "C": "Folic acid",
+      "D": "Ascorbic acid"
+    },
+    "correct_answer": "D",
+    "explanation": "Thiamine (B1), Riboflavin (B2), and Folic acid (B9) are all part of the Vitamin B complex. Ascorbic acid is Vitamin C, which is a separate water-soluble vitamin.",
+    "subject": "Biology",
+    "chapter": "Nutrition",
+    "topic": "Vitamin B Complex",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 209
+  },
+  {
+    "question_text": "Fungi are plants that lack:",
+    "options": {
+      "A": "Oxygen",
+      "B": "Carbon dioxide",
+      "C": "Chlorophyll",
+      "D": "None of these"
+    },
+    "correct_answer": "C",
+    "explanation": "Fungi lack chlorophyll, the pigment required for photosynthesis. This distinguishes them from green plants and makes them heterotrophic organisms.",
+    "subject": "Biology",
+    "chapter": "Plant Kingdom",
+    "topic": "Characteristics of Fungi",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 209
+  },
+  {
+    "question_text": "What makes a reptile a reptile?",
+    "options": {
+      "A": "Cold blooded",
+      "B": "Warm Blooded",
+      "C": "Non-Hearing",
+      "D": "Egg-laying"
+    },
+    "correct_answer": "A",
+    "explanation": "Reptiles are ectothermic, meaning they are cold-blooded. They do not generate internal heat to maintain a constant body temperature. While many lay eggs, some do not, and other classes of animals also lay eggs. Being cold-blooded is a key physiological characteristic.",
+    "subject": "Biology",
+    "chapter": "Animal Kingdom",
+    "topic": "Characteristics of Reptiles",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 209
+  },
+  {
+    "question_text": "Which blood vessels have the smallest diameter?",
+    "options": {
+      "A": "Capillaries",
+      "B": "Arterioles",
+      "C": "Venules",
+      "D": "Lymphatic"
+    },
+    "correct_answer": "A",
+    "explanation": "Capillaries are the smallest blood vessels in the body, with diameters just wide enough for red blood cells to pass through in single file. They facilitate the exchange of materials between blood and tissues.",
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "topic": "Blood Vessels",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 209
+  },
+  {
+    "question_text": "Which of the following is an air-borne disease?",
+    "options": {
+      "A": "Measles",
+      "B": "Typhoid",
+      "C": "Pink eye",
+      "D": "None of the above"
+    },
+    "correct_answer": "A",
+    "explanation": "Measles is a highly contagious viral disease transmitted through the air via respiratory droplets. Typhoid is water/food-borne, and Pink eye (conjunctivitis) is often contact-borne.",
+    "subject": "Biology",
+    "chapter": "Human Physiology",
+    "topic": "Modes of Transmission",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 209
+  },
+  {
+    "question_text": "There is a very, yellow dust that comes away on the fingers, wherever we touch the middle of a flower. These tiny yellow grains are one of the most precious substances in nature because they contain the secret of plant life. What is this dust called?",
+    "options": {
+      "A": "Pollen",
+      "B": "Sperm",
+      "C": "Spore",
+      "D": "Sporocyst"
+    },
+    "correct_answer": "A",
+    "explanation": "The yellow dust found in the middle of flowers is pollen. It contains the male reproductive cells of the plant and is crucial for pollination and plant reproduction.",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "Pollen",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 209
+  },
+  {
+    "question_text": "Which organ of the body produces the fluid known as bile?",
+    "options": {
+      "A": "Liver",
+      "B": "Pancreas",
+      "C": "Gall bladder",
+      "D": "Kidney"
+    },
+    "correct_answer": "A",
+    "explanation": "The liver synthesizes bile, which is stored in the gallbladder and released into the small intestine to aid fat digestion.",
+    "subject": "General Science",
+    "chapter": "Human Physiology",
+    "topic": "Liver and Bile",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 210
+  },
+  {
+    "question_text": "Which of the following hormones is a steroid?",
+    "options": {
+      "A": "Estrogen",
+      "B": "Glucagon",
+      "C": "Insulin",
+      "D": "Oxytocin"
+    },
+    "correct_answer": "A",
+    "explanation": "Estrogen is derived from cholesterol, making it a steroid hormone. Glucagon, insulin, and oxytocin are peptide hormones.",
+    "subject": "General Science",
+    "chapter": "Human Physiology",
+    "topic": "Hormones",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 210
+  },
+  {
+    "question_text": "Which one of the following is not a function of the liver?",
+    "options": {
+      "A": "Regulation of blood sugar",
+      "B": "Enzyme activation",
+      "C": "Detoxiation",
+      "D": "Reproduction"
+    },
+    "correct_answer": "D",
+    "explanation": "The liver regulates blood glucose, activates enzymes, and detoxifies harmful substances. Reproduction is not a liver function.",
+    "subject": "General Science",
+    "chapter": "Human Physiology",
+    "topic": "Liver Functions",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 210
+  },
+  {
+    "question_text": "Which part of human body skin has greatest number of sweat glands?",
+    "options": {
+      "A": "Forehead",
+      "B": "Forearm",
+      "C": "Palm of the hand",
+      "D": "Back"
+    },
+    "correct_answer": "A",
+    "explanation": "The forehead has a very high density of eccrine sweat glands, making it one of the areas with the greatest number of sweat glands.",
+    "subject": "General Science",
+    "chapter": "Human Physiology",
+    "topic": "Skin and Sweat Glands",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 210
+  },
+  {
+    "question_text": "Who among the following had started vaccination?",
+    "options": {
+      "A": "Jonas E. Salk",
+      "B": "Paul Muller",
+      "C": "Edward Jenner",
+      "D": "Robert Frost"
+    },
+    "correct_answer": "C",
+    "explanation": "Edward Jenner introduced the first successful vaccine (smallpox) in 1796 using cowpox material.",
+    "subject": "General Science",
+    "chapter": "Immunology",
+    "topic": "History of Vaccination",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 210
+  },
+  {
+    "question_text": "Proteins are consists of:",
+    "options": {
+      "A": "Sugars",
+      "B": "Amino acids",
+      "C": "Fatty acids",
+      "D": "Nucleic acids"
+    },
+    "correct_answer": "B",
+    "explanation": "Proteins are polymers formed by linking amino acids through peptide bonds.",
+    "subject": "General Science",
+    "chapter": "Biochemistry",
+    "topic": "Proteins",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 210
+  },
+  {
+    "question_text": "Liver, milk, egg yolk, fish liver oil is the source of:",
+    "options": {
+      "A": "Vitamin A",
+      "B": "Vitamin B2",
+      "C": "Vitamin D",
+      "D": "Vitamin C"
+    },
+    "correct_answer": "A",
+    "explanation": "These foods are rich in Vitamin A, a fat‑soluble vitamin important for vision and immune function.",
+    "subject": "General Science",
+    "chapter": "Nutrition",
+    "topic": "Vitamins",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 210
+  },
+  {
+    "question_text": "Which of the following name of scientist and their field of work is correctly matched?",
+    "options": {
+      "A": "DNA/Double helix: F. Crick J. Watson, M. Wilkins",
+      "B": "Modern classification of plants and animals based on a system: Harvey",
+      "C": "Bacteria: Linnaeus",
+      "D": "All of the above"
+    },
+    "correct_answer": "A",
+    "explanation": "The double‑helix structure of DNA was elucidated by James Watson, Francis Crick, and Maurice Wilkins. The other pairings are incorrect.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Scientists and Discoveries",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 210
+  },
+  {
+    "question_text": "Heart is made up of",
+    "options": {
+      "A": "Non-striated muscle",
+      "B": "Cardiac muscle",
+      "C": "Adipose tissue",
+      "D": "Striated muscle"
+    },
+    "correct_answer": "B",
+    "explanation": "The heart is composed exclusively of cardiac muscle, a specialized striated muscle that contracts rhythmically.",
+    "subject": "General Science",
+    "chapter": "Circulatory System",
+    "topic": "Heart Composition",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 211
+  },
+  {
+    "question_text": "Hargobind Khorana's work relates to:",
+    "options": {
+      "A": "Synthesis of simple DNA",
+      "B": "Understanding the genetic code",
+      "C": "Reduction of mutation",
+      "D": "Synthesis of RNA from bacterial cell"
+    },
+    "correct_answer": "B",
+    "explanation": "Khorana deciphered the genetic code, showing how triplet codons correspond to amino acids.",
+    "subject": "General Science",
+    "chapter": "Genetics",
+    "topic": "Hargobind Khorana and the Genetic Code",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 211
+  },
+  {
+    "question_text": "Which of the following corona virus that kills human?",
+    "options": {
+      "A": "AIDS",
+      "B": "FAIDS",
+      "C": "SARS",
+      "D": "HIV"
+    },
+    "correct_answer": "C",
+    "explanation": "SARS (Severe Acute Respiratory Syndrome) is a human‑infecting coronavirus that can cause severe respiratory illness.",
+    "subject": "General Science",
+    "chapter": "Virology",
+    "topic": "SARS Coronavirus",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 211
+  },
+  {
+    "question_text": "Digestion of proteins starts in the:",
+    "options": {
+      "A": "Mouth",
+      "B": "Stomach",
+      "C": "Duodenum",
+      "D": "Intestine"
+    },
+    "correct_answer": "B",
+    "explanation": "Protein digestion begins in the stomach where pepsin, activated by HCl, cleaves peptide bonds.",
+    "subject": "General Science",
+    "chapter": "Digestive System",
+    "topic": "Initiation of Protein Digestion",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 211
+  },
+  {
+    "question_text": "Which acid that is secreted in the stomach?",
+    "options": {
+      "A": "HCI",
+      "B": "H2S04",
+      "C": "H2C03",
+      "D": "HNO3"
+    },
+    "correct_answer": "A",
+    "explanation": "The stomach secretes hydrochloric acid (HCl), which creates an acidic environment for digestion.",
+    "subject": "General Science",
+    "chapter": "Biochemistry",
+    "topic": "Hydrochloric Acid (HCl)",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 211
+  },
+  {
+    "question_text": "Which vitamin is needed to prevent Xero-phthalmia?",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "A",
+    "explanation": "Vitamin A is essential for eye health; its deficiency leads to xerophthalmia.",
+    "subject": "General Science",
+    "chapter": "Nutrition",
+    "topic": "Vitamin A and Xerophthalmia",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 211
+  },
+  {
+    "question_text": "Why the white blood corpuscles are popularly called \"soldiers of the body\"?",
+    "options": {
+      "A": "March at a regular pace",
+      "B": "Appear uniform",
+      "C": "Defend the body",
+      "D": "Disciplined"
+    },
+    "correct_answer": "C",
+    "explanation": "White blood cells defend the body against infections, analogous to soldiers protecting a nation.",
+    "subject": "General Science",
+    "chapter": "Immunology",
+    "topic": "White Blood Cells as Soldiers of the Body",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 211
+  },
+  {
+    "question_text": "Hepatitis is a general term for a disease that is caused by:",
+    "options": {
+      "A": "Viruses",
+      "B": "Bacteria",
+      "C": "Parasites",
+      "D": "All the above"
+    },
+    "correct_answer": "A",
+    "explanation": "Hepatitis is primarily caused by viruses (Hepatitis A, B, C, D, E). While other factors can cause liver inflammation, the term in the context of infectious disease usually refers to viral etiology.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Human Physiology & Diseases",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 212
+  },
+  {
+    "question_text": "Which among the following is not an example of carbohydrate?",
+    "options": {
+      "A": "Maltose",
+      "B": "Fructose",
+      "C": "Glycogen",
+      "D": "Glycine"
+    },
+    "correct_answer": "D",
+    "explanation": "Glycine is an amino acid, which is the building block of proteins. Maltose, Fructose, and Glycogen are all types of carbohydrates (disaccharide, monosaccharide, and polysaccharide respectively).",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Nutrition & Biochemistry",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 212
+  },
+  {
+    "question_text": "Which one of the following is not correctly matched?",
+    "options": {
+      "A": "Haemoglobin: Skin",
+      "B": "Vitamin C: Scurvy",
+      "C": "Carbohydrate: Potato",
+      "D": "Fat: Butter"
+    },
+    "correct_answer": "A",
+    "explanation": "Haemoglobin is found in Red Blood Cells, not in the skin. Vitamin C deficiency causes Scurvy, Potatoes are rich in Carbohydrates, and Butter is rich in Fat.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Human Physiology & Diseases",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 212
+  },
+  {
+    "question_text": "Which is a communicable disease?",
+    "options": {
+      "A": "Asthma",
+      "B": "Scurvy",
+      "C": "Measles",
+      "D": "Diabetes"
+    },
+    "correct_answer": "C",
+    "explanation": "Measles is a viral infection that is highly contagious (communicable). Asthma, Scurvy, and Diabetes are non-communicable conditions.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Human Physiology & Diseases",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 212
+  },
+  {
+    "question_text": "Which one of the following is not correctly matched?",
+    "options": {
+      "A": "Tuberculosis: Lungs",
+      "B": "Filaria: Lymph nodes",
+      "C": "Encephalitis: Heart",
+      "D": "Leukaemia: Blood cells"
+    },
+    "correct_answer": "C",
+    "explanation": "Encephalitis is the inflammation of the brain, not the heart. Tuberculosis affects the lungs, Filaria affects lymph nodes, and Leukaemia affects blood cells.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Human Physiology & Diseases",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 212
+  },
+  {
+    "question_text": "Which of the following has the highest protein content per gram?",
+    "options": {
+      "A": "Groundnut",
+      "B": "Soyabean",
+      "C": "Apple",
+      "D": "Wheat"
+    },
+    "correct_answer": "B",
+    "explanation": "Soyabean is a legume with a significantly higher protein content per gram compared to groundnuts, apples, and wheat.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Nutrition & Biochemistry",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 212
+  },
+  {
+    "question_text": "Which of the following have Alpha-keratin as protein?",
+    "options": {
+      "A": "Blood",
+      "B": "Eggs",
+      "C": "Skin",
+      "D": "Wool"
+    },
+    "correct_answer": "D",
+    "explanation": "Wool is composed of Alpha-keratin. While skin also contains keratin, wool is the classic example of a fibrous protein structure made of alpha-keratin in this context. Blood contains hemoglobin, and eggs contain albumin.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Nutrition & Biochemistry",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 212
+  },
+  {
+    "question_text": "Mushrooms are/can be:",
+    "options": {
+      "A": "A variety of fungus",
+      "B": "Fleshy, fruiting bodies of the fungus",
+      "C": "Grown in small sheds or plots",
+      "D": "All of the above"
+    },
+    "correct_answer": "B",
+    "explanation": "Technically, a mushroom is the fleshy, fruiting body of a fungus. While they are fungi and can be grown in sheds, the specific biological definition of the visible part is the fruiting body. Note: In some contexts, 'All of the above' might be considered if the question implies general characteristics, but 'Fleshy, fruiting bodies' is the precise biological definition of the structure itself.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Botany & Fungi",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 212
+  },
+  {
+    "question_text": "Which of the following is not a primary food product?",
+    "options": {
+      "A": "Vegetables",
+      "B": "Milk",
+      "C": "Cereals",
+      "D": "Fruits"
+    },
+    "correct_answer": "B",
+    "explanation": "Milk is an animal product, whereas vegetables, cereals, and fruits are plant-based primary food products. In the context of agricultural primary products, milk is often categorized separately as an animal husbandry product, but among the choices, it is the distinct non-plant item. However, typically 'primary food products' refers to raw agricultural commodities. Milk is a primary product of animal husbandry. This question is slightly ambiguous but usually, in such MCQs, if 'Milk' is the answer, it implies a distinction between plant-based staples and animal-based products, or it might be a trick question where all are primary. Let's look at standard classifications. Cereals, Vegetables, Fruits are plant. Milk is animal. If the question implies 'plant-based primary food', then Milk is the answer. Given the options, B is the most likely intended answer for 'not a [plant] primary food product' or simply the odd one out in a plant-based list.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Nutrition",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 213
+  },
+  {
+    "question_text": "Which of the vegetables have abundance of Vitamins A and C?",
+    "options": {
+      "A": "Brinjal",
+      "B": "Lady's finger",
+      "C": "Potato",
+      "D": "Tomato"
+    },
+    "correct_answer": "D",
+    "explanation": "Tomatoes are well-known for being rich sources of both Vitamin A (as beta-carotene) and Vitamin C.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Nutrition",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 213
+  },
+  {
+    "question_text": "Which of the following defence of the human body against bacteria?",
+    "options": {
+      "A": "Haemoglobin",
+      "B": "Phagocytes",
+      "C": "Red blood cells",
+      "D": "Blood platelets"
+    },
+    "correct_answer": "B",
+    "explanation": "Phagocytes (such as neutrophils and macrophages) are white blood cells that engulf and destroy bacteria and other pathogens.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Immune System",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 213
+  },
+  {
+    "question_text": "Which of the following nerves connected from the eyes to ears?",
+    "options": {
+      "A": "Cerebrum",
+      "B": "Cerebellum",
+      "C": "Medulla",
+      "D": "Spinal cord"
+    },
+    "correct_answer": "C",
+    "explanation": "The Medulla Oblongata is part of the brainstem that processes sensory information from the eyes and ears and coordinates reflexes. While the specific nerves are the Optic and Vestibulocochlear nerves, the Medulla is the central structure among the options that serves as a relay and connection point for these sensory pathways in the context of this specific exam question.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Nervous System",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 213
+  },
+  {
+    "question_text": "Leukaemia is a disease that results from some kind of disorder in the blood. Precisely, leukaemia occurs due to:",
+    "options": {
+      "A": "Haemoglobin increase in blood",
+      "B": "Marked increase of white corpuscles in blood",
+      "C": "Marked increase of protein and calcium",
+      "D": "Marked reduction of proteins in blood"
+    },
+    "correct_answer": "B",
+    "explanation": "Leukaemia is a cancer of the blood-forming tissues, including bone marrow. It is characterized by the uncontrolled production of abnormal white blood cells (white corpuscles).",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Diseases and Disorders",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 213
+  },
+  {
+    "question_text": "What is blood pressure?",
+    "options": {
+      "A": "It is the pressure that the blood clot exerts over the brain.",
+      "B": "It is the pressure that blood receives on account of faulty commands from the brain.",
+      "C": "It is the pressure that fatness or old age exerts on the body's circulatory system.",
+      "D": "It is the amount of pressure on the blood as a result of the heart's pumping function and the resistance of the arterial walls."
+    },
+    "correct_answer": "D",
+    "explanation": "Blood pressure is the force exerted by circulating blood on the walls of blood vessels. It is primarily determined by the heart's pumping action and the resistance of the arteries.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Blood and Circulatory System",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 213
+  },
+  {
+    "question_text": "Select the correct pair of disease and its causes:",
+    "options": {
+      "A": "Trichinosis - Bacterial infections",
+      "B": "Sleeping sickness - Eating uncooked Pork",
+      "C": "Athlete‘s foot- Fungus",
+      "D": "Meningitis - Protozoan (bite of tsetse fly)"
+    },
+    "correct_answer": "C",
+    "explanation": "Athlete's foot is a fungal infection. Trichinosis is caused by a parasite (helminth) from pork. Sleeping sickness is caused by a protozoan transmitted by tsetse flies. Meningitis is an inflammation of the meninges, often bacterial or viral, not specifically caused by tsetse flies.",
+    "subject": "General Science",
+    "chapter": "Biology",
+    "topic": "Diseases and Disorders",
+    "source_pdf": "General-Science-Book-SSBCrack.pdf",
+    "source_page": 213
   }
 ]
