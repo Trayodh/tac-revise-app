@@ -191917,5 +191917,1958 @@
     "content": "- **Relation**: $g = \\frac{G M_e}{R_e^2}$\n  - $M_e$: Mass of the Earth\n  - $R_e$: Radius of the Earth\n- **Value of g on Earth**: $9.8 \\text{ m/s}^2$\n- **Variation of g**:\n  - At the center of the Earth, the value of gravitational acceleration becomes zero.\n  - The Earth is flattened at the poles, so the radius is less at the poles than at the equator.\n  - Since $g \\propto \\frac{1}{R^2}$, the value of $g$ is less at the equator than at the poles.\n- **Moon's Gravity**: The value of $g$ on the Moon’s surface is $\\frac{1}{6}$th of the value of $g$ on the Earth.",
     "source_pdf": "afcat_reasoning_notes.pdf",
     "source_page": 140
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Heat Transfer",
+    "subchapter": "Convection",
+    "topic": "Convection",
+    "content": "# Convection\\n\\nConvection is the **mode of heat transfer** that occurs through the **actual movement of heated particles** in a fluid (liquid or gas). It involves the bulk motion of the medium itself, carrying thermal energy from one region to another.\\n\\n- **Key Characteristics**\\n  - Requires a fluid medium.\\n  - Heat is transported by the motion of the fluid.\\n  - Common in natural processes (e.g., atmospheric circulation) and engineered systems (e.g., cooling fans).\\n\\n- **Formula**: No single universal formula; depends on the system (e.g., Newton’s law of cooling for convective heat transfer: \\(q = hA(T_s - T_\\infty)\\)).\\n\\n- **Applications**: Heating/cooling of buildings, industrial processes, weather patterns.\\n\\n---\\n\\n> **Tip**: In convection, the temperature gradient drives fluid motion, which in turn transports heat.\\n",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 141
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Heat Transfer",
+    "subchapter": "Radiation",
+    "topic": "Radiation",
+    "content": "# Radiation\\n\\nRadiation is the **transfer of heat energy through electromagnetic waves**. Unlike conduction and convection, it **does not require a medium**; heat can be transmitted through a vacuum.\\n\\n- **Key Points**\\n  - Emitted by all bodies with temperature above absolute zero.\\n  - Governed by **Stefan–Boltzmann law**: \\(P = \\sigma A T^4\\).\\n  - **Inverse-square law**: Intensity decreases with the square of distance.\\n\\n- **Examples**: Solar radiation, heat from a fire, infrared heaters.\\n\\n---\\n\\n> **Remember**: Radiation is the only heat transfer mode that can occur in space.\\n",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 141
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Heat Engines",
+    "subchapter": "Heat Engine",
+    "topic": "Heat Engine",
+    "content": "# Heat Engine\\n\\nA **heat engine** is a device that **converts thermal energy into mechanical work**. It operates between a high-temperature reservoir (heat source) and a low-temperature reservoir (heat sink).\\n\\n- **Basic Cycle**: Heat addition → Expansion → Work output → Heat rejection.\\n- **Efficiency**: \\(\\eta = 1 - \\frac{T_c}{T_h}\\) (Carnot efficiency for ideal engines).\\n- **Real Engines**: Internal combustion engines, steam turbines, Stirling engines.\\n\\n---\\n\\n> **Key Insight**: No heat engine can be 100% efficient due to the second law of thermodynamics.\\n",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 141
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Simple Harmonic Motion",
+    "subchapter": "Periodic Motion",
+    "topic": "Periodic Motion",
+    "content": "# Periodic Motion\\n\\nA **periodic motion** repeats itself at regular time intervals. It is also called **harmonic motion** when the restoring force is proportional to displacement.\\n\\n- **Examples**: Simple pendulum, mass–spring system, oscillating electric circuits.\\n- **Time Period**: The time taken for one complete cycle.\\n\\n---\\n\\n> **Quick Fact**: The period of a simple pendulum (small angles) is independent of its mass.\\n",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 141
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Simple Harmonic Motion",
+    "subchapter": "Simple Pendulum",
+    "topic": "Simple Pendulum",
+    "content": "# Simple Pendulum\\n\\nA simple pendulum consists of a point mass suspended from a fixed point by a massless string. For small angular displacements, its motion is approximately simple harmonic.\\n\\n- **Time Period Formula**\\n  \\[ T = 2\\pi \\sqrt{\\frac{l}{g}} \\]\\n  where \\(l\\) is the length of the string and \\(g\\) is the acceleration due to gravity.\\n- **Assumptions**: Small angles (\\(< 15^\\circ\\)), negligible air resistance, massless string.\\n\\n---\\n\\n> **Tip**: The period does not depend on the mass of the bob.\\n",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 141
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Simple Harmonic Motion",
+    "subchapter": "Free Oscillations",
+    "topic": "Free Oscillations",
+    "content": "# Free Oscillations\\n\\nA system exhibits **free oscillations** when it vibrates at its **natural frequency** without any external periodic force.\\n\\n- **Characteristics**\\n  - Energy oscillates between kinetic and potential forms.\\n  - Damping (if present) causes amplitude to decrease over time.\\n- **Examples**: Mass on a spring, pendulum after being displaced.\\n\\n---\\n\\n> **Key Point**: In the absence of damping, the amplitude remains constant.\\n",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 141
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Simple Harmonic Motion",
+    "subchapter": "Forced Oscillations",
+    "topic": "Forced Oscillations",
+    "content": "# Forced Oscillations\\n\\nWhen a system is driven by an **external periodic force** with a frequency different from its natural frequency, it undergoes **forced oscillations**.\\n\\n- **Resonance**: Occurs when the driving frequency matches the natural frequency, leading to large amplitude.\\n- **Equation of Motion**: \\(m\\ddot{x} + b\\dot{x} + kx = F_0 \\cos(\\omega t)\\).\\n- **Applications**: Bridge vibrations, tuning forks, electrical circuits.\\n\\n---\\n\\n> **Caution**: Resonance can cause structural failure if not properly managed.\\n",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 141
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Sound",
+    "subchapter": "Sound Waves",
+    "topic": "Sound Waves",
+    "content": "# Sound Waves\\n\\nSound is a **mechanical wave** that propagates through a medium (gas, liquid, or solid) as a series of pressure variations.\\n\\n- **Key Parameters**\\n  - **Frequency** (Hz): Determines pitch.\\n  - **Amplitude**: Determines loudness.\\n  - **Speed of Sound**: Depends on medium properties.\\n- **Propagation**: Requires a medium; cannot travel through vacuum.\\n\\n---\\n\\n> **Fun Fact**: The speed of sound in air at 20°C is approximately 343 m/s.\\n",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 141
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Electricity",
+    "subchapter": "Charge",
+    "topic": "Charge",
+    "content": "# Electric Charge\\n\\nElectric charge is a fundamental property of matter that gives rise to electric and magnetic effects.\\n\\n- **Units**: Coulomb (C).\\n- **Behavior**\\n  - Like charges repel.\\n  - Opposite charges attract.\\n- **Conservation**: Total charge in an isolated system remains constant.\\n\\n---\\n\\n> **Remember**: The elementary charge \\(e\\) is approximately \\(1.602 \\times 10^{-19}\\) C.\\n",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 141
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Electricity",
+    "subchapter": "Coulomb's Law",
+    "topic": "Coulomb's Law",
+    "content": "# Coulomb's Law\\n\\nCoulomb’s Law quantifies the electrostatic force between two point charges.\\n\\n- **Formula**\\n  \\[ F = k \\frac{|q_1 q_2|}{r^2} \\]\\n  where \\(k\\) is Coulomb’s constant (\\(8.988 \\times 10^9\\) N·m²/C²), \\(q_1\\) and \\(q_2\\) are the charges, and \\(r\\) is the separation distance.\\n- **Direction**: Attractive if charges are opposite, repulsive if same.\\n\\n---\\n\\n> **Key Insight**: The force decreases with the square of the distance.\\n",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 141
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Electromagnetism",
+    "subchapter": "Transformers",
+    "topic": "Transformer",
+    "content": "### Transformer\n- **Definition:** A device that converts a low‑voltage, high‑current supply into a high‑voltage, low‑current supply (or vice‑versa).\n- **Working principle:** Based on **magnetic induction** between two (or more) windings placed on a common magnetic core.\n- **Key relations:**\n  - \\( \\frac{V_p}{V_s} = \\frac{N_p}{N_s} \\)\n  - \\( \\frac{I_p}{I_s} = \\frac{N_s}{N_p} \\)\n  where \\(V\\) = voltage, \\(I\\) = current, \\(N\\) = number of turns, subscripts *p* and *s* denote primary and secondary.\n- **Applications:** Power distribution, voltage regulation, impedance matching, isolation.\n",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 142
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Optics",
+    "subchapter": "Nature of Light",
+    "topic": "Light",
+    "content": "### Light\n- **Definition:** Form of energy that propagates as **electromagnetic waves**; the wave motion is **transverse**.\n- **Speed in vacuum:** \\(c = 3.0 \\times 10^8 \\text{ m s}^{-1}\\).\n- **Astronomical travel times:**\n  - Sun to Earth: **8 min 19 s**.\n  - Moon to Earth (reflected light): **1.285 s**.\n- **Colour‑wavelength order:**\n  - Red – longest wavelength, fastest in a medium, least deviation.\n  - Violet – shortest wavelength, slowest in a medium, maximum deviation.\n",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 142
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Optics",
+    "subchapter": "Reflection",
+    "topic": "Reflection of Light",
+    "content": "### Reflection of Light\n- **Phenomenon:** When a light ray strikes the surface of a different medium, a portion of the ray returns to the original medium.\n- **Law of Reflection:** \n  - Angle of incidence (\\(i\\)) = Angle of reflection (\\(r\\)).\n  - Both measured with respect to the normal to the surface.\n",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 142
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Optics",
+    "subchapter": "Refraction",
+    "topic": "Refraction of Light",
+    "content": "### Refraction of Light\n- **Phenomenon:** Bending of a light ray when it passes from one transparent medium to another.\n- **Snell’s Law:** \\( n_1 \\sin i = n_2 \\sin r \\)\n  - \\(n\\) = refractive index of the medium.\n  - \\(i\\) = angle of incidence, \\(r\\) = angle of refraction.\n",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 142
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Optics",
+    "subchapter": "Total Internal Reflection",
+    "topic": "Total Internal Reflection (TIR)",
+    "content": "### Total Internal Reflection\n- **Condition:** Light traveling from a **denser** medium to a **rarer** medium strikes the interface at an angle of incidence greater than the **critical angle**.\n- **Result:** The ray is reflected entirely back into the denser medium.\n- **Critical angle formula:** \\( \\sin \\theta_c = \\frac{n_2}{n_1} \\) (where \\(n_1 > n_2\\)).\n",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 142
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Optics",
+    "subchapter": "Dispersion",
+    "topic": "Dispersion of Light",
+    "content": "### Dispersion\n- **Definition:** Splitting of white light into its constituent colours (spectrum) due to wavelength‑dependent refractive index.\n- **Cause:** Different wavelengths (colours) travel at different speeds in a medium; red (longest) deviates least, violet (shortest) deviates most.\n",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 142
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Optics",
+    "subchapter": "Lenses",
+    "topic": "Lens Types",
+    "content": "### Lens\n- **Definition:** A uniform refracting medium bounded by two spherical surfaces or one spherical and one plane surface.\n- **Types:**\n  - **Convex (converging) lens** – thicker at the centre; forms real or virtual images.\n  - **Concave (diverging) lens** – thinner at the centre; forms only virtual, upright images.\n",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 142
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Optics",
+    "subchapter": "Lenses",
+    "topic": "Power of a Lens",
+    "content": "### Power of a Lens\n- **Formula:** \\( P = \\frac{1}{f} \\) where \\(f\\) is the focal length in metres.\n- **Unit:** Dioptre (D) = \\(\\text{m}^{-1}\\).\n- **Interpretation:** Larger power → shorter focal length → stronger converging/diverging ability.\n",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 142
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Instruments",
+    "subchapter": "Scientific Instruments",
+    "topic": "Important Scientific Instruments & Their Use",
+    "content": "### Important Scientific Instruments\n- **Altimeter:** Measures altitude; used in aircraft.\n- **Ammeter:** Measures electric current strength (ampere).\n- **Audiometer:** Measures intensity of sound.\n",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 142
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Matter and Its States",
+    "subchapter": "Definition and States of Matter",
+    "topic": "Definition of Matter",
+    "content": "Matter is defined as any thing that occupies space, possesses mass, and the presence of which can be felt by one or more of our five senses.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 143
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Matter and Its States",
+    "subchapter": "Definition and States of Matter",
+    "topic": "Five States of Matter",
+    "content": "Matter exists in five different states: solid, liquid, gas, plasma, and Bose-Einstein condensate.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 143
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Matter and Its States",
+    "subchapter": "Properties of States",
+    "topic": "Properties of Solids",
+    "content": "Solids are rigid, incompressible, have a definite volume and shape, strong intermolecular attractive forces, and high density.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 143
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Matter and Its States",
+    "subchapter": "Properties of States",
+    "topic": "Properties of Liquids",
+    "content": "Liquids have no fixed shape but have a fixed volume. They take up the shape of the container in which they are kept. Examples include water, oil, and milk.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 143
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Matter and Its States",
+    "subchapter": "Properties of States",
+    "topic": "Properties of Gases",
+    "content": "Gases have no fixed shape and volume. They occupy the shape and size of the container in which they are kept. Examples include air, H₂, O₂, and N₂.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 143
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Matter and Its States",
+    "subchapter": "Properties of States",
+    "topic": "Properties of Plasma",
+    "content": "Plasma is a state of matter in which ionized gaseous substances become highly electrically conductive to the point that long-range electric and magnetic fields dominate the behavior of the matter.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 143
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Matter and Its States",
+    "subchapter": "Classification of Matter",
+    "topic": "Mixtures",
+    "content": "Mixtures contain two or more components in any proportion. They may be homogeneous (uniform composition throughout) or heterogeneous (non-uniform composition).",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 143
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Matter and Its States",
+    "subchapter": "Classification of Matter",
+    "topic": "Elements",
+    "content": "An element is a substance which cannot be broken into two or more simple substances by any known physical or chemical methods.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 143
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Matter and Its States",
+    "subchapter": "Intermolecular Forces",
+    "topic": "Definition of Intermolecular Forces",
+    "content": "The force of attraction existing among the molecules of a substance (gaseous, liquid, or solid) is called intermolecular forces.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 143
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Matter and Its States",
+    "subchapter": "Ideal Gas",
+    "topic": "Assumptions of Ideal Gas",
+    "content": "An ideal gas is a hypothetical concept of matter treated as a standard of comparison. Assumptions include: (i) Volume of molecules is infinitely small and force of interaction between molecules is zero; (ii) Molecules undergo random motion, colliding with each other and the walls of the container.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 143
+  },
+  {
+    "subject": "Medicine",
+    "chapter": "Radiotherapy",
+    "subchapter": "",
+    "topic": "Therapeutic Applications of Radioisotopes",
+    "content": "# Therapeutic Applications of Radioisotopes\n\n- **Purpose**: Destroy target cells (e.g., cancerous or hyperactive cells).\n- **Mechanism**: Radioisotopes emit ionizing radiation that damages DNA and cellular structures, leading to cell death.\n- **Common Uses**:\n  - **Cancer treatment**: External beam radiotherapy, brachytherapy, and systemic radionuclide therapy.\n  - **Non‑cancer conditions**: Hyperthyroidism (e.g., radioactive iodine therapy), benign tumors, and certain vascular malformations.\n- **Key Points**:\n  - The effectiveness depends on the type of radiation, dose, and delivery method.\n  - Side effects are related to the dose to surrounding healthy tissues.\n  - Radiotherapy is often combined with surgery, chemotherapy, or immunotherapy for optimal outcomes.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 144
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "subchapter": "Ionic Bond",
+    "topic": "Electrovalent (Ionic) Bond",
+    "content": "# Electrovalent (Ionic) Bond\n\n- **Definition**: A chemical bond formed when one atom (usually a metal) loses one or more electrons, becoming a cation, and another atom (usually a non‑metal) gains those electrons, becoming an anion.\n- **Characteristics**:\n  - **Charge separation**: Positive and negative ions.\n  - **Strong electrostatic attraction** between oppositely charged ions.\n  - **High melting and boiling points** due to strong lattice forces.\n  - **Electrical conductivity** in molten or aqueous state (ions are mobile).\n- **Example**: NaCl (sodium chloride) – Na⁺ + Cl⁻.\n- **Formation Rule**: Metals tend to lose electrons; non‑metals tend to gain electrons.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 144
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "subchapter": "Covalent Bond",
+    "topic": "Covalent Bond",
+    "content": "# Covalent Bond\n\n- **Definition**: A chemical bond where two non‑metal atoms share one or more pairs of electrons.\n- **Types**:\n  - **Single bond**: One shared pair (e.g., H–H).\n  - **Double bond**: Two shared pairs (e.g., O=O).\n  - **Triple bond**: Three shared pairs (e.g., N≡N).\n- **Characteristics**:\n  - **Directional**: Bond angles depend on hybridization.\n  - **Lower melting/boiling points** compared to ionic compounds.\n  - **Poor electrical conductivity** in solid state.\n- **Example**: H₂O – two O–H covalent bonds.\n- **Key Concept**: Electronegativity difference determines bond type; small difference → covalent, large difference → ionic.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 144
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "subchapter": "Hydrogen Bond",
+    "topic": "Hydrogen Bond",
+    "content": "# Hydrogen Bond\n\n- **Definition**: A weak electrostatic attraction between a hydrogen atom covalently bonded to a highly electronegative atom (F, O, or N) and another electronegative atom.\n- **Importance**:\n  - Determines the high boiling point of water.\n  - Influences DNA base pairing.\n  - Affects protein folding and stability.\n- **Typical Geometry**: Linear or bent, with H···X distance ~1.5–2.5 Å.\n- **Example**: H₂O molecules forming a hydrogen‑bonded network.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 144
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "subchapter": "Noble Gases",
+    "topic": "Noble Gases",
+    "content": "# Noble Gases\n\n- **Elements**: He, Ne, Ar, Kr, Xe, Rn.\n- **Properties**:\n  - **Full valence shell** (octet rule satisfied) → no tendency to lose, gain, or share electrons.\n  - **Monatomic, inert gases** under normal conditions.\n  - **Low reactivity**; form compounds only under extreme conditions (e.g., XeF₂).\n- **Applications**: Lighting (neon signs), inert atmosphere for chemical reactions, cryogenics.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 144
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "subchapter": "Valency",
+    "topic": "Valency",
+    "content": "# Valency\n\n- **Definition**: The combining power or capacity of an element to form bonds with other atoms.\n- **Determination**:\n  - **Octet rule**: Most elements aim for eight valence electrons.\n  - **Oxidation state**: Indicates the number of electrons an atom can donate or accept.\n- **Examples**:\n  - Carbon: valency 4 (forms four covalent bonds).\n  - Oxygen: valency 2.\n  - Sodium: valency 1 (loses one electron).",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 144
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "subchapter": "Chemical Formula",
+    "topic": "Chemical Formula",
+    "content": "# Chemical Formula\n\n- **Definition**: Symbolic representation of the composition of a compound, indicating the types and numbers of atoms.\n- **Notation**:\n  - **Empirical formula**: Simplest whole‑number ratio (e.g., CH₂).\n  - **Molecular formula**: Exact number of atoms in a molecule (e.g., C₆H₁₂O₆).\n  - **Structural formula**: Shows connectivity between atoms.\n- **Use**: Determines molar mass, stoichiometry, and predicts chemical behavior.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 144
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Corrosion",
+    "subchapter": "",
+    "topic": "Corrosion",
+    "content": "# Corrosion\n\n- **Definition**: The gradual degradation of a metal due to chemical reactions with its environment, typically forming oxides or other salts.\n- **Common Mechanisms**:\n  - **Oxidation**: Metal + O₂ → metal oxide.\n  - **Electrochemical**: Metal + electrolyte → metal ion + electrons.\n- **Factors Influencing Corrosion**:\n  - **Environment**: Presence of moisture, salts, acids, or bases.\n  - **Material**: Alloy composition, protective coatings.\n  - **Temperature**: Higher temperatures accelerate reactions.\n- **Prevention**:\n  - Protective coatings (paint, galvanization).\n  - Cathodic protection.\n  - Use of corrosion‑resistant alloys.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 144
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Acids, Bases, Salts",
+    "subchapter": "Acids",
+    "topic": "Acids",
+    "content": "# Acids\n\n- **Definition**: Substances that provide H⁺ (protons) or accept electrons.\n- **Characteristics**:\n  - Sour taste.\n  - Turn blue litmus paper red.\n  - React with bases to form salts and water.\n- **Types**:\n  - **Protonic acids**: Contain hydrogen (e.g., HCl, HNO₃).\n  - **Aprotic acids**: Do not contain hydrogen (e.g., BF₃).\n- **Examples in Nature**:\n  - HCl in gastric juice (digestion).\n  - Citric acid in citrus fruits.\n  - Maleic acid in unripe apples.\n  - Oxalic acid in tomatoes.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 144
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Optics",
+    "subchapter": "Light Scattering",
+    "topic": "Tyndall Effect",
+    "content": "**Tyndall Effect**\n\nWhen light passes through a sol (colloidal solution), its path becomes visible due to scattering of light by colloidal particles. This phenomenon is called the Tyndall effect. It explains the blue appearance of the sky and sea water, visibility of tails of cement, twinkling of stars, blue colour of smoke in a source of light, and the red colour of a setting sun.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 145
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "subchapter": "Systems and Processes",
+    "topic": "Types of Systems",
+    "content": "**Types of Systems**\n\n- **Open system**: Can exchange both matter and energy with surroundings (e.g., hot tea in a cup).\n- **Closed system**: Can exchange energy but not matter with surroundings (e.g., hot water in a closed beaker).\n- **Isolated system**: Cannot exchange matter nor energy with surroundings (e.g., thermos flask).",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 145
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "subchapter": "Processes",
+    "topic": "Thermodynamic Processes",
+    "content": "**Thermodynamic Processes**\n\n- **Isothermal process**: Temperature remains constant.\n- **Adiabatic process**: No heat enters or leaves the system.\n- **Isobaric process**: Pressure remains constant.\n- **Isochoric process**: Volume remains constant.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 145
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "subchapter": "First Law",
+    "topic": "First Law of Thermodynamics",
+    "content": "**First Law of Thermodynamics**\n\nThe amount of heat supplied to a system is used in two ways: to increase internal energy and to do external work.\n\n\\[ \\Delta Q = \\Delta U + \\Delta W \\]\n\nThis is known as the first law of thermodynamics or the law of conservation of energy.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 145
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "subchapter": "Second Law",
+    "topic": "Kelvin’s Statement",
+    "content": "**Kelvin’s Statement (Second Law of Thermodynamics)**\n\nAccording to Kelvin’s statement, it is impossible to convert the whole of heat into work. In other words, no cyclic process can convert all the heat absorbed from a reservoir into work.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 145
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Periodic Table",
+    "subchapter": "Historical Development",
+    "topic": "Mendeleev’s Periodic Law",
+    "content": "**Mendeleev’s Periodic Law**\n\nMendeleev’s periodic law states that the physical and chemical properties of the elements are a periodic function of their atomic mass. The periodic table is the tabular representation of this law, organized into vertical columns called groups.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 145
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Metals and Non-Metals",
+    "subchapter": "Properties and Uses of Metals",
+    "topic": "Zinc, Uranium, and Titanium",
+    "content": "- **Zinc**: Used in making alloys such as brass, bronze, and German silver. The process of depositing zinc on the surface of iron articles is called **galvanization**.\n- **Uranium**: A rare earth element that does not exist in the free state and is radioactive. It is extracted from **pitch blende**. Uses include nuclear reactors, electrodes, and photography. It is also known as the **metal of hope**.\n- **Titanium**: Known as the **strategic metal** or **metal of the future**.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 146
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Metals and Non-Metals",
+    "subchapter": "Non-Metals and their Compounds",
+    "topic": "Definition and Carbon Allotropes",
+    "content": "- **Non-Metals**: Elements having a tendency to accept electrons and form anions.\n- **Diamond**: An allotrope of carbon. It is the hardest known substance due to its three-dimensional network structure. It is a good conductor of heat and used as an abrasive. Black diamond is also called **carbonado**.\n- **Fullerene and Graphene**: Recently discovered allotropes of carbon. Fullerenes are excellent lubricants and act as superconducting materials in their combined form. Graphene is used in LEDs.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 146
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Metals and Non-Metals",
+    "subchapter": "Non-Metals and their Compounds",
+    "topic": "Coal and Charcoal",
+    "content": "- **Coal**: An amorphous allotrope of carbon used as fuel. Varieties include:\n  - Peat (60% C)\n  - Lignite or brown coal (70% C)\n  - Bituminous (78-83% C)\n  - Anthracite (92% C)\n  - Used in the manufacture of fuel gases like water gas, producer gas, and semi-water gas.\n- **Charcoal (Animal Charcoal)**: Used as a fuel, deodorant in water purification, for decolorizing sugar solutions, and in gas masks.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 146
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Organic Chemistry",
+    "subchapter": "Hydrocarbons",
+    "topic": "Organic Compounds and Methane/Ethylene",
+    "content": "- **Organic Compounds**: Hydrocarbons and their derivatives (carbon compounds), with exceptions including CO, CO2, carbonates, and bicarbonates.\n- **Methane (Marsh Gas)**: Responsible for explosions in coal mines. Used as a gaseous fuel, in the preparation of carbon black, and in the manufacture of hydrogen.\n- **Ethylene**: The first member of the olefin series. Obtained from ethyl alcohol.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 146
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Introduction to Biology",
+    "subchapter": "",
+    "topic": "Definition and Scope",
+    "content": "# Definition of Biology\n- Biology is the branch of science that studies living organisms and their interactions with each other and the environment.\n- It encompasses various aspects such as structure, function, growth, origin, evolution, and distribution of living beings.\n\n# Historical Note\n- The term *Biology* was coined by **Lamarck** and **Treviranus** in 1802.\n- Early contributions: **Aristotle** laid foundational ideas for biology, especially in zoology and botany.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 147
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Branches of Biology",
+    "subchapter": "",
+    "topic": "Major Branches and Their Fathers",
+    "content": "## Major Branches\n| Branch | Father | Key Contributions |\n|--------|--------|-------------------|\n| Biology | Aristotle | General principles of life and classification |\n| Zoology | Aristotle | Study of animals, classification, anatomy |\n| Botany | Theophrastus | Study of plants, taxonomy |\n| Genetics | Gregor Mendel | Laws of inheritance |\n| Cytology | Robert Hooke | Microscopic study of cells |\n| Microbiology | Louis Pasteur | Study of microorganisms, germ theory |\n\n> **Note:** Each branch has a historical figure who significantly advanced its development.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 147
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Cell Theory",
+    "subchapter": "",
+    "topic": "The Cell as the Basic Unit",
+    "content": "## Cell Theory\n- The cell is the basic structural, functional, and biological unit of all known living organisms.\n- All living organisms are composed of one or more cells.\n- Cells arise from pre‑existing cells.\n- The cell is the smallest unit that can carry out all life processes.\n\n> **Key Figures:** Robert Hooke (first cell observation), Matthias Schleiden, Theodor Schwann, Rudolf Virchow.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 147
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Living Organisms",
+    "subchapter": "",
+    "topic": "Taxonomy and Nomenclature",
+    "content": "## Taxonomy\n- The science of identifying, naming, and classifying organisms.\n- **Binomial Nomenclature**: Proposed by **Carolus Linnaeus** (1753). Each species is given a two‑part Latin name (genus + species).\n- **Five Kingdom System** (1969, **R.H. Whittaker**):\n  1. **Monera** – prokaryotic bacteria.\n  2. **Protista** – unicellular eukaryotes (e.g., Amoeba, Euglena).\n  3. **Fungi** – eukaryotic, non‑photosynthetic, heterotrophic.\n  4. **Plantae** – multicellular, photoautotrophic.\n  5. **Animalia** – eukaryotic, heterotrophic.\n\n> **Viruses** are considered a bridge between living and non‑living entities; they are parasitic nucleoprotein particles composed of nucleic acid (DNA or RNA) and a protein coat.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 147
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Human Body Composition",
+    "subchapter": "",
+    "topic": "Chemical Composition",
+    "content": "## Human Body Composition\n- Approx. **57 % water** by mass.\n- **Oxygen** is the most abundant element by mass.\n- **Hydrogen** atoms are the most numerous in the body.\n- Other major elements: carbon, nitrogen, calcium, phosphorus.\n\n> **Tissue**: A group of similar or dissimilar cells of common origin that perform a specific function.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 147
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Human Body Systems",
+    "subchapter": "",
+    "topic": "Overview of Organ Systems",
+    "content": "## Major Human Organ Systems\n1. **Circulatory System** – transports blood, nutrients, gases.\n2. **Digestive System** – breaks down food, absorbs nutrients.\n3. **Respiratory System** – gas exchange.\n4. **Nervous System** – controls and coordinates body functions.\n5. **Musculoskeletal System** – movement and support.\n6. **Endocrine System** – hormone regulation.\n7. **Immune System** – defense against pathogens.\n8. **Urinary System** – waste removal.\n9. **Reproductive System** – reproduction.\n\n> *Note:* The text provided only mentions the existence of organ systems; detailed descriptions are beyond the current excerpt.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 147
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Viruses",
+    "subchapter": "",
+    "topic": "Characteristics of Viruses",
+    "content": "## Viruses\n- **Structure**: Nucleic acid (DNA or RNA) surrounded by a protein coat (capsid). Some have an outer lipid envelope.\n- **Life Cycle**: Cannot replicate independently; must infect a host cell and hijack its machinery.\n- **Role in Biology**: Key agents of disease, drivers of evolution through horizontal gene transfer.\n- **Classification**: Based on nucleic acid type, symmetry, presence of envelope, replication strategy.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 147
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Taxonomy",
+    "subchapter": "",
+    "topic": "Classification Hierarchy",
+    "content": "## Hierarchical Levels\n1. **Domain** – Eukarya, Bacteria, Archaea.\n2. **Kingdom** – Five kingdoms as per Whittaker.\n3. **Phylum** – Major body plans.\n4. **Class** – Grouping of orders.\n5. **Order** – Grouping of families.\n6. **Family** – Grouping of genera.\n7. **Genus** – Grouping of species.\n8. **Species** – Basic unit of classification.\n\n> The binomial system uses the genus and species names to uniquely identify organisms.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 147
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Respiratory System",
+    "subchapter": "Air Passage",
+    "topic": "Path of Air through Human Respiratory System",
+    "content": "### Path of Air\n- **Nostrils** → Pharynx (throat) → Larynx (voice box) → Trachea (wind pipe) → Bronchi → Bronchioles → Alveoli → Blood capillaries → Tissues",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 148
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Respiratory System",
+    "subchapter": "Respiratory Organs of Animals",
+    "topic": "Respiratory Organs by Animal Group",
+    "content": "### Respiratory Organs Across Animal Kingdom\n| Animal Group | Respiratory Organ |\n|--------------|-------------------|\n| Reptiles & Mammals | Lungs |\n| Frog, Earthworm, Leeches | Skin |\n| Fishes, Tadpoles, Prawns | Gills |\n| Insects, Centipedes, Millipedes | Tracheae |\n| Protozoans, Porifera, Coelenterates | Body surface |\n| Spider & Scorpion | Book lungs |\n| King crab, Prawn, Crayfish, Daphnia | Book gills |\n| Mollusca (Unio) | Mantle (mental) |\n| Long fish & Bony fishes (e.g., Labeo) | Air bladder |\n| Birds | Air sacs / Lungs |\n",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 148
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Circulatory System",
+    "subchapter": "Types of Circulatory System",
+    "topic": "Open vs Closed Circulatory Systems",
+    "content": "### Open vs Closed Circulatory Systems\n- **Open circulatory system** – blood (hemolymph) is not entirely confined to vessels; found in cockroaches, other insects, and spiders.\n- **Closed circulatory system** – blood circulates entirely within vessels; present in annelids, molluscs, and all vertebrates.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 148
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Circulatory System",
+    "subchapter": "Human Circulatory System",
+    "topic": "Heart",
+    "content": "### Human Heart\n- Thick, muscular, contractile, automatic pumping organ of the vascular system.\n- Newborn heart rate ≈ **140 beats per minute**.\n- Involved in blood clotting cascade (prothrombin, fibrinogen, Ca²⁺, Vitamin‑K).",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 148
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Blood",
+    "subchapter": "Blood Composition",
+    "topic": "Plasma",
+    "content": "### Plasma\n- Straw‑coloured, viscous fluid; slightly alkaline (pH ≈ 7.2).\n- Constitutes **≈55 %** of total blood volume.\n- Aqueous solution containing dissolved proteins, nutrients, hormones, and waste products.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 148
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Blood",
+    "subchapter": "Blood Cells",
+    "topic": "Erythrocytes (Red Blood Cells)",
+    "content": "### Erythrocytes (RBCs)\n- Contain the respiratory pigment **haemoglobin** for oxygen transport.\n- Fetal RBC production occurs in the **liver**; post‑natal production shifts to **bone marrow**.\n- Average lifespan of an RBC is **≈120 days**.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 148
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Blood",
+    "subchapter": "Blood Cells",
+    "topic": "Leucocytes (White Blood Cells)",
+    "content": "### Leucocytes (WBCs)\n- Part of the immune system.\n- Attack infectious agents and foreign substances.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 148
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Blood",
+    "subchapter": "Blood Cells",
+    "topic": "Thrombocytes (Platelets)",
+    "content": "### Thrombocytes (Platelets)\n- Essential for blood clotting (coagulation).\n- Convert **fibrinogen** into **fibrin** to form clots.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 148
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Human Physiology",
+    "subchapter": "Diseases and Disorders",
+    "topic": "Viral Diseases",
+    "content": "### Viral Diseases Overview\n\n**1. AIDS (Acquired Immunodeficiency Syndrome)**\n- **Cause:** HIV (Human Immunodeficiency Virus).\n- **Type:** Epidemic disease.\n- **Body Part Affected:** Immune system.\n- **Symptoms:**\n  - Weight loss and loss of breath.\n  - Cough, headache.\n  - Shaking chills.\n  - Soaking night sweats.\n- **Prevention and Control:**\n  - Use of condoms.\n  - Safe sex practices.\n  - Development/use of AIDS vaccine.\n\n**2. Smallpox**\n- **Cause:** Variola virus.\n- **Type:** Epidemic disease.\n- **Symptoms:**\n  - High fever, headache, backache.\n  - Skin rashes appear on the third day.\n  - Progression: Bright red spots -> Pustules -> Papules -> Vesicles -> Scabs.\n  - Scabs fall off leaving pitted pock marks.\n- **Prevention and Control:**\n  - Vaccination.\n  - Isolation of diseased persons from healthy individuals.\n\n**3. Polio (Poliomyelitis)**\n- **Cause:** Andro Virus (Poliovirus).\n- **Body Part Affected:** Spinal cord.\n- **Symptoms:**\n  - Damages motor neurons.\n  - Stiffness of neck.\n  - Convulsion.\n  - Paralysis of limbs (generally legs).\n- **Prevention and Control:**\n  - Salk vaccine.\n  - Oral Polio Vaccine (OPV).\n\n**4. Rabies**\n- **Cause:** Rabies virus.\n- **Symptoms:**\n  - Severe headache.\n  - High fever with alternating stages of excitement and depression.\n  - Difficulty in swallowing.\n  - Paralysis and convulsion.\n- **Prevention and Control:**\n  - Antirabies vaccine (invented by Louis Pasteur).\n  - Series of antibiotics.\n  - Cleaning of wound with pure carbolic acid or nitric acid.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 149
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Human Physiology",
+    "subchapter": "Nutrition",
+    "topic": "Fat-Soluble Vitamins",
+    "content": "### Fat-Soluble Vitamins\n\n**1. Vitamin A (Retinol)**\n- **Rich Food Sources:** Fish liver oils, dairy products, liver. Leafy vegetables and carrots contain carotene, which is converted into retinol.\n- **Function:**\n  - Needed for healthy epithelial cells.\n  - Regeneration of rhodopsin in rod cells of the eye.\n- **Deficiency Disease:**\n  - Dry skin.\n  - Night blindness (Nyctalopia).\n\n**2. Vitamin D (Calciferol)**\n- **Rich Food Sources:** Fish oils, egg yolk, butter. Can also be synthesized in the skin by the action of sunlight.\n- **Function:**\n  - Promotes absorption of calcium from intestines.\n  - Necessary for the formation of normal bone.\n  - Reabsorption of phosphate from urine.\n- **Deficiency Disease:**\n  - Rickets in children (soft bones that bend easily).\n  - Osteomalacia (painful bones) in adults.\n\n**3. Vitamin E (Tocopherol)**\n- *Note: Specific details for Vitamin E were cut off in the source text, but it is classified as a fat-soluble vitamin.*",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 149
+  },
+  {
+    "subject": "Health & Medicine",
+    "chapter": "Infectious Diseases",
+    "subchapter": "Viral Diseases",
+    "topic": "Dengue Fever",
+    "content": "# Dengue Fever\n\n**Etiology**: Dengue is caused by the dengue virus, a flavivirus transmitted by Aedes mosquitoes.\n\n**Clinical Features**:\n- High fever\n- Rash on face and head\n- Severe pain in eyes, muscles, and joints (often called \"breakbone fever\")\n- Nausea, vomiting, and abdominal pain\n\n**Prevention & Control**:\n- Use mosquito repellents (DEET, picaridin)\n- Bed nets and window screens\n- Eliminate standing water\n- Personal hygiene and community clean‑up\n\n**Management**:\n- Bed rest\n- Adequate hydration\n- Analgesics (avoid aspirin/NSAIDs due to bleeding risk)\n- Monitor for warning signs of severe dengue (shock, bleeding, organ impairment)\n\n**Key Takeaway**: Early recognition and supportive care are crucial; no specific antiviral treatment exists.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 150
+  },
+  {
+    "subject": "Health & Medicine",
+    "chapter": "Infectious Diseases",
+    "subchapter": "Viral Diseases",
+    "topic": "Measles (Rubella)",
+    "content": "# Measles (Rubella)\n\n**Etiology**: Measles is caused by the measles virus; rubella is a separate virus but often grouped under measles in some texts.\n\n**Clinical Features**:\n- Fever\n- Inflammation of respiratory mucous membranes\n- Photophobia (sensitivity to light)\n- Loss of appetite, vomiting\n- Rash that starts on the face and spreads to the body\n\n**Prevention & Control**:\n- Vaccination (MMR vaccine)\n- Gamma globulin for post‑exposure prophylaxis\n- Isolation of infected individuals\n- Good personal hygiene\n\n**Management**:\n- Supportive care: fluids, rest, light diet\n- Boiled, filtered water\n- No specific antiviral therapy\n\n**Key Takeaway**: Vaccination remains the most effective prevention strategy.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 150
+  },
+  {
+    "subject": "Health & Medicine",
+    "chapter": "Infectious Diseases",
+    "subchapter": "Viral Diseases",
+    "topic": "Chikungunya",
+    "content": "# Chikungunya\n\n**Etiology**: Chikungunya virus, transmitted by Aedes mosquitoes.\n\n**Clinical Features**:\n- Severe headache\n- Fatigue\n- Digestive complaints (nausea, abdominal pain)\n- Conjunctivitis\n- Arthralgia and myalgia lasting weeks to months\n\n**Prevention & Control**:\n- Mosquito control (repellents, nets, elimination of breeding sites)\n- Personal protective measures\n\n**Management**:\n- No specific antiviral; supportive treatment\n- NSAIDs (e.g., naproxen) for pain and fever\n- Paracetamol for fever\n- Adequate rest and hydration\n\n**Key Takeaway**: Early supportive care and mosquito control are essential; chronic joint pain can persist.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 150
+  },
+  {
+    "subject": "Health & Medicine",
+    "chapter": "Infectious Diseases",
+    "subchapter": "Bacterial Diseases",
+    "topic": "Tuberculosis",
+    "content": "# Tuberculosis (Mycobacterium tuberculosis)\n\n**Affected Organ**: Lungs (pulmonary TB) – can also affect other organs.\n\n**Clinical Features**:\n- Low‑grade fever\n- Chronic cough (often with sputum)\n- Weight loss, lethargy, weakness\n- Night sweats\n\n**Prevention & Control**:\n- BCG vaccination\n- Personal and domestic hygiene\n- Isolation of infectious patients\n- Public health measures (screening, contact tracing)\n\n**Management**:\n- Standard anti‑tubercular therapy (ATT) for 6–9 months\n- Monitoring for drug resistance\n\n**Key Takeaway**: Early diagnosis and adherence to full treatment course prevent relapse and resistance.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 150
+  },
+  {
+    "subject": "Health & Medicine",
+    "chapter": "Infectious Diseases",
+    "subchapter": "Bacterial Diseases",
+    "topic": "Typhoid Fever",
+    "content": "# Typhoid Fever (Salmonella typhi)\n\n**Affected Organ**: Intestines (gut) – systemic spread possible.\n\n**Clinical Features**:\n- High fever\n- Weakness\n- Abdominal pain, constipation or diarrhea\n- Rose‑spot rash\n\n**Prevention & Control**:\n- Maintain personal and domestic food hygiene\n- Safe drinking water (boiled or filtered)\n- Vaccination (Typhoid conjugate vaccine)\n\n**Management**:\n- Antibiotic therapy (e.g., ceftriaxone, azithromycin)\n- Hydration and supportive care\n\n**Key Takeaway**: Good sanitation and vaccination are key to preventing typhoid outbreaks.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 150
+  },
+  {
+    "subject": "Health & Medicine",
+    "chapter": "Infectious Diseases",
+    "subchapter": "Bacterial Diseases",
+    "topic": "Tetanus (Lockjaw)",
+    "content": "# Tetanus (Clostridium tetani)\n\n**Affected Organ**: Muscles (especially jaw and neck)\n\n**Clinical Features**:\n- Muscular tetany\n- Jaw stiffness (lockjaw)\n- Body arching due to muscle spasms\n\n**Prevention & Control**:\n- Routine tetanus vaccination (Tdap/Td)\n- Prompt wound cleaning and prophylaxis\n\n**Management**:\n- Antitoxin administration within 12–24 hours\n- Muscle relaxants, sedation, and supportive care\n\n**Key Takeaway**: Vaccination and early wound care prevent tetanus.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 150
+  },
+  {
+    "subject": "Health & Medicine",
+    "chapter": "Infectious Diseases",
+    "subchapter": "Bacterial Diseases",
+    "topic": "Cholera",
+    "content": "# Cholera (Vibrio cholerae)\n\n**Affected Organ**: Intestines (large intestine)\n\n**Clinical Features**:\n- Acute watery diarrhea (rice‑water stool)\n- Vomiting\n- Muscular cramps\n- Rapid dehydration and shock\n\n**Prevention & Control**:\n- Drink pure or boiled water\n- Eat light, safe food\n- Proper waste disposal\n- Vaccination (oral cholera vaccine)\n\n**Management**:\n- Oral rehydration salts (ORS)\n- Intravenous fluids for severe dehydration\n- Antibiotics (e.g., doxycycline) in severe cases\n\n**Key Takeaway**: Rapid rehydration is life‑saving; vaccination reduces outbreak severity.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 150
+  },
+  {
+    "subject": "Health & Medicine",
+    "chapter": "Infectious Diseases",
+    "subchapter": "Bacterial Diseases",
+    "topic": "Diphtheria",
+    "content": "# Diphtheria (Corynebacterium diphtheriae)\n\n**Affected Organ**: Throat\n\n**Clinical Features**:\n- Mild fever\n- Sore throat\n- Pseudomembrane formation in the throat\n\n**Prevention & Control**:\n- Immunisation with diphtheria toxoid vaccine\n- Early detection and isolation\n\n**Management**:\n- Antitoxin injection within 12–24 hours of symptom onset\n- Antibiotics (penicillin or erythromycin)\n- Supportive care\n\n**Key Takeaway**: Timely antitoxin and vaccination are critical to prevent complications.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 150
+  },
+  {
+    "subject": "Health & Medicine",
+    "chapter": "Infectious Diseases",
+    "subchapter": "Bacterial Diseases",
+    "topic": "Plague",
+    "content": "# Plague (Yersinia pestis or Bacillus pestis)\n\n**Affected Organ**: Various (bubonic, septicemic, pneumonic forms)\n\n**Clinical Features**:\n- Acute body pain\n- Reddish eyes (conjunctival injection)\n- Fever spike\n- Inflammation of lymph nodes (buboes)\n\n**Prevention & Control**:\n- Rodent control\n- Insecticide spraying\n- Early antibiotic therapy\n\n**Management**:\n- Antibiotics (streptomycin, gentamicin, doxycycline)\n- Supportive care\n\n**Key Takeaway**: Rapid diagnosis and treatment are essential; public health measures control spread.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 150
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Units and Measurement",
+    "subchapter": "SI Units",
+    "topic": "Work and Energy",
+    "content": "The SI unit for measuring both work and energy is the **Joule (J)**. Other units like Watt (power), Farad (capacitance), and Ohm (resistance) are distinct physical quantities.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 151
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Motion",
+    "subchapter": "Kinematics",
+    "topic": "Acceleration and Velocity",
+    "content": "When a body is accelerated, its velocity changes. In the context of standard acceleration (positive acceleration), the velocity **increases**. Acceleration is defined as the rate of change of velocity.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 151
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Vectors and Scalars",
+    "subchapter": "Classification of Quantities",
+    "topic": "Vector vs Scalar",
+    "content": "A **vector** quantity has both magnitude and direction. Common vector quantities include displacement, velocity, acceleration, force, and momentum. **Scalar** quantities have only magnitude (e.g., area, power, energy, electric current, mass, time). Note: While electric current has a direction, it is treated as a scalar in standard physics because it does not follow vector addition rules.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 151
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Friction",
+    "subchapter": "Laws of Friction",
+    "topic": "Angle of Friction and Repose",
+    "content": "The **angle of friction** ($\\phi$) and the **angle of repose** ($\\theta$) are **equal to each other**. Both are defined by the coefficient of static friction: $\\tan \\phi = \\mu_s$ and $\\tan \\theta = \\mu_s$. Therefore, $\\phi = \\theta$.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 151
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "subchapter": "Newton's Laws",
+    "topic": "Inertia",
+    "content": "When a running car stops suddenly, passengers tend to lean forward due to the **inertia of motion**. The lower part of the body stops with the car, but the upper part continues to move forward due to inertia.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 151
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "subchapter": "Newton's Laws",
+    "topic": "Rocket Propulsion",
+    "content": "A rocket works on the principle of **Newton's Third Law of Motion** (Action and Reaction). The rocket expels gas at high speed in one direction (action), and the gas exerts an equal and opposite force on the rocket, propelling it in the opposite direction (reaction).",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 151
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Friction",
+    "subchapter": "Applications",
+    "topic": "Slipping on Muddy Roads",
+    "content": "Slipping on a muddy road occurs due to the **lack of friction**. Mud reduces the coefficient of friction between the tires/feet and the road surface, making it difficult to maintain grip.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 151
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "subchapter": "Measurement",
+    "topic": "Measuring Weight",
+    "content": "**Weight** is a force ($W = mg$) and is measured by a **spring balance**. A beam balance or common balance measures mass, not weight, as it compares masses.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 151
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Modern Physics",
+    "subchapter": "Atomic Structure",
+    "topic": "Mass of Electron",
+    "content": "**J.J. Thomson** indirectly determined the mass of the electron by measuring the charge-to-mass ratio ($e/m$) of the electron. **Millikan** later determined the charge of the electron ($e$) using the oil drop experiment, which allowed for the precise calculation of the electron's mass.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 151
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Optics",
+    "subchapter": "Electromagnetic Spectrum",
+    "topic": "Visible Light Wavelengths",
+    "content": "Among visible colors, **Red** light has the **longest wavelength** (approx. 700 nm), while Violet light has the shortest wavelength (approx. 400 nm). The order from longest to shortest wavelength is: Red, Orange, Yellow, Green, Blue, Indigo, Violet (VIBGYOR).",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 151
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Properties of Matter",
+    "subchapter": "Surface Phenomena",
+    "topic": "Surface Tension",
+    "content": "Materials for rainproof coats and tents owe their waterproof properties to **surface tension**. The fabric is treated to increase the surface tension of water, causing water droplets to bead up and roll off rather than penetrate the material.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 151
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Properties of Matter",
+    "subchapter": "Capillarity and Osmosis",
+    "topic": "Water Absorption in Plants",
+    "content": "Water from soil enters into the root hair primarily owing to **osmotic pressure**. The concentration of solutes inside the root hair cells is higher than in the surrounding soil water, causing water to move into the root hair through the semi-permeable membrane.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 151
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Properties of Matter",
+    "subchapter": "Capillarity",
+    "topic": "Capillary Action in Pens",
+    "content": "**Fountain pens** use capillary action in addition to gravity for the flow of ink. The ink flows through a fine channel (nib) due to capillary forces. Ballpoint and gel pens rely more on gravity and the viscosity of the ink.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 151
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Properties of Matter",
+    "subchapter": "Surface Phenomena",
+    "topic": "Shape of Liquid Drops",
+    "content": "A liquid drop tends to assume a **spherical shape** because of **surface tension**. Surface tension acts to minimize the surface area of the liquid, and a sphere has the minimum surface area for a given volume.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 151
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Sound",
+    "subchapter": "Speed of Sound",
+    "topic": "Velocity of sound in different media",
+    "content": "The speed of sound \\(v\\) in a medium is given by:\\n\\n```math\\nv = \\sqrt{\\frac{B}{\\rho}}\\n```\\nwhere \\(B\\) is the bulk modulus (or stiffness) of the medium and \\(\\rho\\) is its density. Because solids (especially metals) have a much larger bulk modulus than liquids or gases, the velocity of sound is **maximum in solids**, with metals exhibiting the highest speeds among common materials.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 152
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Acoustics",
+    "subchapter": "Sound Intensity",
+    "topic": "Decibel",
+    "content": "The decibel (dB) is a logarithmic unit used to express the ratio of a sound intensity \\(I\\) to a reference intensity \\(I_0\\):\\n\\n```math\\nL_{dB} = 10 \\log_{10}\\left(\\frac{I}{I_0}\\right)\\n```\\nIt is commonly used to quantify sound levels because the human ear perceives sound intensity logarithmically.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 152
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Electromagnetic Spectrum",
+    "subchapter": "X‑rays",
+    "topic": "Nature of X‑rays",
+    "content": "X‑rays are **electromagnetic transverse waves** with wavelengths ranging from about 0.01 nm to 10 nm. They are part of the high‑energy end of the electromagnetic spectrum and travel at the speed of light in vacuum.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 152
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Waves",
+    "subchapter": "Vibrating String",
+    "topic": "Sonometer",
+    "content": "A **sonometer** is an apparatus used to study the vibration of a stretched string. By varying the tension, length, or linear density of the string, the fundamental frequency \\(f = \\frac{1}{2L}\\sqrt{\\frac{T}{\\mu}}\\) can be measured.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 152
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Electrical Properties",
+    "subchapter": "Conductivity vs Temperature",
+    "topic": "Temperature dependence of conductivity",
+    "content": "For **semiconductors**, electrical conductivity **increases** with temperature because more charge carriers are thermally excited across the band gap. In contrast, the conductivity of metals typically **decreases** with temperature due to increased lattice scattering.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 152
+  },
+  {
+    "subject": "Astronomy",
+    "chapter": "Astronomical Distances",
+    "subchapter": "",
+    "topic": "Unit of astronomical distance",
+    "content": "The **light‑year** is the distance that light travels in one Julian year (365.25 days) in vacuum:\\n\\n```math\\n1\\,\\text{ly} = c \\times 1\\,\\text{year} \\approx 9.46 \\times 10^{12}\\,\\text{km}\\n```",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 152
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Jet Propulsion",
+    "subchapter": "",
+    "topic": "Principle of jet engine",
+    "content": "A jet engine operates on the **conservation of linear momentum**. High‑speed exhaust gases are expelled backward, producing an equal and opposite forward thrust on the aircraft.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 152
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Conductors",
+    "subchapter": "",
+    "topic": "Good electrical conductor among solids",
+    "content": "Among common solids, **graphite** conducts electricity well because each carbon atom contributes a delocalized electron that can move freely within the layered structure.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 152
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Ohm’s Law",
+    "subchapter": "",
+    "topic": "Definition of Ohm’s law",
+    "content": "Ohm’s law states that the **current through a conductor is directly proportional to the voltage across it**, with the constant of proportionality being the resistance \\(R\\):\\n\\n```math\\nV = I R\\n```",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 152
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Optics / Water",
+    "subchapter": "",
+    "topic": "Blue colour of sea water",
+    "content": "Sea water appears blue mainly because **water molecules absorb light at the red end of the spectrum**, allowing blue wavelengths to be transmitted and scattered back to the observer.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 152
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Magnetism",
+    "subchapter": "Solenoids",
+    "topic": "Effect of soft iron core in a solenoid",
+    "content": "Inserting a **soft iron core** into a solenoid **increases the magnetic field strength** because the relative permeability of soft iron is much greater than that of air, concentrating the magnetic flux.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 152
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Magnetism",
+    "subchapter": "Magnetic Materials",
+    "topic": "Loss of magnetism on heating",
+    "content": "All magnetic materials lose their permanent magnetism when heated **above their Curie temperature**, where thermal agitation overcomes the alignment of magnetic domains.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 152
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Radioactivity",
+    "subchapter": "Half‑life",
+    "topic": "Half‑life calculations",
+    "content": "If a radioactive substance has a half‑life \\(T_{1/2}\\), after \\(n\\) half‑lives the remaining mass is:\\n\\n```math\\nm = m_0 \\left(\\frac{1}{2}\\right)^{n}\\n```\\nwhere \\(n = \\frac{t}{T_{1/2}}\\).",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 152
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Inorganic Chemistry",
+    "subchapter": "Vitamin B12",
+    "topic": "Presence of Cobalt in Vitamin B12",
+    "content": "Vitamin B12 (cobalamin) is a complex organometallic compound that contains a central cobalt ion. The presence of cobalt in vitamin B12 was first established by **spectroscopic methods** (UV‑Vis and later X‑ray absorption spectroscopy), which revealed characteristic absorption bands attributable to the Co‑center. This discovery confirmed the metal‑based nature of the vitamin and paved the way for its biochemical role in DNA synthesis and red‑blood‑cell formation.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 153
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Physical Chemistry",
+    "subchapter": "Separation Techniques",
+    "topic": "Separation of Iodine from Potassium Chloride",
+    "content": "Iodine is a solid at room temperature that **sublimates** (transitions directly from solid to gas). When a mixture of iodine and potassium chloride is heated, iodine sublimes and can be collected on a cold surface, leaving behind the potassium chloride. Other methods such as sedimentation, filtration, or distillation are ineffective because iodine does not dissolve in water and does not form a liquid at normal temperatures.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 153
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Materials Science",
+    "subchapter": "Glass",
+    "topic": "Nature of Glass",
+    "content": "Glass is an **amorphous solid** that lacks the long‑range order of a crystal. It is often described as a *super‑cooled liquid* because it can flow very slowly over geological timescales, but it is not a liquid crystal. Its structure is a disordered network of SiO₄ tetrahedra (in silica glass) or other network formers, giving it unique optical and mechanical properties.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 153
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Historical Chemistry",
+    "subchapter": "Atomic Theory",
+    "topic": "Dalton’s Atomic Theory",
+    "content": "John Dalton (1803) proposed the **Atomic Theory** which states:\\n1. All matter is composed of indivisible atoms.\\n2. Atoms of a given element are identical in mass and properties.\\n3. Chemical reactions involve rearrangement of atoms.\\n4. Compounds are formed by the combination of atoms in fixed ratios.\\nDalton’s work laid the foundation for modern chemistry and the concept of the atom.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 153
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Atomic Structure",
+    "subchapter": "Basic Constituents",
+    "topic": "Components of an Atom",
+    "content": "An atom consists of:\\n- **Protons** (positive charge, mass ≈ 1 u)\\n- **Neutrons** (neutral charge, mass ≈ 1 u)\\n- **Electrons** (negative charge, negligible mass)\\nThese sub‑atomic particles determine the element’s identity, mass, and chemical behavior.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 153
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Quantum Mechanics",
+    "subchapter": "Matter Waves",
+    "topic": "de Broglie Waves",
+    "content": "Louis de Broglie (1924) proposed that all matter exhibits wave‑like properties. The **de Broglie wavelength** λ of a particle with momentum p is given by:\\n\\n\\[ \\lambda = \\frac{h}{p} \\]\\n\\nwhere h is Planck’s constant. This concept underpins electron diffraction, quantum tunneling, and the wave‑particle duality of matter.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 153
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Intermolecular Forces",
+    "subchapter": "Hydrogen Bonding",
+    "topic": "Hydrogen Bond in Water",
+    "content": "Water molecules are linked by **hydrogen bonds**—a dipole‑dipole attraction between the partially positive hydrogen of one H₂O and the lone pair of electrons on the oxygen of another. Hydrogen bonding gives water its high boiling point, surface tension, and solvent properties.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 153
+  },
+  {
+    "subject": "Food Chemistry",
+    "chapter": "Fermentation",
+    "subchapter": "Curd Formation",
+    "topic": "Milk Fermentation",
+    "content": "Curd (cheese) is produced by **fermentation** of lactose by lactic acid bacteria. The bacteria convert lactose into lactic acid, lowering the pH and causing casein proteins to coagulate into curds. Pasteurisation is a heat treatment, not a fermentation process.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 153
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "subchapter": "Covalent Compounds",
+    "topic": "Carbon Tetrachloride",
+    "content": "Carbon tetrachloride (CCl₄) is a **covalent** compound where a single carbon atom shares electrons with four chlorine atoms. It is a non‑polar molecule due to its tetrahedral symmetry.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 153
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "subchapter": "Bond Types",
+    "topic": "Ionic, Covalent, and Coordinate Bonds",
+    "content": "- **Ionic bonds**: electrostatic attraction between oppositely charged ions (e.g., NH₄Cl).\\n- **Covalent bonds**: sharing of electron pairs between atoms (e.g., H₂O, SO₂).\\n- **Coordinate (dative) bonds**: a bond where both electrons come from the same atom (common in complex ions). None of the listed simple molecules (SO₃, SO₂, H₂O, NH₄Cl) contain a coordinate bond in their neutral form.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 153
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Industrial Chemistry",
+    "subchapter": "Cosmetic Powders",
+    "topic": "Talc",
+    "content": "Cosmetic powders are commonly made from **talc**, a hydrous magnesium silicate (Mg₃Si₄O₁₀(OH)₂). Talc is soft, has a greasy feel, and is chemically inert, making it suitable for skin‑contact products.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 153
+  },
+  {
+    "subject": "Food Chemistry",
+    "chapter": "Acid–Base Chemistry",
+    "subchapter": "Milk pH",
+    "topic": "Acidification of Milk",
+    "content": "Fresh milk has a pH around 6. When lactic acid bacteria ferment lactose, lactic acid accumulates, lowering the pH to about 4–5. This acidification causes the milk to sour and curdle.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 153
+  },
+  {
+    "subject": "Physiology",
+    "chapter": "Digestive System",
+    "subchapter": "Gastric Acid",
+    "topic": "Hydrochloric Acid",
+    "content": "The primary acid in gastric juice is **hydrochloric acid (HCl)**, produced by parietal cells in the stomach lining. It provides a highly acidic environment (pH 1–2) essential for protein digestion and activation of pepsinogen.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 153
+  },
+  {
+    "subject": "Nutrition",
+    "chapter": "Vitamins",
+    "subchapter": "Vitamin C",
+    "topic": "Ascorbic Acid",
+    "content": "Vitamin C is also known as **ascorbic acid**. It is a water‑soluble vitamin with antioxidant properties, essential for collagen synthesis, wound healing, and immune function.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 153
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Analytical Chemistry",
+    "subchapter": "Aqua‑Regia",
+    "topic": "Composition of Aqua‑Regia",
+    "content": "Aqua‑regia is a powerful oxidizing mixture of **concentrated nitric acid (HNO₃) and concentrated hydrochloric acid (HCl)** in a 1:3 volume ratio. It can dissolve noble metals such as gold and platinum.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 153
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Environmental Science",
+    "subchapter": "Pollution",
+    "topic": "Mercury Pollution",
+    "content": "Compact Fluorescent Lamps (CFLs) contain mercury. In India, **coal-fired power plants** are a major man-made source contributing to mercury pollution due to the emission of mercury present in coal during combustion.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 154
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Metals and Alloys",
+    "topic": "Welding and Alloys",
+    "content": "**Solder** is an alloy (typically of tin and lead) used for joining metal parts, such as broken pieces of iron rails and machine parts, due to its low melting point. Note: Thermite welding (using aluminium powder) is also used for heavy rails, but solder is the standard answer for general joining in this context.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 154
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Human Physiology",
+    "topic": "Minerals and Bones",
+    "content": "Teeth and bones acquire strength and rigidity primarily from **calcium**. Calcium is a key component of hydroxyapatite, the mineral compound that gives bones and teeth their hardness.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 154
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Mechanics",
+    "topic": "Elasticity",
+    "content": "Steel is considered more elastic than rubber because it requires a **larger deforming force** to produce a given strain. Elasticity is defined by the ability to return to original shape after the deforming force is removed, and the modulus of elasticity (Young's modulus) is higher for steel than for rubber.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 154
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Everyday Chemistry",
+    "topic": "Lead Pencils",
+    "content": "The percentage of lead in a lead pencil is **0**. The core of a pencil is made of graphite (a form of carbon) and clay, not lead.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 154
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Biochemistry",
+    "topic": "Vitamins and Analysis",
+    "content": "The presence of cobalt in Vitamin B12 was established for the first time by **spectroscopy**. This technique allows for the identification of elements based on their spectral lines.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 154
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Carbon and its Compounds",
+    "topic": "Allotropes of Carbon",
+    "content": "**Diamond** is the allotrope of carbon that has a rigid three-dimensional structure. Each carbon atom is bonded to four other carbon atoms in a tetrahedral arrangement, making it the hardest natural substance.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 154
+  },
+  {
+    "subject": "General Science",
+    "chapter": "General Science",
+    "subchapter": "Atmosphere",
+    "topic": "Composition of Air",
+    "content": "The highest volume of gas in the lower atmosphere is comprised of **nitrogen** (approximately 78%). Oxygen is the second most abundant (approximately 21%).",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 154
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Nitrogen Compounds",
+    "topic": "Anesthetics",
+    "content": "**N2O (Nitrous oxide)**, commonly known as laughing gas, is used as an anesthetic in medical procedures.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 154
+  },
+  {
+    "subject": "General Science",
+    "chapter": "General Science",
+    "subchapter": "Physics/Chemistry Applications",
+    "topic": "Deep Sea Diving",
+    "content": "In deep-sea diving, divers use a mixture of gases consisting of oxygen and **helium** (known as Heliox). Helium is used instead of nitrogen to prevent nitrogen narcosis and oxygen toxicity at high pressures.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 154
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Sulfur Compounds",
+    "topic": "Bleaching Action",
+    "content": "Sulphur dioxide (SO2) bleaches colouring matter by **reduction**. It is a reducing agent that removes color by reducing the chromophore, unlike chlorine which bleaches by oxidation.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 154
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Animal Kingdom",
+    "subchapter": "Invertebrates",
+    "topic": "Nervous System",
+    "content": "**Amoeba** does not have a nervous system. It is a unicellular organism that responds to stimuli through its cell membrane and cytoplasm, unlike multicellular animals like leeches, tapeworms, and snails which have some form of nervous coordination.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 154
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Animal Kingdom",
+    "subchapter": "Circulatory System",
+    "topic": "Open vs Closed Circulation",
+    "content": "**Cockroach and silverfish** (both Arthropods) have an open type of circulatory system, where blood (hemolymph) flows freely in body cavities. Earthworms and leeches (Annelids) have a closed circulatory system.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 154
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Animal Kingdom",
+    "subchapter": "Annelida",
+    "topic": "Clitellum",
+    "content": "The **clitellum** is a thickened, saddle-shaped region found in the anterior part of the body of **leeches** (and earthworms). It is involved in reproduction, specifically in the formation of the cocoon.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 154
+  },
+  {
+    "subject": "Human Physiology",
+    "chapter": "Hemoglobin and pH",
+    "subchapter": "",
+    "topic": "Bohr Effect",
+    "content": "# Bohr Effect\n\nThe Bohr effect describes the physiological phenomenon where a decrease in blood pH (increased acidity) or an increase in carbon dioxide concentration reduces the affinity of hemoglobin for oxygen. This facilitates oxygen release to tissues that are metabolically active and produce more CO₂ and H⁺.\n\n- **Mechanism**: Protonation of histidine residues in hemoglobin stabilizes the deoxy (T) state.\n- **Clinical relevance**: In conditions such as metabolic acidosis, the oxygen dissociation curve shifts rightward, decreasing oxygen carrying capacity.\n- **Key formula**: \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \\",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 155
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Photosynthesis",
+    "subchapter": "Products of Photosynthesis",
+    "topic": "Organic Materials",
+    "content": "During photosynthesis, green plants convert carbon dioxide and water into glucose and other organic compounds. Hence, they generate **organic materials** as the primary product.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 156
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Acid‑Base Reactions",
+    "subchapter": "Reaction of Acids with Carbonates",
+    "topic": "Gas Evolution",
+    "content": "When an acid such as lime juice (containing citric acid) reacts with a carbonate like baking soda (NaHCO₃), carbon dioxide (CO₂) gas is liberated, producing brisk effervescence.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 156
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Heat Transfer",
+    "subchapter": "Radiation in Vacuum",
+    "topic": "Temperature Behaviour of a Heater in Vacuum",
+    "content": "In a vacuum there is no medium for conduction or convection. A heater can lose heat only by **radiation**. Consequently, its temperature rises until radiative loss equals electrical input, after which the temperature becomes constant.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 156
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Thermal Conductivity",
+    "subchapter": "Insulating Materials",
+    "topic": "Mud as a Poor Conductor",
+    "content": "Mud has a low thermal conductivity, making it a **bad conductor of heat**. Mud houses stay cooler in summer and warmer in winter because heat transfer through the walls is limited.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 156
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Acids",
+    "subchapter": "Aqua Regia",
+    "topic": "Composition",
+    "content": "Aqua‑regia is a mixture of **concentrated hydrochloric acid (HCl) and concentrated nitric acid (HNO₃) in a volume ratio of 3 : 1**. It can dissolve noble metals like gold.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 156
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Organic Acids",
+    "subchapter": "Citric Acid Sources",
+    "topic": "Free Citric Acid in Fruits",
+    "content": "Citric acid occurs in free (unbound) form in **lemon** and other citrus fruits, giving them their characteristic sour taste.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 156
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Indicators",
+    "subchapter": "Litmus Test",
+    "topic": "Differentiating H₂O₂ and NaOH",
+    "content": "A **red litmus paper** turns blue in the presence of a strong base such as aqueous NaOH, while it remains red in neutral or oxidizing solutions like H₂O₂. Hence red litmus can be used to differentiate the two.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 156
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "subchapter": "Covalent Compounds",
+    "topic": "Examples",
+    "content": "**Carbon tetrachloride (CCl₄)** is a typical covalent (molecular) compound, whereas calcium chloride, magnesium fluoride and sodium chloride are ionic.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 156
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Cell Organelles",
+    "subchapter": "Endosymbiotic Theory",
+    "topic": "Prokaryotic‑like Organelles",
+    "content": "Mitochondria are believed to have originated from free‑living prokaryotes that entered into a symbiotic relationship with early eukaryotic cells; thus they are treated as **prokaryotic cells within eukaryotes**.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 156
+  },
+  {
+    "subject": "Botany",
+    "chapter": "Plant Morphology",
+    "subchapter": "Auxiliary Buds",
+    "topic": "Development",
+    "content": "An **auxiliary (axillary) bud** can develop into a **branch** (or sometimes a leaf), contributing to the plant’s secondary growth.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 156
+  },
+  {
+    "subject": "Botany",
+    "chapter": "Plant Transport",
+    "subchapter": "Xylem Function",
+    "topic": "Transported Substances",
+    "content": "**Xylem** conducts water (and dissolved minerals) from the roots upward to the aerial parts of the plant.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 156
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Environmental Science",
+    "subchapter": "Pollution and Diseases",
+    "topic": "Cadmium Pollution",
+    "content": "Cadmium pollution is associated with **Itai-itai disease**. This condition is a severe osteomalacia (softening of the bones) and osteoporosis caused by cadmium poisoning, primarily observed in Japan.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 157
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Environmental Science",
+    "subchapter": "Weather Modification",
+    "topic": "Cloud Seeding",
+    "content": "Artificial rain is produced by seeding clouds with **Silver Iodide**. Silver iodide acts as a nucleation site for water droplets, encouraging precipitation.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 157
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Astronomy",
+    "subchapter": "Solar System Events",
+    "topic": "Solar Eclipse",
+    "content": "A solar eclipse occurs when the **Moon is positioned between the Sun and the Earth**. This alignment typically happens during a **New Moon** phase, where the Moon's shadow falls on Earth.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 157
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Geography",
+    "subchapter": "Soil Types",
+    "topic": "Cultivation of Cotton",
+    "content": "**Black soil** (also known as Regur soil) is the most conducive soil type for the growth of cotton. It has high moisture-retention capacity and is rich in calcium carbonate, magnesium, potash, and alumina.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 157
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Chemistry",
+    "subchapter": "Isotopes",
+    "topic": "Heavy Water",
+    "content": "Heavy water ($D_2O$) is called heavy because it contains **deuterium**, which is a heavier isotope of hydrogen. It is denser than ordinary water ($H_2O$) due to the extra neutron in the deuterium nucleus.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 157
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Animal Behavior",
+    "topic": "Nocturnal Animals",
+    "content": "Animals that are active at night are called **Nocturnal**. Examples include bats, owls, and cats. Animals active during the day are called Diurnal.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 157
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Nuclear Physics",
+    "topic": "Discovery of Radioactivity",
+    "content": "Natural radioactivity was discovered by **Henri Becquerel** in 1896. He observed that uranium salts emitted rays that could fog photographic plates.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 157
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Optics",
+    "topic": "Raman Effect",
+    "content": "Sir C.V. Raman was awarded the Nobel Prize in Physics in 1930 for his work on the **Scattering of Light** (Raman Effect). This phenomenon involves the inelastic scattering of photons by matter.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 157
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Physics",
+    "subchapter": "Atmosphere",
+    "topic": "Communication Satellites",
+    "content": "Communication satellites are located in the **Ionosphere** (specifically, the thermosphere/ionosphere region). This layer contains ionized particles that reflect radio waves, facilitating long-distance communication.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 157
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Geography",
+    "subchapter": "Meteorology",
+    "topic": "Isotherms",
+    "content": "Lines joining places of equal temperature are called **Isotherms**. Other related terms include Isohyets (equal rainfall) and Isobars (equal pressure).",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 157
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Defense Technology",
+    "subchapter": "Missiles",
+    "topic": "Nirbhay Missile",
+    "content": "**Nirbhay** is India’s first long-range subsonic cruise missile. It is designed for all-weather, day/night, low-altitude penetration missions.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 157
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Biology",
+    "subchapter": "Cell Biology",
+    "topic": "Cytology",
+    "content": "The branch of science that studies cells is called **Cytology**. Entomology studies insects, and Hormonology studies hormones.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 157
+  },
+  {
+    "subject": "AFCAT Reading Comprehension",
+    "chapter": "Reading Comprehension",
+    "subchapter": "Strategies and Example",
+    "topic": "Reading Comprehension Tips and Example Passage",
+    "content": "# Reading Comprehension Tips for AFCAT\n\n1. **Read the questions first** – This helps you focus on what to look for in the passage.\n2. **Read the passage at a steady pace** – Avoid rushing; ensure you understand the flow.\n3. **Re‑read if necessary** – A second read can clarify ambiguous parts.\n4. **Read each question carefully** – Make sure you understand exactly what is being asked.\n5. **Read all answer choices before selecting** – This prevents overlooking the best answer.\n6. **Derive answers from the passage only** – Do not rely on personal opinions or external knowledge.\n\n## Example Passage\n> The phenomenon of terrorism signifies violence by disgruntled groups of people determined to achieve certain political goals which they find are not attainable by lawful means. This menace has lately assumed a global character and many countries including the U.S.A. are affected by it. Terrorism is actually an infantile attitude, a sign of immaturity, just as certain other movements indicate political senility. It is wrong, however, to believe that terrorists are born. Like Naxalites, Radicals and Reformers, they are the victims of certain unfavourable conditions and circumstances. These circumstances, in turn, are often the result of tactless government policies, prolonged delays in redressing political, economic and other grievances. Bitterly disappointed individuals or groups resort to violent means.\n\n### Key Points from the Passage\n- **Definition**: Terrorism is violent action by groups seeking political goals beyond lawful means.\n- **Global spread**: Affects many countries, including the USA.\n- **Nature**: Described as an infantile, immature attitude.\n- **Misconception**: Terrorists are not born; they are shaped by circumstances.\n- **Causes**: Unfavourable conditions, government policies, delayed grievance redressal.\n- **Outcome**: Disappointed individuals/groups resort to violence.\n\nThese notes provide a concise framework for approaching AFCAT reading comprehension passages and formulating accurate answers based solely on the text.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 160
+  },
+  {
+    "subject": "English",
+    "chapter": "Reading Comprehension",
+    "subchapter": "Vocabulary and Contextual Meaning",
+    "topic": "Phrase Interpretation",
+    "content": "### Phrase: 'Almost Inevitably'\n- **Definition**: In the context of the passage, 'almost inevitably' implies that something happened as a matter of course or was unavoidable.\n- **Synonyms**: Invariably, necessarily, unavoidably.\n- **Contextual Usage**: The author states that receiving courtesy was 'almost inevitable' due to his notoriety and popularity, suggesting it was a predictable outcome rather than a surprise.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 161
+  },
+  {
+    "subject": "English",
+    "chapter": "Reading Comprehension",
+    "subchapter": "Inference and Main Idea",
+    "topic": "Cause and Effect Analysis",
+    "content": "### Passage 1 Analysis: Courtesy and Conflict\n- **Key Fact**: The author attributes the reduction of 'bitterness of conflict' and 'sting of gaol-life' to the 'human touch' provided by gaolers and policemen.\n- **Inference**: The kindness shown by the adversaries (English authorities) softened the harshness of imprisonment.\n- **Relationship**: The author's education in England and his status as a 'notable individual' rather than a 'mass' figure contributed to the courteous treatment received from Englishmen.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 161
+  },
+  {
+    "subject": "English",
+    "chapter": "Reading Comprehension",
+    "subchapter": "Critical Analysis",
+    "topic": "Author's Opinion on State Intrusiveness",
+    "content": "### Passage 2 Analysis: Demonetisation and State Role\n- **Key Fact**: The weeks following demonetisation saw 'growing intrusiveness of the state'.\n- **Historical Context**: The author references India's earlier experiment with big government, which led to 'inspector raj' and opportunities for corruption.\n- **Author's Stance**: The author warns that the current trend of state intrusiveness must not repeat the mistakes of the past (corruption and bureaucratic overreach).",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 161
+  },
+  {
+    "subject": "English",
+    "chapter": "Reading Comprehension",
+    "subchapter": "Passage 4",
+    "topic": "Privacy and Memoirs",
+    "content": "### Key Ideas from Passage 4\n- **Respect for privacy**: The author emphasizes the importance of safeguarding a child's personal writings from unwanted exposure.\n- **Memoir writing at a young age**: A four‑year‑old daughter begins to write memoirs, highlighting early self‑expression.\n- **Secure storage solutions**:\n  - A section of a bureau drawer\n  - A locked box\n  - Carrying the notebook in clothing (right leg of trousers) as a last resort\n- **Personal experience of the author**: Recollection of childhood embarrassment when the author's sister discovered her poems and publicly recited them, causing emotional distress.\n- **Lesson**: Early inculcation of privacy respect helps protect emotional well‑being and encourages confidence in personal expression.\n\n**Definitions**\n- **Memoir**: A factual written account of personal experiences.\n- **Privacy**: The right of an individual to keep personal information and activities free from public scrutiny.\n\n**Relevant Vocabulary**\n- *Agonies*: intense mental or emotional suffering.\n- *Tease*: to make fun of or mock.\n- *Enemy*: metaphorical reference to anyone who threatens the privacy of the writer.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 162
+  },
+  {
+    "subject": "English",
+    "chapter": "Reading Comprehension",
+    "subchapter": "Passage 5",
+    "topic": "Coastal Geography and Tides",
+    "content": "### Key Concepts from Passage 5 (excerpt)\n- **Low tide**: The period when the sea level is at its lowest, exposing more of the shoreline and allowing foot access to normally inaccessible areas.\n- **Headland**: A point of land, usually high and with a sheer drop, that extends into a body of water.\n- **Rock juts**: Protruding rocks that can make navigation by boat hazardous.\n- **Currents**: Water movements that can swirl around rocks, creating dangerous conditions for vessels.\n- **Accessibility**: While boats cannot approach due to rocks and currents, a person can walk to the bay during the lowest ebb tide when water recedes.\n\n**Definitions**\n- *Ebb tide*: The phase of the tide when water level is falling.\n- *Swirled*: To move in a circular or spiral motion, often describing turbulent water.\n\n**Important Vocabulary**\n- *Inaccessible*: Not able to be reached or entered.\n- *Jutted*: Stood out sharply.\n- *Treacherously*: In a dangerously deceptive manner.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 162
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Environmental Studies",
+    "subchapter": "Water Resources and Pollution",
+    "topic": "Groundwater Quality and Drought",
+    "content": "- **Belgium's Water Crisis**: Belgium is considered to have the worst water situation primarily due to the poor quality of its groundwater.\n- **Drought in India**: Significant droughts have affected Rajasthan, Madhya Pradesh, Andhra Pradesh, and Orissa (Odisha) due to rainfall failures.\n- **Social Impact of Water Scarcity**: Water scarcity has led to desperation and violence, such as villagers in Rajasthan attacking Food Corporation godowns.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 163
+  },
+  {
+    "subject": "General Science",
+    "chapter": "Environmental Studies",
+    "subchapter": "Climate Change and Sea Level Rise",
+    "topic": "Consequences of Global Warming",
+    "content": "- **Global Warming Drivers**: The world is getting hotter due to major polluters (notably the USA) refusing to cooperate on pollution control.\n- **Antarctic Ice Collapse**: Rising temperatures are causing the collapse of great ice shelves in Antarctica, which weigh billions of tons.\n- **Sea Level Rise in Venice**: \n  - Last century: Sea levels rose by one step of a staircase.\n  - This century: Sea levels are expected to rise by five steps.\n  - Additional cause: Draining of the underground water table due to industrialization.\n- **Impact on Low-Lying Nations**: \n  - **Tuvalu**: Expected to be the first country to go under the waves due to ocean level rise. Citizens are already migrating to New Zealand.\n  - **Maldives**: Potential for mass migration to Kerala (India).\n  - **Bangladesh**: Potential for mass migration to West Bengal (India).",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 163
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Mineral Oil",
+    "subchapter": "Composition",
+    "topic": "Composition of Mineral Oil",
+    "content": "Mineral oil is a mixture of hydrocarbons derived from petroleum. It is composed of hydrogen and carbon atoms in **fixed proportions**. The typical empirical formula is **C<sub>n</sub>H<sub>2n+2</sub>**, where *n* ranges from 20 to 40. This fixed hydrogen‑to‑carbon ratio gives mineral oil its stable, non‑reactive liquid properties, making it useful as a lubricant, in cosmetics, and in various industrial applications.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 164
+  },
+  {
+    "subject": "Geography/Climatology",
+    "chapter": "Himalayan Climatology",
+    "subchapter": "Weather Conditions",
+    "topic": "Weather in the Himalayas",
+    "content": "The Himalayas experience extreme weather. The **two greatest enemies of climbers** are **wind and snow**. Weather is most favorable in the short intervals between the winter gales and the monsoon snows, typically in **early May and October**. During these windows, temperatures are moderate, snow conditions are stable, and the risk of sudden blizzards is reduced.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 164
+  },
+  {
+    "subject": "Mountaineering",
+    "chapter": "Climbing Strategies",
+    "subchapter": "Timing",
+    "topic": "Best Time to Scale a Peak",
+    "content": "The optimal window for Himalayan climbs is the brief period between the winter and monsoon seasons. **Early May or October** offer the best combination of calm weather, moderate temperatures, and stable snow conditions, making them the preferred months for attempting a summit.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 164
+  },
+  {
+    "subject": "Mountaineering",
+    "chapter": "Cold Management",
+    "subchapter": "Counteracting Cold",
+    "topic": "Mitigation of Cold Perils",
+    "content": "Cold can be mitigated by wearing **warm, layered clothing**, consuming **high‑energy, scientifically planned food**, and maintaining **physical activity** to generate body heat. Avoiding alcohol and drugs that impair thermoregulation is also essential.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 164
+  },
+  {
+    "subject": "English",
+    "chapter": "Passage 13 – Critical Thinking",
+    "subchapter": null,
+    "topic": "Empirical Evidence",
+    "content": "### Empirical Evidence\n- **Definition**: Knowledge obtained through observation or experiment rather than theory or pure logic.\n- **Key Point in the passage**: The author argues that conclusions should be based on what one has actually seen or experienced (e.g., seeing a hedgehog eat black beetles) rather than on second‑hand reports or dogmatic assertions.\n- **Why it matters**: Empirical evidence reduces the risk of accepting false or unfounded claims, such as the medieval belief in unicorns and salamanders.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 165
+  },
+  {
+    "subject": "English",
+    "chapter": "Passage 13 – Critical Thinking",
+    "subchapter": null,
+    "topic": "Dogmatic Statements",
+    "content": "### Dogmatic Statements\n- **Definition**: Assertions presented as unquestionably true, often without supporting evidence.\n- **Illustration in the passage**: Medieval writers made dogmatic statements about unicorns and salamanders despite never having seen them.\n- **Contrast with empirical approach**: The author warns against accepting such statements and promotes verification through personal observation.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 165
+  },
+  {
+    "subject": "English",
+    "chapter": "Passage 14 – Self‑Awareness",
+    "subchapter": null,
+    "topic": "Self‑Analysis and Inner Dialogue",
+    "content": "### Self‑Analysis & Inner Dialogue\n- **Self‑analysis**: The process of examining one's own thoughts, feelings, and motivations critically.\n- **Inner dialogue**: An active conversation with oneself that bridges the *self‑image* (the person you think you are) and the *gut‑level* instincts.\n- **Purpose in relationships**: According to the passage, honest communication with a partner is possible only after one has engaged in self‑analysis and revealed one's true self.\n- **Practical steps**:\n  1. Spend time alone.\n  2. Avoid passive meditation; instead, engage in active questioning.\n  3. Re‑evaluate personal beliefs and motives.\n  4. Use the insights gained to communicate openly with others.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 165
+  },
+  {
+    "subject": "English",
+    "chapter": "Reading Comprehension",
+    "subchapter": "Passage Analysis",
+    "topic": "Child Psychology and Behavior",
+    "content": "**Key Concept: Child's Perception of Tools**\n- **Spoon Usage:** To a child, handling a spoon holds no glory because it is perceived merely as an extension of their fingers, not as a distinct tool.\n- **Knife Attraction:** Children find knives attractive due to their inherent nature, whereas adults often fail to understand this attraction because they have forgotten their own childhood experiences and now view knives as routine dining instruments.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 166
+  },
+  {
+    "subject": "English",
+    "chapter": "Reading Comprehension",
+    "subchapter": "Passage Analysis",
+    "topic": "Definition of Civilisation",
+    "content": "**Key Concept: True Nature of Civilisation**\n- **Misconception:** Modern society often deludes itself into believing it is more civilized than ancestors due to material abundance and scientific advancement.\n- **Definition:** Civilisation is not defined by material wealth or scientific inventions/discoveries, though these bring blessings and comforts.\n- **Essential Quality:** Civilisation is a special way of human behavior, thought, and feeling. It lies in the spirit of man, specifically his attitude towards himself, his fellowmen, and life as a whole.\n- **Current State:** Despite technological progress, humanity has made no significant progress in its attitude towards fellowmen. Societal heroes are often conquerors and generals (killers/destroyers) rather than saviours and saints.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 166
+  },
+  {
+    "subject": "Economics",
+    "chapter": "International Trade",
+    "subchapter": "Econometric Models and Free Trade",
+    "topic": "Econometric Models",
+    "content": "# Econometric Models\n\n- **Definition**: Quantitative tools that use statistical methods to estimate economic relationships and forecast the impact of policy changes.\n- **Common Types**: Computable General Equilibrium (CGE) models, Input‑Output models, Time‑Series models.\n- **Primary Purpose**: Provide *background* information on how trade‑policy changes influence sectoral output and employment, rather than direct policy prescriptions.\n- **Key Features**:\n  - Capture inter‑sectoral linkages.\n  - Allow simulation of *what‑if* scenarios.\n  - Help identify sectors that will be *favourably* or *unfavourably* affected.\n- **Contribution**: Offers insight into *how* policy changes influence specific sectors, enabling policymakers to anticipate distributional effects.\n\n---\n\n## Free Trade\n\n- **Definition**: The removal of tariffs, quotas, and other barriers to allow goods and services to move freely across borders.\n- **Benefits**:\n  - **Efficiency**: Resources are allocated to sectors where a country has a comparative advantage.\n  - **Consumer Choice**: Wider variety of goods at lower prices.\n  - **Economic Growth**: Access to larger markets can boost production and innovation.\n- **Opposition**:\n  - **Low‑Wage Workers**: Fear of job losses or wage suppression in vulnerable sectors.\n  - **Environmental Impact**: Potential degradation due to increased production and transportation.\n  - **Protectionist Response**: Advanced economies may adopt protectionist measures to safeguard domestic industries.\n- **Policy Implication**: Econometric models help assess the *distributional* effects of free‑trade agreements, guiding balanced policy design.\n\n---\n\n## Policy Impact on Sectors\n\n- **Mixed Influence**: Trade‑policy changes can *benefit* some sectors while *adversely affecting* others.\n- **Role of Econometric Models**: Identify which sectors are likely to gain or lose, enabling targeted support or adjustment measures.\n- **Strategic Use**: Policymakers can use model outputs to design compensatory mechanisms (e.g., retraining programs, subsidies) for adversely affected groups.\n\n---\n\n## Protectionism\n\n- **Definition**: Economic policy of restricting imports through tariffs, quotas, or other barriers to protect domestic industries.\n- **Drivers**:\n  - **Employment Protection**: Preserve jobs in sectors threatened by foreign competition.\n  - **National Security**: Protect strategic industries.\n  - **Political Pressure**: Respond to public sentiment against perceived negative impacts of free trade.\n- **Trade‑Offs**:\n  - **Short‑Term Gains**: Shielded industries may thrive.\n  - **Long‑Term Costs**: Consumers face higher prices; domestic firms may become less competitive.\n- **Econometric Insight**: Models can quantify the net welfare effects of protectionist measures, informing balanced policy decisions.\n\n---\n\n## Key Takeaways\n\n1. **Econometric models** are indispensable for understanding sectoral impacts of trade policy.\n2. **Free trade** offers efficiency and growth benefits but also raises concerns about employment and the environment.\n3. Policy changes typically have a *mixed* influence across sectors; targeted measures can mitigate adverse effects.\n4. **Protectionism** may protect jobs in the short run but can harm overall welfare if not carefully calibrated.\n",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 167
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Public Sector Undertakings",
+    "subchapter": "Engineering & Design",
+    "topic": "Engineers India Limited (EIL)",
+    "content": "## Engineers India Limited (EIL)\n- **Establishment**: Set up in **1965**.\n- **Status**: Public Sector Undertaking (PSU).\n- **Primary Role**: Leading design and engineering company.\n- **Key Sectors**:\n  - Petroleum refineries\n  - Petrochemicals\n  - Oil and gas processing\n  - Offshore structures and platforms\n  - Fertilizers\n  - Metallurgy\n  - Power\n- **Services Provided**:\n  - Design and Engineering\n  - Procurement\n  - Construction Management\n  - Commissioning Assistance\n  - Project Management\n  - Specialist Services: Environmental engineering, heat and mass transfer equipment, IT materials and maintenance, risk analysis, energy conservation, and advanced control/optimization.\n- **Track Record**: Over **4000 assignments** including **250 major projects**.\n- **International Presence**: Exported services to countries in **Asia and Africa**.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 168
+  },
+  {
+    "subject": "General Awareness",
+    "chapter": "Literacy and Education",
+    "subchapter": "Adult Literacy and Continued Education",
+    "topic": "Literacy trends (1951‑1961)",
+    "content": "## Literacy Trends (1951‑1961)\n- **Literacy rate** rose from **24 % to 29 %** during the decade.\n- **Annual average increase** in literacy: **0.7 % per year**.\n- **Population growth** in the same period: **2.15 % per year**.\n- The rapid **population explosion** outpaced the modest gains in literacy, leading to a **rise in the absolute number of illiterates** despite the higher literacy percentage.\n\n## Causes of Persistent Illiteracy\n- **State apathy**: Many states showed little awareness of the magnitude of adult illiteracy.\n- **Lack of follow‑up**: No systematic measures to prevent *neo‑literates* (newly literate adults) from slipping back into illiteracy.\n\n## Continued Education – Recommended Measures\n- **Rural libraries**: Establish more libraries in villages to provide reading material and a learning environment.\n- **Adult schools**: Set up dedicated schools for adult learners.\n- **Correspondence courses**: Offer distance‑learning programmes to reach remote populations.\n- **Overall goal**: Ensure that the gains from initial adult‑literacy campaigns are **sustained** and **expanded**.\n\n## Key Takeaway\nThe **prevention of neo‑literates reverting to illiteracy** is **as important** as the initial literacy campaigns themselves.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 169
+  },
+  {
+    "subject": "Medicine",
+    "chapter": "Hypnotherapy",
+    "subchapter": "Definition",
+    "topic": "Hypnosis",
+    "content": "# Hypnosis\n\n- **Definition**: Hypnosis is a state of focused attention and increased suggestibility, often induced by a trained practitioner. It is commonly described as *suggestion made in trance*.\n- **Key Features**:\n  - Induced by a hypnotist or self‑hypnosis.\n  - Patient remains conscious and aware of surroundings.\n  - Facilitates therapeutic suggestions.\n- **Common Misconceptions**:\n  - Not a form of anesthesia.\n  - Not a magical or supernatural phenomenon.\n\n---\n\n## History of Hypnotherapy in Medicine\n\n- **1840s**: A British doctor in Calcutta performed **over 1,000 operations** using hypnosis as the *only anaesthesia*.\n- **World Wars I & II**: German and British physicians employed hypnosis to treat *war neuroses* (post‑traumatic stress, anxiety, and other combat‑related disorders).\n- **Modern Era**: Research laboratories are evaluating the *success rate* of hypnotherapy, and medical journals are publishing results, indicating growing acceptance in mainstream medicine.\n\n---\n\n## Applications of Hypnotherapy\n\nHypnotherapy is used to:\n- **Stop smoking**\n- **Lose weight**\n- **Overcome phobias**\n- **Control pain** in various medical contexts, from **childbirth** to **cancer** treatment.\n\nThe overarching goal is to *make life easier* for patients by addressing behavioral and psychological factors that influence health outcomes.\n\n---\n\n## Curcumin (Turmeric) and Cognitive Health\n\n- **Source**: Curcumin is the principal curcuminoid found in the spice *turmeric*.\n- **Biological Properties**:\n  - **Anti‑inflammatory**: Reduces inflammatory cytokines.\n  - **Antioxidant**: Scavenges free radicals.\n- **Clinical Findings**:\n  - Daily consumption of an *easily absorbed* curcumin supplement has been shown to **improve memory and mood** in individuals with mild, age‑related memory loss.\n  - Studies are investigating curcumin’s effect on **amyloid plaques** and **neurofibrillary tangles** in the brains of people with Alzheimer’s disease.\n\n---\n\n## Entomology: Caterpillars and Sticky Coverings\n\n- **Leaf‑roller caterpillars** produce silk to roll leaves into protective shelters. The silk forms a *sticky covering* that shields the larva from predators and environmental stressors.\n- Other caterpillars may secrete mucus or other substances, but the classic example of a *sticky covering* is the leaf‑roller’s silk shelter.\n\n---\n\n## Summary\n\n- Hypnosis is a therapeutic tool rooted in suggestion during trance, with a rich history in medical practice.\n- Hypnotherapy’s modern applications span behavioral change and pain management.\n- Curcumin offers neuroprotective benefits, especially for mild cognitive decline.\n- In entomology, leaf‑roller caterpillars exemplify the use of silk to create protective, sticky coverings.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 170
+  },
+  {
+    "subject": "English",
+    "chapter": "Reading Comprehension",
+    "subchapter": "Historical Narrative",
+    "topic": "SS Titanic Sinking",
+    "content": "### Key Facts: SS Titanic\n- **Event**: The SS Titanic rammed an iceberg and sank.\n- **Timeline**: The incident occurred only **two days** after the ship set sail on its maiden voyage in **1912**.\n- **Location**: Near the coast of Newfoundland, at a depth of **12,000 feet**.\n- **Contributing Factors to Sinking/Casualties**:\n  1. **Speed**: The luxury liner was travelling too fast to avoid the iceberg.\n  2. **Fire**: An unextinguished fire contributed to the submersion.\n  3. **Panic**: Passengers jumped into icy water or fought for limited lifeboat spots, increasing casualties.\n- **Rescue**: The ship **Carpathia** rescued **705 survivors** four hours after the mishap.\n- **Vocabulary**: 'Maiden voyage' refers to the **first** or **inaugural** journey of a ship.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 171
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "Motivation & Ethics",
+    "subchapter": "Philosophical Insights",
+    "topic": "Focus and Energy Management",
+    "content": "### Key Concepts: Goal-Oriented Action\n- **Source**: Teachings of the great Acharyas.\n- **Core Principle**: Upon discovering a great goal, one must surrender to it and act towards it.\n- **Energy Management**:\n  - Draw inspiration from the goal to generate a new column of energy.\n  - **Avoid Dissipation**: Do not waste energy on:\n    - Futile memories of past regrets or failure.\n    - Excitement of the present.\n  - **Focus**: Channel entire energy into activity.\n- **Outcome**: This focused approach is considered the highest creative action. It allows even individuals considered 'inefficient' to achieve the highest success.\n- **Challenge**: Training the mind to adopt this attitude requires considerable effort, as minds are often wrongly trained to dwell on the past or present distractions.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 171
+  },
+  {
+    "subject": "English",
+    "chapter": "Reading Comprehension",
+    "subchapter": "Metaphorical Language",
+    "topic": "Patience",
+    "content": "# Patience in Metaphorical Context\n\n- **Key Passage**: *\"An ounce of patience is worth a pound of brains.\"*\n- **Interpretation**: Patience is portrayed as more valuable than intelligence or knowledge. The metaphor compares a small amount of patience (ounce) to a large amount of intellect (pound), emphasizing that even a little patience can outweigh a lot of brainpower.\n- **Common Themes**:\n  - Patience as a prerequisite for success.\n  - Patience enabling better decision‑making and learning.\n  - Patience as a virtue that can compensate for lack of innate talent.\n- **Reading Strategy**:\n  1. Identify the metaphorical comparison.\n  2. Relate the comparison to the overall message of the passage.\n  3. Choose the answer that best reflects the implied value of patience.\n- **Practice Tip**: When faced with a question about a metaphor, look for options that highlight the *relative* importance of the two elements being compared.\n\n---\n\n# Common Misconceptions\n- **Patience ≠ Boredom**: The passage does not suggest that patience is passive; it is an active, deliberate quality.\n- **Patience ≠ Weakness**: The metaphor does not imply that patience is a weakness; rather, it is a strength that can outweigh intelligence.\n\n---\n\n# Sample Question Analysis\n- **Question**: \"Which of the following is the most suitable explanation to the author’s remark that an “ounce of patience is worth a pound of brains”?\"\n- **Correct Answer**: (c) *Patience is essential for every achievement in life.*\n- **Why**: This option captures the idea that patience is a foundational quality that supports all achievements, aligning with the metaphor’s emphasis on its value.\n",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 172
+  },
+  {
+    "subject": "English",
+    "chapter": "Reading Comprehension",
+    "subchapter": "Animal Behavior",
+    "topic": "Polar Bear Maternal Care",
+    "content": "# Polar Bear Maternal Care – Key Facts\n\n- **Season**: Spring\n- **Mother’s Behavior**:\n  - Emerges from dens with cubs that are ~3 months old.\n  - Has fasted for up to **8 months** before giving birth.\n  - Despite the fast, she must provide **full access** to her remaining reserves for her cubs.\n- **Sibling Dynamics**:\n  - If there are **triplets**, the most persistent cub gains an extra meal at the expense of the others.\n  - The **smallest cub** often forfeits many meals to stronger siblings.\n- **Maternal Protection**:\n  - Females are protective of their cubs.\n  - They tend to **ignore** family rivalry over food, focusing on survival.\n\n---\n\n# Implications for Reading Comprehension\n- **Understanding Context**: Recognize that animal behavior passages often highlight survival strategies and family dynamics.\n- **Key Vocabulary**: *fasted*, *persistent*, *forfeits*, *protective*.\n- **Inference Skills**: Infer that the mother’s fast is a natural adaptation to the polar bear’s environment, and that sibling rivalry is a natural part of cub development.\n\n---\n\n# Sample Question Analysis\n- **Potential Question**: \"What is the primary reason the mother bear fasts for eight months?\"\n- **Answer**: To accumulate fat reserves necessary for nursing and survival during the early months when food is scarce.\n",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 172
+  },
+  {
+    "subject": "English",
+    "chapter": "Error Detection",
+    "subchapter": "Overview",
+    "topic": "Error Detection Basics",
+    "content": "### Error Detection in AFCAT\n- **Definition**: Detecting the part of a sentence that contains an error (or marking *No error* if none).\n- **Common error types**: Tense, Verb, Pronoun, Preposition, Conjunction, Articles, Noun, Adjective, Adverb, etc.\n- **Frequency in AFCAT**: 4‑8 error‑based questions are asked each year (last 2 years).\n- **Strategy**: Strong grasp of basic English grammar rules is essential.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 173
+  },
+  {
+    "subject": "English",
+    "chapter": "Articles",
+    "subchapter": "Indefinite Article",
+    "topic": "Uses of Indefinite Article – A / An",
+    "content": "### Indefinite Articles (A / An)\n- **Definition**: Articles used before singular, countable nouns that are not specific.\n- **Rule 1 – Vowel sound**: Use **an** before a word that begins with a vowel **sound**.\n  - Example: *She is **an** intelligent girl.*\n  - Example: *He is **an** MP.*\n- **Rule 2 – Consonant sound**: Use **a** before a word that begins with a consonant **sound**.\n  - Example: *He is **a** university student.*\n  - Example: *He is **a** European.*\n- **Rule 3 – First mention**: Use **a/an** before a singular countable noun when it is mentioned for the first time and does not refer to a particular person or thing.\n  - Example: *He has **an** axe.*\n  - Example: *She is **a** lawyer.*\n- **Rule 4 – Representative of a class**: Use **a/an** before a singular countable noun that represents a whole class.\n  - Example: ***A** dog is an animal.*\n  - Example: ***A** peacock is a bird.*\n- **Rule 5 – Exclamations**: Use **a/an** in exclamatory sentences before singular countable nouns.\n  - Example: *What **an** interesting movie!* \n  - Example: *What **a** pretty girl!*",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 173
+  },
+  {
+    "subject": "English",
+    "chapter": "Articles",
+    "subchapter": "Definite Article",
+    "topic": "Uses of Definite Article – The",
+    "content": "### Definite Article (The)\n- **Definition**: The article **the** is used to refer to specific or previously mentioned nouns.\n- **Typical uses** (not exhaustively listed in the source text):\n  1. When both the speaker and listener know the particular noun being referred to.\n  2. Before unique objects (e.g., *the sun*, *the President*).\n  3. With superlatives and ordinal numbers (e.g., *the best*, *the first*).\n  4. With nouns that are made specific by a phrase or clause (e.g., *the book that you gave me*).\n> *Note: The source material only introduced the heading “Uses of Definite Article—The” without detailed points; the above list reflects standard textbook usage.*",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 173
+  },
+  {
+    "subject": "English Grammar",
+    "chapter": "Articles",
+    "subchapter": "Usage of 'The'",
+    "topic": "Musical Instruments",
+    "content": "### Usage of 'The' with Musical Instruments\n\n1. **General Rule (No Article):**\n   - Do not use an article before the name of a musical instrument when referring to the act of playing it.\n   - *Examples:* \n     - He can play the guitar.\n     - She is fond of playing on the piano.\n\n2. **Exception (Use A/An):**\n   - When musical instruments are used as **countable nouns** (referring to a specific object or possession), use the indefinite article 'A' or 'An'.\n   - *Examples:* \n     - We gave her **a** harmonium.\n     - I have bought **a** violin.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 174
+  },
+  {
+    "subject": "English Grammar",
+    "chapter": "Articles",
+    "subchapter": "Usage of 'The'",
+    "topic": "Communities, Parties, Vehicles, and Positions",
+    "content": "### Usage of 'The' in Specific Categories\n\nUse the definite article **'The'** before:\n1. **Religious Communities:** e.g., The Hindus, The Muslims.\n2. **Political Parties:** e.g., The BJP, The Congress.\n3. **Names of Ships, Aeroplanes, and Trains:** e.g., The Virat (ship), The Rajdhani Express (train).\n4. **Words Denoting Physical Positions:** e.g., The Top, The Bottom.\n\n*Examples:* \n- There is still snow on **the** Top of the mountain.\n- **The** Rajputs are brave people.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 174
+  },
+  {
+    "subject": "English Grammar",
+    "chapter": "Articles",
+    "subchapter": "Usage of 'The'",
+    "topic": "Parts of the Body",
+    "content": "### Usage of 'The' with Body Parts\n\nUse the definite article **'The'** before parts of the body, especially when used with prepositions like 'on', 'by', 'in', etc.\n\n*Examples:* \n- He was hit on **the** head.\n- She pulled the cat by **the** tail.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 174
+  },
+  {
+    "subject": "English Grammar",
+    "chapter": "Articles",
+    "subchapter": "Usage of 'The'",
+    "topic": "Adjectives Representing Classes of Persons",
+    "content": "### Usage of 'The' with Adjectives\n\nUse the definite article **'The'** before an adjective when it represents a **class of persons** (general group).\n\n*Examples:* \n- **The** rich should help **the** poor.\n- **The** old are respected by **the** young.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 174
+  },
+  {
+    "subject": "English Grammar",
+    "chapter": "Articles",
+    "subchapter": "Omission of Articles",
+    "topic": "Days, Months, Languages, Subjects, Diseases, Festivals, Seasons, Sports",
+    "content": "### Omission of Articles (Zero Article)\n\nArticles (a, an, the) are **omitted** in the following cases:\n\n1. **Names of Days and Months:**\n   - She will go on Monday.\n   - They are getting married in January.\n\n2. **Names of Languages:**\n   - He cannot speak French.\n   - She is learning Marathi.\n\n3. **Names of Subjects:**\n   - She has no interest in mathematics.\n   - Biology is his favourite subject.\n\n4. **Names of Diseases:**\n   - AIDS is spreading like wildfire.\n   - He died of cancer.\n   - *Exception:* 'The' is used before a few specific diseases: **the** measles, **the** plague, **the** mumps.\n\n5. **Names of Festivals and Seasons:**\n   - He will go to Canada in winter.\n   - She celebrated Christmas with her friends.\n   - *Exception:* If the sentence refers to the **days** of the season or holidays, use 'the'.\n     - He will go to Canada in **the** winter season.\n     - She went to Delhi in **the** Diwali holidays.\n\n6. **Names of Sports:**\n   - She plays tennis.\n   - We like cricket.\n\n7. **Names of Persons, Villages, Cities, Districts:**\n   - (Note: The text cuts off, but standard grammar rules apply here: No article before proper nouns of places/people).",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 174
+  },
+  {
+    "subject": "English Grammar",
+    "chapter": "Nouns",
+    "subchapter": "Classification and Rules",
+    "topic": "Types of Nouns and Usage Rules",
+    "content": "# Classification of Nouns\n\n| **Type** | **Examples** | **Notes** |\n|----------|--------------|-----------|\n| **Singular** | Bus, Leaf, City | One item. |\n| **Plural** | Buses, Leaves, Cities | More than one item. |\n| **Masculine** | Tiger, Father, Time | Typically male or male‑associated. |\n| **Feminine** | Woman, Lioness, Peace | Typically female or female‑associated. |\n| **Common** | Teacher, Servant, Student | Gender‑neutral, everyday nouns. |\n| **Neuter** | Copy, Book, Room | No gender; often inanimate objects. |\n| **Countable** | Tables, Chairs, Branches | Can be counted individually. |\n| **Uncountable** | Oxygen, Furniture, Happiness | Cannot be counted directly; use measures. |\n\n## Important Rules of Noun Usage\n\n1. **Articles with Material Nouns**\n   - Articles (a, an, the) are *not* used before material nouns.\n   - *Examples*: \"Leather is used in making shoes.\" \"Copper and mispickel are mined only in small quantities.\"\n\n2. **Plural Form of Material and Abstract Nouns**\n   - Material nouns and abstract nouns are *not* used in plural form.\n   - *Examples*: \"Care of the old is necessary.\" \"Jewellery of gold is very costly.\"\n\n3. **Proper Nouns as Common Nouns**\n   - Proper nouns can be used as common nouns to denote a type or class.\n   - *Examples*: \"Samudragupta is the Napoleon of India.\" \"Kalidas is the Shakespeare of India.\"\n\n4. **Collective Nouns with Singular Verb**\n   - Collective nouns usually take a singular verb and are substituted by a singular pronoun.\n   - *Examples*: \"The jury has given its verdict.\" \"The team has performed to its potential.\"\n\n5. **Collective Nouns with Plural Verb**\n   - When group members act separately, collective nouns take a plural verb and pronoun.\n   - *Examples*: \"The jury are divided in their decision.\" \"The Ministry are much divided in their opinion regarding the foreign policy.\"\n\n6. **Gender of Collective Nouns**\n   - Even when denoting living beings, collective nouns are considered neuter.\n   - *Examples*: \"India has a big army and it is divided into three major divisions.\" \"The class waits for its teacher quietly.\"\n\n7. **Units of Count** *(incomplete in source)*\n   - (Note: The source text was truncated; further details on units of count are not provided.)",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 175
+  },
+  {
+    "subject": "English",
+    "chapter": "Nouns",
+    "subchapter": "Possessive Nouns",
+    "topic": "Rule 12 – Common Possession with Separate Nouns",
+    "content": "### Rule 12\nWhen two or more nouns depict a common possession **but they are functioning separately**, place **’s** after **each** noun.\n\n**Examples**:\n1. *Rita’s and Geeta’s businesses are booming.*\n2. *Ram’s and Mohan’s fathers are ill.*\n\nThe rule ensures that each noun’s ownership is explicitly marked, avoiding ambiguity.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 176
+  },
+  {
+    "subject": "English",
+    "chapter": "Pronouns",
+    "subchapter": "Introduction",
+    "topic": "Definition and Purpose of Pronouns",
+    "content": "### Pronouns\nWords used **in place of nouns** are called **pronouns**. They help **avoid repetition** of nouns in a sentence.\n\n**Example**:\n- *I saw a boy on the roof. **He** seemed to recognise me.*\n  - Here, **he** replaces the noun **boy**.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 176
+  },
+  {
+    "subject": "English",
+    "chapter": "Pronouns",
+    "subchapter": "Types of Pronouns",
+    "topic": "Kinds of Pronouns",
+    "content": "### Kinds of Pronouns\nThe major categories of pronouns and their specific rules are:\n\n1. **Personal Pronouns** – refer to persons (or things) and change form according to **person, number, gender, and case**.\n2. (Other kinds such as demonstrative, interrogative, relative, indefinite, reflexive, etc., are not listed in the provided text but are part of the broader classification.)",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 176
+  },
+  {
+    "subject": "English",
+    "chapter": "Pronouns",
+    "subchapter": "Personal Pronouns",
+    "topic": "Important Rules of Personal Pronouns",
+    "content": "### Personal Pronouns – Key Rules\n\n**Rule 1 – Agreement**\n- A personal pronoun must match the **number, gender, and person** of the noun it replaces.\n  - *Alice is my sister. **She** lives abroad.* (‘She’ ↔ ‘Alice’)\n  - *Every man must love **his** country.*\n\n**Rule 2 – Objective Case**\n- When a pronoun functions as the **object of a verb or preposition**, use the **objective case**.\n  - *He was shouting at **me**.* (not *I*)\n  - *He was teaching **him**.*\n\n**Rule 3 – Nominative after Certain Constructions**\n- Phrases such as **as good as, as well as, as soon as, as beautiful as, as intelligent as**, etc., are followed by the **nominative case**.\n  - *When it comes to providing news, no one is **as good as he**.*\n  - *In studies, **he** is as good as **he**.*\n\n**Rule 4 – Ordering of Singular Pronouns (2‑3‑1 Rule)**\n- In a sentence with **all singular pronouns**, the order should be **second person → third person → first person**.\n  - Correct: *You, **He** and **I** are good friends.*\n  - Incorrect: *I, you and he*.\n  - Also applies to two‑pronoun combinations: *You and **I** will be punished.*\n\n> **Note**: If all pronouns are plural, the ordering may differ based on the sentence’s **confessing, negative, or committing** sense (the original text truncates here).",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 176
+  },
+  {
+    "subject": "English Grammar",
+    "chapter": "Pronouns",
+    "subchapter": "Reflexive Pronouns",
+    "topic": "Usage of Reflexive Pronouns with Certain Verbs",
+    "content": "# Reflexive Pronouns\n\nReflexive pronouns (myself, yourself, himself, herself, itself, ourselves, yourselves, themselves) refer back to the subject of the sentence. They are **not** used with the following verbs:\n\n- keep\n- break\n- set\n- bath\n- make\n- stop\n- steal\n- qualify\n- hide\n\n**Examples**\n\n- *He kept away from the function.*\n- *She hid in the room.*\n\nThese verbs already imply the action is performed by the subject, so a reflexive pronoun would be redundant.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 177
+  },
+  {
+    "subject": "English Grammar",
+    "chapter": "Pronouns",
+    "subchapter": "Demonstrative Pronouns",
+    "topic": "Rules of Demonstrative Pronouns",
+    "content": "# Demonstrative Pronouns\n\nPronouns that point out specific objects: **this, that, these, those, such, this**.\n\n**Rule 1 – Verb Agreement**\n- **This** and **that** take a singular verb.\n- **These** and **those** take a plural verb.\n\n**Examples**\n- *That man is our principal.*\n- *These books belong to him.*\n\n**Rule 2 – Placement of \"it\"**\n- The pronoun **it** comes before the phrase or clause it refers to.\n\n**Examples**\n- *It is true that India has won the match.*\n- *It is certain that he is wrong.*",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 177
+  },
+  {
+    "subject": "English Grammar",
+    "chapter": "Pronouns",
+    "subchapter": "Indefinite Pronouns",
+    "topic": "Rules of Indefinite Pronouns",
+    "content": "# Indefinite Pronouns\n\nPronouns that do not refer to a specific person, amount, or thing: **anything, something, anyone, everyone, one, anyone**.\n\n**Rule 1 – Repetition of \"One\"**\n- When **one** is used, it must be repeated in the sentence.\n\n**Examples**\n- *One must respect one’s country for one’s sake.*\n- *One must obey one’s elders.*\n\n**Rule 2 – Replacement of \"Either\"**\n- When referring to more than two persons or things, **either** is replaced by **anyone**.\n- The same applies to **none** and **neither**.\n\n**Examples**\n- *I couldn’t contact anyone of the three.*\n- *None of his body parts is defective.*\n\n**Rule 3 – \"Each Other\" vs \"One Another\"**\n- **Each other** is used when speaking of two persons or things.\n- **One another** is used when speaking of more than two.\n\n**Examples**\n- *We should love one another.*\n- *Shivani and Himani never liked each other.*",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 177
+  },
+  {
+    "subject": "English Grammar",
+    "chapter": "Pronouns",
+    "subchapter": "Relative Pronouns",
+    "topic": "Rules of Relative Pronouns",
+    "content": "# Relative Pronouns\n\nRelative pronouns connect a clause or phrase to a noun or pronoun: **who, whom, that, which, whose**.\n\n**Rule 1 – Person vs. Thing**\n- **Who** and **whom** are used only for persons.\n- **Which** is used for things without life.\n\n**Examples**\n- *The man who called you is waiting.*\n- *The book which you lent me is overdue.*",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 177
+  },
+  {
+    "subject": "English",
+    "chapter": "Grammar",
+    "subchapter": "Adjectives",
+    "topic": "Adjectives of Quality",
+    "content": "Adjectives of Quality describe the nature or state of a noun. Examples include honest, kind, soft, sweet, sour.\n\n**Examples:**\n1. Dr. APJ Abdul Kalam was an **honest** man.\n2. This food tastes **sour**.",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 178
+  },
+  {
+    "subject": "English",
+    "chapter": "Grammar",
+    "subchapter": "Adjectives",
+    "topic": "Adjectives of Quantity",
+    "content": "Adjectives of Quantity show the quantity or degree of a thing.\n\n**Key Rules:**\n1. **Quantity Only:** *Much, little, whole* are always used for quantity (uncountable nouns).\n   - *How much milk is left in the fridge?*\n   - *There is little sugar left in the pot.*\n2. **Quantity and Number:** *All, some, enough, sufficient, most* are used for both quantity and number.\n   - *Mayank has enough money to start his own business.* (Quantity)\n   - *Employees have completed most of the tasks.* (Number)",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 178
+  },
+  {
+    "subject": "English",
+    "chapter": "Grammar",
+    "subchapter": "Adjectives",
+    "topic": "Adjectives of Number",
+    "content": "Adjectives of Number are of two types:\n\n**1. Definite Adjectives:**\n- **Cardinals:** Denote exact number (one, two, three...).\n- **Ordinals:** Denote order (first, second, last...).\n- **Rule:** Cardinals are used after ordinals if both are used in the same sentence.\n  - *The **first two** lessons of the novel are interesting.*\n  - *The **last three** questions of this chapter have to be completed.*\n\n**2. Indefinite Adjectives:**\n- Used to denote number without specifying the exact count.\n- Examples: many, some, enough, few, all, most, various, several.\n  - *Many students have participated in school function.*\n  - *All of my friends are intelligent.*",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 178
+  },
+  {
+    "subject": "English",
+    "chapter": "Grammar",
+    "subchapter": "Adjectives",
+    "topic": "Demonstrative Adjectives",
+    "content": "Demonstrative Adjectives are used to point out nouns and pronouns. They are always used before the words they refer to.\n\n**Examples:** this, that, these, those.\n- *That house is very expensive.*\n- *These cookies are delicious.*",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 178
+  },
+  {
+    "subject": "English",
+    "chapter": "Grammar",
+    "subchapter": "Adjectives",
+    "topic": "Possessive Adjectives",
+    "content": "Possessive Adjectives are used to show ownership or possession.\n\n**Examples:** my, our, your, his, her, their, its.\n- *My dirt bike is faster than his moped.*\n- *Kids, don’t forget to drink your milk.*",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 178
+  },
+  {
+    "subject": "English",
+    "chapter": "Grammar",
+    "subchapter": "Adjectives",
+    "topic": "Interrogative Adjectives",
+    "content": "Interrogative Adjectives are used to ask questions.\n\n**Examples:** what, whose, which.\n- *Whose wi...* (Note: Text cuts off, but context implies usage like 'Whose wallet is this?')",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 178
+  },
+  {
+    "subject": "English",
+    "chapter": "Determinants",
+    "subchapter": "Quantifiers",
+    "topic": "Some / Any (without noun)",
+    "content": "### Some / Any (used without a noun)\n- **Some** and **Any** can appear in a sentence without an explicit noun when the meaning is clear from context.\n- **Examples**:\n  1. *I don’t eat any salad but Rahul ate some.*\n  2. *Sita took lots of photos of hill stations but Geeta didn’t take any.*",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 179
+  },
+  {
+    "subject": "English",
+    "chapter": "Determinants",
+    "subchapter": "Quantifiers",
+    "topic": "Little, A little, The little",
+    "content": "### Little, A little, The little\n| Form | Noun type | Meaning | Connotation |\n|------|-----------|---------|-------------|\n| **Little** | Uncountable | ‘hardly any’ | Negative |\n| **A little** | Uncountable | ‘some, though not much’ | Positive |\n| **The little** | Uncountable | ‘not much but all that is there’ | Positive |\n\n**Examples**:\n- *He takes little interest in parental business.* (hardly any interest)\n- *A little knowledge is a dangerous thing.* (some knowledge)\n- *The little money she had was also spent on medicines.* (all the money she possessed)\n",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 179
+  },
+  {
+    "subject": "English",
+    "chapter": "Determinants",
+    "subchapter": "Quantifiers",
+    "topic": "Few, A few, The few",
+    "content": "### Few, A few, The few\n| Form | Noun type | Meaning | Connotation |\n|------|-----------|---------|-------------|\n| **Few** | Countable | ‘hardly any’ | Negative |\n| **A few** | Countable | ‘not many, but some’ | Positive |\n| **The few** | Countable | ‘not many but all that exist’ | Positive |\n\n**Examples**:\n- *Few people are happy.* (hardly any people)\n- *He asked me a few questions.* (some questions)\n- *The few books he had were all taken by the thief.* (all the books he possessed)\n",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 179
+  },
+  {
+    "subject": "English",
+    "chapter": "Determinants",
+    "subchapter": "Comparative Determiners",
+    "topic": "More, Less, Fewer",
+    "content": "### More, Less, Fewer (Comparative Determiners)\n- **More** – used with both countable plural nouns and uncountable nouns to indicate a larger quantity.\n  - *He wants to spend more time with his family.*\n- **Less** – used with uncountable nouns to indicate a smaller quantity.\n  - *He has less source to expand his business.*\n- **Fewer** – used with countable plural nouns to indicate a smaller number.\n  - *Fewer candidates cracked the IAS examination this year.*\n",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 179
+  },
+  {
+    "subject": "English",
+    "chapter": "Determinants",
+    "subchapter": "General Rules",
+    "topic": "All",
+    "content": "### All\n- When **All** is followed by a **countable plural noun**, it requires a **plural verb**.\n  - *All the students were happy.*\n- When **All** is followed by an **uncountable noun**, it takes a **singular verb** (not shown in the excerpt but implied by standard grammar rules).\n",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 179
+  },
+  {
+    "subject": "English Grammar",
+    "chapter": "Adverbs",
+    "subchapter": "Definition",
+    "topic": "Definition of Adverb",
+    "content": "# Definition of an Adverb\n\nAn **adverb** is a word that modifies the meaning of a verb, an adjective, or another adverb. It provides additional information about *how*, *when*, *where*, *why*, *how much*, or *to what extent* an action is performed.\n\n**Examples**\n- *Neha sings melodiously.* (modifies the verb *sings*)\n- *She is extremely beautiful.* (modifies the adjective *beautiful*)\n\nAdverbs are typically single words, but can also be phrases (e.g., *in a hurry*).",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 180
+  },
+  {
+    "subject": "English Grammar",
+    "chapter": "Adverbs",
+    "subchapter": "Types",
+    "topic": "Adverbs of Time",
+    "content": "# Adverbs of Time\n\nThese adverbs tell us **when** an action occurs. They answer the question *when?*\n\n**Common examples**: before, now, soon, today, tomorrow, shortly, early, ago, etc.\n\n**Illustrations**\n- *He arrived late.*\n- *I will go to college tomorrow.*",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 180
+  },
+  {
+    "subject": "English Grammar",
+    "chapter": "Adverbs",
+    "subchapter": "Types",
+    "topic": "Adverbs of Place",
+    "content": "# Adverbs of Place\n\nThese adverbs indicate **where** an action takes place or the direction of movement. They answer the question *where?*\n\n**Common examples**: above, around, away, below, everywhere, here, nowhere, there, inside, outside, etc.\n\n**Illustrations**\n- *Come here.*\n- *The thief ran away.*",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 180
+  },
+  {
+    "subject": "English Grammar",
+    "chapter": "Adverbs",
+    "subchapter": "Types",
+    "topic": "Adverbs of Manner",
+    "content": "# Adverbs of Manner\n\nThese adverbs describe **how** an action is performed. They answer the question *how?*\n\n**Common examples**: so, badly, fluently, carefully, fast, hard, certainly, well, etc.\n\n**Illustrations**\n- *This book is well written.*\n- *The child cried loudly.*",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 180
+  },
+  {
+    "subject": "English Grammar",
+    "chapter": "Adverbs",
+    "subchapter": "Types",
+    "topic": "Adverbs of Frequency",
+    "content": "# Adverbs of Frequency\n\nThese adverbs indicate **how often** an action occurs. They answer the question *how often?*\n\n**Common examples**: once, twice, seldom, always, never, often, hardly, rarely, etc.\n\n**Illustrations**\n- *She often commits mistakes.*\n- *I seldom go there.*",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 180
+  },
+  {
+    "subject": "English Grammar",
+    "chapter": "Adverbs",
+    "subchapter": "Types",
+    "topic": "Adverbs of Reason",
+    "content": "# Adverbs of Reason\n\nThese adverbs explain **why** an action takes place. They answer the question *why?*\n\n**Common examples**: consequently, therefore, hence, etc.\n\n**Illustrations**\n- *He was late hence was not allowed to attend the assembly.*\n- *He therefore went to hospital.*",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 180
+  },
+  {
+    "subject": "English Grammar",
+    "chapter": "Adverbs",
+    "subchapter": "Types",
+    "topic": "Adverbs of Quantity, Extent or Range",
+    "content": "# Adverbs of Quantity, Extent or Range\n\nThese adverbs express **how much** or **to what extent** an action is performed. They answer the question *to what extent?*\n\n**Common examples**: very, too, enough, almost, partially, wholly, little, etc.\n\n**Illustrations**\n- *She is too careless.*\n- *The apples are almost ripe.*",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 180
+  },
+  {
+    "subject": "English Grammar",
+    "chapter": "Adverbs",
+    "subchapter": "Types",
+    "topic": "Adverbs of Affiliation and Negation",
+    "content": "# Adverbs of Affiliation and Negation\n\nThese adverbs are used to **affirm** or **negate** an action or statement. They answer the question *affirmation or negation?*\n\n**Common examples**: yes, no, surely, certainly not, etc.\n\n**Illustrations**\n- *Surely you are wrong.*\n- *She is certainly going through hardtime.*",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 180
+  },
+  {
+    "subject": "English Grammar",
+    "chapter": "Adverbs",
+    "subchapter": "Rules",
+    "topic": "Rule 1 – Adverb Placement",
+    "content": "# Rule 1 – Adverb Placement\n\nSome adverbs such as *hard*, *fast*, *deep*, *early*, *high*, *late*, *long*, *far*, etc., can appear in different positions in a sentence depending on what they modify. The placement often follows the natural flow of the sentence and the emphasis desired.\n\n**Example**\n- *He ran fast.* (modifies the verb *ran*)\n- *Fast he ran.* (emphasizes the manner of running)",
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 180
   }
 ]
