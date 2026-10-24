@@ -213,9 +213,19 @@
         const titleWords = slug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
 
         if (foundChapter) {
-            // Overwrite the existing topic
-            foundChapter.topics[0].notes = html;
-            foundChapter.topics[0].isAIGenerated = true;
+            if (foundChapter.topics && foundChapter.topics.length > 0) {
+                if (!foundChapter.topics[0].notes.includes(html.substring(0, 80))) {
+                    foundChapter.topics[0].notes = html + '\n\n<hr style="border: 0; border-top: 1px dashed var(--border); margin: 24px 0;">\n\n' + foundChapter.topics[0].notes;
+                }
+            } else {
+                foundChapter.topics = [{
+                    id: topicId,
+                    title: titleWords,
+                    notes: html,
+                    formulas: '',
+                    isAIGenerated: true
+                }];
+            }
             foundChapter.title = "✨ " + titleWords; // highlight it visually
             injected++;
         } else {

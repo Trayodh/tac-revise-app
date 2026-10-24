@@ -56,6 +56,25 @@ def append_to_db(filename, new_data):
         json.dump(db_data, f, indent=2, ensure_ascii=False)
     robust_replace(temp_file, filename)
 
+DIGITAL_CACHE = {}
+def has_digital_text(pdf_name):
+    if pdf_name in DIGITAL_CACHE:
+        return DIGITAL_CACHE[pdf_name]
+    try:
+        if not os.path.exists(pdf_name):
+            DIGITAL_CACHE[pdf_name] = False
+            return False
+        import fitz
+        doc = fitz.open(pdf_name)
+        sample_page = doc[min(5, len(doc)-1)]
+        txt = sample_page.get_text()
+        has_txt = len(txt.strip()) > 60
+        DIGITAL_CACHE[pdf_name] = has_txt
+        return has_txt
+    except Exception:
+        DIGITAL_CACHE[pdf_name] = False
+        return False
+
 def get_book_priority(pdf_name):
     """
     Ranks books for focused, chapter-by-chapter extraction:
@@ -92,6 +111,10 @@ def get_book_priority(pdf_name):
         return (2, 15)
     if 'capsule' in lower or 'class notes' in lower:
         return (2, 50)
+        
+    # TIER 3: DIGITAL TEXT BOOKS (Extractable 24/7 by high-speed Groq text models)
+    if has_digital_text(pdf_name):
+        return (3, 10)
         
     # TIER 4: DEFENCE & SPECIALS
     if 'defence_pdf.pdf' in lower:
