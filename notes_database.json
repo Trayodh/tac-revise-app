@@ -197670,5 +197670,843 @@
     },
     "source_pdf": "afcat_reasoning_notes.pdf",
     "source_page": 436
+  },
+  {
+    "id": "fig-class-001",
+    "subject": "Reasoning",
+    "chapter": "Figure Classification",
+    "topic": "Introduction to Figure Classification",
+    "text": "<p><strong>Figure Classification</strong> is a process of putting things or objects into a group and then finding the different object or thing that does not belong to the group. In this chapter, we deal with questions which have a set of four figures, out of which one is different.</p><p><strong>Criteria for Selecting Similar-Dissimilar Figures:</strong></p><ul><li>Rotation of the same figure</li><li>Number of elements or lines</li><li>Interior-exterior consideration of elements</li><li>Direction of arrows</li></ul><p><em>Note: 3-5 questions are always asked from Figure Classification in AFCAT exam.</em></p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Ex 1: Four boxes containing vertical lines and arrows. (a) 3 lines, 2 arrows; (b) 3 lines, 2 arrows; (c) 3 lines, 2 arrows; (d) 2 lines, 3 arrows.",
+      "Ex 2: Four shapes. (a) Triangle; (b) Square; (c) Pentagon; (d) Circle.",
+      "Ex 3: Four boxes with a V-shape and pins/arrows. (a) 3 pins; (b) 3 pins; (c) 3 pins; (d) 3 pins.",
+      "Ex 4: Four squares with arrows on sides. (a) Clockwise; (b) Clockwise; (c) Anti-clockwise; (d) Clockwise.",
+      "Ex 5: Four 2x2 grids with black and white squares. (a) 4 black; (b) 4 black; (c) 4 black; (d) 3 black.",
+      "Ex 6: Four boxes with geometric shapes. (a) Semicircles; (b) Rectangles; (c) Hourglass; (d) Semicircles.",
+      "Ex 7: Four circles with a triangle and shaded segment. (a) Triangle pointing up; (b) Triangle pointing right; (c) Triangle pointing down; (d) Triangle pointing left.",
+      "Ex 8: Four circles with intersecting lines and shaded segments."
+    ],
+    "details": {
+      "summary": "This chapter covers the methodology for solving figure classification problems, which involve identifying the odd figure out of a set of four based on geometric properties, rotation, and element counts."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 444
+  },
+  {
+    "id": "chapter-13-figure-series-001",
+    "subject": "Reasoning",
+    "chapter": "Figure Series",
+    "topic": "Introduction to Figure Series",
+    "text": "<p>Series is a continuous sequence of figures following a certain defined pattern. A series of figures is formed when each of the consecutive figures of the series is obtained from the previous figure by following a certain pattern like clockwise or anti-clockwise rotation, movement of symbols inside the figure, addition or deletion of designs etc.</p><p>The problems based on series consist of four/five figures following a definite sequence forming a set of problem figures followed by four other figures forming a set of answer figures. You are required to select one of the figures from the set of answer figures which will continue the same sequence correctly.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "A grid diagram showing positions of designs: Upper left (X), Upper middle (Psi), Upper right (=), Middle left (S), Middle right (Delta), Lower left (Up arrow), Down/Bottom middle (C), Lower right (O)."
+    ],
+    "details": {
+      "summary": "Definition and structure of Figure Series problems."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 451
+  },
+  {
+    "id": "chapter-13-figure-series-002",
+    "subject": "Reasoning",
+    "chapter": "Figure Series",
+    "topic": "Rotational Direction",
+    "text": "<p>The rotational direction basically states the clockwise (in the direction of motion of clock's hands) and anti-clockwise (opposite to the direction of motion of clock's hands) directions.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Two clock diagrams illustrating clockwise movement (arrow pointing right) and anti-clockwise movement (arrow pointing left)."
+    ],
+    "details": {
+      "summary": "Explanation of clockwise and anti-clockwise rotational directions."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 451
+  },
+  {
+    "id": "chapter-13-figure-series-003",
+    "subject": "Reasoning",
+    "chapter": "Figure Series",
+    "topic": "Angular Movement of Designs",
+    "text": "<p>The candidate should be aware about the angular movement of designs in clockwise and anti-clockwise directions. Clockwise and anti-clockwise movement of angles is shown in the given figure.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Two square diagrams with internal circles divided into 8 segments (A-H). The first diagram shows clockwise movement with angles 45, 90, 135, 180, 225, 270, 315, 360 degrees. The second diagram shows anti-clockwise movement with the same angular increments."
+    ],
+    "details": {
+      "summary": "Explanation of angular movement in figure series."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 451
+  },
+  {
+    "id": "fig-comp-001",
+    "subject": "Reasoning",
+    "chapter": "Figure Completion",
+    "topic": "Introduction to Figure Completion",
+    "text": "<p>Figure completion is a process to find out the missing part of an incomplete figure to complete it.</p><p>In this chapter, we deal with the questions in which a part of the figure is missing and the candidate is asked to find the missing part from the given option figures.</p><p>To find the missing part, you are required to understand the general structure of the figure, then choose the correct alternative.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Example 1: A square divided into four quadrants with diagonal lines. The bottom-right quadrant is missing. Options show various line segments.",
+      "Example 2: A square with a circular pattern and curved lines. The bottom-right quadrant is missing. Options show various curved line segments.",
+      "Example 3: A square with a star-like pattern. The bottom-right quadrant is missing. Options show various line segments.",
+      "Example 4: A 3x3 matrix of squares. The top row contains triangles, the middle row contains plus signs, and the bottom row contains dots. The bottom-right cell is missing. Options show different numbers of dots."
+    ],
+    "details": {
+      "summary": "Figure completion involves identifying the missing segment of a pattern by analyzing the overall structure of the provided figure."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 464
+  },
+  {
+    "id": "AFCAT-CH15-001",
+    "subject": "Reasoning",
+    "chapter": "Embedded Figures",
+    "topic": "Introduction to Embedded Figures",
+    "text": "<p>In AFCAT, 2-4 questions are asked from this chapter. Questions can be based on finding the answer figure in which the problem figure is embedded and finding the answer figure which is embedded in question figure.</p><p>Any figure which is wholly or completely hidden up in another figure is said to be embedded figure.</p><p>This chapter deals with questions in which a problem figure with four alternatives is given. In one of the answer figures, the problem figure is hidden or embedded or vice-versa.</p><p>Generally two types of questions are asked from this chapter:</p><ul><li><strong>1. Problem Figure Embedded in Answer Figure:</strong> In such type of questions, a problem figure alongwith four answer figures is given. The candidates have to find that answer figure in which the problem figure is embedded.</li><li><strong>2. Answer Figure Embedded in Problem Figure:</strong> In this type of questions, a problem figure and a set of four answer figures are given. The candidates are asked to find out that particular answer figure which is embedded in problem figure.</li></ul><p><strong>Important Note:</strong> In some questions, the problem figure may not directly embedded in answer figure. In such case the candidate should check the orientation either of problem figure or of answer figure.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Ex 1: Problem figure is a T-shape rotated 90 degrees. Answer figure (b) contains the T-shape embedded within a triangle.",
+      "Ex 2: Problem figure is a square with a diagonal. Answer figure (b) shows the figure embedded in a complex grid of triangles.",
+      "Ex 3: Problem figure is a square with an X inside. Answer figure (d) shows the figure embedded in a V-shape.",
+      "Ex 4: Problem figure is a square with diagonal lines. Answer figure (a) shows the figure embedded in a series of parallel diagonal lines."
+    ],
+    "details": {
+      "summary": "This chapter covers the concept of identifying embedded figures, which is a common topic in AFCAT reasoning sections, involving two main types: finding a problem figure within answer choices or finding an answer choice within a problem figure."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 471
+  },
+  {
+    "id": "afcat-108-notes-001",
+    "subject": "Reasoning",
+    "chapter": "Embedded Figures",
+    "topic": "Figure Completion and Embedding",
+    "text": "<p>This page provides the answer keys and detailed hints/solutions for <strong>Embedded Figures</strong> problems. The core concept involves identifying a 'Problem Figure' (X) hidden within one of the provided 'Answer Figures' (a, b, c, or d).</p><ul><li><strong>Methodology:</strong> Carefully observe the lines, angles, and geometric shapes within the problem figure and trace them within the options.</li><li><strong>Visual Analysis:</strong> The solutions demonstrate how the problem figure is superimposed or embedded within the correct answer choice using dashed lines to highlight the hidden structure.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Problem Figure 13: A line segment with a right-angle turn. Answer figure (b) shows this embedded.",
+      "Problem Figure 14: A U-shaped structure with inward-pointing segments. Answer figure (a) shows this embedded.",
+      "Various solution diagrams showing geometric shapes (squares, triangles, crosses) with dashed lines indicating the embedded problem figure."
+    ],
+    "details": {
+      "summary": "This page contains solutions for embedded figure reasoning questions, illustrating how to identify hidden patterns within complex geometric figures."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 475
+  },
+  {
+    "id": "afcat-reasoning-dot-situation-intro",
+    "subject": "Reasoning",
+    "chapter": "Dot Situation",
+    "topic": "Concept and Methodology of Dot Situation",
+    "text": "<p><strong>Dot Situation</strong> relates to an activity in which we have to find a common characteristic between a dot placed in between some figures and the enclosed area by the same figures.</p><p>This chapter deals with questions in which a group of geometrical shapes with dot(s) is given and it is required to find from the given options the one which is similar to the given group of geometrical shapes.</p><p>Each of the four answer figures is composed of a cluster of the same type of geometrical shapes (that are given in the question figure). The correct answer figure is the one which contains an area common to the shapes that have been marked by the dot in the question figure.</p><ul><li><strong>AFCAT Exam Trend:</strong> From this chapter, 3-4 questions were asked in 2015 &amp; 2016. It remains a key component of the AFCAT Non-Verbal Reasoning syllabus.</li><li><strong>Approach:</strong><ol><li>Identify the specific geometrical figures that enclose each dot in the problem figure (e.g., common to circle and triangle only, common to all shapes, etc.).</li><li>Verify each option to check if all such overlapping conditions simultaneously exist.</li></ol></li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Illustrative explanation diagram for Ex. 1: Shows overlapping circle, triangle, and square, highlighting the shaded intersection region that is exclusively common to the circle and triangle.",
+      "Illustrative explanation diagram for Ex. 2: Shows overlapping circle, triangle, and square with two distinct shaded regions—one exclusively common to the circle and triangle, and another exclusively common to the triangle and square.",
+      "Illustrative explanation diagram for Ex. 3: Shows overlapping geometric shapes (circle, triangle, rectangle, square) identifying three distinct hatched regions: (1) region common to triangle, rectangle, and circle; (2) region common to triangle, square, circle, and rectangle; (3) region common to circle, rectangle, and square."
+    ],
+    "details": {
+      "summary": "Dot Situation is a non-verbal reasoning topic frequent in AFCAT exams where candidate identifies identical intersection zones of geometric figures containing dots."
+    },
+    "mcq": {
+      "question": "In a Dot Situation problem, what determines the correct answer figure?",
+      "options": [
+        "The size of the geometrical figures",
+        "The exact replica of the positions of dots regardless of shapes",
+        "The availability of identical common overlapping regions among the figures as marked by the dots in the problem figure",
+        "The number of lines forming the shapes"
+      ],
+      "correct": 2,
+      "explanation": "The correct answer figure is the one that contains identical common overlapping areas among the shapes as marked by the dot(s) in the question figure."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 477
+  },
+  {
+    "id": "afcat-reasoning-dot-placement-001",
+    "subject": "Reasoning",
+    "chapter": "Non-Verbal Reasoning",
+    "topic": "Dot Placement",
+    "text": "<p><strong>Dot Placement Reasoning:</strong> This type of question requires identifying the region in the answer figures that satisfies the same conditions of placement of the dot as in the problem figure (X). The dot is placed in a region common to specific geometric shapes (e.g., circle, square, triangle). The candidate must find an option where a dot can be placed in a region that is common to the same set of shapes as in the original figure.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Diagrams showing dot placement in geometric figures (circles, squares, triangles) for questions 1-8.",
+      "Hints and solutions section illustrating the common regions between shapes for questions 1-6."
+    ],
+    "details": {
+      "summary": "Technique for solving dot placement non-verbal reasoning questions by identifying common geometric regions."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 479
+  },
+  {
+    "id": "reasoning-venn-diagram-001",
+    "subject": "Reasoning and Military Aptitude Test",
+    "chapter": "Venn Diagrams",
+    "topic": "Region Identification in Overlapping Geometric Figures",
+    "text": "<p>This section focuses on identifying specific regions within overlapping geometric figures (circles, squares, triangles, and rectangles). The exercises require identifying which region corresponds to the intersection of specific shapes.</p><ul><li><strong>Intersection:</strong> The area shared by two or more shapes.</li><li><strong>Exclusive Regions:</strong> Areas belonging to only one shape.</li><li><strong>Visual Analysis:</strong> Requires careful observation of shaded regions to determine their membership in the overlapping figures.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "A collection of 28 diagrams showing various combinations of overlapping circles, squares, triangles, and rectangles with specific regions shaded and labeled with their geometric properties (e.g., 'Common to the triangle, circle and square')."
+    ],
+    "details": {
+      "summary": "Practice exercises for identifying overlapping regions in Venn diagram-based reasoning problems."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 480
+  },
+  {
+    "id": "cube-dice-001",
+    "subject": "Mathematics",
+    "chapter": "Cube and Dice",
+    "topic": "Cube",
+    "text": "<p>A cube is a three dimensional solid object bounded by six square faces. A cube has 6 faces, 8 corners and 12 edges.</p><p>If a larger cube is cut into smaller cubes of equal volume so that each edge is divided into n parts, then:</p><ul><li>Number of smaller cubes = (n)^3, where n = Edge of larger cube / Edge of smaller cube</li><li>Number of corner cubes (exist at each corner) = A = 8</li><li>Number of middle cubes (exist at middle of each edge) = B = 12(n - 2)</li><li>Number of central cubes (exist at centre of each face) = C = 6(n - 2)^2</li><li>Number of nucleus cube/Inner central cubes (hidden and exist at centre of large cube) = (n - 2)^3</li></ul><p><strong>When a large cube is painted with some colour and then divided into smaller cubes of equal size, then after separation, number of smaller cubes so obtained are as follows:</strong></p><ul><li>Number of smaller cubes with 3 sides painted = Number of corner cubes</li><li>Number of smaller cubes with 2 sides painted = Number of middle cubes</li><li>Number of smaller cubes with 1 side painted = Number of central cubes</li><li>Number of cubes with no side painted = Number of nucleus or Inner central cubes.</li></ul>",
+    "formulas": [
+      "n = Edge of larger cube / Edge of smaller cube",
+      "Number of smaller cubes = (n)^3",
+      "A = 8",
+      "B = 12(n - 2)",
+      "C = 6(n - 2)^2",
+      "Nucleus cubes = (n - 2)^3"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram of a cube showing labels for Face, Edge, and Corner.",
+      "Diagram of a large cube divided into smaller cubes with faces labeled A, B, and C to represent corner, middle, and central cubes respectively."
+    ],
+    "details": {
+      "summary": "Definitions and mathematical properties of cubes, including formulas for calculating smaller cubes based on edge division and painted surfaces."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 481
+  },
+  {
+    "id": "cube-dice-002",
+    "subject": "Mathematics",
+    "chapter": "Cube and Dice",
+    "topic": "Dice",
+    "text": "<p>A dice is a three dimensional figure with 6 surfaces. There are two types of dice.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram of a standard six-sided die showing dots on three visible faces."
+    ],
+    "details": {
+      "summary": "Introduction to dice as a three-dimensional figure."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 481
+  },
+  {
+    "id": "dice-reasoning-001",
+    "subject": "Reasoning and Military Aptitude Test",
+    "chapter": "Dice",
+    "topic": "Standard and General Dice",
+    "text": "<p><strong>Standard Dice:</strong> When the sum of digits/dots on opposite faces is equal to 7, the dice is called a standard dice.</p><p><strong>General Dice:</strong> When the sum of digits/dots on opposite faces is not equal to 7, the dice is called a general dice.</p>",
+    "formulas": [
+      "Standard Dice: Sum of opposite faces = 7"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing a standard dice with faces 1, 2, 4 visible and another with dot representations showing sums of opposite faces equal to 7.",
+      "Diagram showing a general dice with faces 2, 5, 4 visible and another with dot representations showing sums of opposite faces not equal to 7."
+    ],
+    "details": {
+      "summary": "Definitions and identification methods for Standard and General dice."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 482
+  },
+  {
+    "id": "dice-reasoning-002",
+    "subject": "Reasoning and Military Aptitude Test",
+    "chapter": "Dice",
+    "topic": "Methods to Find Digits/Dots at Opposite Faces",
+    "text": "<p><strong>1. When a single position of a dice is given:</strong> Check if the sum of adjacent faces is equal to 7. If not, it is a standard dice.</p><p><strong>2. When two positions of a single dice are given:</strong></p><ul><li><strong>(a) If digits in both positions are different:</strong> Any digit in the first position can be opposite to any digit in the second position.</li><li><strong>(b) If one digit is common in both positions and the common digit is at the same face:</strong> The digits on the other faces are opposite to each other and the common digit will be opposite to the invisible digit.</li><li><strong>(c) When the common digit is on different faces:</strong> List digits in clockwise direction starting from the common digit and compare them.</li><li><strong>(d) When two digits are common:</strong> The uncommon digits in each position are opposite to each other.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Diagrams illustrating various dice scenarios: single dice, two positions with different digits, two positions with one common digit at same face, two positions with one common digit at different faces, and two positions with two common digits."
+    ],
+    "details": {
+      "summary": "Techniques for determining opposite faces based on the number of dice positions provided and commonality of digits."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 482
+  },
+  {
+    "id": "dice-theory-001",
+    "subject": "Reasoning",
+    "chapter": "Cube and Dice",
+    "topic": "Spread out Form of a Dice",
+    "text": "<p>The spread out form of a dice is shown on the basis of the front side of the dice. One can unfold a dice in many ways. Key rules for identifying opposite faces:</p><ul><li>Upper face is opposite to Lower face.</li><li>Front face is opposite to Back face.</li><li>Right face is opposite to Left face.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing a standard cube with labeled faces: Upper, Lower, Front, Back, Left, Right.",
+      "Four different examples of unfolded dice nets showing various arrangements of the six faces."
+    ],
+    "details": {
+      "summary": "Rules for identifying opposite faces in unfolded dice nets."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 483
+  },
+  {
+    "id": "dice_basics_001",
+    "subject": "Reasoning",
+    "chapter": "Dice and Cube",
+    "topic": "Dice",
+    "text": "<p><strong>Dice Concepts:</strong></p><ul><li>A standard die has 6 faces.</li><li>Opposite faces sum to 7 in a standard die, but this may not apply to all reasoning problems.</li><li>When a figure is folded, faces separated by one square are opposite to each other.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Diagrams showing various dice configurations and net patterns for folding into cubes."
+    ],
+    "details": {
+      "summary": "Basic principles for solving dice and cube folding problems in reasoning tests."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 484
+  },
+  {
+    "id": "afcat-reasoning-dice-cube-001",
+    "subject": "Reasoning",
+    "chapter": "Dice and Cubes",
+    "topic": "Cube Cutting and Dice Problems",
+    "text": "<p><strong>Dice and Cube Concepts:</strong></p><ul><li><strong>Standard Dice:</strong> The sum of adjacent faces is not 7, and the sum of opposite faces is 7.</li><li><strong>General Dice:</strong> The sum of adjacent faces can be 7.</li><li><strong>Cube Cutting:</strong> For a cube of side <em>n</em> units cut into smaller cubes of 1 unit, the number of smaller cubes having 3 surfaces painted is always 8 (corner cubes).</li><li><strong>Middle Cubes:</strong> Number of cubes having 2 surfaces painted = 12(n-2).</li><li><strong>Inner Central Cubes:</strong> Number of cubes having 0 surfaces painted = (n-2)^3.</li><li><strong>Calculating n:</strong> n = (Side of bigger cube) / (Side of smaller cube).</li></ul>",
+    "formulas": [
+      "n = (Side of bigger cube) / (Side of smaller cube)",
+      "Number of cubes with 3 surfaces painted = 8",
+      "Number of cubes with 2 surfaces painted = 12(n-2)",
+      "Number of cubes with 0 surfaces painted = (n-2)^3"
+    ],
+    "tables": [],
+    "image_descriptions": [
+      "A diagram showing a large cube of 15cm side length divided into smaller cubes of 3cm side length, illustrating the calculation of n=5."
+    ],
+    "details": {
+      "summary": "Notes on solving dice and cube cutting problems for competitive exams."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 485
+  },
+  {
+    "id": "dice_reasoning_001",
+    "subject": "Reasoning and Military Aptitude Test",
+    "chapter": "Dice",
+    "topic": "Dice Problems",
+    "text": "<p><strong>Dice Rules and Logic:</strong></p><ul><li><strong>Common Face Rule:</strong> If two dice positions share two common numbers, the remaining numbers are opposite to each other.</li><li><strong>Single Common Face Rule:</strong> If one number is common in two positions, moving in a clockwise direction from the common face helps identify opposite pairs.</li><li><strong>Unfolded Dice:</strong> In an unfolded cube, faces separated by one square are opposite to each other.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram of a cube with faces labeled 2, 6, 1. Arrows indicate clockwise movement starting from 6.",
+      "Diagram of an unfolded cube with a cross-shape layout. Faces are labeled O, K, L, M, U, and a symbol. Arrows indicate opposite pairs: O-L, K-M, and T-U."
+    ],
+    "details": {
+      "summary": "Explanations for dice-based reasoning problems involving identifying opposite faces using common numbers and clockwise rotation."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 486
+  },
+  {
+    "id": "afcat-fig-coding-001",
+    "subject": "Reasoning",
+    "chapter": "Figure Coding",
+    "topic": "Introduction to Figure Coding",
+    "text": "<p>In figure coding, some figures or shapes or patterns are given in a series. Each figure of the series has a unique code that is made up of two letters. The first letter in each code always stands for the same feature throughout the series and the second letter represents the other feature. The candidates are required to analyse the figure or patterns and the codes, and then determine the code for the uncoded figure or shape or pattern.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Diagram showing a circle with a dot labeled G and a square with vertical lines labeled R, illustrating how codes are derived from elements."
+    ],
+    "details": {
+      "summary": "Explanation of the logic behind figure coding where two-letter codes represent specific features of shapes."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 487
+  },
+  {
+    "id": "geo-001",
+    "subject": "Geography",
+    "chapter": "Rocks and Minerals",
+    "topic": "Igneous Rocks",
+    "text": "<p>Igneous rocks are known as <strong>'primary rocks'</strong>. These rocks are referred to as primary rocks as they begin the rock cycle and represent the rocks which directly or indirectly provided materials for the formation of other types of rocks.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and significance of Igneous rocks as primary rocks."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 495
+  },
+  {
+    "id": "geo-002",
+    "subject": "Geography",
+    "chapter": "Physiography of India",
+    "topic": "Chota Nagpur Plateau",
+    "text": "<p>Chota Nagpur Plateau is known as the <strong>'Mineral Heart Land of India'</strong>. The plateau is a store house of minerals like mica, bauxite, copper, limestone, iron ore and coal. The Damodar Valley in the plateau is rich in coal and it is considered as the prime centre of coking coal in the country.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Economic significance of Chota Nagpur Plateau."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 495
+  },
+  {
+    "id": "hist-001",
+    "subject": "History",
+    "chapter": "Medieval India",
+    "topic": "Tughlaq Dynasty",
+    "text": "<p>The sultans of Tughlaq dynasty ruled for the longest time i.e. between 1320-1414. Muhammad Bin Tughlaq and Firozshah Tughlaq were the prominent rulers of this dynasty.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of the Tughlaq dynasty period and prominent rulers."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 495
+  },
+  {
+    "id": "hist-002",
+    "subject": "History",
+    "chapter": "Modern India",
+    "topic": "Zamindari System",
+    "text": "<p>Zamindari System was introduced by <strong>Lord Cornwallis</strong> in 1793 through Permanent Settlement Act. It was introduced in provinces of Bengal, Bihar, Odisha and Varanasi. The system was also known as Permanent Settlement System.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Introduction of the Zamindari System by Lord Cornwallis."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 495
+  },
+  {
+    "id": "sci-001",
+    "subject": "Physics",
+    "chapter": "Sound",
+    "topic": "Adiabatic Process",
+    "text": "<p>The propagation of sound waves in a gas involves the adiabatic compression and rarefaction. An adiabatic process is one that occurs without transfer of heat or matter between a thermodynamic system and its surroundings and rarefaction is the reduction of an item's density.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Explanation of adiabatic process in the context of sound wave propagation."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 495
+  },
+  {
+    "id": "sci-002",
+    "subject": "Chemistry",
+    "chapter": "Elements",
+    "topic": "Thorium",
+    "text": "<p>Thorium is a naturally occurring radioactive element with the symbol <strong>(Th)</strong> and atomic number <strong>90</strong>. It was discovered in 1828 by the Swedish chemist Jons Jacob Berzelius. It was named after Thor, the Norse God of Thunder.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Properties and discovery of the element Thorium."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 495
+  },
+  {
+    "id": "note-001",
+    "subject": "Science",
+    "chapter": "Biotechnology",
+    "topic": "Green Biotechnology",
+    "text": "<p><strong>Green Biotechnology</strong> is the biotechnology applied to 'agricultural processes'. Three main areas of applications are plant tissue culture, plant genetic engineering and plant molecular marker-assisted breeding. It is used to make plants pest and drought tolerant.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and applications of Green Biotechnology."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 496
+  },
+  {
+    "id": "note-002",
+    "subject": "Defence",
+    "chapter": "Indian Navy",
+    "topic": "INS Vikrant",
+    "text": "<p>India's first Indigenous Aircraft Carrier (IAC) <strong>Vikrant</strong> will be delivered to the Indian Navy in 2021 for advanced trials. IAC Vikrant is in advanced stage of construction and it is being built by Cochin Shipyard Ltd.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Status and construction details of INS Vikrant."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 496
+  },
+  {
+    "id": "note-003",
+    "subject": "Indian Polity",
+    "chapter": "Panchayati Raj",
+    "topic": "73rd Constitutional Amendment",
+    "text": "<p>Article 40 of Indian Constitution deals with the establishment of Panchayati Raj. The Article includes that state will form the structure of panchayat. But it doesn't explain its power, who will be the members, their qualifications, etc. So, the <strong>73rd Constitutional Amendment</strong> was done in 1992. The amendment provided a constitutional status to the Panchayati Raj institutions.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Constitutional basis and amendment for Panchayati Raj."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 496
+  },
+  {
+    "id": "note-004",
+    "subject": "Defence",
+    "chapter": "Indian Navy",
+    "topic": "INS Vibhuti",
+    "text": "<p><strong>INS Vibhuti</strong> was India's first indigenously built missile boat launched at Mazgaon Docks in Mumbai.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Historical fact about INS Vibhuti."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 496
+  },
+  {
+    "id": "note-005",
+    "subject": "Economics",
+    "chapter": "Banking",
+    "topic": "Reserve Bank of India",
+    "text": "<p>The <strong>Reserve Bank of India (RBI)</strong> is India's Central Bank, which controls the issue and supply of the Indian Rupee. Currently RBI has four subsidiaries viz. Deposit Insurance and Credit Guarantee Corporation of India (DICGC), Bharatiya Reserve Bank Note Mudran Private Limited (BRBNMPL), Reserve Bank Information Technology Pvt. Ltd. (ReBIT) and Indian Financial Technology and Allied Services (IFTAS).</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of RBI and its subsidiaries."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 496
+  },
+  {
+    "id": "note-006",
+    "subject": "Current Affairs",
+    "chapter": "Government Initiatives",
+    "topic": "Indian Army E-cars",
+    "text": "<p>The <strong>Indian Army</strong> launched 10 e-cars in its pilot batch for its officials in New Delhi. The main aim behind the move is ensure minimal emission and boost efficiency in an attempt to combat worsening air quality in New Delhi.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Indian Army initiative for electric vehicles."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 496
+  },
+  {
+    "id": "note-007",
+    "subject": "Environment",
+    "chapter": "Pollution",
+    "topic": "Acid Rain",
+    "text": "<p><strong>NO2 and SO2 (Nitrogen Oxide and Sulphur Dioxide)</strong> are the major contributors to smog and acid rain. Both these gases react with volatile organic compounds to form smog which cause respiratory problems in humans. Acid rain can harm vegetation, change the chemistry of river and lake water by lowering pH which is harmful to animal life and also decompose the marbles and statues.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Causes and effects of acid rain."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 496
+  },
+  {
+    "id": "note-008",
+    "subject": "Science & Technology",
+    "chapter": "Computers",
+    "topic": "EEPROM",
+    "text": "<p><strong>Flash</strong> is a type of Electrically Erasable Programmable Read Only Memory (EEPROM). Flash Memory is an electronic non-volatile computer memory storage medium that can be electrically erased and reprogrammed. It is commonly used in USB flash drives, digital cameras and solid-state drives.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and uses of Flash memory."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 496
+  },
+  {
+    "id": "note-009",
+    "subject": "Current Affairs",
+    "chapter": "International Events",
+    "topic": "Earth Hour",
+    "text": "<p><strong>Earth Hour</strong> is a Word Wide movement organised by the World Wildlife Fund (WWF) for nature. The event is held annually encouraging individuals, communities and businesses to turn off non-essential electric lights for one hour.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definition and purpose of Earth Hour."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 496
+  },
+  {
+    "id": "note-010",
+    "subject": "Economics",
+    "chapter": "Insurance",
+    "topic": "LIC Micro Bachat",
+    "text": "<p>LIC launched a new microinsurance plan <strong>'Micro Bachat'</strong>. It is a regular premium, non linked, participating endowment microinsurance plan which offers a combination of protection and savings. For the first time, a microinsurance plan has been launched providing coverage upto 2 lakh.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Features of LIC Micro Bachat plan."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 496
+  },
+  {
+    "id": "note-011",
+    "subject": "Miscellaneous",
+    "chapter": "Awards",
+    "topic": "Jnanpith Award",
+    "text": "<p>The <strong>Jnanpith Award</strong> is an Indian literary award presented annually by the Bharatiya Jnanpith to an author 'for their Outstanding Contributions towards literature'. Leading Contemporary English writer, Amitav Ghosh has been awarded the 54th Jnanpith Award.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Details about Jnanpith Award and its recipient."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 496
+  },
+  {
+    "id": "note-012",
+    "subject": "Science & Technology",
+    "chapter": "Space",
+    "topic": "Aryabhatta",
+    "text": "<p>The first Indian Satellite, <strong>Aryabhatta</strong> was launched on 19th April, 1975. The satellite was named after the prominent Indian astronomer and mathematician Aryabhatta.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Historical facts about India's first satellite."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 496
+  },
+  {
+    "id": "note-013",
+    "subject": "International Relations",
+    "chapter": "Organizations",
+    "topic": "SAARC",
+    "text": "<p>The <strong>SAARC Secretariat</strong> is based in Kathmandu, Nepal. It coordinates and monitors implementation of activities, prepares for and services meetings, and serves as a channel of communication between the association and its member states as well as other regional organisations.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Location and functions of SAARC Secretariat."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 496
+  },
+  {
+    "id": "note_001",
+    "subject": "Defence",
+    "chapter": "General Knowledge",
+    "topic": "Prithvi Missile",
+    "text": "<p><strong>Prithvi missile</strong> is India's first indigenously developed ballistic missile. It is a family of tactical surface to surface Short-Range Ballistic Missiles (SRBM). It was first test-fired on 25th February, 1988 from Sriharikota, SHAR Centre, Potti Sreeramulu Nellore, Andhra Pradesh. It has a range of upto 150 to 350 km.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of India's first indigenous ballistic missile."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 514
+  },
+  {
+    "id": "note_002",
+    "subject": "General Knowledge",
+    "chapter": "International Organizations",
+    "topic": "FAO",
+    "text": "<p>The <strong>Food and Agriculture Organisation of the UN (FAO)</strong> is a specialised agency that leads international efforts to defeat hunger. It serves both developed and developing countries. The headquarters of FAO is located in Rome, Italy.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Information regarding the Food and Agriculture Organisation."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 514
+  },
+  {
+    "id": "note_003",
+    "subject": "General Knowledge",
+    "chapter": "Important Days",
+    "topic": "National Youth Day",
+    "text": "<p><strong>National Youth Day</strong> is celebrated every year on 12th January to commemorate the birth anniversary of Swami Vivekananda. The day is observed all over India at schools and colleges with processions, speeches, music, seminars, recitations etc.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Details about National Youth Day."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 514
+  },
+  {
+    "id": "note_004",
+    "subject": "General Knowledge",
+    "chapter": "International Organizations",
+    "topic": "INTERPOL",
+    "text": "<p><strong>International Criminal Police Organisation or INTERPOL</strong> is an intergovernmental organisation facilitating international police cooperation and crime control. It was established in 1923.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Overview of INTERPOL."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 514
+  },
+  {
+    "id": "note_005",
+    "subject": "General Knowledge",
+    "chapter": "Books and Authors",
+    "topic": "The Future of India",
+    "text": "<p>Former Governor of RBI, <strong>Bimal Jalan</strong> is the author of the book 'The Future of India'. The book focuses on 3 forces-politics, economy and governance, which will jointly determine future of India.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Information about the book 'The Future of India'."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 514
+  },
+  {
+    "id": "note_006",
+    "subject": "General Knowledge",
+    "chapter": "Environment",
+    "topic": "Climate Emergency",
+    "text": "<p>On 1st May, 2019 the <strong>UK Parliament</strong> by passing a motion declared a climate emergency, making the UK, the first country to officially declare a climate emergency.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "UK's declaration of climate emergency."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 514
+  },
+  {
+    "id": "note_007",
+    "subject": "Physics",
+    "chapter": "Optics",
+    "topic": "Space Colour",
+    "text": "<p>Astronaut in outer space will observe sky as black because there are no substances or objects to reflect back any colour. The light from the sun is reflected back as the blues, greens and browns as we see.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Reason for the black appearance of the sky in space."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 514
+  },
+  {
+    "id": "note_008",
+    "subject": "Geography",
+    "chapter": "Environment",
+    "topic": "Lemru Elephant Reserve",
+    "text": "<p><strong>Lemru Elephant Reserve</strong> of Chhattisgarh will be one of its kind elephant reserve in the world. It will not only serve as permanent habitat for wild elephants but also prevent damage caused by the movement of elephants. It will contribute towards saving wild life and preserving of biodiversity in the region.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Details about Lemru Elephant Reserve."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 514
+  },
+  {
+    "id": "note_009",
+    "subject": "Science & Technology",
+    "chapter": "Robotics",
+    "topic": "IIT Madras Robot",
+    "text": "<p>Researchers at the <strong>Indian Institute of Technology, Madras (IIT MADRAS)</strong> have developed a robot with grasping and locomotion abilities like a human hand. Called the 'Grasp Man', this new class of robot can be used for industrial purposes, search and rescue operations and other applications that involve climbing, holding and assembling.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Development of 'Grasp Man' robot by IIT Madras."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 514
+  },
+  {
+    "id": "note_010",
+    "subject": "Geography",
+    "chapter": "Environment",
+    "topic": "Resources",
+    "text": "<p><strong>GIS</strong> means Geographic Information System. It is a computer system designed to capture, store, manipulate, analyse, manage and present all types of spatial or geographical data. GIS applications are used in a number of fields.</p><p>The resources which are obtained from biosphere and have life are <strong>biotic resources</strong>. Biotic resources also known as living resources, are renewable resources including plants and animals.</p><p><strong>Abiotic resources</strong> are non-living resources that fall into the larger category of natural resources, which occurs naturally in the environment and are not created by humans or human activity. Such as soil, water, minerals.</p><p>A <strong>renewable resource</strong> is an organic natural resource which can replenish to overcome usage and consumption, through naturally recurring processes.</p><p><strong>Potential resources</strong> are resources which exist in a region and which can be used in the future, these are not being used at present.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Definitions of various types of resources and GIS."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 514
+  },
+  {
+    "id": "note_011",
+    "subject": "Physics",
+    "chapter": "Optics",
+    "topic": "Total Internal Reflection",
+    "text": "<p><strong>Total internal reflection</strong> occur when a wave strikes from denser to lighter medium at an angle larger than the critical angle with respect to the normal surface. Total internal reflection cannot occur when light goes from water (n = 1.33) a lighter medium to glass (n = 1.5) a denser medium.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "Conditions for Total Internal Reflection."
+    },
+    "source_pdf": "afcat_reasoning_notes.pdf",
+    "source_page": 514
+  },
+  {
+    "id": "VMI-U-LHW-INSTR-001",
+    "subject": "General Ability and Intelligence",
+    "chapter": "Examination Instructions",
+    "topic": "General Guidelines",
+    "text": "<p><strong>Examination Instructions for General Ability and Intelligence:</strong></p><ul><li><strong>Test Booklet Series:</strong> A</li><li><strong>Time Allowed:</strong> Two Hours</li><li><strong>Maximum Marks:</strong> 250</li><li><strong>Total Items:</strong> 125 questions.</li><li><strong>Language:</strong> Printed in both Hindi and English.</li><li><strong>Marking Scheme:</strong> All items carry equal marks.</li><li><strong>Penalty for Wrong Answers:</strong> There is a penalty for wrong answers marked by a candidate in the objective type question papers.</li><li><strong>Penalty Calculation:</strong> For each question for which a wrong answer has been given by the candidate, one-third of the marks assigned to that question will be deducted as penalty.</li><li><strong>Multiple Answers:</strong> If a candidate gives more than one answer, it will be treated as a wrong answer even if one of the given answers happens to be correct and there will be the same penalty as above.</li><li><strong>Blank Answers:</strong> If a question is left blank, i.e., no answer is given by the candidate, there will be no penalty for that question.</li></ul>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "Test Booklet cover page showing T.B.C. code VMI-U-LHW, Series A, and general examination instructions."
+    ],
+    "details": {
+      "summary": "This document outlines the standard instructions for a General Ability and Intelligence examination, including marking schemes, penalty structures for incorrect answers, and administrative procedures for candidates."
+    },
+    "mcq": null,
+    "source_pdf": "CAPF_CSE_Papers\\QP-CAPF-20-Gen_Ability_Intelligence.pdf",
+    "source_page": 48
   }
 ]
