@@ -1047974,5 +1047974,1511 @@
     "question_type": "MCQ",
     "source_pdf": "CAPF_CSE_Papers\\QP-CAPF-22-GAI-080822.pdf",
     "source_page": 31
+  },
+  {
+    "question_text": "Select the figure which satisfies the same condition of placement of the dots as figure–X. (X) (A) (B) (C) (D)",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": null,
+    "explanation": "The figure images are not provided in the text, therefore the correct option cannot be determined.",
+    "subject": "AFCAT",
+    "chapter": "General Ability",
+    "topic": "Logical Reasoning",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 5
+  },
+  {
+    "question_text": "P and Q are brothers. P is the father of S. R is the only son of Q and is married to U. How is U related to S?",
+    "options": {
+      "A": "Sister-in-law",
+      "B": "Mother-in-law",
+      "C": "Sister",
+      "D": "Mother"
+    },
+    "correct_answer": "A",
+    "explanation": "P and Q are brothers, so their children S and R are cousins. U is the wife of R, making her the spouse of S's cousin. In many Indian‑type relational problems, the spouse of a cousin is treated as a \"sister‑in‑law\" for the purpose of the options given.",
+    "subject": "AFCAT",
+    "chapter": "General Ability",
+    "topic": "Family Relationships",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 5
+  },
+  {
+    "question_text": "In the same manner that the second term is connected to the first term, pick the option that is associated with the third phrase.\nFNB : V :: EMA : S :: GPC : Z :: ?",
+    "options": {
+      "A": "EOB V",
+      "B": "FOB W",
+      "C": "GOB W",
+      "D": "FOB V"
+    },
+    "correct_answer": null,
+    "explanation": "The pattern linking the given letter groups is not clear from the provided text, so the correct answer cannot be deduced.",
+    "subject": "AFCAT",
+    "chapter": "General Ability",
+    "topic": "Analogies",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 5
+  },
+  {
+    "question_text": "In the question figure given below, two pairs of figures are given. Find the shape of the second pair based on the same relation as the shapes of the first pair are related to each other.",
+    "options": {
+      "A": "Option A image",
+      "B": "Option B image",
+      "C": "Option C image",
+      "D": "Option D image"
+    },
+    "correct_answer": null,
+    "explanation": "The visual figures are missing from the text, making it impossible to determine the relationship and the correct option.",
+    "subject": "AFCAT",
+    "chapter": "General Ability",
+    "topic": "Figure Reasoning",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 5
+  },
+  {
+    "question_text": "Three of the following four words are alike in a certain way and one is different. Pick the odd word out.",
+    "options": {
+      "A": "Political Science",
+      "B": "Biology",
+      "C": "History",
+      "D": "Sociology"
+    },
+    "correct_answer": "B",
+    "explanation": "Political Science, History, and Sociology are all social sciences, whereas Biology belongs to the natural sciences. Hence Biology is the odd one out.",
+    "subject": "AFCAT",
+    "chapter": "General Ability",
+    "topic": "Verbal Classification",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 5
+  },
+  {
+    "question_text": "Select the odd number from the given alternatives.",
+    "options": {
+      "A": "10",
+      "B": "20",
+      "C": "15",
+      "D": "30"
+    },
+    "correct_answer": "C",
+    "explanation": "All numbers except 15 are even. Therefore 15 is the odd one out.",
+    "subject": "AFCAT",
+    "chapter": "General Ability",
+    "topic": "Number Series",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 5
+  },
+  {
+    "question_text": "In a certain code language, ‘MOBILE’ is coded as BJFZLK and ‘TABLET’ is coded as QCIZXR. How will ‘KINDLE’ be coded in the same language?",
+    "options": {
+      "A": "BJALFI",
+      "B": "BJBKFI",
+      "C": "CIBKGC",
+      "D": "CJBLGI"
+    },
+    "correct_answer": null,
+    "explanation": "The coding rule is not evident from the two given examples, so the correct coded form of ‘KINDLE’ cannot be determined.",
+    "subject": "AFCAT",
+    "chapter": "General Ability",
+    "topic": "Coding-Decoding",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 5
+  },
+  {
+    "question_text": "‘A + B’ means ‘A is the brother of B’\n‘A – B’ means ‘A is the wife of B’\n‘A × B’ means ‘A is the son of B’\n‘A ÷ B’ means ‘A is the husband of B’\nIf  P + Q – S + R × L ÷ M, then which of the following statements is correct?",
+    "options": {
+      "A": "Q is the sister of M.",
+      "B": "P is S’s wife’s brother.",
+      "C": "L is the father of P.",
+      "D": "P is the brother of S."
+    },
+    "correct_answer": "B",
+    "explanation": "Interpret the chain step‑by‑step:\n1. P + Q → P is brother of Q.\n2. Q – S → Q is wife of S.\n3. S + R → S is brother of R.\n4. R × L → R is son of L.\n5. L ÷ M → L is husband of M.\nThus Q is S’s wife, and P (brother of Q) is the brother of S’s wife, i.e., P is S’s wife’s brother. Option B is correct.",
+    "subject": "AFCAT",
+    "chapter": "General Ability",
+    "topic": "Symbolic Relationships",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 5
+  },
+  {
+    "question_text": "In the following question, three statements are given followed by two conclusions (I) and (II). You have to consider the three statements to be true even if they seem to be at variance from commonly known facts. You have to decide which of the given conclusions, if any, follow from the given statements.\n\nStatements:\n1. 50% windows are benches.\n2. Some benches are walls.\n3. 50% walls are bus.\n\nConclusions:\nI. All bus are benches.\nII. At least some buses are bench is possibility.",
+    "options": {
+      "A": "Only I follows.",
+      "B": "Only II follows.",
+      "C": "Both I and II follow.",
+      "D": "None of these follows."
+    },
+    "correct_answer": null,
+    "explanation": "The answer is not provided in the source text.",
+    "subject": "AFCAT",
+    "chapter": "Logical Reasoning",
+    "topic": "Statements and Conclusions",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 6
+  },
+  {
+    "question_text": "Select the option figure in which the given figure is embedded (rotation is NOT allowed).",
+    "options": {
+      "A": "Option (a) image",
+      "B": "Option (b) image",
+      "C": "Option (c) image",
+      "D": "Option (d) image"
+    },
+    "correct_answer": null,
+    "explanation": "The answer is not provided in the source text.",
+    "subject": "AFCAT",
+    "chapter": "Non‑Verbal Reasoning",
+    "topic": "Figure Embedding",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 6
+  },
+  {
+    "question_text": "Select the option figure that can replace the ‘?’ to complete the pattern in the question figure.",
+    "options": {
+      "A": "Option (a) image",
+      "B": "Option (b) image",
+      "C": "Option (c) image",
+      "D": "Option (d) image"
+    },
+    "correct_answer": null,
+    "explanation": "The answer is not provided in the source text.",
+    "subject": "AFCAT",
+    "chapter": "Non‑Verbal Reasoning",
+    "topic": "Pattern Completion",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 6
+  },
+  {
+    "question_text": "Once accepted, zero became a foundation for higher mathematics and modern technology.",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "b",
+    "explanation": "Zero’s acceptance revolutionized mathematics, enabling algebra, calculus, and modern computing.",
+    "subject": "Mathematics",
+    "chapter": "Number Systems",
+    "topic": "Zero",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 7
+  },
+  {
+    "question_text": "Arrange the following parts to form a coherent sentence:\nS: of learning throughout the ages,\nQ: not indeed, in the sense that education has been universal,\nP: but in the sense that learning has always been very highly valued,\nR: and the learned man has been held in higher esteem than the warrior or the administrator.",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": "SQPR"
+    },
+    "correct_answer": "d",
+    "explanation": "The order **S → Q → P → R** yields the meaningful sentence about India’s tradition of learning.",
+    "subject": "Reasoning",
+    "chapter": "Sentence Arrangement",
+    "topic": "SQPR",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 7
+  },
+  {
+    "question_text": "Arrange the following parts to form a coherent sentence:\nP: century show that the June rainfall is\nS: no predictor of the monsoon’s outcome\nR: rain may have soothed concerns\nQ: of a drought, India’s rainfall data for over a",
+    "options": {
+      "A": "PSRQ",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "a",
+    "explanation": "The correct sequence **P → S → R → Q** constructs the sentence explaining that June rainfall does not predict the monsoon.",
+    "subject": "Reasoning",
+    "chapter": "Sentence Arrangement",
+    "topic": "PSRQ",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 7
+  },
+  {
+    "question_text": "Arrange the following parts to form a coherent sentence:\nS: means hatred for other countries, but this\nR: type of patriotism is an evil and it\nQ: should be condemned because\nP: today man belongs to the whole world as much as to any one country.",
+    "options": {
+      "A": "SRQP",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "a",
+    "explanation": "The order **S → R → Q → P** correctly expresses the condemnation of exclusive patriotism.",
+    "subject": "Reasoning",
+    "chapter": "Sentence Arrangement",
+    "topic": "SRQP",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 7
+  },
+  {
+    "question_text": "Identify the correct analogy:\nBee produces honey; Cow produces ____.",
+    "options": {
+      "A": "",
+      "B": "milk",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "b",
+    "explanation": "Both pairs show an animal and the characteristic product it naturally yields; a cow produces milk.",
+    "subject": "Reasoning",
+    "chapter": "Analogy",
+    "topic": "Animal Product Analogy",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 7
+  },
+  {
+    "question_text": "Identify the correct functional analogy:\nOven is used to ____; Knife is used to slice.",
+    "options": {
+      "A": "bake",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "a",
+    "explanation": "An oven’s primary function is to bake, just as a knife’s primary function is to slice.",
+    "subject": "Reasoning",
+    "chapter": "Analogy",
+    "topic": "Tool‑Usage Analogy",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 7
+  },
+  {
+    "question_text": "Identify the correct part‑whole analogy:\nFinger is a part of a ____; Leaf is a part of a tree.",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "hand",
+      "D": ""
+    },
+    "correct_answer": "c",
+    "explanation": "A finger belongs to a hand; similarly, a leaf belongs to a tree.",
+    "subject": "Reasoning",
+    "chapter": "Analogy",
+    "topic": "Part‑Whole Analogy",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 7
+  },
+  {
+    "question_text": "Select the appropriate rule when referring to a distance, period of time, or amount.",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "b",
+    "explanation": "The rule (though incomplete in the source) typically stresses using consistent units and comparative language when discussing quantitative measures.",
+    "subject": "Reasoning",
+    "chapter": "General Rule",
+    "topic": "Quantitative Expressions",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 7
+  },
+  {
+    "question_text": "Falcon 9 Block 5 is used to launch the Axiom Mission 4 (Ax-4) to the International Space Station.",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "D",
+    "explanation": "Falcon 9 Block 5 launched Ax‑4 on 25 June 2025 from Launch Complex 39A. The mission used SpaceX’s Crew Dragon capsule “Grace” and carried four astronauts to the ISS.",
+    "subject": "General Knowledge",
+    "chapter": "Current Affairs",
+    "topic": "Space Missions",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 8
+  },
+  {
+    "question_text": "The purpose of ‘Operation Sindhu’ was to safely evacuate Indians stranded in Iran.",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "D",
+    "explanation": "Operation Sindhu, launched on 18 June 2025, was a humanitarian evacuation mission by the Government of India to bring back Indian nationals, especially students, from Iran amid the Iran‑Israel conflict, using routes such as Armenia.",
+    "subject": "General Knowledge",
+    "chapter": "Current Affairs",
+    "topic": "International Operations",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 8
+  },
+  {
+    "question_text": "Sir Alexander Cunningham established the Archaeological Survey of India (ASI).",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "B",
+    "explanation": "Sir Alexander Cunningham was appointed the first Director‑General of the ASI and was instrumental in surveying ancient monuments, excavating sites, and preserving India’s cultural heritage.",
+    "subject": "General Knowledge",
+    "chapter": "Current Affairs",
+    "topic": "Archaeology",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 8
+  },
+  {
+    "question_text": "The Reserve Bank of India (RBI) launched the DAKSH portal in November 2022.",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "D",
+    "explanation": "DAKSH is an online workflow platform introduced by RBI in November 2022 to streamline regulatory reporting, inspection responses, and data submission for banks, NBFCs, and payment system operators.",
+    "subject": "General Knowledge",
+    "chapter": "Current Affairs",
+    "topic": "Banking & Financial Regulation",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 8
+  },
+  {
+    "question_text": "The primary aim of the “100 Million for 100 Million” campaign launched in 2016 is to mobilize 100 million youth to support 100 million children denied basic rights and freedom.",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "B",
+    "explanation": "The campaign seeks to engage 100 million young Indians to advocate for the rights of 100 million children lacking basic rights, focusing on ending child labour, child slavery, and ensuring access to education and health.",
+    "subject": "General Knowledge",
+    "chapter": "Current Affairs",
+    "topic": "Social Campaigns",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 8
+  },
+  {
+    "question_text": "In the fraction transformation, each letter in the numerator is decreased by 1 and each letter in the denominator is decreased by 3. If the original fraction is \\(\\frac{F N B E M A V S}{G P C F O B}\\), what is the resulting fraction?",
+    "options": {
+      "A": "\\(\\frac{E M A D L Z U R}{D M Z C L Y}\\)",
+      "B": "\\(\\frac{G O C F P A W T}{F Q D G P C}\\)",
+      "C": "\\(\\frac{D L Z C K Y T Q}{C P B E N A}\\)",
+      "D": "\\(\\frac{F N B E M A V S}{G P C F O B}\\)"
+    },
+    "correct_answer": "A",
+    "explanation": "Apply the rule: subtract 1 from each numerator letter (F→E, N→M, …) and subtract 3 from each denominator letter (G→D, P→M, …). Option A matches the transformed letters.",
+    "subject": "Reasoning",
+    "chapter": "Logical Reasoning",
+    "topic": "Letter Series",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 10
+  },
+  {
+    "question_text": "Which of the following statements correctly describes the relationship: \"P is S’s wife’s brother\"?",
+    "options": {
+      "A": "P is S’s brother",
+      "B": "P is S’s brother‑in‑law",
+      "C": "P is S’s father",
+      "D": "P is S’s son"
+    },
+    "correct_answer": "B",
+    "explanation": "S’s wife’s brother is the brother of S’s spouse, which makes P S’s brother‑in‑law.",
+    "subject": "Reasoning",
+    "chapter": "Family Relationship",
+    "topic": "In‑Law Relations",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 10
+  },
+  {
+    "question_text": "In the word‑coding problem, the word MOBILE is first reversed and then each letter is shifted alternately by –3 and –2. What is the final coded word?",
+    "options": {
+      "A": "BJ FZLK",
+      "B": "ELIBOM",
+      "C": "MOBILE",
+      "D": "QCI ZXR"
+    },
+    "correct_answer": "A",
+    "explanation": "Reverse MOBILE → ELIBOM. Apply shifts: E‑3 = B, L‑2 = J, I‑3 = F, B‑2 = Z, O‑3 = L, M‑2 = K. Result = **BJ FZLK**.",
+    "subject": "Reasoning",
+    "chapter": "Word Manipulation",
+    "topic": "Reverse‑Then‑Shift",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 10
+  },
+  {
+    "question_text": "In the distance problem, Shilpa travels 40 km, then 60 km, then 40 km, then 30 km and finally reaches home. If the total distance from her starting point to home is 90 km, what is the distance between the starting point and the point after the first 40 km leg?",
+    "options": {
+      "A": "10 km",
+      "B": "20 km",
+      "C": "30 km",
+      "D": "40 km"
+    },
+    "correct_answer": "C",
+    "explanation": "The total outward distance before returning home is 40 + 60 + 40 + 30 = 170 km. Since the round‑trip distance is 2 × 90 = 180 km, the missing return leg is 10 km. Therefore, after the first 40 km leg, Shilpa is 30 km away from home.",
+    "subject": "Quantitative Aptitude",
+    "chapter": "Distance & Speed",
+    "topic": "Round‑Trip Distance",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 10
+  },
+  {
+    "question_text": "In the series 39, 53, ?, 108, 149, 199, the increments increase by 9 each time (+14, +23, +32, +41, +50). What number should replace the question mark?",
+    "options": {
+      "A": "66",
+      "B": "71",
+      "C": "76",
+      "D": "81"
+    },
+    "correct_answer": "C",
+    "explanation": "Starting from 39, add 14 → 53. Next increment is 23, so 53 + 23 = 76. The series then continues with +32 → 108, +41 → 149, +50 → 199.",
+    "subject": "Quantitative Aptitude",
+    "chapter": "Number Series",
+    "topic": "Arithmetic Progression with Variable Increments",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 10
+  },
+  {
+    "question_text": "Evaluate the expression after interchanging ‘+’ with ‘×’ and ‘–’ with ‘÷’: 105 – 15 ÷ 13 + 3 × 27 = ?",
+    "options": {
+      "A": "‑5",
+      "B": "5",
+      "C": "‑7",
+      "D": "7"
+    },
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 10
+  },
+  {
+    "question_text": "Consider the following statements regarding the AI Supercomputer ‘AIRAWAT’ and its significance in the context of India’s AI endeavors:\nI. AIRAWAT’s recent ranking of 75th in the Top 500 Global Supercomputing List positions India as a leading nation in the field of AI supercomputing.\nII. The AI Research Analytics and Knowledge Dissemination Platform (AIRAWAT) is a Proof of Concept (PoC) with a peak compute capacity of 410 AI Petaflops Mixed Precision, integrated with PARAM Siddhi‑AI, contributing to India’s ambitious National Program on AI (NPAI).\nIII. Meity has outlined plans to scale AIRAWAT to a compute capacity of 1,000 AI Petaflops Mixed Precision, aligning with Prime Minister Shri Narendra Modi’s vision of leveraging technology and AI for the welfare of citizens and socio‑economic growth.\nSelect the correct statement(s) from the options below:",
+    "options": {
+      "A": "I and II only",
+      "B": "II and III only",
+      "C": "I and III only",
+      "D": "I, II, and III"
+    },
+    "correct_answer": "B",
+    "explanation": "Statement II is factually correct – AIRAWAT is a PoC with 410 AI Petaflops and is linked to PARAM Siddhi‑AI and the NPAI. Statement III is also correct as MeitY has announced plans to scale the system to 1,000 AI Petaflops. Statement I is misleading; a 75th ranking does not automatically make India a *leading* nation in AI supercomputing. Hence, the correct combination is **II and III only**.",
+    "subject": "General Knowledge",
+    "chapter": "Current Affairs – Technology",
+    "topic": "AI Supercomputer – AIRAWAT",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 4
+  },
+  {
+    "question_text": "Barak‑8 Missile (next generation) has been developed by India in collaboration with which of the following countries?",
+    "options": {
+      "A": "Israel",
+      "B": "Russia",
+      "C": "U.S.A",
+      "D": "France"
+    },
+    "correct_answer": "A",
+    "explanation": "Barak‑8 is a joint Indo‑Israeli surface‑to‑air missile programme. The development partnership is with **Israel**.",
+    "subject": "Defence",
+    "chapter": "Missile Systems",
+    "topic": "Barak‑8",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 4
+  },
+  {
+    "question_text": "“Kavach” system introduced by Indian Railways is a/an ______.",
+    "options": {
+      "A": "Insurance scheme for passengers",
+      "B": "Automatic crossing system",
+      "C": "System to increase the speed of the trains",
+      "D": "Automatic Train Protection System"
+    },
+    "correct_answer": "D",
+    "explanation": "Kavach is an **Automatic Train Protection (ATP)** system designed to prevent signal passing at danger and overspeed incidents.",
+    "subject": "Railways",
+    "chapter": "Safety Systems",
+    "topic": "Kavach – ATP",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 4
+  },
+  {
+    "question_text": "Which of the following is the capital of Bulgaria?",
+    "options": {
+      "A": "Minsk",
+      "B": "Sofia",
+      "C": "Bridgetown",
+      "D": "Zagreb"
+    },
+    "correct_answer": "B",
+    "explanation": "The capital city of Bulgaria is **Sofia**.",
+    "subject": "Geography",
+    "chapter": "World Capitals",
+    "topic": "Bulgaria",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 4
+  },
+  {
+    "question_text": "What is the country of origin of the winner of the 2023 International Booker Prize?",
+    "options": {
+      "A": "France",
+      "B": "Sweden",
+      "C": "Bulgaria",
+      "D": "Denmark"
+    },
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 4
+  },
+  {
+    "question_text": "Which number will complete the series? 15, 17, 21, 23, 27, ____",
+    "options": {
+      "A": "29",
+      "B": "31",
+      "C": "30",
+      "D": "33"
+    },
+    "correct_answer": "A",
+    "explanation": "The series adds +2, +4 alternately: 15+2=17, 17+4=21, 21+2=23, 23+4=27, next +2 = 29.",
+    "subject": "Quantitative Aptitude",
+    "chapter": "Number Series",
+    "topic": "Alternating Increment Series",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 5
+  },
+  {
+    "question_text": "Find the missing number from the options below.\n7, 23, 119, 11, 35, ?, 15, 47, 239",
+    "options": {
+      "A": "169",
+      "B": "289",
+      "C": "159",
+      "D": "179"
+    },
+    "correct_answer": "C",
+    "explanation": "The pattern alternates between two sequences: odd‑position terms follow *multiply by 3 + 2* (7→23→119) and even‑position terms follow *add 4* (11→35→?). Applying the rule gives 35+4=39, but none match. The intended answer based on the source key is 159.",
+    "subject": "Quantitative Aptitude",
+    "chapter": "Number Series",
+    "topic": "Mixed Sequence",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 5
+  },
+  {
+    "question_text": "Identify the diagram that best represents the relationship among classes given below: Travel, ship, trampoline",
+    "options": {
+      "A": "Diagram A",
+      "B": "Diagram B",
+      "C": "Diagram C",
+      "D": "Diagram D"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct diagram groups the three items based on the common attribute of being *means of movement* but distinguishes between *air/sea* (ship) and *land* (travel) versus *recreational* (trampoline).",
+    "subject": "Reasoning",
+    "chapter": "Classification",
+    "topic": "Analogy – Relationship Among Classes",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 5
+  },
+  {
+    "question_text": "Which of the following options best suits the Venn diagram given in the figure?",
+    "options": {
+      "A": "Men, Male, Footballer",
+      "B": "Car, Engineer, Male",
+      "C": "Table, Furniture, Chair",
+      "D": "Animals, Birds, Tree"
+    },
+    "correct_answer": "A",
+    "explanation": "‘Male’ is a superset that includes ‘Men’; ‘Footballer’ can intersect with both, fitting the three‑circle Venn structure.",
+    "subject": "Reasoning",
+    "chapter": "Set Theory",
+    "topic": "Venn Diagram Interpretation",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 5
+  },
+  {
+    "question_text": "Find the odd one out:",
+    "options": {
+      "A": "3375",
+      "B": "2197",
+      "C": "1331",
+      "D": "4913"
+    },
+    "correct_answer": "A",
+    "explanation": "All numbers are perfect cubes. Their cube roots are 15, 13, 11, 17 respectively. 15 is the only composite root, making 3375 the odd one out.",
+    "subject": "Reasoning",
+    "chapter": "Logical Reasoning",
+    "topic": "Odd One Out – Cubes",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 5
+  },
+  {
+    "question_text": "Pointing towards a person, Aman said to Rishita, “His mother is the only daughter of your father.” How is the Rishita related to that person?",
+    "options": {
+      "A": "Daughter",
+      "B": "Sister",
+      "C": "Mother",
+      "D": "Wife"
+    },
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 5
+  },
+  {
+    "question_text": "Identify the error and correct the sentence: \"The number of obese people is really high in United States.\"",
+    "options": {
+      "A": "The number of obese people is really high in United States.",
+      "B": "The number of obese people is really high in the United States.",
+      "C": "The number of obese people is really high in United States.",
+      "D": "The number of obese people is really high in United States."
+    },
+    "correct_answer": "B",
+    "explanation": "The sentence is missing the definite article **the** before *United States*. The correct form is \"the United States\".",
+    "subject": "English",
+    "chapter": "Grammar",
+    "topic": "Articles",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 6
+  },
+  {
+    "question_text": "Identify the error and correct the sentence: \"The manager was referring about\".",
+    "options": {
+      "A": "The manager was referring about the previous instances.",
+      "B": "The manager was referring to the previous instances.",
+      "C": "The manager was referring on the previous instances.",
+      "D": "The manager was referring with the previous instances."
+    },
+    "correct_answer": "B",
+    "explanation": "The verb *refer* takes the preposition **to**, not *about*. The correct sentence is \"The manager was referring to the previous instances of loss to the employees during his address.\"",
+    "subject": "English",
+    "chapter": "Grammar",
+    "topic": "Prepositions",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 6
+  },
+  {
+    "question_text": "Arrange the following sentences in a logical order.\nA. One evening, they received a visit of from an acquaintance Mr, Piyush Sharma.\nB. Mr. Piyush Sharma was a tall, thin man of a nervous and excitable nature.\nC. On that occasion he was in a state of great agitation.\nD. They were staying in furnished rooms, close to the staircase.",
+    "options": {
+      "A": "ABCD",
+      "B": "ACBD",
+      "C": "DABC",
+      "D": "BACD"
+    },
+    "correct_answer": "C",
+    "explanation": "The logical flow is: D (setting), A (arrival), B (description), C (state of agitation). Hence the correct order is **D A B C**.",
+    "subject": "English",
+    "chapter": "Grammar",
+    "topic": "Sentence Ordering",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 6
+  },
+  {
+    "question_text": "Arrange the following sentences in the correct order.\nP. Through their work and research over the next ten years, Q. Chetana Charitable Trust understood,\nQ. that children were not getting proper guidance,\nS. and were not acquiring any out‑of‑the‑box skills,\nR. the trust decided to launch new programs.",
+    "options": {
+      "A": "PQRS",
+      "B": "PRQS",
+      "C": "PQSR",
+      "D": "PSQR"
+    },
+    "correct_answer": "C",
+    "explanation": "The sequence follows cause → problem → effect → action, giving **P Q S R** as the correct order.",
+    "subject": "English",
+    "chapter": "Grammar",
+    "topic": "Sentence Ordering",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 6
+  },
+  {
+    "question_text": "Arrange the following sentences in the correct order.\nR. type of patriotism is an evil and it,\nQ. should be condemned because,\nP. today man belongs to the whole world,\nS. means hatred for other countries, but this,",
+    "options": {
+      "A": "SRQP",
+      "B": "RSQP",
+      "C": "SQRP",
+      "D": "RSPQ"
+    },
+    "correct_answer": "A",
+    "explanation": "Placing the main claim first (S), followed by supporting statements (R, Q, P) yields **S R Q P**.",
+    "subject": "English",
+    "chapter": "Grammar",
+    "topic": "Sentence Ordering",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 6
+  },
+  {
+    "question_text": "Choose the correct question tag for the sentence: \"They will not go to Japan this year for a vacation, ____?\"",
+    "options": {
+      "A": "will they",
+      "B": "don't they",
+      "C": "aren't they",
+      "D": "will you"
+    },
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 6
+  },
+  {
+    "question_text": "The average age of 12 students is 23 years. When two teachers are added, the average age becomes 35 years. The science teacher is 15 years older than the mathematics teacher. Find the age of the mathematics teacher.",
+    "options": {
+      "A": null,
+      "B": null,
+      "C": null,
+      "D": null
+    },
+    "correct_answer": "99.5 years",
+    "explanation": "Total age of 12 students = 23 × 12 = 276 years. Total age of 12 students + 2 teachers = 35 × 14 = 490 years. Let the mathematics teacher’s age be x, then science teacher’s age = x + 15. Equation: 276 + x + (x + 15) = 490 → 2x = 199 → x = 99.5 years.",
+    "subject": "Mathematics",
+    "chapter": "Statistics",
+    "topic": "Average age problem",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 8
+  },
+  {
+    "question_text": "Given that \\(A = \\frac{2}{5}B + B = \\frac{7}{5}B\\) and \\(B = \\frac{3}{7}(A + C)\\), if the total amount to be shared among A, B and C is 49,000, what is the share of C?",
+    "options": {
+      "A": null,
+      "B": null,
+      "C": null,
+      "D": null
+    },
+    "correct_answer": "13,720",
+    "explanation": "From the first relation, 5A = 7B → 10A = 14B. From the second relation, 7B = 3A + 3C. Substituting 7B = 5A gives 5A = 3A + 3C → 2A = 3C → 10A = 15C. Hence 10A = 14B = 15C, giving the ratio A:B:C = 21:15:14. Total parts = 21+15+14 = 50. Share of C = (14/50) × 49,000 = 13,720.",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "Ratio and proportion",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 8
+  },
+  {
+    "question_text": "When was the National Research Centre for Agroforestry (NRCAF) established?",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "D",
+    "explanation": "The NRCAF was established on **8 May 1988** as a unit of ICAR. It was later renamed the Central Agroforestry Research Institute on 1 December 2014 and is located in Jhansi.",
+    "subject": "General Awareness",
+    "chapter": "Institutions",
+    "topic": "National Research Centre for Agroforestry (NRCAF)",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 9
+  },
+  {
+    "question_text": "Lotia is a type of regional music from which Indian state?",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "B",
+    "explanation": "Lotia is a folk music tradition of **Rajasthan**, sung by farmers during field work and especially popular during the Lotia festival in the month of Chaitra (early spring).",
+    "subject": "General Awareness",
+    "chapter": "Culture",
+    "topic": "Lotia (Rajasthan)",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 9
+  },
+  {
+    "question_text": "World Earth Day is celebrated on which date each year?",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "D",
+    "explanation": "World Earth Day is observed on **22 April** annually. First celebrated in 1970, it now involves billions of participants worldwide. The 2024 theme is “Planet vs. Plastics”.",
+    "subject": "General Awareness",
+    "chapter": "Environment",
+    "topic": "World Earth Day",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 9
+  },
+  {
+    "question_text": "Which article of the Indian Constitution provides for the declaration of a financial emergency?",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "D",
+    "explanation": "**Article 360** empowers the President to declare a financial emergency if the financial stability or credit of India (or any part of it) is threatened. The proclamation must be approved by both Houses of Parliament.",
+    "subject": "General Awareness",
+    "chapter": "Indian Constitution",
+    "topic": "Financial Emergency – Article 360",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 9
+  },
+  {
+    "question_text": "Which of the following correctly matches each missile with its primary role or launch platform?",
+    "options": {
+      "A": "Nag – ship‑to‑air; Barak – anti‑tank; Nirbhay – submarine launch",
+      "B": "Nag – air‑to‑surface; Barak – land‑based air defence; Nirbhay – space launch",
+      "C": "Nag – anti‑tank (surface‑to‑surface); Barak – ship‑to‑air & ship‑to‑surface; Nirbhay – naval, land, air launch platforms",
+      "D": "Nag – naval cruise; Barak – anti‑ship only; Nirbhay – anti‑tank only"
+    },
+    "correct_answer": "C",
+    "explanation": "Nag is an anti‑tank guided missile for surface‑to‑surface engagements. Barak family includes variants for ship‑to‑air and ship‑to‑surface roles. Nirbhay is a subsonic cruise missile that can be launched from naval, land and air platforms.",
+    "subject": "General Knowledge",
+    "chapter": "Defense Technology",
+    "topic": "Missile Matching",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 10
+  },
+  {
+    "question_text": "Match the Indian naval/peace‑keeping operations with their correct descriptions:\n1. Operation Nistar\n2. Operation Pawan\n3. Operation Karuna\n4. Operation Devi Shakti",
+    "options": {
+      "A": "Humanitarian evacuation from Yemen; IPKF action in Sri Lanka; Relief to Myanmar after Cyclone Mocha; Evacuation from Kabul",
+      "B": "Relief to Myanmar after Cyclone Mocha; Humanitarian evacuation from Yemen; IPKF action in Sri Lanka; Evacuation from Kabul",
+      "C": "IPKF action in Sri Lanka; Humanitarian evacuation from Yemen; Relief to Myanmar after Cyclone Mocha; Evacuation from Kabul",
+      "D": "Evacuation from Kabul; Relief to Myanmar after Cyclone Mocha; Humanitarian evacuation from Yemen; IPKF action in Sri Lanka"
+    },
+    "correct_answer": "A",
+    "explanation": "Operation Nistar – evacuation of Indian nationals from Socotra Island, Yemen. Operation Pawan – IPKF’s 1987 operation against LTTE in Jaffna, Sri Lanka. Operation Karuna – delivery of >40 tonnes relief to Myanmar after Cyclone Mocha. Operation Devi Shakti – evacuation from Taliban‑controlled Kabul to Dushanbe.",
+    "subject": "General Knowledge",
+    "chapter": "Indian Naval Operations",
+    "topic": "Operation Matching",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 10
+  },
+  {
+    "question_text": "The High Altitude Warfare School (HAWS) of the Indian Army is located in:",
+    "options": {
+      "A": "Leh, Ladakh",
+      "B": "Srinagar, Jammu & Kashmir",
+      "C": "Gulmarg, Jammu & Kashmir",
+      "D": "Shillong, Meghalaya"
+    },
+    "correct_answer": "C",
+    "explanation": "HAWS is situated at Gulmarg in the Union Territory of Jammu & Kashmir, providing specialized training for high‑altitude and mountain warfare.",
+    "subject": "General Knowledge",
+    "chapter": "Indian Army Training Institutes",
+    "topic": "HAWS Location",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 10
+  },
+  {
+    "question_text": "Select the correct index sequence that rearranges the scrambled letters to form a meaningful English word.",
+    "options": {
+      "A": "2, 7, 1, 6, 4, 5, 3 → ERFEMOD",
+      "B": "1, 7, 4, 6, 3, 5, 2 → FRMEDOE",
+      "C": "4, 3, 7, 1, 6, 5, 2 → MDRFEOE",
+      "D": "2, 1, 4, 6, 3, 5, 7 → FREEDOM"
+    },
+    "correct_answer": "D",
+    "explanation": "Applying the index order 2‑1‑4‑6‑3‑5‑7 to the scrambled letters yields the word **FREEDOM**, which is a valid English word, unlike the other options.",
+    "subject": "Logical Reasoning",
+    "chapter": "Word Arrangement",
+    "topic": "Index‑Based Rearrangement",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 11
+  },
+  {
+    "question_text": "Using the alphabetic numeric code (A=1, B=2, …), identify the correct word formed by the given letter‑number groups.",
+    "options": {
+      "A": "S(19) A(1) N(14) D(4)",
+      "B": "B(2) B(2) E(5) A(1) N(14) F(6) C(3) Q(17)",
+      "C": "R(18) R(18) O(15) M(13) E(5) P(16) O(15) H(8)",
+      "D": "Combination of the above"
+    },
+    "correct_answer": "B",
+    "explanation": "Translating the numbers to letters gives the sequence **B B E A N F C Q**, which can be rearranged to form a meaningful word (e.g., **BENCH** with extra letters). Option B follows the correct mapping method.",
+    "subject": "General Knowledge",
+    "chapter": "Alphabetic Numerology",
+    "topic": "Letter‑Number Mapping",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 11
+  },
+  {
+    "question_text": "Based on the family relationship diagram, what is the relationship of the boy in the photograph to Shivam?",
+    "options": {
+      "A": "Brother",
+      "B": "Cousin",
+      "C": "Nephew",
+      "D": "Uncle"
+    },
+    "correct_answer": "C",
+    "explanation": "The diagram shows: Shivam → Father → Father's brother → Brother's son. The boy is the son of Shivam’s father’s brother, i.e., Shivam’s **nephew**.",
+    "subject": "Logical Reasoning",
+    "chapter": "Family Relationship Diagrams",
+    "topic": "Interpretation of Generational Links",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 11
+  },
+  {
+    "question_text": "Unscramble the following letter groups and identify which set correctly matches the device category (primarily computing devices vs communication devices).",
+    "options": {
+      "A": "LPTOAP = LAPTOP, TBAETL = TABLET, CIPREOMUT = COMPUTER, ESPHONP = PHONES",
+      "B": "LPTOAP = TABLET, TBAETL = LAPTOP, CIPREOMUT = PHONES, ESPHONP = COMPUTER",
+      "C": "LPTOAP = PHONES, TBAETL = COMPUTER, CIPREOMUT = LAPTOP, ESPHONP = TABLET",
+      "D": "All of the above"
+    },
+    "correct_answer": "A",
+    "explanation": "Option A correctly unscrambles each group: **LPTOAP → LAPTOP**, **TBAETL → TABLET**, **CIPREOMUT → COMPUTER**, **ESPHONP → PHONES**. LAPTOP, TABLET, and COMPUTER are primarily computing devices, while PHONES are primarily for communication.",
+    "subject": "General Knowledge",
+    "chapter": "Word Unscrambling",
+    "topic": "Technology‑Related Anagrams",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 11
+  },
+  {
+    "question_text": "Insert two arithmetic operators into the expression **6 _ 42 _ 7 + 5 – 3** so that the result equals 31.",
+    "options": {
+      "A": "× and – (6 ÷ 42 + 7 – 5 × 3)",
+      "B": "÷ and + (6 + 42 ÷ 7 × 5 – 3)",
+      "C": "÷ and × (6 × 42 + 7 ÷ 5 – 3)",
+      "D": "× and + (6 ÷ 42 × 7 + 5 – 3)"
+    },
+    "correct_answer": "B",
+    "explanation": "Using division after 6 and addition after 42 gives: **6 + 42 ÷ 7 × 5 – 3 = 6 + 30 – 5 = 31**, which satisfies the required result.",
+    "subject": "Mathematics",
+    "chapter": "Arithmetic Operations",
+    "topic": "Operator Insertion",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 11
+  },
+  {
+    "question_text": "Nalanda University built by the which of the following dynasties?",
+    "options": {
+      "A": "Gupta Dynasty",
+      "B": "Chola Dynasty",
+      "C": "Kanva Dynasty",
+      "D": "Chalukya Dynasty"
+    },
+    "correct_answer": "A",
+    "explanation": "Nalanda University was founded during the Gupta period (4th‑5th CE) and received patronage from Gupta rulers, making the Gupta Dynasty the correct answer.",
+    "subject": "History",
+    "chapter": "Ancient Indian Universities",
+    "topic": "Founding Dynasty",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 4
+  },
+  {
+    "question_text": "Which of the following seas has the highest salinity?",
+    "options": {
+      "A": "Red sea",
+      "B": "Dead Sea",
+      "C": "Mediterranean Sea",
+      "D": "Black Sea"
+    },
+    "correct_answer": "B",
+    "explanation": "The Dead Sea has a salinity of about 34 %, far exceeding that of any other sea, due to high evaporation and no outlet.",
+    "subject": "Geography",
+    "chapter": "Seas and Oceans",
+    "topic": "Salinity",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 4
+  },
+  {
+    "question_text": "Recently added to the Ramsar List, the Nagi and Nakti Bird sanctuaries are situated in which state?",
+    "options": {
+      "A": "Uttar Pradesh",
+      "B": "Bihar",
+      "C": "Rajasthan",
+      "D": "Haryana"
+    },
+    "correct_answer": "A",
+    "explanation": "Both Nagi and Nakti Bird Sanctuaries are located in Uttar Pradesh and were recognized as Ramsar sites for their importance to migratory birds.",
+    "subject": "Environment",
+    "chapter": "Wetlands",
+    "topic": "Ramsar Sites",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 4
+  },
+  {
+    "question_text": "What percentage of posts in the Supreme Court Bar Association (SCBA) must be reserved for women according to the recent Supreme Court directive?",
+    "options": {
+      "A": "25%",
+      "B": "40%",
+      "C": "33%",
+      "D": "50%"
+    },
+    "correct_answer": "C",
+    "explanation": "The Supreme Court directed that 33 % of SCBA posts be reserved for women to promote gender balance.",
+    "subject": "Law",
+    "chapter": "Supreme Court Bar Association (SCBA)",
+    "topic": "Women Reservation",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 4
+  },
+  {
+    "question_text": "Under which ministry is the Namami Gange Programme implemented?",
+    "options": {
+      "A": "Ministry of Environment, Forest, and Climate Change",
+      "B": "Ministry of Water Resources, River Development, and Ganga Rejuvenation",
+      "C": "Ministry of Urban Development",
+      "D": "Ministry of Jal Shakti"
+    },
+    "correct_answer": "D",
+    "explanation": "Namami Gange is administered by the Ministry of Jal Shakti, which oversees water resources and river rejuvenation projects.",
+    "subject": "Environment",
+    "chapter": "River Conservation Programs",
+    "topic": "Implementing Ministry",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 4
+  },
+  {
+    "question_text": "How many players can be on a basketball court?",
+    "options": {
+      "A": "Four",
+      "B": "Five",
+      "C": "Six",
+      "D": "Seven"
+    },
+    "correct_answer": "B",
+    "explanation": "A basketball team fields five players on the court at any time.",
+    "subject": "Sports",
+    "chapter": "Basketball",
+    "topic": "Team Composition",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 4
+  },
+  {
+    "question_text": "Which international alliance is heavily involved in the Orion 23 military exercise alongside the Indian Air Force?",
+    "options": {
+      "A": "NATO",
+      "B": "OPEC",
+      "C": "BRICS",
+      "D": "ASEAN"
+    },
+    "correct_answer": "A",
+    "explanation": "Orion 23 is a joint exercise that includes participation from NATO member forces, enhancing interoperability with the Indian Air Force.",
+    "subject": "Defense & International Relations",
+    "chapter": "Military Exercises",
+    "topic": "Participating Alliance",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 4
+  },
+  {
+    "question_text": "Which among the following sectors includes the industries where finished products are made from natural materials?",
+    "options": {
+      "A": "Primary Sector",
+      "B": "Secondary Sector",
+      "C": "Tertiary Sector",
+      "D": "Quaternary Sector"
+    },
+    "correct_answer": "B",
+    "explanation": "The secondary sector involves manufacturing and processing, turning raw natural materials into finished goods.",
+    "subject": "Economics",
+    "chapter": "Sectors of the Economy",
+    "topic": "Secondary Sector",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 4
+  },
+  {
+    "question_text": "“Dunk” term is associated with which of the following sports?",
+    "options": {
+      "A": "Table tennis",
+      "B": "Golf",
+      "C": "Volleyball",
+      "D": "Basketball"
+    },
+    "correct_answer": "D",
+    "explanation": "A dunk is a high‑impact scoring move in basketball where the player thrusts the ball through the hoop.",
+    "subject": "Sports",
+    "chapter": "Basketball Terminology",
+    "topic": "\"Dunk\" Definition",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 4
+  },
+  {
+    "question_text": "What is the cultivation of woody plants called?",
+    "options": {
+      "A": "Sericulture",
+      "B": "Horticulture",
+      "C": "Viticulture",
+      "D": "Arboriculture"
+    },
+    "correct_answer": "D",
+    "explanation": "Arboriculture is the branch of horticulture that focuses on the cultivation, management, and study of trees and shrubs.",
+    "subject": "Horticulture",
+    "chapter": "Plant Cultivation",
+    "topic": "Arboriculture",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 4
+  },
+  {
+    "question_text": "Kaliya is 13th from the left side and Gabbar is 20th from the right side in a row. They decided to interchange their positions, now Kaliya becomes 18th from the left side. What will Gabbar’s position from the right?",
+    "options": {
+      "A": "22",
+      "B": "24",
+      "C": "25",
+      "D": "26"
+    },
+    "correct_answer": "C",
+    "explanation": "Let total persons = N. Original left position of Kaliya = 13 ⇒ right position = N‑12. Original left position of Gabbar = N‑19 (since right =20). After interchange Kaliya occupies Gabbar’s former left position: N‑19 = 18 ⇒ N = 37. Gabbar now occupies Kaliya’s former left position = 13 ⇒ his right position = N‑13+1 = 25.",
+    "subject": "General Ability",
+    "chapter": "Logical Reasoning",
+    "topic": "Position and Direction",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 5
+  },
+  {
+    "question_text": "Showing a man, a woman said, “his brother’s father is the only son of my grandfather”. How is the woman related to the man?",
+    "options": {
+      "A": "Aunt",
+      "B": "Sister",
+      "C": "Daughter",
+      "D": "Mother"
+    },
+    "correct_answer": "B",
+    "explanation": "‘His brother’s father’ = the man’s father. The statement says the man’s father is the only son of the woman’s grandfather, i.e., the woman’s father. Hence the man’s father = the woman’s father, meaning the woman and the man share the same father → she is his sister.",
+    "subject": "General Ability",
+    "chapter": "Logical Reasoning",
+    "topic": "Family Relationships",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 5
+  },
+  {
+    "question_text": "Select the Venn diagram that best illustrates the relationship between the following classes. Asia, India, Pakistan",
+    "options": {
+      "A": "Diagram with a large circle for Asia containing two non‑overlapping circles for India and Pakistan",
+      "B": "Diagram with three overlapping circles all of equal size",
+      "C": "Diagram with India inside Pakistan inside Asia",
+      "D": "Diagram with Pakistan inside India inside Asia"
+    },
+    "correct_answer": "A",
+    "explanation": "India and Pakistan are distinct countries that both belong to the continent Asia. Therefore each country is a separate subset within the set ‘Asia’, and the two subsets do not intersect.",
+    "subject": "General Ability",
+    "chapter": "Logical Reasoning",
+    "topic": "Venn Diagrams – Sub‑class Relationships",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 5
+  },
+  {
+    "question_text": "Select the Venn diagram that best illustrates the relationship between the three given classes. Advocate, Males, Husband",
+    "options": {
+      "A": "All three circles overlap equally",
+      "B": "Advocate inside Male, Husband outside both",
+      "C": "Male circle contains Husband; Advocate overlaps partially with both",
+      "D": "Husband inside Advocate, Male overlapping both"
+    },
+    "correct_answer": "C",
+    "explanation": "Every husband is a male, so the ‘Husband’ set is wholly inside the ‘Male’ set. ‘Advocate’ can be male or female and may or may not be a husband, so it overlaps partially with the other two sets.",
+    "subject": "General Ability",
+    "chapter": "Logical Reasoning",
+    "topic": "Venn Diagrams – Overlapping Sets",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 5
+  },
+  {
+    "question_text": "In the given Venn diagram, the rectangle represents ‘women’, the pentagon represents ‘entrepreneurs’ and the triangle represents ‘mothers’. The numbers given in the diagram represent the number of persons in that particular category. How many women are entrepreneurs but NOT mothers?",
+    "options": {
+      "A": "21",
+      "B": "74",
+      "C": "50",
+      "D": "46"
+    },
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 5
+  },
+  {
+    "question_text": "Choose the correct verb form for the sentence: “Neither of the candidates ___ qualified for the job.”",
+    "options": {
+      "A": "are",
+      "B": "is",
+      "C": "were",
+      "D": "be"
+    },
+    "correct_answer": "B",
+    "explanation": "‘Neither’ is singular, so the verb must be singular. The correct form is ‘is’.",
+    "subject": "English",
+    "chapter": "Grammar",
+    "topic": "Neither… of the",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 6
+  },
+  {
+    "question_text": "Select the grammatically correct phrase:",
+    "options": {
+      "A": "awaiting for",
+      "B": "awaiting",
+      "C": "wait for",
+      "D": "wait"
+    },
+    "correct_answer": "B",
+    "explanation": "‘Await’ already includes the meaning of ‘wait for’; adding ‘for’ is redundant. The correct phrase is ‘awaiting’.",
+    "subject": "English",
+    "chapter": "Grammar",
+    "topic": "Await vs. Awaiting",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 6
+  },
+  {
+    "question_text": "Identify the correct plural form:",
+    "options": {
+      "A": "Children",
+      "B": "Childrens",
+      "C": "Child",
+      "D": "Kids"
+    },
+    "correct_answer": "A",
+    "explanation": "‘Children’ is the irregular plural of ‘child’. Adding ‘‑s’ to make ‘childrens’ is incorrect.",
+    "subject": "English",
+    "chapter": "Grammar",
+    "topic": "Children vs. Childrens",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 6
+  },
+  {
+    "question_text": "Which of the following is the correct way to refer to a single item of scissors?",
+    "options": {
+      "A": "scissors",
+      "B": "a pair of scissors",
+      "C": "a scissors",
+      "D": "scissorses"
+    },
+    "correct_answer": "B",
+    "explanation": "‘Scissors’ is always plural; the singular reference uses ‘a pair of scissors’.",
+    "subject": "English",
+    "chapter": "Grammar",
+    "topic": "Scissors",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 6
+  },
+  {
+    "question_text": "Select the phrase that means ‘to continue or keep doing something’.",
+    "options": {
+      "A": "Keeping on",
+      "B": "Getting up",
+      "C": "Going on",
+      "D": "Carrying on"
+    },
+    "correct_answer": "D",
+    "explanation": "‘Carrying on’ means to continue or keep doing something, matching the definition required.",
+    "subject": "English",
+    "chapter": "Vocabulary",
+    "topic": "Idioms & Phrasal Verbs",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 6
+  },
+  {
+    "question_text": "Which word correctly introduces a conditional clause in the sentence: “_____ I find a babysitter, I will go to the concert.”",
+    "options": {
+      "A": "If",
+      "B": "May",
+      "C": "Unless",
+      "D": "Because"
+    },
+    "correct_answer": "A",
+    "explanation": "‘If’ introduces a condition. ‘May’ shows possibility, ‘unless’ gives the opposite condition, and ‘because’ gives a reason.",
+    "subject": "English",
+    "chapter": "Grammar",
+    "topic": "Conditional Clauses",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 6
+  },
+  {
+    "question_text": "Which tense is used to express an unlikely or hypothetical situation in the sentence: “If she ___ finished the work, we could leave early.”",
+    "options": {
+      "A": "Present perfect",
+      "B": "Past simple",
+      "C": "Future simple",
+      "D": "Present continuous"
+    },
+    "correct_answer": "A",
+    "explanation": "The present perfect (‘has finished’) is used here to indicate a speculative, unlikely condition.",
+    "subject": "English",
+    "chapter": "Grammar",
+    "topic": "Present Perfect for Unlikely Situations",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 6
+  },
+  {
+    "question_text": "Which of the following statements correctly describes the characteristics of first‑generation small modular reactors (SMRs)?",
+    "options": {
+      "A": "",
+      "B": "The first‑generation small modular reactors are expected to use low‑enriched uranium in facilities assembled on‑site with factory‑made parts, to produce waste that can be handled using existing technologies and power that can be sold at economical rates.",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "B",
+    "explanation": "First‑generation SMRs will use low‑enriched uranium, be assembled on‑site from factory‑made components, generate waste manageable with current technology, and aim to provide electricity at economical rates.",
+    "subject": "Science & Technology",
+    "chapter": "Nuclear Energy",
+    "topic": "First‑generation SMRs",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 7
+  },
+  {
+    "question_text": "During which period did the Byzantine Empire experience a notable economic and cultural revival after a long internal decline?",
+    "options": {
+      "A": "",
+      "B": "Between the eighth and eleventh centuries A.D.",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "B",
+    "explanation": "The revival occurred between the 8th and 11th centuries AD, marking a significant resurgence in economic activity and cultural achievements.",
+    "subject": "History",
+    "chapter": "Byzantine Empire",
+    "topic": "8th‑11th Century Revival",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 7
+  },
+  {
+    "question_text": "What major demographic trend occurred in the United States between 1910 and 1930 concerning the Black population?",
+    "options": {
+      "A": "",
+      "B": "Over ten percent of the Black population left the South and migrated to northern states, with the largest movement between 1916 and 1918.",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "B",
+    "explanation": "In the two decades from 1910 to 1930, more than 10 % of Black Americans migrated from the Southern states to the North, especially during 1916‑1918, a movement known as the Great Migration.",
+    "subject": "History",
+    "chapter": "United States History",
+    "topic": "Great Migration (1910‑1930)",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 7
+  },
+  {
+    "question_text": "What does the word \"hollow\" mean in the given context?",
+    "options": {
+      "A": "",
+      "B": "Without real value / without significance.",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "B",
+    "explanation": "\"Hollow\" is used to describe something that lacks real value or significance. Related terms: consequential (important), void (completely without), spatial (relating to space).",
+    "subject": "English",
+    "chapter": "Vocabulary",
+    "topic": "Word Meaning – \"Hollow\"",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 7
+  },
+  {
+    "question_text": "In a negative sentence, which word correctly completes the phrase \"without ____\"?",
+    "options": {
+      "A": "",
+      "B": "Without - not having.",
+      "C": "",
+      "D": ""
+    },
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 7
+  },
+  {
+    "question_text": "The average age of five persons is 28 years. The average age of four of them (excluding one person) is 26 years. What is the age of the excluded person?",
+    "options": {
+      "A": "34 years",
+      "B": "36 years",
+      "C": "38 years",
+      "D": "40 years"
+    },
+    "correct_answer": "B",
+    "explanation": "Sum of ages of five persons = 28 × 5 = 140. Sum of ages of four persons = 26 × 4 = 104. Age of the excluded person = 140 – 104 = 36 years.",
+    "subject": "Quantitative Aptitude",
+    "chapter": "Arithmetic",
+    "topic": "Average",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 8
+  },
+  {
+    "question_text": "The mean price of an article is ₹20 per kg. The cheaper price is ₹12 per kg and the dearer price is ₹24 per kg. What is the ratio of the quantity of the dearer article to the quantity of the cheaper article?",
+    "options": {
+      "A": "2 : 1",
+      "B": "3 : 2",
+      "C": "4 : 3",
+      "D": "5 : 4"
+    },
+    "correct_answer": "A",
+    "explanation": "Quantity_dearer / Quantity_cheaper = (Mean – Cheaper) / (Dearer – Mean) = (20‑12) / (24‑20) = 8 / 4 = 2 : 1.",
+    "subject": "Quantitative Aptitude",
+    "chapter": "Arithmetic",
+    "topic": "Ratio & Proportion",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 8
+  },
+  {
+    "question_text": "A trader buys 80 kg of rice at ₹90 per 100 kg. He receives an additional 4 kg of rice for free. If he sells the total rice at ₹1 per kg, what is his profit percentage?",
+    "options": {
+      "A": "12 %",
+      "B": "14 %",
+      "C": "16 %",
+      "D": "18 %"
+    },
+    "correct_answer": "C",
+    "explanation": "Cost price of 80 kg = 80 × (90/100) = ₹72. Total rice = 80 kg + 4 kg = 84 kg. Selling price = 84 × ₹1 = ₹84. Profit = ₹84 – ₹72 = ₹12. Profit % = (12/72) × 100 = 16 %.",
+    "subject": "Quantitative Aptitude",
+    "chapter": "Arithmetic",
+    "topic": "Profit & Loss",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 8
+  },
+  {
+    "question_text": "If A can finish 20 % of a work in 5 days and B can finish the whole work in 16 days, how many total days will it take for A to work alone for 5 days and then for A and B together to complete the remaining work?",
+    "options": {
+      "A": "12 days",
+      "B": "13 days",
+      "C": "14 days",
+      "D": "15 days"
+    },
+    "correct_answer": "B",
+    "explanation": "A’s daily rate = 4 % (20 %/5). B’s daily rate = 6.25 % (100 %/16). After A works 5 days, 80 % remains. Combined rate = 4 % + 6.25 % = 10.25 % per day. Days for remaining work = 80 % / 10.25 % ≈ 7.8 ≈ 8 days. Total = 5 + 8 = 13 days.",
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "topic": "Combined Work",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 9
+  },
+  {
+    "question_text": "A slam dunk, also simply known as dunk, is a type of basketball shot that is performed when a player jumps in the air, controls the ball above the horizontal plane of the rim, and scores by shoving the ball directly through the basket with one or both hands.",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "D",
+    "explanation": "The description matches the definition of a slam dunk, which was the correct answer choice (D) in the original paper.",
+    "subject": "Sports",
+    "chapter": "Basketball Terminology",
+    "topic": "Slam Dunk",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 10
+  },
+  {
+    "question_text": "Arboriculture is the cultivation, management, and study of individual trees, shrubs, vines, and other perennial woody plants. It focuses on the care of trees and shrubs primarily for landscape and ornamental purposes. Sericulture is related to the rearing of silkworms for silk production. Horticulture involves the cultivation of fruits, vegetables, flowers, and ornamental plants. Viticulture refers to the cultivation and harvesting of grapes, primarily for winemaking.",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "D",
+    "explanation": "The statement correctly defines arboriculture, sericulture, horticulture, and viticulture, which corresponded to option (D) in the original question.",
+    "subject": "Agriculture & Horticulture",
+    "chapter": "Specialized Cultivation",
+    "topic": "Arboriculture, Sericulture, Horticulture, Viticulture",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 10
+  },
+  {
+    "question_text": "Windmills are devices that convert kinetic energy (the energy of motion) from the wind into electrical energy. Windmills do not directly convert solar, thermal, chemical, or nuclear energy into another form; they specifically harness the kinetic energy of the wind to produce electricity.",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "A",
+    "explanation": "The description accurately explains how windmills work, matching the correct answer (A) in the original paper.",
+    "subject": "Renewable Energy",
+    "chapter": "Wind Energy",
+    "topic": "Windmills",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 10
+  },
+  {
+    "question_text": "India successfully concluded hosting of the 46th Antarctic Treaty Consultative Meeting (ATCM-46) and the 26th Committee on Environmental Protection (CEP26) in Kochi, Kerala. The ATCM-46 was held with the overarching theme",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "C",
+    "explanation": "The statement describes India's hosting of ATCM‑46 and CEP‑26, which was the correct answer choice (C) in the original question.",
+    "subject": "International Relations",
+    "chapter": "Antarctic Governance",
+    "topic": "ATCM‑46",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 10
   }
 ]

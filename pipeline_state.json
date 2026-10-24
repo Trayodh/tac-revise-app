@@ -7207,16 +7207,31 @@
     "extracted_pages": [
       1,
       2,
-      3
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
     ],
-    "status": "in_progress"
+    "status": "completed"
   },
   "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf": {
     "total_pages": 11,
     "extracted_pages": [
       1,
       2,
-      3
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
     ],
     "status": "in_progress"
   },
@@ -7225,9 +7240,16 @@
     "extracted_pages": [
       1,
       2,
-      3
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
     ],
-    "status": "in_progress"
+    "status": "completed"
   },
   "AFCAT Papers\\CAPF Paper 1 & CSE papers\\CSP_2020_GS_Paper-1.pdf": {
     "total_pages": 48,

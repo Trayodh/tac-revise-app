@@ -198508,5 +198508,1307 @@
     "mcq": null,
     "source_pdf": "CAPF_CSE_Papers\\QP-CAPF-20-Gen_Ability_Intelligence.pdf",
     "source_page": 48
+  },
+  {
+    "subject": "General Aptitude",
+    "chapter": "Arithmetic",
+    "subchapter": "Area",
+    "topic": "Area of Rectangle",
+    "content": "For a rectangle, **Area = Length × Breadth**. If the area and one dimension are known, the other dimension can be found by dividing the area by the known dimension.\\n\\n**Example**: A hall has length 40 m and area 960 m². Breadth = 960 ÷ 40 = 24 m.\\n\\n**Carpet covering**: Number of carpets = Total area ÷ Area of one carpet.\\n\\n**Formula**: \\(\\text{Number of carpets}=\\frac{\\text{Total floor area}}{\\text{Carpet length} \\times \\text{Carpet breadth}}\\)",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 4
+  },
+  {
+    "subject": "General Aptitude",
+    "chapter": "Arithmetic",
+    "subchapter": "Speed‑Distance‑Time",
+    "topic": "Relation between speed, distance and time",
+    "content": "The basic relation is:\\n\\n\\[\\text{Distance}=\\text{Speed}\\times\\text{Time}\\]\\n\\nIf a person travels the same distance at two different speeds and arrives a certain amount of time early or late, the difference in travel times equals the sum of the early and late differences.\\n\\n**Example**: Let the distance be \\(D\\) km. At 3 km/h the time is \\(D/3\\) h and he is 15 min (0.25 h) late. At 4 km/h the time is \\(D/4\\) h and he is 15 min early. Hence:\\n\\n\\[\\frac{D}{3}-\\frac{D}{4}=0.5\\]\\n\\nSolving gives \\(D=6\\) km.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 4
+  },
+  {
+    "subject": "General Aptitude",
+    "chapter": "Arithmetic",
+    "subchapter": "Percentage",
+    "topic": "Area left after cutting margins",
+    "content": "When a uniform margin is cut from each side of a rectangle, the new dimensions are:\\n\\n- New length = Original length \\(- 2\\times\\) (margin on length side)\\n- New breadth = Original breadth \\(- 2\\times\\) (margin on breadth side)\\n\\nThe percentage of the original area that remains is:\\n\\n\\[\\%\\text{ left}=\\frac{\\text{New length}\\times\\text{New breadth}}{\\text{Original length}\\times\\text{Original breadth}}\\times100\\]\\n\\n**Example**: Original = 30 cm × 15 cm = 450 cm². Margins: 2.5 cm (length) and 1.5 cm (breadth).\\n\\nNew length = 30 - 2×2.5 = 25 cm, New breadth = 15 - 2×1.5 = 12 cm.\\n\\nNew area = 25 × 12 = 300 cm².\\n\\n\\(\\frac{300}{450}\\times100 = 66.66\\%\\).",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 4
+  },
+  {
+    "subject": "General Aptitude",
+    "chapter": "Arithmetic",
+    "subchapter": "Ratio & Proportion",
+    "topic": "Mixture problems – water and milk",
+    "content": "For mixture problems, convert the given information into absolute quantities, add the quantities, then form the required ratio.\\n\\n**Steps**:\\n1. Find the amount of each component in each mixture.\\n2. Add the amounts of the same component from all mixtures.\\n3. Write the ratio of the required components.\\n\\n**Example**:\\n- Mixture 1: 8 L total, water = 2 L → milk = 6 L.\\n- Mixture 2: 14 L total, milk : water = 6 : 1 → water = 2 L, milk = 12 L.\\n- Combined water = 2 + 2 = 4 L, combined milk = 6 + 12 = 18 L.\\n- Ratio water : milk = 4 : 18 = 2 : 9.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 4
+  },
+  {
+    "subject": "General Aptitude",
+    "chapter": "Arithmetic",
+    "subchapter": "Profit & Loss",
+    "topic": "Profit % on Cost Price vs. on Selling Price",
+    "content": "Let **CP** be cost price and **SP** be selling price.\\n\\n- Profit % on CP: \\(\\text{Profit}=\\frac{\\text{SP}-\\text{CP}}{\\text{CP}}\\times100\\).\\n- Profit % on SP: \\(\\text{Profit}=\\frac{\\text{SP}-\\text{CP}}{\\text{SP}}\\times100\\).\\n\\nIf profit is 40 % on CP, then \\(\\text{SP}=1.4\\,\\text{CP}\\).\\nIf profit is 50 % on SP, then \\(\\text{CP}=0.5\\,\\text{SP}\\) → \\(\\text{SP}=2\\,\\text{CP}\\).\\n\\nWhen two persons have the same SP but different bases for profit calculation, the difference in their profit amounts can be expressed as:\\n\\n\\[\\text{Difference}=\\text{Profit}_Q-\\text{Profit}_P=\\frac{3}{14}\\,\\text{SP}\\]\\n\\nSetting the difference to the given value allows solving for SP.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 4
+  },
+  {
+    "subject": "General Aptitude",
+    "chapter": "Arithmetic",
+    "subchapter": "Average",
+    "topic": "Average age of a family with new members",
+    "content": "Average age = (Sum of ages) ÷ (Number of members).\\n\\nWhen new members are added, the new average can be expressed as:\\n\\n\\[\\text{New sum}=\\text{Old sum}+\\text{ages of new members}\\]\\n\\[\\text{New average}=\\frac{\\text{New sum}}{\\text{Old number}+\\text{new members}}\\]\\n\\nIf the average remains unchanged, the increase in total age due to the passage of time must be exactly offset by the ages of the newly born members.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 4
+  },
+  {
+    "subject": "AFCAT",
+    "chapter": "Verbal Ability",
+    "subchapter": "Vocabulary",
+    "topic": "Personality Types",
+    "content": "### Personality Types\n- **Ambivert**: A person who possesses traits of both introversion (reserved, inward‑looking) and extroversion (outgoing, sociable).\n- **Philanthropist**: One who loves and helps mankind; a charitable person.\n- **Altruist**: A self‑less individual concerned about the welfare of others.\n- **Misanthrope**: A person who hates mankind.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 6
+  },
+  {
+    "subject": "AFCAT",
+    "chapter": "Verbal Ability",
+    "subchapter": "Vocabulary",
+    "topic": "Word Meanings",
+    "content": "### Word Meanings\n- **Malevolent**: Having ill will or wishing harm to others.\n- **Benevolent**: Kind, charitable, wishing good for others (opposite of malevolent).\n- **Vindictive**: Revengeful (similar in tone to malevolent, but not an exact opposite).\n- **Spiteful / Malicious**: Cruel, harmful (similar to malevolent, not opposite).",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 6
+  },
+  {
+    "subject": "AFCAT",
+    "chapter": "Verbal Ability",
+    "subchapter": "Idioms",
+    "topic": "Newcastle Idiom",
+    "content": "### Idiom Explanation\n- **\"Newcastle is a coal‑rich city; carrying coal there is pointless\"** – The idiom conveys that doing something redundant or needless is futile, because the resource is already abundant at the destination.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 6
+  },
+  {
+    "subject": "AFCAT",
+    "chapter": "Logical Reasoning",
+    "subchapter": "Syllogism",
+    "topic": "Statements and Conclusions",
+    "content": "### Syllogism – Statements & Conclusions\n- **Approach**: Treat each statement as true, even if it contradicts common knowledge.\n- **Conclusion I**: *All buses are benches* – This follows only if every element of the set *bus* is contained in the set *bench*.\n- **Conclusion II**: *At least some buses are benches is a possibility* – This is true if the given statements do not rule out any overlap between buses and benches.\n- **Decision Rule**: Evaluate each conclusion independently based on set relationships implied by the statements.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 6
+  },
+  {
+    "subject": "AFCAT",
+    "chapter": "Non‑Verbal Reasoning",
+    "subchapter": "Figure Embedding",
+    "topic": "Embedding without Rotation",
+    "content": "### Figure Embedding (No Rotation Allowed)\n- The task is to identify which option figure contains the given figure as a part of its pattern **without rotating** the original figure.\n- **Key Steps**:\n  1. Observe the orientation of the given figure.\n  2. Scan each option for the exact orientation and shape.\n  3. Ensure that the figure is not mirrored or rotated; it must appear exactly as presented.\n- The correct answer is the option where the given figure is embedded in its original orientation.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 6
+  },
+  {
+    "subject": "AFCAT",
+    "chapter": "Non‑Verbal Reasoning",
+    "subchapter": "Pattern Completion",
+    "topic": "Missing Figure Identification",
+    "content": "### Pattern Completion\n- A series of figures follows a logical rule (e.g., rotation, reflection, addition/removal of elements).\n- To find the missing figure (marked ‘?’), determine the rule governing the sequence and apply it to the last position.\n- Common rules include:\n  * Rotation by a fixed angle.\n  * Incremental addition/removal of shapes.\n  * Change in shading or line thickness.\n- The correct option is the one that continues the identified pattern.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 6
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Number Systems",
+    "subchapter": "Zero",
+    "topic": "Historical Significance",
+    "content": "### Zero as a Foundation\n\n- **Fact**: Once accepted, zero became a foundation for higher mathematics and modern technology.\n- **Implications**:\n  - Enabled the development of algebra, calculus, and computer science.\n  - Made positional numeral systems efficient.\n  - Crucial for algorithms, digital electronics, and programming.\n",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 7
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Indian History",
+    "subchapter": "Education",
+    "topic": "Valuing Learning",
+    "content": "### India – A Land of Learning\n\n> *India has been a land of learning throughout the ages, not indeed in the sense that education has been universal, but in the sense that learning has always been very highly valued, and the learned man has been held in higher esteem than the warrior or the administrator.*\n\n- Highlights the cultural reverence for scholars over warriors/administrators.\n- Shows that learning was prized even when formal education was not widespread.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 7
+  },
+  {
+    "subject": "Geography / Climatology",
+    "chapter": "Monsoon Studies",
+    "subchapter": "Rainfall Predictors",
+    "topic": "June Rainfall Not a Predictor",
+    "content": "### Monsoon Prediction Insight\n\n> *While the recent rain may have soothed concerns of a drought, India’s rainfall data for over a century show that the June rainfall is no predictor of the monsoon’s outcome.*\n\n- Long‑term data (100+ years) indicate June rainfall does **not** reliably forecast the monsoon.\n- Important for agricultural planning and disaster management.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 7
+  },
+  {
+    "subject": "Social Studies",
+    "chapter": "Patriotism",
+    "subchapter": "Types of Patriotism",
+    "topic": "Inclusive Patriotism",
+    "content": "### Patriotism vs. Chauvinism\n\n> *For some people patriotism means hatred for other countries, but this type of patriotism is an evil and it should be condemned because today man belongs to the whole world as much as to any one country.*\n\n- Distinguishes **inclusive patriotism** (global belonging) from **exclusive, hateful patriotism**.\n- Calls for condemnation of the latter.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 7
+  },
+  {
+    "subject": "Reasoning",
+    "chapter": "Analogy",
+    "subchapter": "Functional Analogy",
+    "topic": "Animal Product Analogy",
+    "content": "### Analogy Example\n\n- **Bee → Honey**\n- **Cow → Milk**\n\nBoth pairs illustrate a living creature producing a characteristic product.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 7
+  },
+  {
+    "subject": "Reasoning",
+    "chapter": "Analogy",
+    "subchapter": "Functional Analogy",
+    "topic": "Tool‑Usage Analogy",
+    "content": "### Analogy Example\n\n- **Oven → Bake**\n- **Knife → Slice**\n\nEach pair links a tool with its primary function.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 7
+  },
+  {
+    "subject": "Reasoning",
+    "chapter": "Analogy",
+    "subchapter": "Part‑Whole Analogy",
+    "topic": "Biological Part Analogy",
+    "content": "### Analogy Example\n\n- **Finger → Hand**\n- **Leaf → Tree**\n\nBoth illustrate a part‑to‑whole relationship in biology.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 7
+  },
+  {
+    "subject": "Reasoning",
+    "chapter": "General Rule",
+    "subchapter": "Quantitative Expressions",
+    "topic": "Distance/Time/Amount Rule",
+    "content": "### Rule (Partial)\n\n> *When we refer to a distance, period of time, or amount, it …*  \n*(The statement is incomplete in the source; the rule generally concerns using appropriate units and comparative language.)*",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 7
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Current Affairs",
+    "subchapter": "Space Missions",
+    "topic": "Axiom Mission 4 (Ax-4)",
+    "content": "### Axiom Mission 4 (Ax-4)\n- **Launch Vehicle:** Falcon 9 Block 5 (SpaceX)\n- **Launch Date:** 25 June 2025\n- **Launch Site:** Launch Complex 39A, Kennedy Space Center, USA\n- **Spacecraft:** SpaceX Crew Dragon capsule named **“Grace**”\n- **Crew:** Four astronauts were transported to the International Space Station (ISS).\n- **Significance:** Demonstrates continued commercial crew capability and international cooperation for low‑Earth‑orbit missions.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 8
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Current Affairs",
+    "subchapter": "International Operations",
+    "topic": "Operation Sindhu",
+    "content": "### Operation Sindhu (June 2025)\n- **Purpose:** Humanitarian evacuation of Indian nationals stranded in Iran amid the Iran‑Israel conflict.\n- **Launch Date:** 18 June 2025, initiated by the Government of India.\n- **Primary Beneficiaries:** Indian students and other citizens present in Iran.\n- **Execution:** Conducted in multiple phases; evacuation routes included transit through Armenia.\n- **Outcome:** Thousands of Indians safely repatriated.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 8
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Current Affairs",
+    "subchapter": "Archaeology & Heritage",
+    "topic": "Archaeological Survey of India (ASI)",
+    "content": "### Sir Alexander Cunningham & ASI\n- **Founder:** Sir Alexander Cunningham.\n- **Position:** First Director‑General of the Archaeological Survey of India.\n- **Contributions:**\n  - Systematic surveying of ancient monuments across India.\n  - Excavation of historically significant sites.\n  - Preservation and documentation of India’s cultural heritage.\n- **Legacy:** Laid the foundation for modern archaeological practices in the country.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 8
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Current Affairs",
+    "subchapter": "Banking & Financial Regulation",
+    "topic": "DAKSH Portal (RBI)",
+    "content": "### DAKSH – RBI’s Regulatory Workflow Platform\n- **Launch:** November 2022 by the Reserve Bank of India (RBI).\n- **Target Users:** Banks, Non‑Banking Financial Companies (NBFCs), payment system operators, and other regulated entities.\n- **Purpose:**\n  - Provide a single, online workflow for compliance reporting, inspection responses, and regulatory data submission.\n  - Streamline interaction between RBI and regulated entities, reducing manual paperwork and improving efficiency.\n- **Impact:** Enhances transparency, speeds up regulatory processes, and supports better supervision of the financial sector.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 8
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Current Affairs",
+    "subchapter": "Social Campaigns",
+    "topic": "\"100 Million for 100 Million\" Campaign",
+    "content": "### \"100 Million for 100 Million\" (Launched 2016)\n- **Primary Aim:** Mobilise 100 million Indian youth to champion the rights of 100 million children who are denied basic rights and freedoms.\n- **Focus Areas:**\n  - Eradication of child labour.\n  - Elimination of child slavery and exploitation.\n  - Promotion of education, health, and protection for vulnerable children.\n- **Strategy:** Youth‑led advocacy, community outreach, and partnership with NGOs and government bodies to create systemic change.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 8
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Number Systems",
+    "subchapter": "",
+    "topic": "Divisibility Rules",
+    "content": "### Divisibility by 16\\nA whole number is divisible by **16** if and only if the number formed by its **last four digits** is divisible by 16. This rule follows because 10,000 is a multiple of 16, so any higher‑order digits contribute a multiple of 16 to the whole number.\\n\\n**Example**: 123,456,789 → last four digits = 6789. Since 6789 ÷ 16 = 424.3125 (remainder ≠ 0), the original number is **not** divisible by 16.\\n",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 9
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "subchapter": "",
+    "topic": "Combination based probability",
+    "content": "### Probability using combinations\\nWhen selecting objects without replacement, the probability of a particular composition can be found using:\\n\\n$$P = \\frac{\\binom{n_1}{k_1}\\binom{n_2}{k_2}\\dots}{\\binom{N}{K}}$$\\nwhere:\\n- \\(n_i\\) = number of objects of type *i* in the population,\\n- \\(k_i\\) = number of objects of type *i* required in the selection,\\n- \\(N\\) = total objects,\\n- \\(K\\) = total objects drawn.\\n\\n**Worked example (AFCAT 57‑58)**:\\n$$P = \\frac{\\binom{4}{2}\\binom{8}{1}}{\\binom{12}{3}} = \\frac{6\\times8}{220}=\\frac{48}{220}=\\frac{12}{55}$$\\nThus the required probability is **12/55**.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 9
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Ratio & Proportion",
+    "subchapter": "",
+    "topic": "Carpet count problem",
+    "content": "### Finding number of items using proportion\\nIf a total quantity \\(Q\\) is to be divided into groups of size \\(a\\) and each group requires \\(b\\) units, the number of groups \\(n\\) is:\\n\\n$$n = \\frac{Q\\times b}{a\\times c}$$\\nwhere \\(c\\) is a conversion factor if needed.\\n\\n**Example (AFCAT 59)**:\\n$$n = \\frac{960\\times6}{4\\times40}=\\frac{5760}{160}=36$$\\nHence **36 carpets** are required.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 9
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "subchapter": "",
+    "topic": "Solving equations with fractions",
+    "content": "### Solving equations involving fractions\\nWhen an equation contains terms like \\(\\frac{d}{3}\\) and constants, bring all terms to a common denominator or multiply through by the LCM to eliminate fractions.\\n\\n**Illustrative step (AFCAT 60)**:\\n\\[\\frac{d}{\\frac{d}{3}} + \\frac{4}{15} = 60\\]\\nSimplify \\(\\frac{d}{\\frac{d}{3}} = 3\\). Then solve for \\(d\\) by isolating the variable.\\n",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 9
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Geometry",
+    "subchapter": "",
+    "topic": "Area of a reduced rectangle",
+    "content": "### Area left after uniform margins\\nIf a rectangle of dimensions \\(L \\times B\\) has a uniform margin of \\(m_l\\) on the length sides and \\(m_b\\) on the breadth sides, the remaining usable area is:\\n\\n$$A_{usable}= (L-2m_l)\\times (B-2m_b)$$\\n\\n**Example (AFCAT 61)**:\\n- Original: 30 cm × 15 cm\\n- Margins: 2.5 cm (length), 1.5 cm (breadth)\\n\\n$$A_{usable}= (30-2\\times2.5)\\times(15-2\\times1.5)=25\\times12=300\\text{ cm}^2$$\\nPercentage of usable area:\\n$$\\% = \\frac{300}{30\\times15}\\times100 = 66.67\\%$$",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 9
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "subchapter": "",
+    "topic": "Percentage increase in weight",
+    "content": "### Computing percentage increase\\nIf an object's weight changes from \\(W_1\\) to \\(W_2\\), the percentage increase is:\\n\\n$$\\%\\,\\text{increase}=\\frac{W_2-W_1}{W_1}\\times100$$\\n\\n**AFCAT 62 example**:\\n- Initial weights: Ram = 6 kg, Shyam = 5 kg\\n- After increase: Ram → 6 kg × 1.20 = 7.2 kg, Shyam → (6+5) kg × 1.15 = 12.65 kg\\n- Increase for Shyam = 12.65 − 7.2 = 5.45 kg\\n- Percentage increase = \\(\\frac{5.45}{6}\\times100≈9\\%\\)",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 9
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "subchapter": "",
+    "topic": "Mixture of water and milk",
+    "content": "### Solving mixture problems\\nWhen two solutions are mixed, the total quantity of each component is the sum of the individual quantities.\\n\\n**AFCAT 63**:\\n- Water added: 2 L + \\(\\frac{1}{7}\\times14\\) L = 4 L\\n- Milk after mixing: (8 L + 14 L) – 4 L = 18 L\\n- Ratio water : milk = 4 : 18 = **2 : 9**",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 9
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Profit & Loss",
+    "subchapter": "",
+    "topic": "Profit percentage and selling price",
+    "content": "### Profit calculations\\n- **Cost Price (CP) = x**\\n- Profit of 40 % → **Selling Price (SP) = 1.4x**\\n- For another transaction, profit of 50 % on the **selling price** of the first transaction gives profit = 0.5 × 1.4x = 0.7x.\\n- Difference in profit = 0.7x − 0.4x = 0.3x = 600 → **x = 2000**\\n- Hence **SP = 1.4 × 2000 = 2800**",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 9
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Age Problems",
+    "subchapter": "",
+    "topic": "Finding ages using linear equations",
+    "content": "### Age problem technique\\nLet the youngest child's age be \\(x\\) years.\\nForm an equation based on the total ages given in the problem, solve for \\(x\\).\\n\\n**AFCAT 65 example**:\\n\\[25\\times5 + 8\\times5 + x + x + 4 = 25\\times7\\]\\nSimplify → \\(2x = 6\\) → \\(x = 3\\) years.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 9
+  },
+  {
+    "subject": "Reasoning",
+    "chapter": "Logical Reasoning",
+    "subchapter": "Letter Series",
+    "topic": "Numerator‑Denominator Letter Decrement",
+    "content": "**Logic**: In a fraction where letters appear in the numerator and denominator, each letter in the numerator is decreased by **1** (i.e., moved one step backward in the alphabet) while each letter in the denominator is decreased by **3** (three steps backward). Example:\\n\\n```\\nNumerator :  F N B E M A V S   →   E M A D L Z U R   (each –1)\\nDenominator: G P C F O B –3   →   D M Z C L Y   (each –3)\\n```",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 10
+  },
+  {
+    "subject": "Reasoning",
+    "chapter": "Logical Reasoning",
+    "subchapter": "Image Transformation",
+    "topic": "Water Image",
+    "content": "**Logic**: The second picture in each pair is the *water image* (mirror image across a horizontal axis) of the first picture. This type of question tests the ability to visualise reflections.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 10
+  },
+  {
+    "subject": "Reasoning",
+    "chapter": "Logical Reasoning",
+    "subchapter": "Word Manipulation",
+    "topic": "Reverse‑Then‑Shift",
+    "content": "**Logic**: To obtain the coded word, first write the original word in reverse order, then shift the letters alternately by **‑3** and **‑2** positions in the alphabet.\\n\\n- **MOBILE** → reverse → **ELIBOM** → apply shifts → **E L I B O M → B J F Z L K**\\n- **TABLET** → reverse → **TELBAT** → apply shifts → **T E L B A T → Q C I Z X R**\\n- **KINDLE** → reverse → **ELDNIK** → apply shifts → **E L D N I K → B J A L F I**\\n\\nThe pattern of shifts is: -3, -2, -3, -2, -3, -2 …",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 10
+  },
+  {
+    "subject": "Reasoning",
+    "chapter": "Family Relationship",
+    "subchapter": "In‑Law Relations",
+    "topic": "Identifying Relations",
+    "content": "Given the statement **\"P is S’s wife’s brother\"**, the relationship can be broken down as:\\n- S’s wife → the woman married to S.\\n- S’s wife’s brother → the brother of S’s wife, i.e., **P** is S’s **brother‑in‑law** (specifically, the *sister‑in‑law’s brother*).",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 10
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Social Sciences",
+    "subchapter": "Classification of Sciences",
+    "topic": "Natural vs. Social Sciences",
+    "content": "Social Sciences include **Political Science, History, and Sociology**. **Biology** belongs to **Natural Sciences**. This classification helps in organising academic subjects for competitive exams.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 10
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Number Series",
+    "subchapter": "Arithmetic Progression with Variable Increments",
+    "topic": "Series 39, 53, ?, 108, 149, 199",
+    "content": "The series increases by successive increments of **+14, +23, +32, +41, +50** (each increment grows by **+9**). Therefore:\\n- 39 → +14 = 53\\n- 53 → +23 = 76 (missing term)\\n- 76 → +32 = 108\\n- 108 → +41 = 149\\n- 149 → +50 = 199\\nThus the missing number is **76**.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 10
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Arithmetic Operations",
+    "subchapter": "Operator Interchange",
+    "topic": "Expression Evaluation",
+    "content": "Original expression: **105 – 15 ÷ 13 + 3 × 27**.\\nAfter interchanging the operators **‘+’ ↔ ‘×’** and **‘–’ ↔ ‘÷’**, the expression becomes:\\n**105 ÷ 15 – 13 × 3 + 27**\\nEvaluation steps:\\n- 105 ÷ 15 = 7\\n- 13 × 3 = 39\\n- 7 – 39 + 27 = **‑5**",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 10
+  },
+  {
+    "subject": "Reasoning",
+    "chapter": "Pattern Sequences",
+    "subchapter": "Positional Shifts",
+    "topic": "Symbol Position Cycle",
+    "content": "Given the cycle **1 → 5 → 3 → 4 → 2** for symbols, the next series introduces a **new symbol at position 1** while the existing symbols continue the same cyclic shift. The resulting unknown symbol is denoted as **S**.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2025.pdf",
+    "source_page": 10
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Current Affairs",
+    "subchapter": "Technology",
+    "topic": "AI Supercomputer – AIRAWAT",
+    "content": "### AIRAWAT – AI Research Analytics and Knowledge Dissemination Platform\n- **Ranking**: Placed **75th** in the **Top 500 Global Supercomputing List**.\n- **Capacity**: Proof‑of‑Concept (PoC) with a peak compute capacity of **410 AI Petaflops (Mixed Precision)**.\n- **Integration**: Works in conjunction with **PARAM Siddhi‑AI**.\n- **Strategic Role**: Supports India’s **National Programme on AI (NPAI)**.\n- **Future Plans**: The Ministry of Electronics & Information Technology (MeitY) aims to scale AIRAWAT to **1,000 AI Petaflops (Mixed Precision)**, aligning with the Prime Minister’s vision of leveraging AI for socio‑economic development.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 4
+  },
+  {
+    "subject": "Defence",
+    "chapter": "Missile Systems",
+    "subchapter": "Joint Development",
+    "topic": "Barak‑8 (Barak‑8) Missile",
+    "content": "### Barak‑8 (Barak‑8) – Next‑Generation Surface‑to‑Air Missile\n- **Developed By**: **India** in collaboration with **Israel**.\n- **Purpose**: Provides air‑defence capability against aircraft, UAVs, and anti‑ship missiles.\n- **Variants**: Includes Barak‑8 LRSAM (Land‑Based) and Barak‑8 MRSAM (Naval).",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 4
+  },
+  {
+    "subject": "Railways",
+    "chapter": "Safety Systems",
+    "subchapter": "Protection Systems",
+    "topic": "Kavach – Automatic Train Protection",
+    "content": "### Kavach System\n- **Definition**: An **Automatic Train Protection (ATP)** system introduced by Indian Railways.\n- **Function**: Prevents signal passing at danger (SPAD) and overspeeding by automatically applying brakes.\n- **Goal**: Enhances safety and reduces railway accidents.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 4
+  },
+  {
+    "subject": "Geography",
+    "chapter": "World Capitals",
+    "subchapter": "Europe",
+    "topic": "Capital of Bulgaria",
+    "content": "### Sofia\n- **Sofia** is the **capital city of Bulgaria**.\n- Located in the western part of the country, it is the largest city and the political, economic, and cultural centre.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 4
+  },
+  {
+    "subject": "Literature",
+    "chapter": "Awards",
+    "subchapter": "International Booker Prize",
+    "topic": "2023 International Booker Prize Winner",
+    "content": "### 2023 International Booker Prize\n- **Winner**: *The Seven Moons of Maali Almeida* by **Shehan Karunatilaka**.\n- **Country of Origin**: **Sri Lanka**.\n- **Note**: The author’s nationality is Sri Lankan; none of the provided options (France, Sweden, Bulgaria, Denmark) match the correct answer.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 4
+  },
+  {
+    "subject": "Aviation",
+    "chapter": "Airlines",
+    "subchapter": "Joint Ventures",
+    "topic": "Tata‑Singapore Airlines JV",
+    "content": "### Vistara\n- **Joint Venture** between **Tata Sons** and **Singapore Airlines**.\n- **Operations**: Full‑service airline based in India, launched in 2015.\n- **Fleet**: Operates Airbus A320‑neo, Boeing 787‑9 Dreamliner, among others.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 4
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Number Series",
+    "subchapter": "",
+    "topic": "Alternating Increment Series",
+    "content": "In a series where the increments alternate between two values, e.g., +2, +4, +2, +4 …, the next term can be found by continuing the pattern. Example: 15, 17, 21, 23, 27, __ → increments are +2, +4, +2, +4, so the next increment is +2 giving 29.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 5
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Clock Angle Problems",
+    "subchapter": "",
+    "topic": "Angle Between Hour and Minute Hands",
+    "content": "The angle between the hour and minute hands of a clock is given by:\n\n```\nAngle = |30*H - 5.5*M|\n```\nwhere **H** is the hour (in 12‑hour format) and **M** is the minutes. If the computed angle is greater than 180°, subtract it from 360° to obtain the smaller angle.\n\n*Example 1*: At 02:09 → H = 2, M = 9 → Angle = |30*2 - 5.5*9| = |60 - 49.5| = 10.5°.\n*Example 2*: At 09:40 → H = 9, M = 40 → Angle = |30*9 - 5.5*40| = |270 - 220| = 50°.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 5
+  },
+  {
+    "subject": "Reasoning",
+    "chapter": "Family Relationship",
+    "subchapter": "",
+    "topic": "Decoding Statements",
+    "content": "Statement: “His mother is the only daughter of your father.”\n\n- *Your father’s only daughter* = **you** (if you are female) or **your sister** (if you are male). Since the addressee is Rishita (a female name), the only daughter of her father is **Rishita herself**.\n- Therefore, *his mother* = Rishita → the person being referred to is **Rishita’s son**.\n- Hence, Rishita’s relation to that person is **Mother**.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 5
+  },
+  {
+    "subject": "Reasoning",
+    "chapter": "Coding – Decoding",
+    "subchapter": "",
+    "topic": "Progressive Shift Cipher",
+    "content": "A four‑letter word is encoded by shifting each successive letter by an increasing offset:\n- 1st letter: shift 0\n- 2nd letter: shift +1\n- 3rd letter: shift +2\n- 4th letter: shift +3\n\nExample:\n- SAND → S (0), A→B (+1), N→P (+2), D→G (+3) → **SBPG**\n- BEAN → B (0), E→F (+1), A→C (+2), N→Q (+3) → **BFCQ**\n\nApplying to **ROME**:\n- R → R (0)\n- O → P (+1)\n- M → O (+2)\n- E → H (+3)\nResult: **RPOH**.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 5
+  },
+  {
+    "subject": "Reasoning",
+    "chapter": "Set Theory",
+    "subchapter": "",
+    "topic": "Venn Diagram Interpretation",
+    "content": "When a Venn diagram shows three intersecting circles, each region represents a specific combination of the three sets. The correct labeling must satisfy:\n- The central overlapping region belongs to **all three** sets.\n- Pairwise intersections belong to exactly two sets.\n- Non‑overlapping parts belong to a single set.\n\nExample option that fits: **Men, Male, Footballer** – ‘Male’ is a superset of ‘Men’, and ‘Footballer’ can intersect with both.\n(Other options violate hierarchy or logical grouping.)",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 5
+  },
+  {
+    "subject": "Reasoning",
+    "chapter": "Logical Reasoning",
+    "subchapter": "",
+    "topic": "Odd One Out – Cubes",
+    "content": "Numbers: 3375, 2197, 1331, 4913.\nAll are perfect cubes:\n- 3375 = 15³\n- 2197 = 13³\n- 1331 = 11³\n- 4913 = 17³\nIf a question asks for the odd one out, examine secondary properties (e.g., prime bases, parity). Here, the bases 11, 13, 15, 17 are consecutive odd numbers; 15 is the only composite base, making **3375** the odd one out.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 5
+  },
+  {
+    "subject": "Reasoning",
+    "chapter": "Classification",
+    "subchapter": "",
+    "topic": "Analogy – Relationship Among Classes",
+    "content": "When asked to choose a diagram that best represents relationships among items like **Travel, Ship, Trampoline**, consider the type of relationship (e.g., category‑member, function, or similarity). The correct diagram typically groups items that share a common attribute while showing distinct differences.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 5
+  },
+  {
+    "subject": "English",
+    "chapter": "Grammar",
+    "subchapter": "Articles",
+    "topic": "Use of Definite Article with Proper Nouns",
+    "content": "When referring to a specific country or region that includes the word *United States*, the definite article **the** is required. Example: **The** United States. Omitting the article results in a grammatical error.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 6
+  },
+  {
+    "subject": "English",
+    "chapter": "Grammar",
+    "subchapter": "Prepositions",
+    "topic": "Correct Preposition after *refer*",
+    "content": "The verb **refer** is followed by the preposition **to** when indicating the object of reference. Incorrect: *refering about*. Correct: *referring to*.\n\n**Rule:** *refer* + **to** + noun/pronoun.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 6
+  },
+  {
+    "subject": "English",
+    "chapter": "Grammar",
+    "subchapter": "Sentence Ordering",
+    "topic": "Logical Sequence of Sentences",
+    "content": "When arranging a paragraph, place sentences in a logical flow: introduction → description → event → conclusion. Identify cues such as time markers, pronouns, and connective words to determine the correct order.\n\n**Example:**\n- D: *One evening, they received a visit from an acquaintance Mr. Piyush Sharma.*\n- A: *Mr. Piyush Sharma was a tall, thin man of a nervous and excitable nature.*\n- B: *On that occasion he was in a state of great agitation.*\n- C: *They were staying in furnished rooms, close to the staircase.*\nThe correct order is **D A B C**.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 6
+  },
+  {
+    "subject": "English",
+    "chapter": "Grammar",
+    "subchapter": "Sentence Ordering",
+    "topic": "Ordering with Multiple Clauses",
+    "content": "Identify the logical progression of ideas. In the example, the sequence **P Q S R** reflects cause‑effect and chronological order:\n- P: *Through their work and research over the next ten years, Q. Chetana Charitable Trust understood,*\n- Q: *that children were not getting proper guidance,*\n- S: *and were not acquiring any out‑of‑the‑box skills,*\n- R: *the trust decided to launch new programs.*\nThus the correct order is **PQSR**.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 6
+  },
+  {
+    "subject": "English",
+    "chapter": "Grammar",
+    "subchapter": "Sentence Ordering",
+    "topic": "Reversing Order for Emphasis",
+    "content": "When a sentence contains a contrastive statement, the order **S R Q P** can be used to place the main claim first, followed by supporting details:\n- S: *means hatred for other countries, but this,*\n- R: *type of patriotism is an evil and it,*\n- Q: *should be condemned because,*\n- P: *today man belongs to the whole world.*\nThe correct order is **SRQP**.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 6
+  },
+  {
+    "subject": "English",
+    "chapter": "Grammar",
+    "subchapter": "Question Tags",
+    "topic": "Tag Questions for Future Negative Sentences",
+    "content": "For a negative future statement with **will**, the tag is positive and uses the same auxiliary verb.\n\n**Structure:** *Subject + will not + verb … , **will + subject?***\n\n**Example:** *They will not go to Japan this year for a vacation, **will they?***",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 6
+  },
+  {
+    "subject": "English",
+    "chapter": "Grammar",
+    "subchapter": "Conjunctions",
+    "topic": "Using *Despite* for Contrast",
+    "content": "*Despite* introduces a concessive clause, showing that the second clause occurs contrary to the first.\n\n**Pattern:** *Despite* + noun/gerund/pronoun, *main clause*.\n\n**Example:** *Despite his parents' disapproval, he joined this university.*",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 6
+  },
+  {
+    "subject": "English",
+    "chapter": "Vocabulary",
+    "subchapter": "Phrasal Meaning",
+    "topic": "\"Walk around\" – Meaning and Usage",
+    "content": "\"Walk around\" means to move leisurely from place to place, usually for exploration or observation.\n\n**Example:** *The Royale Gardens is a pleasant place to **walk around**.*",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 6
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Work & Time",
+    "subchapter": "Combined Work",
+    "topic": "Efficiency and Work Calculation",
+    "content": "### Efficiency\\n- Efficiency of a worker = work done per unit time (units/day).\\n- For combined work, sum the efficiencies of the individuals.\\n\\n### Combined Work Formula\\n- If A+B can finish a job in *x* days, then their combined efficiency = Total Work / x.\\n- Similarly for B+C and C+A.\\n- Adding the three combined efficiencies gives: 2 × (Efficiency_A + Efficiency_B + Efficiency_C).\\n- Hence, \\(Efficiency_A + Efficiency_B + Efficiency_C = \\frac{(E_{AB}+E_{BC}+E_{CA})}{2}\\).\\n\\n### Finding Individual Efficiency\\n- Once the sum of efficiencies is known, subtract the known combined efficiencies to isolate an individual's efficiency.\\n- Example: \\(Efficiency_B = (E_{AB}+E_{BC}+E_{CA}) - (Efficiency_A + Efficiency_C)\\).\\n\\n### Remaining Work\\n- Work done in *t* days by the group = \\(t \\times (Efficiency_A+Efficiency_B+Efficiency_C)\\).\\n- Remaining work = Total Work – Work done.\\n- Time for a single worker to finish the remaining work = Remaining Work / Individual Efficiency.\\n\\n**Key Formulae**\\n- \\(E_{combined}=\\frac{W}{D}\\) where *W* = total work, *D* = days taken by the group.\\n- \\(E_{A}+E_{B}+E_{C}=\\frac{E_{AB}+E_{BC}+E_{CA}}{2}\\).\\n- \\(Time_{individual}=\\frac{Remaining\\ Work}{E_{individual}}\\).",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 7
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Percentage",
+    "subchapter": "Solving Percentage Equations",
+    "topic": "Maximum Marks Problem",
+    "content": "### Problem Structure\\n- Let *x* be the maximum marks of an examination.\\n- The question often gives a relationship involving percentages of *x* and a constant.\\n\\n### Example Equation\\n```\\n(x × 30%) + 50 = (x × 50%) – 30\\n```\\n- Convert percentages to decimals: 30% = 0.30, 50% = 0.50.\\n- Rearrange to isolate *x*.\\n\\n### Solution Steps\\n1. Bring terms containing *x* to one side:\\n   \\(0.30x - 0.50x = -30 - 50\\).\\n2. Simplify:\\n   \\(-0.20x = -80\\).\\n3. Divide both sides by -0.20:\\n   \\(x = 400\\).\\n\\n**Key Takeaway**: When percentages of the same unknown appear on both sides, move them to one side, combine, and solve as a linear equation.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 7
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Clock & Angles",
+    "subchapter": "Angle Between Hour and Minute Hands",
+    "topic": "Formula and Example",
+    "content": "### Formula\\n- Angle \\(\\theta\\) between hour hand (H) and minute hand (M) is:\\n  \\[ \\theta = |30H - 5.5M| \\] (in degrees)\\n- Where:\\n  - *H* = hour value (in 12‑hour format).\\n  - *M* = minutes.\\n- If the result > 180°, subtract from 360° to get the smaller angle.\\n\\n### Worked Example\\n- Given: H = 9, M = 44.\\n- Compute:\\n  \\[ \\theta = |30×9 - 5.5×44| = |270 - 242| = 28° \\]\\n- The smaller angle is 28°.\\n\\n**Important Points**\\n- The hour hand moves 0.5° per minute (30° per hour).\\n- The minute hand moves 6° per minute.\\n- The combined relative speed = 5.5° per minute.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 7
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Profit & Loss",
+    "subchapter": "Cost Price, Selling Price, Profit",
+    "topic": "Multi‑Stage Transaction",
+    "content": "### Definitions\\n- **Cost Price (CP)**: The price at which a trader buys a product.\\n- **Selling Price (SP)**: The price at which the trader sells the product.\\n- **Profit** = SP – CP.\\n- **Profit %** = \\(\\frac{Profit}{CP} \\times 100\\).\\n\\n### Example Scenario\\n1. **Trader A** buys a product for \\(\\text{CP}_A = 360\\) and sells to B at a 100/60 markup:\\n   \\[ \\text{SP}_A = 360 \\times \\frac{100}{60} = 600 \\]\\n2. **Trader B** adds 29% profit on A's selling price:\\n   \\[ \\text{SP}_B = 600 + 0.29 \\times 600 = 774 \\]\\n3. B’s own cost price (including his own purchase cost of 360 and additional 90):\\n   \\[ \\text{CP}_B = 360 + 90 = 450 \\]\\n4. **Profit for B**:\\n   \\[ \\text{Profit}_B = 774 - 450 = 324 \\]\\n\\n**Key Formulae**\\n- \\(SP = CP \\times (1 + \\frac{Profit\\%}{100})\\).\\n- \\(Profit = SP - CP\\).\\n- For successive traders, compute each stage separately.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 7
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Geometry – Circles",
+    "subchapter": "Area Scaling & Discount",
+    "topic": "Pizza Area and Pricing",
+    "content": "### Area of a Circle\\n- Formula: \\(A = \\pi r^2\\).\\n- If the radius doubles, the area becomes four times larger (since area ∝ r²).\\n\\n### Pricing Based on Area\\n- If price is proportional to area, then:\\n  \\[ \\frac{Price_2}{Price_1} = \\frac{Area_2}{Area_1} \\]\\n\\n### Worked Example\\n1. **First Pizza**: Diameter = 14 cm → radius = 7 cm.\\n   - Area = \\(\\pi \\times 7^2 = 49\\pi\\) cm².\\n   - Given price = ₹280.\\n2. **Second Pizza**: Diameter = 28 cm → radius = 14 cm.\\n   - Area = \\(\\pi \\times 14^2 = 196\\pi\\) cm².\\n3. Price of second pizza (before discount):\\n   \\[ \\text{Price}_2 = 280 \\times \\frac{196\\pi}{49\\pi} = 280 \\times 4 = 1120 \\]\\n4. Required discount to bring price to ₹860:\\n   \\[ \\text{Discount} = 1120 - 860 = 260 \\]\\n\\n**Takeaway**: When dimensions scale, area scales with the square of the linear factor, and any price linked to area follows the same ratio.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 7
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Profit & Loss",
+    "subchapter": "Multi‑Stage Pricing",
+    "topic": "Article Sale Between Two Persons",
+    "content": "### Steps to Compute Final Profit\\n1. **Initial Sale**: Subhman sells to Rinku for ₹616.\\n2. **Subhman’s Cost Price** (given 80% of selling price):\\n   \\[ CP_{Subhman} = 616 \\times \\frac{100}{80} = 770 \\]\\n3. **Rinku’s Cost Price** after adding a fixed amount of ₹180:\\n   \\[ CP_{Rinku} = 770 + 180 = 950 \\]\\n4. **Rinku’s Selling Price** with 28.56% profit on his own cost (770):\\n   \\[ SP_{Rinku} = 770 + 0.2856 \\times 770 = 770 + 219.912 \\approx 990 \\]\\n5. **Profit for Rinku**:\\n   \\[ Profit = 990 - 950 = 40 \\]\\n\\n**Key Points**\\n- When a percentage profit is given on a base amount, convert the percentage to decimal.\\n- Fixed additions (like ₹180) are added directly to the cost before computing profit.\\n- Always keep track of which cost price is being used for each profit calculation.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 7
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Statistics",
+    "subchapter": "Average",
+    "topic": "Average age of a group",
+    "content": "**Formula**: \\(\\text{Sum of observations} = \\text{Number of observations} \\times \\text{Average}\\)\n\n**Application**: If the average age of 12 students is 23 years, total age = 23 × 12 = 276 years.\nIf the average age of the same 12 students plus 2 teachers is 35 years, total age = 35 × 14 = 490 years.\nLet the age of the mathematics teacher be \\(x\\) years, then the science teacher’s age = \\(x + 15\\) years.\nSet up the equation: \\(276 + x + (x + 15) = 490\\) → \\(2x = 199\\) → \\(x = 99.5\\) years.\nThus, the mathematics teacher is 99.5 years old and the science teacher is 114.5 years old.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 8
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "subchapter": "Ratio & Proportion",
+    "topic": "Finding ratio from given relationships",
+    "content": "Given relationships:\n1. \\(A = \\frac{2}{5}B + B = \\frac{7}{5}B\\) → \\(5A = 7B\\) → \\(10A = 14B\\) …(1)\n2. \\(B = \\frac{3}{7}(A + C)\\) → \\(7B = 3A + 3C\\)\n   Using (1), \\(7B = 5A\\). Substitute: \\(5A = 3A + 3C\\) → \\(2A = 3C\\) → \\(10A = 15C\\) …(2)\nFrom (1) & (2): \\(10A = 14B = 15C\\)\nHence the ratio \\(A : B : C = 1/10 : 1/14 : 1/15\\) → multiply by LCM 210 → \\(A : B : C = 21 : 15 : 14\\).\nIf total amount = 49,000, share of C = \\(\\frac{14}{21+15+14} \\times 49,000 = \\frac{14}{50} \\times 49,000 = 13,720\\).",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 8
+  },
+  {
+    "subject": "General Knowledge / History",
+    "chapter": "Indian National Congress",
+    "subchapter": "1907 Surat Session",
+    "topic": "Significance of the 1907 Session",
+    "content": "The 1907 Indian National Congress session held in Surat was presided over by Ras Behari Ghosh. It is historically significant because it marked the split between the **Moderates** and the **Extremists** within the Congress.\n\n- **Extremists** (led by Bal Gangadhar Tilak, Lala Lajpat Rai, Bipin Chandra Pal) advocated immediate direct action against British rule, including boycotts and the promotion of Swadeshi (indigenous) goods.\n- **Moderates** (led by Gopal Krishna Gokhale, Ras Behari Ghosh) favored constitutional methods, dialogue with the British, and gradual reforms.\nThe split laid the foundation for divergent strategies in the Indian freedom movement.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 8
+  },
+  {
+    "subject": "General Awareness",
+    "chapter": "Institutions",
+    "subchapter": "Agricultural Research",
+    "topic": "National Research Centre for Agroforestry (NRCAF)",
+    "content": "### National Research Centre for Agroforestry (NRCAF)\n- **Establishment:** 8 May 1988 as a unit of the Indian Council of Agricultural Research (ICAR).\n- **Renaming:** Became the **Central Agroforestry Research Institute (CARI)** on 1 December 2014.\n- **Location:** Jhansi, Uttar Pradesh, India.\n- **Mandate:** Conduct research and development in agroforestry, integrating trees with crops and livestock to improve productivity, sustainability, and farmer livelihoods.\n- **Affiliation:** Operates under ICAR, the apex body for agricultural research in India.\n- **Key Activities:** \n  - Development of agroforestry models and technologies.\n  - Training and capacity building for farmers and extension workers.\n  - Collaboration with national and international research institutions.\n- **Significance:** Supports the Government of India's push for climate‑smart agriculture and sustainable land‑use practices.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 9
+  },
+  {
+    "subject": "General Awareness",
+    "chapter": "Culture",
+    "subchapter": "Regional Music",
+    "topic": "Lotia (Rajasthan)",
+    "content": "### Lotia – Folk Music of Rajasthan\n- **Type:** Regional folk music, traditionally sung by farmers while working in the fields.\n- **Cultural Context:** Often performed during the **Lotia Festival**, which falls in the month of **Chaitra** (early spring) according to the Hindi calendar.\n- **Geographical Association:** Predominantly heard in the state of **Rajasthan**, especially in rural agrarian communities.\n- **Characteristics:**\n  - Rhythmic and lively, designed to motivate laborers.\n  - Lyrics often reflect agricultural life, seasonal changes, and local folklore.\n- **Festival Timing:** The festival and associated singing occur in early spring, marking the onset of the sowing season.\n- **Significance:** Serves both as a cultural expression and a means to synchronize collective field work.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 9
+  },
+  {
+    "subject": "General Awareness",
+    "chapter": "Environment",
+    "subchapter": "International Days",
+    "topic": "World Earth Day",
+    "content": "### World Earth Day\n- **Date of Celebration:** **22 April** each year.\n- **First Observed:** 1970 (United States), later adopted globally.\n- **Organising Body:** Coordinated worldwide by **EarthDay.org**.\n- **Participation:** Involves **≈1 billion people** across **>193 countries**.\n- **Purpose:** Promote environmental protection, raise awareness about climate change, biodiversity loss, pollution, and sustainable living.\n- **2024 Theme:** **“Planet vs. Plastics”** – focuses on reducing plastic waste and its impact on ecosystems.\n- **Historical Note:** The concept of Earth Day was first introduced at a UNESCO conference held in **San Francisco**.\n- **Related International Event:** The **Paris Agreement** (climate‑change treaty) was signed by the United States, China, and about 120 other nations on Earth Day in **2016**.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 9
+  },
+  {
+    "subject": "General Awareness",
+    "chapter": "Indian Constitution",
+    "subchapter": "Emergency Provisions",
+    "topic": "Financial Emergency – Article 360",
+    "content": "### Article 360 – Financial Emergency\n- **Provision:** Allows the **President of India** to declare a **financial emergency**.\n- **Trigger Condition:** When the President is satisfied that the **financial stability or credit of India** (or any part of its territory) is **threatened**.\n- **Procedure:** \n  1. The President issues a proclamation.\n  2. The proclamation must be **approved by both Houses of Parliament** within a stipulated period.\n- **Effects of Declaration:**\n  - The executive authority of the Union can issue directions to any state regarding financial matters.\n  - Salaries and allowances of government officials may be reduced.\n  - The President may also suspend the implementation of certain financial provisions of the Constitution.\n- **Historical Context:** Financial emergency has **never been proclaimed** in India since the Constitution came into force.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 9
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Defense Technology",
+    "subchapter": "Radar Systems",
+    "topic": "AWACS",
+    "content": "### AWACS (Airborne Warning and Control System)\n- Advanced mobile radar systems providing **long‑range air‑defence surveillance**.\n- Often called the **“eye in the sky”** because of their extensive surveillance capabilities.\n- Used to detect, track, and identify aerial targets at great distances and to coordinate defensive actions.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 10
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Defense Technology",
+    "subchapter": "Missiles",
+    "topic": "Nag Missile",
+    "content": "### Nag Missile\n- **Primary role:** Anti‑tank guided missile.\n- **Engagement type:** Surface‑to‑surface (targets armored vehicles such as tanks).\n- **Not used for:** Air‑to‑surface missions.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 10
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Defense Technology",
+    "subchapter": "Missiles",
+    "topic": "Barak Missile",
+    "content": "### Barak Missile Family\n- **Capabilities:** Both **ship‑to‑air** and **ship‑to‑surface** engagements.\n- **Variants:** Include versions that can intercept aerial threats as well as strike surface targets from naval platforms.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 10
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Defense Technology",
+    "subchapter": "Missiles",
+    "topic": "Nirbhay Missile",
+    "content": "### Nirbhay Cruise Missile\n- **Type:** Long‑range, all‑weather, subsonic cruise missile.\n- **Launch platforms:** **Naval**, **land**, and **air** (can be launched from ships, ground‑based launchers, and aircraft).\n- **Key feature:** Versatile deployment across multiple services.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 10
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Indian Naval Operations",
+    "subchapter": "Humanitarian Operations",
+    "topic": "Operation Nistar",
+    "content": "### Operation Nistar\n- **Nature:** Humanitarian and disaster‑relief operation.\n- **Action:** Indian Naval Ship **INS Sunayana** evacuated **38 Indian nationals** from cyclone‑hit **Socotra Island, Yemen**.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 10
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Indian Military Operations",
+    "subchapter": "Counter‑Insurgency",
+    "topic": "Operation Pawan",
+    "content": "### Operation Pawan\n- **Year:** 1987.\n- **Objective:** Indian Peace‑Keeping Force (IPKF) effort to **disarm the LTTE** and gain control of the **Jaffna Peninsula** in northern Sri Lanka.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 10
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Indian Naval Operations",
+    "subchapter": "Humanitarian Operations",
+    "topic": "Operation Karuna",
+    "content": "### Operation Karuna\n- **Purpose:** Aid mission to **Myanmar** after **Cyclone Mocha**.\n- **Contribution:** Indian Navy ships delivered **over 40 tonnes** of relief material.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 10
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Indian Military Operations",
+    "subchapter": "Evacuation Operations",
+    "topic": "Operation Devi Shakti",
+    "content": "### Operation Devi Shakti\n- **Task:** Evacuation of people, including Indian nationals, from **Taliban‑controlled Kabul** to **Dushanbe**.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 10
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Indian Army Training Institutes",
+    "subchapter": "Specialised Schools",
+    "topic": "High Altitude Warfare School (HAWS)",
+    "content": "### High Altitude Warfare School (HAWS)\n- **Location:** **Gulmarg**, Jammu & Kashmir.\n- **Role:** Premier training institute of the Indian Army for high‑altitude and mountain warfare.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 10
+  },
+  {
+    "subject": "Logical Reasoning",
+    "chapter": "Word Arrangement",
+    "subchapter": "Letter Position Rearrangement",
+    "topic": "Forming Words from Index Sequences",
+    "content": "Given a set of indices, rearrange the letters of a scrambled word to form a meaningful word. Example:\n- Indices **2,1,4,6,3,5,7** applied to the scrambled letters **_ _ _ _ _ _ _** produce the word **FREEDOM**.\n- Other index sequences produce non‑meaningful strings such as **ERFEMOD**, **FRMEDOE**, **MDRFEOE**.\n\n**Key point:** The correct index order aligns letters to spell a valid English word.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 11
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Alphabetic Numerology",
+    "subchapter": "Letter‑Number Mapping",
+    "topic": "A=1, B=2, … Z=26",
+    "content": "Each alphabet letter can be represented by its position in the English alphabet:\n- A → 1, B → 2, C → 3, …, Z → 26.\n- This mapping is useful for decoding puzzles where letters are given with numbers, e.g., **S(19) A(1) N(14) D(4)** corresponds to the word **SAND**.\n- The same principle applies to longer strings such as **B(2) B(2) E(5) A(1) N(14) F(6) C(3) Q(17)**.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 11
+  },
+  {
+    "subject": "Logical Reasoning",
+    "chapter": "Family Relationship Diagrams",
+    "subchapter": "Interpretation of Symbols",
+    "topic": "Determining Relationships",
+    "content": "Symbols in a family diagram denote:\n- Female → ♀\n- Male → ♂\n- Married couple → ♂♀ (joined)\n- Siblings → horizontal line between two individuals of same generation.\n- Difference of a generation → vertical line.\n\n**Example:** In the given diagram, the boy in the photograph is **Shivam’s nephew** because the chain of relationships is:\nShivam → Father → Father’s brother → Brother’s son (nephew).",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 11
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Word Unscrambling",
+    "subchapter": "Anagram Solving",
+    "topic": "Technology‑Related Words",
+    "content": "Unscramble the following letter groups:\n- **LPTOAP** → **LAPTOP**\n- **TBAETL** → **TABLET**\n- **CIPREOMUT** → **COMPUTER**\n- **ESPHONP** → **PHONES**\n\n**Classification Insight:** LAPTOP, TABLET, and COMPUTER are primarily **computing devices**, whereas PHONES, although capable of computing, are primarily used for **communication**.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 11
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Arithmetic Operations",
+    "subchapter": "Operator Insertion",
+    "topic": "Finding Correct Operators",
+    "content": "Given the numbers **6, 42, 7, 5, 3**, insert two arithmetic operators to make the expression equal 31.\n- Option 1 (× and –): `6 ÷ 42 + 7 – 5 × 3 = 31` → evaluates to **-7.86** (incorrect).\n- **Option 2 (÷ and +): `6 + 42 ÷ 7 × 5 – 3 = 31` → simplifies to `6 + 30 – 5 = 31` (correct).**\n- Option 3 (÷ and ×): `6 × 42 + 7 ÷ 5 – 3 = 31` → evaluates to **250.4** (incorrect).\n- Option 4 (× and +): `6 ÷ 42 × 7 + 5 – 3 = 31` → evaluates to **3** (incorrect).\n\n**Conclusion:** The correct operators are **division (÷) after 6** and **addition (+) after 42**.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2023.pdf",
+    "source_page": 11
+  },
+  {
+    "subject": "History",
+    "chapter": "Ancient Indian Universities",
+    "subchapter": "Nalanda University",
+    "topic": "Founding Dynasty",
+    "content": "Nalanda University, one of the world’s earliest residential universities, was established during the Gupta period (4th‑5th CE). The Gupta Dynasty is credited with its foundation and patronage, making it a centre of Buddhist learning and scholarship.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 4
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Seas and Oceans",
+    "subchapter": "Salinity",
+    "topic": "Highest Salinity Sea",
+    "content": "The **Dead Sea** (located between Jordan and Israel) has the highest salinity of any sea on Earth, with a salinity of about 34 % (≈ 340 g of salts per litre of water). This extreme salinity is due to high evaporation rates and lack of an outlet.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 4
+  },
+  {
+    "subject": "Environment",
+    "chapter": "Wetlands",
+    "subchapter": "Ramsar Sites",
+    "topic": "Nagi and Nakti Bird Sanctuaries",
+    "content": "The **Nagi** and **Nakti** Bird Sanctuaries were recently added to the Ramsar List of Wetlands of International Importance. Both sanctuaries are situated in the state of **Uttar Pradesh**, India, and provide critical habitat for migratory and resident water‑birds.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 4
+  },
+  {
+    "subject": "Law",
+    "chapter": "Supreme Court Bar Association (SCBA)",
+    "subchapter": "Women Reservation",
+    "topic": "Reservation Percentage",
+    "content": "In a recent directive, the Supreme Court of India ordered that **33 %** of the posts in the Supreme Court Bar Association (SCBA) be reserved for women, aiming to improve gender representation in the legal profession.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 4
+  },
+  {
+    "subject": "Environment",
+    "chapter": "River Conservation Programs",
+    "subchapter": "Namami Gange",
+    "topic": "Implementing Ministry",
+    "content": "The **Namami Gange Programme**, a flagship initiative for the rejuvenation of the River Ganga, is implemented under the **Ministry of Jal Shakti** (formerly Ministry of Water Resources, River Development & Ganga Rejuvenation).",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 4
+  },
+  {
+    "subject": "Sports",
+    "chapter": "Basketball",
+    "subchapter": "Team Composition",
+    "topic": "Number of Players on Court",
+    "content": "A standard basketball team fields **five (5)** players on the court at any given time – two guards, two forwards, and one center.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 4
+  },
+  {
+    "subject": "Defense & International Relations",
+    "chapter": "Military Exercises",
+    "subchapter": "Orion 23",
+    "topic": "Participating Alliance",
+    "content": "The **Orion 23** joint military exercise, conducted alongside the Indian Air Force, involves participation from the **NATO** alliance, fostering interoperability and strategic cooperation.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 4
+  },
+  {
+    "subject": "Economics",
+    "chapter": "Sectors of the Economy",
+    "subchapter": "Secondary Sector",
+    "topic": "Manufacturing from Natural Materials",
+    "content": "The **Secondary Sector** comprises industries that transform raw natural materials into finished goods – e.g., manufacturing, construction, and processing.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 4
+  },
+  {
+    "subject": "Sports",
+    "chapter": "Basketball Terminology",
+    "subchapter": "Scoring Terms",
+    "topic": "\"Dunk\" Definition",
+    "content": "A **dunk** is a basketball move where a player thrusts the ball directly through the hoop with one or both hands, typically performed close to the basket.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 4
+  },
+  {
+    "subject": "Horticulture",
+    "chapter": "Plant Cultivation",
+    "subchapter": "Woody Plants",
+    "topic": "Arboriculture",
+    "content": "**Arboriculture** is the science and practice of cultivating, managing, and studying trees, shrubs, and other woody plants.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 4
+  },
+  {
+    "subject": "Renewable Energy",
+    "chapter": "Wind Energy",
+    "subchapter": "Energy Conversion",
+    "topic": "Windmills Energy Type",
+    "content": "Windmills convert **kinetic energy** of moving air (wind) into mechanical energy, which can then be transformed into electrical energy via generators.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 4
+  },
+  {
+    "subject": "General Ability",
+    "chapter": "Logical Reasoning",
+    "subchapter": "Position and Direction",
+    "topic": "Interchanging Positions in a Row",
+    "content": "If a person is *k*‑th from the left in a row of *N* persons, his position from the right is **N‑k+1**. When two persons interchange their positions, each takes the other's original index. Use the relation \\(N = (position\\ from\\ left) + (position\\ from\\ right) - 1\\) to find the total number of persons.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 5
+  },
+  {
+    "subject": "General Ability",
+    "chapter": "Logical Reasoning",
+    "subchapter": "Family Relationships",
+    "topic": "Decoding Statements",
+    "content": "Interpret statements step‑by‑step:\\n1. Identify the referent of each pronoun.\\n2. Translate relational phrases (e.g., *brother’s father* = the father of the brother = the father of the person).\\n3. Relate the derived person to the speaker using the family tree.\\n4. The gender of the speaker determines the final relationship (sister, brother, aunt, mother, etc.).",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 5
+  },
+  {
+    "subject": "General Ability",
+    "chapter": "Logical Reasoning",
+    "subchapter": "Venn Diagrams",
+    "topic": "Representing Sub‑class Relationships",
+    "content": "• When two sets are **sub‑sets** of a larger set and **do not overlap**, draw two non‑overlapping circles inside the larger circle.\\n• When one set is a **subset of another** (e.g., *Husband* ⊂ *Male*), draw the smaller circle completely inside the larger one.\\n• When sets intersect partially (e.g., *Advocate* may intersect *Male* and *Husband*), draw overlapping circles accordingly.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 5
+  },
+  {
+    "subject": "General Ability",
+    "chapter": "Verbal Ability",
+    "subchapter": "Word Formation",
+    "topic": "Anagram and Odd‑One‑Out",
+    "content": "To solve anagram‑type odd‑one‑out questions:\\n1. Rearrange each scrambled group into a meaningful English word.\\n2. Identify a common property among three of the words (e.g., same part of speech, same semantic field, same length, etc.).\\n3. The word that does **not** share this property is the odd one out.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 5
+  },
+  {
+    "subject": "General Ability",
+    "chapter": "Verbal Ability",
+    "subchapter": "Letter Clusters",
+    "topic": "Finding the Different Cluster",
+    "content": "Examine patterns such as:\\n- Position in the alphabet (even/odd, prime numbers).\\n- Shape of the letters (straight lines vs. curves).\\n- Whether the pair represents consecutive letters, same‑row keyboard keys, etc.\\nThe cluster that does not follow the identified pattern is the answer.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 5
+  },
+  {
+    "subject": "English",
+    "chapter": "Grammar",
+    "subchapter": "Subject‑Verb Agreement",
+    "topic": "Neither… of the",
+    "content": "### Rule\n- **Neither** is a singular pronoun. \n- When **neither of the** is followed by a plural noun, the verb must still be **singular**.\n\n**Correct form:** *Neither of the students **is** present.*\n\n**Common error:** *Neither of the students **are** present.*",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 6
+  },
+  {
+    "subject": "English",
+    "chapter": "Grammar",
+    "subchapter": "Verb Usage",
+    "topic": "Await vs. Awaiting",
+    "content": "### Rule\n- **Await** means *to wait for*; it already contains the idea of “for”.\n- Therefore, adding **for** after **await** is redundant.\n\n**Correct forms:**\n- *I am **awaiting** your reply.*\n- *The train is **awaiting** clearance.*\n\n**Incorrect form:** *awaiting **for**.*",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 6
+  },
+  {
+    "subject": "English",
+    "chapter": "Grammar",
+    "subchapter": "Nouns – Plural Forms",
+    "topic": "Children vs. Childrens",
+    "content": "### Rule\n- **Child** → **Children** (irregular plural). \n- Adding an **‑s** to **children** (*childrens*) is incorrect.\n\n**Correct usage:** *The children are playing.*\n\n**Incorrect usage:** *The childrens are playing.*",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 6
+  },
+  {
+    "subject": "English",
+    "chapter": "Grammar",
+    "subchapter": "Collective Nouns",
+    "topic": "Scissors",
+    "content": "### Rule\n- **Scissors** is a plural noun that always refers to a pair.\n- When using an indefinite article, say **a pair of scissors**.\n\n**Correct usage:** *I need **a pair of scissors** to cut the paper.*\n\n**Incorrect usage:** *I need **a scissors**.*",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 6
+  },
+  {
+    "subject": "English",
+    "chapter": "Vocabulary",
+    "subchapter": "Idioms & Phrasal Verbs",
+    "topic": "Meanings of “Keeping on”, “Getting up”, “Going on”, “Carrying on”",
+    "content": "### Definitions\n- **Keeping on** – to persist or continue doing something despite difficulties.\n- **Getting up** – to rise from a lying or sitting position, usually in the morning.\n- **Going on** – to be happening or to be in progress.\n- **Carrying on** – to continue or keep doing something (synonym of *keep going*).\n\n**Correct answer for “continue” meaning:** *Carrying on*.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 6
+  },
+  {
+    "subject": "English",
+    "chapter": "Grammar",
+    "subchapter": "Conditional Clauses",
+    "topic": "Use of ‘If’ vs. ‘May’, ‘Unless’, ‘Because’",
+    "content": "### Rules\n- **If** introduces a condition: *If I find a babysitter, I will go to the concert.*\n- **May** expresses possibility, not a condition.\n- **Unless** introduces the opposite condition (i.e., *except if*).\n- **Because** gives a reason, not a condition.\n\n**Correct connector for a conditional desire:** *If*.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 6
+  },
+  {
+    "subject": "English",
+    "chapter": "Grammar",
+    "subchapter": "Tenses",
+    "topic": "Present Perfect for Unlikely Situations",
+    "content": "### Rule\n- The **present perfect** can be used to talk about an action that **has not happened** but is imagined as unlikely or hypothetical, often with *if* clauses.\n- Example: *If she **has** finished the work, we can leave early.*\n- In the given sentence, the present perfect tense signals an unlikely or speculative situation.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 6
+  },
+  {
+    "subject": "Science & Technology",
+    "chapter": "Nuclear Energy",
+    "subchapter": "Small Modular Reactors (SMRs)",
+    "topic": "First‑generation SMRs",
+    "content": "### First‑generation Small Modular Reactors (SMRs)\n- **Fuel:** Low‑enriched uranium (LEU).\n- **Construction:** Factory‑made parts assembled on‑site, enabling faster deployment and reduced on‑site construction time.\n- **Waste Management:** Generates waste that can be handled with existing nuclear waste technologies, avoiding the need for new waste‑treatment infrastructure.\n- **Economics:** Designed to produce electricity at economical rates, making nuclear power more competitive with other energy sources.\n- **Strategic Advantage:** Modular design allows scalability and potential for deployment in remote or smaller grid locations.\n\n*Reference: AFCAT Solved Paper Item 18 (b).*",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 7
+  },
+  {
+    "subject": "History",
+    "chapter": "Byzantine Empire",
+    "subchapter": "Medieval Revival",
+    "topic": "8th‑11th Century Economic & Cultural Revival",
+    "content": "### Byzantine Revival (8th–11th AD)\n- **Period:** Between the 8th and 11th centuries AD.\n- **Significance:** Marked an almost unparalleled economic and cultural resurgence after a prolonged phase of internal decline.\n- **Key Features:** Revival of trade, artistic production, legal reforms, and military re‑organization.\n- **Impact:** Strengthened the empire’s position in the Mediterranean and laid foundations for later medieval developments.\n\n*Reference: AFCAT Solved Paper Item 19 (a).*",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 7
+  },
+  {
+    "subject": "History",
+    "chapter": "United States History",
+    "subchapter": "Great Migration",
+    "topic": "1910‑1930 Black Migration from the South",
+    "content": "### Great Migration (1910‑1930)\n- **Scale:** Over **10 %** of the Black population in the United States left the Southern states.\n- **Destination:** Northern states, with the largest wave occurring **1916‑1918**.\n- **Causes:** Search for better economic opportunities, escape from Jim Crow segregation, and recruitment for industrial jobs during World War I.\n- **Consequences:** Major demographic shift, growth of Black urban communities, and cultural movements such as the Harlem Renaissance.\n\n*Reference: AFCAT Solved Paper Item 20 (b).*",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 7
+  },
+  {
+    "subject": "English",
+    "chapter": "Vocabulary",
+    "subchapter": "Word Meaning",
+    "topic": "\"Hollow\" and Related Terms",
+    "content": "### Vocabulary – \"Hollow\"\n- **Hollow:** *without real value / without significance*.\n- **Consequential:** *important; having important results*.\n- **Void:** *completely without something*.\n- **Spatial:** *relating to space and the position, size, shape, etc., of things in it*.\n\n*Reference: AFCAT Solved Paper Item 21 (b).*",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 7
+  },
+  {
+    "subject": "English",
+    "chapter": "Grammar",
+    "subchapter": "Prepositions & Negation",
+    "topic": "\"Without\" as a Negative Preposition",
+    "content": "### Grammar – \"Without\"\n- **Without** is a **negative preposition**; it inherently carries a negative meaning.\n- In negative sentences, **non‑assertive words** (e.g., *anything, anyone*) are typically used.\n- Example: *“He left without **anything**.”* – the word *anything* is the correct choice in such contexts.\n\n*Reference: AFCAT Solved Paper Item 22 (b).*",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 7
+  },
+  {
+    "subject": "English",
+    "chapter": "Grammar",
+    "subchapter": "Subject‑Verb Agreement & Tense",
+    "topic": "Singular Subject \"It\" and Verb Forms",
+    "content": "### Grammar – Subject‑Verb Agreement\n- **Singular Subject:** *It* is singular; therefore it takes a **singular verb**.\n- **Tense Consistency:** If the main clause is in the present tense, the verb must also be in the present tense.\n- **Verb Forms Overview:**\n  - *has had* – present perfect\n  - *had had* – past perfect\n  - *had* – past simple\n\n*Reference: AFCAT Solved Paper Item 23 (b).*",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 7
+  },
+  {
+    "subject": "English",
+    "chapter": "Idioms & Phrases",
+    "subchapter": "Common Idioms",
+    "topic": "\"Paint the town red\"",
+    "content": "### Idiom – \"Paint the town red\"\n- **Meaning:** To go out and enjoy oneself by drinking alcohol, dancing, laughing with friends, etc.\n- **Usage Example:** *“After the exam results, the students decided to paint the town red.”*\n\n*Reference: AFCAT Solved Paper Item 24 (b).*",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 7
+  },
+  {
+    "subject": "English",
+    "chapter": "Phrases",
+    "subchapter": "Unknown Phrase",
+    "topic": "\"Cool one’s heel\"",
+    "content": "### Phrase – \"Cool one’s heel\"\n- The phrase appears in the solved paper as the correct option (c). No further context or explanation is provided in the source material.\n\n*Reference: AFCAT Solved Paper Item 25 (c).*",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 7
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Arithmetic",
+    "subchapter": "Average",
+    "topic": "Age problems using average",
+    "content": "### Concept\n- **Average** of a set of numbers = (Sum of the numbers) / (Number of items).\n- If the average of *n* items is known, the **total sum** = average × n.\n- When one item is removed, the new average can be used to find the sum of the remaining items.\n- **Age of the excluded person** = (Sum of original group) – (Sum of remaining group).\n\n### Formula\n```\nSum_original = Avg_original × n\nSum_remaining = Avg_remaining × (n‑1)\nAge_excluded = Sum_original – Sum_remaining\n```",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 8
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Arithmetic",
+    "subchapter": "Ratio & Proportion",
+    "topic": "Finding ratio from price differences",
+    "content": "### Concept\n- When two items are bought at different prices, the **ratio of quantities** can be obtained from the relationship:\n  \n  `Quantity_dearer / Quantity_cheaper = (Mean price – Cheaper price) / (Dearer price – Mean price)`\n- This follows from the equality of total cost for the two items.\n\n### Steps\n1. Compute the difference between the **mean price** and the **cheaper price**.\n2. Compute the difference between the **dearer price** and the **mean price**.\n3. Form the ratio using the two differences.\n\n### Example\nIf the mean price is ₹20, cheaper price is ₹12 and dearer price is ₹24, then:\n```\nQuantity_dearer : Quantity_cheaper = (20‑12) : (24‑20) = 8 : 4 = 2 : 1\n```",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 8
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Arithmetic",
+    "subchapter": "Profit & Loss",
+    "topic": "Profit percentage when part of the goods are free",
+    "content": "### Concept\n- **Cost Price (CP)** of the purchased quantity is calculated first.\n- If extra quantity is received **free**, add it to the purchased quantity to get **Total Quantity**.\n- **Selling Price (SP)** is usually taken as the market price of the total quantity.\n- **Profit** = SP – CP.\n- **Profit %** = (Profit / CP) × 100.\n\n### Formula\n```\nProfit % = [(SP – CP) / CP] × 100\n```\n\n### Example (from the solved paper)\n- CP of 80 kg rice = ₹72 (₹90 per 100 kg → ₹0.9 per kg → 80 kg × 0.9 = ₹72)\n- Free rice received = 4 kg → Total rice = 84 kg\n- SP of 84 kg = ₹84 (₹1 per kg assumed)\n- Profit = ₹84 – ₹72 = ₹12\n- Profit % = (12 / 72) × 100 = **16 %**",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 8
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Arithmetic",
+    "subchapter": "Simple Interest",
+    "topic": "Half‑yearly compounding of interest",
+    "content": "### Concept\n- When interest is compounded **half‑yearly**, the annual rate is split into two equal periods.\n- Effective rate per half‑year = (Annual Rate) / 2.\n- Number of periods = (Number of years) × 2.\n- Compound amount formula for each period:\n  \n  `A = P × (1 + r/100)ⁿ`\n  where *r* is the rate per period and *n* is the number of periods.\n\n### Example (from the solved paper)\n- Principal **P** = ₹8,000\n- Annual rate = 4 % → half‑yearly rate = 2 %\n- Time = 1 year → n = 2 periods\n- Amount `A = 8000 × (1 + 2/100)² = 8000 × 1.02² = ₹8,323.20`\n- Interest = A – P = **₹323.20**",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 8
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Arithmetic",
+    "subchapter": "Algebra",
+    "topic": "Finding principal from a compound‑interest‑type equation",
+    "content": "### Concept\n- Sometimes a problem gives a relationship that can be reduced to a linear equation in the unknown principal.\n- Example structure:\n  \n  `p × (1 + a/100) × (1 + b/100) = Amount`\n- Rearrange to solve for **p**.\n\n### Example (from the solved paper)\n- Equation derived: `p × (1 + 4/100) × (1 + 5/100) = 40500`\n- Simplify the multiplier: `(1.04) × (1.05) = 1.092`\n- Hence `p = 40500 / 1.092 = ₹11,250` (rounded to nearest rupee).  The solved paper obtained `p = ₹1,125` after adjusting the coefficients; the method remains the same – isolate **p** and divide.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 8
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Arithmetic",
+    "subchapter": "Number Theory",
+    "topic": "Smallest 5‑digit number divisible by a given divisor",
+    "content": "### Concept\n- The smallest *n*-digit number is `10^(n‑1)`.\n- To find the smallest *n*-digit number divisible by **d**:\n  1. Compute the remainder **r** when `10^(n‑1)` is divided by **d**.\n  2. If **r = 0**, the number itself is divisible.\n  3. Otherwise, add **(d – r)** to `10^(n‑1)`.\n\n### Formula\n```\nSmallest_n_digit_multiple = 10^(n‑1) + (d – (10^(n‑1) mod d))\n```\n\n### Example (from the solved paper)\n- Smallest 5‑digit number = 10,000\n- Divisor **d** = 243\n- 10,000 ÷ 243 → remainder **r** = 37\n- Add `243 – 37 = 206`\n- Result = **10,206**",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 8
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Arithmetic",
+    "subchapter": "Percentage",
+    "topic": "Effect of price change on consumption to keep expenditure constant",
+    "content": "### Concept\n- When the price of a commodity changes by **x %**, the consumption must change by the same **x %** (but in the opposite direction) to keep total expenditure unchanged.\n- **Decrease in consumption** = `x %` of the original consumption when price **increases** by `x %`.\n- **Increase in consumption** = `x %` of the original consumption when price **decreases** by `x %`.\n\n### Formula\n```\n% Change in consumption = x % (opposite sign to price change)\n```\n\n### Example (from the solved paper)\n- Original price of cooking gas = ₹100\n- New price = ₹115 → increase of **15 %**\n- To keep expenditure same, consumption must **decrease by 15 %**.\n- Percentage decrease in consumption = 15 %.\n- The solved paper shows the same result using the relation:\n  `Reduction = (15/115) × 100 ≈ 13 %` (depending on interpretation of the base).",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 8
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Algebra",
+    "subchapter": "Work and Time",
+    "topic": "Combined Work",
+    "content": "### Combined Work Formula\\n- If a person A can complete **p%** of a job in **t** days, then daily work rate of A = \\( \\frac{p}{100t} \\) of the job.\\n- If person B can finish the whole job in **T** days, daily work rate of B = \\( \\frac{1}{T} \\) of the job.\\n- When A and B work together, their combined daily rate = sum of individual rates.\\n- Time required to finish remaining work = \\( \\frac{\\text{remaining work}}{\\text{combined daily rate}} \\).\\n\\n**Example from the solved paper**:\\n- A finishes 20% of work in 5 days ⇒ daily rate of A = \\( \\frac{20}{100 \\times 5}=0.04 = 4\\% \\) per day.\\n- B finishes whole work in 16 days ⇒ daily rate of B = \\( \\frac{1}{16}=0.0625 = 6.25\\% \\) per day.\\n- After A works alone for 5 days, remaining work = 80%.\\n- Combined rate of A and B = 4% + 6.25% = 10.25% per day.\\n- Days for remaining work = \\( \\frac{80}{10.25} \\approx 7.8 \\) days ≈ 8 days.\\n- **Total time** = 5 days (A alone) + 8 days (A + B) = **13 days**.",
+    "metadata": {},
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 9
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Geometry",
+    "subchapter": "Area of Circle",
+    "topic": "Area Calculation",
+    "content": "### Area of a Circle\\n- Formula: \\( \\text{Area} = \\pi r^{2} \\).\\n- For radius \\( r = 42 \\) ft, \\( \\text{Area} = \\pi \\times 42^{2} = 5544 \\) ft² (using \\( \\pi \\approx 3.14 \\)).\\n- If a worker can cover **154 ft²** per day, the number of days required to cover the whole field is:\\n  \\[ \\text{Days} = \\frac{\\text{Total Area}}{\\text{Daily Coverage}} = \\frac{5544}{154} \\approx 36 \\text{ days} \\].",
+    "metadata": {},
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 9
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Arithmetic",
+    "subchapter": "Profit, Loss & Discount",
+    "topic": "Discount and Marked Price",
+    "content": "### Discount and Marked Price Calculations\\n- Let the marked price be \\( M = 100x \\).\\n- After a **10 % discount**, selling price (SP) = \\( 90x \\).\\n- If the seller then makes a **10 % gain** on this discounted price, the new SP = \\( 90x \\times \\frac{110}{100} = 99x \\).\\n- Setting this equal to the original marked price (i.e., \\( 99x = 100x \\)) shows the relationship between discount and gain.\\n- For a concrete example: Marked price = Rs 6000.\\n  - Discount = 10 % of 6000 = Rs 600.\\n  - Discounted price = Rs 5400.\\n  - Adding a 10 % gain on Rs 5400 gives SP = Rs 5940.\\n- **Amount of discount received** = Rs 600.",
+    "metadata": {},
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 9
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Indian Armed Forces",
+    "subchapter": "Rank Equivalence",
+    "topic": "Army vs. Air Force Ranks",
+    "content": "### Rank Equivalence Across Services\\n- **Major** (Indian Army) ↔ **Squadron Leader** (Indian Air Force).\\n- This equivalence ensures comparable levels of responsibility and authority across the three services (Army, Navy, Air Force).",
+    "metadata": {},
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 9
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "British Viceroys of India",
+    "subchapter": "Key Reforms",
+    "topic": "Contributions of Viceroys",
+    "content": "### Notable Contributions\\n- **Lord Dalhousie** – Doctrine of Lapse.\\n- **Lord Ripon** – Introduction of local self‑government.\\n- **Lord Curzon** – Partition of Bengal.\\n- **Lord William Bentinck** – Abolition of the Sati system.",
+    "metadata": {},
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 9
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Astronomy",
+    "subchapter": "Time Measurement",
+    "topic": "Sidereal Day",
+    "content": "### Sidereal (Stellar) Day\\n- Definition: Time taken by Earth to complete one full rotation relative to distant stars.\\n- Approximate length: **23 hours 56 minutes 4 seconds**.\\n- It is slightly shorter than a solar day (≈24 hours) because Earth moves along its orbit, requiring extra rotation to face the Sun again.",
+    "metadata": {},
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 9
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "Economy",
+    "subchapter": "Sectors of Economy",
+    "topic": "Primary Sector",
+    "content": "### Primary Sector\nInvolves the extraction and production of raw materials from the natural environment. Examples include:\n- **Agriculture** – cultivation of crops and livestock rearing.\n- **Mining** – extraction of minerals, coal, oil, and gas.\n- **Forestry** – harvesting of timber and forest products.\n- **Fishing** – capture of fish and other aquatic resources.\nThe primary sector provides the raw inputs required by the secondary sector.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 10
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "Economy",
+    "subchapter": "Sectors of Economy",
+    "topic": "Secondary Sector",
+    "content": "### Secondary Sector\nInvolves the processing and manufacturing of raw materials into finished goods. It includes:\n- **Manufacturing** – factories producing consumer and capital goods.\n- **Construction** – building infrastructure, residential and commercial structures.\n- **Utilities** – generation and distribution of electricity, water, and gas.\nThe secondary sector adds value to primary‑sector outputs and creates employment in industrial activities.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 10
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "Economy",
+    "subchapter": "Sectors of Economy",
+    "topic": "Tertiary Sector",
+    "content": "### Tertiary Sector\nProvides services rather than goods. Major components are:\n- **Retail** – sale of consumer products.\n- **Education** – schools, colleges, and training institutes.\n- **Healthcare** – hospitals, clinics, and medical services.\n- **Entertainment** – media, tourism, sports, and recreation.\nThe tertiary sector is the largest contributor to GDP in most developing and developed economies.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 10
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "Sports",
+    "subchapter": "Basketball Terminology",
+    "topic": "Slam Dunk",
+    "content": "### Slam Dunk\nA **slam dunk** (or simply *dunk*) is a basketball shot performed when a player:\n1. Jumps in the air.\n2. Controls the ball **above the horizontal plane of the rim**.\n3. Scores by **shoving the ball directly through the basket** with one or both hands.\nIt is a high‑impact, crowd‑pleasing move that scores two points.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 10
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "Agriculture & Horticulture",
+    "subchapter": "Specialized Cultivation",
+    "topic": "Arboriculture",
+    "content": "### Arboriculture\nThe **cultivation, management, and study of individual trees, shrubs, vines, and other perennial woody plants**. It focuses on:\n- Tree health and disease control.\n- Pruning, planting, and transplanting.\n- Landscape and ornamental uses.\nArboriculture is essential for urban planning, forestry, and environmental conservation.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 10
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "Agriculture & Horticulture",
+    "subchapter": "Specialized Cultivation",
+    "topic": "Sericulture",
+    "content": "### Sericulture\nThe **rearing of silkworms for silk production**. Key steps include:\n1. Cultivation of mulberry leaves (primary food for silkworms).\n2. Rearing silkworm larvae in controlled environments.\n3. Harvesting cocoons and extracting silk fibers.\nSericulture contributes to rural employment and textile industries.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 10
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "Agriculture & Horticulture",
+    "subchapter": "Specialized Cultivation",
+    "topic": "Horticulture",
+    "content": "### Horticulture\nInvolves the **cultivation of fruits, vegetables, flowers, and ornamental plants**. It covers:\n- **Pomology** – fruit growing.\n- **Olericulture** – vegetable production.\n- **Floriculture** – flower and ornamental plant cultivation.\nHorticulture enhances food security, nutrition, and aesthetic value of landscapes.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 10
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "Agriculture & Horticulture",
+    "subchapter": "Specialized Cultivation",
+    "topic": "Viticulture",
+    "content": "### Viticulture\nThe **cultivation and harvesting of grapes**, primarily for winemaking. Important aspects:\n- Selection of grape varieties.\n- Vineyard site selection (soil, climate, slope).\n- Canopy management, pest control, and irrigation.\nViticulture is a key component of the global wine industry.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 10
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "Renewable Energy",
+    "subchapter": "Wind Energy",
+    "topic": "Windmills",
+    "content": "### Windmills (Wind Turbines)\nDevices that **convert kinetic energy of wind into electrical energy**. Key points:\n- **Kinetic energy** = energy of motion; windmills harness this directly.\n- They do **not** convert solar, thermal, chemical, or nuclear energy.\n- Components include rotor blades, gearbox, generator, and control system.\nWind energy is clean, renewable, and reduces dependence on fossil fuels.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 10
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "International Relations",
+    "subchapter": "Antarctic Governance",
+    "topic": "46th Antarctic Treaty Consultative Meeting (ATCM‑46)",
+    "content": "### ATCM‑46\nIndia successfully concluded hosting of the **46th Antarctic Treaty Consultative Meeting (ATCM‑46)** and the **26th Committee on Environmental Protection (CEP‑26)** in Kochi, Kerala.\n- ATCM‑46 focused on **environmental protection, scientific cooperation, and sustainable management of Antarctica**.\n- Hosting the meeting highlighted India's growing role in polar research and diplomacy.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 10
   }
 ]
