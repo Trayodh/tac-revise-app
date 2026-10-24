@@ -199810,5 +199810,1409 @@
     "content": "### ATCM‑46\nIndia successfully concluded hosting of the **46th Antarctic Treaty Consultative Meeting (ATCM‑46)** and the **26th Committee on Environmental Protection (CEP‑26)** in Kochi, Kerala.\n- ATCM‑46 focused on **environmental protection, scientific cooperation, and sustainable management of Antarctica**.\n- Hosting the meeting highlighted India's growing role in polar research and diplomacy.",
     "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
     "source_page": 10
+  },
+  {
+    "subject": "Reasoning",
+    "chapter": "Logical Reasoning",
+    "subchapter": "Position and Direction",
+    "topic": "Total Number of People in a Line",
+    "content": "### Formula\n```\nTotal number of people = (Position from Left + Position from Right) – 1\n```\n**Explanation**: When a person’s position is known from both the left end and the right end of a line, adding the two positions counts the person twice. Subtract 1 to get the actual total number of people.\n\n**Example**\n- Position from left = 18, position from right = 20\n- Total = (18 + 20) – 1 = **37**\n\nIf the position from the right is unknown (let it be *x*) and the left position is 13 with total 37:\n```\n37 = (13 + x) – 1 → 38 = 13 + x → x = 25\n```",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 11
+  },
+  {
+    "subject": "Reasoning",
+    "chapter": "Logical Reasoning",
+    "subchapter": "Family Relationship",
+    "topic": "Deriving Relationships from Diagrams",
+    "content": "### Principle\n- The **father of a man** is also the **father of the woman** in the diagram.\n- When two persons share the same father, they are **siblings**.\n- Hence, the woman is the **sister** of the man.\n\n### Typical Question\n> *Based on the given instructions, determine the relationship between the man and the woman.*\n\n**Answer**: Sister (option **B** in the original paper).",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 11
+  },
+  {
+    "subject": "Reasoning",
+    "chapter": "Logical Reasoning",
+    "subchapter": "Venn Diagram",
+    "topic": "Relationship between Husbands and Advocates",
+    "content": "### Statements\n1. **All husbands are male.**\n2. **Husbands may or may not be advocates.**\n3. **Advocates can be male or female.**\n\n### Deductions\n- Some husbands are advocates (intersection of *Husbands* and *Advocates* is non‑empty).\n- Some advocates are male (intersection of *Advocates* with *Males* is non‑empty).\n\n### Venn Diagram Construction\n- Draw two circles: one for **Husbands** (entirely inside the **Males** circle) and one for **Advocates** (overlapping both male and female areas).\n- Shade the overlapping region to indicate **husband‑advocates**.\n- The part of the **Advocates** circle outside the **Males** circle represents **female advocates**.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 11
+  },
+  {
+    "subject": "Reasoning",
+    "chapter": "Logical Reasoning",
+    "subchapter": "Set Theory",
+    "topic": "Intersection Count Outside a Third Set",
+    "content": "### Problem Statement\n> *Find the number that lies in the intersection of the rectangle and pentagon but **outside** the triangle.*\n\n### Solution Approach\n1. Identify the region common to **Rectangle ∩ Pentagon**.\n2. Exclude the part that also belongs to **Triangle**.\n3. The remaining count is the required answer.\n\n**Given answer:** **74**.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 11
+  },
+  {
+    "subject": "Reasoning",
+    "chapter": "Verbal Reasoning",
+    "subchapter": "Coding‑Decoding (Anagrams)",
+    "topic": "Finding the Odd One Out",
+    "content": "### Word → Meaningful Word Mapping\n| Jumbled | Meaningful |\n|---------|------------|\n| RDQAUSNO | **SQUADRON** |\n| EMOMCOROD | **COMMODORE** |\n| ANCEDOG | **DECAGON** |\n| LARHSAM | **MARSHAL** |\n\n### Observation\n- **SQUADRON, COMMODORE, MARSHAL** are all terms related to the **Indian Air Force** (ranks/units).\n- **DECAGON** is a geometric figure and has no relation to the Air Force.\n\n**Odd one out:** **DECAGON** (option **C**).",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 11
+  },
+  {
+    "subject": "Reasoning",
+    "chapter": "Verbal Reasoning",
+    "subchapter": "Coding‑Decoding (Word‑to‑Word)",
+    "topic": "Category Identification",
+    "content": "### Decoding\n| Code | Decoded |\n|------|---------|\n| EEWRSTA | **SWEATER** |\n| KCTAEJ | **JACKET** |\n| EECFEL | **FLEECE** |\n| ENBIAE | **BEANIE** |\n\n### Classification\n- **Sweater, Jacket, Beanie** → **Woollen clothing**.\n- **Fleece** → **Warm fabric** (not necessarily wool).\n\n**Conclusion:** The odd one out is **FLEECE** (option **C**).",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 11
+  },
+  {
+    "subject": "Reasoning",
+    "chapter": "Verbal Reasoning",
+    "subchapter": "Letter Relationships",
+    "topic": "Opposite Letters in the Alphabet",
+    "content": "### Concept\n- The English alphabet can be paired as opposites: **A ↔ Z, B ↔ Y, C ↔ X**, …, **M ↔ N**.\n- The *opposite* of a letter is the one that is equally distant from the start and end of the alphabet.\n\n### Given Pairs\n- **MN** → M is opposite of N.\n- **GT** → G is opposite of T.\n- **KP** → K is opposite of P.\n- **QL** → Q is opposite of J **and** L is opposite of O.\n\n**Use:** This rule helps in decoding/encoding problems where letters are replaced by their opposites.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 11
+  },
+  {
+    "subject": "Reasoning",
+    "chapter": "Quantitative Reasoning",
+    "subchapter": "Number Series – Multiplication",
+    "topic": "Finding the Missing Factor",
+    "content": "### Given Relations\n- **8 × 6 × 2 = 96**\n- **15 × 2 × 2 = 60**\n\n### Task\nFind the number ‘? ’ such that:\n```\n? × 5 × 6 = 120\n```\n### Solution\n```\n? = 120 / (5 × 6) = 120 / 30 = 4\n```\n**Answer:** **4** (option **B**).",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 11
+  },
+  {
+    "subject": "Reasoning",
+    "chapter": "Quantitative Reasoning",
+    "subchapter": "Columnar Addition",
+    "topic": "Summing Digits in Columns",
+    "content": "### Procedure\n1. Add the three numbers in each vertical column.\n2. Record the sum for that column.\n\n### Example from the paper\n- **First column:** 2 + 5 + 7 = **14**\n- **Second column:** 8 + 4 + 5 = **17**\n- **Third column:** 6 + 9 + 4 = **19**\n\n**Interpretation:** The pattern is simply the column‑wise sum of the digits.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2024.pdf",
+    "source_page": 11
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "subchapter": "",
+    "topic": "Simple Interest Formula",
+    "content": "The simple interest (SI) on a principal **P** at a rate **R%** per annum for **T** years is given by:\n\n```\nSI = (P × R × T) / 100\n```\n\nIf the interest amount is known, the principal can be found as:\n\n```\nP = (SI × 100) / (R × T)\n```\n\nSimilarly, to find a required rate for a given interest and time:\n\n```\nR = (SI × 100) / (P × T)\n```",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 3
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Ratio & Proportion",
+    "subchapter": "",
+    "topic": "Average Age and Ratio",
+    "content": "If the average of two ages is **A**, the sum of the ages is **2A**.\n\nWhen the ages are in the ratio **m:n**, let the ages be **mk** and **nk**.\n\nThen:\n```\nmk + nk = 2A  →  k = 2A / (m + n)\n```\nThe individual ages are obtained by multiplying **k** with the respective ratio terms.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 3
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Fractions",
+    "subchapter": "",
+    "topic": "Comparing Fractions",
+    "content": "To compare fractions **a/b** and **c/d**, cross‑multiply:\n```\na × d  ?  c × b\n```\nThe larger product corresponds to the larger fraction.\n\nFor fractions close to 1, a larger numerator‑denominator difference usually means a smaller value.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 3
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Algebra",
+    "subchapter": "",
+    "topic": "Using Averages to Form Equations",
+    "content": "If the average of a set of numbers is known, the sum can be obtained by:\n```\nSum = Average × Number_of_Terms\n```\nWhen overlapping groups are given (e.g., first three and last three of four numbers), set up equations for each group and solve simultaneously.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 3
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Profit & Loss",
+    "subchapter": "",
+    "topic": "Loss Percentage",
+    "content": "Loss % = (Loss ÷ Cost Price) × 100\n\nWhere:\n- **Cost Price (CP)** = total amount spent to acquire the goods.\n- **Selling Price (SP)** = total revenue earned.\n- **Loss** = CP – SP.\n\nIf goods are sold in batches at different rates, compute revenue for each batch, sum them, then apply the formula.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 3
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Mixture & Alligation",
+    "subchapter": "",
+    "topic": "Repeated Dilution (Milk‑Water Problem)",
+    "content": "When a fixed volume **V** of a mixture is removed and replaced by water, the amount of the original substance left after one operation is:\n```\nRemaining = Initial × (1 - V/Total_Volume)\n```\nRepeating the operation **n** times multiplies the remaining amount by the factor **(1 - V/Total_Volume)^n**.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 3
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Probability",
+    "subchapter": "",
+    "topic": "Sum of Two Dice Divisible by a Number",
+    "content": "Total outcomes when two dice are thrown = 6 × 6 = 36.\n\nTo find the probability that the sum is divisible by **k**, list all sums that satisfy the condition, count the corresponding ordered pairs, and divide by 36.\n\nFor “divisible by 4 **or** 6”, use the inclusion‑exclusion principle:\n```\nP(A ∪ B) = P(A) + P(B) – P(A ∩ B)\n```",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 3
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Ratio & Proportion",
+    "subchapter": "",
+    "topic": "Finding a Fraction from Word Conditions",
+    "content": "Let the numerator be **x** and denominator **y**.\n\nTranslate the statements into equations, e.g.:\n- \"Denominator is 4 more than twice the numerator\":  y = 2x + 4\n- \"After decreasing both by 6, denominator becomes 12 times numerator\":  y – 6 = 12(x – 6)\n\nSolve the simultaneous equations to obtain the fraction **x/y**.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 3
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "subchapter": "Grasslands",
+    "topic": "Types of Grasslands and Their Regions",
+    "content": "### Grassland Types\n| Grassland | Typical Region |\n|-----------|----------------|\n| **Prairies** | North America – primarily the USA (also Canada) |\n| **Downs** | Australia – e.g., the Australian Downs |\n| **Llanos** | Venezuela (and Colombia) – part of South America |\n| **Pampas** | South America – mainly Argentina, Uruguay, southern Brazil |\n\nThese grasslands are characterized by:\n- **Prairies**: Temperate climate, tall grasses, occasional shrubs.\n- **Downs**: Semi‑arid, short grasses, low rainfall.\n- **Llanos**: Tropical savanna, seasonal flooding.\n- **Pampas**: Fertile plains, extensive agriculture.\n",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 4
+  },
+  {
+    "subject": "Environment",
+    "chapter": "Climate Change",
+    "subchapter": "Greenhouse Gases",
+    "topic": "Substances Contributing to Global Warming",
+    "content": "### Major Greenhouse Gases (GHGs)\n- **Carbon Dioxide (CO₂)** – primary anthropogenic GHG from fossil fuel combustion.\n- **Methane (CH₄)** – ~28‑36 times more potent than CO₂ over 100 years; sources include agriculture, waste.\n- **Water Vapour (H₂O)** – strongest natural GHG; its concentration is temperature‑dependent.\n- **Nitrous Oxide (N₂O)** – agricultural soils and industrial processes.\n\n### Substances Not Directly Contributing to Global Warming\n- **Oxides of Sulphur (SOₓ) and Nitrogen (NOₓ)** – primarily act as aerosols that reflect solar radiation, leading to a cooling effect rather than warming.\n",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 4
+  },
+  {
+    "subject": "Defence",
+    "chapter": "Indian Military Operations",
+    "subchapter": "Operations",
+    "topic": "Key Indian Operations",
+    "content": "### Operation Nistar\n- **Year**: 2015\n- **Purpose**: Rescue operation to evacuate Indian nationals from Yemen during the civil war.\n\n### Operation Pawan\n- **Year**: 1987‑1990\n- **Purpose**: Indian Army’s intervention in Sri Lanka to regain control of the Jaffna Peninsula from LTTE.\n\n### Operation Trident\n- **Year**: 1971\n- **Purpose**: Indian Navy’s attack on Karachi harbour during the Indo‑Pak war; a classic surface‑to‑surface naval strike.\n\n### Operation Brasstacks\n- **Year**: 1986‑87\n- **Purpose**: Large‑scale Indian Army field exercise; later perceived as a joint military exercise with Pakistan, heightening strategic tensions.\n",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 4
+  },
+  {
+    "subject": "Defence",
+    "chapter": "Missiles",
+    "subchapter": "Surface‑to‑Surface Missiles",
+    "topic": "Short‑Range Surface‑to‑Surface Missiles",
+    "content": "### Short‑Range Surface‑to‑Surface Missiles (SSM)\n- **TRISHUL** – Developed by DRDO; range up to ~30 km; intended for tactical battlefield use.\n- **PRITHVI** – Short‑range ballistic missile (SRBM); range 150‑350 km; can be launched from land platforms.\n\n*Note*: AKASH and NAG are surface‑to‑air missiles and are not classified as SSMs.\n",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 4
+  },
+  {
+    "subject": "Disaster Management",
+    "chapter": "Flood Management",
+    "subchapter": "Early Warning Systems",
+    "topic": "First Indian City with Flood Early Warning System",
+    "content": "### Kolkata\n- **Milestone**: First city in India to implement a systematic flood early warning system, integrating river‑level monitoring, meteorological data, and real‑time alerts to mitigate flood impacts.\n",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 4
+  },
+  {
+    "subject": "Governance",
+    "chapter": "PM CARES Fund",
+    "subchapter": "Financial Aspects",
+    "topic": "Key Features of the PM CARES Fund",
+    "content": "### PM CARES Fund – Highlights\n- **Not a Government Fund**: Money collected does **not** go directly to the Consolidated Fund of India; it is held in a public charitable trust.\n- **Foreign Contributions**: The fund **cannot** accept foreign contributions under the Foreign Contribution (Regulation) Act (FCRA).\n- **Tax Benefits**: Donations are eligible for 100 % tax exemption under Section 80G of the Income Tax Act, but only for Indian donors.\n",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 4
+  },
+  {
+    "subject": "Geology",
+    "chapter": "Earthquakes",
+    "subchapter": "Factors Influencing Impact",
+    "topic": "Factors Contributing to Earthquake Effects",
+    "content": "### Primary Factors\n1. **Location** – Proximity to the epicentre determines the intensity of shaking.\n2. **Distance from the Epicentre** – Seismic energy attenuates with distance; farther locations experience less severe shaking.\n3. **Local Geological Conditions** – Soil type, rock rigidity, and basin effects can amplify or dampen seismic waves.\n\nAll three factors collectively influence the damage and felt intensity of an earthquake.\n",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 4
+  },
+  {
+    "subject": "AFCAT",
+    "chapter": "General Aptitude",
+    "subchapter": "Symbolic Operations",
+    "topic": "Operation Symbols",
+    "content": "In symbolic arithmetic used in some aptitude questions, the following mappings are common:\\n\\n- **P** : Addition (`+`)\\n- **Q** : Division (`÷`)\\n- **R** : Multiplication (`×`)\\n- **S** : Subtraction (`-`)\\n\\nThese symbols replace the usual arithmetic operators in expressions, and the expressions are evaluated from left to right unless parentheses are explicitly given.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 5
+  },
+  {
+    "subject": "AFCAT",
+    "chapter": "General Aptitude",
+    "subchapter": "Direction & Displacement",
+    "topic": "Resultant Displacement",
+    "content": "When a person moves in orthogonal directions (North‑South and East‑West), the net displacement can be found using vector addition:\\n\\n1. **Net North‑South displacement** = (distance north) – (distance south)\\n2. **Net East‑West displacement** = (distance east) – (distance west)\\n3. **Resultant distance** = \\( \\sqrt{(\\text{Net NS})^2 + (\\text{Net EW})^2} \\)\\n4. **Resultant direction** is given by the quadrant in which the net components lie (e.g., North‑East if both components are positive).\\n\\n*Example*: 10 km north, 6 km south, 3 km east → Net NS = 4 km north, Net EW = 3 km east → Resultant = 5 km North‑East.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 5
+  },
+  {
+    "subject": "English",
+    "chapter": "Vocabulary",
+    "subchapter": "Word Meaning",
+    "topic": "Brackish",
+    "content": "### Brackish\n- **Definition**: Having a slightly salty flavor; water that is more saline than fresh water but less than seawater.\n- **Usage Example**: *The meal was too brackish to consume.*\n- **Related Terms**: saline, salty, fresh, seawater.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 6
+  },
+  {
+    "subject": "English",
+    "chapter": "Vocabulary",
+    "subchapter": "Word Meaning",
+    "topic": "Commotion",
+    "content": "### Commotion\n- **Definition**: A state of noisy confusion or activity.\n- **Usage Example**: *The market was in a commotion after the announcement.*\n- **Synonyms**: uproar, turmoil, disturbance, clamor.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 6
+  },
+  {
+    "subject": "English",
+    "chapter": "Vocabulary",
+    "subchapter": "Word Meaning",
+    "topic": "Traditionally",
+    "content": "### Traditionally\n- **Definition**: Relating to long‑standing customs or practices; something that has been done over a long period of time.\n- **Contextual Note**: Used to describe historical practices, e.g., *traditionally used farming methods*.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 6
+  },
+  {
+    "subject": "English",
+    "chapter": "Vocabulary",
+    "subchapter": "Phrase Meaning",
+    "topic": "Rotated crops to control insects",
+    "content": "### Rotated crops to control insects\n- **Concept**: Crop rotation involves changing the type of crop grown on a particular piece of land in successive seasons. This disrupts pest life cycles because different crops attract different insects, thereby reducing pest populations.\n- **Benefit**: Natural pest management, reduced reliance on chemical pesticides.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 6
+  },
+  {
+    "subject": "English",
+    "chapter": "Vocabulary",
+    "subchapter": "Phrase Meaning",
+    "topic": "Rely on chemicals",
+    "content": "### Rely on chemicals\n- **Concept**: Dependence on synthetic chemicals (e.g., pesticides, fertilizers) for agricultural productivity and pest control.\n- **Implication**: Indicates a shift from traditional or organic methods to chemical‑intensive farming, especially in developed countries.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 6
+  },
+  {
+    "subject": "English",
+    "chapter": "Sentence Ordering",
+    "subchapter": "Logical Sequence",
+    "topic": "Indian Civil Service passage",
+    "content": "### Sentence Ordering – Indian Civil Service\n- **Key Idea**: The correct logical flow is:\n  1. **S** – *its members exercised vast power*\n  2. **Q** – *and often participated in the making of policy*\n  3. **R** – *and developed a certain tradition of*\n  4. **P** – *independence, integrity, and hard work*\n- **Reasoning**: The sentence first establishes the power of members, then their policy involvement, followed by the tradition they built, and finally the values they embodied.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 6
+  },
+  {
+    "subject": "English",
+    "chapter": "Sentence Ordering",
+    "subchapter": "Logical Sequence",
+    "topic": "Decomposers passage",
+    "content": "### Sentence Ordering – Decomposers\n- **Correct Sequence**:\n  1. **P** – *help in decomposing the*\n  2. **R** – *dead bodies of plants and animals*\n  3. **Q** – *and hence help to clean the environment*\n  4. **S** – *and put back various useful elements*\n- **Explanation**: The passage first mentions the role of decomposers, then the material they act upon, followed by the environmental benefit, and finally the recycling of nutrients.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 6
+  },
+  {
+    "subject": "English",
+    "chapter": "Sentence Ordering",
+    "subchapter": "Logical Sequence",
+    "topic": "Thick glass cutting passage",
+    "content": "### Sentence Ordering – Thick Glass Cutting\n- **Correct Sequence**:\n  1. **S** – *be cut with one*\n  2. **P** – *of the home bottle‑cutters*\n  3. **Q** – *which are available*\n  4. **R** – *in many large stores, but any fine*\n- **Explanation**: The sentence starts with the action (cutting), specifies the tool (home bottle‑cutters), mentions availability, and ends with the place of purchase.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 6
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Speed, Time & Distance",
+    "subchapter": "",
+    "topic": "Basic Formulas",
+    "content": "### Speed, Time & Distance\n- **Distance** = Speed × Time\n- **Relative Speed** (same direction) = |Speed₁ – Speed₂|\n- **Relative Speed** (opposite direction) = Speed₁ + Speed₂\n- When two bodies start from opposite ends and meet, the distance covered by each is proportional to its speed.\n- **LCM method** can be used to find a common distance when the times taken by two trains are given as fractions of an hour.\n- **Time to cross each other** = (Remaining distance) ÷ (Relative speed).\n",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 7
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Simple Interest",
+    "subchapter": "",
+    "topic": "Formula & Application",
+    "content": "### Simple Interest (SI)\n- **Formula**: \\( SI = \\frac{P \\times R \\times T}{100} \\)\n- **Total amount** = Principal + Simple Interest.\n- When the simple interest is the same under two different sets of conditions, set the two SI expressions equal and solve for the unknown rate or time.\n",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 7
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Age Problems",
+    "subchapter": "",
+    "topic": "Ratio & Total Age Method",
+    "content": "### Age Problems\n- If ages are in a ratio, let the ages be \\(k \\times \\text{ratio\\_value}\\).\n- **Total age** = Sum of individual ages.\n- Solve \\(k\\) from the total age, then compute each person's age.\n",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 7
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Number System",
+    "subchapter": "",
+    "topic": "Converting Fractions to Decimals",
+    "content": "### Converting Fractions to Decimals\n- Divide the numerator by the denominator.\n- Example conversions:\n  - \\(\\frac{3}{4}=0.75\\)\n  - \\(\\frac{10}{13}\\approx0.77\\)\n  - \\(\\frac{11}{14}\\approx0.79\\)\n  - \\(\\frac{7}{9}\\approx0.78\\)\n",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 7
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Arithmetic Progression",
+    "subchapter": "",
+    "topic": "Sum of Consecutive Numbers",
+    "content": "### Sum of Consecutive Numbers\n- If the sum of the last three numbers of a 6‑term series is known, the sum of the middle two can be found by subtracting the sum of the first three from the total sum.\n- For a series where each term increases by 1, the sum of three consecutive numbers is \\(3 \\times \\text{average}\\).\n",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 7
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Work and Time",
+    "subchapter": "",
+    "topic": "Combined work problem",
+    "content": "### Combined Work Problem\n- Let the total work be **1 unit**.\n- P, Q and R work together for **2 hours** (9 AM – 11 AM) and complete \\(\\frac{37}{60}\\) of the work.\n- **Remaining work** = \\(1 - \\frac{37}{60}=\\frac{23}{60}\\).\n- Work done by **Q and R in one hour** = \\(\\frac{23}{60}\\) ÷ 2 = \\(\\frac{23}{120}\\) unit.\n- To finish the remaining \\(\\frac{23}{60}\\) unit, the required time = \\(\\frac{\\frac{23}{60}}{\\frac{23}{120}} = 2\\) hours.\n- Hence the work will be completed **2 hours after 11 AM → 1 PM**.\n\n**Key formulas**\n- Combined work in *t* hours = rate × *t*.\n- Remaining work = Total work – Work already done.\n- Time to finish remaining work = Remaining work ÷ (combined rate of remaining workers).",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 8
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "chapter": "Clocks",
+    "subchapter": "",
+    "topic": "Angle between hour‑hand and minute‑hand",
+    "content": "### Angle Between Clock Hands\n- Position of hour‑hand (in degrees) = \\(30\\times H + 0.5\\times M\\)\n- Position of minute‑hand (in degrees) = \\(6\\times M\\)\n- **Angle** = \\(|30H + 0.5M - 6M| = |30H - 5.5M|\\)\n- Example: At **11:30** →\n  - Hour‑hand = \\(30\\times11 + 0.5\\times30 = 330 + 15 = 345°\\)\n  - Minute‑hand = \\(6\\times30 = 180°\\)\n  - Angle = \\(|345 - 180| = 165°\\) (the smaller angle is \\(360-165 = 195°\\), so the acute angle is **165°**).\n\n#### Coincidence of Hands after 11:00\n- Hands coincide when \\(30H - 5.5M = 0\\).\n- For the hour after 11:00, \\(H = 11\\).\n- Solving: \\(30\\times11 = 5.5M \\Rightarrow M = \\frac{330}{5.5}=\\frac{660}{11}=60\\) minutes.\n- Since the hour‑hand moves, the exact time after 11:00 is \\(\\frac{60}{11}\\) minutes ≈ **5 min 27.27 sec** (i.e., 11:05 27.27 s).",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 8
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Awards",
+    "subchapter": "",
+    "topic": "Shanti Swarup Bhatnagar Prize",
+    "content": "### Shanti Swarup Bhatnagar Prize for Science and Technology\n- **Established:** 1958\n- **Named after:** Dr. Shanti Swarup Bhatnagar – eminent Indian scientist, educationist and founder‑director of CSIR.\n- **Purpose:** To recognize outstanding contributions in **Science and Technology** across various disciplines (Physical Sciences, Chemical Sciences, Biological Sciences, Engineering Sciences, etc.).\n- **Prestige:** Considered one of the most prestigious scientific awards in India; recipients are often regarded as leading researchers in their fields.\n- **Award components:** Citation, medal, and a cash prize.\n- **Eligibility:** Indian scientists under the age of 45 who have made significant research contributions.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 8
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Defense – Naval",
+    "subchapter": "",
+    "topic": "INS Chakra",
+    "content": "### INS Chakra\n- **Type:** Nuclear‑powered attack submarine.\n- **Operator:** Indian Navy.\n- **Origin:** India has **leased** the submarine from Russia; the name *INS Chakra* is used for the leased vessels.\n- **Significance:** First nuclear‑powered submarine to operate under the Indian flag, enhancing strategic deterrence and underwater capabilities.\n- **Series:** Part of a series of Russian‑built **Akula‑class** (Project 971) submarines that India has acquired/leased over the years.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 8
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Defense – Missiles",
+    "subchapter": "",
+    "topic": "Helina Missile",
+    "content": "### Helina (HELicopter‑launched NAg)\n- **Developed by:** DRDO (Defence Research and Development Organisation), India.\n- **Category:** Third‑generation, fire‑and‑forget, anti‑tank guided missile.\n- **Launch platform:** Helicopters (e.g., HAL Dhruv, Mi‑17).\n- **Guidance:** Infrared imaging seeker for day/night operation.\n- **Features:** High penetration warhead, lock‑on after launch, capable of engaging moving armored targets.\n- **Status:** Induction into Indian armed forces underway; enhances anti‑armor capability from aerial platforms.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 8
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Environment",
+    "subchapter": "Greenhouse Effect",
+    "topic": "Greenhouse Gases",
+    "content": "### Greenhouse Effect\n- The greenhouse effect is the phenomenon by which certain gases present in the atmosphere trap heat, preventing it from escaping Earth.\n- **Key greenhouse gases**: Carbon dioxide (CO₂), Methane (CH₄), Oxides of sulfur (SOₓ), Oxides of nitrogen (NOₓ), Water vapor (H₂O).\n- **Human‑induced contributors**: CO₂, CH₄, SOₓ, NOₓ are significant because their concentrations increase due to anthropogenic activities.\n- **Water vapor** is a natural greenhouse gas; its atmospheric concentration is primarily controlled by temperature and natural processes, so it is not considered a major *human‑induced* contributor.\n- **Nitrogen (N₂)** does **not** contribute to the greenhouse effect because it is a diatomic molecule that does not absorb infrared radiation.\n- **Impact of increased CO₂**: More CO₂ → more heat retained → global warming.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 9
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "subchapter": "Grasslands",
+    "topic": "Major Grassland Types and Their Locations",
+    "content": "### Grassland Types\n| Grassland Type | Representative Region |\n|----------------|-----------------------|\n| Prairies       | United States (North America) |\n| Downs          | Australia |\n| Llanos         | Venezuela (and parts of Colombia) |\n| Pampas         | South America (Argentina, Uruguay, southern Brazil) |\n\nThese are the classic temperate and tropical grassland ecosystems found on each continent.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 9
+  },
+  {
+    "subject": "Current Affairs / Defence",
+    "chapter": "Indian Military Operations",
+    "subchapter": "Operations",
+    "topic": "Key Indian Operations (1990‑2015)",
+    "content": "### Operation Summaries\n- **Operation Nistar (2015)**: Rescue operation by the Indian government to evacuate Indian nationals from Yemen during the crisis.\n- **Operation Pawan (1987‑1990)**: Military operation conducted by the Indian Peace Keeping Force (IPKF) in Sri Lanka to control the Jaffna peninsula during the Sri Lankan Civil War.\n- **Operation Trident (1971)**: Naval operation by the Indian Navy during the Indo‑Pakistani War of 1971; a successful night attack on Karachi on 4‑5 December 1971.\n- **Operation Brasstacks (1986‑1987)**: Large‑scale military exercise conducted by the Indian Army near the India‑Pakistan border, later leading to diplomatic tensions.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 9
+  },
+  {
+    "subject": "Reasoning",
+    "chapter": "Coding‑Decoding",
+    "subchapter": "Symbolic Representation",
+    "topic": "Mapping symbols to arithmetic operations",
+    "content": "### Symbolic Mapping\n- **Q** → Division ( ÷ )\n- **P** → Addition ( + )\n- **S** → Subtraction ( – )\n- **R** → Multiplication ( × )\n\nThese mappings are used to translate coded expressions such as `32 Q 4 P 16 S 4 R 2` into ordinary arithmetic: `32 ÷ 4 + 16 – 4 × 2`.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 10
+  },
+  {
+    "subject": "Reasoning",
+    "chapter": "Series & Patterns",
+    "subchapter": "Alphabetic Series",
+    "topic": "Missing term identification",
+    "content": "### Pattern Description\nThe series shows a repeating **‑3, +3** shift between successive letters:\n```\n(9) I  F (6) L (12) –3 +3\n(17) Q N (14) T (20) –3 +3\n(22) V S (19) Y (25) –3 +3\n```\nApplying the same shift, the missing term after **V** is **S**.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 10
+  },
+  {
+    "subject": "Reasoning",
+    "chapter": "Data Interpretation",
+    "subchapter": "Venn Diagram",
+    "topic": "Calculating non‑overlapping region",
+    "content": "### Example\nIn a Venn diagram, the numbers **16** and **9** represent elements that belong only to one set (rice not water). The total number of such elements is:\n```\n16 + 9 = 25\n```",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 10
+  },
+  {
+    "subject": "Reasoning",
+    "chapter": "Spatial Reasoning",
+    "subchapter": "Vector Displacement",
+    "topic": "North‑East direction",
+    "content": "### Displacement Example\nFrom the given steps:\n```\n2 2 KN +\n2 2 KN 4 3 5km = + =\n```\nThe resultant vector shows that **K** is **5 km to the North‑East** of the starting point.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 10
+  },
+  {
+    "subject": "Reasoning",
+    "chapter": "Verbal Reasoning",
+    "subchapter": "Anagram",
+    "topic": "Word rearrangement",
+    "content": "### Bird Anagram Examples\n- TOGA → **GOAT** (not a bird)\n- GEPONI → **PIGEON**\n- RARPOT → **PARROT**\n- LEEGA → **EAGLE**\nAll the transformed words are birds except **GOAT**.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 10
+  },
+  {
+    "subject": "Reasoning",
+    "chapter": "Family Tree",
+    "subchapter": "",
+    "topic": "Relationship Definitions",
+    "content": "### Relationship Definitions\n- **Son‑in‑law**: The husband of one's daughter.\n- **Brother‑in‑law**: The husband of one's sister **or** the brother of one's spouse.\n- **Daughter‑in‑law**: The wife of one's son.\n- **Paternal Uncle**: The brother of one's father.\n\nThese definitions are essential for solving family‑tree problems where the connections between individuals are given in statements such as *\"N is the only son‑in‑law of G\"* or *\"A is the brother‑in‑law of B\"*.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 11
+  },
+  {
+    "subject": "Reasoning",
+    "chapter": "Analogy",
+    "subchapter": "",
+    "topic": "Analogous Relationships",
+    "content": "### Analogy Pattern\nThe relationship *\"School : Principal\"* is analogous to *\"Newspaper : Editor\"*.\n- The head of an institution is paired with the person who leads it.\n- In analogies, replace the first term with a similar entity and keep the same functional relationship.\n\n**Formula**: *X is to Y as A is to B* → find B that holds the same functional role as Y does to X.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 11
+  },
+  {
+    "subject": "Reasoning",
+    "chapter": "Number Series",
+    "subchapter": "",
+    "topic": "Arithmetic Combination Logic",
+    "content": "### Logic Used in the Series\nEach term is obtained by the expression:\n```\nResult = (FirstNumber + SecondNumber) – ThirdNumber\n```\nExample:\n- (23 + 15) – 32 = 6\n- (19 + 26) – 29 = 16\nApplying the same rule to (27 + 9) – 18 gives 18.\n\nThis pattern is common in aptitude tests where two numbers are added and a third is subtracted.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 11
+  },
+  {
+    "subject": "Reasoning",
+    "chapter": "Figure Reasoning",
+    "subchapter": "",
+    "topic": "Common‑Area Dot Placement",
+    "content": "### Conditions for Dot Placement\n1. One dot must lie in the **common area** of the Y‑shape, Kite‑shape, and Square.\n2. One dot must lie in the **common area** of the Y‑shape and the Circle.\n3. One dot must be placed **only** inside the Kite‑shape (not overlapping any other shape).\n\nA figure that satisfies all three conditions is labelled **Figure A** in the source material.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 11
+  },
+  {
+    "subject": "Reasoning",
+    "chapter": "Pattern Series – Shapes & Alphabets",
+    "subchapter": "",
+    "topic": "Clockwise Alphabet Placement",
+    "content": "### Observed Pattern\n- The series repeats the shapes **Triangle → Square → Pentagon**.\n- At each step a new alphabet is introduced at a corner in a **clockwise** order.\n- After using A, B, C the next alphabet to be placed is **D**, positioned at the only remaining corner (bottom‑left).\n\nThus the next step will show the alphabet **D** at the bottom‑left corner while the shape sequence restarts.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 11
+  },
+  {
+    "subject": "Reasoning",
+    "chapter": "Coding‑Decoding",
+    "subchapter": "",
+    "topic": "Incremental Letter Shifts",
+    "content": "### Shift Pattern\nThe given rows show a progressive shift of each letter by decreasing increments:\n- First row: shift +6, +5, +4, +3, +2, +1\n- Second row follows the same decremental shift pattern.\n- The same logic is applied to the third row.\n\nTo decode or encode a new term, continue the sequence of decreasing shifts (‑6, ‑5, …) for each successive letter.",
+    "source_pdf": "AFCAT Papers\\AFCAT Solved Paper-II 2022.pdf",
+    "source_page": 11
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Intelligence Agencies",
+    "subchapter": "International Agencies",
+    "topic": "Major Intelligence Agencies of the World",
+    "content": "### Major Intelligence Agencies\n\n- **RAW** – Research and Analysis Wing (India)\n- **ISI** – Inter-Services Intelligence (Pakistan)\n- **MI6** – Secret Intelligence Service (United Kingdom)\n- **CIA** – Central Intelligence Agency (United States)\n- **KGB** – Committee for State Security (Former Soviet Union, now succeeded by FSB and SVR)\n\nThese agencies are responsible for foreign intelligence gathering, covert operations, and national security.",
+    "source_pdf": "chunk_80_119.pdf",
+    "source_page": 24
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Indian Military Leaders",
+    "subchapter": "Sam Manekshaw",
+    "topic": "Career Highlights",
+    "content": "### Sam Manekshaw (1914‑2008)\n- **Position**: Chief of Army Staff, India (1969‑1973)\n- **Key Periods**:\n  - Oversaw the Indian Army during heightened tensions with Pakistan and internal security challenges.\n- **1971 Indo‑Pakistani War**:\n  - Formulated and executed the military strategy that led to the decisive victory.\n  - Resulted in the surrender of **93,000 Pakistani troops**.\n  - Contributed to the creation of **Bangladesh** as an independent nation.\n- **Legacy**:\n  - Remembered for his charismatic leadership, strategic acumen, and the famous quote, *\"Never leave an Indian soldier behind.\"*",
+    "source_pdf": "chunk_80_119.pdf",
+    "source_page": 27
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Indian Military History",
+    "subchapter": "1970s",
+    "topic": "Chief of Army Staff (1969‑1973)",
+    "content": "### Chief of Army Staff (1969‑1973)\n- **Name:** Field Marshal Sam Manekshaw\n- **Tenure:** 1969 to 1973\n- **Key Context:** Period marked by heightened tensions with Pakistan and internal conflicts in India.\n- **Major Contribution:** Formulated the military strategy for the 1971 Indo‑Pakistani War.\n- **Outcome of 1971 War:** Surrender of **93,000 Pakistani troops** and the creation of **Bangladesh**.\n- **Legacy:** Recognised for decisive leadership and strategic acumen that led to a swift victory in 1971.\n\n**References:**\n- Historical records of the Indian Army.\n- Official accounts of the 1971 Indo‑Pakistani War.",
+    "source_pdf": "chunk_80_119.pdf",
+    "source_page": 28
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Indian Armed Forces",
+    "subchapter": "Indian Army Leaders",
+    "topic": "Field Marshal K. M. Cariappa",
+    "content": "### Field Marshal K. M. Cariappa (1895‑1993)\n\n- **First Indian Commander-in-Chief of the Indian Army** (appointed in 1949), succeeding British General Sir Francis Butcher.\n- **Key role in the Indo‑Pakistani War of 1947–48** (Kashmir conflict), leading Indian forces during the first major post‑independence war.\n- **Advocate of \"Indianisation\"** of the Army – promoted greater participation and leadership roles for Indian officers in the armed forces.\n- **Career Highlights**:\n  - Joined the British Indian Army in 1915.\n  - Served with distinction in World War I and World War II.\n  - Became the first Indian to hold the rank of **Field Marshal** (post‑retirement honor).\n- **Legacy**:\n  - Remembered for professionalising the Indian Army and fostering a sense of national pride among its ranks.\n  - Numerous institutions and awards are named after him, reflecting his lasting impact on India's defence establishment.",
+    "source_pdf": "chunk_80_119.pdf",
+    "source_page": 29
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Important Days",
+    "subchapter": "Army Day",
+    "topic": "Indian Army Day",
+    "content": "## Indian Army Day\n- **Date:** 15 January (annually)\n- **Significance:** Commemorates the day in 1949 when **General K. M. Cariappa** took over as the first Indian Commander‑in‑Chief of the Indian Army.\n- **Historical Context:**\n  - Prior to 1949, the Indian Army was headed by British officers. The last British Commander‑in‑Chief was **General Sir Francis Butcher**.\n  - General Cariappa’s appointment marked the transition to Indian leadership of the Army after independence.\n- **Key Personality:**\n  - **General K. M. Cariappa** (1895‑1993)\n    - First Indian Commander‑in‑Chief of the Indian Army.\n    - Served as the Governor of Punjab after retirement.\n    - Known for his integrity, discipline, and dedication to the nation.\n- **Observance:**\n  - Parades, cultural programs, and award ceremonies are held across the country, especially at the Army Headquarters in New Delhi.\n- **Related Facts:**\n  - The day is also used to honor the sacrifices of soldiers and to showcase the Army’s capabilities.\n",
+    "source_pdf": "chunk_80_119.pdf",
+    "source_page": 30
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Awards and Honours",
+    "subchapter": "Param Vir Chakra",
+    "topic": "Flying Officer Nirmal Jit Singh Sekhon",
+    "content": "### Flying Officer Nirmal Jit Singh Sekhon (1940‑1971)\n- **First IAF recipient of the Param Vir Chakra (PVC)** – He was posthumously awarded the PVC for his gallantry during the Indo‑Pak war of 1971.\n- **Citation highlights**: Displayed extraordinary bravery by engaging enemy aircraft despite being heavily outnumbered, continuing to fight even after his aircraft was damaged, and refusing to abandon his post.\n\n### Param Vir Chakra (India’s Highest Gallantry Award)\n- **Shape**: Octagonal.\n- **Material**: Bronze (not silver).\n- **Design**: Features a single **Vajra** (thunderbolt) with the **Ashoka Chakra** embossed at its centre.\n- **Awarded for**: Most conspicuous bravery or some daring or pre-eminent act of valor or self‑sacrifice, in the presence of the enemy, whether on land, at sea or in the air.\n- **Inscription**: \"Param Vir Chakra\" in Hindi and English on the reverse side.\n\n### Key Points for Exams\n- First IAF officer to receive the PVC → **Flying Officer Nirmal Jit Singh Sekhon**.\n- PVC material = **Bronze**, shape = **Octagonal**, central motif = **Vajra with Ashoka Chakra**.\n- Remember the distinction between material (bronze) and common misconceptions (silver).",
+    "source_pdf": "chunk_80_119.pdf",
+    "source_page": 31
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "Indian Armed Forces",
+    "subchapter": "Indian Army Leaders",
+    "topic": "Field Marshal Sam Manekshaw",
+    "content": "### Field Marshal Sam Manekshaw (1914‑2008)\n\n- **First Indian Army officer promoted to the rank of Field Marshal** (1966). This made him the first Indian to hold the highest possible rank in the Indian Army.\n- **Chief of Army Staff (COAS)**: Served from **1969 to 1973**. His tenure covered a period of heightened tensions with Pakistan, culminating in the 1971 Indo‑Pak war, as well as internal security challenges.\n- **Key Contributions**:\n  - Played a pivotal role in planning and executing the successful **1971 war** that led to the creation of Bangladesh.\n  - Known for his charismatic leadership, strategic foresight, and ability to inspire troops.\n- **Awards & Honours**:\n  - Padma Vibhushan (1970)\n  - Padma Bhushan (1959)\n  - Numerous military decorations including the Param Vishisht Seva Medal (PVSM).\n- **Legacy**:\n  - Remembered as one of India’s most celebrated military leaders.\n  - Frequently quoted for his wit and wisdom, e.g., “Never say ‘never’.”\n\n---\n**Relevant Facts for Competitive Exams**\n1. First Indian Field Marshal – Sam Manekshaw (1966).\n2. COAS tenure – 1969‑1973.\n3. Oversaw the 1971 Indo‑Pak war leading to Bangladesh’s independence.\n4. Awarded Padma Vibhushan in 1970.\n",
+    "source_pdf": "chunk_80_119.pdf",
+    "source_page": 32
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Indian Army History",
+    "subchapter": "Transfer of Command (1949)",
+    "topic": "First Indian Commander-in-Chief",
+    "content": "### Transfer of Command (1949)\n- **Date of Transfer:** 15 January 1949\n- **First Indian Commander-in-Chief:** General **K. M. Cariappa**\n- **Outgoing Commander:** General **Sir Roy Bucher** (the last British Commander-in-Chief of the Indian Army)\n- **Significance:** Marks the end of British military leadership in the Indian Army and the beginning of indigenous command.\n- **Indian Army Day:** Celebrated annually on **15 January** to commemorate the day General Cariappa took over as C-in-C.\n- **Key Points:**\n  - General Cariappa was the first Indian officer to hold the highest position in the Indian Army.\n  - The transition symbolized India's full sovereignty over its armed forces.\n  - The day is observed with parades, award ceremonies, and cultural events across the country.",
+    "source_pdf": "chunk_80_119.pdf",
+    "source_page": 33
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "subchapter": "Rivers and Lakes",
+    "topic": "Jhelum River & Wular Lake",
+    "content": "### Fact\n- **Jhelum River** originates in the Indian Himalayas and **passes through Wular Lake** in the Kashmir Valley. Wular Lake is one of the largest freshwater lakes in Asia and receives a major inflow from the Jhelum River.\n\n---",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 3
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "subchapter": "Rivers and Lakes",
+    "topic": "Krishna River & Kolleru Lake",
+    "content": "### Fact\n- **Kolleru Lake** (Andhra Pradesh) is a large freshwater lake that receives **seasonal inflow from the Krishna River** (and also from the Godavari) through a network of canals and natural channels. The lake acts as a flood‑mitigation basin during the monsoon.\n\n---",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 3
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "subchapter": "Rivers and Lakes",
+    "topic": "Gandak River & Kanwar (Kharwar) Lake",
+    "content": "### Fact\n- **Kanwar (Kharwar) Lake** in Bihar is a shallow, rain‑fed lake formed by the **meandering and subsequent cut‑off of the Gandak River**. The lake is a Ramsar site and an important habitat for migratory birds.\n\n---",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 3
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Economic Geography",
+    "subchapter": "Ports of India",
+    "topic": "Kamaraj (Ennore) Port",
+    "content": "### Fact\n- **Kamaraj Port** (formerly Ennore Port) is **the first major Indian port to be corporatised and registered as a company** under the Companies Act. It is located on the Coromandel Coast of Tamil Nadu.\n\n---",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 3
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Economic Geography",
+    "subchapter": "Ports of India",
+    "topic": "Mundra Port",
+    "content": "### Fact\n- **Mundra Port** in Gujarat is **the largest privately owned port in India**. It is operated by Adani Ports & SEZ Limited and handles a major share of India's containerised and bulk cargo.\n\n---",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 3
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Economic Geography",
+    "subchapter": "Ports of India",
+    "topic": "Visakhapatnam Port",
+    "content": "### Fact\n- **Visakhapatnam Port** (Vizag) on the east coast is **the largest container handling port in India** in terms of TEU (twenty‑foot equivalent unit) throughput.\n\n---",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 3
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Forestry",
+    "subchapter": "Tree Types",
+    "topic": "Deciduous vs Evergreen Trees",
+    "content": "### Fact\n- **Jackfruit (Artocarpus heterophyllus)** – evergreen (retains leaves year‑round).\n- **Mahua (Madhuca indica)** – deciduous (sheds leaves during the dry season).\n- **Teak (Tectona grandis)** – semi‑deciduous/deciduous (leaf fall occurs in the dry season).\n\n**Conclusion:** Among the three, **Mahua and Teak are deciduous**, while Jackfruit is evergreen.\n\n---",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 3
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Agriculture",
+    "subchapter": "Land Resources",
+    "topic": "Arable Area & Irrigation – India vs China",
+    "content": "### Fact\n- **Arable area:** India (~156 million ha) has a larger arable land area than China (~122 million ha). ✅\n- **Proportion of irrigated area:** China has a higher percentage of its cultivated land under irrigation (≈55 %) compared to India (≈45 %). ❌\n- **Average productivity per hectare:** China’s average yields (e.g., rice, wheat) are higher than India’s due to intensive technology and input use. ❌\n\n**Result:** Only the first statement is correct.\n\n---",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 3
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Coastal Geography",
+    "subchapter": "Marshlands & Sea‑Level Changes",
+    "topic": "Rann of Kutch",
+    "content": "### Fact\n- The **Rann of Kutch** in Gujarat is a vast seasonal salt marsh that was formed by **repeated falls in sea level** during the late Quaternary period, exposing the seabed and creating the present‑day marshland.\n\n---",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 3
+  },
+  {
+    "subject": "Geology",
+    "chapter": "Minerals",
+    "subchapter": "Heavy Minerals",
+    "topic": "Ilmenite, Rutile & Titanium",
+    "content": "### Fact\n- **Ilmenite (FeTiO₃)** and **Rutile (TiO₂)** are heavy mineral sands found along the Indian coastline (e.g., Kerala, Tamil Nadu). They are **the primary commercial sources of titanium** used in aerospace alloys, pigments, and welding electrodes.\n\n---",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 3
+  },
+  {
+    "subject": "Geology",
+    "chapter": "Minerals",
+    "subchapter": "Strategic Metals",
+    "topic": "Global Cobalt Production",
+    "content": "### Fact\n- Approximately **three‑quarters of the world’s cobalt** is mined in the **Democratic Republic of the Congo (DRC)**. Cobalt is a critical metal for the manufacture of lithium‑ion batteries, super‑alloys, and catalysts.\n\n---",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 3
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "subchapter": "River Basins",
+    "topic": "Congo Basin",
+    "content": "The Congo Basin is the largest tropical rainforest in the world and the second largest in the world after the Amazon. It is the drainage basin of the Congo River and its tributaries. The basin covers parts of six countries: the Democratic Republic of Congo, Republic of Congo, Central African Republic, Gabon, Equatorial Guinea, and Cameroon. It is characterised by a humid equatorial climate, dense vegetation, and high biodiversity. The basin is also a major source of hydroelectric power and timber. Key facts:\n- **Area**: ~3.7 million km²\n- **Major rivers**: Congo, Kasai, Ubangi, Sangha\n- **Ecological significance**: home to gorillas, chimpanzees, and numerous endemic species\n- **Economic importance**: hydroelectric potential, mining of cobalt, copper, diamonds\n- **Conservation challenges**: deforestation, mining, poaching\n\n**Geographical significance**: The basin plays a crucial role in regulating regional climate and maintaining global carbon cycles.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 5
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Indian Geography",
+    "subchapter": "Hill Ranges",
+    "topic": "Indian Hill Ranges",
+    "content": "India’s hill ranges are divided into three major groups: the Western Ghats, the Eastern Ghats, and the Central Indian ranges.\n\n- **Western Ghats**: A UNESCO World Heritage Site running along the western coast. It includes the Sahyadri, Nilgiri, and Wayanad ranges. Key hills: Seshachalam (actually part of Eastern Ghats), Biligirirangan (part of Western Ghats).\n- **Eastern Ghats**: A discontinuous range along the eastern coast. It includes the Seshachalam Hills in Andhra Pradesh.\n- **Central Indian ranges**: Includes the Vindhya, Satpura, and Amarkantak ranges. Amarkantak is the source of the Narmada and Son rivers and lies at the junction of the Vindhya and Satpura ranges.\n\n**Common misconceptions**:\n- Amarkantak is *not* at the confluence of the Vindhya and Sahyadri ranges.\n- Biligirirangan Hills are part of the Western Ghats, not the Satpura Range.\n- Seshachalam Hills belong to the Eastern Ghats, not the Western Ghats.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 5
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Transportation",
+    "subchapter": "National Highways",
+    "topic": "Connectivity Corridors",
+    "content": "India’s major connectivity corridors aim to enhance trade, mobility, and economic integration.\n\n- **East-West Corridor (Golden Quadrilateral)**: Part of National Highway 27, it connects the eastern city of Dibrugarh (Assam) to the western city of Mumbai (Maharashtra). It does *not* connect Dibrugarh to Surat.\n- **Trilateral Highway**: Connects Moreh (Manipur) to Chiang Mai (Thailand) via Myanmar, facilitating trade between India, Myanmar, and Thailand.\n- **Bangladesh-China-India-Myanmar (BCIM) Economic Corridor**: A proposed corridor linking Kolkata (West Bengal) to Kunming (Yunnan, China). It does *not* connect Varanasi to Kunming.\n\n**Key points**:\n- The East-West Corridor is a major freight route across India.\n- The Trilateral Highway enhances regional connectivity in the Indo-Myanmar-Thailand triad.\n- The BCIM corridor is part of a larger South Asian economic integration plan.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 5
+  },
+  {
+    "subject": "Energy",
+    "chapter": "Nuclear Energy",
+    "subchapter": "Uranium",
+    "topic": "Uranium and Nuclear Power",
+    "content": "Uranium is a naturally occurring radioactive element used as fuel in nuclear reactors.\n\n- **Natural uranium** contains ~0.7% U‑235 (fissile) and ~99.3% U‑238 (fissile). For most commercial reactors, uranium is *low‑enriched* to 3–5% U‑235.\n- **Enrichment**: The process increases the proportion of U‑235. Enrichment to 60% or more is required for weapons-grade material, not for power generation.\n- **India’s energy mix**: Despite having uranium deposits, India relies heavily on coal for electricity generation. Nuclear power contributes a smaller share (~6% of total electricity). India’s nuclear program uses both indigenous and imported enriched uranium.\n- **Key facts**:\n  - *Low‑enriched uranium (LEU)*: 3–5% U‑235, used in most reactors.\n  - *Highly enriched uranium (HEU)*: >20% U‑235, used for weapons.\n  - *Enrichment to 60%* is not required for electricity production.\n  - *India’s nuclear strategy*: Mix of indigenous enrichment (U‑235) and imported LEU, with a focus on expanding nuclear capacity to meet future demand.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 5
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Ecology",
+    "subchapter": "Invasive Species",
+    "topic": "Invasive Species Specialist Group (ISSG)",
+    "content": "The **Invasive Species Specialist Group (ISSG)**, which develops the **Global Invasive Species Database**, is a specialist group under the **International Union for Conservation of Nature (IUCN)**. It brings together experts worldwide to assess invasive species, compile data, and provide guidance for management and policy.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 7
+  },
+  {
+    "subject": "Zoology",
+    "chapter": "Mammals",
+    "subchapter": "Behavioral Ecology",
+    "topic": "Activity patterns of selected Indian mammals",
+    "content": "1. **Lion‑tailed Macaque (*Macaca silenus*)** – Primarily **diurnal**; most active during daylight hours.\n2. **Malabar Civet (*Viverra civettina*)** – **Nocturnal**; most active after sunset.\n3. **Sambar Deer (*Rusa unicolor*)** – **Crepuscular**; peaks of activity at dawn and dusk, but not strictly nocturnal.\n\nHence, among the three, only the Malabar Civet is generally nocturnal.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 7
+  },
+  {
+    "subject": "Entomology",
+    "chapter": "Insect Behavior",
+    "subchapter": "Communication",
+    "topic": "Waggle Dance in Honeybees",
+    "content": "Honeybees (*Apis mellifera*) communicate the location of food sources to nest‑mates through a **waggle dance**. The dance encodes direction (relative to the sun) and distance (duration of the waggle phase). This sophisticated form of symbolic communication is unique among insects.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 7
+  },
+  {
+    "subject": "Mycology",
+    "chapter": "Mushroom Properties",
+    "subchapter": "Uses and Applications",
+    "topic": "Medicinal, Psycho‑active, Insecticidal, and Bioluminescent Properties",
+    "content": "Mushrooms exhibit a wide range of bio‑active properties:\n- **Medicinal** – Species like *Ganoderma lucidum* and *Cordyceps* are used in traditional medicine for immunomodulation and anti‑inflammatory effects.\n- **Psycho‑active** – Certain fungi (e.g., *Psilocybe* spp.) contain psilocybin, producing hallucinogenic effects.\n- **Insecticidal** – Compounds such as *beauvericin* from *Beauveria* spp. act as natural insecticides.\n- **Bioluminescent** – Some fungi (*Mycena chlorophos*, *Armillaria* spp.) emit light due to luciferin‑luciferase reactions.\nAll four statements are correct.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 7
+  },
+  {
+    "subject": "Mammalogy",
+    "chapter": "Squirrels",
+    "subchapter": "Indian Tree Squirrels",
+    "topic": "Nesting, Food Storage, and Diet",
+    "content": "Indian tree squirrels (e.g., *Funambulus palmarum*):\n- **Nesting** – Build **dreys** (leafy nests) in tree branches; they do **not** dig burrows in the ground.\n- **Food storage** – Cache nuts and seeds **in tree crevices or leaf nests**, not in underground chambers.\n- **Diet** – **Omnivorous**; consume nuts, seeds, fruits, insects, and occasional bird eggs.\nThus, only the statement about being omnivorous is correct.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 7
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Microbiology",
+    "subchapter": "Extremophiles",
+    "topic": "Thermophiles, Psychrophiles, Acidophiles",
+    "content": "### Extremophiles\n- **Hyper‑thermophiles**: Microorganisms that thrive at temperatures **above 100 °C** (boiling point of water at 1 atm). They are usually found in high‑pressure environments such as deep‑sea hydrothermal vents, where water remains liquid above 100 °C.\n- **Psychrophiles**: Microorganisms that grow at **temperatures below 0 °C**. They produce antifreeze proteins and can metabolize in ice or permafrost.\n- **Acidophiles**: Microorganisms that prosper in **highly acidic conditions (pH < 3)**. They maintain internal pH homeostasis using proton pumps and specialized membrane lipids.\n\nThese adaptations allow microbes to colonise extreme habitats and are of interest for biotechnology, astrobiology, and industrial processes.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 9
+  },
+  {
+    "subject": "Zoology",
+    "chapter": "Primatology",
+    "subchapter": "Tool Use",
+    "topic": "Stick Tool Use in Orangutans",
+    "content": "### Tool‑making Behaviour in Orangutans\n- Orangutans (**Pongo spp.**) have been observed **fashioning sticks** to extract insects from holes in tree trunks or logs.\n- This behaviour demonstrates **cognitive planning**, **fine motor control**, and **problem‑solving** similar to that seen in chimpanzees.\n- The tool is typically a **straight twig** trimmed to an appropriate length, sometimes with a hooked end to increase reach.\n- Such observations support the view that **great apes possess the capacity for cultural transmission of tool‑use techniques**.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 9
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Industrial Chemistry",
+    "subchapter": "Hydrofluorocarbons (HFCs)",
+    "topic": "Applications of HFCs",
+    "content": "### Hydrofluorocarbons (HFCs)\n- **Definition**: HFCs are synthetic compounds containing hydrogen, fluorine, and carbon. They have **zero ozone‑depletion potential** but high global warming potential.\n- **Major Applications**:\n  1. **Aerosols** – used as propellants for sprays.\n  2. **Foam agents** – act as blowing agents in the production of polyurethane and polystyrene foams.\n  3. **Fire retardants** – employed in clean‑agent fire‑suppression systems.\n  4. **Lubricants** – serve as base fluids or additives in high‑performance lubricants, especially in refrigeration and air‑conditioning systems.\n- **Environmental Note**: Due to their high GWP, many HFCs are being phased out under the Kigali Amendment to the Montreal Protocol.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 9
+  },
+  {
+    "subject": "Finance",
+    "chapter": "Infrastructure Investment Trusts (InvITs)",
+    "subchapter": "Taxation & Legal Status",
+    "topic": "Tax Treatment and SARFAESI Act",
+    "content": "### Infrastructure Investment Trusts (InvITs)\n- **Interest Income**: The **interest earned** on deposits made by investors in an InvIT is **exempt from tax** under Section 10(23A) of the Income‑Tax Act, **provided** the interest is **distributed** to the unit‑holders.\n- **Dividend Income**: **Dividends** received from an InvIT are **taxable** in the hands of the investor as per the applicable slab rates.\n- **Legal Classification**: Under the **Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002 (SARFAESI Act)**, InvITs are **not classified as borrowers**. They are **trusts** that hold infrastructure assets and issue units to investors; therefore, the SARFAESI provisions for borrowers do not directly apply to them.\n- **Implication**: Investors receive tax‑exempt interest but must include dividends in taxable income, and the InvIT itself is not subject to SARFAESI‑related enforcement actions applicable to traditional borrowers.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 9
+  },
+  {
+    "subject": "Economics",
+    "chapter": "Environmental Economics",
+    "subchapter": "",
+    "topic": "Carbon Markets",
+    "content": "### Carbon Markets\n- **Definition**: Market‑based mechanisms that assign a price to carbon dioxide (CO₂) emissions, allowing entities to buy or sell emission allowances or credits.\n- **Types**:\n  1. **Cap‑and‑Trade** – A total emission cap is set; permits are allocated or auctioned and can be traded.\n  2. **Carbon Tax** – A fixed price is levied on each tonne of CO₂ emitted.\n- **Purpose**: Provide economic incentives for reducing greenhouse‑gas emissions, encouraging cleaner technologies and fostering investment in low‑carbon projects.\n- **Key Feature**: The resource flow is primarily **from the private sector to the market (or other private entities)**, not a direct transfer to the State. The State may regulate the market and collect auction revenues, but the core mechanism mobilises private‑sector capital for mitigation.\n- **Relevance to Climate Change**: Considered one of the most widespread tools for achieving emission reductions because it internalises the external cost of carbon.\n",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 11
+  },
+  {
+    "subject": "Economics",
+    "chapter": "Monetary Policy",
+    "subchapter": "",
+    "topic": "Sterilization by RBI",
+    "content": "### Sterilization\n- **Definition**: Operations undertaken by the Reserve Bank of India (RBI) to neutralise the impact of foreign exchange interventions or other inflows/outflows on domestic liquidity.\n- **Primary Tool**: **Open Market Operations (OMO)** – buying or selling government securities to absorb or inject liquidity.\n- **Other RBI Functions (not sterilisation)**:\n  - Oversight of settlement and payment systems.\n  - Debt and cash management for Central and State Governments.\n  - Regulation of Non‑Banking Financial Companies (NBFCs).\n- **Why OMO?**: By selling securities, RBI mops up excess rupees; by buying securities, it injects liquidity, thereby “sterilising” the effect of external transactions on the money supply.\n",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 11
+  },
+  {
+    "subject": "Economics",
+    "chapter": "Financial Markets",
+    "subchapter": "",
+    "topic": "Capital Markets vs Money Markets",
+    "content": "### Capital Markets\n- **Definition**: Markets for long‑term securities (maturity > 1 year) such as **government bonds**, **corporate bonds**, and **equity (stock) instruments**.\n- **Purpose**: Mobilise long‑term capital for infrastructure, corporate expansion, and government financing.\n\n### Money Markets\n- **Definition**: Markets for short‑term instruments (maturity ≤ 1 year) like **call money**, **treasury bills**, **commercial paper**, and **repurchase agreements**.\n- **Purpose**: Manage short‑term liquidity and funding needs.\n\n### Classification of Given Markets\n| Market | Category |\n|--------|----------|\n| Government Bond Market | Capital Market |\n| Call Money Market | Money Market |\n| Treasury Bill Market | Money Market |\n| Stock Market | Capital Market |\n\n**Result**: Only **two** of the listed markets (Government Bond Market and Stock Market) belong to the capital markets.\n",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 11
+  },
+  {
+    "subject": "Economics",
+    "chapter": "Agricultural Economics",
+    "subchapter": "",
+    "topic": "Small Farmer – Large Field Concept",
+    "content": "### Small Farmer – Large Field Concept\n- **Idea**: Aggregating the land holdings of many marginal (small‑holder) farmers into a **collectively managed larger plot** while retaining individual ownership.\n- **Implementation**: Farmers form groups or cooperatives, coordinate planting, irrigation, mechanisation, and marketing activities.\n- **Benefits**:\n  1. Economies of scale – better use of machinery and inputs.\n  2. Improved bargaining power in input and output markets.\n  3. Enhanced access to credit and government schemes.\n  4. Higher productivity and income stability.\n- **Distinction**: It is **not** a resettlement of war‑displaced populations; rather, it is a voluntary organisational model for existing marginal farmers.\n",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 11
+  },
+  {
+    "subject": "Economics",
+    "chapter": "Investment Types",
+    "subchapter": "Intangible Assets",
+    "topic": "Intangible Investments",
+    "content": "### Intangible Investments\n- **Definition:** Assets that lack physical substance but provide long‑term value to a business.\n- **Common Examples:**\n  1. **Brand Recognition** – goodwill and reputation.\n  2. **Intellectual Property** – patents, copyrights, trademarks.\n  3. **Mailing List of Clients** – proprietary customer data.\n- **Non‑Intangible Example:** Inventory – a tangible, physical asset.\n- **Key Point:** In the given list, three items (brand recognition, intellectual property, mailing list) are intangible, while inventory is not.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 13
+  },
+  {
+    "subject": "Economics",
+    "chapter": "Fiscal Federalism",
+    "subchapter": "Finance Commission",
+    "topic": "Horizontal Tax Devolution – Fifteenth Finance Commission",
+    "content": "### Horizontal Tax Devolution Criteria (Fifteenth Finance Commission)\n- The Fifteenth Finance Commission (2020‑2025) recommended devolution of taxes to states based on several criteria **other than** population, area, and income distance.\n- **Criteria Used:**\n  1. **Forest and Ecology** – states with higher forest cover receive higher shares.\n  2. **Governance Reforms** – measures of administrative efficiency.\n  3. **Stable Government** – political stability factor.\n  4. **Tax and Fiscal Efforts** – states' effort in tax collection and fiscal discipline.\n- **Excluded Criterion:** Demographic performance was **not** part of the devolution formula.\n- **Result:** Four out of the five listed items were used as criteria.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 13
+  },
+  {
+    "subject": "Infrastructure & Development",
+    "chapter": "International Investment Initiatives",
+    "subchapter": "UNOPS S3i Programme",
+    "topic": "Sustainable Investments in Infrastructure and Innovation (S3i)",
+    "content": "### UNOPS S3i Focus Areas\n- **UNOPS** (United Nations Office for Project Services) launched the **S3i** initiative to mobilise private‑sector capital for sustainable infrastructure.\n- **Sectors Targeted:**\n  1. **Affordable Housing** – low‑cost, resilient dwellings.\n  2. **Mass Rapid Transport** – metros, BRT, commuter rail.\n  3. **Health Care** – hospitals, primary health centres.\n  4. **Renewable Energy** – solar, wind, hydro projects.\n- **Key Insight:** The S3i programme explicitly covers **all four** of the listed sectors, aiming for climate‑smart, inclusive development.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 13
+  },
+  {
+    "subject": "Law & Governance",
+    "chapter": "Fundamental Principles",
+    "subchapter": "Due Process of Law",
+    "topic": "Meaning of Due Process",
+    "content": "### Due Process of Law\n- **Definition (Option B):** *The procedure established by law.*\n- It ensures that the government follows legally prescribed procedures before depriving any person of life, liberty, or property.\n- Distinct from:\n  - **Natural Justice** – fairness in decision‑making (right to be heard, rule against bias).\n  - **Fair Application of Law** – broader concept of equity.\n  - **Equality Before Law** – equal treatment under the law.\n- **Practical Implication:** Laws must be clear, publicized, and applied consistently; arbitrary actions are prohibited.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 13
+  },
+  {
+    "subject": "Public Administration",
+    "chapter": "Penal System",
+    "subchapter": "Prison Management",
+    "topic": "Governance of Prisons in India",
+    "content": "### Prison Administration in India\n- **Statement I:** Prisons are **managed by State Governments** through their own rules and regulations for day‑to‑day operations.\n- **Statement II:** The **Prisons Act, 1894** places the subject of prisons under the control of **Provincial (now State) Governments**.\n- **Interpretation:** Both statements are correct; the Act provides the legal basis for the states' administrative control.\n- **Key Takeaway:** State governments have both the statutory authority (via the Prisons Act) and the operational mechanisms to run prisons.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 13
+  },
+  {
+    "subject": "Polity",
+    "chapter": "Constitutional Amendments",
+    "subchapter": "42nd Amendment (1976)",
+    "topic": "Purpose and Impact",
+    "content": "### 42nd Amendment (1976)\n- **Popularly known as**: *\"Mini Constitution\"*.\n- **Objective**: To curb the judiciary's power of judicial review that had expanded after the **Kesavananda Bharati** case (1973) which introduced the *basic structure* doctrine.\n- **Key Provisions**:\n  1. Added the words *\"Secular\"* and *\"Socialist\"* to the Preamble.\n  2. Strengthened the power of Parliament to amend any part of the Constitution, including Fundamental Rights.\n  3. Introduced **Article 368(2)** stating that Parliament could amend any provision of the Constitution.\n  4. Reduced the power of the Supreme Court to declare constitutional amendments unconstitutional.\n- **Result**: Seen as an attempt to **overcome judicial interpretations of Fundamental Rights** and limit the scope of judicial review.\n- **Later Developments**: The Supreme Court, in the **Minerva Mills Ltd. v. Union of India (1980)** case, struck down parts of the 42nd Amendment, reaffirming the basic structure doctrine.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 15
+  },
+  {
+    "subject": "Polity",
+    "chapter": "Constitutional Bodies",
+    "subchapter": "National Commissions",
+    "topic": "Constitutional vs. Statutory Bodies",
+    "content": "### Classification of Selected National Bodies\n| Body | Established Under | Constitutional Body? | Remarks |\n|------|-------------------|----------------------|---------|\n| **National Commission for Backward Classes (NCBC)** | **Article 338B** (93rd Amendment) | **Yes** | Created by a constitutional amendment; enjoys constitutional status. |\n| **National Human Rights Commission (NHRC)** | Protection of Human Rights Act, 1993 (Statutory) | No | Statutory body; not mentioned in the Constitution. |\n| **National Law Commission (NLC)** | Established by the **Law Commission Act, 1956** (Statutory) | No | Advisory statutory body for legal reforms. |\n| **National Consumer Disputes Redressal Commission (NCDRC)** | Consumer Protection Act, 1986 (Statutory) | No | Statutory quasi‑judicial body for consumer disputes. |\n\n**Take‑away:** Among the four bodies listed, **only the NCBC** is a constitutional body.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 15
+  },
+  {
+    "subject": "Polity",
+    "chapter": "President of India",
+    "subchapter": "Election, Tenure & Powers",
+    "topic": "Validity of Acts & Procedural Aspects",
+    "content": "### Key Points\n1. **Void Election of the President**\n   - If the Supreme Court declares the election of a President void, the doctrine of **de facto officer** applies.\n   - Acts performed by the President **before the declaration** are **treated as valid** to avoid legal chaos.\n2. **Postponement of Presidential Election**\n   - The election schedule is fixed by the **Election Commission of India** under Article 62.\n   - Dissolution of State Legislative Assemblies **does not** provide a ground to postpone the Presidential election.\n3. **Time‑limit for Presidential Assent**\n   - The Constitution **does not prescribe a specific time‑limit** for the President to give assent to a Bill.\n   - The President may return a Bill (except a Money Bill) for reconsideration, but there is no fixed period stipulated.\n\nThese points clarify why statements in the MCQ (see question 36) are all incorrect.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 15
+  },
+  {
+    "subject": "Polity",
+    "chapter": "Parliamentary Procedure",
+    "subchapter": "Finance Bill vs. Money Bill",
+    "topic": "Differences in Legislative Process",
+    "content": "### Finance Bill\n- **Definition**: A Bill that deals with **taxation, borrowing, and expenditure** but is **not** a Money Bill.\n- **Rajya Sabha's Role**: May **amend** or **reject** the Finance Bill. The Lok Sabha can accept or reject the amendments.\n- **Disagreement**: If the two Houses disagree, the **joint sitting** provision of Article 108 may be invoked.\n\n### Money Bill\n- **Definition**: A Bill that **only** deals with **taxation, borrowing, and expenditure** as defined in Article 110.\n- **Rajya Sabha's Role**: **Cannot amend or reject**; it may only **recommend** changes within **14 days**.\n- **Final Decision**: The Lok Sabha may **accept or ignore** the recommendations.\n- **Disagreement**: No joint sitting; the Bill is deemed passed by the Lok Sabha after the 14‑day period.\n\nThese distinctions answer the MCQ (see question 37) where statements 1 and 2 are correct.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 15
+  },
+  {
+    "subject": "Polity",
+    "chapter": "Scheduled Areas",
+    "subchapter": "Notification and Administration",
+    "topic": "Scheduled Areas – Notification Process",
+    "content": "### Scheduled Areas (Fifth Schedule)\n- **Constitutional Provision**: Articles 244(1) & 275 of the Indian Constitution.\n- **Notification**: An area is declared a *Scheduled Area* by an **Order of the President** after consulting the Governor of the concerned State.\n- **Administrative Units**:\n  - **Largest unit**: Typically a **District** (or part of a district) can be notified as a Scheduled Area.\n  - **Lowest unit**: The **village** (or a cluster of villages) within a Block forms the basic unit of administration.\n- **Reporting Mechanism**:\n  - The **Governor** reports to the President on matters concerning Scheduled Areas.\n  - **Chief Ministers** are required to submit **annual reports** to the **Union Home Ministry** (through the Ministry of Tribal Affairs) on the administration, development, and law‑and‑order situation in Scheduled Areas.\n- **Key Points**:\n  1. Presidential order is essential for notification.\n  2. Districts are the primary administrative level; villages are the grassroots level.\n  3. Annual reporting ensures central monitoring of tribal welfare and governance.\n",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 17
+  },
+  {
+    "subject": "Polity",
+    "chapter": "Reservation Policy",
+    "subchapter": "Constitutional Provisions",
+    "topic": "Article 16(4) and Article 335",
+    "content": "### Reservation in Public Employment\n- **Article 16(4)**: Allows the State to make provisions for the reservation of appointments or posts in favour of any backward class of citizens which, in the opinion of the State, is not adequately represented in the services of the State.\n- **Article 335**: States that the claims of the Scheduled Castes and Scheduled Tribes shall be taken into consideration in making appointments to services and posts, **subject to the maintenance of efficiency of administration**.\n- **Supreme Court Interpretation**:\n  - In *Indra Sawhney v. Union of India* (1992) and subsequent judgments, the Court held that **reservation under Article 16(4) is limited by the principle of efficiency** as embodied in Article 335.\n  - The Court **did not define** the term *efficiency of administration*; it merely linked it as a qualifying condition for reservations.\n- **Take‑away**:\n  1. Reservation is permissible but must not compromise administrative efficiency.\n  2. Article 335 does **not** provide a definition of “efficiency of administration”.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 17
+  },
+  {
+    "subject": "Ancient Indian History",
+    "chapter": "Buddhist Centres",
+    "subchapter": "Mahasanghikas",
+    "topic": "Location of Dhanyakataka",
+    "content": "### Dhanyakataka (Nagarjunakonda)\n- **Historical Significance**: A prominent Buddhist centre under the *Mahasanghikas* during the early centuries CE.\n- **Geographical Location**: Situated on the banks of the **Krishna River** in the present‑day state of **Andhra Pradesh** (formerly part of the ancient region of *Andhra*).\n- **Key Features**:\n  - Known for its massive stupas, monasteries, and rock‑cut caves.\n  - Served as a major hub for Buddhist learning and pilgrimage.\n- **Modern Identification**: The archaeological site is now identified with **Nagarjunakonda**, a protected heritage site.\n",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 17
+  },
+  {
+    "subject": "History",
+    "chapter": "Ancient Indian History",
+    "subchapter": "Sangam Period",
+    "topic": "Vattakirutal",
+    "content": "### Vattakirutal (Sangam literature)\n- **Definition**: A practice mentioned in Sangam poems where young girls were employed to keep watch over agricultural fields.\n- **Purpose**: To drive away birds and animals that could damage crops.\n- **Significance**: Illustrates the role of women in agrarian security during the Sangam age and reflects the community‑based approach to protecting farmland.\n- **Source**: Various Sangam poems (e.g., *Purananuru*, *Akananuru*) describe women performing this duty, termed *Vattakirutal* (literally “circular guard”).",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 19
+  },
+  {
+    "subject": "History",
+    "chapter": "Medieval Indian History",
+    "subchapter": "Dynastic Chronology",
+    "topic": "Early 8th‑Century Dynasties",
+    "content": "### Dynasties and Their Foundations\n| Dynasty | Approx. Year of Foundation | Early 8th‑Century (700‑750 AD) Presence |\n|---------|---------------------------|------------------------------------------|\n| Hoysala | c. 1000 AD (10th‑11th century) | ❌ No\n| Gahadavala | c. 1100 AD (11th‑12th century) | ❌ No\n| Kakatiya | c. 1083 AD (12th century) | ❌ No\n| Yadava (Seuna) | c. 850 AD (mid‑9th century) | ❌ No\n\n**Conclusion**: None of the listed dynasties established their kingdoms in the early eighth century AD.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 19
+  },
+  {
+    "subject": "History",
+    "chapter": "Medieval Indian Literature",
+    "subchapter": "Authorship Attribution",
+    "topic": "Literary Work – Author Pairs",
+    "content": "### Correctness of Given Pairs\n| # | Literary Work | Attributed Author (as given) | Correct Attribution | Verdict |\n|---|---------------|------------------------------|---------------------|---------|\n| 1 | *Deuichandragupta* | Bilhana | No known work by Bilhana with this title | ❌ |\n| 2 | *Hammira‑Mahakavyam* | Nayachandra Suri | Correct – Nayachandra Suri composed this Mahakavya praising King Hammira | ✅ |\n| 3 | *Milinda‑Pañha* | Nagatjuna | The dialogue is between King Milinda and the Buddhist monk **Nagasena**; *Nagatjuna* is incorrect | ❌ |\n| 4 | *Nīti‑Udyogamṛta* (or *Nīti‑Udyogamṛta*) | Somadeva Suri | This work is traditionally ascribed to **Somadeva** (author of *Kathāsaritsāgara*), but the exact title is disputed; generally considered **incorrect** for the given pairing | ❌ |\n\n**Result**: Only one pair (No. 2) is correctly matched.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 19
+  },
+  {
+    "subject": "History",
+    "chapter": "Ancient Indian Religions",
+    "subchapter": "Jain Philosophy",
+    "topic": "Doctrine of Jīva in All Entities",
+    "content": "### Jain Belief on Soul (Jīva)\n- **Core Tenet**: Every substance (*dravya*)—whether animate (animals, humans) or inanimate (rocks, water, plants)—possesses a soul (*jīva*).\n- **Implication**: Non‑living entities are not mere matter; they have a spiritual essence deserving of respect.\n- **Contrast**: This view differs from many other ancient Indian sects that limited *jīva* to living beings.\n- **Reference**: Jain Agamas and later commentaries repeatedly emphasize the omnipresence of *jīva*.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 19
+  },
+  {
+    "subject": "History",
+    "chapter": "Vijayanagara Empire",
+    "subchapter": "Infrastructure Projects",
+    "topic": "Tungabhadra Dam and Aqueduct",
+    "content": "### Tungabhadra Dam Construction\n- **Ruler**: **Devaraya I** (also known as **Deva Raya I**, reigned 1406‑1422 CE).\n- **Project**: Construction of a large dam across the Tungabhadra River.\n- **Aqueduct**: A canal‑cum‑aqueduct extending several kilometres to supply water to the capital city of Vijayanagara.\n- **Significance**: Demonstrated advanced hydraulic engineering and contributed to the prosperity of the empire.\n- **Sources**: Inscriptions and contemporary chronicles (e.g., *Madhuravijayam*).",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 19
+  },
+  {
+    "subject": "History",
+    "chapter": "Gujarat – Portuguese Encounters",
+    "subchapter": "Treaties and Surrenders",
+    "topic": "Surrender of Diu",
+    "content": "### Surrender of Diu (1535)\n- **Ruler**: **Sultan Ahmad Shah (also known as Bahadur Shah of Gujarat)**.\n- **Event**: After a series of naval confrontations, the Sultan ceded the strategic port of Diu to the Portuguese in 1535.\n- **Outcome**: Established Portuguese control over Diu, which became a key foothold for their Indian Ocean trade.\n- **Historical Context**: Marked the decline of Gujarati maritime power and the rise of European colonial presence on the western coast of India.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 19
+  },
+  {
+    "subject": "Public Health",
+    "chapter": "Maternal and Child Health",
+    "subchapter": "Safe Motherhood Interventions",
+    "topic": "Janani Suraksha Yojana (JSY)",
+    "content": "# Janani Suraksha Yojana (JSY)\n\n**Definition**\n- A safe motherhood intervention launched by the Government of India in 2005 under the National Rural Health Mission (NRHM). It aims to reduce maternal and neonatal mortality by promoting institutional deliveries among poor pregnant women.\n\n**Objectives**\n- Reduce maternal mortality ratio (MMR) and neonatal mortality rate (NMR).\n- Increase institutional deliveries among Below Poverty Line (BPL) families.\n- Provide financial incentives to pregnant women and their families for institutional delivery and post‑natal care.\n\n**Key Components**\n- **Cash Incentives**: ₹5,000 for normal delivery and ₹7,500 for caesarean section (values updated periodically).\n- **Target Population**: BPL pregnant women, pregnant women in scheduled castes/scheduled tribes, and those in remote areas.\n- **Implementation**: State Health Departments coordinate with local health facilities, NGOs, and community volunteers.\n\n**Benefits**\n- Higher institutional delivery rates.\n- Improved access to skilled birth attendants and emergency obstetric care.\n- Reduced complications and mortality for mothers and newborns.\n\n**Limitations**\n- Does not directly address infant health services beyond the neonatal period.\n- Coverage gaps in some states due to administrative challenges.\n\n**Key Takeaway**\n- JSY is a flagship safe motherhood program focused on institutional deliveries and maternal health, not on providing public health facilities for sick infants beyond one year of age.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 21
+  },
+  {
+    "subject": "Public Health",
+    "chapter": "Nutrition and Anaemia",
+    "subchapter": "National Nutrition Strategies",
+    "topic": "Anaemia Mukt Bharat Strategy",
+    "content": "# Anaemia Mukt Bharat Strategy\n\n**Overview**\n- Launched in 2019 as a national strategy to eliminate anaemia by 2025.\n- Integrated approach targeting both nutritional and non‑nutritional causes of anaemia.\n\n**Primary Objectives**\n- Reduce prevalence of anaemia among children, adolescents, and women of reproductive age.\n- Address iron deficiency, malaria, hemoglobinopathies, and fluorosis.\n- Strengthen health system capacity for screening, diagnosis, and treatment.\n\n**Key Interventions**\n- **Iron & Folic Acid (IFA) Supplementation**: Daily tablets for pregnant women and children.\n- **Periodic Deworming**: Albendazole or mebendazole for children and adolescents.\n- **Malaria Control**: Indoor residual spraying, insecticide‑treated nets, and rapid diagnostic tests.\n- **Screening for Hemoglobinopathies**: Early detection and management of thalassemia and sickle cell disease.\n- **Fluorosis Management**: Community‑based fluoride monitoring and water treatment.\n- **Health Education**: Nutrition counseling and awareness campaigns.\n\n**Implementation Framework**\n- State‑level coordination through the Ministry of Health and Family Welfare.\n- Collaboration with NGOs, private sector, and community health workers.\n- Use of digital platforms for monitoring and reporting.\n\n**Key Takeaway**\n- The strategy is comprehensive, focusing on both dietary supplementation and addressing environmental and infectious contributors to anaemia.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 21
+  },
+  {
+    "subject": "Engineering",
+    "chapter": "Materials Science",
+    "subchapter": "Composite Materials",
+    "topic": "Carbon Fibres",
+    "content": "# Carbon Fibres\n\n**Definition**\n- High‑strength, high‑modulus fibres made from carbon atoms bonded in a crystalline structure.\n\n**Key Properties**\n- **High Tensile Strength**: Up to 6–7 GPa.\n- **Low Density**: ~1.75 g/cm³, making them lightweight.\n- **Excellent Thermal Stability**: Retains strength up to ~1200 °C.\n- **Electrical Conductivity**: Good conductor, useful in aerospace and electronics.\n\n**Applications**\n- **Automotive**: Body panels, chassis components, and structural reinforcements.\n- **Aerospace**: Aircraft skins, wing spars, and fuel tanks.\n- **Sports Equipment**: Bicycles, tennis rackets, and golf clubs.\n- **Construction**: Reinforcement in concrete and composite panels.\n\n**Recyclability**\n- Carbon fibres can be recycled through mechanical grinding, chemical depolymerization, or pyrolysis.\n- Recycled fibres are used in lower‑grade composites or as fillers.\n- Recycling reduces waste and recovers valuable carbon material.\n\n**Key Takeaway**\n- Carbon fibres are versatile, high‑performance materials widely used in high‑tech industries, and they can be recycled, contrary to the misconception that they are non‑recyclable.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 21
+  },
+  {
+    "subject": "Aquaculture",
+    "chapter": "Recirculating Aquaculture Systems",
+    "subchapter": "Biofilters",
+    "topic": "Functions of Biofilters",
+    "content": "**Biofilters** are a critical component of Recirculating Aquaculture Systems (RAS). They perform the following functions:\n\n- **Nitrification**: Convert toxic ammonia (NH₃/NH₄⁺) produced by fish waste into nitrite (NO₂⁻) and then into nitrate (NO₃⁻) through a two‑step microbial process.\n- **Biological Degradation**: Decompose organic matter and reduce dissolved oxygen demand.\n- **Water Quality Improvement**: Lower ammonia and nitrite levels, thereby protecting fish health.\n- **Phosphorus Management**: Biofilters do **not** increase phosphorus; instead, phosphorus is typically removed or precipitated in other parts of the system.\n\nKey points:\n- Ammonia → Nitrite → Nitrate (nitrification).\n- Biofilters are usually packed with media (e.g., plastic beads, ceramic, or bio‑film carriers) to provide surface area for bacteria.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 23
+  },
+  {
+    "subject": "Environmental Science",
+    "chapter": "Mercury Pollution",
+    "subchapter": "Sources of Mercury Pollution",
+    "topic": "Mercury Pollution Sources",
+    "content": "# Mercury Pollution Sources\n\n- **Gold Mining**: The use of mercury in artisanal and small‑scale gold mining (ASGM) is a major global source of mercury emissions. Mercury is amalgamated with gold and then heated to vaporise the metal, releasing mercury vapor into the atmosphere.\n- **Coal‑Based Thermal Power Plants**: Combustion of coal releases mercury that is emitted directly into the atmosphere. These plants are responsible for a significant portion of anthropogenic mercury emissions worldwide.\n- **Safe Exposure Levels**: The World Health Organization (WHO) and the United Nations Environment Programme (UNEP) state that there is **no known safe level of mercury exposure**. Even low levels can accumulate in the body and cause neurological and developmental effects.\n- **Key Takeaway**: All three of the above factors contribute to mercury pollution, and there is no threshold below which mercury is considered harmless.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 25
+  },
+  {
+    "subject": "Energy & Environment",
+    "chapter": "Green Hydrogen",
+    "subchapter": "Applications of Green Hydrogen",
+    "topic": "Green Hydrogen Applications",
+    "content": "# Green Hydrogen Applications\n\n1. **Internal Combustion Engines**: Hydrogen can be used directly as a fuel in modified internal combustion engines. Although it is less common than gasoline or diesel, it is technically feasible.\n2. **Blending with Natural Gas**: Hydrogen can be blended with natural gas (up to ~20–30 % by volume) and used in existing gas pipelines for heating or power generation without major infrastructure changes.\n3. **Fuel Cells for Vehicles**: Hydrogen fuel cells convert chemical energy into electricity, powering electric vehicles with high efficiency and zero tail‑pipe emissions.\n\n**Bottom line**: Green hydrogen is versatile and can serve as a direct fuel, a gas blend, or a fuel‑cell input.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 25
+  },
+  {
+    "subject": "Geography",
+    "chapter": "European Borders",
+    "subchapter": "Ukraine Borders",
+    "topic": "Countries bordering Ukraine",
+    "content": "# Countries Sharing a Land Border with Ukraine\n\n| Country | Border Length (km) | Notes |\n|---------|--------------------|-------|\n| **Hungary** | ~95 | Shares a short border in the south.\n| **Romania** | ~530 | Longest shared border, runs along the Danube.\n| **Poland** | ~210 | Northern border.\n| **Slovakia** | ~485 | Eastern border.\n| **Belarus** | ~1,000 | Eastern border.\n| **Russia** | ~1,200 | Eastern border.\n| **Moldova** | ~107 | Southern border.\n\n**Key countries from the list**: Bulgaria, Czech Republic, Hungary, Latvia, Lithuania, Romania. Only **Hungary** and **Romania** share a land border with Ukraine.\n\n**Takeaway**: When assessing geopolitical relationships, it is essential to distinguish between countries that share a border and those that do not.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 25
+  },
+  {
+    "subject": "Atmospheric Science",
+    "chapter": "Solar Radiation",
+    "subchapter": "Insolation and Infrared",
+    "topic": "Solar Insolation and Infrared Absorption",
+    "content": "# Solar Insolation and Infrared Absorption\n\n- **Insolation Distribution**: The equator receives roughly 2–3 times more solar energy per unit area than the poles, not 10 times. The difference is due to the angle of incidence and atmospheric path length.\n- **Spectral Composition**: Solar radiation at the top of the atmosphere is about 43 % visible, 47 % infrared (IR), and 10 % ultraviolet (UV). Thus, IR constitutes roughly half, not two‑thirds, of the total insolation.\n- **Infrared Absorption**: Infrared waves are largely absorbed by greenhouse gases—especially water vapour, CO₂, and methane—concentrated in the lower atmosphere. This absorption is the basis of the greenhouse effect.\n- **Infrared vs Visible**: Infrared radiation lies just beyond the visible spectrum; it is not part of the visible range.\n\n**Bottom line**: Only the statement that IR waves are largely absorbed by water vapour in the lower atmosphere is correct.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 25
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Functions",
+    "subchapter": "Differentiation",
+    "topic": "Function properties",
+    "content": "The page contains a series of multiple‑choice questions (MCQs) related to a function \\(f(t)\\) and its derivatives. The questions involve evaluating expressions and understanding the behavior of the function. The content appears to be garbled, but it includes numbered items 63 to 67, each presenting a question with four options (a) to (d).",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 26
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Physical Geography",
+    "subchapter": "Soils",
+    "topic": "Soils of Tropical Rain Forests",
+    "content": "# Soils of Tropical Rain Forests\n\n- **Rapid Decomposition**: In tropical rain forests, high temperature and high moisture accelerate the decomposition of organic matter. This rapid turnover means that nutrients are quickly returned to the soil but also quickly taken up by plants.\n- **Low Nutrient Content**: Despite the high productivity, the soils are often *nutrient‑poor* because the nutrients are leached away or incorporated into living biomass faster than they are replenished.\n- **Soil Types**: The dominant soil types are *Oxisols* and *Ultisols*, which are highly weathered, acidic, and low in base cations.\n- **Key Factors**:\n  - **Temperature**: ~25–30 °C\n  - **Moisture**: >2000 mm rainfall per year\n  - **Vegetation**: Dense canopy reduces light to the forest floor, influencing litter quality.\n- **Implications for Agriculture**: Requires intensive management (e.g., liming, fertilization) to maintain crop yields.\n\n> **Fact**: The statement “soil in tropical rain forests is rich in nutrients” is *incorrect*; the soils are actually nutrient‑poor due to rapid decomposition and leaching.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 27
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Climatology",
+    "subchapter": "Temperature Contrasts",
+    "topic": "Ocean‑Continental Temperature Contrast",
+    "content": "# Ocean‑Continental Temperature Contrast\n\n- **Definition**: The temperature difference between land and sea surfaces.\n- **Seasonal Variation**:\n  - **Summer**: Land heats up faster than ocean, creating a *larger* temperature contrast.\n  - **Winter**: Land cools faster, but the contrast is *smaller* because the ocean’s high specific heat moderates temperature changes.\n- **Specific Heat**:\n  - Water: 4.18 kJ kg⁻¹ K⁻¹\n  - Typical land surface: ~0.8–1.5 kJ kg⁻¹ K⁻¹\n  - The higher specific heat of water means it stores more heat and releases it slowly, leading to a *greater* temperature contrast during summer.\n- **Implications**:\n  - Influences weather patterns, such as monsoons and sea‑air temperature gradients.\n  - Affects the development of tropical cyclones.\n\n> **Explanation**: The specific heat of water being higher than that of land explains why the temperature contrast is greater in summer.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 27
+  },
+  {
+    "subject": "Geology",
+    "chapter": "Seismology",
+    "subchapter": "Seismic Waves",
+    "topic": "P and S Waves",
+    "content": "# P and S Waves\n\n- **P Waves (Primary Waves)**\n  - *Type*: Compressional (longitudinal)\n  - *Particle Motion*: In the direction of wave propagation (to‑and‑fro)\n  - *Speed*: Fastest seismic waves (~6–8 km/s in crust)\n  - *Detection*: Recorded first on a seismograph\n- **S Waves (Secondary Waves)**\n  - *Type*: Shear (transverse)\n  - *Particle Motion*: Perpendicular to direction of propagation (up‑and‑down or side‑to‑side)\n  - *Speed*: Slower than P waves (~3–4 km/s in crust)\n  - *Detection*: Recorded after P waves\n- **Key Facts**:\n  - Only P waves can travel through liquids; S waves cannot.\n  - The time difference between P and S arrivals is used to locate earthquake epicenters.\n- **Common Misconceptions**:\n  - Some think S waves travel faster; they actually travel slower.\n  - The direction of particle motion is often confused; remember P = longitudinal, S = transverse.\n\n> **Fact**: In a seismograph, P waves are recorded earlier than S waves, and the described particle motions are correct.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 27
+  },
+  {
+    "subject": "Environment",
+    "chapter": "Carbon Capture and Sequestration",
+    "subchapter": "Methods",
+    "topic": "Mineral carbonation, Ocean alkalinity enhancement, Geological storage",
+    "content": "### Carbon Capture and Sequestration (CCS)\n\n1. **Mineral carbonation** – Spreading finely ground basalt rock on farmlands. The silicate minerals in basalt react with atmospheric CO₂ to form stable carbonates, permanently locking carbon in the soil.\n2. **Ocean alkalinity enhancement** – Adding lime (CaO) to seawater raises its alkalinity, allowing more CO₂ to dissolve and be stored as bicarbonate ions.\n3. **Geological storage** – Capturing CO₂ from industrial sources and injecting it into abandoned subterranean mines or deep saline aquifers, where it remains as a dense, super‑critical fluid.\n\nAll three techniques are widely discussed and researched as viable CCS strategies.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 29
+  },
+  {
+    "subject": "Biotechnology",
+    "chapter": "Metagenomics",
+    "subchapter": "Aerial Metagenomics",
+    "topic": "Definition and Scope",
+    "content": "### Aerial Metagenomics\n\n- **Definition:** The collection and analysis of DNA fragments present in the atmosphere of a specific habitat in a single sampling event.\n- **Purpose:** Provides a snapshot of the microbial, plant, and animal genetic material suspended in air, enabling studies of biodiversity, pathogen monitoring, and ecosystem health without direct sampling of organisms.\n- **Key Feature:** Unlike traditional metagenomics that samples soil, water, or gut contents, aerial metagenomics focuses on airborne genetic material.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 29
+  },
+  {
+    "subject": "Genetics",
+    "chapter": "Molecular Markers",
+    "subchapter": "Microsatellite DNA",
+    "topic": "Applications",
+    "content": "### Microsatellite DNA (Simple Sequence Repeats)\n\n- **Nature:** Short, tandemly repeated DNA motifs (1‑6 bp) scattered throughout the genome.\n- **Primary Use:** Assessing genetic variation and phylogenetic relationships among species, especially in fauna.\n- **Why Useful:** High polymorphism, co‑dominant inheritance, and reproducibility make microsatellites ideal for evolutionary studies, population genetics, and conservation biology.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 29
+  },
+  {
+    "subject": "Economics",
+    "chapter": "MSME Policy",
+    "subchapter": "Definitions and Priority Sector",
+    "topic": "MSMED Act, 2006",
+    "content": "### Micro, Small and Medium Enterprises Development (MSMED) Act, 2006\n\n- **Medium Enterprises Definition:** Enterprises with investment in plant and machinery **between ₹15 crore and ₹25 crore**.\n- **Priority Sector Lending:** While MSMEs receive special focus, **not all bank loans to MSMEs automatically qualify** under the priority sector classification; eligibility depends on the loan’s purpose and the borrowing entity’s size.\n- **Implication:** Statement 1 is correct; Statement 2 is inaccurate.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 29
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Self-Help Group (SHG)",
+    "subchapter": "Microfinance Initiatives",
+    "topic": "SHG Programme",
+    "content": "# Self-Help Group (SHG) Programme\n\n**Definition**\n- A Self‑Help Group (SHG) is a voluntary association of 10–20 women (or sometimes men) from the same community who come together to save money, provide credit, and build social capital.\n\n**Origin**\n- The SHG programme was launched in 1992 by the **State Bank of India (SBI)** as part of its micro‑credit initiative. It was later institutionalised by the National Bank for Agriculture and Rural Development (NABARD) and has become a cornerstone of rural development in India.\n\n**Structure & Functioning**\n- **Group Formation**: Members pool savings in a common account.\n- **Credit**: The group collectively guarantees a loan taken by an individual member. The loan is usually provided by a micro‑finance institution (MFI) or a bank.\n- **Accountability**: All members are jointly responsible for repayment; this encourages discipline and mutual support.\n\n**Support from Banks**\n- **Regional Rural Banks (RRBs)** and **Scheduled Commercial Banks** play a pivotal role by providing credit, technical assistance, and training to SHGs.\n- Banks also facilitate the transfer of savings to formal banking systems, ensuring transparency and access to formal financial services.\n\n**Impact**\n- Empowers women economically and socially.\n- Enhances financial inclusion and reduces poverty.\n- Builds community resilience and promotes entrepreneurship.\n\n**Key Facts**\n- Over **1.5 million** SHGs operate across India.\n- SHGs have contributed to the creation of **millions of jobs** and the empowerment of **millions of women**.\n\n---\n\n## References\n- State Bank of India (SBI) – Micro‑Credit Programme\n- NABARD – Self‑Help Group Development Programme\n- RBI – Guidelines on SHG‑Based Credit\n",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 31
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Public Health System",
+    "subchapter": "Public Sector Health Care",
+    "topic": "Focus on Curative Care",
+    "content": "# Public Sector Health Care in India\n\n**Primary Focus**\n- The public health system in India is **predominantly curative**. It concentrates on diagnosing and treating diseases rather than on preventive, promotive, or rehabilitative services.\n\n**Limitations**\n- **Preventive Care**: Limited coverage of immunisation, health education, and disease surveillance.\n- **Promotive Care**: Few community‑based programmes to promote healthy lifestyles.\n- **Rehabilitative Care**: Scarce rehabilitation services for chronic conditions and disabilities.\n\n**Structure**\n- **Central Government**: Sets policies, allocates funds, and oversees national programmes.\n- **State Governments**: Implement programmes and manage district‑level health facilities.\n- **Local Bodies**: Municipalities and Panchayati Raj Institutions provide primary health care at the grassroots.\n\n**Key Statistics**\n- Public health expenditure is about **1.5% of GDP**.\n- Only **~30%** of the population has access to basic preventive services.\n\n**Implications**\n- High burden of communicable diseases.\n- Rising non‑communicable disease prevalence due to lack of preventive measures.\n- Need for policy reforms to strengthen preventive and promotive health.\n\n---\n\n## References\n- National Health Policy 2017\n- WHO – Health Systems in India\n",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 31
+  },
+  {
+    "subject": "General Knowledge",
+    "chapter": "Health Care Delivery",
+    "subchapter": "Decentralised Approach",
+    "topic": "State Responsibility",
+    "content": "# Decentralised Health Care Delivery in India\n\n**Federal Structure**\n- India follows a **decentralised** model where health care delivery is primarily the responsibility of the **State Governments**.\n\n**Key Features**\n- **States** organise and manage health services, including hospitals, primary health centres, and public health programmes.\n- **Central Government** provides policy guidance, funding, and national programmes (e.g., National Health Mission).\n- **Local Bodies** (municipalities, panchayats) implement community‑based health initiatives.\n\n**Rationale**\n- Decentralisation allows tailoring health services to local needs and conditions.\n- Encourages accountability and responsiveness at the state and local levels.\n\n**Challenges**\n- Variability in health infrastructure and workforce across states.\n- Coordination gaps between central and state authorities.\n- Resource constraints in less developed states.\n\n---\n\n## References\n- Constitution of India – 42nd Amendment (Health and Family Welfare)\n- Ministry of Health & Family Welfare – Decentralised Health Delivery Report\n",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 31
+  },
+  {
+    "subject": "Geography",
+    "chapter": "Africa",
+    "subchapter": "Famine",
+    "topic": "Somalia Famine",
+    "content": "# Somalia Famine\n\nSomalia, located in the Horn of Africa, has experienced prolonged periods of civil conflict and humanitarian crises. The most severe famine occurred in the early 1990s, exacerbated by drought, war, and displacement. Key facts:\n- **Historical context**: The collapse of Siad Barre’s regime in 1991 led to a power vacuum and inter-clan warfare.\n- **Causes**: Drought, war, lack of infrastructure, and political instability.\n- **Impact**: Over 300,000 deaths, widespread displacement, and international aid interventions.\n- **Recent developments**: Continued food insecurity due to climate change and ongoing conflict, with UN agencies monitoring the situation.\n\n**Why it matters**: Understanding Somalia’s famine highlights the interplay between conflict, climate, and food security, which is crucial for disaster risk reduction and humanitarian planning.\n",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 33
+  },
+  {
+    "subject": "Biodiversity",
+    "chapter": "Nagoya Protocol",
+    "subchapter": "Biodiversity Management Committees",
+    "topic": "Functions and Powers",
+    "content": "# Biodiversity Management Committees (BMCs)\n\nBMCs are statutory bodies established under the **Biological Diversity Act, 2002** and play a pivotal role in implementing the **Nagoya Protocol** on access and benefit-sharing (ABS). Key points:\n- **Mandate**: Facilitate access to biological resources, negotiate benefit-sharing agreements, and ensure compliance with national and international obligations.\n- **Functions**:\n  1. **Access**: Grant or deny access to biological resources.\n  2. **Benefit-sharing**: Negotiate terms with users, ensuring fair and equitable sharing of benefits.\n  3. **Collection fees**: Levy fees for the collection of biological resources within their jurisdiction.\n  4. **Capacity building**: Promote awareness and training on ABS.\n- **Legal basis**: The BMCs operate under the **Biological Diversity Act** and are guided by the **Nagoya Protocol** provisions.\n- **Importance**: They bridge the gap between national legislation and international commitments, ensuring that biodiversity conservation aligns with sustainable development.\n",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 33
+  },
+  {
+    "subject": "Indian Polity",
+    "chapter": "Election to President",
+    "subchapter": "Electoral College",
+    "topic": "Vote Value of MLAs",
+    "content": "# Vote Value of MLAs in Presidential Elections\n\nThe value of each MLA’s vote in the Presidential election is calculated using the formula:\n\n> **Value of MLA vote** = \\\\((\\text{Population of State}/1000) / \\text{Number of elected MLAs}\n\n**Key observations**:\n- **Inverse relationship**: More seats → lower individual vote value.\n- **State comparison**:\n  - **Madhya Pradesh**: Population ≈ 72 million, seats = 230 → value ≈ 313.\n  - **Kerala**: Population ≈ 35 million, seats = 140 → value ≈ 250.\n  - **Puducherry**: Population ≈ 1.2 million, seats = 30 → value ≈ 40.\n  - **Arunachal Pradesh**: Population ≈ 1.4 million, seats = 60 → value ≈ 23.\n- **Implications**: States with fewer seats but similar populations have higher per-MLA vote values, influencing the overall electoral weight.\n\n**Why it matters**: Understanding vote value calculations is essential for grasping the mechanics of indirect elections and the balance of power among states in the Indian federal system.\n",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 33
+  },
+  {
+    "subject": "Indian History",
+    "chapter": "Archaeology",
+    "subchapter": "Key Archaeologists",
+    "topic": "Alexander Rea, A.H. Longhurst, Robert Sewell, James Burgess, Walter Elliot",
+    "content": "# Key Archaeologists in Colonial India\n\n- **Alexander Rea** – British archaeologist known for his work on the Indus Valley Civilization and excavations at Harappa.\n- **A.H. Longhurst** – Excavated sites in the Deccan and contributed to the study of ancient Indian inscriptions.\n- **Robert Sewell** – Historian and archaeologist who documented the antiquities of South India, especially the temples of Tamil Nadu.\n- **James Burgess** – Conducted extensive surveys of the ancient monuments in the Deccan plateau.\n- **Walter Elliot** – Archaeologist who focused on the Buddhist sites of the Western Ghats.\n\nThese scholars were primarily associated with **archaeological excavations** in India during the colonial period.\n",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 35
+  },
+  {
+    "subject": "Indian History",
+    "chapter": "Cave Shrines",
+    "subchapter": "Locations and Religious Affiliation",
+    "topic": "Besnagar, Bhaja, Sittanavasal",
+    "content": "# Cave Shrines in South India\n\n| Site | Religious Affiliation | Notes |\n|------|-----------------------|-------|\n| **Besnagar** | **Buddhist** | The site contains a Buddhist cave shrine with a stupa and inscriptions dating to the 3rd century BCE. |\n| **Bhaja** | **Buddhist** | Famous for its well-preserved Buddhist cave shrine, featuring a large chaitya hall and intricate carvings. |\n| **Sittanavasal** | **Jain** | A Jain cave shrine known for its frescoes depicting Jain cosmology and the Jain monk, Acharya Kundakunda. |\n\n**Key Takeaway:** Besnagar is a Buddhist site, not a Shaivite shrine.\n",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 35
+  },
+  {
+    "subject": "Indian Culture",
+    "chapter": "National Days",
+    "subchapter": "Handloom",
+    "topic": "National Handloom Day",
+    "content": "# National Handloom Day\n\n- **Date:** 7th August every year.\n- **Purpose:** To celebrate the rich heritage of handloom weaving in India and to promote the handloom sector.\n- **Significance:** Highlights the importance of handloom as a traditional craft and its contribution to the Indian economy.\n\n**Fact:** The day is celebrated on 7th August, not linked to the Swadeshi Movement.\n",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 35
+  },
+  {
+    "subject": "Indian History",
+    "chapter": "Freedom Movement",
+    "subchapter": "Swadeshi Movement",
+    "topic": "Launch Year",
+    "content": "# Swadeshi Movement\n\n- **Launch Year:** 1905, following the partition of Bengal.\n- **Objective:** To promote Indian-made goods and boycott British products.\n- **Key Events:** The movement began in 1905 but was not associated with 7th August.\n\n**Fact:** The Swadeshi Movement was launched in 1905, not on 7th August.\n",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 35
+  },
+  {
+    "subject": "Indian Culture",
+    "chapter": "National Symbols",
+    "subchapter": "Flag",
+    "topic": "Specifications",
+    "content": "# Flag of India (Flag Code of India, 2002)\n\n- **Standard Size:** 600 mm (length) x 400 mm (height).\n- **Ratio:** Length to height (width) ratio is **3 : 2**.\n- **Design:** The flag consists of three horizontal bands – saffron (top), white (middle), and green (bottom) – with the navy blue Ashoka Chakra in the center of the white band.\n\n**Key Point:** The 600 mm x 400 mm size conforms to the 3:2 ratio specified by the Flag Code.\n",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 35
+  },
+  {
+    "subject": "General Knowledge / Current Affairs",
+    "chapter": "Constitution Day",
+    "subchapter": "Historical Significance",
+    "topic": "Constitution Day Facts",
+    "content": "### Constitution Day (India)\n- **Date**: 26th November every year.\n- **Purpose**: To promote constitutional values among citizens and to remind people of the importance of the Constitution.\n- **Historical Background**: On 26th November 1949, the Constituent Assembly of India set up a Drafting Committee under the chairmanship of Dr. B. R. Ambedkar to prepare the Draft Constitution of India. This event is the reason why 26th November was chosen as Constitution Day.\n- **Key Points**:\n  - Celebrated by schools, colleges, and government offices.\n  - Activities include flag hoisting, speeches, and educational programs.\n  - Emphasises the role of the Constitution in safeguarding democracy and human rights.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 37
+  },
+  {
+    "subject": "General Knowledge / Current Affairs",
+    "chapter": "Gold Reserves",
+    "subchapter": "Switzerland",
+    "topic": "Switzerland Gold Export and Reserves",
+    "content": "### Switzerland and Gold\n- **Export Status**: Switzerland is one of the world’s leading exporters of gold in terms of value, largely due to its status as a major gold trading hub.\n- **Gold Reserves**: Switzerland does not hold the second largest gold reserves in the world. The largest reserves are held by countries such as China, Russia, and the United States. Switzerland’s reserves are significant but not second‑largest.\n- **Key Takeaway**: While Switzerland is a major player in gold trading, its gold reserves ranking is lower than often perceived.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 37
+  },
+  {
+    "subject": "General Knowledge / Current Affairs",
+    "chapter": "Trade and Technology",
+    "subchapter": "USA–EU Cooperation",
+    "topic": "Trade and Technology Council",
+    "content": "### USA–EU Trade and Technology Council\n- **Launch**: The United States of America (USA) and the European Union (EU) recently launched the Trade and Technology Council.\n- **Objective**: The council aims to strengthen trade ties and foster technological cooperation between the two regions.\n- **Key Areas**: Digital trade, artificial intelligence, cybersecurity, and sustainable technology.\n- **Significance**: It represents a strategic partnership to address global challenges and promote innovation.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 37
+  },
+  {
+    "subject": "European Union",
+    "chapter": "Economic Governance",
+    "subchapter": "Stability and Growth Pact",
+    "topic": "Overview",
+    "content": "# Stability and Growth Pact (SGP)\n\n- **Purpose**: To ensure fiscal discipline and promote economic stability within the EU.\n- **Key Provisions**:\n  - **Deficit limit**: National budget deficit must not exceed **3 %** of GDP.\n  - **Debt limit**: Public debt must not exceed **60 %** of GDP.\n  - **Early warning system**: Member states submit annual reports; the European Commission monitors compliance.\n  - **Enforcement**: Non‑compliance triggers a **fifth‑pillar** procedure, potentially leading to sanctions.\n- **Scope**: Applies to all EU member states; does **not** mandate sharing of infrastructure or technology.\n- **Relevance**: Central to the EU’s fiscal framework and the Maastricht criteria.\n",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 39
+  },
+  {
+    "subject": "United Nations",
+    "chapter": "International Migration",
+    "subchapter": "Global Compact for Migration (GCM)",
+    "topic": "Overview",
+    "content": "# Global Compact for Safe, Orderly and Regular Migration\n\n- **Adoption**: Adopted by **193 UN member states** in 2018.\n- **Nature**: **Non‑binding** instrument; it sets voluntary principles and commitments.\n- **Objectives**:\n  1. **Human rights** protection for migrants.\n  2. **Legal pathways** for migration.\n  3. **Co‑operation** between states.\n- **Scope**: Focuses on **international** migration; does **not** explicitly address internal migration or internally displaced persons.\n- **Implementation**: Member states may adopt national policies aligned with the compact but are not legally obligated.\n",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 39
+  },
+  {
+    "subject": "India",
+    "chapter": "Law",
+    "subchapter": "Home Guards Act",
+    "topic": "Home Guards Act and Rules",
+    "content": "# Home Guards Act, 1980\n\n- **Establishment**: Created under the **Home Guards Act, 1980** and corresponding rules.\n- **Purpose**: Serve as an **auxiliary force** to the police for maintaining internal security.\n- **Structure**:\n  - **State Home Guards**: Raised by state governments.\n  - **Border Wing**: Battalions raised in some states to guard international borders and coastal areas.\n- **Roles**:\n  - **Civil defence**.\n  - **Disaster management**.\n  - **Support to police** during emergencies.\n",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 39
+  },
+  {
+    "subject": "India",
+    "chapter": "Law",
+    "subchapter": "Official Secrets Act, 1923",
+    "topic": "Unauthorized Wearing of Official Secrets",
+    "content": "# Official Secrets Act, 1923\n\n- **Section 3**: Prohibits **unauthorized wearing** of uniforms or insignia of the police or armed forces.\n- **Penalty**: Up to **2 years imprisonment** or a fine, or both.\n- **Purpose**: Prevent impersonation and maintain the integrity of official symbols.\n",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 39
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "Current Affairs",
+    "subchapter": "International Conflicts",
+    "topic": "Regions frequently in news",
+    "content": "### North Kivu & Ituri (Democratic Republic of Congo)\n- Both are provinces in eastern DRC.\n- Suffer from armed conflict involving militia groups, ethnic tensions, and competition over mineral resources.\n- Frequently reported in international news due to humanitarian crises.\n\n### Nagorno‑Karabakh (South Caucasus)\n- Disputed territory claimed by Armenia and Azerbaijan.\n- The conflict escalated into a full‑scale war in 2020 and remains a flashpoint.\n- Often covered in news for cease‑fire negotiations and geopolitical implications.\n\n### Kherson & Zaporizhzhia (Ukraine)\n- Two oblasts in southern Ukraine.\n- Occupied partially by Russian forces during the 2022‑2023 invasion.\n- News focus: military operations, civilian displacement, and strategic importance.\n\n### Insurgency in Mozambique\n- Primarily in Cabo Delgado province.\n- Islamist insurgents (ISIS‑linked) have caused widespread violence since 2017.\n- International attention due to humanitarian impact and security concerns.\n\n### Israel‑Lebanon Dispute\n- Ongoing territorial and security tensions, especially over the Shebaa Farms and maritime borders.\n- Periodic border skirmishes and diplomatic standoffs are regularly reported.\n",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 41
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "International Relations",
+    "subchapter": "Middle East",
+    "topic": "Israel’s diplomatic relations & Arab Peace Initiative",
+    "content": "### Israel’s diplomatic relations with Arab states\n- Since the Abraham Accords (2020), Israel has established full diplomatic relations with **United Arab Emirates, Bahrain, Sudan, and Morocco**.\n- These relations include embassies, trade agreements, and cooperation in technology and security.\n\n### Arab Peace Initiative (API)\n- **Proposed by Saudi Arabia in 2002** under the auspices of the Arab League.\n- Calls for full Israeli withdrawal from occupied Arab lands (including the Golan Heights, West Bank, Gaza) in exchange for normalized relations with all Arab states.\n- **Israel has never signed** the API; the initiative remains a proposal, not a signed agreement.\n",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 41
+  },
+  {
+    "subject": "General Studies",
+    "chapter": "Sports Awards",
+    "subchapter": "National Awards for Sports",
+    "topic": "Major Indian Sports Awards",
+    "content": "### Khel Ratna Award (now Major Dhyan Chand Khel Ratna)\n- **Purpose:** Recognises the most spectacular and outstanding performance by a sportsperson over the last four years.\n- **Eligibility:** Indian athletes across all sports.\n\n### Major Dhyan Chand Award\n- **Purpose:** Lifetime achievement award for sportspersons who have contributed significantly to sports.\n- **Eligibility:** Retired athletes with a distinguished career.\n\n### Arjuna Award\n- **Purpose:** Honors athletes for consistent outstanding performance at the international level.\n- **Eligibility:** Active sportspersons; not a lifetime achievement award.\n\n### Dronacharya Award\n- **Purpose:** Recognises eminent coaches who have successfully trained sportspersons or teams.\n- **Eligibility:** Coaches of any sport who have produced medal‑winning athletes.\n\n### Rashtriya Khel Protsahan Puraskar\n- **Purpose:** Encourages individuals/organizations for **promotion and development of sports** in India.\n- **Eligibility:** NGOs, corporations, or individuals contributing to sports promotion; not limited to retired sportspersons.\n",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 41
+  },
+  {
+    "subject": "Geopolitics",
+    "chapter": "Conflict Regions",
+    "subchapter": "Conflict Identification",
+    "topic": "Donbas",
+    "content": "# Donbas Conflict\n\n- **Location**: Eastern Ukraine (Donetsk and Luhansk regions).\n- **Background**: Escalated in 2014 following the Euromaidan protests and the annexation of Crimea by Russia.\n- **Key Actors**: Ukrainian government forces, Russian-backed separatists, and the Russian Federation.\n- **Current Status**: Ongoing ceasefire violations; international diplomatic efforts (Minsk agreements) have not fully resolved the conflict.\n- **Common Misconception**: Often mistakenly associated with Syria, but it is a distinct conflict in Ukraine.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 43
+  },
+  {
+    "subject": "Geopolitics",
+    "chapter": "Conflict Regions",
+    "subchapter": "Conflict Identification",
+    "topic": "Kachin",
+    "content": "# Kachin Conflict\n\n- **Location**: Kachin State, Myanmar (Burma).\n- **Background**: Long-standing ethnic insurgency involving the Kachin Independence Army (KIA) and the Myanmar military.\n- **Key Issues**: Ethnic autonomy, resource control (especially jade and timber), and human rights violations.\n- **Recent Developments**: Ceasefire agreements have been intermittently signed and broken; the conflict remains unresolved.\n- **Common Misconception**: Sometimes confused with conflicts in Ethiopia, but it is a separate conflict in Myanmar.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 43
+  },
+  {
+    "subject": "Geopolitics",
+    "chapter": "Conflict Regions",
+    "subchapter": "Conflict Identification",
+    "topic": "Tigray",
+    "content": "# Tigray Conflict\n\n- **Location**: Tigray Region, Ethiopia.\n- **Background**: Began in November 2020 when the Ethiopian federal government launched a military operation against the Tigray People's Liberation Front (TPLF).\n- **Key Actors**: Ethiopian National Defense Forces, TPLF, regional militias, and international humanitarian organizations.\n- **Humanitarian Impact**: Widespread displacement, famine risk, and allegations of war crimes.\n- **Common Misconception**: Often mistakenly linked to North Yemen, but it is a distinct conflict in Ethiopia.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 43
+  },
+  {
+    "subject": "International Relations",
+    "chapter": "African Politics",
+    "subchapter": "Coups",
+    "topic": "African Coups",
+    "content": "# Coups in Chad, Guinea, Mali, and Sudan\n\n- **Chad**: Multiple coups since independence; most recent in 2021 led by General Mahamat Idriss Déby.\n- **Guinea**: 2021 coup that ousted President Alpha Condé.\n- **Mali**: 2020 coup that removed President Ibrahim Boubacar Keïta; subsequent political instability.\n- **Sudan**: 2019 coup that ended Omar al-Bashir’s 30‑year rule; ongoing transition.\n- **Common Theme**: All four countries experienced successful military coups in the last decade, drawing international attention to governance and security challenges.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 43
+  },
+  {
+    "subject": "Energy and Industry",
+    "chapter": "Heavy Industries",
+    "subchapter": "Decarbonization",
+    "topic": "Green Hydrogen",
+    "content": "# Green Hydrogen in Heavy Industries\n\n- **Fertilizer Plants**: Hydrogen can replace natural gas in ammonia synthesis (Haber‑Bosch process), reducing CO₂ emissions.\n- **Oil Refineries**: Hydrogen is used for hydrocracking and desulfurization; green hydrogen can lower the refinery’s carbon footprint.\n- **Steel Plants**: Hydrogen can replace coal in direct reduction of iron (DRI) processes, enabling low‑carbon steel production.\n- **Overall Impact**: Green hydrogen is projected to play a pivotal role in decarbonizing all three heavy‑industry sectors by 2050.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 43
+  },
+  {
+    "subject": "Global Governance",
+    "chapter": "G-20",
+    "subchapter": "G-20 Platforms",
+    "topic": "G-20 Finance Ministers",
+    "content": "# G‑20 Origins\n\n- **Established**: 1999 as a forum for finance ministers and central bank governors.\n- **Purpose**: To discuss international economic and financial issues, promote global financial stability, and coordinate policy responses.\n- **Evolution**: Expanded to include heads of state/government and other ministers in subsequent years.\n- **Key Outcomes**: G‑20 summits influence global economic policy, trade, and financial regulation.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 43
+  },
+  {
+    "subject": "Global Governance",
+    "chapter": "G-20",
+    "subchapter": "Digital Infrastructure",
+    "topic": "Digital Public Infrastructure",
+    "content": "# Digital Public Infrastructure as an India G‑20 Priority\n\n- **Definition**: Government‑led digital services that provide essential infrastructure for citizens and businesses (e.g., digital identity, e‑gov portals, digital payments).\n- **India’s Focus**: Strengthening digital public infrastructure to support inclusive growth, improve service delivery, and enhance cybersecurity.\n- **G‑20 Context**: India highlighted this priority during its G‑20 presidency, emphasizing the role of digital infrastructure in post‑pandemic recovery.",
+    "source_pdf": "CAPF_CSE_Papers\\QP_CS_Pre_Exam_2023_280523.pdf",
+    "source_page": 43
   }
 ]
