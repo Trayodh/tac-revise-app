@@ -8,8 +8,16 @@
  */
 
 (function () {
-    if (typeof AI_GENERATED_NOTES === 'undefined' || typeof NOTES_DATABASE === 'undefined') {
-        console.warn('[inject_ai_notes] AI_GENERATED_NOTES or NOTES_DATABASE not found.');
+    if (typeof window !== 'undefined') {
+        if (typeof window.NOTES_DATABASE === 'undefined') {
+            window.NOTES_DATABASE = {};
+        }
+    }
+    if (typeof NOTES_DATABASE === 'undefined') {
+        var NOTES_DATABASE = (typeof window !== 'undefined' ? window.NOTES_DATABASE : {});
+    }
+    if (typeof AI_GENERATED_NOTES === 'undefined') {
+        console.warn('[inject_ai_notes] AI_GENERATED_NOTES not found.');
         return;
     }
 

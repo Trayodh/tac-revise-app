@@ -9921,3 +9921,9 @@ const NOTES_DATABASE = {
   }
 };
 
+if (typeof window !== 'undefined') {
+  window.NOTES_DATABASE = NOTES_DATABASE;
+}
+if (typeof module !== 'undefined') {
+  module.exports = { NOTES_DATABASE, CURRENT_AFFAIRS_DB };
+}
