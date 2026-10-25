@@ -141,12 +141,14 @@ def run():
             "notes": html
         })
 
-    print(f"Grouped and fused into {len(ai_notes)} unique chapter notes.")
     content = "// This file is auto-generated from notes_database.json\nconst AI_GENERATED_NOTES = " + json.dumps(ai_notes, indent=2) + ";\n"
-    with open("public/ai_generated_notes.js", "w", encoding="utf-8") as f:
-        f.write(content)
-    with open("ai_generated_notes.js", "w", encoding="utf-8") as f:
-        f.write(content)
+    def safe_write_file(filepath, text, chunk_size=2*1024*1024):
+        with open(filepath, "w", encoding="utf-8") as f:
+            for i in range(0, len(text), chunk_size):
+                f.write(text[i:i+chunk_size])
+
+    safe_write_file("public/ai_generated_notes.js", content)
+    safe_write_file("ai_generated_notes.js", content)
     print("Done!")
         
 if __name__ == "__main__":
