@@ -7576,9 +7576,18 @@
       36,
       37,
       38,
-      39
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48
     ],
-    "status": "in_progress"
+    "status": "completed"
   },
   "CAPF_CSE_Papers\\QP-CAPF-25-GENERAL-ABILITY-INTELLIGENCE-040825.pdf": {
     "total_pages": 56,
@@ -7594,7 +7603,8 @@
     "total_pages": 48,
     "extracted_pages": [
       1,
-      2
+      2,
+      3
     ],
     "status": "in_progress"
   },

@@ -201424,5 +201424,44 @@
     "topic": "Agriculture, Traditional Farming Practices",
     "source_pdf": "CAPF_CSE_Papers\\QP-CAPF-20-Gen_Ability_Intelligence.pdf",
     "source_page": 29
+  },
+  {
+    "id": "rough-work-page-47",
+    "subject": "Miscellaneous",
+    "chapter": "Instructions",
+    "topic": "Rough Work Space",
+    "text": "<p><strong>SPACE FOR ROUGH WORK</strong></p><p>This page is intentionally left blank for rough work during the examination.</p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [
+      "A large letter 'A' inside a square box at the top left, indicating the test booklet series."
+    ],
+    "details": {
+      "summary": "Blank rough work page from a test booklet with series identifier A."
+    },
+    "mcq": {
+      "question": "",
+      "options": [],
+      "correct": 0,
+      "explanation": ""
+    },
+    "source_pdf": "CAPF_CSE_Papers\\QP-CAPF-22-GAI-080822.pdf",
+    "source_page": 47
+  },
+  {
+    "id": "NOTE-JDFG-U-PFT-48",
+    "subject": "General Ability and Intelligence",
+    "chapter": "Examination Instructions",
+    "topic": "Test Booklet Instructions",
+    "text": "<p><strong>T.B.C. : JDFG-U-PFT</strong></p><p><strong>Test Booklet Series: A</strong></p><p><strong>TEST BOOKLET GENERAL ABILITY AND INTELLIGENCE</strong></p><p><strong>Time Allowed : Two Hours</strong></p><p><strong>Maximum Marks : 250</strong></p><h3>I N S T R U C T I O N S</h3><ul><li><strong>1.</strong> IMMEDIATELY AFTER THE COMMENCEMENT OF THE EXAMINATION, YOU SHOULD CHECK THAT THIS TEST BOOKLET DOES NOT HAVE ANY UNPRINTED OR TORN OR MISSING PAGES OR ITEMS, ETC. IF SO, GET IT REPLACED BY A COMPLETE TEST BOOKLET.</li><li><strong>2.</strong> Please note that it is the candidate's responsibility to encode and fill in the Roll Number and Test Booklet Series A, B, C or D carefully and without any omission or discrepancy at the appropriate places in the OMR Answer Sheet. Any omission/discrepancy will render the Answer Sheet liable for rejection.</li><li><strong>3.</strong> You have to enter your Roll Number on the Test Booklet in the box provided alongside. DO NOT write <em>anything</em> else on the Test Booklet.</li><li><strong>4.</strong> This Test Booklet contains <strong>125 items (questions)</strong>. Each item is printed both in <em>Hindi and English</em>. Each item comprises four responses (answers). You will select the response which you want to mark on the Answer Sheet. In case you feel that there is more than one correct response, mark the response which you consider the best. In any case, choose <em>ONLY ONE</em> response for each item.</li><li><strong>5.</strong> You have to mark all your responses <em>ONLY</em> on the separate Answer Sheet provided. See directions in the Answer Sheet.</li><li><strong>6.</strong> <em>All items carry equal marks.</em></li><li><strong>7.</strong> Before you proceed to mark in the Answer Sheet the response to various items in the Test Booklet, you have to fill in some particulars in the Answer Sheet as per instructions sent to you with your Admission Certificate.</li><li><strong>8.</strong> After you have completed filling in all your responses on the Answer Sheet and the examination has concluded, you should hand over to the Invigilator <em>only the Answer Sheet</em>. You are permitted to take away with you the Test Booklet.</li><li><strong>9.</strong> Sheets for rough work are appended in the Test Booklet at the end.</li><li><strong>10. Penalty for wrong answers :</strong> THERE WILL BE PENALTY FOR WRONG ANSWERS MARKED BY A CANDIDATE IN THE OBJECTIVE TYPE QUESTION PAPERS.<br>(i) There are four alternatives for the answer to every question. For each question for which a wrong answer has been given by the candidate, <strong>one-third</strong> of the marks assigned to that question will be deducted as penalty.<br>(ii) If a candidate gives more than one answer, it will be treated as a <strong>wrong answer</strong> even if one of the given answers happens to be correct and there will be same penalty as above to that question.<br>(iii) If a question is left blank, i.e., no answer is given by the candidate, there will be <strong>no penalty</strong> for that question.</li></ul><p><strong>DO NOT OPEN THIS TEST BOOKLET UNTIL YOU ARE TOLD TO DO SO</strong></p>",
+    "formulas": [],
+    "tables": [],
+    "image_descriptions": [],
+    "details": {
+      "summary": "General instructions and guidelines for candidates taking the General Ability and Intelligence test booklet, including marking scheme, negative marking rules, and OMR handling."
+    },
+    "mcq": null,
+    "source_pdf": "CAPF_CSE_Papers\\QP-CAPF-22-GAI-080822.pdf",
+    "source_page": 48
   }
 ]
