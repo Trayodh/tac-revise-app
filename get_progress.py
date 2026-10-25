@@ -12,14 +12,18 @@ def get_stats():
     notes = json.load(open(notes_file, encoding='utf-8')) if os.path.exists(notes_file) else []
     questions = json.load(open(questions_file, encoding='utf-8')) if os.path.exists(questions_file) else []
 
-    gross_pages = sum(v.get('total_pages', 0) for v in ps.values())
-    total_extracted = sum(len(v.get('extracted_pages', [])) for v in ps.values())
+    # Filter out excluded books
+    active_ps = {k: v for k, v in ps.items() if v.get('status') != 'excluded'}
+    excluded_books = [k for k, v in ps.items() if v.get('status') == 'excluded']
+
+    gross_pages = sum(v.get('total_pages', 0) for v in active_ps.values())
+    total_extracted = sum(len(v.get('extracted_pages', [])) for v in active_ps.values())
     
     completed_books = []
     in_progress_books = []
     unstarted_books = []
 
-    for k, v in ps.items():
+    for k, v in active_ps.items():
         done = len(v.get('extracted_pages', []))
         total = v.get('total_pages', 0)
         if total > 0 and done >= total:
@@ -39,14 +43,18 @@ def get_stats():
             total_words += len(str(content).split())
 
     pct = (total_extracted / gross_pages * 100) if gross_pages > 0 else 0
+    pages_left = gross_pages - total_extracted
 
     print("==================================================")
     print("      JAYASTRA DEFENCE REVISION PROGRESS          ")
     print("==================================================")
-    print(f"Gross Library Pages:     {total_extracted} / {gross_pages} ({pct:.2f}%)")
-    print(f"100% Completed Books:    {len(completed_books)} / {len(ps)}")
+    print(f"Active Library Pages:    {total_extracted} / {gross_pages} ({pct:.2f}%)")
+    print(f"Pages Left to Extract:   {pages_left} pages")
+    print(f"100% Completed Books:    {len(completed_books)} / {len(active_ps)}")
     print(f"In-Progress Books:       {len(in_progress_books)}")
     print(f"Unstarted Books:         {len(unstarted_books)}")
+    if excluded_books:
+        print(f"Excluded Books:          {len(excluded_books)} ({', '.join(excluded_books)})")
     print(f"Total Theory Notes:      {len(notes):,} notes (~{total_words:,} words)")
     print(f"Total Practice MCQs:     {len(questions):,} questions")
     print("==================================================")

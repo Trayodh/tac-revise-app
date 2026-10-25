@@ -137,6 +137,16 @@ def get_book_priority(pdf_name):
         
     return (6, 99)
 
+EXCLUDED_BOOKS = {
+    'july_ca_class.pdf',
+    'current_affairs.pdf',
+    'temp.pdf'
+}
+
+def is_excluded(pdf_name):
+    lower = os.path.basename(pdf_name).lower()
+    return lower in EXCLUDED_BOOKS or 'july_ca' in lower
+
 FAILED_ATTEMPTS = {}
 
 def get_next_task_priority(state):
@@ -145,7 +155,12 @@ def get_next_task_priority(state):
     Picks the highest priority incomplete book and extracts its pages
     consecutively until that book is 100% complete.
     """
-    incomplete = [name for name in state if len(state[name].get('extracted_pages', [])) < state[name].get('total_pages', 0)]
+    incomplete = [
+        name for name in state 
+        if not is_excluded(name) 
+        and state[name].get('status') != 'excluded'
+        and len(state[name].get('extracted_pages', [])) < state[name].get('total_pages', 0)
+    ]
     if not incomplete:
         return None, None
         
