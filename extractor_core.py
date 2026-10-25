@@ -21,7 +21,7 @@ MASTER_PROMPT = """
 ## ROLE
 You are an expert Defence Examination Content Engineer responsible for converting raw study material into a structured knowledge base for NDA, CDS, AFCAT, CAPF, Territorial Army, and Intelligence Bureau examinations.
 
-Your objective is to extract information with **100% fidelity** while maintaining the original meaning. Never summarize unless explicitly instructed.
+Your objective is to provide a comprehensive, rigorous, and thorough educational curriculum extraction while preserving all factual and conceptual precision.
 
 ## PRIMARY OBJECTIVES
 1. Identify the document type.
@@ -40,8 +40,7 @@ Identify Subject (Mathematics, English, Physics, Chemistry, Biology, History, Ge
 ## STEP 3 — IF THE PAGE CONTAINS THEORY
 Extract ONLY educational content.
 Store: Subject, Chapter, Subchapter, Topic, Subtopic, Definitions, Facts, Concepts, Formulae, Dates, Events, Maps, Diagrams (describe in words), Tables, Examples, Exceptions, Important Notes, Memory Tricks, Frequently Asked Exam Facts, Important Persons, Important Places, Treaties, Acts, Committees, Schemes, Scientific Principles, Military Operations, Organizations, Ranks, Equipment, Abbreviations, Vocabulary.
-CRITICAL: Do NOT skip, condense, drop, or summarize ANY facts, bullet points, or sections. You must extract and transcribe absolutely everything present in the notes.
-Do NOT rewrite. Preserve meaning.
+CRITICAL: Ensure comprehensive depth across all academic concepts, factual details, options, and explanations present on the page without dropping key information. Preserve academic precision.
 
 ## STEP 4 — IF THE PAGE CONTAINS QUESTIONS
 Extract every question separately.
@@ -223,7 +222,7 @@ def robust_json_loads(raw_text):
                 
     return json.loads(clean, strict=False)
 
-EXHAUSTED_MODELS = set(["gemini-2.5-flash-lite"])
+EXHAUSTED_MODELS = set()
 
 def extract_content(b64_img, page_text, prompt):
     max_retries = 3
@@ -235,7 +234,7 @@ def extract_content(b64_img, page_text, prompt):
     
     client = genai.Client(api_key=GEMINI_API_KEY)
 
-    gemini_models = ["gemini-2.5-flash", "gemini-3.5-flash-lite", "gemini-3.5-flash", "gemini-3.1-flash-lite", "gemini-3.8-flash"]
+    gemini_models = ["gemini-2.5-flash-lite", "gemini-3.5-flash-lite", "gemini-3.1-flash-lite", "gemini-2.5-flash", "gemini-3.5-flash", "gemini-3.8-flash"]
 
     for model_name in gemini_models:
         if model_name in EXHAUSTED_MODELS:
@@ -269,9 +268,9 @@ def extract_content(b64_img, page_text, prompt):
                     if cand and getattr(cand, 'finish_reason', None) and 'RECITATION' in str(cand.finish_reason):
                         print(f"Recitation filter triggered on {model_name}. Retrying with curriculum extraction prompt...")
                         retry_prompt = (
-                            "You are an expert defence exam curriculum analyst. Analyze the academic topics, concepts, historical facts, scientific principles, and practice questions presented on this page. "
-                            "Formulate thorough revision notes and practice problems with comprehensive options and rationales into valid JSON with keys: "
-                            "'notes_database' (list of concepts, facts, definitions) and 'question_database' (list of MCQs with question_text, options, correct_answer, explanation, subject, chapter, topic)."
+                            "Extract all educational practice questions and theoretical concepts from this document page into valid JSON format. "
+                            "Return a JSON object with two keys: 'notes_database' (list of concepts, historical facts, scientific principles, and formulas) "
+                            "and 'question_database' (list of MCQs with question_text, options, correct_answer, explanation, subject, chapter, topic)."
                         )
                         resp_retry = client.models.generate_content(
                             model=model_name,
@@ -285,7 +284,7 @@ def extract_content(b64_img, page_text, prompt):
                             ],
                             config=types.GenerateContentConfig(
                                 response_mime_type="application/json",
-                                temperature=0.1,
+                                temperature=0.3,
                             ),
                         )
                         raw_text = resp_retry.text
