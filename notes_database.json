@@ -201268,5 +201268,161 @@
     "source_book": "UPSC High-Yield Mastery Compendium",
     "page": 1,
     "content": "### Master Matrix: Biosphere Reserves, Tiger Reserves, Ramsar Wetlands & Global Treaties\n\n#### 1. The 18 Biosphere Reserves of India (12 in UNESCO MAB Network)\n- **First Biosphere Reserve in India:** **Nilgiri Biosphere Reserve (1986)** — spans 3 states (**Tamil Nadu, Kerala, Karnataka**). Keystone fauna: Lion-tailed Macaque, Nilgiri Tahr.\n- **Largest Biosphere Reserve:** **Gulf of Kachchh (Gujarat)** ($12,454\\text{ km}^2$).\n- **Smallest Biosphere Reserve:** **Panna (Madhya Pradesh)** or **Dibru-Saikhowa (Assam)** ($765\\text{ km}^2$).\n- **UNESCO World Network of Biosphere Reserves (12 in MAB):**\n  1. Nilgiri (TN/Kerala/Karnataka - 2000)\n  2. Gulf of Mannar (Tamil Nadu - 2001) — Dugong (Sea Cow)\n  3. Sundarbans (West Bengal - 2001) — Royal Bengal Tiger, Mangroves\n  4. Nanda Devi (Uttarakhand - 2004) — Snow Leopard, Himalayan Musk Deer\n  5. Nokrek (Meghalaya - 2009) — Red Panda, Citrus indica (mother gene)\n  6. Pachmarhi (Madhya Pradesh - 2009) — Giant Flying Squirrel\n  7. Similipal (Odisha - 2009) — Royal Bengal Tiger, Asian Elephant\n  8. Achanakmar-Amarkantak (MP/Chhattisgarh - 2012)\n  9. Great Nicobar (Andaman & Nicobar - 2013) — Saltwater Crocodile, Nicobar Megapode\n  10. Agasthyamala (Kerala/Tamil Nadu - 2016) — Asian Elephant, Kanikkarar tribe\n  11. Khangchendzonga (Sikkim - 2018) — Snow Leopard, Musk Deer (Highest mixed UNESCO World Heritage Site)\n  12. Panna (Madhya Pradesh - 2020) — Tiger, Sloth Bear, Ken River\n\n#### 2. Key International Environmental Treaties & Conventions\n| Treaty / Protocol | Year Signed / Effective | Primary Mandate & Environmental Target | High-Yield Distractor Trap |\n| :--- | :--- | :--- | :--- |\n| **Ramsar Convention** | 1971 (Iran) | Conservation and wise use of **Wetlands of International Importance**. | **Montreux Record:** Register of wetland sites where ecological changes have occurred, are occurring, or are likely to occur. In India: **Keoladeo National Park (Rajasthan)** and **Loktak Lake (Manipur)** are currently on Montreux Record. (Chilika Lake was on it, but removed after successful restoration). |\n| **CITES** (Washington Convention) | 1973 | Ensures international trade in specimens of wild animals and plants does not threaten their survival. | Legally binding on Parties, but does not take the place of national laws. |\n| **Montreal Protocol** | 1987 (Entry 1989) | Phasing out **Ozone Depleting Substances (ODS)** like Chlorofluorocarbons (CFCs) and Halons. | **Kigali Amendment (2016):** Legally binding amendment to phase down **Hydrofluorocarbons (HFCs)** (which don't deplete ozone but are potent greenhouse gases). Most successful treaty in UN history! |\n| **Basel Convention** | 1989 | Control of Transboundary Movements of **Hazardous Wastes** and their disposal. | Does NOT cover radioactive wastes (which fall under IAEA). |\n| **UNFCCC (Rio Earth Summit)** | 1992 | Stabilize greenhouse gas concentrations in the atmosphere to prevent dangerous climate change. | Non-binding treaty that gave birth to binding protocols (Kyoto, Paris). |\n| **Convention on Biological Diversity (CBD)**| 1992 | Conservation of biological diversity, sustainable use of components, fair and equitable sharing of genetic benefits. | Supplemented by **Cartagena Protocol** (Biosafety - 2000) and **Nagoya Protocol** (Access and Benefit Sharing / ABS - 2010). |\n| **Kyoto Protocol** | 1997 (Entry 2005) | Legally binding greenhouse gas reduction targets on **Annex I (developed) nations**. | Common But Differentiated Responsibilities (CBDR). Expired in 2020. |\n| **Stockholm Convention** | 2001 | Elimination or restriction of **Persistent Organic Pollutants (POPs)** (The \"Dirty Dozen\" like DDT, Dioxins, PCBs). | POPs resist environmental degradation, bioaccumulate in fatty tissues, and biomagnify up the food chain. |\n| **Rotterdam Convention** | 1998 | **Prior Informed Consent (PIC)** procedure for certain hazardous chemicals and pesticides in international trade. | Promotes shared responsibility in international chemical trade. |\n| **Paris Agreement** | 2015 (COP21) | Limit global warming to **well below $2^\\circ\\text{C}$**, preferably to **$1.5^\\circ\\text{C}$** above pre-industrial levels. | Replaced Kyoto; applies to **ALL countries** via voluntary **Nationally Determined Contributions (NDCs)**. |\n| **Minamata Convention** | 2013 | Protecting human health and the environment from adverse effects of **Mercury (Hg)** emissions. | Named after Minamata Bay, Japan (severe methylmercury neurological poisoning). |\n"
+  },
+  {
+    "concept": "Fundamental Duties",
+    "fact": "Article 51A of the Constitution of India deals with Fundamental Duties.",
+    "explanation": "Fundamental Duties were added to the Constitution of India by the 42nd Amendment Act, 1976, based on the recommendations of the Swaran Singh Committee. Article 51A outlines these duties for citizens.",
+    "source_pdf": "scratch\\pdf_downloads\\gat_syllabus\\QP-NDA-I-23-GENERAL-ABILITY-TEST-170423.pdf",
+    "source_page": 39
+  },
+  {
+    "concept": "Newton's Law of Universal Gravitation",
+    "fact": "The force of gravity between two objects is directly proportional to the product of their masses and inversely proportional to the square of the distance between their centers.",
+    "explanation": "The force of gravity exerted by the Earth on the Moon is equal in magnitude and opposite in direction to the force of gravity exerted by the Moon on the Earth, according to Newton's third law of motion and his law of universal gravitation. The magnitude of the force depends on the masses of the Earth and Moon and the distance between them. The direction of the force is along the line joining their centers.",
+    "source_pdf": "scratch\\pdf_downloads\\gat_syllabus\\QP-NDA-I-23-GENERAL-ABILITY-TEST-170423.pdf",
+    "source_page": 39
+  },
+  {
+    "concept": "Electrical Power",
+    "fact": "Power (P) is the rate at which energy is transferred or converted. For an electrical device, it is given by P = V * I, where V is voltage and I is current. Also, P = V^2 / R and P = I^2 * R, where R is resistance.",
+    "explanation": "The power rating of an electrical appliance is given at a specific voltage. When the operating voltage is changed, the power consumed will change, assuming the resistance of the appliance remains constant. The resistance of the bulb can be calculated from its rated power and voltage. Then, using the new voltage, the new power can be calculated.",
+    "source_pdf": "scratch\\pdf_downloads\\gat_syllabus\\QP-NDA-I-23-GENERAL-ABILITY-TEST-170423.pdf",
+    "source_page": 39
+  },
+  {
+    "concept": "Dispersion of Light",
+    "fact": "When white light passes through a prism, it splits into its constituent colors (VIBGYOR) due to dispersion. This happens because the refractive index of the prism material is different for different wavelengths of light.",
+    "explanation": "The deviation of light through a prism depends on the refractive index of the prism material for that specific wavelength. Shorter wavelengths (like violet and blue) have a higher refractive index and thus deviate more. Longer wavelengths (like red) have a lower refractive index and deviate less. The speed of light in a medium is inversely proportional to the refractive index (v = c/n). Therefore, light with a higher refractive index travels slower in the medium.",
+    "source_pdf": "scratch\\pdf_downloads\\gat_syllabus\\QP-NDA-I-23-GENERAL-ABILITY-TEST-170423.pdf",
+    "source_page": 39
+  },
+  {
+    "concept": "Speed of Sound",
+    "fact": "The speed of sound in a given medium is generally independent of frequency and wavelength, but it depends on the properties of the medium such as its elasticity and density.",
+    "explanation": "In most common scenarios, the speed of sound in a homogeneous medium is constant and does not vary with frequency or wavelength. Factors like temperature, pressure, and the composition of the medium affect the speed of sound. While some dispersion effects can occur in specific materials or under certain conditions, the general principle is that speed is constant.",
+    "source_pdf": "scratch\\pdf_downloads\\gat_syllabus\\QP-NDA-I-23-GENERAL-ABILITY-TEST-170423.pdf",
+    "source_page": 39
+  },
+  {
+    "concept": "Telescopes",
+    "fact": "Telescopes are optical instruments used to view distant objects. They can use lenses (refracting telescopes) or mirrors (reflecting telescopes) to gather and focus light.",
+    "explanation": "A Newtonian telescope is a type of reflecting telescope that uses a parabolic primary mirror and a flat secondary mirror to direct the focused light to the eyepiece. Galilean and Keplerian telescopes are types of refracting telescopes that use lenses. The Schmidt telescope is a catadioptric telescope that uses both mirrors and lenses.",
+    "source_pdf": "scratch\\pdf_downloads\\gat_syllabus\\QP-NDA-I-23-GENERAL-ABILITY-TEST-170423.pdf",
+    "source_page": 39
+  },
+  {
+    "concept": "Free Fall",
+    "explanation": "Free fall is the motion of an object where the only force acting upon it is gravity. In free fall near the Earth's surface, assuming negligible air resistance, the acceleration of the object is constant and equal to the acceleration due to gravity (g ≈ 9.8 m/s² downwards). This acceleration is independent of the object's mass or instantaneous velocity. An object can have zero velocity at an instant (e.g., at the peak of its trajectory when thrown upwards) while still experiencing constant acceleration due to gravity.",
+    "source_pdf": "CAPF_CSE_Papers\\QP-CAPF-20-Gen_Ability_Intelligence.pdf",
+    "source_page": 3
+  },
+  {
+    "concept": "Magnetic Field Lines",
+    "explanation": "Magnetic field lines are a visual tool used to represent magnetic fields. Key properties include: 1. They originate from the North pole and terminate at the South pole outside the magnet, forming continuous closed loops. 2. They never intersect each other. If they did, it would imply two directions for the magnetic field at a single point, which is physically impossible. 3. The density of field lines indicates the strength of the magnetic field. 4. The tangent to a field line at any point gives the direction of the magnetic field at that point.",
+    "source_pdf": "CAPF_CSE_Papers\\QP-CAPF-20-Gen_Ability_Intelligence.pdf",
+    "source_page": 3
+  },
+  {
+    "concept": "Fleming's Left-Hand Rule",
+    "explanation": "Fleming's Left-Hand Rule (also known as the Motor Rule) is used to determine the direction of the force (or motion) on a current-carrying conductor placed in a magnetic field. If the forefinger points in the direction of the magnetic field, the middle finger points in the direction of the current, then the thumb will point in the direction of the force experienced by the conductor.",
+    "source_pdf": "CAPF_CSE_Papers\\QP-CAPF-20-Gen_Ability_Intelligence.pdf",
+    "source_page": 3
+  },
+  {
+    "concept": "Fleming's Right-Hand Rule",
+    "explanation": "Fleming's Right-Hand Rule (also known as the Generator Rule) is used to determine the direction of the induced current or electromotive force (EMF) when a conductor moves in a magnetic field. If the forefinger points in the direction of the magnetic field, the thumb points in the direction of the motion of the conductor, then the middle finger will point in the direction of the induced current.",
+    "source_pdf": "CAPF_CSE_Papers\\QP-CAPF-20-Gen_Ability_Intelligence.pdf",
+    "source_page": 3
+  },
+  {
+    "concept": "Periodic Motion",
+    "explanation": "Periodic motion is a motion that repeats itself in equal intervals of time. Examples include the revolution of Earth around the Sun, the rotation of a fan, or the oscillation of a pendulum.",
+    "source_pdf": "CAPF_CSE_Papers\\QP-CAPF-20-Gen_Ability_Intelligence.pdf",
+    "source_page": 3
+  },
+  {
+    "concept": "Simple Harmonic Motion (SHM)",
+    "explanation": "Simple Harmonic Motion (SHM) is a special type of periodic motion where the restoring force acting on the oscillating body is directly proportional to its displacement from the equilibrium position and is always directed towards the equilibrium position. All simple harmonic motions are periodic, but not all periodic motions are simple harmonic (e.g., uniform circular motion is periodic but not SHM). Examples include a mass on a spring or a simple pendulum (for small angles).",
+    "source_pdf": "CAPF_CSE_Papers\\QP-CAPF-20-Gen_Ability_Intelligence.pdf",
+    "source_page": 3
+  },
+  {
+    "concept": "Doppler Effect",
+    "explanation": "The Doppler effect is the change in frequency or wavelength of a wave (sound or light) in relation to an observer who is moving relative to the wave source. When the source and observer are moving towards each other, the frequency increases (wavelength decreases). When they are moving away from each other, the frequency decreases (wavelength increases). This principle is used in various applications, such as radar speed guns, medical imaging (ultrasound), and astronomy.",
+    "source_pdf": "CAPF_CSE_Papers\\QP-CAPF-20-Gen_Ability_Intelligence.pdf",
+    "source_page": 3
+  },
+  {
+    "concept": "Newton's Third Law of Motion",
+    "explanation": "Newton's Third Law of Motion states that for every action, there is an equal and opposite reaction. Key characteristics of action-reaction pairs are: 1. They are always equal in magnitude and opposite in direction. 2. They always act on two different bodies. 3. They occur simultaneously; there is no cause-effect relationship where one force precedes the other. 4. Forces never occur singly in nature.",
+    "source_pdf": "CAPF_CSE_Papers\\QP-CAPF-20-Gen_Ability_Intelligence.pdf",
+    "source_page": 3
+  },
+  {
+    "concept": "Censure Motion",
+    "fact": "A Censure Motion can be moved against the entire Council of Ministers or individual ministers. It requires a specific reason to be stated. The Government is free to fix the time and date for its discussion. The Speaker decides whether the motion is in order. A leave of the House is not required to move it.",
+    "source_pdf": "CAPF_CSE_Papers\\QP-CAPF-20-Gen_Ability_Intelligence.pdf",
+    "source_page": 25
+  },
+  {
+    "concept": "Money Bill",
+    "fact": "A Money Bill can only be introduced in the Lok Sabha. The Speaker's decision on whether a bill is a Money Bill or not is final. A Deputy Speaker can certify a Money Bill in case of the Speaker's office falling vacant. A Money Bill cannot be referred to a joint committee of the two Houses.",
+    "source_pdf": "CAPF_CSE_Papers\\QP-CAPF-20-Gen_Ability_Intelligence.pdf",
+    "source_page": 25
+  },
+  {
+    "concept": "Social Justice",
+    "fact": "The idea of social justice requires equal treatment supplemented with the principle of proportionality. It also necessitates due and equal consideration for all individuals. Furthermore, it involves equality of treatment transcended to recognize special needs.",
+    "source_pdf": "CAPF_CSE_Papers\\QP-CAPF-20-Gen_Ability_Intelligence.pdf",
+    "source_page": 25
+  },
+  {
+    "concept": "Attorney-General of India",
+    "fact": "The Attorney-General of India holds office during the pleasure of the President. Their remuneration is determined by the President. They enjoy the right of audience only in the Supreme Court and High Courts in India. The person must be qualified to be appointed as a judge of the Supreme Court.",
+    "source_pdf": "CAPF_CSE_Papers\\QP-CAPF-20-Gen_Ability_Intelligence.pdf",
+    "source_page": 25
+  },
+  {
+    "concept": "Panchayats",
+    "fact": "States have the power to devolve powers to Panchayats. This devolution can be in the preparation of plans for economic development and social justice, and in the implementation of schemes for economic development and social justice. The Parliament does not exclusively endow Panchayats with powers and authority; states play a significant role.",
+    "source_pdf": "CAPF_CSE_Papers\\QP-CAPF-20-Gen_Ability_Intelligence.pdf",
+    "source_page": 25
+  },
+  {
+    "concept": "Concurrent List (Indian Constitution)",
+    "explanation": "The Concurrent List is one of the three lists (Union List, State List, Concurrent List) provided in the Seventh Schedule of the Indian Constitution, defining the distribution of legislative powers between the Union and State governments. It contains subjects on which both the Parliament and the State Legislatures have the power to make laws. In case of a conflict between a central law and a state law on a subject in the Concurrent List, the central law generally prevails, provided the central law was enacted after the state law and the state law has not received presidential assent after being reserved for consideration (Article 254).",
+    "subject": "Indian Polity",
+    "chapter": "Union and State Relations",
+    "topic": "Legislative Relations, Seventh Schedule",
+    "source_pdf": "CAPF_CSE_Papers\\QP-CAPF-20-Gen_Ability_Intelligence.pdf",
+    "source_page": 29
+  },
+  {
+    "concept": "State List (Indian Constitution) and Parliament's Legislative Power",
+    "explanation": "The State List is one of the three lists in the Seventh Schedule of the Indian Constitution. It enumerates subjects on which only the State Legislatures ordinarily have the power to make laws. However, the Constitution provides for certain extraordinary circumstances under which the Parliament can legislate on subjects enumerated in the State List. These circumstances include:\n1.  **National Interest (Article 249):** If the Rajya Sabha passes a resolution by a two-thirds majority of members present and voting, declaring that it is necessary or expedient in the national interest for Parliament to legislate on a State List subject. Such a law remains in force for one year and can be extended.\n2.  **National Emergency (Article 250):** During a Proclamation of National Emergency, Parliament can make laws on any subject in the State List. These laws cease to have effect six months after the emergency ceases to operate.\n3.  **Agreement between States (Article 252):** If two or more states agree that Parliament should legislate on a particular State List subject for those states, Parliament can enact a law. Such a law applies only to the consenting states and can be adopted by other states later.\n4.  **Implementing International Treaties (Article 253):** Parliament can make laws on any subject (including those in the State List) to implement international treaties, agreements, or conventions.\n5.  **President's Rule (Article 356):** When President's Rule is imposed in a state, Parliament is empowered to make laws for that state.",
+    "subject": "Indian Polity",
+    "chapter": "Union and State Relations",
+    "topic": "Legislative Relations, Seventh Schedule, Parliament's power over State List",
+    "source_pdf": "CAPF_CSE_Papers\\QP-CAPF-20-Gen_Ability_Intelligence.pdf",
+    "source_page": 29
+  },
+  {
+    "concept": "Ordinance Making Power of the President (India)",
+    "explanation": "Article 123 of the Indian Constitution grants the President the power to promulgate ordinances. This is a legislative power exercised when both Houses of Parliament (or either House) are not in session, and the President is satisfied that circumstances exist which render it necessary for him to take immediate action. An ordinance has the same force and effect as an Act of Parliament. However, it is temporary in nature and must be laid before both Houses of Parliament when they reassemble. It ceases to operate at the expiration of six weeks from the reassembly of Parliament, or if before the expiration of that period, resolutions disapproving it are passed by both Houses. The President can also withdraw an ordinance at any time.",
+    "subject": "Indian Polity",
+    "chapter": "The Union Executive",
+    "topic": "President's Legislative Powers, Article 123",
+    "source_pdf": "CAPF_CSE_Papers\\QP-CAPF-20-Gen_Ability_Intelligence.pdf",
+    "source_page": 29
+  },
+  {
+    "concept": "Shifting Cultivation (Global Regional Names)",
+    "explanation": "Shifting cultivation, also known as slash-and-burn agriculture or 'Jhum' cultivation in India, is a traditional agricultural practice primarily found in tropical regions. It involves clearing a patch of forest land by cutting down vegetation and burning it. The ashes enrich the soil, which is then cultivated for a few years until its fertility declines. The cultivators then abandon the plot and move to a new area, allowing the old plot to regenerate naturally. This practice is unsustainable if the fallow period is too short due to increasing population pressure. Different regions of the world have distinct local names for this practice:\n*   **Milpa:** Mexico and Central America\n*   **Ladang:** Indonesia, Malaysia, and other parts of Southeast Asia\n*   **Rocca:** Brazil\n*   **Masole:** Zaire (Democratic Republic of Congo) and other parts of Central Africa\n*   **Jhum:** North-Eastern India\n*   **Ray:** Vietnam\n*   **Taungya:** Myanmar\n*   **Chenna:** Sri Lanka\n*   **Conuco:** Venezuela",
+    "subject": "Geography",
+    "chapter": "Human Geography",
+    "topic": "Agriculture, Traditional Farming Practices",
+    "source_pdf": "CAPF_CSE_Papers\\QP-CAPF-20-Gen_Ability_Intelligence.pdf",
+    "source_page": 29
   }
 ]

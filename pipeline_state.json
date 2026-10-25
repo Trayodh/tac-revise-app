@@ -7331,9 +7331,10 @@
       48,
       4,
       15,
-      38
+      38,
+      40
     ],
-    "status": "in_progress"
+    "status": "completed"
   },
   "assets\\geography\\Environment\\Geographical_Distribution_of_Major_Forest_Types_in.pdf": {
     "total_pages": 1,
@@ -7525,9 +7526,14 @@
       45,
       46,
       47,
-      48
+      48,
+      3,
+      5,
+      25,
+      29,
+      35
     ],
-    "status": "in_progress"
+    "status": "completed"
   },
   "CAPF_CSE_Papers\\QP-CAPF-22-GAI-080822.pdf": {
     "total_pages": 48,
@@ -7561,7 +7567,16 @@
       28,
       29,
       30,
-      31
+      31,
+      19,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
     ],
     "status": "in_progress"
   },
@@ -8265,9 +8280,10 @@
       41,
       42,
       43,
-      44
+      44,
+      39
     ],
-    "status": "in_progress"
+    "status": "completed"
   },
   "scratch\\pdf_downloads\\gat_syllabus\\QP-NDA-II-22-GENERAL-ABILITY-TEST-050922.pdf": {
     "total_pages": 48,

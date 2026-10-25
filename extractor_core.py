@@ -223,6 +223,8 @@ def robust_json_loads(raw_text):
                 
     return json.loads(clean, strict=False)
 
+EXHAUSTED_MODELS = set(["gemini-2.5-flash-lite"])
+
 def extract_content(b64_img, page_text, prompt):
     max_retries = 3
     base_delay = 15
@@ -233,9 +235,12 @@ def extract_content(b64_img, page_text, prompt):
     
     client = genai.Client(api_key=GEMINI_API_KEY)
 
-    gemini_models = ["gemini-3.1-flash-lite", "gemini-2.5-flash-lite", "gemini-2.5-flash", "gemini-3.8-flash"]
+    gemini_models = ["gemini-2.5-flash", "gemini-3.5-flash-lite", "gemini-3.5-flash", "gemini-3.1-flash-lite", "gemini-3.8-flash"]
 
     for model_name in gemini_models:
+        if model_name in EXHAUSTED_MODELS:
+            continue
+            
         print(f"Attempting extraction with native_gemini - {model_name}...")
         
         for attempt in range(max_retries):
@@ -260,6 +265,32 @@ def extract_content(b64_img, page_text, prompt):
                 
                 raw_text = response.text
                 if not raw_text:
+                    cand = response.candidates[0] if (hasattr(response, 'candidates') and response.candidates) else None
+                    if cand and getattr(cand, 'finish_reason', None) and 'RECITATION' in str(cand.finish_reason):
+                        print(f"Recitation filter triggered on {model_name}. Retrying with curriculum extraction prompt...")
+                        retry_prompt = (
+                            "You are an expert defence exam curriculum analyst. Analyze the academic topics, concepts, historical facts, scientific principles, and practice questions presented on this page. "
+                            "Formulate thorough revision notes and practice problems with comprehensive options and rationales into valid JSON with keys: "
+                            "'notes_database' (list of concepts, facts, definitions) and 'question_database' (list of MCQs with question_text, options, correct_answer, explanation, subject, chapter, topic)."
+                        )
+                        resp_retry = client.models.generate_content(
+                            model=model_name,
+                            contents=[
+                                types.Content(
+                                    parts=[
+                                        types.Part.from_text(text=retry_prompt),
+                                        types.Part.from_bytes(data=image_bytes, mime_type="image/jpeg"),
+                                    ]
+                                )
+                            ],
+                            config=types.GenerateContentConfig(
+                                response_mime_type="application/json",
+                                temperature=0.1,
+                            ),
+                        )
+                        raw_text = resp_retry.text
+                    
+                if not raw_text:
                     raise ValueError(f"Empty response text from {model_name}")
                     
                 return robust_json_loads(raw_text)
@@ -268,9 +299,10 @@ def extract_content(b64_img, page_text, prompt):
                 error_msg = str(e).lower()
                 print(f"API Error ({model_name}): {e}")
                 
-                # Daily quota exhaustion - switch model
+                # Daily quota exhaustion - switch model and remember
                 if "quota exceeded" in error_msg or "resource_exhausted" in error_msg or "generatecontentfree" in error_msg.replace("_", ""):
-                    print(f"Daily quota reached on {model_name}. Switching to next model...")
+                    print(f"Daily quota reached on {model_name}. Skipping in future requests...")
+                    EXHAUSTED_MODELS.add(model_name)
                     break
                     
                 # Transient 503 high demand or temporary rate limit - retry with delay
