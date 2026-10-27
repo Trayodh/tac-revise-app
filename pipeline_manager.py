@@ -4,9 +4,9 @@ import json
 import time
 
 if hasattr(sys.stdout, 'reconfigure'):
-    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace', line_buffering=True)
 if hasattr(sys.stderr, 'reconfigure'):
-    sys.stderr.reconfigure(encoding='utf-8', errors='replace')
+    sys.stderr.reconfigure(encoding='utf-8', errors='replace', line_buffering=True)
 
 from extractor_core import extract_page
 import generate_frontend_notes

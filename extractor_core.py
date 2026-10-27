@@ -8,9 +8,9 @@ import fitz  # PyMuPDF
 from dotenv import load_dotenv
 
 if hasattr(sys.stdout, 'reconfigure'):
-    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace', line_buffering=True)
 if hasattr(sys.stderr, 'reconfigure'):
-    sys.stderr.reconfigure(encoding='utf-8', errors='replace')
+    sys.stderr.reconfigure(encoding='utf-8', errors='replace', line_buffering=True)
 
 load_dotenv()
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
@@ -235,13 +235,13 @@ def extract_content(b64_img, page_text, prompt):
     client = genai.Client(api_key=GEMINI_API_KEY)
 
     gemini_models = [
+        "gemini-2.5-flash",
+        "gemini-2.5-flash-lite",
+        "gemini-3.5-flash",
+        "gemini-3.5-flash-lite",
         "gemini-3-flash-preview",
         "gemini-3.1-flash-lite-preview",
         "gemini-3.1-flash-lite",
-        "gemini-2.5-flash-lite",
-        "gemini-3.5-flash-lite",
-        "gemini-2.5-flash",
-        "gemini-3.5-flash",
         "gemini-3.8-flash"
     ]
 
@@ -307,22 +307,26 @@ def extract_content(b64_img, page_text, prompt):
                 error_msg = str(e).lower()
                 print(f"API Error ({model_name}): {e}")
                 
-                # Daily quota exhaustion - switch model and remember
-                if "quota exceeded" in error_msg or "resource_exhausted" in error_msg or "generatecontentfree" in error_msg.replace("_", ""):
-                    print(f"Daily quota reached on {model_name}. Skipping in future requests...")
-                    EXHAUSTED_MODELS.add(model_name)
-                    break
-                    
-                # Transient 503 high demand or temporary rate limit - retry with delay
-                if any(k in error_msg for k in ["503", "unavailable", "high demand", "rate", "429"]):
+                # Check for transient per-minute rate limit vs permanent daily quota
+                is_per_minute = "per minute" in error_msg or "perminute" in error_msg
+                is_transient = any(k in error_msg for k in ["503", "unavailable", "high demand"]) or is_per_minute
+                
+                if is_transient:
                     if attempt < max_retries - 1:
-                        delay = 6 * (attempt + 1)
-                        print(f"Transient spike ({e}) on {model_name}. Retrying in {delay}s (attempt {attempt+1}/{max_retries})...")
+                        delay = 15 if is_per_minute else 6 * (attempt + 1)
+                        print(f"Transient limit/spike on {model_name}. Retrying in {delay}s (attempt {attempt+1}/{max_retries})...")
                         time.sleep(delay)
                         continue
                     else:
                         print(f"Spike persists on {model_name} after {max_retries} attempts. Switching...")
                         break
+
+                # Daily quota exhaustion - switch model and remember
+                if ("per day" in error_msg or "perday" in error_msg or "daily" in error_msg or 
+                    ("resource_exhausted" in error_msg and not is_per_minute)):
+                    print(f"Daily quota reached on {model_name}. Skipping in future requests...")
+                    EXHAUSTED_MODELS.add(model_name)
+                    break
                 
                 if "404" in error_msg or "not found" in error_msg:
                     print(f"Model {model_name} not available, switching...")
@@ -333,6 +337,57 @@ def extract_content(b64_img, page_text, prompt):
                     time.sleep(5)
                     continue
                 break
+
+    # Multimodal Vision Fallback: OpenRouter Nemotron VL
+    or_key = os.environ.get("OPENROUTER_API_KEY")
+    if or_key and b64_img:
+        print("Gemini exhausted. Trying OpenRouter Multimodal Vision fallback (nvidia/nemotron-3.5-super-vl:free)...")
+        try:
+            data_url = f"data:image/jpeg;base64,{b64_img}"
+            vl_prompt = (
+                "You are an expert exam content extractor for NDA, CDS, AFCAT, CAPF.\n"
+                "Extract all educational theory notes and exam questions/MCQs from this page image with complete detail and high fidelity.\n"
+                "Output valid JSON format with top-level keys:\n"
+                "1. 'notes_database': list of note objects, each with 'subject', 'chapter', 'subchapter', 'topic', 'content'.\n"
+                "2. 'question_database': list of MCQ objects, each with 'question_text', 'options' (dict A, B, C, D), 'correct_answer', 'explanation', 'subject', 'chapter', 'topic'.\n"
+                "If the page has questions, extract every single question. If theory, extract comprehensive notes. Output valid JSON only."
+            )
+            vl_payload = {
+                "model": "nvidia/nemotron-3.5-super-vl:free",
+                "messages": [
+                    {
+                        "role": "user",
+                        "content": [
+                            {"type": "text", "text": vl_prompt},
+                            {"type": "image_url", "image_url": {"url": data_url}}
+                        ]
+                    }
+                ],
+                "temperature": 0.1,
+                "max_tokens": 2500
+            }
+            resp_vl = requests.post(
+                "https://openrouter.ai/api/v1/chat/completions",
+                headers={"Authorization": f"Bearer {or_key}", "Content-Type": "application/json"},
+                json=vl_payload,
+                timeout=60
+            )
+            if resp_vl.status_code == 200:
+                msg = resp_vl.json().get("choices", [{}])[0].get("message", {})
+                raw_text = (
+                    msg.get("content") or 
+                    msg.get("reasoning") or 
+                    (msg.get("reasoning_details") and msg["reasoning_details"][0].get("text")) or 
+                    ""
+                ).strip()
+                if raw_text:
+                    parsed = robust_json_loads(raw_text)
+                    if parsed:
+                        return parsed
+            else:
+                print(f"OpenRouter Vision returned code {resp_vl.status_code}: {resp_vl.text[:120]}")
+        except Exception as e:
+            print(f"OpenRouter Vision fallback error: {e}")
 
     # Fallback: Groq or OpenRouter with text
     safe_page_text = (page_text or "")[:1800]
@@ -391,14 +446,13 @@ def extract_content(b64_img, page_text, prompt):
                     break
 
     print("Groq exhausted. Trying OpenRouter fallback with text...")
-    or_key = os.environ.get("OPENROUTER_API_KEY")
     if or_key and page_text and len(page_text.strip()) > 30:
         or_models = [
-            "minimax/minimax-m3.1-flash:free",
-            "google/gemma-4-26b-a4b-it:free",
-            "nvidia/nemotron-3.5-super-vl:free",
             "nvidia/nemotron-3.5-lightning:free",
-            "liquid/lfm-2.5-2.6b:free"
+            "liquid/lfm-2.5-2.6b:free",
+            "poolside/laguna-s-2.1:free",
+            "dots-studio/dots-3-note-preview:free",
+            "cohere/north-mini-code:free"
         ]
         url = "https://openrouter.ai/api/v1/chat/completions"
         headers = {"Authorization": f"Bearer {or_key}", "Content-Type": "application/json"}
