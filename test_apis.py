@@ -1,29 +1,63 @@
-import requests, os
+import os
 from dotenv import load_dotenv
+import requests
+
 load_dotenv()
 
-print("Cerebras models:")
-url2 = "https://api.cerebras.ai/v1/models"
-headers2 = {"Authorization": f"Bearer {os.environ.get('CEREBRAS_API_KEY')}"}
-res2 = requests.get(url2, headers=headers2)
-try:
-    print([m['id'] for m in res2.json().get('data', [])])
-except:
-    print(res2.text)
+groq_key = os.environ.get("GROQ_API_KEY")
+gemini_key = os.environ.get("GEMINI_API_KEY")
+openrouter_key = os.environ.get("OPENROUTER_API_KEY")
 
-print("\nGroq models:")
-url3 = "https://api.groq.com/openai/v1/models"
-headers3 = {"Authorization": f"Bearer {os.environ.get('GROQ_API_KEY')}"}
-res3 = requests.get(url3, headers=headers3)
-try:
-    print([m['id'] for m in res3.json().get('data', [])])
-except:
-    print(res3.text)
+print("--- TESTING APIS ---")
 
-print("\nOpenRouter models:")
-url4 = "https://openrouter.ai/api/v1/models"
-res4 = requests.get(url4)
-try:
-    print([m['id'] for m in res4.json().get('data', []) if 'free' in m['id']])
-except:
-    print(res4.text)
+# 1. Test Groq
+if groq_key:
+    try:
+        r = requests.post(
+            "https://api.groq.com/openai/v1/chat/completions",
+            headers={"Authorization": f"Bearer {groq_key}", "Content-Type": "application/json"},
+            json={
+                "model": "llama-3.3-70b-versatile",
+                "messages": [{"role": "user", "content": "Reply with 'GROQ_OK'"}],
+                "max_tokens": 10
+            },
+            timeout=10
+        )
+        print("Groq status:", r.status_code, r.json().get('choices', [{}])[0].get('message', {}).get('content', ''))
+    except Exception as e:
+        print("Groq failed:", e)
+
+# 2. Test Gemini
+if gemini_key:
+    try:
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={gemini_key}"
+        r = requests.post(
+            url,
+            headers={"Content-Type": "application/json"},
+            json={"contents": [{"parts": [{"text": "Reply with 'GEMINI_OK'"}]}]},
+            timeout=10
+        )
+        print("Gemini status:", r.status_code)
+        if r.status_code == 200:
+            print("Gemini response:", r.json()['candidates'][0]['content']['parts'][0]['text'].strip())
+        else:
+            print("Gemini error:", r.text[:200])
+    except Exception as e:
+        print("Gemini failed:", e)
+
+# 3. Test OpenRouter
+if openrouter_key:
+    try:
+        r = requests.post(
+            "https://openrouter.ai/api/v1/chat/completions",
+            headers={"Authorization": f"Bearer {openrouter_key}", "Content-Type": "application/json"},
+            json={
+                "model": "meta-llama/llama-3.3-70b-instruct:free",
+                "messages": [{"role": "user", "content": "Reply with 'OPENROUTER_OK'"}],
+                "max_tokens": 10
+            },
+            timeout=10
+        )
+        print("OpenRouter status:", r.status_code, r.text[:200])
+    except Exception as e:
+        print("OpenRouter failed:", e)
