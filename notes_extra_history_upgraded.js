@@ -1,4 +1,5 @@
 window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};
+var EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA;
 
 EXPANDED_NOTES_DATA["what-is-history"] = `
 <!DOCTYPE html>

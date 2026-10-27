@@ -1,4 +1,5 @@
 window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};
+var EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA;
 
 window.EXPANDED_NOTES_DATA["trig-identities"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">

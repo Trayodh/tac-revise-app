@@ -1,29 +1,14 @@
 import json
-import sys
-
-sys.stdout.reconfigure(encoding='utf-8')
 
 with open('notes_database.json', 'r', encoding='utf-8') as f:
     notes = json.load(f)
 
-targets = ['Indian Polity', 'History', 'Physics', 'Geography', 'Mathematics', 'Biology', 'Defence', 'English']
-printed = set()
-
-print(f"Total notes inspected: {len(notes)}")
-for n in notes:
-    subj = n.get('subject', '')
-    if subj in targets and subj not in printed:
-        topic = n.get('topic') or n.get('title') or 'Untitled'
-        src = n.get('source_book', 'Unknown')
-        pg = n.get('page', '?')
-        content = n.get('content') or n.get('notes') or ''
-        
-        print(f"\n==================================================")
-        print(f"SUBJECT: {subj.upper()} | TOPIC: {topic}")
-        print(f"SOURCE: {src} (Page {pg})")
-        print(f"LENGTH: {len(content.split())} words")
-        print(f"--------------------------------------------------")
-        print(content.strip()[:600])
-        print("==================================================")
-        printed.add(subj)
-
+for i in [0, 100, 500, 1000, 2000, 5000, 10000, 15000]:
+    if i < len(notes):
+        n = notes[i]
+        print(f"--- Note #{i} ---")
+        print(f"Subject: {n.get('subject')} | Chapter: {n.get('chapter')} | Topic: {n.get('topic')}")
+        print(f"Source: {n.get('source_pdf') or n.get('source_book')} | Page: {n.get('source_page') or n.get('page')}")
+        text = n.get('text') or n.get('content') or ''
+        print(f"Text preview (120 chars): {text[:120].replace(chr(10), ' ')}")
+        print()
