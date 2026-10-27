@@ -62,13 +62,12 @@ def convert_markdown_tables_to_html(text):
         
     return '\n'.join(output)
 
-# Test with a sample markdown table
-sample = """
+if __name__ == '__main__':
+    sample = """
 ### Sample Topic
 | Schedule | Mnemonic | Subject |
 | :--- | :---: | :--- |
 | **1st** | **T** | Names of States |
 | **2nd** | **E** | Emoluments and Salaries |
 """
-
-print(convert_markdown_tables_to_html(sample))
+    print(convert_markdown_tables_to_html(sample))
