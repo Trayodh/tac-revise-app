@@ -1167,7 +1167,25 @@ document.querySelectorAll(".nav-item").forEach(item => {
 
     const screenId = item.getAttribute("data-screen");
 
-    window.location.hash = screenId;
+    if (!screenId) return;
+
+    if (window.location.hash === '#' + screenId) {
+
+      if (typeof window.handleRoute === 'function') {
+
+        window.handleRoute();
+
+      } else {
+
+        switchScreen(screenId);
+
+      }
+
+    } else {
+
+      window.location.hash = screenId;
+
+    }
 
   });
 
@@ -2239,7 +2257,17 @@ function renderNotesBrowser() {
 
           e.preventDefault();
 
-          window.location.hash = `notes/${subjectId}/${chapter.id}/${topic.id}`;
+          const targetHash = `notes/${subjectId}/${chapter.id}/${topic.id}`;
+
+          if (window.location.hash === '#' + targetHash) {
+
+            if (typeof window.handleRoute === 'function') window.handleRoute();
+
+          } else {
+
+            window.location.hash = targetHash;
+
+          }
 
         });
 
@@ -9015,7 +9043,23 @@ document.addEventListener("DOMContentLoaded", () => {
 
   initMotivationOfTheDay();
 
-  switchScreen("dashboard");
+  if (window.location.hash && window.location.hash !== '#' && window.location.hash !== '#dashboard') {
+
+    if (typeof window.handleRoute === 'function') {
+
+      window.handleRoute();
+
+    } else {
+
+      switchScreen("dashboard");
+
+    }
+
+  } else {
+
+    switchScreen("dashboard");
+
+  }
 
   initAiPaperSolver();
 
@@ -10554,6 +10598,7 @@ function initMotivationOfTheDay() {
     "9-8":  { name: "Air Force Day", keyword: "Air Force" },
     "9-16": { name: "NSG Raising Day", keyword: "NSG" },
     "9-24": { name: "ITBP Raising Day", keyword: "ITBP" },
+    "9-27": { name: "Infantry Day", keyword: "Infantry" },
     "10-26": { name: "26/11 Mumbai Attacks Remembrance", keyword: "Mumbai" },
     "11-1": { name: "BSF Raising Day", keyword: "BSF" },
     "11-4": { name: "Navy Day", keyword: "Navy" },

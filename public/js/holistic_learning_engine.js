@@ -48,11 +48,12 @@ class HolisticLearningEngine {
 
         this.trackTopicInteraction(topicId, topicTitle);
 
+        const safeSnippet = typeof topicContent === 'string' ? topicContent.substring(0, 500) : (topicContent ? String(topicContent).substring(0, 500) : '');
         const prompt = `You are an expert AI Education Architect, Knowledge Graph Engineer, and Defence Examination (NDA/CDS/AFCAT) Mentor.
 Transform the following topic into a holistic learning experience. 
 
 Topic: ${topicTitle}
-Content Snippet: ${topicContent.substring(0, 500)}...
+Content Snippet: ${safeSnippet}...
 
 Output your response EXACTLY in the following sections with the exact headers. 
 

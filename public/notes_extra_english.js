@@ -1,6 +1,7 @@
 window.EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA || {};
+var EXPANDED_NOTES_DATA = window.EXPANDED_NOTES_DATA;
 
-window.EXPANDED_NOTES_DATA["english-parts-of-speech"] = `
+window.EXPANDED_NOTES_DATA["parts-of-speech"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Parts of Speech</h3>
 
@@ -80,7 +81,7 @@ window.EXPANDED_NOTES_DATA["english-parts-of-speech"] = `
         <td style="padding:10px; border:1px solid rgba(255,255,255
 `;
 
-window.EXPANDED_NOTES_DATA["english-tenses"] = `
+window.EXPANDED_NOTES_DATA["tenses-complete"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Tenses & Consistency</h3>
 
@@ -165,7 +166,7 @@ window.EXPANDED_NOTES_DATA["english-tenses"] = `
         <li><span style="color:#4ade80;">Examples:</span
 `;
 
-window.EXPANDED_NOTES_DATA["english-subject-verb-agreement"] = `
+window.EXPANDED_NOTES_DATA["subject-verb-agreement"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Subject-Verb Agreement</h3>
 
@@ -444,7 +445,7 @@ window.EXPANDED_NOTES_DATA["english-subject-verb-agreement"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["english-sentence-structure"] = `
+window.EXPANDED_NOTES_DATA["sentence-structure"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Sentence Structure & Parallelism</h3>
 
@@ -656,7 +657,7 @@ window.EXPANDED_NOTES_DATA["english-sentence-structure"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["mathematics-decimal-binary-conversion"] = `
+window.EXPANDED_NOTES_DATA["voice-conversion"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Active & Passive Voice</h3>
 
@@ -894,7 +895,7 @@ window.EXPANDED_NOTES_DATA["mathematics-decimal-binary-conversion"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["english-parts-of-speech"] = `
+window.EXPANDED_NOTES_DATA["narration-speech"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Direct & Indirect Speech</h3>
 
@@ -1252,7 +1253,7 @@ window.EXPANDED_NOTES_DATA["english-parts-of-speech"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["chemistry-fertilizers"] = `
+window.EXPANDED_NOTES_DATA["modifiers"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Modifiers: Misplaced & Dangling</h3>
 
@@ -1533,7 +1534,7 @@ window.EXPANDED_NOTES_DATA["chemistry-fertilizers"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["biology-genetics-basics"] = `
+window.EXPANDED_NOTES_DATA["punctuation-basics"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Punctuation Basics</h3>
 
@@ -1964,7 +1965,7 @@ window.EXPANDED_NOTES_DATA["biology-genetics-basics"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["english-ordering-of-sentences"] = `
+window.EXPANDED_NOTES_DATA["transformation-sentences"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Transformation of Sentences</h3>
 
@@ -2267,7 +2268,7 @@ window.EXPANDED_NOTES_DATA["english-ordering-of-sentences"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["english-synonyms"] = `
+window.EXPANDED_NOTES_DATA["synonyms-antonyms-detailed"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">High-Frequency Synonyms/Antonyms</h3>
 
@@ -2419,7 +2420,7 @@ window.EXPANDED_NOTES_DATA["english-synonyms"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["english-one-word-substitution"] = `
+window.EXPANDED_NOTES_DATA["one-word-substitution"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">One Word Substitutions</h3>
 
@@ -2670,7 +2671,7 @@ window.EXPANDED_NOTES_DATA["english-one-word-substitution"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["english-idioms-and-phrases"] = `
+window.EXPANDED_NOTES_DATA["idioms-phrases"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Idioms & Phrases</h3>
 
@@ -2833,7 +2834,7 @@ window.EXPANDED_NOTES_DATA["english-idioms-and-phrases"] = `
 </div>
 `;
 
-window.EXPANDED_NOTES_DATA["english-verbs"] = `
+window.EXPANDED_NOTES_DATA["phrasal-verbs"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Phrasal Verbs</h3>
 
@@ -2897,7 +2898,7 @@ window.EXPANDED_NOTES_DATA["english-verbs"] = `
     <li style="margin-bottom: 8px;"><b>[[Inseparable Phrasal Verbs]]:</b> With
 `;
 
-window.EXPANDED_NOTES_DATA["english-reading-comprehension"] = `
+window.EXPANDED_NOTES_DATA["reading-comprehension"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Reading Comprehension</h3>
 
@@ -2968,7 +2969,7 @@ window.EXPANDED_NOTES_DATA["english-reading-comprehension"] = `
   <h5 style="color: #fbbf24; margin-top: 15px; margin-bottom: 8px; font-weight:
 `;
 
-window.EXPANDED_NOTES_DATA["english-error-detection"] = `
+window.EXPANDED_NOTES_DATA["error-detection"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Spotting Errors</h3>
 
@@ -3046,7 +3047,7 @@ window.EXPANDED_NOTES_DATA["english-error-detection"] = `
       <br/><span style="font-style: italic;">Example (Present Perfect):</span> I <span style="color: #4ade80;">
 `;
 
-window.EXPANDED_NOTES_DATA["english-sentence-improvement"] = `
+window.EXPANDED_NOTES_DATA["sentence-improvement"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Sentence Improvement</h3>
 
@@ -3119,7 +3120,7 @@ window.EXPANDED_NOTES_DATA["english-sentence-improvement"] = `
         <td style="border:1px solid rgba(255,255,255,0.1); padding:8px;">Ensure pronouns agree in number and gender with their antecedents: “Every student must submit <em>his or her</em> assignment.” (Or rephrase to plural: "All students must submit <em>their</em>
 `;
 
-window.EXPANDED_NOTES_DATA["english-ordering-of-sentences"] = `
+window.EXPANDED_NOTES_DATA["ordering-rearrangement"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Ordering of Words &amp; Sentences</h3>
 
@@ -3199,7 +3200,7 @@ window.EXPANDED_NOTES_DATA["english-ordering-of-sentences"] = `
     <li><strong>Cause and
 `;
 
-window.EXPANDED_NOTES_DATA["english-fill-in-the-blanks"] = `
+window.EXPANDED_NOTES_DATA["fill-blanks-cloze"] = `
 <div class="revision-card" style="background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   <h3 style="color: #4ade80; margin-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; font-weight: 600;">Fill in the Blanks & Cloze Test</h3>
 

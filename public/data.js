@@ -86,7 +86,7 @@ let MILITARY_EXERCISES_LIVE = {
         "Bilateral Exercise"
       ],
       "confidence_score": "98%",
-      "last_verified": "2026-10-12"
+      "last_verified": "2026-10-18"
     },
     {
       "id": "me_20261011_konkan26",
@@ -260,7 +260,7 @@ let MILITARY_EXERCISES_LIVE = {
         "Bilateral Exercise"
       ],
       "confidence_score": "99%",
-      "last_verified": "2026-10-12"
+      "last_verified": "2026-10-17"
     },
     {
       "id": "me_20261011_tarangshakti",
@@ -835,6 +835,265 @@ let MILITARY_EXERCISES_LIVE = {
       ],
       "confidence_score": "98%",
       "last_verified": "2026-10-12"
+    },
+    {
+      "id": "me_20261019_austrahind26",
+      "title": "India-Australia Joint Military Exercise AUSTRAHIND 2026",
+      "type": "Bilateral Exercise",
+      "exercise_name": "AUSTRAHIND",
+      "edition": "5th",
+      "status": "Ongoing",
+      "start_date": "2026-10-19",
+      "end_date": "",
+      "duration": "",
+      "year": "2026",
+      "tier": 1,
+      "relevance": "High",
+      "participant_nations": [
+        "India",
+        "Australia",
+        "New Zealand (Observer)"
+      ],
+      "indian_service": [
+        "Indian Army"
+      ],
+      "foreign_services": [
+        "Australian Army",
+        "New Zealand Army (Observer)"
+      ],
+      "location": {
+        "city": "Thiruvananthapuram",
+        "state": "Kerala",
+        "country": "India",
+        "region": "South Asia",
+        "coordinates": ""
+      },
+      "exercise_domain": [
+        "Land",
+        "Jungle Warfare",
+        "Island Warfare",
+        "Coastal Terrain",
+        "Counter-terrorism"
+      ],
+      "equipment_used": {
+        "india": [],
+        "foreign": []
+      },
+      "key_platforms": [],
+      "ships": [],
+      "submarines": [],
+      "aircraft": [],
+      "helicopters": [],
+      "uavs": [],
+      "armoured_vehicles": [],
+      "artillery": [],
+      "missiles": [],
+      "special_forces": [],
+      "objectives": [
+        "Enhance interoperability and mutual understanding between Indian and Australian armies",
+        "Share best practices in jungle, island, and coastal terrain operations",
+        "Strengthen defence cooperation in the Indo-Pacific region"
+      ],
+      "activities": [
+        "Joint tactical drills",
+        "Combat exercises in diverse terrains",
+        "Professional exchanges"
+      ],
+      "strategic_significance": "AUSTRAHIND 2026 reinforces the growing strategic partnership between India and Australia, crucial for a free, open, and inclusive Indo-Pacific. The focus on complex terrains like jungle, island, and coastal areas is vital for addressing contemporary security challenges and enhancing the capabilities of both armies to operate effectively in the region. New Zealand's participation as an observer further broadens regional security engagement.",
+      "takeaways": [
+        "Improved tactical coordination and interoperability in challenging environments.",
+        "Enhanced understanding of each other's operational doctrines.",
+        "Strengthened bilateral defence ties and regional security cooperation."
+      ],
+      "exam_importance": "Questions may include: AUSTRAHIND 2026 is a joint military exercise between which countries? Which edition of AUSTRAHIND was conducted? Where was the exercise held? Which country joined as an observer?",
+      "related_static_topics": [
+        "India-Australia Defence Relations",
+        "Indo-Pacific Strategy",
+        "Jungle Warfare",
+        "Coastal Security",
+        "Defence Diplomacy"
+      ],
+      "keywords": [
+        "AUSTRAHIND",
+        "India-Australia",
+        "Army Exercise",
+        "Thiruvananthapuram",
+        "Kerala",
+        "Jungle Warfare",
+        "Indo-Pacific",
+        "Bilateral Exercise",
+        "New Zealand"
+      ],
+      "confidence_score": "99%",
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "me_20261021_simbex26",
+      "title": "Singapore-India Maritime Bilateral Exercise SIMBEX-2026",
+      "type": "Bilateral Exercise",
+      "exercise_name": "SIMBEX",
+      "edition": "33rd",
+      "status": "Ongoing",
+      "start_date": "2026-10-21",
+      "end_date": "",
+      "duration": "",
+      "year": "2026",
+      "tier": 1,
+      "relevance": "High",
+      "participant_nations": [
+        "India",
+        "Singapore"
+      ],
+      "indian_service": [
+        "Indian Navy"
+      ],
+      "foreign_services": [
+        "Republic of Singapore Navy"
+      ],
+      "location": {
+        "city": "Visakhapatnam",
+        "state": "Andhra Pradesh",
+        "country": "India",
+        "region": "South Asia",
+        "coordinates": ""
+      },
+      "exercise_domain": [
+        "Maritime"
+      ],
+      "equipment_used": {
+        "india": [],
+        "foreign": []
+      },
+      "key_platforms": [],
+      "ships": [],
+      "submarines": [],
+      "aircraft": [],
+      "helicopters": [],
+      "uavs": [],
+      "armoured_vehicles": [],
+      "artillery": [],
+      "missiles": [],
+      "special_forces": [],
+      "objectives": [
+        "Enhance interoperability and mutual understanding between the Indian Navy and Republic of Singapore Navy",
+        "Strengthen maritime cooperation and security in the Indo-Pacific",
+        "Conduct complex naval operations and professional exchanges"
+      ],
+      "activities": [
+        "Harbour phase (planning conferences, professional interactions, sports fixtures)",
+        "Sea phase (advanced air defence exercises, anti-surface warfare drills, weapon firings, tactical manoeuvres, maritime security operations)"
+      ],
+      "strategic_significance": "SIMBEX-2026 underscores the robust and long-standing maritime partnership between India and Singapore, key pillars of India's 'Act East' policy. This exercise enhances the operational readiness and interoperability of both navies, contributing significantly to regional maritime security and stability in the Indo-Pacific, especially in addressing common challenges and promoting a rules-based international order.",
+      "takeaways": [
+        "Improved coordination and communication in joint naval operations.",
+        "Enhanced capabilities in various facets of maritime warfare.",
+        "Strengthened bilateral defence ties and trust with a crucial ASEAN partner."
+      ],
+      "exam_importance": "Questions may include: SIMBEX-2026 is a bilateral maritime exercise between which two countries? Which edition of SIMBEX was conducted? Where did SIMBEX-2026 commence?",
+      "related_static_topics": [
+        "India-Singapore Defence Relations",
+        "Act East Policy",
+        "Maritime Security",
+        "Indian Ocean Region Security",
+        "Naval Diplomacy"
+      ],
+      "keywords": [
+        "SIMBEX",
+        "India-Singapore",
+        "Naval Exercise",
+        "Visakhapatnam",
+        "Maritime Security",
+        "Bilateral Exercise",
+        "Indo-Pacific"
+      ],
+      "confidence_score": "99%",
+      "last_verified": "2026-10-22"
+    },
+    {
+      "id": "me_20261022_ibsamar_ix_26",
+      "title": "India-Brazil-South Africa Maritime Exercise IBSAMAR IX 2026",
+      "type": "Multilateral Exercise",
+      "exercise_name": "IBSAMAR",
+      "edition": "IX",
+      "status": "Completed",
+      "start_date": "",
+      "end_date": "2026-10-22",
+      "duration": "",
+      "year": "2026",
+      "tier": 1,
+      "relevance": "High",
+      "participant_nations": [
+        "India",
+        "Brazil",
+        "South Africa"
+      ],
+      "indian_service": [
+        "Indian Navy"
+      ],
+      "foreign_services": [
+        "Brazilian Navy",
+        "South African Navy"
+      ],
+      "location": {
+        "city": "",
+        "state": "",
+        "country": "South Africa",
+        "region": "Southern Africa",
+        "coordinates": ""
+      },
+      "exercise_domain": [
+        "Maritime",
+        "Naval Cooperation"
+      ],
+      "equipment_used": {
+        "india": [],
+        "foreign": []
+      },
+      "key_platforms": [],
+      "ships": [],
+      "submarines": [],
+      "aircraft": [],
+      "helicopters": [],
+      "uavs": [],
+      "armoured_vehicles": [],
+      "artillery": [],
+      "missiles": [],
+      "special_forces": [],
+      "objectives": [
+        "Strengthen maritime cooperation among IBSA nations",
+        "Enhance interoperability in naval operations",
+        "Share best practices and foster mutual understanding"
+      ],
+      "activities": [
+        "Joint naval drills",
+        "Professional exchanges",
+        "Maritime security operations"
+      ],
+      "strategic_significance": "IBSAMAR IX strengthens the trilateral defence cooperation between India, Brazil, and South Africa, reflecting their shared commitment to maritime security in the Indian Ocean and South Atlantic regions. This exercise enhances the collective capability to address common maritime challenges, promotes defence diplomacy, and reinforces the strategic importance of the IBSA forum.",
+      "takeaways": [
+        "Improved coordination and understanding among the three navies.",
+        "Enhanced capabilities for joint maritime operations.",
+        "Reinforced trilateral defence relations and regional influence."
+      ],
+      "exam_importance": "Questions may include: IBSAMAR IX is a multilateral naval exercise involving which countries? Where was IBSAMAR IX 2026 concluded? What is the significance of the IBSA forum in defence cooperation?",
+      "related_static_topics": [
+        "IBSA Dialogue Forum",
+        "India-Brazil-South Africa Relations",
+        "Maritime Security",
+        "Naval Diplomacy",
+        "Indian Ocean Region"
+      ],
+      "keywords": [
+        "IBSAMAR",
+        "India",
+        "Brazil",
+        "South Africa",
+        "Naval Exercise",
+        "Multilateral Exercise",
+        "Maritime Cooperation"
+      ],
+      "confidence_score": "98%",
+      "last_verified": "2026-10-22"
     }
   ]
 };

@@ -31,7 +31,22 @@ const filesToCopy = [
   'notifications_bundle.js',
   'lecture_mode.js',
   'sw.js',
-  'extra_bank_data.js'
+  'extra_bank_data.js',
+  'notes_data.js',
+  'notes_data_exam_focused.js',
+  'diagram_mappings.js',
+  'diagrams_db.js',
+  'questions_data.js',
+  'current_affairs_db.js',
+  'military_exercises_db.js',
+  'operations_db.js',
+  'equipment_db.js',
+  'equipment_engine.js',
+  'ai_generated_notes.js',
+  'inject_ai_notes.js',
+  'inject_targeted_notes.js',
+  'exam_focus_injector.js',
+  'ca_db_extracted.json'
 ];
 
 const patternsToCopy = [
