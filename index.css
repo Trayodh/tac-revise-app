@@ -925,7 +925,7 @@ h2 {
   text-align: left;
   font-family: var(--font-main);
 }
-.expanded-notes-content body { display: none; } /* Hide hardcoded bodies */
+.expanded-notes-content body { display: block !important; background: transparent !important; margin: 0; padding: 0; }
 
 /* Chapter Headings (H2) */
 .expanded-notes-content h2 {
@@ -4656,7 +4656,7 @@ body.sidebar-open .sidebar-overlay {
 
 /* Fix long unbroken URLs from stretching containers */
 a, p, span, div, li, td {
-  overflow-wrap: anywhere;
+  overflow-wrap: break-word;
   word-wrap: break-word;
 }
 

@@ -2,26 +2,62 @@
 
 // Dependencies: data.js (which contains NOTES_DATABASE, window.CURRENT_AFFAIRS_DB, etc.)
 
-// Fuzzy lookup for EXPANDED_NOTES_DATA — handles elite_ topic ID mismatches
-function lookupExpandedNotes(topicId) {
-  if (typeof window.EXPANDED_NOTES_DATA === 'undefined') return null;
-  // Try exact match first
-  if (window.EXPANDED_NOTES_DATA[topicId]) return window.EXPANDED_NOTES_DATA[topicId];
-  // For elite_ IDs like 'elite_Mathematics_Number_System.md', extract the topic name part
-  if (topicId && topicId.startsWith('elite_')) {
-    // Remove 'elite_Subject_' prefix and '.md' suffix to get e.g. 'Number_System'
-    const parts = topicId.replace(/\.md$/i, '').split('_');
-    // parts: ['elite', 'Mathematics', 'Number', 'System'] — skip first two
-    const topicName = parts.slice(2).join('_').toLowerCase();
-    if (topicName) {
-      for (const key of Object.keys(window.EXPANDED_NOTES_DATA)) {
-        // Keys look like '3_Number_System' — extract after first underscore
-        const keyParts = key.split('_');
-        const keyName = keyParts.slice(1).join('_').toLowerCase();
-        if (keyName === topicName) return window.EXPANDED_NOTES_DATA[key];
+// Comprehensive lookup for EXPANDED_NOTES_DATA and AI_GENERATED_NOTES
+function lookupExpandedNotes(topicId, chapterId) {
+  const exp = typeof window !== 'undefined' ? window.EXPANDED_NOTES_DATA : (typeof EXPANDED_NOTES_DATA !== 'undefined' ? EXPANDED_NOTES_DATA : null);
+  const chId = chapterId || (typeof selectedChapterId !== 'undefined' ? selectedChapterId : null);
+  
+  if (exp) {
+    // 1. Direct topic ID match
+    if (topicId && exp[topicId]) return exp[topicId];
+    // 2. Direct chapter ID match
+    if (chId && exp[chId]) return exp[chId];
+
+    // 3. Normalized slug matching
+    const normTopic = topicId ? topicId.toLowerCase().replace(/[^a-z0-9]/g, '') : '';
+    const normCh = chId ? chId.toLowerCase().replace(/[^a-z0-9]/g, '') : '';
+    for (const key of Object.keys(exp)) {
+      const normKey = key.toLowerCase().replace(/[^a-z0-9]/g, '');
+      if (normTopic && (normKey === normTopic || normKey.includes(normTopic) || normTopic.includes(normKey))) {
+        return exp[key];
+      }
+      if (normCh && (normKey === normCh || normKey.includes(normCh) || normCh.includes(normKey))) {
+        return exp[key];
+      }
+    }
+
+    // 4. Elite topic matching
+    if (topicId && topicId.startsWith('elite_')) {
+      const parts = topicId.replace(/\.md$/i, '').split('_');
+      const topicName = parts.slice(2).join('_').toLowerCase();
+      if (topicName) {
+        for (const key of Object.keys(exp)) {
+          const keyParts = key.split('_');
+          const keyName = keyParts.slice(1).join('_').toLowerCase();
+          if (keyName === topicName) return exp[key];
+        }
       }
     }
   }
+
+  // 5. Fallback: Search in AI_GENERATED_NOTES array directly
+  const aiNotes = typeof window !== 'undefined' ? window.AI_GENERATED_NOTES : (typeof AI_GENERATED_NOTES !== 'undefined' ? AI_GENERATED_NOTES : null);
+  if (Array.isArray(aiNotes)) {
+    const item = aiNotes.find(n => n.id === topicId || (chId && n.id === chId));
+    if (item && item.notes) return item.notes;
+    
+    // Fuzzy search by title or slug
+    if (topicId || chId) {
+      const target = (chId || topicId).toLowerCase().replace(/[^a-z0-9]/g, '');
+      const matched = aiNotes.find(n => {
+        const nId = (n.id || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+        const nTitle = (n.title || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+        return nId === target || nId.includes(target) || target.includes(nId) || nTitle.includes(target);
+      });
+      if (matched && matched.notes) return matched.notes;
+    }
+  }
+
   return null;
 }
 
@@ -2374,13 +2410,23 @@ function renderTopicView(subjectId, chapterId, topicId) {
   const subject = NOTES_DATABASE ? NOTES_DATABASE[subjectId] : null;
   if (!subject) { console.error('[TAC] NOTES_DATABASE missing subject:', subjectId); return; }
 
-  const chapter = subject.chapters.find(c => c.id === chapterId);
-  if (!chapter) { console.error('[TAC] Chapter not found:', chapterId); return; }
+  let chapter = subject.chapters.find(c => c.id === chapterId);
+  if (!chapter) {
+    console.warn('[TAC] Chapter not found:', chapterId, 'Falling back to first chapter.');
+    chapter = subject.chapters[0];
+  }
+  if (!chapter) return;
 
-  const topic = chapter.topics.find(t => t.id === topicId);
+  let topic = chapter.topics.find(t => t.id === topicId);
+  if (!topic) {
+    topic = chapter.topics[0];
+  }
+  if (!topic) return;
 
-  
-  if (!topic) { console.error('[TAC] Topic not found:', topicId); return; }
+  chapterId = chapter.id;
+  topicId = topic.id;
+  selectedChapterId = chapterId;
+  selectedTopicId = topicId;
 
   
 
@@ -2493,7 +2539,7 @@ function renderTopicView(subjectId, chapterId, topicId) {
                }
             }
   
-            const expandedHtml = lookupExpandedNotes(topic.id);
+            const expandedHtml = lookupExpandedNotes(topic.id, chapter.id);
   
             if (expandedHtml) {
               const bodyMatch = expandedHtml.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
