@@ -1002,6 +1002,202 @@ let MILITARY_EXERCISES_LIVE = {
           "Indonesian Special Forces (Kopassus)"
         ]
       }
+    },
+    {
+      "tier": 1,
+      "year": 2026,
+      "date": "November 4–23, 2026",
+      "exercise_name": "VINBAX 2026",
+      "edition": "5th Edition",
+      "type": "Bilateral Bi-Service Military Exercise",
+      "participant_nations": [
+        "India",
+        "Vietnam"
+      ],
+      "exercise_domain": [
+        "Army",
+        "Air",
+        "UN Peacekeeping & HADR"
+      ],
+      "location": "Ambala & Chandimandir, Haryana, India",
+      "strategic_significance": "First-ever bi-service edition involving both Army and Air Force personnel from India and Vietnam. Focuses on deploying an Engineer Company and Medical Team under Chapter VII of the UN Charter for peacekeeping and HADR operations.",
+      "exam_importance": "Top-tier CDS/NDA/AFCAT question: 5th edition held at Ambala; first time expanded to a Bi-Service (Army + Air Force) format.",
+      "units_and_hardware": {
+        "India": [
+          "Indian Army Corps of Engineers Regiment (47 personnel)",
+          "Indian Air Force Contingent"
+        ],
+        "Vietnam": [
+          "Vietnam People's Army & Vietnam People's Air Force"
+        ]
+      }
+    },
+    {
+      "tier": 1,
+      "year": 2026,
+      "date": "November 2026",
+      "exercise_name": "AUSTRAHIND 2026",
+      "edition": "3rd Edition",
+      "type": "Bilateral Joint Military Exercise",
+      "participant_nations": [
+        "India",
+        "Australia"
+      ],
+      "exercise_domain": [
+        "Army",
+        "Air"
+      ],
+      "location": "Foreign Training Node, Aundh (Pune), Maharashtra",
+      "strategic_significance": "Enhances joint sub-conventional and counter-terrorism tactical interoperability in semi-urban and semi-desert terrain under Chapter VII of the UN Mandate between QUAD partners India and Australia.",
+      "exam_importance": "High yield for CDS/NDA: 3rd edition at Aundh, Pune; Indian contingent led by the DOGRA Regiment alongside IAF personnel.",
+      "units_and_hardware": {
+        "India": [
+          "DOGRA Regiment (140 personnel)",
+          "Indian Air Force (14 personnel)"
+        ],
+        "Australia": [
+          "1st Combat Engineer Regiment, 1st Brigade (Australian Army)"
+        ]
+      }
+    },
+    {
+      "tier": 1,
+      "year": 2026,
+      "date": "November 5, 2026",
+      "exercise_name": "MAHASAGAR (3rd Edition)",
+      "edition": "3rd Edition",
+      "type": "Multilateral Maritime Heads Interaction",
+      "participant_nations": [
+        "India",
+        "Bangladesh",
+        "Comoros",
+        "Kenya",
+        "Madagascar",
+        "Maldives",
+        "Mauritius",
+        "Mozambique",
+        "Seychelles",
+        "Sri Lanka",
+        "Tanzania"
+      ],
+      "exercise_domain": [
+        "Navy",
+        "Maritime Security"
+      ],
+      "location": "Indian Ocean Region (Hosted by Indian Navy, New Delhi)",
+      "strategic_significance": "MAHASAGAR stands for 'Maritime Heads for Active Security And Growth for All in the Region'. Hosted by CNS Admiral Dinesh K. Tripathi on the theme 'Training Cooperation to Mitigate Common Maritime Security Challenges in the IOR'.",
+      "exam_importance": "Crucial acronym and 10 IOR littoral partner nations for CDS, NDA, and CAPF.",
+      "units_and_hardware": {
+        "India": [
+          "Indian Navy",
+          "Information Fusion Centre – Indian Ocean Region (IFC-IOR, Gurugram)"
+        ]
+      }
+    },
+    {
+      "tier": 1,
+      "year": 2026,
+      "date": "November 2026",
+      "exercise_name": "ASMI 9x19mm Machine Pistol Induction",
+      "edition": "First Operational Batch (550 Units)",
+      "type": "Indigenous Infantry Weapon Induction",
+      "participant_nations": [
+        "India"
+      ],
+      "exercise_domain": [
+        "Army",
+        "Special Forces"
+      ],
+      "location": "Indian Army Northern Command",
+      "strategic_significance": "India's first indigenously designed and manufactured 9x19mm submachine gun ('Asmi' meaning Pride/Self-Respect), co-developed by DRDO's ARDE (Pune) and Lt Col Prasad Bansod and manufactured by Lokesh Machines (Hyderabad), inducted into the Northern Command.",
+      "exam_importance": "High-probability Defence Technology & Indigenisation question for CDS, NDA, and AFCAT.",
+      "units_and_hardware": {
+        "India": [
+          "DRDO (ARDE Pune)",
+          "Lokesh Machines Ltd (Hyderabad)",
+          "Indian Army Northern Command"
+        ]
+      }
+    },
+    {
+      "tier": 1,
+      "year": 2026,
+      "date": "November 10–18, 2026",
+      "exercise_name": "Poorvi Prahar",
+      "edition": "2026 High-Altitude Theatre Edition",
+      "type": "Tri-Service Integrated Combat Exercise",
+      "participant_nations": [
+        "India"
+      ],
+      "exercise_domain": [
+        "Army",
+        "Air",
+        "Navy",
+        "Tri-Service"
+      ],
+      "location": "Eastern Theatre (Forward Areas of Arunachal Pradesh along LAC)",
+      "strategic_significance": "Massive 9-day Tri-Service integrated exercise spearheaded by the Indian Army's Eastern Command across high-altitude mountain sectors of Arunachal Pradesh. Uniquely integrated Indian Navy P-8I Poseidon reconnaissance aircraft with IAF Rafale, Su-30MKI, Chinook, Prachand LCH, and Army swarm drones/loitering munitions under a common Joint Control Structure.",
+      "exam_importance": "Top-tier CDS/NDA/AFCAT question: Tri-Service high-altitude exercise in the Eastern Theatre featuring Naval P-8I overland mountain surveillance and indigenous Prachand LCH.",
+      "units_and_hardware": {
+        "India": [
+          "Indian Army Eastern Command (M777 Ultra-Light Howitzers, Swarm Drones, FPV Drones)",
+          "Indian Air Force (Rafale, Su-30MKI, LCH Prachand, Chinook, Apache)",
+          "Indian Navy (P-8I Poseidon Long-Range Reconnaissance Aircraft)"
+        ]
+      }
+    },
+    {
+      "tier": 1,
+      "year": 2026,
+      "date": "November 11–13, 2026",
+      "exercise_name": "Antariksha Abhyas – 2026",
+      "edition": "1st Edition (Inaugural)",
+      "type": "Tri-Service Military Space Exercise",
+      "participant_nations": [
+        "India"
+      ],
+      "exercise_domain": [
+        "Space",
+        "Tri-Service",
+        "Cyber & Electronic Warfare"
+      ],
+      "location": "New Delhi (Hosted by Defence Space Agency, HQ IDS)",
+      "strategic_significance": "India's first-ever dedicated Tri-Service military space exercise, conducted by the Defence Space Agency (DSA) under HQ Integrated Defence Staff and inaugurated by CDS General Anil Chauhan. Focuses on Space Situational Awareness (SSA), protecting Indian military satellites, and countering anti-satellite (ASAT) and space-denial threats with ISRO and DRDO.",
+      "exam_importance": "Very high yield for CDS, NDA, AFCAT & UPSC: 1st edition conducted by the Defence Space Agency (DSA, HQ IDS) in New Delhi.",
+      "units_and_hardware": {
+        "India": [
+          "Defence Space Agency (DSA) & HQ Integrated Defence Staff (HQ IDS)",
+          "Indian Army, Indian Navy & Indian Air Force Space Cells",
+          "ISRO & DRDO"
+        ]
+      }
+    },
+    {
+      "tier": 1,
+      "year": 2026,
+      "date": "November 12, 2026",
+      "exercise_name": "LRLACM Maiden Flight-Test",
+      "edition": "Maiden Developmental Trial",
+      "type": "Indigenous Cruise Missile Trial",
+      "participant_nations": [
+        "India"
+      ],
+      "exercise_domain": [
+        "Missile",
+        "Navy",
+        "Air",
+        "Army"
+      ],
+      "location": "Integrated Test Range (ITR), Chandipur, Odisha",
+      "strategic_significance": "DRDO successfully conducted the maiden flight-test of the 1,000+ km range Long Range Land Attack Cruise Missile (LRLACM), developed by ADE Bengaluru with BDL and BEL. Capable of launching from both mobile articulated ground launchers and Indian Navy warships via Universal Vertical Launch Modules (UVLM).",
+      "exam_importance": "Guaranteed Defence Tech question for CDS/NDA/AFCAT: LRLACM (1,000+ km subsonic cruise missile, ADE Bengaluru + BDL + BEL, dual ground/naval UVLM launch).",
+      "units_and_hardware": {
+        "India": [
+          "DRDO (ADE Bengaluru & ITR Chandipur)",
+          "Bharat Dynamics Limited (BDL) & Bharat Electronics Limited (BEL)",
+          "Universal Vertical Launch Module (UVLM) & Mobile Articulated Launcher"
+        ]
+      }
     }
   ]
 };

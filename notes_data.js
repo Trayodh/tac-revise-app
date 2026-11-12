@@ -10113,6 +10113,1314 @@ let CURRENT_AFFAIRS_DB = {
         "correct": 3,
         "explanation": "All three statements are correct. Developed by ARDE (DRDO), Pinaka fires 12 rockets in 44 seconds per launcher (72 rockets per 6-launcher battery), its Guided Mk-II variant reaches 75+ km, and Armenia was its first export buyer."
       }
+    },
+    {
+      "id": "nov-2026-006",
+      "topic": "Military Exercises & Act East Policy",
+      "publicationDate": "2026-11-04",
+      "originalSource": "PIB / Ministry of Defence",
+      "relatedOfficialDocuments": "5th Edition of Vietnam-India Bilateral Army Exercise VINBAX 2026",
+      "text": "The **5th edition** of the Vietnam–India Bilateral Military Exercise **VINBAX 2026** commenced on November 4, 2026 at **Ambala and Chandimandir (Haryana)**, marking the **first time** the exercise was expanded into a **Bi-Service format** featuring both **Army and Air Force** personnel from India and Vietnam.",
+      "details": {
+        "winner": "Indian Army (Corps of Engineers) & IAF + Vietnam People's Army & Air Force",
+        "award": "Exercise VINBAX 2026 (5th Edition — Ambala)",
+        "nationality": "India & Vietnam",
+        "summary": "Conducted from November 4 to 23 at Ambala and Chandimandir, focusing on deploying an Engineer Company and Medical Team under Chapter VII of the UN Charter for Peacekeeping Operations."
+      },
+      "upscHighlights": [
+        "Bi-Service Expansion: For the first time since its inception in 2018, Exercise VINBAX (5th edition, Nov 4–23 at Ambala & Chandimandir) included Indian Air Force and Vietnam People's Air Force personnel alongside Army contingents.",
+        "Participating Units: The Indian Army contingent of 47 personnel was represented by a Regiment of the Corps of Engineers along with logistics and medical specialists.",
+        "Tactical Aim: Employment and deployment of an Engineer Company and a Medical Team as part of a United Nations Contingent for Peacekeeping Operations under Chapter VII of the UN Charter, including Humanitarian Assistance and Disaster Relief (HADR) and heliborne operations.",
+        "Evolution: Instituted in 2018 in Jabalpur (MP) as a Table-Top Exercise, upgraded to a full Field Training Exercise in 2022 at Chandimandir, and hosted in Hanoi (Vietnam) in 2023 (4th edition)."
+      ],
+      "institutionalContext": "Anchors the India–Vietnam Comprehensive Strategic Partnership (elevated in 2016) and the Joint Vision Statement for India–Vietnam Defence Partnership towards 2030.",
+      "strategicImportance": "High-probability Defence Exercise question for CDS 1 2027, NDA 1 2027, and AFCAT 1 2027.",
+      "quickSummary": "The 5th edition of Exercise <mark class=\"exam-target\">VINBAX 2026</mark> between <mark class=\"exam-target\">India and Vietnam</mark> commenced at <mark class=\"exam-target\">Ambala</mark> (Nov 4–23), featuring a first-ever <mark class=\"exam-target\">Bi-Service (Army + Air Force)</mark> participation by India's <mark class=\"exam-target\">Corps of Engineers</mark>.",
+      "detailedAnalysis": "Vietnam is a cornerstone of India's Act East Policy and Indo-Pacific strategy. Beyond Exercise VINBAX, India has extended a $500 million Defence Line of Credit to Vietnam (under which L&T built 12 High-Speed Guard Boats) and gifted the indigenously built Khukri-class missile corvette INS Kirpan to the Vietnam People's Navy in July 2023.",
+      "backgroundContext": "A 48-hour validation exercise including Humanitarian Mine Action (HMA) and UN Peacekeeping engineering tasks concludes the drill at Chandimandir.",
+      "stakeholders": [
+        "Indian Army (Corps of Engineers)",
+        "Indian Air Force",
+        "Vietnam People's Army & Air Force"
+      ],
+      "relatedTopics": [
+        "Exercise VINBAX 2026",
+        "INS Kirpan Handover to Vietnam",
+        "Chapter VII of the UN Charter"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "Medium"
+      },
+      "mcq": {
+        "question": "Consider the following statements regarding the 5th edition of Exercise \"VINBAX 2026\" (November 2026):\n1. It is a bilateral military exercise conducted between India and Vietnam at Ambala and Chandimandir in Haryana.\n2. For the first time, the 2026 edition was expanded into a bi-service exercise featuring personnel from both the Army and the Air Force of both nations.\n3. Its primary tactical focus is the employment of an Engineer Company and Medical Team in UN Peacekeeping Operations under Chapter VII of the UN Charter.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 3,
+        "explanation": "All three statements are correct. The 5th edition of Exercise VINBAX 2026 was held at Ambala & Chandimandir, expanded for the first time to a bi-service (Army + Air Force) format, and focused on UN Peacekeeping engineering and medical tasks under Chapter VII."
+      }
+    },
+    {
+      "id": "nov-2026-007",
+      "topic": "Military Exercises & QUAD Defence Cooperation",
+      "publicationDate": "2026-11-05",
+      "originalSource": "PIB / Ministry of Defence",
+      "relatedOfficialDocuments": "3rd Edition of India-Australia Joint Military Exercise AUSTRAHIND 2026",
+      "text": "The **3rd edition** of the India–Australia Joint Military Exercise **AUSTRAHIND** was conducted in November 2026 at the **Foreign Training Node in Aundh (Pune), Maharashtra**, featuring the Indian Army's **DOGRA Regiment**, **Indian Air Force**, and the **Australian Army's 1st Combat Engineer Regiment**.",
+      "details": {
+        "winner": "Indian Army (DOGRA Regiment) & IAF + Australian Army (1st Brigade)",
+        "award": "Exercise AUSTRAHIND 2026 (3rd Edition — Pune)",
+        "nationality": "India & Australia",
+        "summary": "Joint sub-conventional and counter-terrorism training in semi-urban and semi-desert terrain at Aundh (Pune) under Chapter VII of the UN Mandate."
+      },
+      "upscHighlights": [
+        "Venue & Edition: 3rd edition held at the Foreign Training Node, Aundh (Pune), Maharashtra. Instituted in 2022 in Mahajan Field Firing Ranges (Rajasthan), with the 2nd edition held in Perth, Australia (2023).",
+        "Participating Contingents: Indian contingent of 140 personnel mainly from a battalion of the DOGRA Regiment and 14 personnel from the Indian Air Force; Australian contingent of 120 personnel from the 1st Combat Engineer Regiment of the 1st Brigade, 2nd Division.",
+        "India–Australia Exercise Matrix: AUSTRAHIND (Army + Air Force), AUSINDEX (Bilateral Navy), Pitch Black (Multilateral Air Force hosted by RAAF in Darwin), Malabar (Quad Naval), and Sea Dragon (Anti-Submarine Warfare)."
+      ],
+      "institutionalContext": "Operates under the India–Australia Comprehensive Strategic Partnership (2020) and Mutual Logistics Support Agreement (MLSA).",
+      "strategicImportance": "High-yield question on QUAD bilateral exercises and participating regiments for CDS and NDA.",
+      "quickSummary": "The 3rd edition of the India–Australia Joint Military Exercise <mark class=\"exam-target\">AUSTRAHIND</mark> took place at <mark class=\"exam-target\">Aundh (Pune), Maharashtra</mark>, involving the <mark class=\"exam-target\">DOGRA Regiment</mark>, IAF, and the Australian Army's 1st Combat Engineer Regiment.",
+      "detailedAnalysis": "Exercise AUSTRAHIND is conducted in two phases: a combat conditioning and tactical training phase (including special heliborne operations, sniper fire, counter-drone drills, and raid operations), followed by a 48-hour joint validation phase simulating neutralization of terrorist hideouts in semi-urban environments.",
+      "backgroundContext": "India and Australia also recently signed an Implementing Arrangement on Hydrography and Air-to-Air Refuelling between the Royal Australian Air Force (KC-30A MRTT) and the IAF.",
+      "stakeholders": [
+        "Indian Army (DOGRA Regiment)",
+        "Indian Air Force",
+        "Australian Army (1st Brigade)"
+      ],
+      "relatedTopics": [
+        "Exercise AUSTRAHIND vs AUSINDEX",
+        "Exercise Pitch Black",
+        "India-Australia MLSA"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "Medium",
+        "UPSC": "Medium"
+      },
+      "mcq": {
+        "question": "Where was the 3rd edition of the India–Australia Joint Military Exercise \"AUSTRAHIND\" conducted in November 2026?",
+        "options": [
+          "Mahajan Field Firing Ranges, Rajasthan",
+          "Foreign Training Node, Aundh (Pune), Maharashtra",
+          "Chaubattia, Uttarakhand",
+          "Babina Cantonment, Uttar Pradesh"
+        ],
+        "correct": 1,
+        "explanation": "The 3rd edition of Exercise AUSTRAHIND was conducted at the Foreign Training Node in Aundh (Pune), Maharashtra, featuring the Indian Army's DOGRA Regiment, IAF, and the Australian Army."
+      }
+    },
+    {
+      "id": "nov-2026-008",
+      "topic": "Naval Diplomacy & Indian Ocean Security",
+      "publicationDate": "2026-11-05",
+      "originalSource": "PIB / Indian Navy",
+      "relatedOfficialDocuments": "3rd Edition of MAHASAGAR High-Level Virtual Interaction",
+      "text": "Chief of the Naval Staff **Admiral Dinesh K. Tripathi** hosted the **3rd edition** of **'MAHASAGAR'** (*Maritime Heads for Active Security And Growth for All in the Region*) on November 5, 2026, engaging Naval Chiefs and Maritime Agency Heads of **10 Indian Ocean Region (IOR) littoral nations**.",
+      "details": {
+        "winner": "Indian Navy (CNS Admiral Dinesh K. Tripathi) & 10 IOR Littoral Nations",
+        "award": "3rd Edition of MAHASAGAR Naval Interaction",
+        "nationality": "India & 10 IOR Nations",
+        "summary": "High-level maritime interaction under the theme 'Training Cooperation to Mitigate Common Maritime Security Challenges in the IOR'."
+      },
+      "upscHighlights": [
+        "Full Form of MAHASAGAR: \"Maritime Heads for Active Security And Growth for All in the Region\" (Hindi word meaning 'Vast Ocean'), launched by the Indian Navy in November 2023 as a bi-annual outreach expansion of PM Modi's 2015 SAGAR (Security and Growth for All in the Region) vision.",
+        "10 Participating IOR Littoral Countries: Bangladesh, Comoros, Kenya, Madagascar, Maldives, Mauritius, Mozambique, Seychelles, Sri Lanka, and Tanzania.",
+        "Theme of 3rd Edition (Nov 5, 2026): \"Training Cooperation to Mitigate Common Maritime Security Challenges in the IOR\".",
+        "Strategic Context: Addresses non-traditional maritime threats including piracy, IUU (Illegal, Unreported, and Unregulated) fishing, narcotics trafficking, and HADR through the Information Fusion Centre – Indian Ocean Region (IFC-IOR, Gurugram)."
+      ],
+      "institutionalContext": "Positions the Indian Navy as the 'First Responder and Preferred Security Partner' across the Western and Eastern Indian Ocean.",
+      "strategicImportance": "Very high-yield question for CDS, NDA, and UPSC Prelims on MAHASAGAR full form and participating IOR countries.",
+      "quickSummary": "Chief of the Naval Staff <mark class=\"exam-target\">Admiral Dinesh K. Tripathi</mark> hosted the 3rd edition of <mark class=\"exam-target\">MAHASAGAR</mark> (*Maritime Heads for Active Security And Growth for All in the Region*) with 10 IOR nations on the theme of training cooperation.",
+      "detailedAnalysis": "While SAGAR (launched in Mauritius in March 2015) provides the overarching national maritime doctrine, MAHASAGAR serves as the operational Navy-to-Navy Chiefs' forum connecting East African island/littoral states (Comoros, Kenya, Madagascar, Mauritius, Mozambique, Seychelles, Tanzania) and South Asian neighbours (Bangladesh, Maldives, Sri Lanka).",
+      "backgroundContext": "Complemented by the Goa Maritime Conclave (GMC), Indian Ocean Naval Symposium (IONS, launched in 2008), and Exercise AIKEYME (Africa-India Key Maritime Engagement).",
+      "stakeholders": [
+        "Indian Navy (CNS Admiral Dinesh K. Tripathi)",
+        "10 IOR Littoral Navies & Coast Guards",
+        "IFC-IOR Gurugram"
+      ],
+      "relatedTopics": [
+        "MAHASAGAR vs SAGAR Doctrine",
+        "Indian Ocean Naval Symposium (IONS)",
+        "IFC-IOR (Gurugram)"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "mcq": {
+        "question": "Consider the following statements regarding the Indian Navy's \"MAHASAGAR\" initiative, whose 3rd edition was held in November 2026:\n1. The acronym MAHASAGAR stands for \"Maritime Heads for Active Security And Growth for All in the Region\".\n2. The 3rd edition was hosted by Chief of the Naval Staff Admiral Dinesh K. Tripathi with the Maritime Heads of 10 Indian Ocean Region (IOR) littoral nations, including Comoros, Madagascar, Mozambique, and Seychelles.\n3. The theme of the 3rd edition was \"Training Cooperation to Mitigate Common Maritime Security Challenges in the IOR\".\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 3,
+        "explanation": "All three statements are correct. MAHASAGAR (Maritime Heads for Active Security And Growth for All in the Region) brought together India and 10 IOR littoral states (Bangladesh, Comoros, Kenya, Madagascar, Maldives, Mauritius, Mozambique, Seychelles, Sri Lanka, Tanzania) under the theme of Training Cooperation."
+      }
+    },
+    {
+      "id": "nov-2026-009",
+      "topic": "Defence Indigenisation & Small Arms",
+      "publicationDate": "2026-11-05",
+      "originalSource": "Indian Army / DRDO",
+      "relatedOfficialDocuments": "Induction of Indigenous 9x19mm 'Asmi' Machine Pistol into Northern Command",
+      "text": "The Indian Army's **Northern Command** inducted the first batch of **550 indigenously designed and manufactured 'ASMI' (9×19mm) Machine Pistols**, co-developed by **DRDO's Armament Research and Development Establishment (ARDE, Pune)** and **Lt Col Prasad Bansod**, and manufactured by **Lokesh Machines Limited (Hyderabad)**.",
+      "details": {
+        "winner": "DRDO (ARDE Pune), Lt Col Prasad Bansod & Lokesh Machines (Hyderabad)",
+        "award": "Induction of 550 Indigenous 'Asmi' 9x19mm Machine Pistols",
+        "nationality": "India",
+        "summary": "India's first completely indigenous 9x19mm submachine gun inducted into the Indian Army's Northern Command to replace the vintage 9mm Sterling carbine and reduce reliance on Israeli Uzi/MP9 imports."
+      },
+      "upscHighlights": [
+        "Meaning & Design: \"Asmi\" in Sanskrit means \"Pride, Self-Respect, and Hard Work\". Designed in a record 4 months by Indian Army officer Lt Col Prasad Bansod in collaboration with DRDO's ARDE, Pune.",
+        "Manufacturing Partner: Produced by private-sector MSME Lokesh Machines Limited in Hyderabad under the 'Atmanirbhar Bharat' Transfer of Technology (ToT) framework.",
+        "Technical Specifications: Fires the in-service 9×19mm Parabellum ammunition; features an 8-inch barrel, monolithic aluminium upper receiver, carbon-fibre lower receiver, weighs under 2 kg (empty), and has an effective range of 100 meters with a 33-round magazine.",
+        "Operational Role: Ideal close-quarter battle (CQB) personal defence weapon for special forces, tank/aircraft crews, counter-insurgency squads in J&K (Northern Command), and VIP protection."
+      ],
+      "institutionalContext": "First major small-arm designed jointly by a serving Indian Army officer and DRDO to enter operational service via a private Indian manufacturer.",
+      "strategicImportance": "High-probability Defence Technology question for CDS, NDA, AFCAT, and CAPF.",
+      "quickSummary": "The Indian Army's <mark class=\"exam-target\">Northern Command</mark> inducted 550 indigenous <mark class=\"exam-target\">9×19mm 'Asmi' Machine Pistols</mark>, designed by <mark class=\"exam-target\">DRDO's ARDE (Pune)</mark> and <mark class=\"exam-target\">Lt Col Prasad Bansod</mark> and built by <mark class=\"exam-target\">Lokesh Machines (Hyderabad)</mark>.",
+      "detailedAnalysis": "For decades, Indian troops relied on the 1940s-era British 9mm Sterling submachine carbine (1A1) or expensive imported weapons like the Israeli Micro-Uzi and Swiss Brügger & Thomet MP9. Priced under ₹50,000 per unit (nearly one-third the cost of imported equivalents) and utilizing 3D-printed components and aerospace-grade aluminium/carbon fibre, Asmi represents a major leap in indigenous infantry weaponry alongside the AK-203 (Korwa) and Ugram (7.62×51mm assault rifle).",
+      "backgroundContext": "DRDO and ARDE Pune also recently unveiled 'Ugram' ('Ferocious'), an indigenous 7.62×51mm assault rifle developed with Dvipa Armour India (Hyderabad).",
+      "stakeholders": [
+        "Indian Army (Northern Command)",
+        "DRDO (ARDE Pune)",
+        "Lokesh Machines Limited (Hyderabad)"
+      ],
+      "relatedTopics": [
+        "Asmi 9x19mm Machine Pistol",
+        "Ugram 7.62x51mm Assault Rifle",
+        "AK-203 Rifles (Korwa, Amethi)"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "Medium"
+      },
+      "mcq": {
+        "question": "Consider the following statements regarding the indigenous weapon \"Asmi\" recently inducted into the Indian Army's Northern Command:\n1. It is India's first indigenously designed and manufactured 9×19mm machine pistol (submachine gun).\n2. It was co-developed by DRDO's Armament Research and Development Establishment (ARDE), Pune and Indian Army officer Lt Col Prasad Bansod, and manufactured by Lokesh Machines Limited in Hyderabad.\n3. The word \"Asmi\" in Sanskrit translates to \"Pride, Self-Respect, and Hard Work\".\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 3,
+        "explanation": "All three statements are correct. Asmi is an indigenous 9×19mm machine pistol designed by ARDE (Pune) and Lt Col Prasad Bansod, manufactured by Lokesh Machines (Hyderabad), and inducted into the Northern Command."
+      }
+    },
+    {
+      "id": "nov-2026-010",
+      "topic": "International Relations & Global Geopolitics",
+      "publicationDate": "2026-11-06",
+      "originalSource": "International Diplomatic Desk / MEA",
+      "relatedOfficialDocuments": "47th Presidential Election of the United States & India-US Strategic Partnership",
+      "text": "**Donald J. Trump** was elected the **47th President of the United States** on November 5–6, becoming only the **second President in US history** to serve **two non-consecutive terms** (45th and 47th President) after **Grover Cleveland** (22nd and 24th President), with **J.D. Vance** elected as the **50th Vice President**.",
+      "details": {
+        "winner": "Donald J. Trump (47th US President) & J.D. Vance (50th Vice President)",
+        "award": "US Presidential Election Victory (312 Electoral College Votes)",
+        "nationality": "United States",
+        "summary": "Swept all seven battleground swing states (312 Electoral College votes vs 226) and the national popular vote; Usha Chilukuri Vance becomes the first Indian-American and Hindu Second Lady of the US."
+      },
+      "upscHighlights": [
+        "Historical Precedent: Donald Trump (45th President, 2017–2021; and 47th President) is only the second US leader in history to win non-consecutive presidential terms, joining Democrat Grover Cleveland (22nd President in 1885–1889 and 24th President in 1893–1897).",
+        "Constitutional Framework: Under the 22nd Amendment to the US Constitution (ratified in 1951), no person may be elected to the office of the President more than twice. The US Electoral College consists of 538 electors, requiring a majority of 270 votes to win.",
+        "India–US Strategic Architecture: Key pillars include the 'Comprehensive Global Strategic Partnership', the 4 foundational defence pacts — GSOMIA (2002), LEMOA (2016), COMCASA (2018), and BECA (2020) — alongside iCET (Initiative on Critical and Emerging Technology), INDUS-X, and the QUAD Leaders' Summit (scheduled to be hosted by India)."
+      ],
+      "institutionalContext": "Shapes Indo-Pacific security under the QUAD (revived at the ministerial level in 2017 during Trump's first term), I2U2 (India, Israel, UAE, USA), and IMEC (India-Middle East-Europe Economic Corridor).",
+      "strategicImportance": "High-yield International Relations & Comparative Constitutional Polity question for CDS, NDA, AFCAT, and CAPF.",
+      "quickSummary": "<mark class=\"exam-target\">Donald J. Trump</mark> was elected the <mark class=\"exam-target\">47th US President</mark> (with <mark class=\"exam-target\">J.D. Vance</mark> as 50th VP), becoming only the second US President after <mark class=\"exam-target\">Grover Cleveland</mark> to win two non-consecutive terms.",
+      "detailedAnalysis": "From an Indian defence exam perspective, questions frequently link major global elections with bilateral defence agreements. India and the US have signed all four foundational military agreements: (1) GSOMIA (General Security of Military Information Agreement, 2002); (2) LEMOA (Logistics Exchange Memorandum of Agreement, 2016); (3) COMCASA (Communications Compatibility and Security Agreement, 2018); and (4) BECA (Basic Exchange and Cooperation Agreement for Geospatial Cooperation, 2020), followed by the Security of Supply Arrangement (SOSA) and Reciprocal Defense Procurement (RDP) negotiations.",
+      "backgroundContext": "Indian-American attorney Usha Chilukuri Vance (wife of Vice President-elect J.D. Vance, with ancestral roots in Andhra Pradesh) becomes the first Indian-American and Hindu Second Lady in US history.",
+      "stakeholders": [
+        "United States Government",
+        "Government of India (MEA / MoD)",
+        "QUAD & iCET Frameworks"
+      ],
+      "relatedTopics": [
+        "Four Foundational Agreements (GSOMIA, LEMOA, COMCASA, BECA)",
+        "Initiative on Critical and Emerging Technology (iCET)",
+        "QUAD & I2U2 Groupings"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "Medium",
+        "UPSC": "Medium"
+      },
+      "mcq": {
+        "question": "Consider the following statements regarding the United States Presidency and India–US Strategic Relations (November 2026):\n1. By winning election as the 47th President of the United States, Donald J. Trump became only the second President in US history after Grover Cleveland to serve two non-consecutive terms.\n2. The four foundational defence agreements signed between India and the United States in chronological order are GSOMIA (2002), LEMOA (2016), COMCASA (2018), and BECA (2020).\n3. In 2026, India and the United States also signed a Security of Supply Arrangement (SOSA) to prioritize bilateral defence industrial supply chains.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 3,
+        "explanation": "All three statements are correct. Grover Cleveland (22nd & 24th) and Donald Trump (45th & 47th) are the only two US Presidents to win non-consecutive terms; the 4 foundational pacts in chronological order are GSOMIA, LEMOA, COMCASA, and BECA; and SOSA was signed in August 2026."
+      }
+    },
+    {
+      "id": "nov-2026-011",
+      "topic": "Indian Polity & Constitutional Law",
+      "publicationDate": "2026-11-05",
+      "originalSource": "Supreme Court of India",
+      "relatedOfficialDocuments": "9-Judge Constitution Bench Judgment in Property Owners Association vs State of Maharashtra (Article 39(b) & Article 31C)",
+      "text": "In a landmark **8:1 majority verdict** on November 5, 2026, a **9-Judge Constitution Bench** of the **Supreme Court of India** headed by CJI D.Y. Chandrachud ruled that **not every privately owned property** can be treated as a **\"material resource of the community\"** for acquisition and redistribution by the State under **Article 39(b)** of the Directive Principles of State Policy (DPSP).",
+      "details": {
+        "winner": "9-Judge Constitution Bench of the Supreme Court (8:1 Majority)",
+        "award": "Landmark Constitutional Verdict on Article 39(b) & Private Property",
+        "nationality": "India",
+        "summary": "Overruled Justice V.R. Krishna Iyer's sweeping socialist interpretation in Ranganatha Reddy (1977) and Sanjeev Coke (1983), holding that private property falls under Article 39(b) only if it satisfies the Public Trust & Scarcity criteria."
+      },
+      "upscHighlights": [
+        "What is Article 39(b)?: A Socialist Directive Principle (Part IV) directing the State to ensure \"that the ownership and control of the material resources of the community are so distributed as best to subserve the common good\".",
+        "Core Ruling (8:1 Majority): Authored by CJI D.Y. Chandrachud (with Justice B.V. Nagarathna partially concurring and Justice Sudhanshu Dhulia dissenting). Held that while some privately owned resources (e.g., scarce natural resources, critical minerals, spectrum, forests) CAN fall within \"material resources of the community\", NOT ALL private property (such as personal homes or ordinary private businesses) automatically qualifies.",
+        "Factors Test: Whether a private resource qualifies under Article 39(b) depends on: (1) Nature and characteristics of the resource; (2) Its impact on community well-being; (3) Its scarcity; and (4) Consequences of its concentration in the hands of a few, guided by the **Public Trust Doctrine**.",
+        "Revival of Unamended Article 31C: The Court also clarified that after the *Minerva Mills (1980)* judgment struck down the 42nd Amendment's expansion of Article 31C, the original unamended Article 31C (inserted by the 25th Amendment Act, 1971—protecting laws giving effect to Articles 39(b) and 39(c) from Articles 14 and 19 challenges, as upheld in *Kesavananda Bharati, 1973*) remains alive and operative in the Constitution."
+      ],
+      "institutionalContext": "A 9-Judge Bench was required to reconsider the earlier 5-Judge Bench ruling in *Sanjeev Coke Manufacturing Co. v. Bharat Coking Coal Ltd. (1983)* and the minority view of Justice Krishna Iyer in *State of Karnataka v. Ranganatha Reddy (1977)*.",
+      "strategicImportance": "Guaranteed top-tier Indian Polity question for UPSC Prelims, CDS, NDA, and CAPF.",
+      "quickSummary": "A <mark class=\"exam-target\">9-Judge Constitution Bench</mark> of the Supreme Court ruled (8:1) that <mark class=\"exam-target\">not all private property</mark> constitutes a \"material resource of the community\" under <mark class=\"exam-target\">Article 39(b)</mark>, overruling the sweeping socialist doctrine of *Sanjeev Coke (1983)* while upholding the survival of original <mark class=\"exam-target\">Article 31C</mark>.",
+      "detailedAnalysis": "Furthermore, the 9-Judge Bench observed that the Constitution of India does not bind elected governments to any single rigid economic dogma (such as state socialism), enabling India's transition from post-independence state control to the 1991 Liberalisation, Privatisation, and Globalisation (LPG) reforms. Remember also that the Right to Property was removed as a Fundamental Right (Articles 19(1)(f) and 31) and made a Constitutional/Legal Right under **Article 300A** (Part XII) by the **44th Constitutional Amendment Act, 1978**.",
+      "backgroundContext": "The case arose from a 1992 challenge to Chapter VIII-A of the Maharashtra Housing and Area Development Act (MHADA), 1976, which allowed acquisition of cessed private buildings in Mumbai citing Article 39(b).",
+      "stakeholders": [
+        "Supreme Court of India (9-Judge Constitution Bench)",
+        "Union and State Legislatures"
+      ],
+      "relatedTopics": [
+        "Article 39(b) & Article 39(c) (DPSP)",
+        "Article 31C (25th & 42nd Amendments; Minerva Mills Case)",
+        "Right to Property (Article 300A — 44th Amendment 1978)"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "mcq": {
+        "question": "With reference to the landmark 9-Judge Constitution Bench judgment of the Supreme Court on Article 39(b) of the Constitution (November 2026), consider the following statements:\n1. Article 39(b) in Part IV of the Constitution directs the State to ensure that the ownership and control of the material resources of the community are distributed to best subserve the common good.\n2. The Supreme Court held by an 8:1 majority that every privately owned property automatically constitutes a \"material resource of the community\" available for acquisition by the State.\n3. The Court affirmed that the original unamended Article 31C (inserted by the 25th Constitutional Amendment Act, 1971, protecting laws giving effect to Articles 39(b) and 39(c)) remains valid and operative.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 2,
+        "explanation": "Statements 1 and 3 are correct. Statement 2 is incorrect because the 9-Judge Bench ruled by an 8:1 majority that NOT every privately owned property can be treated as a 'material resource of the community' under Article 39(b); it depends on scarcity, nature of the resource, community impact, and the Public Trust Doctrine."
+      }
+    },
+    {
+      "id": "nov-2026-012",
+      "topic": "Environment, Renewable Energy & International Summits",
+      "publicationDate": "2026-11-05",
+      "originalSource": "PIB / Ministry of New and Renewable Energy (MNRE)",
+      "relatedOfficialDocuments": "7th Session of the International Solar Alliance (ISA) Assembly (New Delhi)",
+      "text": "The **7th Session of the International Solar Alliance (ISA) Assembly** was held at **Bharat Mandapam, New Delhi** from November 3 to 6, 2026 under the **Presidency of India** and **Co-Presidency of France**, where **Ashish Khanna** was elected as the **3rd Director General of the ISA**.",
+      "details": {
+        "winner": "International Solar Alliance (Presidency: India; Co-Presidency: France)",
+        "award": "7th ISA Assembly (New Delhi) & Election of 3rd DG Ashish Khanna",
+        "nationality": "International (HQ: Gurugram, India)",
+        "summary": "Deliberated on the Global Solar Facility (GSF), solar supply chain resilience, and the 'Towards 1000' strategy; Ashish Khanna elected to succeed Dr. Ajay Mathur as the 3rd Director General."
+      },
+      "upscHighlights": [
+        "Leadership & Venue: Hosted at Bharat Mandapam, New Delhi (Nov 3–6). Presided over by Union Minister for New and Renewable Energy Pralhad Joshi (India) and Co-Presided by France. India's Ashish Khanna was elected as the 3rd Director General of ISA (succeeding Dr. Ajay Mathur and founding DG Upendra Tripathy).",
+        "About ISA: Jointly launched by PM Narendra Modi and then French President François Hollande on 30 November 2015 at UNFCCC COP21 in Paris. It is the **first treaty-based international intergovernmental organization headquartered in India** (National Institute of Solar Energy campus, **Gurugram, Haryana**).",
+        "Membership Milestone: Originally conceived for \"Suryaputra\" countries lying between the Tropic of Cancer and Tropic of Capricorn, a 2020 Framework Amendment opened ISA membership to **all UN Member States**. **Paraguay** recently became the **100th full member**, followed by **Armenia** and **Moldova** (120+ signatory countries total).",
+        "Towards 1000 Strategy: Aims to mobilize **$1,000 billion ($1 trillion)** in solar investments by **2030**, deliver clean energy access to **1,000 million (1 billion) people**, and install **1,000 GW** of solar energy capacity."
+      ],
+      "institutionalContext": "The ISA Assembly is the apex decision-making body of the International Solar Alliance, meeting annually at the ministerial level.",
+      "strategicImportance": "Staple UPSC Prelims, CDS, NDA, and CAPF topic on India-headquartered global institutions and climate initiatives.",
+      "quickSummary": "The <mark class=\"exam-target\">7th ISA Assembly</mark> met at <mark class=\"exam-target\">Bharat Mandapam, New Delhi</mark> under <mark class=\"exam-target\">India's Presidency and France's Co-Presidency</mark>, electing <mark class=\"exam-target\">Ashish Khanna</mark> as the 3rd Director General of the Gurugram-headquartered alliance.",
+      "detailedAnalysis": "During the 7th Assembly, ISA released the 3rd edition of its flagship **World Solar Reports** series (World Solar Technology Report, World Solar Market Report, World Solar Investment Report, and Green Hydrogen Readiness Assessment) and operationalized the **Global Solar Facility (GSF)**—a payment guarantee and insurance fund starting in Africa to de-risk private solar investments in Least Developed Countries (LDCs) and Small Island Developing States (SIDS). Remember also **OSOWOG** (*One Sun, One World, One Grid*), launched by India and the UK at COP26 (Glasgow).",
+      "backgroundContext": "India is the world's first country where an international treaty organization (ISA) and the Global Biofuels Alliance (GBA) and Coalition for Disaster Resilient Infrastructure (CDRI) are anchored.",
+      "stakeholders": [
+        "International Solar Alliance (HQ: Gurugram)",
+        "Ministry of New and Renewable Energy (India)",
+        "Government of France"
+      ],
+      "relatedTopics": [
+        "International Solar Alliance (Towards 1000 Strategy)",
+        "One Sun, One World, One Grid (OSOWOG)",
+        "CDRI & Global Biofuels Alliance (GBA)"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "mcq": {
+        "question": "Consider the following statements regarding the International Solar Alliance (ISA) and its 7th Assembly held in November 2026:\n1. The 7th Session of the ISA Assembly was hosted in New Delhi under the Presidency of India and Co-Presidency of France, where Ashish Khanna was elected as the 3rd Director General.\n2. Headquartered in Gurugram (Haryana), the ISA restricts its membership strictly to tropical countries located entirely between the Tropic of Cancer and the Tropic of Capricorn.\n3. The ISA's \"Towards 1000\" strategy aims to mobilize $1,000 billion in solar investments by 2030 and install 1,000 GW of solar energy capacity.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 2,
+        "explanation": "Statements 1 and 3 are correct. Statement 2 is incorrect because following the 2020 Framework Agreement Amendment, membership in the ISA is open to ALL member states of the United Nations (including countries outside the Tropics)."
+      }
+    },
+    {
+      "id": "nov-2026-013",
+      "topic": "Government Schemes & Social Sector",
+      "publicationDate": "2026-11-06",
+      "originalSource": "PIB / Union Cabinet & Ministry of Education",
+      "relatedOfficialDocuments": "PM-Vidyalaxmi Scheme for Higher Education Loans (2024–25 to 2030–31)",
+      "text": "On November 6, 2026, the **Union Cabinet** chaired by PM Narendra Modi approved the **'PM-Vidyalaxmi' Scheme** with a total outlay of **₹3,600 crore** (up to FY 2030–31) to provide **collateral-free and guarantor-free education loans** with interest subvention to meritorious students admitted to India's top **860 Quality Higher Educational Institutions (QHEIs)**.",
+      "details": {
+        "winner": "Union Cabinet / Ministry of Education (Department of Higher Education)",
+        "award": "PM-Vidyalaxmi Scheme Approved (₹3,600 Crore Outlay)",
+        "nationality": "India",
+        "summary": "Provides collateral-free, guarantor-free higher education loans with 75% sovereign credit guarantee (up to ₹7.5 lakh) and 3% interest subvention (up to ₹10 lakh loan for family income ≤ ₹8 lakh)."
+      },
+      "upscHighlights": [
+        "Target Institutions (860 QHEIs): Applicable to any student securing admission on merit in the top 860 Quality Higher Educational Institutions (QHEIs)—defined as all institutions (government and private) ranked in the **top 100 in NIRF** (Overall, Category-specific, or Domain-specific rankings) plus **top 200 State/Central Government institutions** in NIRF.",
+        "100% Collateral-Free & Guarantor-Free: Every student admitted to these 860 QHEIs is eligible for a collateral-free, guarantor-free loan from scheduled banks to cover the full tuition fee and course-related expenses.",
+        "Three-Tier Financial Support Architecture:\n  • (1) **Loans up to ₹7.5 Lakh**: Receive a **75% Credit Guarantee** from the Government of India (irrespective of family income) to encourage banks to lend without collateral.\n  • (2) **Family Income up to ₹8 Lakh/year**: Students (not covered under existing 100% Central Sector Interest Subsidy) receive a **3% Interest Subvention** on loans up to **₹10 Lakh** during the moratorium period (for 1 lakh students annually).\n  • (3) **Family Income up to ₹4.5 Lakh/year**: Continue to receive **full (100%) interest subvention** under the PM-USP Central Sector Interest Subsidy (CSIS) scheme for technical/professional courses.",
+        "Digital Delivery: Administered entirely through the unified **PM-Vidyalaxmi Digital Portal**, with interest subvention disbursed via **E-Vouchers and CBDC (Central Bank Digital Currency / Digital Rupee) wallets**."
+      ],
+      "institutionalContext": "A Central Sector Scheme implemented by the Department of Higher Education (Ministry of Education) directly realizing the vision of the **National Education Policy (NEP) 2020**.",
+      "strategicImportance": "Extremely high-yield Government Scheme question for UPSC Prelims, CDS, CAPF, and NDA (Examiners love testing the exact income thresholds: ₹4.5L vs ₹8L, loan caps: ₹7.5L vs ₹10L, and 75% credit guarantee).",
+      "quickSummary": "The Union Cabinet approved the <mark class=\"exam-target\">₹3,600 crore PM-Vidyalaxmi Scheme</mark> offering <mark class=\"exam-target\">collateral-free, guarantor-free</mark> loans for students in the top <mark class=\"exam-target\">860 NIRF QHEIs</mark>, featuring a <mark class=\"exam-target\">75% credit guarantee up to ₹7.5 lakh</mark> and <mark class=\"exam-target\">3% interest subvention on loans up to ₹10 lakh</mark> (for family income ≤ ₹8 lakh).",
+      "detailedAnalysis": "Pay close attention to the numeric UPSC traps in PM-Vidyalaxmi: (1) Number of institutions = 860 QHEIs (updated annually via NIRF); (2) Credit Guarantee = 75% for loan amounts up to ₹7.5 lakh; (3) Interest Subvention = 3% during the moratorium period for loans up to ₹10 lakh for students with annual family income up to ₹8 lakh (preferential treatment given to students from government institutions and technical/professional courses).",
+      "backgroundContext": "Announced in the Union Budget 2024–25 to complement the PM-USP (Pradhan Mantri Uchchatar Shiksha Protsahan) scheme.",
+      "stakeholders": [
+        "Ministry of Education (Department of Higher Education)",
+        "Scheduled Commercial Banks",
+        "Reserve Bank of India (CBDC E-Vouchers)"
+      ],
+      "relatedTopics": [
+        "PM-Vidyalaxmi Scheme",
+        "National Institutional Ranking Framework (NIRF)",
+        "National Education Policy (NEP) 2020"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "mcq": {
+        "question": "Consider the following statements regarding the \"PM-Vidyalaxmi\" Scheme approved by the Union Cabinet in November 2026:\n1. It provides collateral-free and guarantor-free education loans to meritorious students admitted to the top 860 Quality Higher Educational Institutions (QHEIs) determined by NIRF rankings.\n2. For loan amounts up to ₹7.5 lakh, the scheme provides a 75% credit guarantee by the Government of India to lending banks.\n3. Students having an annual family income of up to ₹8 lakh are eligible for a 3% interest subvention on education loans up to ₹10 lakh during the moratorium period.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 3,
+        "explanation": "All three statements are correct. PM-Vidyalaxmi (outlay ₹3,600 crore) covers 860 QHEIs, offering collateral-free/guarantor-free loans with a 75% sovereign credit guarantee up to ₹7.5 lakh and 3% interest subvention on loans up to ₹10 lakh for students with annual family income ≤ ₹8 lakh."
+      }
+    },
+    {
+      "id": "nov-2026-014",
+      "topic": "Space Technology & ISRO-ESA Cooperation",
+      "publicationDate": "2026-11-05",
+      "originalSource": "ISRO / European Space Agency (ESA)",
+      "relatedOfficialDocuments": "Arrival of ESA's Proba-3 Twin Solar Coronagraph Spacecraft at SDSC-SHAR Sriharikota (PSLV-C59)",
+      "text": "The European Space Agency's (**ESA**) twin spacecraft for the pioneering **'Proba-3' (Project for On-Board Autonomy-3)** solar mission arrived at the **Satish Dhawan Space Centre (SDSC-SHAR), Sriharikota** in early November 2026 for commercial launch aboard ISRO's **PSLV-XL (PSLV-C59)** rocket under **NewSpace India Limited (NSIL)**.",
+      "details": {
+        "winner": "ISRO / NSIL & European Space Agency (ESA)",
+        "award": "Proba-3 Twin Formation-Flying Solar Coronagraph Mission",
+        "nationality": "India & European Space Agency (ESA)",
+        "summary": "World's first precision formation-flying mission where two satellites (Coronagraph & Occulter) fly 150 meters apart with millimeter accuracy to create an artificial solar eclipse in space."
+      },
+      "upscHighlights": [
+        "What is Proba-3?: The **world's first precision formation-flying satellite mission**, developed by a consortium of 14 European countries led by the **European Space Agency (ESA)**.",
+        "Twin Spacecraft Architecture (~550 kg total): Consists of two independent satellites launched together by ISRO's **PSLV-C59 (PSLV-XL configuration)**:\n  • (1) **Occulter Spacecraft (OSC, ~200 kg)**: Blocks the blinding disk of the Sun.\n  • (2) **Coronagraph Spacecraft (CSC, ~340 kg)**: Carries the **ASPIICS** (*Association of Spacecraft for Polarimetric and Imaging Investigation of the Corona of the Sun*) instrument to observe the Sun's faint inner **corona**.",
+        "Artificial Solar Eclipse in Orbit: The two spacecraft fly exactly **150 meters apart** in a highly elliptical High Earth Orbit (600 km × 60,530 km), maintaining millimeter and arc-second alignment autonomously for 6 hours at apogee to cast a precise shadow without terrestrial atmospheric distortion.",
+        "Scientific Goal: Solving why the Sun's outer atmosphere (**Corona**, >1 million °C) is hundreds of times hotter than its visible surface (**Photosphere**, ~5,500 °C) and studying **Coronal Mass Ejections (CMEs)** that drive space weather."
+      ],
+      "institutionalContext": "Contracted through **NewSpace India Limited (NSIL)**, the commercial arm of ISRO; marks the first ESA mission launched from India since **Proba-1** (launched aboard PSLV-C3 in October 2001).",
+      "strategicImportance": "Top-tier UPSC Prelims, CDS, NDA, and AFCAT Space Science question—complements India's own **Aditya-L1** solar observatory at Lagrange Point L1.",
+      "quickSummary": "ESA's <mark class=\"exam-target\">Proba-3</mark> twin spacecraft (**Occulter** and **Coronagraph**) arrived at <mark class=\"exam-target\">Sriharikota</mark> for launch aboard ISRO's <mark class=\"exam-target\">PSLV-C59 (PSLV-XL)</mark>—the world's first <mark class=\"exam-target\">precision formation-flying</mark> mission flying 150m apart to create an artificial solar eclipse and study the Sun's <mark class=\"exam-target\">corona</mark>.",
+      "detailedAnalysis": "Compare **Proba-3** with **Aditya-L1** for exam questions: (1) **Aditya-L1** (launched on PSLV-C57 in Sept 2023) is a single Indian spacecraft placed in a **Halo Orbit around the Sun-Earth Lagrange Point 1 (L1)** (1.5 million km from Earth) carrying the **VELC** internal coronagraph; whereas (2) **Proba-3** is an **ESA** twin-satellite mission placed in a **Highly Elliptical Earth Orbit (HEO)** where one satellite acts as an external occulter 150 meters ahead of the other, allowing observation much closer to the solar limb (down to 1.1 solar radii).",
+      "backgroundContext": "ESA chose ISRO's PSLV-XL because it delivers the exact 550 kg payload mass into a 60,530 km apogee orbit at a fraction of the cost of heavy European launchers.",
+      "stakeholders": [
+        "ISRO & NewSpace India Limited (NSIL)",
+        "European Space Agency (ESA)"
+      ],
+      "relatedTopics": [
+        "Proba-3 Mission vs Aditya-L1 Mission",
+        "Solar Corona & Coronal Mass Ejections (CMEs)",
+        "PSLV-XL & NewSpace India Limited (NSIL)"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "mcq": {
+        "question": "Consider the following statements regarding the \"Proba-3\" space mission, which arrived at Sriharikota in November 2026 for launch aboard ISRO's PSLV-XL:\n1. Developed by the European Space Agency (ESA), it is the world's first precision formation-flying mission consisting of two spacecraft—the Occulter Spacecraft (OSC) and the Coronagraph Spacecraft (CSC).\n2. The two satellites will fly 150 meters apart in a highly elliptical orbit to cast a controlled shadow and create an artificial solar eclipse in space to study the Sun's faint corona.\n3. Like ISRO's Aditya-L1 mission, Proba-3 will be stationed permanently at the Sun–Earth Lagrange Point 2 (L2).\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 0,
+        "explanation": "Statements 1 and 2 are correct. Statement 3 is incorrect because Proba-3 operates in a Highly Elliptical Earth Orbit (600 km × 60,530 km), whereas Aditya-L1 is stationed in a Halo Orbit around Lagrange Point 1 (L1) (and James Webb Space Telescope is at L2)."
+      }
+    },
+    {
+      "id": "nov-2026-015",
+      "topic": "Space Technology & Sustainable Aerospace",
+      "publicationDate": "2026-11-05",
+      "originalSource": "JAXA / Kyoto University & NASA",
+      "relatedOfficialDocuments": "Launch of LignoSat — World's First Wooden Satellite",
+      "text": "On November 5, 2026, researchers from **Kyoto University** and **Sumitomo Forestry (Japan)** launched **'LignoSat'**, the **world's first wooden artificial satellite**, to the International Space Station (ISS) aboard a SpaceX CRS-31 Dragon spacecraft to test sustainable timber materials against orbital space debris and atmospheric re-entry pollution.",
+      "details": {
+        "winner": "Kyoto University & Sumitomo Forestry (Japan)",
+        "award": "LignoSat — World's First Wooden Satellite Launched",
+        "nationality": "Japan",
+        "summary": "A 10-cm CubeSat built from Japanese Honoki magnolia wood without screws or glue, designed to burn up cleanly on re-entry without releasing ozone-damaging aluminium oxide particles."
+      },
+      "upscHighlights": [
+        "Developers & Material: Jointly developed by **Kyoto University** (led by astronaut Takao Doi) and **Sumitomo Forestry** in Japan. Constructed from **Honoki** (a species of Japanese magnolia tree traditionally used for sword sheaths) after 10 months of exposure testing aboard the ISS Japanese Experiment Module (*Kibo*).",
+        "Traditional Craftsmanship: The 10-cm cube (weighing ~900 grams) was assembled using a traditional Japanese carpentry joinery technique called ***Nuki***—using **zero screws and zero glue** (which could outgas or fail in space).",
+        "Why Wood works in Space: Because space is a vacuum devoid of oxygen and moisture/living organisms, **wood neither burns nor rots in orbit**, while naturally allowing electromagnetic waves (antennas) to pass through the hull.",
+        "Environmental Advantage on Re-entry: Conventional metal satellites release microscopic **aluminium oxide (alumina) particles** when they burn up upon atmospheric re-entry, which deplete the stratospheric **ozone layer** and alter Earth's albedo; wooden satellites vaporize cleanly into water vapour and biodegradable ash."
+      ],
+      "institutionalContext": "Deployed into a 400 km Low Earth Orbit (LEO) from the ISS Kibo module by the Japan Aerospace Exploration Agency (JAXA).",
+      "strategicImportance": "Classic UPSC Prelims, CDS, NDA, and AFCAT Science & Environment question combining Space Technology, Ozone Depletion (Aluminium Oxide aerosols), and Material Science.",
+      "quickSummary": "Japan's <mark class=\"exam-target\">Kyoto University</mark> and <mark class=\"exam-target\">Sumitomo Forestry</mark> launched <mark class=\"exam-target\">LignoSat</mark>, the world's first <mark class=\"exam-target\">wooden satellite</mark> (made from *Honoki* magnolia wood), to prevent stratospheric <mark class=\"exam-target\">aluminium oxide pollution</mark> upon satellite re-entry.",
+      "detailedAnalysis": "With mega-constellations like Starlink deploying thousands of Low Earth Orbit (LEO) satellites that de-orbit every 5 years, atmospheric scientists have warned that metallic re-entry ablation increases stratospheric alumina aerosols by over 600%, threatening the post-Montreal Protocol recovery of the ozone layer. LignoSat (from the Latin *lignum* meaning wood) pioneers eco-friendly orbital design.",
+      "backgroundContext": "Previously, the European Space Agency (ESA) had conceptualised 'WISA Woodsat', but Japan's LignoSat became the first wooden satellite to actually reach space.",
+      "stakeholders": [
+        "Kyoto University & Sumitomo Forestry (Japan)",
+        "JAXA & NASA (ISS)"
+      ],
+      "relatedTopics": [
+        "LignoSat (Honoki Magnolia CubeSat)",
+        "Space Debris & Kessler Syndrome",
+        "Aluminium Oxide Aerosols & Stratospheric Ozone Depletion"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "mcq": {
+        "question": "\"LignoSat\", which was launched to the International Space Station in November 2026, was in the news because it is:",
+        "options": [
+          "NASA's first nuclear-powered probe designed to drill beneath the icy crust of Jupiter's moon Europa",
+          "The world's first wooden satellite, developed by Kyoto University and Sumitomo Forestry of Japan using Honoki magnolia wood to eliminate metallic re-entry pollution",
+          "ISRO's dedicated satellite for monitoring forest carbon stocks across the Western Ghats",
+          "The European Space Agency's laser-communication relay satellite for lunar south pole missions"
+        ],
+        "correct": 1,
+        "explanation": "LignoSat is the world's first wooden satellite, developed in Japan by Kyoto University and Sumitomo Forestry using Honoki magnolia wood (assembled without screws or glue) so that it burns up cleanly on atmospheric re-entry without releasing ozone-depleting aluminium oxide particles."
+      }
+    },
+    {
+      "id": "nov-2026-016",
+      "topic": "Art, Culture & Soft Power Diplomacy",
+      "publicationDate": "2026-11-05",
+      "originalSource": "PIB / Ministry of Culture",
+      "relatedOfficialDocuments": "1st Asian Buddhist Summit (New Delhi) — 'Role of Buddha Dhamma in Strengthening Asia'",
+      "text": "The **Ministry of Culture**, Government of India, in collaboration with the **International Buddhist Confederation (IBC)**, hosted the **1st Asian Buddhist Summit (ABS)** in **New Delhi** on November 5–6, 2026 under the theme **\"Role of Buddha Dhamma in Strengthening Asia\"**, inaugurated by **President Droupadi Murmu**.",
+      "details": {
+        "winner": "Ministry of Culture & International Buddhist Confederation (IBC)",
+        "award": "1st Asian Buddhist Summit (New Delhi)",
+        "nationality": "India & 32 Asian Nations",
+        "summary": "Brought together over 160 Sangha leaders and scholars from 32 Asian countries across Theravada, Mahayana, and Vajrayana traditions, adopting the 'Delhi Declaration'."
+      },
+      "upscHighlights": [
+        "Organizer & Theme: Organized by the **Ministry of Culture** and the **International Buddhist Confederation (IBC, HQ New Delhi)** on Nov 5–6, 2026. Theme: **\"Role of Buddha Dhamma in Strengthening Asia\"**; Chief Guest: **President Droupadi Murmu**.",
+        "Pali as a Classical Language: Highlighted the Union Cabinet's landmark October 2026 decision granting **Classical Language status to Pali** (the liturgical language of the *Tipitaka* / Theravada Buddhist canon, alongside Prakrit, Marathi, Assamese, and Bengali).",
+        "Three Major Yanas (Vehicles) Represented:\n  • (1) **Theravada (Hinayana / School of Elders)**: Pali Canon (*Sutta, Vinaya, Abhidhamma Pitaka*); prevalent in Sri Lanka, Myanmar, Thailand, Cambodia, Laos.\n  • (2) **Mahayana (Great Vehicle)**: Sanskrit texts, *Bodhisattva* ideal (*Karuna* & *Prajna*); prevalent in China, Japan, Korea, Vietnam.\n  • (3) **Vajrayana (Tantric / Diamond Vehicle)**: Esoteric practices; prevalent in Tibet, Bhutan, Mongolia, and Indian Himalayan belt (Ladakh, Sikkim, Tawang).",
+        "Static History Link — Four Buddhist Councils: 1st at **Rajagriha** (483 BCE, Patron: Ajatashatru, Presided by Mahakassapa); 2nd at **Vaishali** (383 BCE, Kalasoka, Sabakami); 3rd at **Pataliputra** (250 BCE, Ashoka, Moggaliputta Tissa); 4th at **Kundalvana, Kashmir** (72 CE, Kanishka, Vasumitra & Ashvaghosha — division into Mahayana and Hinayana)."
+      ],
+      "institutionalContext": "The International Buddhist Confederation (IBC), headquartered in New Delhi, is the biggest global religious Buddhist umbrella organization representing over 320 monastic and lay bodies worldwide.",
+      "strategicImportance": "Bridges Current Affairs (1st Asian Buddhist Summit & Pali Classical Language) with Ancient Indian History (Buddhist Councils, Tipitakas, Bodhisattvas)—a classic UPSC CDS/NDA/CAPF combination.",
+      "quickSummary": "**President Droupadi Murmu** inaugurated the <mark class=\"exam-target\">1st Asian Buddhist Summit</mark> in <mark class=\"exam-target\">New Delhi</mark> (organized by the Ministry of Culture & <mark class=\"exam-target\">IBC</mark>) on the theme *\"Role of Buddha Dhamma in Strengthening Asia\"*, celebrating <mark class=\"exam-target\">Pali</mark>'s newly granted Classical Language status.",
+      "detailedAnalysis": "Under India's 'Act East' and 'Neighbourhood First' policies, Buddhist heritage serves as a vital diplomatic bridge across Asia. India is developing the **Buddhist Circuit** under the Swadesh Darshan Scheme (connecting Lumbini, Bodh Gaya, Sarnath, Kushinagar, Rajgir, Vaishali, Sravasti, and Sankisa) and the **India International Centre for Buddhist Culture and Heritage** at Lumbini, Nepal.",
+      "backgroundContext": "Earlier in April 2023, New Delhi had also hosted the 1st Global Buddhist Summit.",
+      "stakeholders": [
+        "Ministry of Culture (Government of India)",
+        "International Buddhist Confederation (IBC)",
+        "Sangha Leaders from 32 Asian Nations"
+      ],
+      "relatedTopics": [
+        "1st Asian Buddhist Summit (New Delhi)",
+        "Pali Canon (Tipitaka) & Classical Languages",
+        "Four Buddhist Councils (Ancient History)"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "mcq": {
+        "question": "Consider the following statements regarding the 1st Asian Buddhist Summit held in November 2026 and Buddhist heritage:\n1. It was organized in New Delhi by the Ministry of Culture in collaboration with the International Buddhist Confederation (IBC) under the theme \"Role of Buddha Dhamma in Strengthening Asia\".\n2. Pali, the liturgical language of the Theravada Buddhist Tipitaka (Sutta, Vinaya, and Abhidhamma Pitaka), was recently granted Classical Language status by the Government of India in October 2026.\n3. Historically, the Fourth Buddhist Council, which led to the formal division of Buddhism into Mahayana and Hinayana sects, was convened at Pataliputra under the patronage of Emperor Ashoka.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 0,
+        "explanation": "Statements 1 and 2 are correct. Statement 3 is incorrect because the Fourth Buddhist Council (which saw the formal division into Mahayana and Hinayana) was convened at Kundalvana in Kashmir under the patronage of Kushan Emperor Kanishka (presided over by Vasumitra), whereas the Third Council was held at Pataliputra under Ashoka."
+      }
+    },
+    {
+      "id": "nov-2026-017",
+      "topic": "Indian Polity, Judiciary & Education Law",
+      "publicationDate": "2026-11-06",
+      "originalSource": "Supreme Court of India",
+      "relatedOfficialDocuments": "Supreme Court Rulings on UP Board of Madarsa Education Act, 2004 & LMV Driving Licence (5-Judge Constitution Bench)",
+      "text": "On November 5–6, 2026, the **Supreme Court of India** delivered two major judgments: (1) Upholding the constitutional validity of the **UP Board of Madarsa Education Act, 2004** (except for higher *Kamil* and *Fazil* degrees which violate the **UGC Act, 1956**); and (2) A **5-Judge Constitution Bench** unanimously ruling that a **Light Motor Vehicle (LMV)** driving licence holder can legally drive a **transport vehicle** with an unladen weight **up to 7,500 kg**.",
+      "details": {
+        "winner": "Supreme Court of India (Constitution Bench Rulings)",
+        "award": "Landmark Judgments on Education Regulation (Entry 66 Union List) & Motor Vehicles Act",
+        "nationality": "India",
+        "summary": "Clarified secularism, Article 21A vs Article 30, Entry 66 of Union List (UGC exclusive power over degrees), and LMV transport vehicle weight limits (7,500 kg)."
+      },
+      "upscHighlights": [
+        "1. UP Madarsa Education Act Judgment (3-Judge Bench headed by CJI Chandrachud):\n  • Set aside the Allahabad High Court order that had struck down the entire 2004 Act for violating secularism.\n  • Held that a statute can be struck down ONLY on two grounds: (a) **Lack of legislative competence**, or (b) **Violation of Fundamental Rights (Part III) or other specific constitutional provisions** (not merely an abstract concept without tracing it to a constitutional provision).\n  • **Severability & UGC Act (Entry 66, List I)**: Struck down the Act's provisions regulating **'Kamil'** (undergraduate) and **'Fazil'** (postgraduate) degrees because under **Entry 66 of the Union List** and Section 22 of the **University Grants Commission (UGC) Act, 1956**, only universities established by a Central/State Act or UGC-recognized institutions can confer higher degrees.\n  • **Article 21A vs Article 30**: Noted that the Right to Education Act (RTE), 2009 exempts minority institutions (per *Pramati Educational & Cultural Trust, 2014*) to protect their character under **Article 30**.",
+        "2. LMV Driving Licence Constitution Bench (5-Judge Bench — *M/s Bajaj Alliance General Insurance Co. v. Rambha Devi*):\n  • Unanimously upheld the 2017 *Mukund Dewangan* verdict.\n  • Ruled that under Section 2(21) and Section 10(2)(d) of the **Motor Vehicles Act, 1988**, a holder of a **Light Motor Vehicle (LMV)** licence is entitled to drive a **transport/commercial vehicle** (excluding hazardous goods vehicles) whose **gross/unladen weight does not exceed 7,500 kg**, without needing a separate transport endorsement."
+      ],
+      "institutionalContext": "Reinforces constitutional federalism (Seventh Schedule: Entry 66 of List I vs Entry 25 of List III—Education moved from State List to Concurrent List by the 42nd Amendment Act, 1976).",
+      "strategicImportance": "High-yield Polity & Constitutional Law questions on grounds for judicial review of statutes, Seventh Schedule entries, and Article 28/30.",
+      "quickSummary": "The Supreme Court upheld the **UP Madarsa Act, 2004** while striking down *Kamil/Fazil* degree provisions as conflicting with the <mark class=\"exam-target\">UGC Act, 1956 (Entry 66, Union List)</mark>, and a <mark class=\"exam-target\">5-Judge Constitution Bench</mark> ruled that an <mark class=\"exam-target\">LMV licence holder</mark> can drive transport vehicles up to <mark class=\"exam-target\">7,500 kg</mark>.",
+      "detailedAnalysis": "For UPSC CDS/NDA/CAPF Polity, remember the Seventh Schedule legislative entries on Education: **Entry 25 of List III (Concurrent List)** covers technical, medical, and general education (transferred from State List by the **42nd Amendment Act, 1976**), SUBJECT to **Entries 63, 64, 65, and 66 of List I (Union List)**. Specifically, **Entry 66 of the Union List** grants Parliament exclusive power over *\"Co-ordination and determination of standards in institutions for higher education or research\"*—under which the **UGC Act, 1956** was enacted.",
+      "backgroundContext": "The LMV Constitution Bench ruling directly benefits millions of commercial delivery drivers, auto/cab operators, and road accident insurance claimants across India.",
+      "stakeholders": [
+        "Supreme Court of India",
+        "University Grants Commission (UGC)",
+        "Ministry of Road Transport and Highways (MoRTH)"
+      ],
+      "relatedTopics": [
+        "Entry 66 of Union List vs Entry 25 of Concurrent List (42nd Amendment)",
+        "Articles 21A, 28, 29 and 30 of the Constitution",
+        "Motor Vehicles Act, 1988 (LMV 7,500 kg Rule)"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "High",
+        "AFCAT": "Medium",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "mcq": {
+        "question": "Consider the following statements regarding constitutional provisions and recent Supreme Court rulings (November 2026):\n1. Education was transferred from the State List (List II) to the Concurrent List (Entry 25 of List III) by the 42nd Constitutional Amendment Act, 1976.\n2. While upholding the UP Board of Madarsa Education Act, 2004 for school-level education, the Supreme Court held that its provisions granting 'Kamil' and 'Fazil' higher education degrees are unconstitutional as they conflict with the UGC Act, 1956 enacted under Entry 66 of the Union List.\n3. A 5-Judge Constitution Bench of the Supreme Court ruled that a person holding a Light Motor Vehicle (LMV) licence is legally permitted to drive a transport vehicle whose unladen weight does not exceed 7,500 kg.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 3,
+        "explanation": "All three statements are correct. Education was moved to the Concurrent List by the 42nd Amendment (1976); Kamil/Fazil higher degrees infringed the UGC Act under Entry 66 of the Union List; and the 5-Judge Bench upheld LMV licence validity for transport vehicles up to 7,500 kg."
+      }
+    },
+    {
+      "id": "nov-2026-018",
+      "topic": "Personalities, Art & Culture",
+      "publicationDate": "2026-11-05",
+      "originalSource": "PIB / Ministry of Culture",
+      "relatedOfficialDocuments": "Demise of Padma Bhushan Folk Singer Dr. Sharda Sinha ('Bihar Kokila')",
+      "text": "Legendary Indian folk singer and **Padma Bhushan** awardee **Dr. Sharda Sinha** (1952–2026), revered across India and the global diaspora as **'Bihar Kokila'** (*Nightingale of Bihar*) for her iconic **Maithili, Bhojpuri, and Magahi** folk songs—especially devotional songs of **Chhath Puja**—passed away in New Delhi on November 5, 2026 at the age of 72.",
+      "details": {
+        "winner": "Dr. Sharda Sinha (1952–2026) — 'Bihar Kokila'",
+        "award": "Padma Bhushan (2018), Sangeet Natak Akademi Award (2000) & Padma Shri (1991)",
+        "nationality": "India (Supaul / Samastipur, Bihar)",
+        "summary": "Immortalized Maithili, Bhojpuri, and Magahi folk music and Chhath Puja devotional songs ('Kelwa Ke Paat Par', 'Ho Dinanath'); passed away on the first day (Nahay Khay) of Chhath Puja."
+      },
+      "upscHighlights": [
+        "Cultural Legacy: Born on October 1, 1952 in Hulas village, Supaul district (Mithila region, Bihar). Immortalized traditional folk genres including **Chhath Geet** (*Kelwa Ke Paat Par*, *Pahile Pahil Chhathi Maiya*, *Ho Dinanath*), **Vivah Geet** (wedding songs), **Sohar** (childbirth songs), and **Kajri**.",
+        "Languages: Sang predominantly in **Maithili** (an Eighth Schedule language added by the **92nd Constitutional Amendment Act, 2003** along with Bodo, Dogri, and Santhali), **Bhojpuri**, and **Magahi**.",
+        "National Honours: Conferred the **Padma Shri** in **1991**, the **Sangeet Natak Akademi Award** in **2000**, and India's third-highest civilian honour, the **Padma Bhushan**, in **2018**.",
+        "Cultural Ambassador: Played a pivotal role in preserving oral folk traditions among the girmitiya diaspora in Mauritius, Fiji, Suriname, and Trinidad."
+      ],
+      "institutionalContext": "Honoured with full State Honours by the Government of Bihar; remembered alongside Dr. Bibek Debroy among November 2026 eminent national personalities.",
+      "strategicImportance": "High-yield 'Persons in News' and Art & Culture question for AFCAT, CDS, NDA, and CAPF.",
+      "quickSummary": "Padma Bhushan folk singer <mark class=\"exam-target\">Dr. Sharda Sinha</mark>, popularly known as <mark class=\"exam-target\">'Bihar Kokila'</mark> and celebrated for her **Maithili and Bhojpuri Chhath Puja** devotional songs, passed away on November 5.",
+      "detailedAnalysis": "In UPSC and Defence exams, questions on cultural personalities often connect to the languages and traditions they championed. Note that **Maithili** is the only regional language of Bihar currently included in the **Eighth Schedule** of the Constitution (inserted by the **92nd Amendment Act, 2003**), and **Chhath Puja** is an ancient Vedic solar festival dedicated to **Surya (the Sun God)** and **Chhathi Maiya (Usha)** observed over four days (*Nahay-Khay, Kharna, Sandhya Arghya, and Usha Arghya*).",
+      "backgroundContext": "She also lent her voice to popular Hindi cinema classics such as 'Kahe Toh Se Sajna' (Maine Pyar Kiya) and 'Taar Bijli Se Patle' (Gangs of Wasseypur).",
+      "stakeholders": [
+        "Ministry of Culture",
+        "Sangeet Natak Akademi",
+        "Government of Bihar"
+      ],
+      "relatedTopics": [
+        "Dr. Sharda Sinha (Bihar Kokila)",
+        "Maithili Language (92nd Constitutional Amendment, 2003)",
+        "Chhath Puja Cultural Heritage"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "Medium"
+      },
+      "mcq": {
+        "question": "Padma Bhushan awardee Dr. Sharda Sinha, who passed away in November 2026 and was popularly known as \"Bihar Kokila\", was renowned for her contributions to which of the following fields?",
+        "options": [
+          "Mithila (Madhubani) wall and canvas painting",
+          "Maithili, Bhojpuri, and Magahi folk music and Chhath Puja devotional songs",
+          "Kathak classical dance of the Benaras Gharana",
+          "Dhrupad vocal music of the Darbhanga Gharana"
+        ],
+        "correct": 1,
+        "explanation": "Dr. Sharda Sinha ('Bihar Kokila') was an iconic folk vocalist celebrated for her Maithili, Bhojpuri, and Magahi folk songs, particularly Chhath Puja devotional music. She was awarded the Padma Shri (1991) and Padma Bhushan (2018)."
+      }
+    },
+    {
+      "id": "nov-2026-019",
+      "topic": "Sports & Olympic Movement",
+      "publicationDate": "2026-11-05",
+      "originalSource": "Indian Olympic Association (IOA) / Ministry of Youth Affairs & Sports",
+      "relatedOfficialDocuments": "India's Formal 'Letter of Intent' to IOC for Hosting the 2036 Summer Olympics & U-19 World Boxing Championships",
+      "text": "In November 2026, the **Indian Olympic Association (IOA)** formally submitted its **'Letter of Intent'** to the **International Olympic Committee (IOC) Future Host Commission** in Lausanne, Switzerland to host the **2036 Summer Olympic and Paralympic Games** in India, while India's youth boxers clinched **17 medals (including 4 Gold)** at the inaugural **U-19 World Boxing Championships** in Pueblo, Colorado (USA).",
+      "details": {
+        "winner": "Indian Olympic Association (IOA) & Indian U-19 Boxing Contingent",
+        "award": "2036 Olympic Bid Letter of Intent & 17 Medals at U-19 World Boxing Championships",
+        "nationality": "India",
+        "summary": "IOA transitioned India into the 'Continuous Dialogue' phase with IOC for the 2036 Olympics (proposing Yoga, Kho-Kho, Kabaddi, Chess, Cricket, Squash); Indian boxers won 4 Gold, 8 Silver, and 5 Bronze in USA."
+      },
+      "upscHighlights": [
+        "India's 2036 Olympic Bid: First announced by PM Modi at the **141st IOC Session in Mumbai (October 2023)**, the formal **Letter of Intent** submitted by the **Indian Olympic Association (IOA, President: Dr. P.T. Usha)** advances India from 'Informal Dialogue' to the **'Continuous Dialogue'** stage with the IOC Future Host Commission.",
+        "6 Indigenous/Regional Sports Proposed by India for 2036: **Yoga, Kho-Kho, Kabaddi, Chess, T20 Cricket, and Squash**.",
+        "Upcoming Summer Olympics Timeline: **2024 — Paris (France)**; **2028 — Los Angeles (USA)** (where T20 Cricket, Squash, Lacrosse, Baseball/Softball, and Flag Football return/debut); **2032 — Brisbane (Australia)**; **2036 — Contested (India, Indonesia, Turkey, Chile, Qatar)**.",
+        "U-19 World Boxing Championships (Pueblo, Colorado, USA — Nov 2026): Organized by the newly formed global body **'World Boxing'**; India finished **3rd overall with 17 medals (4 Gold, 8 Silver, 5 Bronze)**—Gold won by **Parthavi Grewal (60 kg), Vanshika Goswami (+80 kg), Krisha Verma (75 kg), and Hemant Sangwan (90 kg)**."
+      ],
+      "institutionalContext": "The International Olympic Committee (IOC), founded in 1894 by Pierre de Coubertin, is headquartered in **Lausanne, Switzerland**.",
+      "strategicImportance": "High-probability Sports & International Events question for AFCAT, NDA, and CDS.",
+      "quickSummary": "The <mark class=\"exam-target\">Indian Olympic Association (IOA)</mark> formally submitted India's **Letter of Intent** to the <mark class=\"exam-target\">IOC (Lausanne)</mark> to host the <mark class=\"exam-target\">2036 Summer Olympics</mark> (proposing Yoga, Kho-Kho, Kabaddi, Chess, Cricket & Squash), while India won **17 medals (4 Gold)** at the <mark class=\"exam-target\">U-19 World Boxing Championships</mark> in Colorado, USA.",
+      "detailedAnalysis": "Along with the 2036 Summer Olympics bid (with Ahmedabad/Gandhinagar's Sardar Vallabhbhai Patel Sports Enclave as a primary proposed hub), India has also expressed intent to host the **2030 Youth Olympic Games**. Meanwhile, the newly formed international federation **'World Boxing'** (which India's Boxing Federation of India joined in 2024 to ensure boxing remains in the 2028 Los Angeles Olympics) staged its inaugural U-19 World Championships in Colorado, USA.",
+      "backgroundContext": "India previously hosted the 1951 (1st) and 1982 (9th) Asian Games and the 2010 Commonwealth Games in New Delhi.",
+      "stakeholders": [
+        "Indian Olympic Association (IOA)",
+        "International Olympic Committee (IOC, Lausanne)",
+        "Boxing Federation of India (BFI) & World Boxing"
+      ],
+      "relatedTopics": [
+        "2028 Los Angeles & 2032 Brisbane Olympics",
+        "141st IOC Session (Mumbai)",
+        "U-19 World Boxing Championships 2026"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "Medium",
+        "UPSC": "Medium"
+      },
+      "mcq": {
+        "question": "Consider the following statements regarding the Olympic Games and India's bid submitted in November 2026:\n1. The Indian Olympic Association (IOA) formally submitted a Letter of Intent to the International Olympic Committee's (IOC) Future Host Commission to host the 2036 Summer Olympic and Paralympic Games.\n2. The 2028 Summer Olympics are scheduled to be hosted in Brisbane, Australia, while the 2032 Summer Olympics will be hosted in Los Angeles, USA.\n3. At the inaugural U-19 World Boxing Championships held in Pueblo, Colorado (USA) in November 2026, India secured 17 medals including 4 Gold medals.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 2,
+        "explanation": "Statements 1 and 3 are correct. Statement 2 is incorrect (reversed) because the 2028 Summer Olympics will be hosted in Los Angeles (USA), while the 2032 Summer Olympics will be hosted in Brisbane (Australia)."
+      }
+    },
+    {
+      "id": "nov-2026-020",
+      "topic": "Science, Health & Important Days",
+      "publicationDate": "2026-11-07",
+      "originalSource": "PIB / Ministry of Health & Family Welfare / DST",
+      "relatedOfficialDocuments": "National Cancer Awareness Day (Nov 7), Sir C.V. Raman's Birth Anniversary & World Tsunami Awareness Day (Nov 5)",
+      "text": "On **November 7, 2026**, India observed **National Cancer Awareness Day** (marking the birth anniversary of Nobel Laureate **Madame Marie Curie**, born Nov 7, 1867) and the **138th Birth Anniversary of Bharat Ratna Sir C.V. Raman** (born Nov 7, 1888), following **World Tsunami Awareness Day** on **November 5**.",
+      "details": {
+        "winner": "Sir C.V. Raman (1888–1970) & Marie Curie (1867–1934)",
+        "award": "National Cancer Awareness Day (Nov 7) & World Tsunami Awareness Day (Nov 5)",
+        "nationality": "India / International",
+        "summary": "Highlights India's indigenous CAR-T Cell Therapy ('NexCAR19'), the Raman Effect (inelastic scattering of light), and INCOIS Hyderabad's Tsunami Early Warning System."
+      },
+      "upscHighlights": [
+        "National Cancer Awareness Day (November 7): Instituted in India in September 2014 to coincide with the birth anniversary of **Marie Skłodowska-Curie** (born 7 Nov 1867)—the **only person in history to win Nobel Prizes in two different scientific fields**: **Physics (1903**, for radioactivity with Pierre Curie & Henri Becquerel) and **Chemistry (1911**, for discovering **Radium and Polonium**).",
+        "Indigenous Cancer Breakthrough — 'NexCAR19': India's first indigenously developed **CAR-T (Chimeric Antigen Receptor T-cell) Therapy** named **'NexCAR19'** (Actalycabtagene autoleucel), developed jointly by **IIT Bombay**, **Tata Memorial Centre**, and **ImmunoAct**, treats B-cell lymphomas and leukaemia at ~1/10th the global cost.",
+        "Sir C.V. Raman (Born November 7, 1888 in Tiruchirappalli, Tamil Nadu): Won the **1930 Nobel Prize in Physics** (first Asian to win a Nobel Prize in any branch of science) for discovering the **Raman Effect** on **28 February 1928** (celebrated as **National Science Day**)—the **inelastic scattering of photons** by matter, where scattered light changes wavelength/frequency due to molecular vibrational energy transitions. Awarded the **Bharat Ratna in 1954** (inaugural batch along with C. Rajagopalachari and Dr. S. Radhakrishnan).",
+        "World Tsunami Awareness Day (November 5): Instituted by the UN General Assembly in December 2015, inspired by the Japanese story of ***'Inamura-no-Hi'*** (*burning of the rice sheaves* during the 1854 earthquake). In India, the **Indian Tsunami Early Warning Centre (ITEWC)** operates under **INCOIS (Indian National Centre for Ocean Information Services)** in **Hyderabad**."
+      ],
+      "institutionalContext": "Integrates Physics (Raman Scattering, Radioactivity), Biotechnology (CAR-T Cell Therapy, Cervical Cancer HPV Vaccine 'Cervavac'), and Disaster Management (INCOIS Tsunami Warning).",
+      "strategicImportance": "High-yield Science + GK crossover question for NDA, CDS, AFCAT, and CAPF.",
+      "quickSummary": "**November 7** marks <mark class=\"exam-target\">National Cancer Awareness Day</mark> (**Marie Curie**'s birth anniversary) and <mark class=\"exam-target\">Sir C.V. Raman</mark>'s birth anniversary (discoverer of the **Raman Effect** — inelastic scattering of photons), while **November 5** marks <mark class=\"exam-target\">World Tsunami Awareness Day</mark> (inspired by Japan's *Inamura-no-Hi*).",
+      "detailedAnalysis": "Remember two key indigenous Indian medical milestones against cancer frequently asked in UPSC/CDS: (1) **'NexCAR19'** — India's first indigenous **CAR-T Cell gene therapy** (IIT Bombay + Tata Memorial Hospital + ImmunoAct) approved by CDSCO; and (2) **'CERVAVAC'** — India's first indigenous quadrivalent **Human Papillomavirus (qHPV) vaccine** against cervical cancer, developed by the **Serum Institute of India (SII, Pune)** and the Department of Biotechnology (DBT).",
+      "backgroundContext": "Note the important distinction: **November 7** is **National Cancer Awareness Day** (India), whereas **February 4** is **World Cancer Day** (observed globally by UICC).",
+      "stakeholders": [
+        "Ministry of Health and Family Welfare",
+        "IIT Bombay & Tata Memorial Centre (NexCAR19)",
+        "INCOIS Hyderabad (ITEWC)"
+      ],
+      "relatedTopics": [
+        "Raman Effect (Inelastic Scattering of Light) vs Rayleigh Scattering",
+        "NexCAR19 (CAR-T Cell Therapy) & Cervavac (HPV Vaccine)",
+        "National Cancer Awareness Day (Nov 7) vs World Cancer Day (Feb 4)"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "mcq": {
+        "question": "Consider the following statements regarding scientific milestones associated with National Cancer Awareness Day (November 7) and Sir C.V. Raman:\n1. National Cancer Awareness Day is observed in India on November 7 to mark the birth anniversary of Marie Curie, who won Nobel Prizes in both Physics (1903) and Chemistry (1911).\n2. \"NexCAR19\" is India's first indigenously developed Chimeric Antigen Receptor T-cell (CAR-T) therapy for cancer treatment, developed collaboratively by IIT Bombay, Tata Memorial Centre, and ImmunoAct.\n3. The \"Raman Effect\", discovered by Bharat Ratna Sir C.V. Raman (born November 7, 1888), refers to the inelastic scattering of photons by molecules resulting in a shift in the wavelength of scattered light.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 3,
+        "explanation": "All three statements are correct. November 7 marks both Marie Curie's birth anniversary (National Cancer Awareness Day) and Sir C.V. Raman's birth anniversary; NexCAR19 is India's indigenous CAR-T cell therapy; and the Raman Effect is the inelastic scattering of light."
+      }
+    },
+    {
+      "id": "nov-2026-021",
+      "topic": "Defence Technology & Missile Systems",
+      "publicationDate": "2026-11-12",
+      "originalSource": "PIB / Ministry of Defence & DRDO",
+      "relatedOfficialDocuments": "Maiden Flight-Test of DRDO's Long Range Land Attack Cruise Missile (LRLACM) from ITR Chandipur",
+      "text": "On **November 12, 2026**, the **Defence Research and Development Organisation (DRDO)** conducted the successful **maiden flight-test** of its indigenously developed **Long Range Land Attack Cruise Missile (LRLACM)** from a mobile articulated launcher at the **Integrated Test Range (ITR), Chandipur, Odisha**.",
+      "details": {
+        "winner": "DRDO (ADE Bengaluru), BDL (Hyderabad) & BEL (Bengaluru)",
+        "award": "Maiden Flight-Test of Long Range Land Attack Cruise Missile (LRLACM — 1,000+ km)",
+        "nationality": "India",
+        "summary": "A 1,000+ km range subsonic deep-strike cruise missile configured to launch from both mobile ground launchers (Army/IAF) and frontline naval warships via Universal Vertical Launch Modules (UVLM)."
+      },
+      "upscHighlights": [
+        "Lead Lab & Production Partners: Designed and developed by DRDO's **Aeronautical Development Establishment (ADE), Bengaluru**, with **Bharat Dynamics Limited (BDL), Hyderabad** and **Bharat Electronics Limited (BEL), Bengaluru** serving as the Development-cum-Production Partners (DcPP).",
+        "Dual-Platform Launch Capability: Configured to be launched from **mobile articulated ground launchers** (for the Indian Army and Indian Air Force) as well as from frontline **Indian Navy warships** using the **Universal Vertical Launch Module (UVLM)** system patented by BrahMos Aerospace.",
+        "Technical & Tactical Profile: A **1,000+ km range** subsonic, aerodynamic cruise missile powered by a solid rocket booster for initial launch and an indigenous **turbofan engine** (Manik / STFE) for sustained cruise flight. During the Nov 12 trial, it performed complex waypoint navigation and flew at various altitudes and speeds while sea-skimming/terrain-hugging to evade enemy radar.",
+        "Strategic Role: Sanctioned by the Defence Acquisition Council (DAC) as an AoN Mission Mode Project to provide the Indian Armed Forces with a stand-off precision conventional strike capability comparable to the US Tomahawk and Russian Kalibr."
+      ],
+      "institutionalContext": "Evolved from the indigenous Nirbhay technology demonstrator programme into an operational tri-service weapon system.",
+      "strategicImportance": "Guaranteed top-tier Defence Technology question for CDS 1 2027, NDA 1 2027, and AFCAT 1 2027.",
+      "quickSummary": "DRDO conducted the <mark class=\"exam-target\">maiden flight-test</mark> of the <mark class=\"exam-target\">1,000+ km range Long Range Land Attack Cruise Missile (LRLACM)</mark> from <mark class=\"exam-target\">ITR Chandipur (Odisha)</mark>, developed by <mark class=\"exam-target\">ADE Bengaluru</mark> with BDL and BEL for both ground mobile launchers and naval <mark class=\"exam-target\">UVLM</mark> cells.",
+      "detailedAnalysis": "Distinguish India's two main cruise missile families for UPSC Defence exams: (1) **BrahMos** is a **supersonic** cruise missile (Mach 2.8–3.0, range 290 km extended to 450–800 km) powered by a liquid **ramjet** engine; whereas (2) **LRLACM** is a **long-range subsonic** cruise missile (~Mach 0.7–0.8, range **1,000+ km**) powered by a **turbofan** engine with fold-out wings, flying at ultra-low tree-top/sea-skimming altitudes for stealthy deep-penetration strikes.",
+      "backgroundContext": "Tracked end-to-end by radar, Electro-Optical Tracking Systems (EOTS), and telemetry stations deployed by ITR Chandipur along the Odisha coast.",
+      "stakeholders": [
+        "DRDO (ADE Bengaluru & ITR Chandipur)",
+        "Bharat Dynamics Limited (BDL) & Bharat Electronics Limited (BEL)",
+        "Indian Navy, Indian Air Force & Indian Army"
+      ],
+      "relatedTopics": [
+        "Long Range Land Attack Cruise Missile (LRLACM)",
+        "Nirbhay Cruise Missile & Manik Turbofan Engine",
+        "BrahMos Supersonic Cruise Missile & Pralay Quasi-Ballistic Missile"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "mcq": {
+        "question": "Consider the following statements regarding the Long Range Land Attack Cruise Missile (LRLACM), which underwent its maiden flight-test from ITR Chandipur in November 2026:\n1. It is an indigenously developed missile designed by DRDO's Aeronautical Development Establishment (ADE), Bengaluru, with BDL and BEL as Development-cum-Production Partners.\n2. It is configured to be launched only from land-based mobile articulated launchers and cannot be fired from naval warships.\n3. During its maiden test, the missile demonstrated waypoint navigation and the ability to fly at varying altitudes and speeds to engage deep-land targets over a range exceeding 1,000 km.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 2,
+        "explanation": "Statements 1 and 3 are correct. Statement 2 is incorrect because LRLACM is specifically designed for dual launch—both from mobile articulated ground launchers and from frontline Indian Navy warships using the Universal Vertical Launch Module (UVLM) system."
+      }
+    },
+    {
+      "id": "nov-2026-022",
+      "topic": "Tri-Service Exercises & Space Warfare",
+      "publicationDate": "2026-11-11",
+      "originalSource": "PIB / HQ Integrated Defence Staff (HQ IDS) & Eastern Command",
+      "relatedOfficialDocuments": "Exercise 'POORVI PRAHAR' (Eastern Theatre) & 1st Military Space Exercise 'ANTARIKSHA ABHYAS – 2026' (New Delhi)",
+      "text": "Between November 10 and 18, 2026, the Indian Armed Forces launched two landmark **Tri-Service exercises**: (1) **Exercise 'POORVI PRAHAR'**, a high-altitude integrated theatre exercise conducted by the **Eastern Command** along the LAC in **Arunachal Pradesh**; and (2) **'ANTARIKSHA ABHYAS – 2026'** (Nov 11–13), India's **first-ever dedicated Tri-Service Military Space Exercise** hosted by the **Defence Space Agency (DSA)** in **New Delhi**.",
+      "details": {
+        "winner": "HQ Integrated Defence Staff (Defence Space Agency) & Eastern Command",
+        "award": "Exercise Poorvi Prahar (Arunachal LAC) & Exercise Antariksha Abhyas 2026 (New Delhi)",
+        "nationality": "India (Tri-Service: Army, Navy, Air Force)",
+        "summary": "Poorvi Prahar validated joint Army-Navy-IAF mountain strike operations (including Naval P-8I & IAF Prachand/Rafale), while Antariksha Abhyas 2026 war-gamed space domain awareness and satellite asset protection."
+      },
+      "upscHighlights": [
+        "1. Exercise POORVI PRAHAR (Nov 10–18, 2026 — Eastern Theatre, Arunachal Pradesh):\n  • A 9-day Tri-Service high-altitude integrated combat exercise spearheaded by the Indian Army's **Eastern Command (HQ: Fort William, Kolkata)** across the forward mountainous sectors of Arunachal Pradesh.\n  • **Cross-Domain Asset Integration**: Uniquely deployed the **Indian Navy's P-8I Poseidon** long-range maritime reconnaissance aircraft for high-altitude overland radar surveillance and ISR in the Himalayas, alongside IAF **Rafale, Su-30MKI, Chinook, Apaches**, indigenous **LCH 'Prachand'**, **Swarm Drones**, **First-Person View (FPV) drones**, and **loitering munitions**.\n  • Operated under a unified **Joint Control Structure** connected via satellite communication and AI-driven situational awareness.",
+        "2. Exercise ANTARIKSHA ABHYAS – 2026 (Nov 11–13, 2026 — New Delhi):\n  • **India's first dedicated Tri-Service Military Space table-top and war-gaming exercise**, conducted by the **Defence Space Agency (DSA)** of **HQ Integrated Defence Staff (HQ IDS)** and inaugurated by **CDS General Anil Chauhan**.\n  • Focused on **Space Situational Awareness (SSA)**, protection of Indian military communication/reconnaissance satellites (*GSAT-7 Rukmini, GSAT-7A Angry Bird, EMISAT*), and countering anti-satellite (ASAT), cyber, and electronic jamming threats in collaboration with **ISRO** and **DRDO**."
+      ],
+      "institutionalContext": "The Defence Space Agency (DSA, HQ Bengaluru) was established in 2019 alongside the Defence Cyber Agency (DCA) and Armed Forces Special Operations Division (AFSOD) to lay the foundation for Tri-Service Theaterisation.",
+      "strategicImportance": "Extremely high-probability question for CDS, NDA, and AFCAT on India's newest Tri-Service exercises.",
+      "quickSummary": "India conducted <mark class=\"exam-target\">Exercise Poorvi Prahar</mark> (Tri-Service high-altitude drill in <mark class=\"exam-target\">Arunachal Pradesh</mark> featuring Navy <mark class=\"exam-target\">P-8I</mark> and IAF <mark class=\"exam-target\">Prachand</mark>) and <mark class=\"exam-target\">Antariksha Abhyas 2026</mark> (India's 1st Tri-Service <mark class=\"exam-target\">Military Space Exercise</mark> by the <mark class=\"exam-target\">Defence Space Agency</mark> in New Delhi).",
+      "detailedAnalysis": "Remember the three specialized Tri-Service agencies created under HQ IDS in 2019: (1) **Defence Space Agency (DSA)** — merges the Defence Imagery Processing and Analysis Centre (DIPAC, Delhi) and Defence Satellite Control Centre (DSCC, Bhopal); (2) **Defence Cyber Agency (DCA)**; and (3) **Armed Forces Special Operations Division (AFSOD)** (comprising Army Para SF, Navy MARCOS, and IAF Garud Commandos).",
+      "backgroundContext": "Previously in March 2019, DRDO conducted 'Mission Shakti'—an Anti-Satellite (ASAT) missile test destroying a target satellite in a 300 km Low Earth Orbit (LEO).",
+      "stakeholders": [
+        "HQ Integrated Defence Staff (Defence Space Agency)",
+        "Eastern Command (Indian Army, IAF, Indian Navy)",
+        "ISRO & DRDO"
+      ],
+      "relatedTopics": [
+        "Exercise Poorvi Prahar & Exercise Bharat Shakti",
+        "Antariksha Abhyas 2026 & Mission Shakti (ASAT)",
+        "DSA, DCA & AFSOD (Tri-Service Agencies)"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "mcq": {
+        "question": "Consider the following statements regarding the Tri-Service exercises conducted by the Indian Armed Forces in November 2026:\n1. Exercise \"Antariksha Abhyas – 2026\", inaugurated in New Delhi by Chief of Defence Staff General Anil Chauhan, is India's first dedicated Tri-Service military space exercise conducted by the Defence Space Agency (DSA).\n2. Exercise \"Poorvi Prahar\" is an integrated Tri-Service combat exercise conducted in the high-altitude mountainous terrain of the Eastern Theatre (Arunachal Pradesh), which included the deployment of the Indian Navy's P-8I reconnaissance aircraft alongside Army and IAF assets.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "1 only",
+          "2 only",
+          "Both 1 and 2",
+          "Neither 1 nor 2"
+        ],
+        "correct": 2,
+        "explanation": "Both statements 1 and 2 are correct. Antariksha Abhyas – 2026 (Nov 11–13) is India's maiden Tri-Service space war-game conducted by the Defence Space Agency under HQ IDS, while Poorvi Prahar (Nov 10–18) validated Tri-Service air-land-maritime sensor integration across the Eastern Theatre."
+      }
+    },
+    {
+      "id": "nov-2026-023",
+      "topic": "Indian Polity, Judiciary & Constitutional Appointments",
+      "publicationDate": "2026-11-11",
+      "originalSource": "PIB / Rashtrapati Bhavan & Supreme Court of India",
+      "relatedOfficialDocuments": "Oath-Taking of Justice Sanjiv Khanna as the 51st Chief Justice of India (Article 124) & National Legal Services Day (Nov 9)",
+      "text": "On **November 11, 2026**, **President Droupadi Murmu** administered the oath of office to **Justice Sanjiv Khanna** as the **51st Chief Justice of India (CJI)** at Rashtrapati Bhavan under **Article 124(2)** of the Constitution, succeeding the 50th CJI **Justice D.Y. Chandrachud**.",
+      "details": {
+        "winner": "Justice Sanjiv Khanna (51st Chief Justice of India)",
+        "award": "Sworn in as 51st CJI at Rashtrapati Bhavan (Article 124)",
+        "nationality": "India",
+        "summary": "Elevated from the Delhi High Court to the Supreme Court in January 2019; nephew of legendary jurist Justice Hans Raj Khanna; previously served as Executive Chairman of NALSA."
+      },
+      "upscHighlights": [
+        "Constitutional Provisions for CJI: Appointed by the President by warrant under her hand and seal under **Article 124(2)** (following the **Seniority Convention** and Memorandum of Procedure, where the outgoing CJI recommends the senior-most Supreme Court judge). Subscribes to the oath before the President under **Article 124(6)** (form set out in the **Third Schedule**).",
+        "Tenure & Retirement Age: Holds office until attaining the age of **65 years** (May 13, 2025/2027) — note that the Constitution does **not** fix a minimum tenure for the CJI (High Court judges retire at **62 years** under Article 217, raised from 60 by the 15th Amendment, 1963).",
+        "Historical Lineage: Justice Sanjiv Khanna is the nephew of iconic Supreme Court Judge **Justice Hans Raj (H.R.) Khanna**, who propounded the **Basic Structure Doctrine** in *Kesavananda Bharati (1973)* and wrote the courageous **lone dissenting opinion** upholding the Right to Life (Article 21) during the Emergency in the ***ADM Jabalpur v. Shivkant Shukla (Habeas Corpus) case, 1976*** (after which he was superseded for CJI in 1977).",
+        "Key Judgments & NALSA Link: Authored/co-authored landmark verdicts bringing the **Office of the CJI under the Right to Information (RTI) Act, 2005** (2019), upholding the **abrogation of Article 370**, striking down the **Electoral Bonds Scheme**, rejecting 100% **EVM-VVPAT** cross-verification, and exercising power under **Article 142** to grant divorce directly on 'irretrievable breakdown of marriage'. Prior to becoming CJI, he served as Executive Chairman of **NALSA (National Legal Services Authority)**—celebrated on **National Legal Services Day (November 9)** under the Legal Services Authorities Act, 1987 and **Article 39A**."
+      ],
+      "institutionalContext": "Under the Legal Services Authorities Act, 1987, the **Chief Justice of India** is the **Patron-in-Chief** of NALSA, while the **second senior-most Supreme Court Judge** serves as its **Executive Chairman**.",
+      "strategicImportance": "Guaranteed Polity & Appointments question for AFCAT, CDS, NDA, and CAPF.",
+      "quickSummary": "<mark class=\"exam-target\">Justice Sanjiv Khanna</mark> was sworn in by President Droupadi Murmu on November 11 as the <mark class=\"exam-target\">51st Chief Justice of India</mark> under <mark class=\"exam-target\">Article 124(2)</mark>, succeeding 50th CJI Justice D.Y. Chandrachud.",
+      "detailedAnalysis": "For UPSC CDS/NDA Polity, review the grounds and procedure for removal of a Supreme Court Judge under **Article 124(4)** and the **Judges (Inquiry) Act, 1968**: Only on two grounds — **'Proved Misbehaviour' or 'Incapacity'** — requiring a motion signed by **100 Lok Sabha MPs or 50 Rajya Sabha MPs**, investigated by a 3-member judicial committee, and passed by each House of Parliament in the same session by a **Special Majority** (majority of total membership of that House + majority of not less than two-thirds of members present and voting).",
+      "backgroundContext": "November 9 was observed nationwide as National Legal Services Day (commemorating the enforcement of the Legal Services Authorities Act, 1987 on 9 Nov 1995 to fulfill Article 39A — Free Legal Aid).",
+      "stakeholders": [
+        "Supreme Court of India (51st CJI Justice Sanjiv Khanna)",
+        "President of India (Article 124)",
+        "National Legal Services Authority (NALSA — Article 39A)"
+      ],
+      "relatedTopics": [
+        "Article 124 (Appointment, Oath & Removal of SC Judges)",
+        "Justice H.R. Khanna (Kesavananda Bharati & ADM Jabalpur Dissent)",
+        "Article 39A & NALSA (National Legal Services Day — Nov 9)"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "mcq": {
+        "question": "Consider the following statements regarding the Office of the Chief Justice of India (CJI), following the swearing-in of Justice Sanjiv Khanna as the 51st CJI in November 2026:\n1. The Chief Justice of India and other Judges of the Supreme Court are appointed by the President under Clause (2) of Article 124 of the Constitution.\n2. The Constitution of India prescribes a fixed minimum tenure of two years for the Chief Justice of India, subject to an upper retirement age of 65 years.\n3. Under the Legal Services Authorities Act, 1987 (enacted to give effect to Article 39A of the Constitution), the Chief Justice of India serves as the Patron-in-Chief of the National Legal Services Authority (NALSA).\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 2,
+        "explanation": "Statements 1 and 3 are correct. Statement 2 is incorrect because the Constitution does NOT prescribe any fixed minimum tenure for the Chief Justice of India or Supreme Court judges; it only specifies that a judge holds office until attaining the age of 65 years under Article 124(2)."
+      }
+    },
+    {
+      "id": "nov-2026-024",
+      "topic": "Indian Polity & Fundamental Rights (Article 30)",
+      "publicationDate": "2026-11-08",
+      "originalSource": "Supreme Court of India",
+      "relatedOfficialDocuments": "7-Judge Constitution Bench Judgment in Aligarh Muslim University v. Naresh Agarwal (Article 30 Minority Educational Institutions)",
+      "text": "In a historic **4:3 majority judgment** on **November 8, 2026**, a **7-Judge Constitution Bench** of the **Supreme Court** headed by CJI D.Y. Chandrachud **overruled the 1967 5-Judge Bench ruling in *S. Azeez Basha v. Union of India***, holding that an educational institution is **not barred from claiming Minority Status under Article 30(1)** merely because it was created or incorporated by a statute (such as the **Aligarh Muslim University Act, 1920**).",
+      "details": {
+        "winner": "7-Judge Constitution Bench of the Supreme Court (4:3 Majority)",
+        "award": "Overruling of S. Azeez Basha (1967) & 'Genesis / Brainchild Test' under Article 30(1)",
+        "nationality": "India",
+        "summary": "Clarified the meaning of 'establish and administer' under Article 30(1) for religious and linguistic minorities; referred the factual determination of AMU's minority status to a regular 3-Judge Bench."
+      },
+      "upscHighlights": [
+        "What is Article 30(1)?: Grants all minorities, whether based on **religion or language**, the Fundamental Right to **\"establish and administer\"** educational institutions of their choice.",
+        "Why *S. Azeez Basha (1967)* was Overruled: In 1967, a 5-Judge Bench held that since AMU was incorporated by a Central Legislature statute (the AMU Act, 1920), it was \"established\" by Parliament and not by the Muslim minority. The 2026 **7-Judge Bench (4:3 majority)** overruled this formalistic view, holding that statutory incorporation (then required for a university's degrees to be recognized) does **not** extinguish the minority character of an institution's founding.",
+        "The 'Genesis / Brainchild Test' Laid Down by the Court: To determine whether an institution was \"established\" by a minority under Article 30(1), courts must pierce the statutory veil and examine:\n  • (1) **Ideation / Brainchild**: Who conceived the idea of establishing the institution?\n  • (2) **Purpose**: Was it founded predominantly for the benefit/advancement of the minority community?\n  • (3) **Funding & Land**: Who contributed the funds, endowments, and land (e.g., the Muhammadan Anglo-Oriental College founded by **Sir Syed Ahmad Khan in 1875/1877**, which became AMU in 1920)?\n  • (4) **Initial Administration**: Did members of the minority community spearhead the foundational steps?",
+        "Pre-Constitution Institutions Included: The Bench also held that educational institutions founded **before 26 January 1950** are equally entitled to the protection of Article 30(1)."
+      ],
+      "institutionalContext": "The 4:3 majority comprised CJI D.Y. Chandrachud and Justices Sanjiv Khanna, J.B. Pardiwala, and Manoj Misra (with Justices Surya Kant, Dipankar Datta, and Satish Chandra Sharma dissenting); the factual application of these criteria to AMU will now be decided by a regular Bench.",
+      "strategicImportance": "High-yield crossover topic combining **Indian Polity (Articles 29 & 30)** and **Modern Indian History (Sir Syed Ahmad Khan & the Aligarh Movement, 1875)**.",
+      "quickSummary": "A <mark class=\"exam-target\">7-Judge Constitution Bench</mark> ruled (<mark class=\"exam-target\">4:3</mark>) to overrule <mark class=\"exam-target\">S. Azeez Basha (1967)</mark>, holding that an educational institution incorporated by a statute can still claim <mark class=\"exam-target\">Minority Status under Article 30(1)</mark> if its founding satisfies the <mark class=\"exam-target\">'Genesis / Brainchild Test'</mark>.",
+      "detailedAnalysis": "Connect this judgment to **Modern Indian History** for CDS & NDA: **Sir Syed Ahmad Khan** founded the **Scientific Society (1864)**, launched the journal ***Tahzib-ul-Akhlaq*** (*Social Reformer*), and established the **Muhammadan Anglo-Oriental (MAO) College at Aligarh in 1875/1877** (on land donated for modern Western scientific education alongside Islamic studies), which was elevated to **Aligarh Muslim University (AMU) in 1920**. Also note the constitutional distinction between **Article 29** (protects the distinct language, script, or culture of *'any section of citizens'*—including both majorities and minorities) and **Article 30** (applies exclusively to *religious and linguistic minorities*; the term 'minority' is **not defined** anywhere in the Constitution).",
+      "backgroundContext": "Under Entry 63 of the Union List (Seventh Schedule), Banaras Hindu University (BHU), Aligarh Muslim University (AMU), and Delhi University are expressly listed as Institutions of National Importance.",
+      "stakeholders": [
+        "Supreme Court of India (7-Judge Constitution Bench)",
+        "Aligarh Muslim University & Ministry of Education"
+      ],
+      "relatedTopics": [
+        "Article 29 vs Article 30 of the Constitution",
+        "Sir Syed Ahmad Khan & Aligarh Movement (1875)",
+        "Entry 63 of Union List (Seventh Schedule)"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "mcq": {
+        "question": "With reference to the 7-Judge Constitution Bench judgment of the Supreme Court on Article 30(1) in the Aligarh Muslim University case (November 2026), consider the following statements:\n1. By a 4:3 majority, the Supreme Court overruled its 1967 judgment in 'S. Azeez Basha v. Union of India' and held that an educational institution is not barred from claiming minority status merely because it was incorporated through a statute.\n2. To determine whether an institution was \"established\" by a minority under Article 30(1), the Court laid down tests examining the genesis/brainchild of the institution, the source of funds and land, and the community for whose benefit it was founded.\n3. Article 30(1) of the Constitution defines the exact numerical threshold for recognizing religious, linguistic, and ethnic minorities in India.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 0,
+        "explanation": "Statements 1 and 2 are correct. Statement 3 is incorrect because the Constitution of India recognizes ONLY religious and linguistic minorities under Article 30(1) (not ethnic minorities) and does NOT define the term 'minority' or any numerical threshold."
+      }
+    },
+    {
+      "id": "nov-2026-025",
+      "topic": "Environment, Climate Finance & Global Summits",
+      "publicationDate": "2026-11-11",
+      "originalSource": "UNFCCC / Ministry of Environment, Forest and Climate Change (MoEFCC)",
+      "relatedOfficialDocuments": "29th UNFCCC Climate Summit (COP29) in Baku, Azerbaijan — New Collective Quantified Goal (NCQG) & Article 6 Carbon Markets",
+      "text": "The **29th Conference of the Parties (COP29)** to the **UN Framework Convention on Climate Change (UNFCCC)** commenced on **November 11, 2026** in **Baku, Azerbaijan** (Nov 11–22) under the theme **\"In Solidarity for a Green World\"**, focusing on the **New Collective Quantified Goal (NCQG)** on climate finance and operationalizing global carbon markets under **Article 6 of the Paris Agreement**.",
+      "details": {
+        "winner": "UNFCCC COP29 Presidency (Baku, Azerbaijan — President Mukhtar Babayev)",
+        "award": "'Finance COP' — NCQG Climate Finance & Article 6 Carbon Trading Rules",
+        "nationality": "International (Host: Baku, Azerbaijan)",
+        "summary": "Approved rules for a UN-backed global carbon credit market under Article 6.4 of the Paris Agreement on Day 1 and negotiated the post-2025 New Collective Quantified Goal (NCQG) replacing the 2009 $100B pledge."
+      },
+      "upscHighlights": [
+        "Venue & Presidency: Hosted in **Baku, Azerbaijan** (located on the western shore of the **Caspian Sea**) from Nov 11–22, 2026, presided over by **Mukhtar Babayev**. Succeeds **COP28 (Dubai, UAE)** and precedes **COP30 (Belém, Brazil — in the Amazon region)**.",
+        "Why COP29 is called the 'Finance COP': Mandated under the 2015 Paris Agreement to finalize the **New Collective Quantified Goal (NCQG)** on climate finance before 2025/2026, replacing the 2009 Copenhagen (COP15) pledge by developed countries to provide **$100 billion per year** to developing nations. India and the Like-Minded Developing Countries (LMDC) demanded **$1 to $1.3 trillion per year** largely in grants and concessional public finance under the principle of **CBDR–RC** (*Common But Differentiated Responsibilities and Respective Capabilities*).",
+        "Breakthrough on Article 6 (Global Carbon Markets): On its opening day (Nov 11), COP29 approved the standards for **Article 6.4** of the Paris Agreement (**Paris Agreement Crediting Mechanism — PACM**, replacing the Kyoto Protocol's Clean Development Mechanism): \n  • **Article 6.2**: Bilateral country-to-country trading of **ITMOs** (*Internationally Transferred Mitigation Outcomes*).\n  • **Article 6.4**: Centralized UN-supervised global carbon market open to nations and private companies.",
+        "Map-Work Link — Caspian Sea Bordering Nations (TARIK): Azerbaijan's capital Baku sits on the **Caspian Sea**, the world's largest inland body of water, bordered by **5 countries** (Mnemonic **TARIK**: **T**urkmenistan, **A**zerbaijan, **R**ussia, **I**ran, **K**azakhstan)."
+      ],
+      "institutionalContext": "Completes the 2026 'Rio Trio' of COP summits deriving from the 1992 Rio Earth Summit: **CBD COP16 (Cali, Colombia)**, **UNFCCC COP29 (Baku, Azerbaijan)**, and **UNCCD COP16 (Riyadh, Saudi Arabia)**.",
+      "strategicImportance": "Guaranteed Environment + World Geography question for UPSC Prelims, CDS, NDA, and CAPF.",
+      "quickSummary": "<mark class=\"exam-target\">UNFCCC COP29</mark> ('Finance COP') opened in <mark class=\"exam-target\">Baku, Azerbaijan</mark> (on the <mark class=\"exam-target\">Caspian Sea</mark>) to negotiate the <mark class=\"exam-target\">New Collective Quantified Goal (NCQG)</mark> on climate finance and operationalize <mark class=\"exam-target\">Article 6.4</mark> UN global carbon markets.",
+      "detailedAnalysis": "Memorize the **'Rio Trio' COP Host Cities** and key mechanisms for CDS/NDA/CAPF: (1) **UNCBD COP16** — **Cali, Colombia** (*Cali Fund* for Digital Sequence Information); (2) **UNFCCC COP29** — **Baku, Azerbaijan** (*NCQG Climate Finance* & *Article 6 Carbon Markets*; after Dubai COP28 launched the *Loss and Damage Fund* hosted by the World Bank); and (3) **UNCCD COP16** — **Riyadh, Saudi Arabia** (Combating Desertification & Drought Resilience).",
+      "backgroundContext": "India is simultaneously operationalizing its domestic **Carbon Credit Trading Scheme (CCTS)** notified by the Ministry of Power and Bureau of Energy Efficiency (BEE) under the Energy Conservation (Amendment) Act, 2022.",
+      "stakeholders": [
+        "UNFCCC Secretariat (Bonn, Germany) & COP29 Presidency (Baku)",
+        "Ministry of Environment, Forest and Climate Change (India)",
+        "Bureau of Energy Efficiency (CCTS India)"
+      ],
+      "relatedTopics": [
+        "UNFCCC COP29 (Baku) — NCQG & Article 6 Carbon Markets",
+        "Caspian Sea Bordering Countries (Mnemonic: TARIK)",
+        "Rio Trio Summits (Cali, Baku, Riyadh)"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "mcq": {
+        "question": "Consider the following statements regarding the 29th UNFCCC Climate Change Conference (COP29) held in November 2026:\n1. It was hosted in Baku, Azerbaijan, a city located on the western coast of the Caspian Sea.\n2. Dubbed the \"Finance COP\", its central agenda was establishing the New Collective Quantified Goal (NCQG) on climate finance to replace the earlier $100 billion-a-year pledge by developed nations.\n3. Article 6 of the Paris Agreement, whose centralized crediting rules were approved at COP29, deals with international carbon market mechanisms and the trading of carbon credits.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 3,
+        "explanation": "All three statements are correct. COP29 was hosted in Baku, Azerbaijan (on the Caspian Sea), centered on the New Collective Quantified Goal (NCQG) on climate finance, and operationalized global carbon market rules under Article 6 (6.2 and 6.4) of the Paris Agreement."
+      }
+    },
+    {
+      "id": "nov-2026-026",
+      "topic": "International Relations & Strategic Trade Corridors",
+      "publicationDate": "2026-11-12",
+      "originalSource": "Ministry of External Affairs (MEA)",
+      "relatedOfficialDocuments": "25th India–Russia IRIGC-TEC Session (New Delhi) & Opening of India's 4th Consulate in Brisbane, Australia",
+      "text": "On **November 11–12, 2026**, External Affairs Minister **Dr. S. Jaishankar** and Russian First Deputy Prime Minister **Denis Manturov** co-chaired the **25th Session of the India–Russia Intergovernmental Commission on Trade, Economic, Scientific, Technological and Cultural Cooperation (IRIGC-TEC)** in **New Delhi**, shortly after India inaugurated its **4th Consulate General in Australia at Brisbane**.",
+      "details": {
+        "winner": "Ministry of External Affairs (EAM Dr. S. Jaishankar)",
+        "award": "25th India–Russia IRIGC-TEC (New Delhi) & 4th Indian Consulate in Australia (Brisbane)",
+        "nationality": "India / Russia / Australia",
+        "summary": "Advanced the $100 billion India-Russia bilateral trade target by 2030 and 3 strategic connectivity corridors (INSTC, Chennai-Vladivostok, Northern Sea Route), following the 15th India-Australia FMFD."
+      },
+      "upscHighlights": [
+        "1. 25th India–Russia IRIGC-TEC (New Delhi & Mumbai, Nov 11–12, 2026):\n  • Co-chaired by EAM **Dr. S. Jaishankar** and Russian First Deputy PM **Denis Manturov**.\n  • Set a bilateral trade target of **$100 billion by 2030** (bilateral trade already crossed **$65+ billion**, driven by energy, fertilizers, diamonds, and pharmaceuticals) and pushed for a **Bilateral Investment Treaty (BIT)** and **India–Eurasian Economic Union (EAEU) Free Trade Agreement**.\n  • **Three Strategic Connectivity Corridors**: (a) **INSTC** (*International North–South Transport Corridor* — 7,200 km multimodal route connecting Mumbai to St. Petersburg via **Chabahar/Bandar Abbas** in Iran and the Caspian Sea); (b) **Chennai–Vladivostok Eastern Maritime Corridor (EMC)** (5,600 nautical miles via the Sea of Japan and South China Sea, cutting transit time from 40 days to 24 days); and (c) the **Northern Sea Route (NSR)** across the Arctic.",
+        "2. India–Australia Diplomatic Expansion (Nov 4–8, 2026):\n  • EAM Jaishankar inaugurated **India's 4th Consulate General in Australia at Brisbane (Queensland)** (joining Sydney, Melbourne, and Perth; Canberra houses the High Commission).\n  • Co-chaired the **15th Foreign Ministers' Framework Dialogue (FMFD)** with Penny Wong in Canberra and addressed the **1st 'Raisina Down Under'** dialogue in Sydney."
+      ],
+      "institutionalContext": "Illustrates India's multi-aligned strategic autonomy ('Vishwabandhu')—deepening Eurasian connectivity and defence ties with Russia (IRIGC-TEC & BRICS) while simultaneously strengthening Indo-Pacific security with QUAD partner Australia.",
+      "strategicImportance": "High-yield question on India's maritime/land trade corridors (INSTC vs Chennai-Vladivostok vs IMEC) and diplomatic milestones for CDS, NDA, and CAPF.",
+      "quickSummary": "EAM <mark class=\"exam-target\">Dr. S. Jaishankar</mark> and Russian First Deputy PM <mark class=\"exam-target\">Denis Manturov</mark> co-chaired the <mark class=\"exam-target\">25th India–Russia IRIGC-TEC</mark> in New Delhi targeting **$100B trade by 2030** via the **INSTC** and **Chennai–Vladivostok Corridor**, while India opened its **4th Australian Consulate in** <mark class=\"exam-target\">Brisbane</mark>.",
+      "detailedAnalysis": "Compare India's three flagship international trade corridors for UPSC exams: (1) **INSTC** (2000) — connects **Mumbai &rarr; Bandar Abbas/Chabahar (Iran) &rarr; Bandar Anzali (Caspian Sea) &rarr; Astrakhan/Moscow/St. Petersburg (Russia)**; (2) **Chennai–Vladivostok Eastern Maritime Corridor** — passes through the **Andaman Sea, Strait of Malacca, South China Sea, and Sea of Japan**; and (3) **IMEC** (*India–Middle East–Europe Economic Corridor*, launched at New Delhi G20 Summit 2023) — connects **India &rarr; UAE &rarr; Saudi Arabia &rarr; Jordan &rarr; Israel (Haifa) &rarr; Greece (Piraeus)/Europe**.",
+      "backgroundContext": "The Eurasian Economic Union (EAEU) comprises five member states: **Russia, Belarus, Kazakhstan, Kyrgyzstan, and Armenia**.",
+      "stakeholders": [
+        "Ministry of External Affairs (India)",
+        "Government of the Russian Federation (IRIGC-TEC)",
+        "Department of Foreign Affairs and Trade (Australia)"
+      ],
+      "relatedTopics": [
+        "INSTC vs Chennai–Vladivostok Corridor vs IMEC",
+        "Eurasian Economic Union (EAEU — 5 Members)",
+        "15th India–Australia FMFD & Raisina Down Under"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "mcq": {
+        "question": "Consider the following statements regarding India's strategic diplomacy and trade corridors discussed in November 2026:\n1. The 25th Session of the India–Russia Intergovernmental Commission (IRIGC-TEC) in New Delhi prioritized three connectivity routes: the International North–South Transport Corridor (INSTC), the Chennai–Vladivostok Eastern Maritime Corridor, and the Northern Sea Route.\n2. In November 2026, India inaugurated its fourth Consulate General in Australia at Brisbane (Queensland) alongside the first edition of the 'Raisina Down Under' dialogue.\n3. The Chennai–Vladivostok Maritime Corridor connects India's eastern coast to Russia's Far East by passing through the Suez Canal and the Mediterranean Sea.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 0,
+        "explanation": "Statements 1 and 2 are correct. Statement 3 is incorrect because the Chennai–Vladivostok Eastern Maritime Corridor (EMC) sails eastwards through the Bay of Bengal, Strait of Malacca, South China Sea, and Sea of Japan to Russia's Pacific port of Vladivostok (bypassing the Suez/Mediterranean route)."
+      }
+    },
+    {
+      "id": "nov-2026-027",
+      "topic": "Armed Forces Institutional Structure & AFCAT 1 2027",
+      "publicationDate": "2026-11-12",
+      "originalSource": "Indian Air Force (IAF) / CDAC",
+      "relatedOfficialDocuments": "Release of AFCAT 01/2027 Official Notification & Indian Air Force Operational Commands Architecture",
+      "text": "The **Indian Air Force (IAF)** officially released the **AFCAT 01/2027 Notification** in November 2026 inviting applications from men and women cadets for **Flying Branch** and **Ground Duty (Technical & Non-Technical) Branches**—including the newly operationalized **Weapon Systems (WS) Branch**—shifting operational readiness for **AFCAT 1 2027 to DEFCON 2 (Application Phase)**.",
+      "details": {
+        "winner": "Indian Air Force (Bharatiya Vayu Sena)",
+        "award": "AFCAT 01/2027 Notification Out — DEFCON 2 Application Phase Active",
+        "nationality": "India",
+        "summary": "Covers Short Service Commission (Flying) and Permanent/Short Service Commission in Ground Duty Technical (AE-L, AE-M) and Non-Technical (Weapon Systems, Admin, Logistics, Accounts, Education, Meteorology) plus NCC Special Entry."
+      },
+      "upscHighlights": [
+        "Motto & Origin of the IAF: Established on **8 October 1932** (under the Indian Air Force Act, 1932; No. 1 Squadron formed on 1 April 1933 at Drigh Road, Karachi with Westland Wapiti biplanes led by **Subroto Mukerjee**, the first Indian Chief of the Air Staff). Motto: ***\"Nabha Sparsham Deeptam\"*** (*Touch the Sky with Glory*), taken from **Chapter 11, Verse 24 of the Bhagavad Gita**.",
+        "7 Commands of the Indian Air Force (5 Operational + 2 Functional):\n  • **Western Air Command (WAC)** — HQ: **New Delhi** (Subroto Park)\n  • **South Western Air Command (SWAC)** — HQ: **Gandhinagar** (Gujarat)\n  • **Central Air Command (CAC)** — HQ: **Prayagraj** (Uttar Pradesh)\n  • **Eastern Air Command (EAC)** — HQ: **Shillong** (Meghalaya)\n  • **Southern Air Command (SAC)** — HQ: **Thiruvananthapuram** (Kerala)\n  • **Training Command (Functional)** — HQ: **Bengaluru** (Karnataka)\n  • **Maintenance Command (Functional)** — HQ: **Nagpur** (Maharashtra)",
+        "Weapon Systems (WS) Branch: Approved in October 2022 as the **first new operational branch created in the IAF since Independence**, unifying four specialized streams under one commander: (1) **Surface-to-Surface Missiles (SSM)**; (2) **Surface-to-Air Missiles (SAM)** (S-400 Sudarshan Chakra, Akash, MR-SAM); (3) **Remotely Piloted Aircraft (RPA/UAVs)** (MQ-9B SkyGuardian, Heron Mk-II); and (4) **Weapon System Operators (WSO)** in twin-seat combat aircraft (Su-30MKI).",
+        "Equivalent Commissioned Ranks (Air Force — Army — Navy):\n  • **Flying Officer** = Lieutenant = Sub-Lieutenant\n  • **Flight Lieutenant** = Captain = Lieutenant\n  • **Squadron Leader** = Major = Lieutenant Commander\n  • **Wing Commander** = Lieutenant Colonel = Commander\n  • **Group Captain** = Colonel = Captain\n  • **Air Commodore** = Brigadier = Commodore\n  • **Air Vice Marshal** = Major General = Rear Admiral\n  • **Air Marshal** = Lieutenant General = Vice Admiral\n  • **Air Chief Marshal** = General = Admiral (5-Star Rank: **Marshal of the Indian Air Force Arjan Singh**)."
+      ],
+      "institutionalContext": "The Air Force Academy (AFA) at **Dundigal (Hyderabad), Telangana** conducts joint foundational and flying training for all AFCAT and NDA/CDSE Air Force cadets.",
+      "strategicImportance": "Every AFCAT, CDS, and NDA paper includes 1–3 direct questions on **Air Force Commands & Headquarters**, **Equivalent Tri-Service Ranks**, and the **Weapon Systems Branch**.",
+      "quickSummary": "With the <mark class=\"exam-target\">AFCAT 1 2027 Notification</mark> out (<mark class=\"exam-target\">DEFCON 2</mark>), revise IAF's **7 Commands** (5 Operational + **Training Command in Bengaluru** & **Maintenance Command in Nagpur**), the **Weapon Systems (WS) Branch**, and equivalent Tri-Service officer ranks.",
+      "detailedAnalysis": "Watch out for the classic UPSC/AFCAT Command Headquarters trap: The **Indian Navy's Southern Naval Command (Kochi)** is its Training Command, whereas the **Indian Air Force** has a dedicated **Training Command at Bengaluru** and **Maintenance Command at Nagpur** (and its Southern Air Command is at **Thiruvananthapuram**). Also remember that **Current Chief of the Air Staff (CAS)** is **Air Chief Marshal Amar Preet Singh** (28th CAS, who assumed office on September 30, 2024/2026 succeeding ACM V.R. Chaudhari).",
+      "backgroundContext": "AFCAT exam pattern: 100 Questions | 300 Marks | 2 Hours (+3 marks for correct, -1 mark for incorrect) across Verbal Ability in English, General Awareness, Numerical Ability, and Reasoning & Military Aptitude Test.",
+      "stakeholders": [
+        "Indian Air Force (CAS Air Chief Marshal Amar Preet Singh)",
+        "Air Force Academy (Dundigal, Hyderabad)",
+        "Centre for Development of Advanced Computing (CDAC)"
+      ],
+      "relatedTopics": [
+        "7 Commands of the Indian Air Force & Headquarters",
+        "Equivalent Commissioned Ranks (Army, Navy, Air Force)",
+        "Weapon Systems (WS) Branch of the IAF"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "Medium",
+        "UPSC": "Medium"
+      },
+      "mcq": {
+        "question": "Consider the following pairs of Indian Air Force (IAF) Commands and their respective Headquarters:\n1. Central Air Command : Prayagraj\n2. Eastern Air Command : Shillong\n3. Maintenance Command : Bengaluru\n4. Training Command : Nagpur\nHow many of the above pairs are correctly matched?",
+        "options": [
+          "Only one pair",
+          "Only two pairs",
+          "Only three pairs",
+          "All four pairs"
+        ],
+        "correct": 1,
+        "explanation": "Only two pairs (1 and 2) are correctly matched: Central Air Command is at Prayagraj and Eastern Air Command is at Shillong. Pairs 3 and 4 are interchanged: the IAF Maintenance Command is headquartered at Nagpur (Maharashtra), while the Training Command is headquartered at Bengaluru (Karnataka)."
+      }
+    },
+    {
+      "id": "nov-2026-028",
+      "topic": "Indian Polity, Rule of Law & Fundamental Rights",
+      "publicationDate": "2026-11-12",
+      "originalSource": "Supreme Court of India",
+      "relatedOfficialDocuments": "Supreme Court Pan-India Guidelines Against 'Bulldozer Justice' (In Re: Directions in the Matter of Demolition of Structures — Articles 14, 21 & 142)",
+      "text": "Invoking its extraordinary constitutional powers under **Article 142**, the **Supreme Court of India** laid down binding **pan-India guidelines against 'Bulldozer Justice'** (punitive executive demolition of private properties of accused persons without due process), ruling that such arbitrary demolitions violate the **Doctrine of Separation of Powers**, the **Rule of Law**, and the **Right to Shelter under Article 21**.",
+      "details": {
+        "winner": "Supreme Court of India (Bench of Justices B.R. Gavai & K.V. Viswanathan)",
+        "award": "Binding Pan-India Guidelines Against Punitive Demolitions (Articles 14, 21 & 142)",
+        "nationality": "India",
+        "summary": "Held that the executive cannot replace the judiciary to pronounce guilt or demolish family homes as collective punishment; mandated a 15-day prior show-cause notice, personal hearing, and videographed proceedings."
+      },
+      "upscHighlights": [
+        "Constitutional Principles Invoked:\n  • **Separation of Powers (Basic Structure)**: Adjudicating whether an accused person is guilty is strictly the domain of the **Judiciary**; the **Executive** cannot become a judge and demolish a citizen's property as a penalty for an alleged crime.\n  • **Right to Shelter under Article 21**: The right to a roof over one's head is an integral facet of the Fundamental Right to Life and Personal Liberty under **Article 21** (*Olga Tellis v. Bombay Municipal Corporation, 1985*; *Chameli Singh v. State of UP, 1996*).\n  • **Prohibition of Collective Punishment**: Demolishing a house where innocent family members (spouses, children, elderly parents) reside merely because one member is an accused or even a convict is unconstitutional and violates **Article 14**.",
+        "Binding Pan-India Safeguards Issued under Article 142:\n  • (1) **Mandatory 15-Day Prior Show-Cause Notice**: No demolition can take place without serving a registered show-cause notice giving at least 15 days from the date of service (simultaneously uploaded on a designated digital portal).\n  • (2) **Personal Hearing & Speaking Order**: The Collector/Municipal authority must grant a personal hearing and pass a reasoned final order, followed by a further **15-day window** allowing the owner to appeal or remove unauthorized portions voluntarily.\n  • (3) **Personal Liability of Officials**: Officials who carry out demolitions in violation of these directions will be held cited for **Contempt of Court** and ordered to pay **restitution/compensation from their personal salaries**.\n  • **Exception**: Does not apply to unauthorized structures on public roads, footpaths, railway lines, riverbeds, or water bodies, or demolitions ordered by a court of law."
+      ],
+      "institutionalContext": "Enacted by the Supreme Court under **Article 142(1)** of the Constitution, which empowers the Court to pass any decree or order necessary for doing **\"complete justice\"** in any cause or matter pending before it.",
+      "strategicImportance": "Major Indian Polity, Ethics, and CAPF Paper-2 Essay topic on Rule of Law, Due Process vs Procedure Established by Law, and Article 142.",
+      "quickSummary": "Using <mark class=\"exam-target\">Article 142</mark>, the Supreme Court banned punitive <mark class=\"exam-target\">'Bulldozer Justice'</mark>, holding that executive demolitions without a <mark class=\"exam-target\">15-day prior show-cause notice</mark> violate the <mark class=\"exam-target\">Separation of Powers</mark> and the <mark class=\"exam-target\">Right to Shelter under Article 21</mark>.",
+      "detailedAnalysis": "For UPSC CDS and CAPF Polity, note how the Supreme Court linked three constitutional articles in this judgment: **Article 14** (Rule of Law & non-arbitrariness), **Article 21** (Right to Shelter & fair procedure after *Maneka Gandhi, 1978*), and **Article 300A** (No person shall be deprived of his property save by authority of law), enforced nationwide via **Article 142**.",
+      "backgroundContext": "Compare with the *Vishaka v. State of Rajasthan (1997)* and *D.K. Basu v. State of West Bengal (1997)* cases, where the Supreme Court similarly issued binding guidelines under Article 142/32 to protect Fundamental Rights.",
+      "stakeholders": [
+        "Supreme Court of India (Article 142)",
+        "State Governments & Municipal Corporations"
+      ],
+      "relatedTopics": [
+        "Article 21 (Right to Shelter — Olga Tellis Case)",
+        "Article 142 (Complete Justice Power of Supreme Court)",
+        "Doctrine of Separation of Powers & Rule of Law (Article 14)"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "High",
+        "AFCAT": "Medium",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "mcq": {
+        "question": "With reference to the Supreme Court's landmark pan-India guidelines on the demolition of properties (November 2026), consider the following statements:\n1. Invoking its powers under Article 142 of the Constitution to do \"complete justice\", the Court held that the executive cannot demolish the residential property of a person merely because they are accused or convicted of a criminal offence.\n2. The judgment affirmed that the Right to Shelter is an integral facet of the Fundamental Right to Life and Personal Liberty under Article 21 of the Constitution.\n3. The Court mandated a minimum 15-day prior show-cause notice and personal hearing before any municipal demolition, except for unauthorized structures on public roads, railway lines, or water bodies.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 3,
+        "explanation": "All three statements are correct. The Supreme Court invoked Article 142, the Doctrine of Separation of Powers, and the Right to Shelter under Article 21 to prohibit punitive demolitions without a 15-day show-cause notice and due process."
+      }
+    },
+    {
+      "id": "nov-2026-029",
+      "topic": "Sports, Literature Awards & Global Honours",
+      "publicationDate": "2026-11-12",
+      "originalSource": "FIDE / IBSF / Booker Prize Foundation",
+      "relatedOfficialDocuments": "Booker Prize 2026 ('Orbital' by Samantha Harvey), Pankaj Advani's 28th World Billiards Title (Doha) & Arjun Erigaisi Crossing 2800 FIDE ELO",
+      "text": "Between November 8 and 12, 2026, three major international cultural and sporting milestones were recorded: (1) British author **Samantha Harvey** won the **2026 Booker Prize** for her space-station novel ***'Orbital'***; (2) Indian cueist **Pankaj Advani** clinched his **28th World Title** at the **IBSF World Billiards Championship in Doha, Qatar**; and (3) Grandmaster **Arjun Erigaisi** became only the **second Indian in history** (after **Viswanathan Anand**) to breach the elite **2800 FIDE Classical Chess Rating** barrier as **Aravindh Chithambaram** won the **Chennai Grand Masters 2026**.",
+      "details": {
+        "winner": "Samantha Harvey (Booker Prize), Pankaj Advani (28th World Title) & Arjun Erigaisi (2800 ELO)",
+        "award": "Booker Prize 2026 ('Orbital'), IBSF World Billiards Title & 2800 FIDE Rating Milestone",
+        "nationality": "UK / India",
+        "summary": "'Orbital' is the first book set in outer space to win the Booker Prize; Pankaj Advani defeated Sourav Kothari/Robert Hall in Doha for his 28th world crown; Arjun Erigaisi reached World No. 2 / 2800+ ELO."
+      },
+      "upscHighlights": [
+        "1. Booker Prize 2026 — Samantha Harvey for *'Orbital'* (Announced Nov 12, London):\n  • British novelist **Samantha Harvey** won the prestigious £50,000 **Booker Prize** for ***'Orbital'***—a 136-page pastoral novel set over a single 24-hour day (16 sunrises and 16 sunsets) aboard the **International Space Station (ISS)** as six astronauts orbit Earth.\n  • It is the **first book set in outer space** to win the Booker Prize and the second-shortest winning novel in Booker history.",
+        "2. Pankaj Advani Wins 28th World Billiards Title (Doha, Qatar — Nov 12):\n  • Padma Bhushan & Khel Ratna cueist **Pankaj Advani** ('Prince of Pune' / 'Golden Boy') defeated England's Robert Hall (4–2) in the final at **Doha, Qatar** to win the **IBSF World Billiards Championship** for the **7th consecutive time**, taking his career tally to an extraordinary **28 World Titles** across Billiards and Snooker.",
+        "3. Indian Chess Surge & Cricket Record (Nov 8–11):\n  • At the **Chennai Grand Masters 2026**, GM **Aravindh Chithambaram** won the Masters title (defeating Levon Aronian on tiebreak; **V. Pranav** won the Challengers category), while GM **Arjun Erigaisi** crossed the **2800 FIDE Classical Rating mark** (World No. 2 behind Magnus Carlsen)—becoming only the **2nd Indian after Viswanathan Anand** and the **16th player in world history** to cross 2800.\n  • In T20I Cricket, **Sanju Samson** (107 off 50 balls vs South Africa at Kingsmead, Durban on Nov 8) became the **first Indian cricketer in history** to score **two consecutive T20 International centuries**."
+      ],
+      "institutionalContext": "Consolidates India's Golden Era in Chess (following the historic Open & Women's Double Gold at the 45th Chess Olympiad in Budapest and D. Gukesh's World Championship challenge against Ding Liren in Singapore).",
+      "strategicImportance": "High-yield AFCAT, CDS, and NDA questions on Books & Authors (*Orbital* — Samantha Harvey) and Sports Personalities (Pankaj Advani, Arjun Erigaisi, Aravindh Chithambaram, Sanju Samson).",
+      "quickSummary": "British author <mark class=\"exam-target\">Samantha Harvey</mark> won the <mark class=\"exam-target\">Booker Prize</mark> for her ISS novel <mark class=\"exam-target\">'Orbital'</mark>; <mark class=\"exam-target\">Pankaj Advani</mark> won his <mark class=\"exam-target\">28th World Billiards Title</mark> in Doha; and GM <mark class=\"exam-target\">Arjun Erigaisi</mark> became only the 2nd Indian after Viswanathan Anand to cross the <mark class=\"exam-target\">2800 FIDE ELO</mark> barrier.",
+      "detailedAnalysis": "Keep the two Booker Prizes distinct for exams: (1) The **Booker Prize** (for original English fiction published in the UK/Ireland) was won by **Samantha Harvey** for ***Orbital*** (Nov 2026; Indian-origin winners in history include Salman Rushdie for *Midnight's Children*, Arundhati Roy for *The God of Small Things*, Kiran Desai for *The Inheritance of Loss*, and Aravind Adiga for *The White Tiger*); whereas (2) The **International Booker Prize** (for fiction translated into English) was won by German author **Jenny Erpenbeck** (translated by Michael Hofmann) for ***Kairos*** (and in 2022 by **Geetanjali Shree** & Daisy Rockwell for the Hindi classic ***Tomb of Sand / Ret Samadhi***).",
+      "backgroundContext": "Meanwhile, Bihar hosted the **Women's Asian Champions Trophy Hockey 2026** at the newly built **Rajgir Sports Complex** (Nov 11–20), featuring mascot ***'Gudiya'*** (inspired by the endangered State Bird of Bihar, the **House Sparrow**).",
+      "stakeholders": [
+        "Booker Prize Foundation (London)",
+        "International Billiards and Snooker Federation (IBSF, Doha)",
+        "All India Chess Federation (AICF) & FIDE"
+      ],
+      "relatedTopics": [
+        "Booker Prize ('Orbital' by Samantha Harvey) vs International Booker Prize ('Kairos')",
+        "Pankaj Advani (28th IBSF World Billiards Title)",
+        "Arjun Erigaisi (2800 ELO Club) & Chennai Grand Masters 2026"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "Medium"
+      },
+      "mcq": {
+        "question": "Consider the following statements regarding major literary and sporting achievements in November 2026:\n1. British author Samantha Harvey won the Booker Prize for her novel \"Orbital\", which follows six astronauts aboard the International Space Station over a single 24-hour period.\n2. Indian cueist Pankaj Advani clinched his 28th career World Title by winning the IBSF World Billiards Championship in Doha, Qatar.\n3. Grandmaster Arjun Erigaisi became only the second Indian chess player in history after Viswanathan Anand to cross the 2800 FIDE Classical ELO rating mark.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 3,
+        "explanation": "All three statements are correct. Samantha Harvey won the Booker Prize for 'Orbital', Pankaj Advani won his 28th World Title at the IBSF World Billiards Championship in Doha, and Arjun Erigaisi became only the 2nd Indian after Viswanathan Anand to breach the 2800 FIDE ELO rating barrier."
+      }
+    },
+    {
+      "id": "nov-2026-030",
+      "topic": "National Education Day, Broadcasting Heritage & Modern History",
+      "publicationDate": "2026-11-12",
+      "originalSource": "PIB / Ministry of Education & Ministry of Information and Broadcasting",
+      "relatedOfficialDocuments": "National Education Day (Nov 11 — Maulana Abul Kalam Azad) & Public Service Broadcasting Day (Nov 12 — Mahatma Gandhi's 1947 AIR Address)",
+      "text": "India observed **National Education Day** on **November 11, 2026** (marking the birth anniversary of Bharat Ratna **Maulana Abul Kalam Azad**, Independent India's **first Education Minister**) and **Public Service Broadcasting Day (*Jan Prasaran Diwas*)** on **November 12, 2026** (commemorating **Mahatma Gandhi's historic only live address on All India Radio on 12 November 1947**).",
+      "details": {
+        "winner": "Maulana Abul Kalam Azad (Nov 11) & Mahatma Gandhi's AIR Broadcast (Nov 12)",
+        "award": "National Education Day (Nov 11) & Public Service Broadcasting Day (Nov 12)",
+        "nationality": "India",
+        "summary": "Connects current national observances with high-yield Modern Indian History: Maulana Azad's journals (Al-Hilal, Al-Balagh), INC Presidencies (1923 & 1940–46), IIT Kharagpur/UGC creation, and Gandhi's 1947 AIR broadcast to Kurukshetra refugees."
+      },
+      "upscHighlights": [
+        "1. National Education Day (November 11) — Maulana Abul Kalam Azad (1888–1958):\n  • Instituted by the Ministry of Education in September 2008 to honour **Maulana Abul Kalam Azad**, who served as **Independent India's 1st Minister of Education** from **15 August 1947 to 2 February 1958** (posthumously awarded the **Bharat Ratna in 1992**).\n  • **Architect of India's Academic Institutions**: Established the first **Indian Institute of Technology (IIT Kharagpur, 1951)**, the **University Grants Commission (UGC, 1953/1956)**, **AICTE**, **Indian Council for Cultural Relations (ICCR, 1950)**, and the three national academies — **Sangeet Natak Akademi (1953)**, **Lalit Kala Akademi (1954)**, and **Sahitya Akademi (1954)**.\n  • **Freedom Struggle & INC Presidencies (UPSC History Staple)**:\n    - Launched the Urdu weekly journals ***Al-Hilal*** (1912) and ***Al-Balagh*** (1915) to rally Indian Muslims into the anti-colonial struggle; authored the classic book ***'India Wins Freedom'*** and the Quranic commentary *Tarjuman-ul-Quran*.\n    - Elected the **youngest President of the Indian National Congress** at the **1923 Delhi Special Session** (aged 35), and served as the **longest-serving continuous INC President before Independence (1940–1946, elected at the 1940 Ramgarh Session)** during the **Quit India Movement (1942)**, **Cripps Mission (1942)**, **Wavell Plan / Simla Conference (1945)**, and **Cabinet Mission (1946)**.",
+        "2. Public Service Broadcasting Day / *Jan Prasaran Diwas* (November 12):\n  • Declared in 2000 to commemorate **12 November 1947**, the **first and only time Mahatma Gandhi visited the studios of All India Radio (AIR, Akashvani)** at Broadcasting House, New Delhi.\n  • Unable to travel personally to **Kurukshetra (Haryana)**, Gandhiji addressed nearly 2.5 lakh displaced Partition refugees from West Punjab camped at Kurukshetra via a live radio broadcast.",
+        "3. Other Key Observances (Nov 8–12):\n  • **Nov 9**: **National Legal Services Day** (NALSA Act 1987 enforcement in 1995) & **Uttarakhand Foundation Day** (carved out of UP on **9 November 2000** as India's **27th State**, after Chhattisgarh on Nov 1 and before Jharkhand on Nov 15, 2000).\n  • **Nov 10**: **World Science Day for Peace and Development** (UNESCO).\n  • **Nov 12**: **World Pneumonia Day** (India runs the **SAANS** — *Social Awareness and Action to Neutralise Pneumonia Successfully* campaign)."
+      ],
+      "institutionalContext": "Never confuse **National Education Day (November 11 — Maulana Abul Kalam Azad)** with **National Teachers' Day (September 5 — Dr. S. Radhakrishnan)** or **International Day of Education (January 24 — UNGA)**.",
+      "strategicImportance": "Classic UPSC CDS/NDA/AFCAT question linking Important Days with Modern Indian History.",
+      "quickSummary": "**November 11** is <mark class=\"exam-target\">National Education Day</mark> (birth anniversary of 1st Education Minister <mark class=\"exam-target\">Maulana Abul Kalam Azad</mark> — author of *India Wins Freedom* & *Al-Hilal*, youngest INC President 1923, founder of UGC & IIT Kharagpur), while **November 12** is <mark class=\"exam-target\">Public Service Broadcasting Day</mark> (marking <mark class=\"exam-target\">Mahatma Gandhi's 1947 AIR broadcast</mark> to Kurukshetra refugees).",
+      "detailedAnalysis": "Memorize the chronological creation of the three states formed in **November 2000** (frequently asked in CDS/NDA Geography & Polity): (1) **Chhattisgarh** — **1 November 2000** (26th State, carved from Madhya Pradesh); (2) **Uttarakhand (then Uttaranchal)** — **9 November 2000** (27th State, carved from Uttar Pradesh); and (3) **Jharkhand** — **15 November 2000** (28th State, carved from Bihar on the birth anniversary of **Bhagwan Birsa Munda / Janjatiya Gaurav Divas**).",
+      "backgroundContext": "November 12 also marks the birth anniversary of **Dr. Salim Ali (1896–1987)**, revered as the **'Birdman of India'**, celebrated as **National Bird Watching Day** (Salim Ali Bird Sanctuary is located on **Chorao Island along the Mandovi River in Goa**, whereas **Salim Ali National Park** is in **Srinagar, J&K**).",
+      "stakeholders": [
+        "Ministry of Education (UGC, AICTE, ICCR)",
+        "Prasar Bharati & All India Radio (Akashvani)",
+        "Ministry of Culture"
+      ],
+      "relatedTopics": [
+        "Maulana Abul Kalam Azad (Al-Hilal, India Wins Freedom, 1923 & 1940 INC Sessions)",
+        "National Education Day (Nov 11) vs International Day of Education (Jan 24)",
+        "Dr. Salim Ali ('Birdman of India' — Chorao Island, Goa)"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "mcq": {
+        "question": "Consider the following statements regarding Maulana Abul Kalam Azad, whose birth anniversary is observed as National Education Day on November 11, and Public Service Broadcasting Day (November 12):\n1. Maulana Abul Kalam Azad launched the Urdu weekly journal 'Al-Hilal' in 1912, authored 'India Wins Freedom', and became the youngest person to serve as President of the Indian National Congress at its 1923 Delhi Special Session.\n2. As Independent India's first Education Minister (1947–1958), he spearheaded the establishment of the first Indian Institute of Technology (IIT Kharagpur), the University Grants Commission (UGC), and the Indian Council for Cultural Relations (ICCR).\n3. Public Service Broadcasting Day is observed on November 12 to commemorate the day in 1947 when Mahatma Gandhi visited the All India Radio (AIR) studio in New Delhi for his only live broadcast, addressing Partition refugees camped at Kurukshetra.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 3,
+        "explanation": "All three statements are correct. Maulana Abul Kalam Azad (National Education Day, Nov 11) edited Al-Hilal, wrote India Wins Freedom, was the youngest INC President in 1923 (and longest-serving from 1940–46), and established IIT Kharagpur, UGC, and ICCR; while Nov 12 commemorates Mahatma Gandhi's 1947 live AIR address to refugees at Kurukshetra."
+      }
     }
   ]
 };
@@ -16954,7 +18262,7 @@ const NOTES_DATABASE = {
           {
             "id": "ca-november-2026-capsule",
             "title": "November 2026 Master Current Affairs Capsule",
-            "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <div style=\"display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid rgba(255,255,255,0.1); padding-bottom:12px; margin-bottom:16px;\">\n    <h3 style=\"color: #4ade80; margin:0; font-weight: 700; font-size:1.3rem;\">Tactical Sitrep: November 2026 Master Current Affairs Capsule</h3>\n    <span style=\"background:rgba(34,197,94,0.15); color:#4ade80; border:1px solid #4ade80; border-radius:4px; padding:3px 8px; font-size:0.75rem; font-weight:600;\">LATEST SITREP — NOV 2026</span>\n  </div>\n\n  <p style=\"color:#e2e8f0; line-height:1.6;\">\n    Early November 2026 highlights special forces interoperability across the Indo-Pacific and North America, India's first indigenous analog space habitat mission in Ladakh, long-range artillery precision strikes, and constitutional/economic milestones.\n  </p>\n\n  <h4 style=\"color:#4ade80; margin-top:24px; margin-bottom:12px; font-size:1.1rem;\">1. Special Forces Exercises &amp; Precision Artillery</h4>\n  <ul style=\"color:#e2e8f0; line-height:1.7;\">\n    <li><strong>Exercise VAJRA PRAHAR 2026 (15th Edition):</strong> Joint Special Forces exercise between the Indian Army (Para SF) and US Army Green Berets commenced at <strong>Orchard Combat Training Center, Idaho, USA</strong> (Nov 2–22). Focuses on joint mission planning, desert/mountain high-altitude special operations, tactical UAV deployment, and precision sniper fires.</li>\n    <li><strong>Exercise GARUD SHAKTI 2026 (9th Edition):</strong> Bilateral Special Forces exercise between the Indian Army (<strong>Parachute Regiment Special Forces</strong>) and the Indonesian Special Forces (<strong>Kopassus</strong>) commenced at <strong>Cijantung, Jakarta, Indonesia</strong> (Nov 1–12). Validates jungle warfare, amphibious insertion, heliborne operations, and urban counter-terrorism.</li>\n    <li><strong>DRDO Guided Pinaka Multi-Barrel Rocket System Flight Tests:</strong> Successful flight validation trials across multiple ranges completed.\n      <ul style=\"color:#cbd5e1; margin-top:4px;\">\n        <li>Developed by ARDE (Pune) in collaboration with RCI, DRDL, and HEMRL.</li>\n        <li>Increases strike range from 37.5 km (Mark-I) to <strong>over 75 km</strong> with sub-10-meter Circular Error Probable (CEP) accuracy.</li>\n        <li>A single Pinaka battery (6 launchers × 12 tubes) can salvo-fire <strong>72 rockets in 44 seconds</strong>. Exported to Armenia and under evaluation by European forces.</li>\n      </ul>\n    </li>\n  </ul>\n\n  <h4 style=\"color:#4ade80; margin-top:24px; margin-bottom:12px; font-size:1.1rem;\">2. Aerospace &amp; Planetary Exploration</h4>\n  <ul style=\"color:#e2e8f0; line-height:1.7;\">\n    <li><strong>ISRO Launches India's 1st Analog Space Mission in Leh, Ladakh (Hab-1):</strong>\n      <ul style=\"color:#cbd5e1; margin-top:4px;\">\n        <li>Spearheaded by ISRO's <strong>Human Spaceflight Centre (HSFC)</strong> in collaboration with <strong>AAKA Space Studio</strong>, <strong>University of Ladakh</strong>, and <strong>IIT Bombay</strong>, supported by the Ladakh Autonomous Hill Development Council (LAHDC).</li>\n        <li>Simulates interplanetary habitat life in an inflatable habitat pod named <strong>'Hab-1'</strong> equipped with hydroponics, life-support, and circadian lighting.</li>\n        <li><strong>Why Ladakh?</strong> High altitude (&gt;3,500 meters), hyper-arid cold desert climate, barren permafrost/rocky geology, low atmospheric pressure, and high UV radiation closely resemble Martian and Lunar surface environments, supporting the <strong>Gaganyaan</strong> programme and <strong>Bharatiya Antariksha Station (BAS)</strong>.</li>\n      </ul>\n    </li>\n  </ul>\n\n  <h4 style=\"color:#4ade80; margin-top:24px; margin-bottom:12px; font-size:1.1rem;\">3. Polity, Economic Reforms &amp; National Personalities</h4>\n  <ul style=\"color:#e2e8f0; line-height:1.7;\">\n    <li><strong>Demise of EAC-PM Chairman Dr. Bibek Debroy (1955–2026):</strong> Padma Shri awardee (2015), Chairman of the Economic Advisory Council to the Prime Minister (EAC-PM), and former Permanent Member of NITI Aayog passed away on November 1.\n      <ul style=\"color:#cbd5e1; margin-top:4px;\">\n        <li><strong>Bibek Debroy Committee (2015) on Indian Railways Restructuring:</strong> Recommended merging the separate Railway Budget with the Union General Budget (implemented in FY 2017–18, ending a 92-year practice started by the Acworth Committee in 1924) and unifying railway cadres into the Indian Railway Management Service (IRMS).</li>\n        <li><strong>Indology &amp; Sanskrit Scholarship:</strong> Celebrated for his 10-volume unabridged English translation of the <em>Mahabharata</em>, the <em>Valmiki Ramayana</em>, the <em>Bhagavad Gita</em>, and the <em>Mahapuranas</em>.</li>\n      </ul>\n    </li>\n    <li><strong>State Formation Days (November 1 — Rajyotsava):</strong> Marked the formation/reorganisation anniversary of <strong>Karnataka, Kerala, Madhya Pradesh, Chhattisgarh (2000), Haryana (1966), Punjab, and Andhra Pradesh</strong>, alongside UT Foundation Days of Lakshadweep and Puducherry under the States Reorganisation Act, 1956 (Fazl Ali Commission).</li>\n  </ul>\n</div>"
+            "notes": "<div class=\"revision-card\" style=\"background: rgba(20,20,30,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);\">\n  <div style=\"display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid rgba(255,255,255,0.1); padding-bottom:12px; margin-bottom:16px;\">\n    <h3 style=\"color: #4ade80; margin:0; font-weight: 700; font-size:1.3rem;\">Tactical Sitrep: November 2026 Master Current Affairs Capsule</h3>\n    <span style=\"background:rgba(34,197,94,0.15); color:#4ade80; border:1px solid #4ade80; border-radius:4px; padding:3px 8px; font-size:0.75rem; font-weight:600;\">LATEST SITREP — NOV 12, 2026</span>\n  </div>\n\n  <p style=\"color:#e2e8f0; line-height:1.6;\">\n    November 2026 (updated through November 12, 2026) highlights DRDO's maiden flight-test of the 1,000+ km Long Range Land Attack Cruise Missile (LRLACM), Tri-Service Exercises <em>Poorvi Prahar</em> and <em>Antariksha Abhyas 2026</em>, Special Forces/Bi-Service exercises across the Indo-Pacific and USA, the 3rd MAHASAGAR naval interaction, indigenous weapons ('Asmi' &amp; Guided Pinaka), pioneering space missions (ISRO Hab-1, ESA Proba-3 &amp; LignoSat), UNFCCC COP29 in Baku, landmark Supreme Court verdicts (51st CJI Justice Sanjiv Khanna, Article 39(b), AMU Article 30(1), Bulldozer Justice under Article 142 &amp; LMV Licence), the PM-Vidyalaxmi Scheme, the AFCAT 01/2027 Notification, and global cultural/sporting milestones.\n  </p>\n\n  <h4 style=\"color:#4ade80; margin-top:24px; margin-bottom:12px; font-size:1.1rem;\">1. Joint Military Exercises, Naval Diplomacy &amp; Indigenous Weapons</h4>\n  <ul style=\"color:#e2e8f0; line-height:1.7;\">\n    <li><strong>DRDO Maiden Flight-Test of Long Range Land Attack Cruise Missile — LRLACM (Nov 12):</strong> Successfully flight-tested from a mobile articulated launcher at <strong>ITR Chandipur, Odisha</strong>. Designed by <strong>ADE (Bengaluru)</strong> with <strong>BDL</strong> and <strong>BEL</strong>; features a <strong>1,000+ km range</strong> (subsonic turbofan cruise) and dual launch capability from both ground launchers and Indian Navy warships via <strong>Universal Vertical Launch Modules (UVLM)</strong>.</li>\n    <li><strong>Tri-Service Exercise 'POORVI PRAHAR' (Nov 10–18 — Eastern Theatre, Arunachal Pradesh):</strong> Spearheaded by the <strong>Eastern Command</strong> across high-altitude LAC sectors; uniquely integrated <strong>Indian Navy P-8I Poseidon</strong> reconnaissance aircraft with IAF <strong>Rafale, Su-30MKI, Chinook, Prachand LCH</strong>, and Army swarm/FPV drones.</li>\n    <li><strong>1st Tri-Service Military Space Exercise 'ANTARIKSHA ABHYAS – 2026' (Nov 11–13 — New Delhi):</strong> Conducted by the <strong>Defence Space Agency (DSA, HQ IDS)</strong> and inaugurated by <strong>CDS General Anil Chauhan</strong> to war-game Space Situational Awareness (SSA), satellite protection, and counter-space resilience with ISRO and DRDO.</li>\n    <li><strong>AFCAT 01/2027 Official Notification Released (Nov 12 — DEFCON 2):</strong> Indian Air Force released the AFCAT 1 2027 notification covering Flying Branch and Ground Duty (Technical &amp; Non-Technical, including the <strong>Weapon Systems Branch</strong>); IAF operates <strong>7 Commands</strong> (5 Operational + Training Command at Bengaluru &amp; Maintenance Command at Nagpur).</li>\n    <li><strong>Exercise VAJRA PRAHAR 2026 (15th Edition):</strong> Joint Special Forces exercise between the Indian Army (Para SF) and US Army Green Berets at <strong>Orchard Combat Training Center, Idaho, USA</strong> (Nov 2–22). Focuses on desert/mountain special operations, UAS integration, and JTAC close air support.</li>\n    <li><strong>Exercise GARUD SHAKTI 2026 (9th Edition):</strong> Bilateral Special Forces exercise between the Indian Army (<strong>Parachute Regiment Special Forces</strong>) and Indonesian Special Forces (<strong>Kopassus</strong>) at <strong>Cijantung, Jakarta, Indonesia</strong> (Nov 1–12).</li>\n    <li><strong>Exercise VINBAX 2026 (5th Edition — Ambala &amp; Chandimandir):</strong> India–Vietnam bilateral military exercise (Nov 4–23); expanded for the <strong>first time into a Bi-Service (Army + Air Force)</strong> format featuring India's <strong>Corps of Engineers</strong> and IAF for UN Peacekeeping (Chapter VII) engineering &amp; medical operations.</li>\n    <li><strong>Exercise AUSTRAHIND 2026 (3rd Edition — Pune):</strong> India–Australia joint exercise at the <strong>Foreign Training Node, Aundh (Pune), Maharashtra</strong>, involving the Indian Army's <strong>DOGRA Regiment</strong>, IAF, and the Australian Army's 1st Combat Engineer Regiment.</li>\n    <li><strong>3rd Edition of Indian Navy's 'MAHASAGAR' Interaction (Nov 5):</strong> Hosted by CNS <strong>Admiral Dinesh K. Tripathi</strong> with Maritime Heads of <strong>10 Indian Ocean Region (IOR) littoral nations</strong> (Bangladesh, Comoros, Kenya, Madagascar, Maldives, Mauritius, Mozambique, Seychelles, Sri Lanka, Tanzania) on the theme <em>'Training Cooperation to Mitigate Common Maritime Security Challenges in the IOR'</em>. (MAHASAGAR = <em>Maritime Heads for Active Security And Growth for All in the Region</em>).</li>\n    <li><strong>Indigenous 9&times;19mm 'ASMI' Machine Pistol Inducted:</strong> Indian Army's <strong>Northern Command</strong> inducted <strong>550 units</strong> of India's first indigenous 9&times;19mm submachine gun <strong>'Asmi'</strong> (<em>Pride, Self-Respect &amp; Hard Work</em>), co-developed by <strong>DRDO's ARDE (Pune)</strong> and <strong>Lt Col Prasad Bansod</strong>, and manufactured by <strong>Lokesh Machines Ltd (Hyderabad)</strong>.</li>\n    <li><strong>DRDO Guided Pinaka Multi-Barrel Rocket System Flight Tests:</strong> Validated strike range of <strong>over 75 km</strong> (up from 37.5 km Mk-I) with sub-10m CEP accuracy; a 6-launcher battery fires <strong>72 rockets in 44 seconds</strong>. Exported to <strong>Armenia</strong>.</li>\n  </ul>\n\n  <h4 style=\"color:#4ade80; margin-top:24px; margin-bottom:12px; font-size:1.1rem;\">2. Aerospace, Planetary Science &amp; Clean Energy / Climate Summits</h4>\n  <ul style=\"color:#e2e8f0; line-height:1.7;\">\n    <li><strong>UNFCCC COP29 Climate Summit Opens in Baku, Azerbaijan ('Finance COP', Nov 11–22):</strong> Chaired by <strong>Mukhtar Babayev</strong> on the western shore of the <strong>Caspian Sea</strong> (bordering countries mnemonic: <strong>TARIK</strong> — Turkmenistan, Azerbaijan, Russia, Iran, Kazakhstan). Approved UN global carbon market rules under <strong>Article 6.4</strong> of the Paris Agreement and negotiated the <strong>New Collective Quantified Goal (NCQG)</strong> on climate finance.</li>\n    <li><strong>ISRO Launches India's 1st Analog Space Mission in Leh, Ladakh ('Hab-1'):</strong> Spearheaded by ISRO's <strong>Human Spaceflight Centre (HSFC)</strong> with <strong>AAKA Space Studio</strong>, <strong>University of Ladakh</strong>, and <strong>IIT Bombay</strong> to simulate Lunar/Martian base life in Ladakh's cold, high-altitude desert ahead of <strong>Gaganyaan</strong> and the <strong>Bharatiya Antariksha Station (2035)</strong>.</li>\n    <li><strong>ESA's 'Proba-3' Twin Solar Mission Arrives at Sriharikota (PSLV-C59):</strong> The European Space Agency's <strong>world's first precision formation-flying mission</strong> (consisting of the <strong>Coronagraph Spacecraft</strong> and <strong>Occulter Spacecraft</strong> flying <strong>150 meters apart</strong> in High Earth Orbit) arrived at SDSC-SHAR to create an artificial solar eclipse and study the Sun's faint <strong>corona</strong>.</li>\n    <li><strong>World's 1st Wooden Satellite 'LignoSat' Launched (Nov 5):</strong> Developed by <strong>Kyoto University</strong> and <strong>Sumitomo Forestry (Japan)</strong> using <strong>Honoki magnolia wood</strong> (traditional <em>Nuki</em> joinery without screws or glue) to burn up cleanly on re-entry without releasing ozone-depleting <strong>aluminium oxide</strong> particles.</li>\n    <li><strong>7th International Solar Alliance (ISA) Assembly (New Delhi, Nov 3–6):</strong> Hosted at Bharat Mandapam under <strong>India's Presidency</strong> and <strong>France's Co-Presidency</strong>; <strong>Ashish Khanna</strong> elected as the <strong>3rd Director General of ISA</strong> (HQ: Gurugram). Operationalized the <strong>Global Solar Facility (GSF)</strong> and <em>'Towards 1000'</em> strategy ($1,000B investment &amp; 1,000 GW by 2030).</li>\n  </ul>\n\n  <h4 style=\"color:#4ade80; margin-top:24px; margin-bottom:12px; font-size:1.1rem;\">3. Supreme Court Verdicts, Constitutional Appointments, Schemes &amp; Diplomacy</h4>\n  <ul style=\"color:#e2e8f0; line-height:1.7;\">\n    <li><strong>Justice Sanjiv Khanna Sworn in as 51st Chief Justice of India (Nov 11):</strong> Administered the oath of office by President Droupadi Murmu under <strong>Article 124(2)</strong> (succeeding 50th CJI Justice D.Y. Chandrachud); nephew of legendary jurist <strong>Justice H.R. Khanna</strong> (famous for his lone dissent in <em>ADM Jabalpur, 1976</em>).</li>\n    <li><strong>7-Judge Constitution Bench Verdict on AMU Minority Status under Article 30(1) (Nov 8):</strong> By a <strong>4:3 majority</strong>, the Supreme Court <strong>overruled <em>S. Azeez Basha v. Union of India (1967)</em></strong>, holding that an educational institution is not barred from claiming minority status merely because it was incorporated by a statute, and laid down the <strong>'Genesis / Brainchild Test'</strong>.</li>\n    <li><strong>SC Pan-India Guidelines Against 'Bulldozer Justice' (Nov 12):</strong> Invoking <strong>Article 142</strong>, the **Separation of Powers**, and the **Right to Shelter under Article 21**, the Supreme Court prohibited punitive executive demolitions of properties without a mandatory **15-day prior show-cause notice** and personal hearing.</li>\n    <li><strong>9-Judge Constitution Bench Verdict on Article 39(b) (Nov 5):</strong> In <em>Property Owners Association v. State of Maharashtra</em>, the Supreme Court ruled by an <strong>8:1 majority</strong> (headed by CJI D.Y. Chandrachud) that <strong>not every privately owned property</strong> constitutes a <em>\"material resource of the community\"</em> for acquisition by the State under <strong>Article 39(b) (DPSP)</strong>, overruling Justice Krishna Iyer's sweeping socialist view in <em>Sanjeev Coke (1983)</em> while affirming that unamended <strong>Article 31C</strong> remains operative.</li>\n    <li><strong>SC Rulings on UP Madarsa Act &amp; LMV Licence (Nov 5–6):</strong>\n      <ul style=\"color:#cbd5e1; margin-top:4px;\">\n        <li>Upheld the constitutional validity of the <strong>UP Board of Madarsa Education Act, 2004</strong> for school education, while striking down its <em>Kamil</em> (UG) and <em>Fazil</em> (PG) degree provisions for conflicting with the <strong>UGC Act, 1956 (Entry 66, Union List)</strong>.</li>\n        <li>A <strong>5-Judge Constitution Bench</strong> unanimously upheld that a <strong>Light Motor Vehicle (LMV)</strong> licence holder can legally drive a <strong>transport vehicle</strong> with an unladen weight <strong>not exceeding 7,500 kg</strong>.</li>\n      </ul>\n    </li>\n    <li><strong>PM-Vidyalaxmi Scheme Approved by Union Cabinet (Nov 6 — ₹3,600 Crore):</strong> Provides <strong>collateral-free, guarantor-free</strong> education loans for meritorious students admitted to top <strong>860 Quality Higher Educational Institutions (QHEIs)</strong> (via NIRF), with a <strong>75% sovereign credit guarantee</strong> for loans up to <strong>₹7.5 lakh</strong> and a <strong>3% interest subvention</strong> on loans up to <strong>₹10 lakh</strong> (for annual family income &le; <strong>₹8 lakh</strong>).</li>\n    <li><strong>25th India–Russia IRIGC-TEC (New Delhi, Nov 12) &amp; 4th Indian Consulate in Brisbane, Australia:</strong> EAM Dr. S. Jaishankar and Russian First Deputy PM Denis Manturov targeted <strong>$100B bilateral trade by 2030</strong> via the <strong>INSTC</strong> and <strong>Chennai–Vladivostok Maritime Corridor</strong>; EAM also inaugurated India's <strong>4th Consulate in Australia at Brisbane</strong> and co-chaired the 15th FMFD.</li>\n    <li><strong>47th US Presidential Election (Nov 5–6):</strong> <strong>Donald J. Trump</strong> elected the <strong>47th President of the United States</strong> (with <strong>J.D. Vance</strong> as 50th VP), becoming only the <strong>second President in US history</strong> after <strong>Grover Cleveland</strong> (22nd &amp; 24th) to serve two non-consecutive terms.</li>\n  </ul>\n\n  <h4 style=\"color:#4ade80; margin-top:24px; margin-bottom:12px; font-size:1.1rem;\">4. Culture, Sports, Personalities &amp; Important Days (Nov 1–12)</h4>\n  <ul style=\"color:#e2e8f0; line-height:1.7;\">\n    <li><strong>Booker Prize 2026 Won by Samantha Harvey for <em>'Orbital'</em> (Nov 12):</strong> British writer Samantha Harvey won the Booker Prize for her novel set aboard the <strong>International Space Station (ISS)</strong> over a 24-hour orbit—the first space-set book to win the prize.</li>\n    <li><strong>Pankaj Advani Wins 28th World Title &amp; Arjun Erigaisi Crosses 2800 ELO (Nov 8–12):</strong> <strong>Pankaj Advani</strong> won the <strong>IBSF World Billiards Championship in Doha, Qatar</strong> (his 7th consecutive and <strong>28th overall World Title</strong>); GM <strong>Arjun Erigaisi</strong> became only the <strong>2nd Indian after Viswanathan Anand</strong> to cross the <strong>2800 FIDE Classical Rating</strong> barrier as <strong>Aravindh Chithambaram</strong> won the <strong>Chennai Grand Masters 2026</strong>; <strong>Sanju Samson</strong> became the first Indian batter to score back-to-back T20I centuries.</li>\n    <li><strong>1st Asian Buddhist Summit (New Delhi, Nov 5–6):</strong> Hosted by the <strong>Ministry of Culture</strong> and <strong>International Buddhist Confederation (IBC)</strong> on the theme <em>\"Role of Buddha Dhamma in Strengthening Asia\"</em> (inaugurated by President Droupadi Murmu), spotlighting <strong>Pali's Classical Language status</strong>.</li>\n    <li><strong>Eminent Personalities Passed Away:</strong>\n      <ul style=\"color:#cbd5e1; margin-top:4px;\">\n        <li><strong>Dr. Bibek Debroy (Nov 1):</strong> Chairman of <strong>EAC-PM</strong>, architect of the 2015 Railway Restructuring Report (merging Railway &amp; General Budgets, ending the 1924 Acworth separation, and creating IRMS), and translator of the 10-volume unabridged <em>Mahabharata</em>.</li>\n        <li><strong>Dr. Sharda Sinha — 'Bihar Kokila' (Nov 5):</strong> Padma Bhushan (2018) and Padma Shri (1991) awardee celebrated for her <strong>Maithili, Bhojpuri, and Magahi</strong> folk music and devotional <strong>Chhath Puja</strong> songs.</li>\n      </ul>\n    </li>\n    <li><strong>2036 Summer Olympics Bid &amp; U-19 World Boxing:</strong> <strong>Indian Olympic Association (IOA)</strong> submitted India's formal <strong>'Letter of Intent'</strong> to the IOC (Lausanne) to host the <strong>2036 Olympics</strong> (proposing Yoga, Kho-Kho, Kabaddi, Chess, T20 Cricket, Squash). At the inaugural <strong>U-19 World Boxing Championships</strong> (Colorado, USA), India won <strong>17 medals (4 Gold, 8 Silver, 5 Bronze)</strong>.</li>\n    <li><strong>Important Days (Nov 1–12):</strong> <strong>Nov 1</strong> — State Formation Day (Rajyotsava, States Reorganisation Act 1956); <strong>Nov 3</strong> — International Day for Biosphere Reserves (UNESCO); <strong>Nov 5</strong> — World Tsunami Awareness Day (<em>Inamura-no-Hi</em> / INCOIS Hyderabad); <strong>Nov 7</strong> — <strong>National Cancer Awareness Day</strong> (Marie Curie; India's <strong>'NexCAR19'</strong> CAR-T therapy) &amp; <strong>Sir C.V. Raman's Birth Anniversary</strong>; <strong>Nov 9</strong> — <strong>National Legal Services Day</strong> (NALSA / Article 39A) &amp; <strong>Uttarakhand Foundation Day</strong> (27th State, 2000); <strong>Nov 11</strong> — <strong>National Education Day</strong> (1st Education Minister <strong>Maulana Abul Kalam Azad</strong> — <em>Al-Hilal</em>, <em>India Wins Freedom</em>, IIT Kharagpur &amp; UGC); <strong>Nov 12</strong> — <strong>Public Service Broadcasting Day</strong> (Mahatma Gandhi's 1947 AIR broadcast to Kurukshetra refugees) &amp; <strong>World Pneumonia Day</strong> (SAANS campaign).</li>\n  </ul>\n</div>"
           }
         ]
       },

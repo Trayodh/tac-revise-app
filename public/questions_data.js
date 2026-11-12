@@ -139701,7 +139701,7 @@ const CBT_EXAMS_DATABASE = [
     "exam": "CDS",
     "subject": "Current Affairs",
     "title": "CDS High-Yield Current Affairs (Nov 2026 & Strategic Sitrep)",
-    "duration": 20,
+    "duration": 30,
     "rules": {
       "correctMarks": 0.83,
       "incorrectMarks": -0.27
@@ -139734,6 +139734,58 @@ const CBT_EXAMS_DATABASE = [
         "exam": "CDS"
       },
       {
+        "question": "The 5th edition of the Vietnam–India Bilateral Military Exercise 'VINBAX 2026', which was expanded for the first time into a bi-service (Army and Air Force) format in November 2026, was held at:",
+        "options": [
+          "Da Nang, Vietnam",
+          "Ambala and Chandimandir, Haryana",
+          "Jabalpur, Madhya Pradesh",
+          "Binnaguri, West Bengal"
+        ],
+        "correct": 1,
+        "explanation": "The 5th edition of Exercise VINBAX 2026 was held at Ambala and Chandimandir (Nov 4–23, 2026), featuring Army (Corps of Engineers) and Air Force personnel from both nations for UN Peacekeeping tasks.",
+        "topicId": "bilateral-exercises",
+        "exam": "CDS"
+      },
+      {
+        "question": "Where was the 3rd edition of the India–Australia Joint Military Exercise 'AUSTRAHIND' conducted in November 2026?",
+        "options": [
+          "Mahajan Field Firing Ranges, Rajasthan",
+          "Foreign Training Node, Aundh (Pune), Maharashtra",
+          "Perth, Western Australia",
+          "Chaubattia, Uttarakhand"
+        ],
+        "correct": 1,
+        "explanation": "The 3rd edition of Exercise AUSTRAHIND was conducted at the Foreign Training Node in Aundh (Pune), Maharashtra, involving the Indian Army's DOGRA Regiment, IAF, and the Australian Army.",
+        "topicId": "bilateral-exercises",
+        "exam": "CDS"
+      },
+      {
+        "question": "In November 2026, Chief of the Naval Staff Admiral Dinesh K. Tripathi hosted the 3rd edition of 'MAHASAGAR' with 10 Indian Ocean Region (IOR) littoral nations. What does the acronym 'MAHASAGAR' stand for?",
+        "options": [
+          "Maritime Alliance for Humanitarian Assistance, Security And Growth Across Regions",
+          "Maritime Heads for Active Security And Growth for All in the Region",
+          "Multilateral Architecture for High-Seas Anti-Submarine Governance And Readiness",
+          "Mission for Atmanirbhar Hydrography And Security Across Global Arterial Routes"
+        ],
+        "correct": 1,
+        "explanation": "MAHASAGAR stands for 'Maritime Heads for Active Security And Growth for All in the Region', connecting the Indian Navy with 10 IOR littoral states (Bangladesh, Comoros, Kenya, Madagascar, Maldives, Mauritius, Mozambique, Seychelles, Sri Lanka, Tanzania).",
+        "topicId": "ca-relations",
+        "exam": "CDS"
+      },
+      {
+        "question": "The Indian Army's Northern Command recently inducted 550 units of 'ASMI', India's first indigenously designed and manufactured 9×19mm machine pistol. It was developed and manufactured by:",
+        "options": [
+          "HAL Bengaluru and Bharat Forge",
+          "DRDO's ARDE (Pune) with Lt Col Prasad Bansod, and manufactured by Lokesh Machines (Hyderabad)",
+          "Ordnance Factory Tiruchirappalli and Adani Defence",
+          "DRDO's DRDL (Hyderabad) and Tata Advanced Systems"
+        ],
+        "correct": 1,
+        "explanation": "The 9×19mm 'Asmi' (meaning Pride, Self-Respect & Hard Work) submachine gun was co-developed by DRDO's ARDE (Pune) and Lt Col Prasad Bansod, and manufactured by Lokesh Machines Ltd in Hyderabad.",
+        "topicId": "ca-defense-acquisitions",
+        "exam": "CDS"
+      },
+      {
         "question": "In November 2026, ISRO's Human Spaceflight Centre (HSFC) inaugurated India's first Analog Space Mission featuring an inflatable habitat pod named 'Hab-1' at which location?",
         "options": [
           "Rann of Kutch, Gujarat",
@@ -139744,6 +139796,84 @@ const CBT_EXAMS_DATABASE = [
         "correct": 1,
         "explanation": "India's first Analog Space Mission ('Hab-1') was launched in Leh, Ladakh in collaboration with AAKA Space Studio, University of Ladakh, and IIT Bombay to simulate Lunar and Martian surface conditions.",
         "topicId": "ca-science-tech-space",
+        "exam": "CDS"
+      },
+      {
+        "question": "The 'Proba-3' mission, which arrived at Sriharikota in November 2026 for launch aboard ISRO's PSLV-XL (PSLV-C59), is the world's first precision formation-flying twin-satellite mission developed by which agency to study the Sun's faint corona?",
+        "options": [
+          "NASA (USA)",
+          "European Space Agency (ESA)",
+          "JAXA (Japan)",
+          "CNES (France)"
+        ],
+        "correct": 1,
+        "explanation": "Proba-3 (Project for On-Board Autonomy-3) is an ESA mission featuring two spacecraft (Coronagraph and Occulter) flying 150 meters apart to cast an artificial solar eclipse in High Earth Orbit.",
+        "topicId": "ca-science-tech-space",
+        "exam": "CDS"
+      },
+      {
+        "question": "'LignoSat', the world's first wooden artificial satellite launched to the International Space Station in November 2026 to eliminate aluminium oxide re-entry pollution, was developed by researchers from which country?",
+        "options": [
+          "Sweden",
+          "Finland",
+          "Japan (Kyoto University & Sumitomo Forestry)",
+          "Canada"
+        ],
+        "correct": 2,
+        "explanation": "LignoSat was built in Japan by Kyoto University and Sumitomo Forestry using Honoki magnolia wood and traditional Japanese joinery without screws or glue.",
+        "topicId": "ca-science-tech-space",
+        "exam": "CDS"
+      },
+      {
+        "question": "In November 2026, a 9-Judge Constitution Bench of the Supreme Court delivered a landmark 8:1 judgment in 'Property Owners Association v. State of Maharashtra' holding that NOT every privately owned property automatically constitutes a 'material resource of the community'. This ruling interpreted which Article of the Constitution?",
+        "options": [
+          "Article 38(2)",
+          "Article 39(b)",
+          "Article 43A",
+          "Article 300A"
+        ],
+        "correct": 1,
+        "explanation": "The 9-Judge Bench interpreted Article 39(b) (DPSP) alongside Article 31C, overruling Justice Krishna Iyer's sweeping socialist view in Sanjeev Coke (1983) and holding that private property qualifies only if it meets the Public Trust & Scarcity criteria.",
+        "topicId": "polity-dpsp",
+        "exam": "CDS"
+      },
+      {
+        "question": "Under the 'PM-Vidyalaxmi' Scheme (outlay ₹3,600 crore) approved by the Union Cabinet in November 2026 for meritorious students admitted to the top 860 Quality Higher Educational Institutions (QHEIs), what is the sovereign credit guarantee provided for collateral-free loans up to ₹7.5 lakh?",
+        "options": [
+          "50% credit guarantee",
+          "75% credit guarantee",
+          "80% credit guarantee",
+          "100% credit guarantee"
+        ],
+        "correct": 1,
+        "explanation": "PM-Vidyalaxmi provides a 75% sovereign credit guarantee for loans up to ₹7.5 lakh (irrespective of income) and a 3% interest subvention on loans up to ₹10 lakh for students with annual family income up to ₹8 lakh.",
+        "topicId": "ca-schemes",
+        "exam": "CDS"
+      },
+      {
+        "question": "Where was the 7th Session of the International Solar Alliance (ISA) Assembly held in November 2026 under India's Presidency and France's Co-Presidency, where Ashish Khanna was elected as the 3rd Director General?",
+        "options": [
+          "Gurugram, Haryana",
+          "Bharat Mandapam, New Delhi",
+          "Gandhinagar, Gujarat",
+          "Paris, France"
+        ],
+        "correct": 1,
+        "explanation": "While the ISA Headquarters is in Gurugram, the 7th ISA Assembly was held at Bharat Mandapam in New Delhi from November 3–6, 2026, where Ashish Khanna was elected the 3rd Director General.",
+        "topicId": "ca-summits",
+        "exam": "CDS"
+      },
+      {
+        "question": "By winning election as the 47th President of the United States in November 2026, Donald J. Trump became only the second President in US history to serve two non-consecutive terms. Who was the first US President to do so?",
+        "options": [
+          "Theodore Roosevelt",
+          "Grover Cleveland (22nd and 24th President)",
+          "Woodrow Wilson",
+          "William Howard Taft"
+        ],
+        "correct": 1,
+        "explanation": "Grover Cleveland served as the 22nd (1885–1889) and 24th (1893–1897) President of the United States before Donald Trump (45th and 47th President).",
+        "topicId": "ca-relations",
         "exam": "CDS"
       },
       {
@@ -139760,81 +139890,211 @@ const CBT_EXAMS_DATABASE = [
         "exam": "CDS"
       },
       {
-        "question": "DRDO successfully completed flight trials of the Guided Pinaka Multi-Barrel Rocket System in November 2026. What is the approximate extended strike range of the Guided Pinaka variant?",
+        "question": "Padma Bhushan awardee Dr. Sharda Sinha, who passed away on November 5, 2026 and was affectionately known as 'Bihar Kokila', was celebrated for her iconic contributions to:",
         "options": [
-          "37.5 km",
-          "Over 75 km",
-          "150 km",
-          "290 km"
+          "Mithila (Madhubani) folk painting",
+          "Maithili, Bhojpuri, and Magahi folk music and Chhath Puja devotional songs",
+          "Odissi classical dance",
+          "Hindustani classical violin"
         ],
         "correct": 1,
-        "explanation": "While the unguided Pinaka Mark-I has a range of ~37.5 km, the Guided Pinaka rocket extends the strike range to over 75 km with sub-10-meter CEP accuracy.",
-        "topicId": "missiles-systems",
-        "exam": "CDS"
-      },
-      {
-        "question": "Which foreign country became the first export customer for India's indigenously developed Pinaka Multi-Barrel Rocket Launcher (MBRL) system?",
-        "options": [
-          "Philippines",
-          "Armenia",
-          "Vietnam",
-          "Mauritius"
-        ],
-        "correct": 1,
-        "explanation": "Armenia became the first foreign export customer for the indigenous Pinaka MBRL system, while the Philippines was the first export customer for the BrahMos supersonic cruise missile.",
-        "topicId": "ca-defense-acquisitions",
-        "exam": "CDS"
-      },
-      {
-        "question": "Who was sworn in as the 8th President of Indonesia in October 2026, succeeding Joko Widodo?",
-        "options": [
-          "Anies Baswedan",
-          "Prabowo Subianto",
-          "Ganjar Pranowo",
-          "Gibran Rakabuming Raka"
-        ],
-        "correct": 1,
-        "explanation": "Former Defence Minister Prabowo Subianto was sworn in as the 8th President of Indonesia on October 20, 2026.",
-        "topicId": "ca-relations",
-        "exam": "CDS"
-      },
-      {
-        "question": "At the 7th India-Germany Intergovernmental Consultations (IGC) in New Delhi, Germany announced an increase in its annual visa quota for skilled Indian professionals from 20,000 to:",
-        "options": [
-          "45,000 per year",
-          "60,000 per year",
-          "90,000 per year",
-          "1,20,000 per year"
-        ],
-        "correct": 2,
-        "explanation": "During the 7th IGC co-chaired by PM Modi and Chancellor Olaf Scholz, Germany raised its annual skilled Indian labour visa cap from 20,000 to 90,000.",
-        "topicId": "ca-relations",
-        "exam": "CDS"
-      },
-      {
-        "question": "Which organization was awarded the 2026 International Astronautical Federation (IAF) World Space Award in Milan, Italy?",
-        "options": [
-          "NASA for the Artemis-I Mission",
-          "ISRO for the Chandrayaan-3 Mission",
-          "CNSA for the Chang'e-6 Mission",
-          "JAXA for the SLIM Mission"
-        ],
-        "correct": 1,
-        "explanation": "ISRO received the 2026 IAF World Space Award at the 75th International Astronautical Congress in Milan for the historic Chandrayaan-3 landing near the lunar south pole.",
+        "explanation": "Dr. Sharda Sinha ('Bihar Kokila') was an iconic Maithili, Bhojpuri, and Magahi folk singer renowned for her Chhath Puja devotional songs.",
         "topicId": "ca-awards",
         "exam": "CDS"
       },
       {
-        "question": "Which of the following pairs of ships represented the German Navy during the Indo-German Maritime Partnership Exercise with INS Delhi in the Indian Ocean in October 2026?",
+        "question": "The 1st Asian Buddhist Summit was hosted in New Delhi on November 5–6, 2026 by the Ministry of Culture in collaboration with the International Buddhist Confederation (IBC) under which theme?",
         "options": [
-          "FGS Bayern and FGS Berlin",
-          "FGS Baden-Württemberg and FGS Frankfurt am Main",
-          "FGS Hamburg and FGS Bonn",
-          "FGS Hessen and FGS Sachsen"
+          "Dhamma Setu: Connecting Indo-Pacific Heritage",
+          "Role of Buddha Dhamma in Strengthening Asia",
+          "Buddha's Middle Path for Global Peace and Climate Action",
+          "Shared Sangha Heritage of the Global South"
         ],
         "correct": 1,
-        "explanation": "German Navy frigate FGS Baden-Württemberg and combat support ship FGS Frankfurt am Main conducted joint naval drills with INS Delhi and made a port call at Mormugao Port, Goa.",
+        "explanation": "Inaugurated by President Droupadi Murmu in New Delhi, the 1st Asian Buddhist Summit was held on the theme 'Role of Buddha Dhamma in Strengthening Asia'.",
+        "topicId": "ca-summits",
+        "exam": "CDS"
+      },
+      {
+        "question": "While upholding the UP Board of Madarsa Education Act, 2004 in November 2026, the Supreme Court struck down its provisions regulating 'Kamil' (UG) and 'Fazil' (PG) higher degrees because they conflict with the UGC Act, 1956 enacted under which Entry of the Seventh Schedule?",
+        "options": [
+          "Entry 66 of List I (Union List)",
+          "Entry 25 of List III (Concurrent List)",
+          "Entry 11 of List II (State List)",
+          "Entry 97 of List I (Residuary Powers)"
+        ],
+        "correct": 0,
+        "explanation": "Entry 66 of the Union List vests exclusive power in Parliament for coordination and determination of standards in institutions for higher education, under which Section 22 of the UGC Act, 1956 regulates the grant of degrees.",
+        "topicId": "polity-federalism",
+        "exam": "CDS"
+      },
+      {
+        "question": "A 5-Judge Constitution Bench of the Supreme Court ruled unanimously in November 2026 that a person holding a Light Motor Vehicle (LMV) driving licence is legally entitled to drive a transport vehicle whose unladen weight does not exceed:",
+        "options": [
+          "3,500 kg",
+          "5,000 kg",
+          "7,500 kg",
+          "12,000 kg"
+        ],
+        "correct": 2,
+        "explanation": "Upholding the 2017 Mukund Dewangan judgment, the 5-Judge Bench ruled that under Section 2(21) of the Motor Vehicles Act, 1988, an LMV licence covers transport vehicles with an unladen weight up to 7,500 kg.",
+        "topicId": "ca-schemes",
+        "exam": "CDS"
+      },
+      {
+        "question": "DRDO successfully completed flight trials of the Guided Pinaka Multi-Barrel Rocket System in November 2026. What is the approximate extended strike range of the Guided Pinaka variant, and which country was its first export buyer?",
+        "options": [
+          "37.5 km; Philippines",
+          "Over 75 km; Armenia",
+          "150 km; Vietnam",
+          "290 km; Indonesia"
+        ],
+        "correct": 1,
+        "explanation": "The Guided Pinaka extends strike range from 37.5 km (Mk-I) to over 75 km with sub-10m CEP accuracy, and Armenia became the first international export buyer of the Pinaka MBRL system.",
+        "topicId": "missiles-systems",
+        "exam": "CDS"
+      },
+      {
+        "question": "National Cancer Awareness Day is observed in India on November 7 (coinciding with the birth anniversaries of Nobel Laureate Marie Curie and Bharat Ratna Sir C.V. Raman). What is the name of India's first indigenously developed CAR-T cell cancer therapy?",
+        "options": [
+          "Cervavac",
+          "NexCAR19",
+          "iNCOVACC",
+          "ZyCoV-D"
+        ],
+        "correct": 1,
+        "explanation": "NexCAR19 (Actalycabtagene autoleucel), developed jointly by IIT Bombay, Tata Memorial Centre, and ImmunoAct, is India's first indigenous CAR-T cell therapy for B-cell blood cancers (whereas Cervavac is India's indigenous qHPV vaccine against cervical cancer).",
+        "topicId": "ca-science-tech-space",
+        "exam": "CDS"
+      },
+      {
+        "question": "On November 12, 2026, DRDO conducted the maiden flight-test of the Long Range Land Attack Cruise Missile (LRLACM) from ITR Chandipur. Designed by ADE Bengaluru with BDL and BEL, what is its approximate operational strike range?",
+        "options": [
+          "290 km",
+          "500 km",
+          "Over 1,000 km",
+          "3,500 km"
+        ],
+        "correct": 2,
+        "explanation": "The Long Range Land Attack Cruise Missile (LRLACM) is a 1,000+ km range subsonic cruise missile capable of being launched from both mobile ground launchers and naval warships (via UVLM).",
+        "topicId": "missiles-systems",
+        "exam": "CDS"
+      },
+      {
+        "question": "India's first-ever dedicated Tri-Service military space exercise, conducted by the Defence Space Agency (DSA) under HQ Integrated Defence Staff in New Delhi from November 11 to 13, 2026, is named:",
+        "options": [
+          "Exercise IndSpaceEx-II",
+          "Exercise Antariksha Abhyas – 2026",
+          "Exercise Gaganyaan Kavach",
+          "Exercise Akash Shakti"
+        ],
+        "correct": 1,
+        "explanation": "Inaugurated by CDS General Anil Chauhan on November 11, 2026, 'Antariksha Abhyas – 2026' is India's maiden Tri-Service military space exercise hosted by the Defence Space Agency (DSA).",
         "topicId": "bilateral-exercises",
+        "exam": "CDS"
+      },
+      {
+        "question": "Which Tri-Service integrated combat exercise was conducted by the Indian Armed Forces across the high-altitude mountainous terrain of the Eastern Theatre (Arunachal Pradesh) from November 10 to 18, 2026, featuring Navy P-8I and IAF Prachand LCH?",
+        "options": [
+          "Exercise Poorvi Prahar",
+          "Exercise Him Vijay",
+          "Exercise Gaganshakti",
+          "Exercise Trishul"
+        ],
+        "correct": 0,
+        "explanation": "Exercise 'Poorvi Prahar' (Nov 10–18, 2026) was spearheaded by the Eastern Command in Arunachal Pradesh, integrating Army, IAF, and Indian Navy (P-8I) assets.",
+        "topicId": "bilateral-exercises",
+        "exam": "CDS"
+      },
+      {
+        "question": "In November 2026, a 7-Judge Constitution Bench of the Supreme Court overruled which 1967 judgment by a 4:3 majority, holding that an educational institution is NOT barred from claiming Minority Status under Article 30(1) merely because it was incorporated by a statute?",
+        "options": [
+          "T.M.A. Pai Foundation v. State of Karnataka",
+          "S. Azeez Basha v. Union of India (Aligarh Muslim University Case)",
+          "St. Stephen's College v. University of Delhi",
+          "In Re: Kerala Education Bill"
+        ],
+        "correct": 1,
+        "explanation": "On November 8, 2026, a 7-Judge Constitution Bench overruled the 1967 5-Judge ruling in 'S. Azeez Basha v. Union of India' by a 4:3 majority and laid down the 'Genesis / Brainchild Test' under Article 30(1).",
+        "topicId": "polity-fr",
+        "exam": "CDS"
+      },
+      {
+        "question": "Where was the 29th Conference of the Parties to the UN Framework Convention on Climate Change (UNFCCC COP29 — 'Finance COP') held from November 11 to 22, 2026?",
+        "options": [
+          "Cali, Colombia",
+          "Baku, Azerbaijan",
+          "Riyadh, Saudi Arabia",
+          "Belém, Brazil"
+        ],
+        "correct": 1,
+        "explanation": "UNFCCC COP29 was hosted in Baku, Azerbaijan (on the Caspian Sea). Note that CBD COP16 was held in Cali (Colombia), UNCCD COP16 in Riyadh (Saudi Arabia), and UNFCCC COP30 is scheduled for Belém (Brazil).",
+        "topicId": "ca-summits",
+        "exam": "CDS"
+      },
+      {
+        "question": "Who won the 2026 Booker Prize (announced in November 2026) for the novel 'Orbital', which follows six astronauts aboard the International Space Station over a single 24-hour period?",
+        "options": [
+          "Paul Lynch",
+          "Samantha Harvey",
+          "Shehan Karunatilaka",
+          "Jenny Erpenbeck"
+        ],
+        "correct": 1,
+        "explanation": "British author Samantha Harvey won the Booker Prize for 'Orbital'—the first book set in outer space to win the prestigious literary prize.",
+        "topicId": "ca-awards",
+        "exam": "CDS"
+      },
+      {
+        "question": "In November 2026, which Indian chess Grandmaster became only the second Indian in history (after Viswanathan Anand) and the 16th player worldwide to breach the elite 2800 FIDE Classical ELO rating barrier?",
+        "options": [
+          "D. Gukesh",
+          "R. Praggnanandhaa",
+          "Arjun Erigaisi",
+          "Vidit Gujrathi"
+        ],
+        "correct": 2,
+        "explanation": "Grandmaster Arjun Erigaisi crossed the 2800 FIDE Classical Rating mark in November 2026, becoming only the second Indian after 5-time World Champion Viswanathan Anand to achieve this feat.",
+        "topicId": "ca-sports",
+        "exam": "CDS"
+      },
+      {
+        "question": "Padma Bhushan cueist Pankaj Advani clinched his 28th career World Title in November 2026 by winning the IBSF World Billiards Championship held in which city?",
+        "options": [
+          "Kuala Lumpur, Malaysia",
+          "Doha, Qatar",
+          "Sheffield, United Kingdom",
+          "Manama, Bahrain"
+        ],
+        "correct": 1,
+        "explanation": "Pankaj Advani defeated England's Robert Hall (4–2) in Doha, Qatar on November 12, 2026 to claim his 7th consecutive IBSF World Billiards crown and 28th career World Title.",
+        "topicId": "ca-sports",
+        "exam": "CDS"
+      },
+      {
+        "question": "National Education Day is celebrated across India on November 11 to commemorate the birth anniversary of Independent India's first Minister of Education, Maulana Abul Kalam Azad. Which of the following Urdu weekly journals was founded by him in 1912?",
+        "options": [
+          "Comrade",
+          "Al-Hilal",
+          "Tahzib-ul-Akhlaq",
+          "Zamindar"
+        ],
+        "correct": 1,
+        "explanation": "Maulana Abul Kalam Azad launched the Urdu weekly 'Al-Hilal' in 1912 (and 'Al-Balagh' in 1915) and authored 'India Wins Freedom'. ('Comrade' was started by Mohammad Ali Jauhar and 'Tahzib-ul-Akhlaq' by Sir Syed Ahmad Khan).",
+        "topicId": "ca-awards",
+        "exam": "CDS"
+      },
+      {
+        "question": "Public Service Broadcasting Day (Jan Prasaran Diwas) is observed in India every year on November 12 to commemorate which historic event of 1947?",
+        "options": [
+          "Establishment of Prasar Bharati as an autonomous statutory corporation",
+          "Mahatma Gandhi's first and only live visit and broadcast from All India Radio (New Delhi) to Partition refugees at Kurukshetra",
+          "Launch of India's first television transmission by Doordarshan",
+          "Renaming of the Indian State Broadcasting Service as Akashvani"
+        ],
+        "correct": 1,
+        "explanation": "November 12 marks Mahatma Gandhi's only visit to Broadcasting House, All India Radio (New Delhi) on 12 November 1947 to address displaced refugees stationed at Kurukshetra camp in Haryana.",
+        "topicId": "ca-awards",
         "exam": "CDS"
       },
       {
@@ -139974,7 +140234,7 @@ const CBT_EXAMS_DATABASE = [
     "exam": "NDA",
     "subject": "Current Affairs",
     "title": "NDA High-Yield Current Affairs (Nov 2026 & Strategic Sitrep)",
-    "duration": 20,
+    "duration": 30,
     "rules": {
       "correctMarks": 4,
       "incorrectMarks": -1.33
@@ -140007,6 +140267,58 @@ const CBT_EXAMS_DATABASE = [
         "exam": "NDA"
       },
       {
+        "question": "The 5th edition of the Vietnam–India Bilateral Military Exercise 'VINBAX 2026', which was expanded for the first time into a bi-service (Army and Air Force) format in November 2026, was held at:",
+        "options": [
+          "Da Nang, Vietnam",
+          "Ambala and Chandimandir, Haryana",
+          "Jabalpur, Madhya Pradesh",
+          "Binnaguri, West Bengal"
+        ],
+        "correct": 1,
+        "explanation": "The 5th edition of Exercise VINBAX 2026 was held at Ambala and Chandimandir (Nov 4–23, 2026), featuring Army (Corps of Engineers) and Air Force personnel from both nations for UN Peacekeeping tasks.",
+        "topicId": "bilateral-exercises",
+        "exam": "NDA"
+      },
+      {
+        "question": "Where was the 3rd edition of the India–Australia Joint Military Exercise 'AUSTRAHIND' conducted in November 2026?",
+        "options": [
+          "Mahajan Field Firing Ranges, Rajasthan",
+          "Foreign Training Node, Aundh (Pune), Maharashtra",
+          "Perth, Western Australia",
+          "Chaubattia, Uttarakhand"
+        ],
+        "correct": 1,
+        "explanation": "The 3rd edition of Exercise AUSTRAHIND was conducted at the Foreign Training Node in Aundh (Pune), Maharashtra, involving the Indian Army's DOGRA Regiment, IAF, and the Australian Army.",
+        "topicId": "bilateral-exercises",
+        "exam": "NDA"
+      },
+      {
+        "question": "In November 2026, Chief of the Naval Staff Admiral Dinesh K. Tripathi hosted the 3rd edition of 'MAHASAGAR' with 10 Indian Ocean Region (IOR) littoral nations. What does the acronym 'MAHASAGAR' stand for?",
+        "options": [
+          "Maritime Alliance for Humanitarian Assistance, Security And Growth Across Regions",
+          "Maritime Heads for Active Security And Growth for All in the Region",
+          "Multilateral Architecture for High-Seas Anti-Submarine Governance And Readiness",
+          "Mission for Atmanirbhar Hydrography And Security Across Global Arterial Routes"
+        ],
+        "correct": 1,
+        "explanation": "MAHASAGAR stands for 'Maritime Heads for Active Security And Growth for All in the Region', connecting the Indian Navy with 10 IOR littoral states (Bangladesh, Comoros, Kenya, Madagascar, Maldives, Mauritius, Mozambique, Seychelles, Sri Lanka, Tanzania).",
+        "topicId": "ca-relations",
+        "exam": "NDA"
+      },
+      {
+        "question": "The Indian Army's Northern Command recently inducted 550 units of 'ASMI', India's first indigenously designed and manufactured 9×19mm machine pistol. It was developed and manufactured by:",
+        "options": [
+          "HAL Bengaluru and Bharat Forge",
+          "DRDO's ARDE (Pune) with Lt Col Prasad Bansod, and manufactured by Lokesh Machines (Hyderabad)",
+          "Ordnance Factory Tiruchirappalli and Adani Defence",
+          "DRDO's DRDL (Hyderabad) and Tata Advanced Systems"
+        ],
+        "correct": 1,
+        "explanation": "The 9×19mm 'Asmi' (meaning Pride, Self-Respect & Hard Work) submachine gun was co-developed by DRDO's ARDE (Pune) and Lt Col Prasad Bansod, and manufactured by Lokesh Machines Ltd in Hyderabad.",
+        "topicId": "ca-defense-acquisitions",
+        "exam": "NDA"
+      },
+      {
         "question": "In November 2026, ISRO's Human Spaceflight Centre (HSFC) inaugurated India's first Analog Space Mission featuring an inflatable habitat pod named 'Hab-1' at which location?",
         "options": [
           "Rann of Kutch, Gujarat",
@@ -140017,6 +140329,84 @@ const CBT_EXAMS_DATABASE = [
         "correct": 1,
         "explanation": "India's first Analog Space Mission ('Hab-1') was launched in Leh, Ladakh in collaboration with AAKA Space Studio, University of Ladakh, and IIT Bombay to simulate Lunar and Martian surface conditions.",
         "topicId": "ca-science-tech-space",
+        "exam": "NDA"
+      },
+      {
+        "question": "The 'Proba-3' mission, which arrived at Sriharikota in November 2026 for launch aboard ISRO's PSLV-XL (PSLV-C59), is the world's first precision formation-flying twin-satellite mission developed by which agency to study the Sun's faint corona?",
+        "options": [
+          "NASA (USA)",
+          "European Space Agency (ESA)",
+          "JAXA (Japan)",
+          "CNES (France)"
+        ],
+        "correct": 1,
+        "explanation": "Proba-3 (Project for On-Board Autonomy-3) is an ESA mission featuring two spacecraft (Coronagraph and Occulter) flying 150 meters apart to cast an artificial solar eclipse in High Earth Orbit.",
+        "topicId": "ca-science-tech-space",
+        "exam": "NDA"
+      },
+      {
+        "question": "'LignoSat', the world's first wooden artificial satellite launched to the International Space Station in November 2026 to eliminate aluminium oxide re-entry pollution, was developed by researchers from which country?",
+        "options": [
+          "Sweden",
+          "Finland",
+          "Japan (Kyoto University & Sumitomo Forestry)",
+          "Canada"
+        ],
+        "correct": 2,
+        "explanation": "LignoSat was built in Japan by Kyoto University and Sumitomo Forestry using Honoki magnolia wood and traditional Japanese joinery without screws or glue.",
+        "topicId": "ca-science-tech-space",
+        "exam": "NDA"
+      },
+      {
+        "question": "In November 2026, a 9-Judge Constitution Bench of the Supreme Court delivered a landmark 8:1 judgment in 'Property Owners Association v. State of Maharashtra' holding that NOT every privately owned property automatically constitutes a 'material resource of the community'. This ruling interpreted which Article of the Constitution?",
+        "options": [
+          "Article 38(2)",
+          "Article 39(b)",
+          "Article 43A",
+          "Article 300A"
+        ],
+        "correct": 1,
+        "explanation": "The 9-Judge Bench interpreted Article 39(b) (DPSP) alongside Article 31C, overruling Justice Krishna Iyer's sweeping socialist view in Sanjeev Coke (1983) and holding that private property qualifies only if it meets the Public Trust & Scarcity criteria.",
+        "topicId": "polity-dpsp",
+        "exam": "NDA"
+      },
+      {
+        "question": "Under the 'PM-Vidyalaxmi' Scheme (outlay ₹3,600 crore) approved by the Union Cabinet in November 2026 for meritorious students admitted to the top 860 Quality Higher Educational Institutions (QHEIs), what is the sovereign credit guarantee provided for collateral-free loans up to ₹7.5 lakh?",
+        "options": [
+          "50% credit guarantee",
+          "75% credit guarantee",
+          "80% credit guarantee",
+          "100% credit guarantee"
+        ],
+        "correct": 1,
+        "explanation": "PM-Vidyalaxmi provides a 75% sovereign credit guarantee for loans up to ₹7.5 lakh (irrespective of income) and a 3% interest subvention on loans up to ₹10 lakh for students with annual family income up to ₹8 lakh.",
+        "topicId": "ca-schemes",
+        "exam": "NDA"
+      },
+      {
+        "question": "Where was the 7th Session of the International Solar Alliance (ISA) Assembly held in November 2026 under India's Presidency and France's Co-Presidency, where Ashish Khanna was elected as the 3rd Director General?",
+        "options": [
+          "Gurugram, Haryana",
+          "Bharat Mandapam, New Delhi",
+          "Gandhinagar, Gujarat",
+          "Paris, France"
+        ],
+        "correct": 1,
+        "explanation": "While the ISA Headquarters is in Gurugram, the 7th ISA Assembly was held at Bharat Mandapam in New Delhi from November 3–6, 2026, where Ashish Khanna was elected the 3rd Director General.",
+        "topicId": "ca-summits",
+        "exam": "NDA"
+      },
+      {
+        "question": "By winning election as the 47th President of the United States in November 2026, Donald J. Trump became only the second President in US history to serve two non-consecutive terms. Who was the first US President to do so?",
+        "options": [
+          "Theodore Roosevelt",
+          "Grover Cleveland (22nd and 24th President)",
+          "Woodrow Wilson",
+          "William Howard Taft"
+        ],
+        "correct": 1,
+        "explanation": "Grover Cleveland served as the 22nd (1885–1889) and 24th (1893–1897) President of the United States before Donald Trump (45th and 47th President).",
+        "topicId": "ca-relations",
         "exam": "NDA"
       },
       {
@@ -140033,81 +140423,211 @@ const CBT_EXAMS_DATABASE = [
         "exam": "NDA"
       },
       {
-        "question": "DRDO successfully completed flight trials of the Guided Pinaka Multi-Barrel Rocket System in November 2026. What is the approximate extended strike range of the Guided Pinaka variant?",
+        "question": "Padma Bhushan awardee Dr. Sharda Sinha, who passed away on November 5, 2026 and was affectionately known as 'Bihar Kokila', was celebrated for her iconic contributions to:",
         "options": [
-          "37.5 km",
-          "Over 75 km",
-          "150 km",
-          "290 km"
+          "Mithila (Madhubani) folk painting",
+          "Maithili, Bhojpuri, and Magahi folk music and Chhath Puja devotional songs",
+          "Odissi classical dance",
+          "Hindustani classical violin"
         ],
         "correct": 1,
-        "explanation": "While the unguided Pinaka Mark-I has a range of ~37.5 km, the Guided Pinaka rocket extends the strike range to over 75 km with sub-10-meter CEP accuracy.",
-        "topicId": "missiles-systems",
-        "exam": "NDA"
-      },
-      {
-        "question": "Which foreign country became the first export customer for India's indigenously developed Pinaka Multi-Barrel Rocket Launcher (MBRL) system?",
-        "options": [
-          "Philippines",
-          "Armenia",
-          "Vietnam",
-          "Mauritius"
-        ],
-        "correct": 1,
-        "explanation": "Armenia became the first foreign export customer for the indigenous Pinaka MBRL system, while the Philippines was the first export customer for the BrahMos supersonic cruise missile.",
-        "topicId": "ca-defense-acquisitions",
-        "exam": "NDA"
-      },
-      {
-        "question": "Who was sworn in as the 8th President of Indonesia in October 2026, succeeding Joko Widodo?",
-        "options": [
-          "Anies Baswedan",
-          "Prabowo Subianto",
-          "Ganjar Pranowo",
-          "Gibran Rakabuming Raka"
-        ],
-        "correct": 1,
-        "explanation": "Former Defence Minister Prabowo Subianto was sworn in as the 8th President of Indonesia on October 20, 2026.",
-        "topicId": "ca-relations",
-        "exam": "NDA"
-      },
-      {
-        "question": "At the 7th India-Germany Intergovernmental Consultations (IGC) in New Delhi, Germany announced an increase in its annual visa quota for skilled Indian professionals from 20,000 to:",
-        "options": [
-          "45,000 per year",
-          "60,000 per year",
-          "90,000 per year",
-          "1,20,000 per year"
-        ],
-        "correct": 2,
-        "explanation": "During the 7th IGC co-chaired by PM Modi and Chancellor Olaf Scholz, Germany raised its annual skilled Indian labour visa cap from 20,000 to 90,000.",
-        "topicId": "ca-relations",
-        "exam": "NDA"
-      },
-      {
-        "question": "Which organization was awarded the 2026 International Astronautical Federation (IAF) World Space Award in Milan, Italy?",
-        "options": [
-          "NASA for the Artemis-I Mission",
-          "ISRO for the Chandrayaan-3 Mission",
-          "CNSA for the Chang'e-6 Mission",
-          "JAXA for the SLIM Mission"
-        ],
-        "correct": 1,
-        "explanation": "ISRO received the 2026 IAF World Space Award at the 75th International Astronautical Congress in Milan for the historic Chandrayaan-3 landing near the lunar south pole.",
+        "explanation": "Dr. Sharda Sinha ('Bihar Kokila') was an iconic Maithili, Bhojpuri, and Magahi folk singer renowned for her Chhath Puja devotional songs.",
         "topicId": "ca-awards",
         "exam": "NDA"
       },
       {
-        "question": "Which of the following pairs of ships represented the German Navy during the Indo-German Maritime Partnership Exercise with INS Delhi in the Indian Ocean in October 2026?",
+        "question": "The 1st Asian Buddhist Summit was hosted in New Delhi on November 5–6, 2026 by the Ministry of Culture in collaboration with the International Buddhist Confederation (IBC) under which theme?",
         "options": [
-          "FGS Bayern and FGS Berlin",
-          "FGS Baden-Württemberg and FGS Frankfurt am Main",
-          "FGS Hamburg and FGS Bonn",
-          "FGS Hessen and FGS Sachsen"
+          "Dhamma Setu: Connecting Indo-Pacific Heritage",
+          "Role of Buddha Dhamma in Strengthening Asia",
+          "Buddha's Middle Path for Global Peace and Climate Action",
+          "Shared Sangha Heritage of the Global South"
         ],
         "correct": 1,
-        "explanation": "German Navy frigate FGS Baden-Württemberg and combat support ship FGS Frankfurt am Main conducted joint naval drills with INS Delhi and made a port call at Mormugao Port, Goa.",
+        "explanation": "Inaugurated by President Droupadi Murmu in New Delhi, the 1st Asian Buddhist Summit was held on the theme 'Role of Buddha Dhamma in Strengthening Asia'.",
+        "topicId": "ca-summits",
+        "exam": "NDA"
+      },
+      {
+        "question": "While upholding the UP Board of Madarsa Education Act, 2004 in November 2026, the Supreme Court struck down its provisions regulating 'Kamil' (UG) and 'Fazil' (PG) higher degrees because they conflict with the UGC Act, 1956 enacted under which Entry of the Seventh Schedule?",
+        "options": [
+          "Entry 66 of List I (Union List)",
+          "Entry 25 of List III (Concurrent List)",
+          "Entry 11 of List II (State List)",
+          "Entry 97 of List I (Residuary Powers)"
+        ],
+        "correct": 0,
+        "explanation": "Entry 66 of the Union List vests exclusive power in Parliament for coordination and determination of standards in institutions for higher education, under which Section 22 of the UGC Act, 1956 regulates the grant of degrees.",
+        "topicId": "polity-federalism",
+        "exam": "NDA"
+      },
+      {
+        "question": "A 5-Judge Constitution Bench of the Supreme Court ruled unanimously in November 2026 that a person holding a Light Motor Vehicle (LMV) driving licence is legally entitled to drive a transport vehicle whose unladen weight does not exceed:",
+        "options": [
+          "3,500 kg",
+          "5,000 kg",
+          "7,500 kg",
+          "12,000 kg"
+        ],
+        "correct": 2,
+        "explanation": "Upholding the 2017 Mukund Dewangan judgment, the 5-Judge Bench ruled that under Section 2(21) of the Motor Vehicles Act, 1988, an LMV licence covers transport vehicles with an unladen weight up to 7,500 kg.",
+        "topicId": "ca-schemes",
+        "exam": "NDA"
+      },
+      {
+        "question": "DRDO successfully completed flight trials of the Guided Pinaka Multi-Barrel Rocket System in November 2026. What is the approximate extended strike range of the Guided Pinaka variant, and which country was its first export buyer?",
+        "options": [
+          "37.5 km; Philippines",
+          "Over 75 km; Armenia",
+          "150 km; Vietnam",
+          "290 km; Indonesia"
+        ],
+        "correct": 1,
+        "explanation": "The Guided Pinaka extends strike range from 37.5 km (Mk-I) to over 75 km with sub-10m CEP accuracy, and Armenia became the first international export buyer of the Pinaka MBRL system.",
+        "topicId": "missiles-systems",
+        "exam": "NDA"
+      },
+      {
+        "question": "National Cancer Awareness Day is observed in India on November 7 (coinciding with the birth anniversaries of Nobel Laureate Marie Curie and Bharat Ratna Sir C.V. Raman). What is the name of India's first indigenously developed CAR-T cell cancer therapy?",
+        "options": [
+          "Cervavac",
+          "NexCAR19",
+          "iNCOVACC",
+          "ZyCoV-D"
+        ],
+        "correct": 1,
+        "explanation": "NexCAR19 (Actalycabtagene autoleucel), developed jointly by IIT Bombay, Tata Memorial Centre, and ImmunoAct, is India's first indigenous CAR-T cell therapy for B-cell blood cancers (whereas Cervavac is India's indigenous qHPV vaccine against cervical cancer).",
+        "topicId": "ca-science-tech-space",
+        "exam": "NDA"
+      },
+      {
+        "question": "On November 12, 2026, DRDO conducted the maiden flight-test of the Long Range Land Attack Cruise Missile (LRLACM) from ITR Chandipur. Designed by ADE Bengaluru with BDL and BEL, what is its approximate operational strike range?",
+        "options": [
+          "290 km",
+          "500 km",
+          "Over 1,000 km",
+          "3,500 km"
+        ],
+        "correct": 2,
+        "explanation": "The Long Range Land Attack Cruise Missile (LRLACM) is a 1,000+ km range subsonic cruise missile capable of being launched from both mobile ground launchers and naval warships (via UVLM).",
+        "topicId": "missiles-systems",
+        "exam": "NDA"
+      },
+      {
+        "question": "India's first-ever dedicated Tri-Service military space exercise, conducted by the Defence Space Agency (DSA) under HQ Integrated Defence Staff in New Delhi from November 11 to 13, 2026, is named:",
+        "options": [
+          "Exercise IndSpaceEx-II",
+          "Exercise Antariksha Abhyas – 2026",
+          "Exercise Gaganyaan Kavach",
+          "Exercise Akash Shakti"
+        ],
+        "correct": 1,
+        "explanation": "Inaugurated by CDS General Anil Chauhan on November 11, 2026, 'Antariksha Abhyas – 2026' is India's maiden Tri-Service military space exercise hosted by the Defence Space Agency (DSA).",
         "topicId": "bilateral-exercises",
+        "exam": "NDA"
+      },
+      {
+        "question": "Which Tri-Service integrated combat exercise was conducted by the Indian Armed Forces across the high-altitude mountainous terrain of the Eastern Theatre (Arunachal Pradesh) from November 10 to 18, 2026, featuring Navy P-8I and IAF Prachand LCH?",
+        "options": [
+          "Exercise Poorvi Prahar",
+          "Exercise Him Vijay",
+          "Exercise Gaganshakti",
+          "Exercise Trishul"
+        ],
+        "correct": 0,
+        "explanation": "Exercise 'Poorvi Prahar' (Nov 10–18, 2026) was spearheaded by the Eastern Command in Arunachal Pradesh, integrating Army, IAF, and Indian Navy (P-8I) assets.",
+        "topicId": "bilateral-exercises",
+        "exam": "NDA"
+      },
+      {
+        "question": "In November 2026, a 7-Judge Constitution Bench of the Supreme Court overruled which 1967 judgment by a 4:3 majority, holding that an educational institution is NOT barred from claiming Minority Status under Article 30(1) merely because it was incorporated by a statute?",
+        "options": [
+          "T.M.A. Pai Foundation v. State of Karnataka",
+          "S. Azeez Basha v. Union of India (Aligarh Muslim University Case)",
+          "St. Stephen's College v. University of Delhi",
+          "In Re: Kerala Education Bill"
+        ],
+        "correct": 1,
+        "explanation": "On November 8, 2026, a 7-Judge Constitution Bench overruled the 1967 5-Judge ruling in 'S. Azeez Basha v. Union of India' by a 4:3 majority and laid down the 'Genesis / Brainchild Test' under Article 30(1).",
+        "topicId": "polity-fr",
+        "exam": "NDA"
+      },
+      {
+        "question": "Where was the 29th Conference of the Parties to the UN Framework Convention on Climate Change (UNFCCC COP29 — 'Finance COP') held from November 11 to 22, 2026?",
+        "options": [
+          "Cali, Colombia",
+          "Baku, Azerbaijan",
+          "Riyadh, Saudi Arabia",
+          "Belém, Brazil"
+        ],
+        "correct": 1,
+        "explanation": "UNFCCC COP29 was hosted in Baku, Azerbaijan (on the Caspian Sea). Note that CBD COP16 was held in Cali (Colombia), UNCCD COP16 in Riyadh (Saudi Arabia), and UNFCCC COP30 is scheduled for Belém (Brazil).",
+        "topicId": "ca-summits",
+        "exam": "NDA"
+      },
+      {
+        "question": "Who won the 2026 Booker Prize (announced in November 2026) for the novel 'Orbital', which follows six astronauts aboard the International Space Station over a single 24-hour period?",
+        "options": [
+          "Paul Lynch",
+          "Samantha Harvey",
+          "Shehan Karunatilaka",
+          "Jenny Erpenbeck"
+        ],
+        "correct": 1,
+        "explanation": "British author Samantha Harvey won the Booker Prize for 'Orbital'—the first book set in outer space to win the prestigious literary prize.",
+        "topicId": "ca-awards",
+        "exam": "NDA"
+      },
+      {
+        "question": "In November 2026, which Indian chess Grandmaster became only the second Indian in history (after Viswanathan Anand) and the 16th player worldwide to breach the elite 2800 FIDE Classical ELO rating barrier?",
+        "options": [
+          "D. Gukesh",
+          "R. Praggnanandhaa",
+          "Arjun Erigaisi",
+          "Vidit Gujrathi"
+        ],
+        "correct": 2,
+        "explanation": "Grandmaster Arjun Erigaisi crossed the 2800 FIDE Classical Rating mark in November 2026, becoming only the second Indian after 5-time World Champion Viswanathan Anand to achieve this feat.",
+        "topicId": "ca-sports",
+        "exam": "NDA"
+      },
+      {
+        "question": "Padma Bhushan cueist Pankaj Advani clinched his 28th career World Title in November 2026 by winning the IBSF World Billiards Championship held in which city?",
+        "options": [
+          "Kuala Lumpur, Malaysia",
+          "Doha, Qatar",
+          "Sheffield, United Kingdom",
+          "Manama, Bahrain"
+        ],
+        "correct": 1,
+        "explanation": "Pankaj Advani defeated England's Robert Hall (4–2) in Doha, Qatar on November 12, 2026 to claim his 7th consecutive IBSF World Billiards crown and 28th career World Title.",
+        "topicId": "ca-sports",
+        "exam": "NDA"
+      },
+      {
+        "question": "National Education Day is celebrated across India on November 11 to commemorate the birth anniversary of Independent India's first Minister of Education, Maulana Abul Kalam Azad. Which of the following Urdu weekly journals was founded by him in 1912?",
+        "options": [
+          "Comrade",
+          "Al-Hilal",
+          "Tahzib-ul-Akhlaq",
+          "Zamindar"
+        ],
+        "correct": 1,
+        "explanation": "Maulana Abul Kalam Azad launched the Urdu weekly 'Al-Hilal' in 1912 (and 'Al-Balagh' in 1915) and authored 'India Wins Freedom'. ('Comrade' was started by Mohammad Ali Jauhar and 'Tahzib-ul-Akhlaq' by Sir Syed Ahmad Khan).",
+        "topicId": "ca-awards",
+        "exam": "NDA"
+      },
+      {
+        "question": "Public Service Broadcasting Day (Jan Prasaran Diwas) is observed in India every year on November 12 to commemorate which historic event of 1947?",
+        "options": [
+          "Establishment of Prasar Bharati as an autonomous statutory corporation",
+          "Mahatma Gandhi's first and only live visit and broadcast from All India Radio (New Delhi) to Partition refugees at Kurukshetra",
+          "Launch of India's first television transmission by Doordarshan",
+          "Renaming of the Indian State Broadcasting Service as Akashvani"
+        ],
+        "correct": 1,
+        "explanation": "November 12 marks Mahatma Gandhi's only visit to Broadcasting House, All India Radio (New Delhi) on 12 November 1947 to address displaced refugees stationed at Kurukshetra camp in Haryana.",
+        "topicId": "ca-awards",
         "exam": "NDA"
       },
       {
@@ -140247,7 +140767,7 @@ const CBT_EXAMS_DATABASE = [
     "exam": "AFCAT",
     "subject": "Current Affairs",
     "title": "AFCAT High-Yield Current Affairs (Nov 2026 & Strategic Sitrep)",
-    "duration": 20,
+    "duration": 30,
     "rules": {
       "correctMarks": 3,
       "incorrectMarks": -1
@@ -140280,6 +140800,58 @@ const CBT_EXAMS_DATABASE = [
         "exam": "AFCAT"
       },
       {
+        "question": "The 5th edition of the Vietnam–India Bilateral Military Exercise 'VINBAX 2026', which was expanded for the first time into a bi-service (Army and Air Force) format in November 2026, was held at:",
+        "options": [
+          "Da Nang, Vietnam",
+          "Ambala and Chandimandir, Haryana",
+          "Jabalpur, Madhya Pradesh",
+          "Binnaguri, West Bengal"
+        ],
+        "correct": 1,
+        "explanation": "The 5th edition of Exercise VINBAX 2026 was held at Ambala and Chandimandir (Nov 4–23, 2026), featuring Army (Corps of Engineers) and Air Force personnel from both nations for UN Peacekeeping tasks.",
+        "topicId": "bilateral-exercises",
+        "exam": "AFCAT"
+      },
+      {
+        "question": "Where was the 3rd edition of the India–Australia Joint Military Exercise 'AUSTRAHIND' conducted in November 2026?",
+        "options": [
+          "Mahajan Field Firing Ranges, Rajasthan",
+          "Foreign Training Node, Aundh (Pune), Maharashtra",
+          "Perth, Western Australia",
+          "Chaubattia, Uttarakhand"
+        ],
+        "correct": 1,
+        "explanation": "The 3rd edition of Exercise AUSTRAHIND was conducted at the Foreign Training Node in Aundh (Pune), Maharashtra, involving the Indian Army's DOGRA Regiment, IAF, and the Australian Army.",
+        "topicId": "bilateral-exercises",
+        "exam": "AFCAT"
+      },
+      {
+        "question": "In November 2026, Chief of the Naval Staff Admiral Dinesh K. Tripathi hosted the 3rd edition of 'MAHASAGAR' with 10 Indian Ocean Region (IOR) littoral nations. What does the acronym 'MAHASAGAR' stand for?",
+        "options": [
+          "Maritime Alliance for Humanitarian Assistance, Security And Growth Across Regions",
+          "Maritime Heads for Active Security And Growth for All in the Region",
+          "Multilateral Architecture for High-Seas Anti-Submarine Governance And Readiness",
+          "Mission for Atmanirbhar Hydrography And Security Across Global Arterial Routes"
+        ],
+        "correct": 1,
+        "explanation": "MAHASAGAR stands for 'Maritime Heads for Active Security And Growth for All in the Region', connecting the Indian Navy with 10 IOR littoral states (Bangladesh, Comoros, Kenya, Madagascar, Maldives, Mauritius, Mozambique, Seychelles, Sri Lanka, Tanzania).",
+        "topicId": "ca-relations",
+        "exam": "AFCAT"
+      },
+      {
+        "question": "The Indian Army's Northern Command recently inducted 550 units of 'ASMI', India's first indigenously designed and manufactured 9×19mm machine pistol. It was developed and manufactured by:",
+        "options": [
+          "HAL Bengaluru and Bharat Forge",
+          "DRDO's ARDE (Pune) with Lt Col Prasad Bansod, and manufactured by Lokesh Machines (Hyderabad)",
+          "Ordnance Factory Tiruchirappalli and Adani Defence",
+          "DRDO's DRDL (Hyderabad) and Tata Advanced Systems"
+        ],
+        "correct": 1,
+        "explanation": "The 9×19mm 'Asmi' (meaning Pride, Self-Respect & Hard Work) submachine gun was co-developed by DRDO's ARDE (Pune) and Lt Col Prasad Bansod, and manufactured by Lokesh Machines Ltd in Hyderabad.",
+        "topicId": "ca-defense-acquisitions",
+        "exam": "AFCAT"
+      },
+      {
         "question": "In November 2026, ISRO's Human Spaceflight Centre (HSFC) inaugurated India's first Analog Space Mission featuring an inflatable habitat pod named 'Hab-1' at which location?",
         "options": [
           "Rann of Kutch, Gujarat",
@@ -140290,6 +140862,84 @@ const CBT_EXAMS_DATABASE = [
         "correct": 1,
         "explanation": "India's first Analog Space Mission ('Hab-1') was launched in Leh, Ladakh in collaboration with AAKA Space Studio, University of Ladakh, and IIT Bombay to simulate Lunar and Martian surface conditions.",
         "topicId": "ca-science-tech-space",
+        "exam": "AFCAT"
+      },
+      {
+        "question": "The 'Proba-3' mission, which arrived at Sriharikota in November 2026 for launch aboard ISRO's PSLV-XL (PSLV-C59), is the world's first precision formation-flying twin-satellite mission developed by which agency to study the Sun's faint corona?",
+        "options": [
+          "NASA (USA)",
+          "European Space Agency (ESA)",
+          "JAXA (Japan)",
+          "CNES (France)"
+        ],
+        "correct": 1,
+        "explanation": "Proba-3 (Project for On-Board Autonomy-3) is an ESA mission featuring two spacecraft (Coronagraph and Occulter) flying 150 meters apart to cast an artificial solar eclipse in High Earth Orbit.",
+        "topicId": "ca-science-tech-space",
+        "exam": "AFCAT"
+      },
+      {
+        "question": "'LignoSat', the world's first wooden artificial satellite launched to the International Space Station in November 2026 to eliminate aluminium oxide re-entry pollution, was developed by researchers from which country?",
+        "options": [
+          "Sweden",
+          "Finland",
+          "Japan (Kyoto University & Sumitomo Forestry)",
+          "Canada"
+        ],
+        "correct": 2,
+        "explanation": "LignoSat was built in Japan by Kyoto University and Sumitomo Forestry using Honoki magnolia wood and traditional Japanese joinery without screws or glue.",
+        "topicId": "ca-science-tech-space",
+        "exam": "AFCAT"
+      },
+      {
+        "question": "In November 2026, a 9-Judge Constitution Bench of the Supreme Court delivered a landmark 8:1 judgment in 'Property Owners Association v. State of Maharashtra' holding that NOT every privately owned property automatically constitutes a 'material resource of the community'. This ruling interpreted which Article of the Constitution?",
+        "options": [
+          "Article 38(2)",
+          "Article 39(b)",
+          "Article 43A",
+          "Article 300A"
+        ],
+        "correct": 1,
+        "explanation": "The 9-Judge Bench interpreted Article 39(b) (DPSP) alongside Article 31C, overruling Justice Krishna Iyer's sweeping socialist view in Sanjeev Coke (1983) and holding that private property qualifies only if it meets the Public Trust & Scarcity criteria.",
+        "topicId": "polity-dpsp",
+        "exam": "AFCAT"
+      },
+      {
+        "question": "Under the 'PM-Vidyalaxmi' Scheme (outlay ₹3,600 crore) approved by the Union Cabinet in November 2026 for meritorious students admitted to the top 860 Quality Higher Educational Institutions (QHEIs), what is the sovereign credit guarantee provided for collateral-free loans up to ₹7.5 lakh?",
+        "options": [
+          "50% credit guarantee",
+          "75% credit guarantee",
+          "80% credit guarantee",
+          "100% credit guarantee"
+        ],
+        "correct": 1,
+        "explanation": "PM-Vidyalaxmi provides a 75% sovereign credit guarantee for loans up to ₹7.5 lakh (irrespective of income) and a 3% interest subvention on loans up to ₹10 lakh for students with annual family income up to ₹8 lakh.",
+        "topicId": "ca-schemes",
+        "exam": "AFCAT"
+      },
+      {
+        "question": "Where was the 7th Session of the International Solar Alliance (ISA) Assembly held in November 2026 under India's Presidency and France's Co-Presidency, where Ashish Khanna was elected as the 3rd Director General?",
+        "options": [
+          "Gurugram, Haryana",
+          "Bharat Mandapam, New Delhi",
+          "Gandhinagar, Gujarat",
+          "Paris, France"
+        ],
+        "correct": 1,
+        "explanation": "While the ISA Headquarters is in Gurugram, the 7th ISA Assembly was held at Bharat Mandapam in New Delhi from November 3–6, 2026, where Ashish Khanna was elected the 3rd Director General.",
+        "topicId": "ca-summits",
+        "exam": "AFCAT"
+      },
+      {
+        "question": "By winning election as the 47th President of the United States in November 2026, Donald J. Trump became only the second President in US history to serve two non-consecutive terms. Who was the first US President to do so?",
+        "options": [
+          "Theodore Roosevelt",
+          "Grover Cleveland (22nd and 24th President)",
+          "Woodrow Wilson",
+          "William Howard Taft"
+        ],
+        "correct": 1,
+        "explanation": "Grover Cleveland served as the 22nd (1885–1889) and 24th (1893–1897) President of the United States before Donald Trump (45th and 47th President).",
+        "topicId": "ca-relations",
         "exam": "AFCAT"
       },
       {
@@ -140306,81 +140956,211 @@ const CBT_EXAMS_DATABASE = [
         "exam": "AFCAT"
       },
       {
-        "question": "DRDO successfully completed flight trials of the Guided Pinaka Multi-Barrel Rocket System in November 2026. What is the approximate extended strike range of the Guided Pinaka variant?",
+        "question": "Padma Bhushan awardee Dr. Sharda Sinha, who passed away on November 5, 2026 and was affectionately known as 'Bihar Kokila', was celebrated for her iconic contributions to:",
         "options": [
-          "37.5 km",
-          "Over 75 km",
-          "150 km",
-          "290 km"
+          "Mithila (Madhubani) folk painting",
+          "Maithili, Bhojpuri, and Magahi folk music and Chhath Puja devotional songs",
+          "Odissi classical dance",
+          "Hindustani classical violin"
         ],
         "correct": 1,
-        "explanation": "While the unguided Pinaka Mark-I has a range of ~37.5 km, the Guided Pinaka rocket extends the strike range to over 75 km with sub-10-meter CEP accuracy.",
-        "topicId": "missiles-systems",
-        "exam": "AFCAT"
-      },
-      {
-        "question": "Which foreign country became the first export customer for India's indigenously developed Pinaka Multi-Barrel Rocket Launcher (MBRL) system?",
-        "options": [
-          "Philippines",
-          "Armenia",
-          "Vietnam",
-          "Mauritius"
-        ],
-        "correct": 1,
-        "explanation": "Armenia became the first foreign export customer for the indigenous Pinaka MBRL system, while the Philippines was the first export customer for the BrahMos supersonic cruise missile.",
-        "topicId": "ca-defense-acquisitions",
-        "exam": "AFCAT"
-      },
-      {
-        "question": "Who was sworn in as the 8th President of Indonesia in October 2026, succeeding Joko Widodo?",
-        "options": [
-          "Anies Baswedan",
-          "Prabowo Subianto",
-          "Ganjar Pranowo",
-          "Gibran Rakabuming Raka"
-        ],
-        "correct": 1,
-        "explanation": "Former Defence Minister Prabowo Subianto was sworn in as the 8th President of Indonesia on October 20, 2026.",
-        "topicId": "ca-relations",
-        "exam": "AFCAT"
-      },
-      {
-        "question": "At the 7th India-Germany Intergovernmental Consultations (IGC) in New Delhi, Germany announced an increase in its annual visa quota for skilled Indian professionals from 20,000 to:",
-        "options": [
-          "45,000 per year",
-          "60,000 per year",
-          "90,000 per year",
-          "1,20,000 per year"
-        ],
-        "correct": 2,
-        "explanation": "During the 7th IGC co-chaired by PM Modi and Chancellor Olaf Scholz, Germany raised its annual skilled Indian labour visa cap from 20,000 to 90,000.",
-        "topicId": "ca-relations",
-        "exam": "AFCAT"
-      },
-      {
-        "question": "Which organization was awarded the 2026 International Astronautical Federation (IAF) World Space Award in Milan, Italy?",
-        "options": [
-          "NASA for the Artemis-I Mission",
-          "ISRO for the Chandrayaan-3 Mission",
-          "CNSA for the Chang'e-6 Mission",
-          "JAXA for the SLIM Mission"
-        ],
-        "correct": 1,
-        "explanation": "ISRO received the 2026 IAF World Space Award at the 75th International Astronautical Congress in Milan for the historic Chandrayaan-3 landing near the lunar south pole.",
+        "explanation": "Dr. Sharda Sinha ('Bihar Kokila') was an iconic Maithili, Bhojpuri, and Magahi folk singer renowned for her Chhath Puja devotional songs.",
         "topicId": "ca-awards",
         "exam": "AFCAT"
       },
       {
-        "question": "Which of the following pairs of ships represented the German Navy during the Indo-German Maritime Partnership Exercise with INS Delhi in the Indian Ocean in October 2026?",
+        "question": "The 1st Asian Buddhist Summit was hosted in New Delhi on November 5–6, 2026 by the Ministry of Culture in collaboration with the International Buddhist Confederation (IBC) under which theme?",
         "options": [
-          "FGS Bayern and FGS Berlin",
-          "FGS Baden-Württemberg and FGS Frankfurt am Main",
-          "FGS Hamburg and FGS Bonn",
-          "FGS Hessen and FGS Sachsen"
+          "Dhamma Setu: Connecting Indo-Pacific Heritage",
+          "Role of Buddha Dhamma in Strengthening Asia",
+          "Buddha's Middle Path for Global Peace and Climate Action",
+          "Shared Sangha Heritage of the Global South"
         ],
         "correct": 1,
-        "explanation": "German Navy frigate FGS Baden-Württemberg and combat support ship FGS Frankfurt am Main conducted joint naval drills with INS Delhi and made a port call at Mormugao Port, Goa.",
+        "explanation": "Inaugurated by President Droupadi Murmu in New Delhi, the 1st Asian Buddhist Summit was held on the theme 'Role of Buddha Dhamma in Strengthening Asia'.",
+        "topicId": "ca-summits",
+        "exam": "AFCAT"
+      },
+      {
+        "question": "While upholding the UP Board of Madarsa Education Act, 2004 in November 2026, the Supreme Court struck down its provisions regulating 'Kamil' (UG) and 'Fazil' (PG) higher degrees because they conflict with the UGC Act, 1956 enacted under which Entry of the Seventh Schedule?",
+        "options": [
+          "Entry 66 of List I (Union List)",
+          "Entry 25 of List III (Concurrent List)",
+          "Entry 11 of List II (State List)",
+          "Entry 97 of List I (Residuary Powers)"
+        ],
+        "correct": 0,
+        "explanation": "Entry 66 of the Union List vests exclusive power in Parliament for coordination and determination of standards in institutions for higher education, under which Section 22 of the UGC Act, 1956 regulates the grant of degrees.",
+        "topicId": "polity-federalism",
+        "exam": "AFCAT"
+      },
+      {
+        "question": "A 5-Judge Constitution Bench of the Supreme Court ruled unanimously in November 2026 that a person holding a Light Motor Vehicle (LMV) driving licence is legally entitled to drive a transport vehicle whose unladen weight does not exceed:",
+        "options": [
+          "3,500 kg",
+          "5,000 kg",
+          "7,500 kg",
+          "12,000 kg"
+        ],
+        "correct": 2,
+        "explanation": "Upholding the 2017 Mukund Dewangan judgment, the 5-Judge Bench ruled that under Section 2(21) of the Motor Vehicles Act, 1988, an LMV licence covers transport vehicles with an unladen weight up to 7,500 kg.",
+        "topicId": "ca-schemes",
+        "exam": "AFCAT"
+      },
+      {
+        "question": "DRDO successfully completed flight trials of the Guided Pinaka Multi-Barrel Rocket System in November 2026. What is the approximate extended strike range of the Guided Pinaka variant, and which country was its first export buyer?",
+        "options": [
+          "37.5 km; Philippines",
+          "Over 75 km; Armenia",
+          "150 km; Vietnam",
+          "290 km; Indonesia"
+        ],
+        "correct": 1,
+        "explanation": "The Guided Pinaka extends strike range from 37.5 km (Mk-I) to over 75 km with sub-10m CEP accuracy, and Armenia became the first international export buyer of the Pinaka MBRL system.",
+        "topicId": "missiles-systems",
+        "exam": "AFCAT"
+      },
+      {
+        "question": "National Cancer Awareness Day is observed in India on November 7 (coinciding with the birth anniversaries of Nobel Laureate Marie Curie and Bharat Ratna Sir C.V. Raman). What is the name of India's first indigenously developed CAR-T cell cancer therapy?",
+        "options": [
+          "Cervavac",
+          "NexCAR19",
+          "iNCOVACC",
+          "ZyCoV-D"
+        ],
+        "correct": 1,
+        "explanation": "NexCAR19 (Actalycabtagene autoleucel), developed jointly by IIT Bombay, Tata Memorial Centre, and ImmunoAct, is India's first indigenous CAR-T cell therapy for B-cell blood cancers (whereas Cervavac is India's indigenous qHPV vaccine against cervical cancer).",
+        "topicId": "ca-science-tech-space",
+        "exam": "AFCAT"
+      },
+      {
+        "question": "On November 12, 2026, DRDO conducted the maiden flight-test of the Long Range Land Attack Cruise Missile (LRLACM) from ITR Chandipur. Designed by ADE Bengaluru with BDL and BEL, what is its approximate operational strike range?",
+        "options": [
+          "290 km",
+          "500 km",
+          "Over 1,000 km",
+          "3,500 km"
+        ],
+        "correct": 2,
+        "explanation": "The Long Range Land Attack Cruise Missile (LRLACM) is a 1,000+ km range subsonic cruise missile capable of being launched from both mobile ground launchers and naval warships (via UVLM).",
+        "topicId": "missiles-systems",
+        "exam": "AFCAT"
+      },
+      {
+        "question": "India's first-ever dedicated Tri-Service military space exercise, conducted by the Defence Space Agency (DSA) under HQ Integrated Defence Staff in New Delhi from November 11 to 13, 2026, is named:",
+        "options": [
+          "Exercise IndSpaceEx-II",
+          "Exercise Antariksha Abhyas – 2026",
+          "Exercise Gaganyaan Kavach",
+          "Exercise Akash Shakti"
+        ],
+        "correct": 1,
+        "explanation": "Inaugurated by CDS General Anil Chauhan on November 11, 2026, 'Antariksha Abhyas – 2026' is India's maiden Tri-Service military space exercise hosted by the Defence Space Agency (DSA).",
         "topicId": "bilateral-exercises",
+        "exam": "AFCAT"
+      },
+      {
+        "question": "Which Tri-Service integrated combat exercise was conducted by the Indian Armed Forces across the high-altitude mountainous terrain of the Eastern Theatre (Arunachal Pradesh) from November 10 to 18, 2026, featuring Navy P-8I and IAF Prachand LCH?",
+        "options": [
+          "Exercise Poorvi Prahar",
+          "Exercise Him Vijay",
+          "Exercise Gaganshakti",
+          "Exercise Trishul"
+        ],
+        "correct": 0,
+        "explanation": "Exercise 'Poorvi Prahar' (Nov 10–18, 2026) was spearheaded by the Eastern Command in Arunachal Pradesh, integrating Army, IAF, and Indian Navy (P-8I) assets.",
+        "topicId": "bilateral-exercises",
+        "exam": "AFCAT"
+      },
+      {
+        "question": "In November 2026, a 7-Judge Constitution Bench of the Supreme Court overruled which 1967 judgment by a 4:3 majority, holding that an educational institution is NOT barred from claiming Minority Status under Article 30(1) merely because it was incorporated by a statute?",
+        "options": [
+          "T.M.A. Pai Foundation v. State of Karnataka",
+          "S. Azeez Basha v. Union of India (Aligarh Muslim University Case)",
+          "St. Stephen's College v. University of Delhi",
+          "In Re: Kerala Education Bill"
+        ],
+        "correct": 1,
+        "explanation": "On November 8, 2026, a 7-Judge Constitution Bench overruled the 1967 5-Judge ruling in 'S. Azeez Basha v. Union of India' by a 4:3 majority and laid down the 'Genesis / Brainchild Test' under Article 30(1).",
+        "topicId": "polity-fr",
+        "exam": "AFCAT"
+      },
+      {
+        "question": "Where was the 29th Conference of the Parties to the UN Framework Convention on Climate Change (UNFCCC COP29 — 'Finance COP') held from November 11 to 22, 2026?",
+        "options": [
+          "Cali, Colombia",
+          "Baku, Azerbaijan",
+          "Riyadh, Saudi Arabia",
+          "Belém, Brazil"
+        ],
+        "correct": 1,
+        "explanation": "UNFCCC COP29 was hosted in Baku, Azerbaijan (on the Caspian Sea). Note that CBD COP16 was held in Cali (Colombia), UNCCD COP16 in Riyadh (Saudi Arabia), and UNFCCC COP30 is scheduled for Belém (Brazil).",
+        "topicId": "ca-summits",
+        "exam": "AFCAT"
+      },
+      {
+        "question": "Who won the 2026 Booker Prize (announced in November 2026) for the novel 'Orbital', which follows six astronauts aboard the International Space Station over a single 24-hour period?",
+        "options": [
+          "Paul Lynch",
+          "Samantha Harvey",
+          "Shehan Karunatilaka",
+          "Jenny Erpenbeck"
+        ],
+        "correct": 1,
+        "explanation": "British author Samantha Harvey won the Booker Prize for 'Orbital'—the first book set in outer space to win the prestigious literary prize.",
+        "topicId": "ca-awards",
+        "exam": "AFCAT"
+      },
+      {
+        "question": "In November 2026, which Indian chess Grandmaster became only the second Indian in history (after Viswanathan Anand) and the 16th player worldwide to breach the elite 2800 FIDE Classical ELO rating barrier?",
+        "options": [
+          "D. Gukesh",
+          "R. Praggnanandhaa",
+          "Arjun Erigaisi",
+          "Vidit Gujrathi"
+        ],
+        "correct": 2,
+        "explanation": "Grandmaster Arjun Erigaisi crossed the 2800 FIDE Classical Rating mark in November 2026, becoming only the second Indian after 5-time World Champion Viswanathan Anand to achieve this feat.",
+        "topicId": "ca-sports",
+        "exam": "AFCAT"
+      },
+      {
+        "question": "Padma Bhushan cueist Pankaj Advani clinched his 28th career World Title in November 2026 by winning the IBSF World Billiards Championship held in which city?",
+        "options": [
+          "Kuala Lumpur, Malaysia",
+          "Doha, Qatar",
+          "Sheffield, United Kingdom",
+          "Manama, Bahrain"
+        ],
+        "correct": 1,
+        "explanation": "Pankaj Advani defeated England's Robert Hall (4–2) in Doha, Qatar on November 12, 2026 to claim his 7th consecutive IBSF World Billiards crown and 28th career World Title.",
+        "topicId": "ca-sports",
+        "exam": "AFCAT"
+      },
+      {
+        "question": "National Education Day is celebrated across India on November 11 to commemorate the birth anniversary of Independent India's first Minister of Education, Maulana Abul Kalam Azad. Which of the following Urdu weekly journals was founded by him in 1912?",
+        "options": [
+          "Comrade",
+          "Al-Hilal",
+          "Tahzib-ul-Akhlaq",
+          "Zamindar"
+        ],
+        "correct": 1,
+        "explanation": "Maulana Abul Kalam Azad launched the Urdu weekly 'Al-Hilal' in 1912 (and 'Al-Balagh' in 1915) and authored 'India Wins Freedom'. ('Comrade' was started by Mohammad Ali Jauhar and 'Tahzib-ul-Akhlaq' by Sir Syed Ahmad Khan).",
+        "topicId": "ca-awards",
+        "exam": "AFCAT"
+      },
+      {
+        "question": "Public Service Broadcasting Day (Jan Prasaran Diwas) is observed in India every year on November 12 to commemorate which historic event of 1947?",
+        "options": [
+          "Establishment of Prasar Bharati as an autonomous statutory corporation",
+          "Mahatma Gandhi's first and only live visit and broadcast from All India Radio (New Delhi) to Partition refugees at Kurukshetra",
+          "Launch of India's first television transmission by Doordarshan",
+          "Renaming of the Indian State Broadcasting Service as Akashvani"
+        ],
+        "correct": 1,
+        "explanation": "November 12 marks Mahatma Gandhi's only visit to Broadcasting House, All India Radio (New Delhi) on 12 November 1947 to address displaced refugees stationed at Kurukshetra camp in Haryana.",
+        "topicId": "ca-awards",
         "exam": "AFCAT"
       },
       {
