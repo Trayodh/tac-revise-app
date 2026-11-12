@@ -759,3 +759,4 @@ meLive['November 2026'] = [
 const meOut = `let MILITARY_EXERCISES_LIVE = ${JSON.stringify(meLive, null, 2)};\n\nif (typeof window !== "undefined") {\n  window.MILITARY_EXERCISES_LIVE = MILITARY_EXERCISES_LIVE;\n}\nif (typeof module !== "undefined" && module.exports) {\n  module.exports = MILITARY_EXERCISES_LIVE;\n}\n`;
 fs.writeFileSync('military_exercises_db.js', meOut, 'utf8');
 console.log('3. Updated military_exercises_db.js — November 2026 now has', meLive['November 2026'].length, 'entries.');
+

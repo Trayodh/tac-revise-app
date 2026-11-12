@@ -133,8 +133,9 @@ def run():
                 seen_texts.add(sample_snip)
                 # Clean markdown tables to HTML tables
                 clean = convert_markdown_tables_to_html(text)
-                # Remove redundant nested revision-card tags
+                # Remove redundant nested revision-card tags and duplicate inner MASTER REVISION GUIDE h3
                 clean = re.sub(r'^\s*<div class="revision-card"[^>]*>', '', clean)
+                clean = re.sub(r'^\s*<h3><i class="fa-solid fa-book-bookmark"[^>]*><\/i>[^<]*— MASTER REVISION GUIDE<\/h3>', '', clean, flags=re.IGNORECASE)
                 clean = re.sub(r'<\/div>\s*$', '', clean)
                 content_sections.append(clean.strip())
 
@@ -148,6 +149,10 @@ def run():
                 add_section(gen_notes_map[ch_id], "GEN_MAP_EXACT")
             # Check fuzzy / targeted matches (e.g. ai-gen-history-indus-valley-civilization...)
             for gk, gv in gen_notes_map.items():
+                if ch_id == 'syl-numerical' and gk.startswith('syl-numerical-'):
+                    continue
+                if ch_id == 'integration' and 'princely' in gk.lower():
+                    continue
                 if ch_id in gk or gk.replace('ai-gen-', '').startswith(f"{sub_id}-{ch_id}"):
                     add_section(gv, "GEN_MAP_FUZZY")
 
