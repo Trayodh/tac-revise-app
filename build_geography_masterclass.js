@@ -283,3 +283,4 @@ console.log(`Total Geography chapters defined: ${GEOGRAPHY_CHAPTERS_DEF.length}`
 // Save definition to a temporary file for the builder
 fs.writeFileSync('geography_chapters_def.json', JSON.stringify(GEOGRAPHY_CHAPTERS_DEF, null, 2), 'utf8');
 console.log('Saved geography_chapters_def.json successfully.');
+

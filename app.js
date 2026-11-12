@@ -8909,9 +8909,12 @@ function initCountdownTimer() {
 
     const targetExam = exams[targetKey] || exams.afcat;
 
-    
+    const isAfcat = targetKey === "afcat";
+    const defconText = isAfcat ? "DEFCON 2" : "DEFCON 3";
+    const defconSubtitle = isAfcat ? "APPLICATION PHASE" : "HIGH READINESS";
+    const defconClass = isAfcat ? "metric-card defcon-state-2" : "metric-card defcon-state-3";
 
-    display.innerText = "DEFCON 3";
+    display.innerText = defconText;
 
     display.style.color = "var(--danger)";
 
@@ -8921,13 +8924,13 @@ function initCountdownTimer() {
 
     if (defconCard) {
 
-      document.getElementById('defcon-level').textContent = 'DEFCON 3';
+      document.getElementById('defcon-level').textContent = defconText;
 
       document.getElementById('defcon-exam-name').textContent = targetExam.name;
 
-      document.getElementById('defcon-subtitle').textContent = 'HIGH READINESS';
+      document.getElementById('defcon-subtitle').textContent = defconSubtitle;
 
-      defconCard.className = 'metric-card defcon-state-3';
+      defconCard.className = defconClass;
 
     }
 
@@ -17056,14 +17059,23 @@ function initDefconWidget() {
 
 
   const exams = [
-    { name: "NDA II 2026", date: new Date("2026-09-13T10:00:00").getTime() },
-    { name: "CDS II 2026", date: new Date("2026-09-13T09:00:00").getTime() }
+    { name: "AFCAT 1 2027", date: new Date("2027-02-20T10:00:00").getTime() },
+    { name: "NDA 1 2027", date: new Date("2027-04-11T10:00:00").getTime() },
+    { name: "CDS 1 2027", date: new Date("2027-04-11T09:00:00").getTime() }
   ];
 
 
 
   function updateDefcon() {
-    setDefconState(3, "ALL EXAMS", "HIGH READINESS");
+    const selector = document.getElementById("countdown-exam-selector");
+    const val = selector ? selector.value : "auto";
+    if (val === "nda") {
+      setDefconState(3, "NDA 1 2027", "HIGH READINESS");
+    } else if (val === "cds") {
+      setDefconState(3, "CDS 1 2027", "HIGH READINESS");
+    } else {
+      setDefconState(2, "AFCAT 1 2027", "APPLICATION PHASE");
+    }
   }
 
   

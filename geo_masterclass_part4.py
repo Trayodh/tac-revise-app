@@ -788,3 +788,4 @@ GEO_MASTERCLASS_PART4 = {
 }
 
 print(f"Loaded masterclass Part 4 with {len(GEO_MASTERCLASS_PART4)} chapters.")
+
