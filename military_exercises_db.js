@@ -833,6 +833,175 @@ let MILITARY_EXERCISES_LIVE = {
           "S-70B Seahawk Naval Helicopter"
         ]
       }
+    },
+    {
+      "tier": 1,
+      "year": 2026,
+      "date": "October 2026",
+      "exercise_name": "Naseem Al Bahr",
+      "edition": "14th Edition",
+      "type": "Bilateral Naval Exercise",
+      "participant_nations": [
+        "India",
+        "Oman"
+      ],
+      "exercise_domain": [
+        "Navy",
+        "Maritime Air"
+      ],
+      "location": "Off Goa Coast, Arabian Sea",
+      "strategic_significance": "Strengthens maritime security in the Western Indian Ocean and Arabian Sea, featuring gun firings at surface/air targets, cross-deck helicopter landings, and RAS (Replenishment at Sea) approaches.",
+      "exam_importance": "High priority for CDS/NDA. Instituted in 1993. Remember Oman Tri-Service drills: Al Najah (Army), Naseem Al Bahr (Navy), Eastern Bridge (IAF).",
+      "units_and_hardware": {
+        "India": [
+          "INS Trikand (Talwar-class Stealth Frigate)",
+          "Dornier Do-228 Maritime Patrol Aircraft",
+          "Ship-borne Integral Helicopters"
+        ],
+        "Oman": [
+          "RNOV Al Seeb (Al-Ofouq Class Patrol Vessel)"
+        ]
+      }
+    },
+    {
+      "tier": 1,
+      "year": 2026,
+      "date": "October 2026",
+      "exercise_name": "Indo-German Maritime Partnership Exercise (MPX)",
+      "edition": "2026 Indo-Pacific Deployment",
+      "type": "Bilateral Maritime Exercise",
+      "participant_nations": [
+        "India",
+        "Germany"
+      ],
+      "exercise_domain": [
+        "Navy",
+        "Air"
+      ],
+      "location": "Indian Ocean / Off Goa Coast (Mormugao Port)",
+      "strategic_significance": "Conducted alongside the 7th India-Germany Intergovernmental Consultations (IGC). Featured cross-deck flying operations, anti-submarine drills, and tactical maneuvers in the Indian Ocean.",
+      "exam_importance": "Crucial for CDS/AFCAT: German ships FGS Baden-Württemberg and FGS Frankfurt am Main visited Goa during Chancellor Olaf Scholz's visit.",
+      "units_and_hardware": {
+        "India": [
+          "INS Delhi (Guided Missile Destroyer)",
+          "P-8I Maritime Patrol",
+          "MiG-29K Fighters"
+        ],
+        "Germany": [
+          "FGS Baden-Württemberg (F125 Class Frigate)",
+          "FGS Frankfurt am Main (Berlin-class Combat Support Ship)"
+        ]
+      }
+    },
+    {
+      "tier": 1,
+      "year": 2026,
+      "date": "October 2026",
+      "exercise_name": "Prasthan",
+      "edition": "2026 Bi-Annual",
+      "type": "Offshore Security Exercise",
+      "participant_nations": [
+        "India"
+      ],
+      "exercise_domain": [
+        "Navy",
+        "Air Force",
+        "Coast Guard",
+        "ONGC & Civil Agencies"
+      ],
+      "location": "Western Offshore Development Area (Mumbai High) & Kakinada",
+      "strategic_significance": "Coordinated multi-agency offshore defence exercise led by the Indian Navy (Western/Eastern Naval Commands) to validate SOPs against terrorist infiltration, bomb threats, oil spills, and medical evacuations on offshore oil rigs.",
+      "exam_importance": "Frequently tested internal/maritime security question: Prasthan = Offshore Oil Rig Security (bi-annual); Sagar Kavach = Coastal Security.",
+      "units_and_hardware": {
+        "India": [
+          "MARCOS (Marine Commandos)",
+          "Indian Navy OPVs & Fast Interceptor Craft",
+          "ICG Pollution Control Vessels",
+          "IAF & Naval Helicopters"
+        ]
+      }
+    },
+    {
+      "tier": 1,
+      "year": 2026,
+      "date": "October 2026",
+      "exercise_name": "Swavlamban 3.0",
+      "edition": "3rd Edition",
+      "type": "Naval Innovation & Indigenisation Seminar",
+      "participant_nations": [
+        "India"
+      ],
+      "exercise_domain": [
+        "Navy",
+        "Defence R&D (iDEX / NIIO)"
+      ],
+      "location": "Bharat Mandapam, New Delhi",
+      "strategic_significance": "Flagship technology showcase of the Indian Navy's Naval Innovation and Indigenisation Organisation (NIIO) and DIO, launching ADITI 3.0 and DISC 13 challenges (including high-power microwave weapons and autonomous swarm systems).",
+      "exam_importance": "Very High Yield for CDS/AFCAT: SPRINT initiative, ADITI (grants up to ₹25 Cr), DISC, and TDAC (Technology Development Acceleration Cell).",
+      "units_and_hardware": {
+        "India": [
+          "Naval Innovation and Indigenisation Organisation (NIIO)",
+          "Innovations for Defence Excellence (iDEX)",
+          "Autonomous Underwater Vehicles (AUVs)"
+        ]
+      }
+    }
+  ],
+  "November 2026": [
+    {
+      "tier": 1,
+      "year": 2026,
+      "date": "November 2–22, 2026",
+      "exercise_name": "Vajra Prahar",
+      "edition": "15th Edition",
+      "type": "Bilateral Special Forces Exercise",
+      "participant_nations": [
+        "India",
+        "USA"
+      ],
+      "exercise_domain": [
+        "Special Forces",
+        "Army"
+      ],
+      "location": "Orchard Combat Training Centre (OCTC), Idaho, USA",
+      "strategic_significance": "Enhances interoperability between Indian Army Para (Special Forces) and US Army Special Forces (Green Berets) in joint mission planning, reconnaissance, unmanned aerial systems (UAS), and Joint Terminal Attack Controller (JTAC) operations in desert/mountainous terrain.",
+      "exam_importance": "Top-tier CDS/NDA/AFCAT question: 15th edition held at Idaho, USA. Distinguish from Yudh Abhyas (regular Army infantry) and Tiger Triumph (Tri-Service HADR).",
+      "units_and_hardware": {
+        "India": [
+          "Indian Army Parachute Regiment (Special Forces - Para SF)"
+        ],
+        "USA": [
+          "US Army 1st Special Forces Group (Green Berets)",
+          "Idaho National Guard"
+        ]
+      }
+    },
+    {
+      "tier": 1,
+      "year": 2026,
+      "date": "November 1–12, 2026",
+      "exercise_name": "Garud Shakti",
+      "edition": "9th Edition",
+      "type": "Bilateral Special Forces Exercise",
+      "participant_nations": [
+        "India",
+        "Indonesia"
+      ],
+      "exercise_domain": [
+        "Special Forces",
+        "Army"
+      ],
+      "location": "Cijantung, Jakarta, Indonesia",
+      "strategic_significance": "Strengthens tactical synergy between Indian Para SF and Indonesian Special Forces (Kopassus) in jungle warfare, amphibious special operations, heliborne insertion, and counter-terrorism.",
+      "exam_importance": "High yield for CDS/NDA: Garud Shakti = India-Indonesia Special Forces; Samudra Shakti = India-Indonesia Naval Exercise; Garuda = India-France Air Exercise (Exam Trap!).",
+      "units_and_hardware": {
+        "India": [
+          "Parachute Regiment (Special Forces)"
+        ],
+        "Indonesia": [
+          "Indonesian Special Forces (Kopassus)"
+        ]
+      }
     }
   ]
 };

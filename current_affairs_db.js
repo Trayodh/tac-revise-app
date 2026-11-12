@@ -1,148 +1,4 @@
 window.CURRENT_AFFAIRS_DB = {
-  "1988": [
-    {
-      "id": "operation-cactus-maldives-1988",
-      "topic": "Operation Cactus",
-      "text": "Operation Cactus was conducted in Maldives in 1988.",
-      "details": {}
-    }
-  ],
-  "1999": [
-    {
-      "id": "operation-talwar-kargil-war-1999",
-      "topic": "Operation Talwar",
-      "text": "Operation Talwar was conducted during the Kargil War in 1999.",
-      "details": {}
-    },
-    {
-      "id": "operation-safed-sagar-kargil-war-1999",
-      "topic": "Operation Safed Sagar",
-      "text": "Operation Safed Sagar was conducted during the Kargil War in 1999.",
-      "details": {}
-    }
-  ],
-  "2014": [
-    {
-      "id": "operation-neer-maldives-2014",
-      "topic": "Operation Neer",
-      "text": "Operation Neer was conducted in Maldives in 2014.",
-      "details": {}
-    }
-  ],
-  "2020": [
-    {
-      "id": "operation-sanjeevani-2020",
-      "topic": "Operation Sanjeevani",
-      "text": "Operation Sanjeevani was conducted in 2020 as part of India-Maldives Friendship under India's COVID-19 Emergency, following the 'Neighbourhood First' policy.",
-      "details": {}
-    }
-  ],
-  "2022": [
-    {
-      "id": "operation-ganga-ukraine-2022",
-      "topic": "Operation Ganga",
-      "text": "Operation Ganga was conducted in Ukraine in 2022.",
-      "details": {}
-    }
-  ],
-  "2023": [
-    {
-      "id": "operation-dost-turkey-syria-2023",
-      "topic": "Operation Dost",
-      "text": "Operation Dost was conducted in Turkey and Syria in 2023.",
-      "details": {}
-    },
-    {
-      "id": "operation-kaveri-sudan-2023",
-      "topic": "Operation Kaveri",
-      "text": "Operation Kaveri was conducted in Sudan in 2023.",
-      "details": {}
-    },
-    {
-      "id": "operation-ajay-israel-gaza-war-2023",
-      "topic": "Operation Ajay",
-      "text": "Operation Ajay was conducted during the Israel-Gaza War in 2023.",
-      "details": {}
-    },
-    {
-      "id": "operation-karuna-myanmar-2023",
-      "topic": "Operation Karuna",
-      "text": "Operation Karuna was conducted in Myanmar in 2023 as a first responder to HADR (Humanitarian Assistance and Disaster Relief) efforts following Cyclone Mocha.",
-      "details": {}
-    }
-  ],
-  "2025": [
-    {
-      "id": "ca-2025-001",
-      "topic": "UN Awards",
-      "text": "An UN Award for promoting Gender Inclusion was mentioned for 2025. Abhilasha Barak, known for being the first woman combat aviator in the Indian Army, was also mentioned in this context.",
-      "details": {
-        "award_year": "2025",
-        "award_purpose": "Promoting Gender Inclusion",
-        "related_figure_mentioned": "Abhilasha Barak"
-      }
-    },
-    {
-      "id": "un-military-gender-advocate-2025",
-      "topic": "2025 UN Military Gender Advocate of the Year Award",
-      "text": "Major Abhilasha Barak was named the recipient of the 2025 United Nations Military Gender Advocate of the Year Award for her outstanding service in Lebanon as part of the United Nations Interim Force in Lebanon (UNIFIL). India is a significant contributor to UN peacekeeping, with approximately 4200 active personnel, and has contributed to missions in Abyei, Cyprus, Congo, Lebanon, Somalia, South Sudan, and Western Sahara.",
-      "details": {
-        "award_name": "United Nations Military Gender Advocate of the Year Award",
-        "award_year": 2025,
-        "recipient": "Major Abhilasha Barak",
-        "service_location": "Lebanon (UNIFIL)",
-        "india_contribution_to_un_peacekeeping": {
-          "active_personnel": 4200,
-          "missions_contributed_to": [
-            "Abyei",
-            "Cyprus",
-            "Congo",
-            "Lebanon",
-            "Somalia",
-            "South Sudan",
-            "Western Sahara"
-          ]
-        }
-      }
-    }
-  ],
-  "2026": [
-    {
-      "id": "operation-777-2026",
-      "topic": "Defence Manufacturing Initiative",
-      "text": "Operation 777 is a strategic initiative launched in connection with the Kaal Bhairava autonomous combat aircraft programme.",
-      "details": {
-        "program": "Kaal Bhairava autonomous combat aircraft",
-        "developer": "Flying Wedge Defence & Aerospace (FWDA)",
-        "objective": "Creating manufacturing and integration partnerships across 7 continents and 77 countries, strengthening India's global defence manufacturing presence.",
-        "edition": "2026"
-      }
-    },
-    {
-      "id": "IFR-2026-Visakhapatnam",
-      "topic": "Naval Event",
-      "text": "The Indian Navy hosted the International Fleet Review (IFR) 2026 off Visakhapatnam, involving 74 countries and highlighting global naval cooperation and India's maritime capability. This was India's third IFR, following previous events in Mumbai (2001) and Visakhapatnam (2016).",
-      "details": {
-        "event": "International Fleet Review (IFR) 2026",
-        "host": "Indian Navy",
-        "location": "Off Visakhapatnam",
-        "participating_countries": "74",
-        "india_ifr_history": [
-          "Mumbai (2001)",
-          "Visakhapatnam (2016)",
-          "Visakhapatnam (2026)"
-        ]
-      }
-    }
-  ],
-  "2035": [
-    {
-      "id": "mission-mitra-ladakh-2035",
-      "topic": "Mission Mitra",
-      "text": "Ladakh has been chosen as the location for the Mission Mitra high-altitude experiment due to its extreme environmental conditions, including low oxygen levels and freezing temperatures. This initiative supports India's Gaganyaan program by preparing astronauts for real space missions, enhancing their ability to operate effectively under stress and in isolated conditions. It is also mentioned as 'Bharat Antariksh by station - 2035'.",
-      "details": {}
-    }
-  ],
   "January 2026": [
     {
       "id": "jan-1",
@@ -5661,1214 +5517,1173 @@ window.CURRENT_AFFAIRS_DB = {
     }
   ],
   "August 2026": [
-  {
-    "id": "ca-august-2026-001",
-    "topic": "🔴 MUST KNOW | Defence & Security | Defence Production Milestone",
-    "text": "India's domestic defence production reached a record **₹1.78 lakh crore** in the 2025–26 fiscal year, marking a nearly four-fold increase since 2014.",
-    "details": {
-      "summary": "### 📌 What Happened\nDefence Minister Rajnath Singh announced that India's domestic defence production reached a historic high, with exports also hitting an all-time record of ₹38,424 crore.\n\n### 🎯 Why It Matters\nThis highlights India's massive transition from a defence importer to a global exporter and self-reliant manufacturer under 'Aatmanirbhar Bharat'.\n\n### 🧠 Key Facts\n- Production value: ₹1.78 lakh crore.\n- Export value: ₹38,424 crore.\n- Transfer of technology for missile systems approved for private sector.\n\n### 🔗 Static GK Connection\nThe Defence Research and Development Organisation (DRDO) and Department of Defence Production (DDP) are key pillars in this achievement.\n\n### ⚠️ Exam Trap\nUPSC often tests exact figures or percentage growths. Remember the 'nearly four-fold increase' compared to 2014.\n\n### 🎯 Possible Question Angle\n'Which of the following statements is correct regarding India's defence exports in 2025-26?'"
-    },
-    "upscHighlights": [
-      "India's T20 World Cup final appearance",
-      "Exemplary team coordination and performance",
-      "Impact on national pride and soft power"
-    ],
-    "institutionalContext": "The International Cricket Council (ICC) is the global governing body for cricket, responsible for organizing and governing major international tournaments like the T20 World Cup. The Board of Control for Cricket in India (BCCI) is the governing body for cricket in India, managing the national team's participation and domestic cricket structures.",
-    "strategicImportance": "India's performance in prestigious global sporting events like the ICC Men's T20 World Cup significantly boosts national morale, fosters unity, and projects the nation's soft power on the international stage. For defence aspirants, it highlights critical leadership qualities, strategic planning, teamwork, and mental resilience, all of which are essential attributes in military service. Such achievements also inspire youth and reinforce a positive national image.",
-    "quickSummary": "India recently made it to the finals of the ICC Men's T20 World Cup, demonstrating exceptional team coordination and strong performances throughout the tournament, particularly in crucial knock-out matches. The team's campaign was marked by high-quality batting and tactically sound bowling lineups, showcasing their prowess in this premier global T20 cricket event.",
-    "detailedAnalysis": "The ICC Men's T20 World Cup is a premier global cricket tournament, attracting immense viewership and highly competitive teams. India's journey to the final underscores its consistent strength in international cricket, reflecting a robust cricketing infrastructure, a vast talent pool, and strategic investment by the BCCI. Performing well in such high-pressure environments requires not only individual skill but also cohesive teamwork, adaptable strategies, and strong leadership from the captain and coaching staff. A deep run in the tournament generates significant fan engagement, economic activity through sponsorships and broadcasting, and reinforces India's position as a dominant force in world cricket.",
-    "backgroundContext": "India has a significant history in the ICC T20 World Cup, having won the inaugural edition in 2007. Since then, T20 cricket has evolved rapidly, becoming a central part of the international cricketing calendar. India, with its enormous fan base and substantial financial influence, is a crucial stakeholder in global cricket. The nation's performance in these tournaments carries immense expectations and is closely followed, reflecting India's status as a cricketing superpower.",
-    "stakeholders": [
-      "International Cricket Council (ICC)",
-      "Board of Control for Cricket in India (BCCI)",
-      "Indian Cricket Team (players, coaches, support staff)",
-      "Global Cricket Fans",
-      "Indian Government (Ministry of Youth Affairs and Sports)",
-      "Sponsors and Advertisers",
-      "Media and Broadcasters"
-    ],
-    "relatedTopics": [
-      "Sports Diplomacy",
-      "National Sports Policy",
-      "International Sports Governance",
-      "Youth Empowerment through Sports",
-      "Economic Impact of Sports",
-      "Leadership and Teamwork"
-    ],
-    "examRelevanceMatrix": {
-      "NDA": "Medium",
-      "CDS": "Medium",
-      "AFCAT": "High"
-    },
-    "potentialQuestions": {
-      "shortAnswers": [
-        "Which international cricket tournament did India recently reach the final of?",
-        "What two key aspects of India's performance were highlighted in their T20 World Cup campaign?"
+    {
+      "id": "ca-august-2026-001",
+      "topic": "🔴 MUST KNOW | Defence & Security | Defence Production Milestone",
+      "text": "India's domestic defence production reached a record **₹1.78 lakh crore** in the 2025–26 fiscal year, marking a nearly four-fold increase since 2014.",
+      "details": {
+        "summary": "### 📌 What Happened\nDefence Minister Rajnath Singh announced that India's domestic defence production reached a historic high, with exports also hitting an all-time record of ₹38,424 crore.\n\n### 🎯 Why It Matters\nThis highlights India's massive transition from a defence importer to a global exporter and self-reliant manufacturer under 'Aatmanirbhar Bharat'.\n\n### 🧠 Key Facts\n- Production value: ₹1.78 lakh crore.\n- Export value: ₹38,424 crore.\n- Transfer of technology for missile systems approved for private sector.\n\n### 🔗 Static GK Connection\nThe Defence Research and Development Organisation (DRDO) and Department of Defence Production (DDP) are key pillars in this achievement.\n\n### ⚠️ Exam Trap\nUPSC often tests exact figures or percentage growths. Remember the 'nearly four-fold increase' compared to 2014.\n\n### 🎯 Possible Question Angle\n'Which of the following statements is correct regarding India's defence exports in 2025-26?'"
+      },
+      "upscHighlights": [
+        "Domestic defence production hit an all-time high of ₹1.78 lakh crore in FY 2025–26 (nearly 4x increase since 2014).",
+        "India's defence exports surged to a record ₹38,424 crore across 85+ friendly foreign countries.",
+        "Driven by Positive Indigenisation Lists (PILs), Defence Industrial Corridors (UP & Tamil Nadu), and iDEX startups."
       ],
-      "interviewQuestions": [
-        "How do major international sporting achievements contribute to a nation's soft power and global standing?",
-        "Discuss the importance of teamwork and leadership exemplified by sports teams in achieving success in high-stakes environments."
+      "institutionalContext": "The Department of Defence Production (DDP) under the Ministry of Defence oversees DPSUs (HAL, BEL, BDL, MDL, GRSE, GSL, HSL, Munitions India Ltd, etc.) and private defence manufacturing.",
+      "strategicImportance": "Demonstrates India's structural shift from the world's largest arms importer to an indigenous defence manufacturing hub under Aatmanirbhar Bharat, insulating the Armed Forces from wartime supply chain disruptions.",
+      "quickSummary": "India's domestic defence production reached a historic record of <mark class=\"exam-target\">₹1.78 lakh crore</mark> in FY 2025–26, accompanied by record defence exports of <mark class=\"exam-target\">₹38,424 crore</mark>.",
+      "detailedAnalysis": "Under the Aatmanirbhar Bharat initiative, the Ministry of Defence notified five Positive Indigenisation Lists (PILs) comprising over 5,000 items banned from import after staggered timelines. Additionally, 75% of the defence capital acquisition budget (₹1.05 lakh crore+) has been earmarked exclusively for domestic procurement. Major exported platforms include the BrahMos supersonic cruise missile (Philippines), Pinaka Multi-Barrel Rocket Launchers (Armenia), Akash SAM, Dornier-228 aircraft, and artillery fuses.",
+      "backgroundContext": "Two dedicated Defence Industrial Corridors (DICs) were established in Uttar Pradesh (Agra, Aligarh, Jhansi, Kanpur, Chitrakoot, Lucknow) and Tamil Nadu (Chennai, Coimbatore, Hosur, Salem, Tiruchirappalli) to catalyse MSME participation.",
+      "stakeholders": [
+        "Ministry of Defence (DDP)",
+        "DRDO",
+        "Defence Public Sector Undertakings (DPSUs)",
+        "Private Defence Industry (TASL, L&T, Bharat Forge)"
       ],
-      "ssbDiscussionTopics": [
-        "Sports as a unifier: India's performance in global events and its impact on national unity.",
-        "The role of sports in national image building and youth inspiration in India."
-      ]
-    },
-    "mcq": {
-      "question": "In August 2026, India's domestic defence production achieved an all-time record high of approximately:",
-      "options": [
-        "₹85,000 crore",
-        "₹1.25 lakh crore",
-        "₹1.78 lakh crore",
-        "₹2.50 lakh crore"
+      "relatedTopics": [
+        "Aatmanirbhar Bharat in Defence",
+        "Positive Indigenisation Lists",
+        "Defence Industrial Corridors",
+        "DAP 2020"
       ],
-      "correct": 2,
-      "explanation": "India's domestic defence production reached a historic record of ₹1.78 lakh crore in FY 2025-26, nearly quadrupling since 2014 under Atmanirbhar Bharat initiatives."
-    }
-  },
-  {
-    "id": "ca-august-2026-002",
-    "topic": "🟠 IMPORTANT | International Relations | GCAP Fighter Jet Programme",
-    "text": "India officially joined the **Global Combat Air Programme (GCAP)**—a collaborative sixth-generation fighter jet project—as a 'Dialogue Partner'.",
-    "details": {
-      "summary": "### 📌 What Happened\nIn late August 2026, India became a 'Dialogue Partner' in the GCAP, a sixth-generation stealth fighter jet development program.\n\n### 🎯 Why It Matters\nAccess to sixth-generation stealth technologies, advanced sensors, and AI integration will drastically upgrade the IAF's future combat edge.\n\n### 🧠 Key Facts\n- **GCAP Original Partners:** UK, Italy, and Japan.\n- **India's Status:** Dialogue Partner.\n\n### 🔗 Static GK Connection\nIndia is also developing its own 5.5 generation fighter, the Advanced Medium Combat Aircraft (AMCA).\n\n### ⚠️ Exam Trap\nIndia is a 'Dialogue Partner', NOT a full founding member. The founding members are UK, Italy, and Japan.\n\n### 🎯 Possible Question Angle\n'Which three nations are the founding members of the Global Combat Air Programme (GCAP)?'"
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "Medium",
+        "AFCAT": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "Which international cricket tournament did India recently reach the final of?",
+          "What two key aspects of India's performance were highlighted in their T20 World Cup campaign?"
+        ],
+        "interviewQuestions": [
+          "How do major international sporting achievements contribute to a nation's soft power and global standing?",
+          "Discuss the importance of teamwork and leadership exemplified by sports teams in achieving success in high-stakes environments."
+        ],
+        "ssbDiscussionTopics": [
+          "Sports as a unifier: India's performance in global events and its impact on national unity.",
+          "The role of sports in national image building and youth inspiration in India."
+        ]
+      },
+      "mcq": {
+        "question": "In August 2026, India's domestic defence production achieved an all-time record high of approximately:",
+        "options": [
+          "₹85,000 crore",
+          "₹1.25 lakh crore",
+          "₹1.78 lakh crore",
+          "₹2.50 lakh crore"
+        ],
+        "correct": 2,
+        "explanation": "India's domestic defence production reached a historic record of ₹1.78 lakh crore in FY 2025-26, nearly quadrupling since 2014 under Atmanirbhar Bharat initiatives."
+      },
+      "publicationDate": "2026-08-10",
+      "originalSource": "PIB / Ministry of Defence (Department of Defence Production)"
     },
-    "upscHighlights": [
-      "ISRO-JAXA LUPEX payload specifications finalized.",
-      "Joint mission targeting Moon's south pole water-ice.",
-      "India (lander) and Japan (rover, launch vehicle) collaboration."
-    ],
-    "institutionalContext": "The Indian Space Research Organisation (ISRO) is India's premier space agency, renowned for its cost-effective and successful missions like Chandrayaan and Mangalyaan. The Japan Aerospace Exploration Agency (JAXA) is Japan's national aerospace and space agency, known for its advanced robotics, asteroid sample-return missions, and expertise in lunar exploration technologies.",
-    "strategicImportance": "This mission holds significant strategic importance for India's growing space power and geopolitical influence. It enhances bilateral ties with Japan, a key strategic partner, in a critical domain. The search for water-ice on the lunar south pole is vital for future lunar bases, providing potential resources for propellant and life support, making India a stakeholder in future lunar resource utilization. It showcases India's advanced technological capabilities in lunar exploration, building upon the successes of Chandrayaan missions, and positions India at the forefront of deep space exploration.",
-    "quickSummary": "ISRO and JAXA have successfully finalized the payload specifications for their joint Lunar Polar Exploration (LUPEX) mission. This collaborative robotic mission aims to investigate the crucial water-ice deposits believed to be present in the permanently shadowed regions of the Moon's south pole. Under the agreement, JAXA will be responsible for providing the launch vehicle and the lunar rover, while ISRO will contribute the lander module for this ambitious international venture.",
-    "detailedAnalysis": "The LUPEX mission represents a significant leap in international space collaboration, combining the complementary strengths of ISRO and JAXA. The Moon's south pole is of immense scientific interest due to the presence of permanently shadowed regions (PSRs) where water-ice is thought to exist in substantial quantities. This water-ice is a critical resource, not just for scientific study of lunar geology and the history of the solar system, but also as a potential source for rocket propellant, breathable oxygen, and drinking water for future long-duration human missions and lunar bases. JAXA's expertise in precision landing and advanced rover technology complements ISRO's proven capability in lunar lander development, demonstrated by Chandrayaan-3. The finalization of payload specifications is a crucial step, moving the mission closer to its targeted launch, showcasing a shared vision for future lunar exploration and potential resource utilization.",
-    "backgroundContext": "The interest in the Moon's polar regions intensified after India's Chandrayaan-1 mission in 2008 confirmed the presence of water molecules on the lunar surface. Subsequent missions, including NASA's LCROSS, further supported the presence of water-ice in shadowed craters. India's recent Chandrayaan-3 mission successfully landed a rover near the lunar south pole, making India the first nation to achieve this feat and generating renewed global interest in this region. LUPEX builds upon these advancements, aiming for more detailed in-situ analysis of the water-ice deposits, which is critical for understanding their origin, distribution, and potential for extraction.",
-    "stakeholders": [
-      "ISRO (Indian Space Research Organisation)",
-      "JAXA (Japan Aerospace Exploration Agency)",
-      "Government of India",
-      "Government of Japan"
-    ],
-    "relatedTopics": [
-      "Space Exploration",
-      "Lunar Missions",
-      "International Space Cooperation",
-      "Space Technology",
-      "Lunar Resources",
-      "Science & Technology Policy",
-      "Geopolitics of Space"
-    ],
-    "examRelevanceMatrix": {
-      "NDA": "High",
-      "CDS": "High",
-      "AFCAT": "High"
-    },
-    "potentialQuestions": {
-      "shortAnswers": [
-        "What is the primary objective of the LUPEX mission?",
-        "Which two space agencies are collaborating on the LUPEX mission?",
-        "What contributions will ISRO and JAXA make to the LUPEX mission respectively?",
-        "Why is the Moon's south pole a key target for lunar missions?"
+    {
+      "id": "ca-august-2026-002",
+      "topic": "🟠 IMPORTANT | International Relations | GCAP Fighter Jet Programme",
+      "text": "India officially joined the **Global Combat Air Programme (GCAP)**—a collaborative sixth-generation fighter jet project—as a 'Dialogue Partner'.",
+      "details": {
+        "summary": "### 📌 What Happened\nIn late August 2026, India became a 'Dialogue Partner' in the GCAP, a sixth-generation stealth fighter jet development program.\n\n### 🎯 Why It Matters\nAccess to sixth-generation stealth technologies, advanced sensors, and AI integration will drastically upgrade the IAF's future combat edge.\n\n### 🧠 Key Facts\n- **GCAP Original Partners:** UK, Italy, and Japan.\n- **India's Status:** Dialogue Partner.\n\n### 🔗 Static GK Connection\nIndia is also developing its own 5.5 generation fighter, the Advanced Medium Combat Aircraft (AMCA).\n\n### ⚠️ Exam Trap\nIndia is a 'Dialogue Partner', NOT a full founding member. The founding members are UK, Italy, and Japan.\n\n### 🎯 Possible Question Angle\n'Which three nations are the founding members of the Global Combat Air Programme (GCAP)?'"
+      },
+      "upscHighlights": [
+        "Global Combat Air Programme (GCAP) is a 6th-generation stealth fighter jet partnership led by the UK, Japan, and Italy.",
+        "Merges the UK-led \"Tempest\" project and Japan's \"F-X\" fighter programme into a unified tri-nation aerospace venture.",
+        "India engaged as a Dialogue Partner while simultaneously developing its indigenous 5.5-gen AMCA (Advanced Medium Combat Aircraft)."
       ],
-      "interviewQuestions": [
-        "Discuss the strategic importance of international collaborations like LUPEX for India's space program and its global standing.",
-        "How does the LUPEX mission build upon the successes of previous lunar missions like Chandrayaan-3?",
-        "What are the potential long-term benefits of discovering and utilizing water-ice on the Moon for future space exploration?",
-        "Analyze the role of space diplomacy in fostering such joint ventures between nations."
+      "institutionalContext": "GCAP is headquartered in the United Kingdom and involves BAE Systems (UK), Mitsubishi Heavy Industries (Japan), and Leonardo (Italy). In India, the Aeronautical Development Agency (ADA) under DRDO leads the indigenous AMCA programme.",
+      "strategicImportance": "Provides Indian aerospace planners insight into 6th-generation manned-unmanned teaming (MUM-T), directed energy weapons, and adaptive cycle turbofan engines.",
+      "quickSummary": "India engaged as a Dialogue Partner with the <mark class=\"exam-target\">Global Combat Air Programme (GCAP)</mark>, a 6th-generation stealth fighter jet consortium formed by the <mark class=\"exam-target\">United Kingdom, Japan, and Italy</mark>.",
+      "detailedAnalysis": "Announced in December 2022 and operationalized through treaty ratification, GCAP aims to field a sixth-generation supersonic stealth combat aircraft by 2035 to replace the Eurofighter Typhoon (UK/Italy) and Mitsubishi F-2 (Japan). Simultaneously, India's Cabinet Committee on Security (CCS) has sanctioned ₹15,000 crore for the indigenous 5th-generation twin-engine stealth fighter AMCA (Mk-1 with GE F414 engines and Mk-2 with an indigenous 110 kN engine co-developed with Safran/Rolls-Royce).",
+      "backgroundContext": "Globally, two major European 6th-gen fighter programmes exist: GCAP (UK, Japan, Italy) and FCAS — Future Combat Air System (France, Germany, Spain).",
+      "stakeholders": [
+        "Indian Air Force (IAF)",
+        "Aeronautical Development Agency (ADA)",
+        "BAE Systems / Mitsubishi / Leonardo"
       ],
-      "ssbDiscussionTopics": [
-        "International Space Cooperation: A necessity for sustainable future space exploration?",
-        "The 'Race' for Lunar Resources: Opportunities and challenges for India and its partners.",
-        "India's evolving role in global space exploration: From independent missions to collaborative ventures.",
-        "Should India prioritize manned missions over robotic missions for lunar exploration?"
-      ]
-    },
-    "mcq": {
-      "question": "India officially engaged with the Global Combat Air Programme (GCAP) in August 2026 as a:",
-      "options": [
-        "Lead Manufacturing Partner",
-        "Dialogue Partner",
-        "Technology Donor",
-        "Sole Asian Member"
+      "relatedTopics": [
+        "AMCA 5th-Gen Fighter",
+        "GCAP vs FCAS",
+        "LCA Tejas Mk-2"
       ],
-      "correct": 1,
-      "explanation": "India engaged as a 'Dialogue Partner' in GCAP (the 6th-generation fighter program between UK, Japan, and Italy) to study next-gen avionics while pursuing its indigenous 5.5-gen AMCA."
-    }
-  },
-  {
-    "id": "ca-august-2026-003",
-    "topic": "🟢 GOOD TO KNOW | Defence & Security | Indigenous Naval Assets Induction",
-    "text": "The Indian Navy inducted the second indigenous Diving Support Vessel, **INS Nipun**, and launched the fifth Diving Support Craft (DSC A24) in Kolkata.",
-    "details": {
-      "summary": "### 📌 What Happened\nMultiple indigenous naval vessels were added to the fleet, including INS Nipun (Diving Support Vessel), DSC A24, and the multi-purpose vessel Samarthak.\n\n### 🎯 Why It Matters\nEnhances the Navy's submarine rescue capabilities, deep-sea diving operations, and coastal patrolling.\n\n### 🧠 Key Facts\n- **INS Nipun:** Diving Support Vessel.\n- **DSC A24:** Launched in Kolkata.\n- **ICGS Ajit:** Fast Patrol Vessel delivered to Coast Guard.\n\n### 🔗 Static GK Connection\nProject 75 and Project 75I deal with submarine building, which require extensive diving support infrastructure.\n\n### ⚠️ Exam Trap\nDo not confuse INS Nipun (Diving Support) with INS Nighat or INS Nishank (Missile Corvettes).\n\n### 🎯 Possible Question Angle\nMatch the following ships with their respective classes or primary roles."
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the primary objective of the LUPEX mission?",
+          "Which two space agencies are collaborating on the LUPEX mission?",
+          "What contributions will ISRO and JAXA make to the LUPEX mission respectively?",
+          "Why is the Moon's south pole a key target for lunar missions?"
+        ],
+        "interviewQuestions": [
+          "Discuss the strategic importance of international collaborations like LUPEX for India's space program and its global standing.",
+          "How does the LUPEX mission build upon the successes of previous lunar missions like Chandrayaan-3?",
+          "What are the potential long-term benefits of discovering and utilizing water-ice on the Moon for future space exploration?",
+          "Analyze the role of space diplomacy in fostering such joint ventures between nations."
+        ],
+        "ssbDiscussionTopics": [
+          "International Space Cooperation: A necessity for sustainable future space exploration?",
+          "The 'Race' for Lunar Resources: Opportunities and challenges for India and its partners.",
+          "India's evolving role in global space exploration: From independent missions to collaborative ventures.",
+          "Should India prioritize manned missions over robotic missions for lunar exploration?"
+        ]
+      },
+      "mcq": {
+        "question": "India officially engaged with the Global Combat Air Programme (GCAP) in August 2026 as a:",
+        "options": [
+          "Lead Manufacturing Partner",
+          "Dialogue Partner",
+          "Technology Donor",
+          "Sole Asian Member"
+        ],
+        "correct": 1,
+        "explanation": "India engaged as a 'Dialogue Partner' in GCAP (the 6th-generation fighter program between UK, Japan, and Italy) to study next-gen avionics while pursuing its indigenous 5.5-gen AMCA."
+      },
+      "publicationDate": "2026-08-22",
+      "originalSource": "Ministry of Defence / International Defence Cooperation"
     },
-    "upscHighlights": [
-      "INS Mahendragiri completes Project 17A sea trials.",
-      "Boosts indigenous stealth frigate capabilities.",
-      "Signifies major step in naval self-reliance."
-    ],
-    "institutionalContext": "The Indian Navy is the primary end-user, driving modernization and indigenization. Mazagon Dock Shipbuilders Limited (MDL), a Public Sector Undertaking under the Ministry of Defence, is a premier shipyard responsible for constructing warships, including these advanced frigates, showcasing collaboration between the Navy's design bureau and India's shipbuilding industry.",
-    "strategicImportance": "This event underscores India's growing self-reliance in defence manufacturing ('Atmanirbhar Bharat') and significantly enhances the Indian Navy's blue-water capabilities. Stealth frigates like INS Mahendragiri are crucial for power projection, protecting maritime interests, and maintaining regional stability in the Indian Ocean Region (IOR). Their advanced capabilities strengthen India's deterrence posture against potential adversaries and contribute to national security.",
-    "quickSummary": "INS Mahendragiri, the seventh and final stealth frigate of the Nilgiri-class (Project 17A), has successfully completed its sea trials. Built by Mazagon Dock Shipbuilders Limited (MDL), this warship showcases advanced indigenously developed stealth designs, state-of-the-art weapons, sensors, and platform management systems. Its successful trials mark a significant milestone for the Indian Navy's modernization drive and India's commitment to self-reliance in defence shipbuilding.",
-    "detailedAnalysis": "Project 17A, a follow-on to the successful Project 17 (Shivalik-class) frigates, emphasizes enhanced stealth features, advanced weapon systems, and improved survivability. The INS Mahendragiri incorporates cutting-edge technologies, including a significantly reduced radar cross-section, improved propulsion, and advanced combat management systems. These frigates are designed to operate in multi-threat environments across the spectrum of naval operations, from anti-surface and anti-air warfare to anti-submarine warfare. The project involves multiple public and private sector firms, contributing to job creation and technological absorption within India. The successful completion of sea trials indicates the warship's readiness for commissioning, further bolstering the Indian Navy's capabilities to secure vital sea lanes and protect India's expansive maritime interests.",
-    "backgroundContext": "Project 17A was sanctioned by the Government of India to build seven stealth frigates for the Indian Navy. Four of these frigates are being built at Mazagon Dock Shipbuilders Limited (MDL) in Mumbai, and three at Garden Reach Shipbuilders & Engineers (GRSE) in Kolkata. These frigates are successors to the Shivalik-class (Project 17) frigates and incorporate significant design improvements and higher levels of indigenisation. The project aligns with the broader 'Make in India' and 'Atmanirbhar Bharat' initiatives in the defence sector, aiming to reduce reliance on foreign imports and foster domestic defence industrial growth. The Nilgiri-class frigates are designed by the Indian Navy’s Directorate of Naval Design.",
-    "stakeholders": [
-      "Indian Navy",
-      "Mazagon Dock Shipbuilders Limited (MDL)",
-      "Garden Reach Shipbuilders & Engineers (GRSE)",
-      "Defence Research and Development Organisation (DRDO)",
-      "Ministry of Defence (MoD)",
-      "Various Indian private sector defence manufacturers and suppliers"
-    ],
-    "relatedTopics": [
-      "Naval Indigenisation",
-      "Project 17A Frigates",
-      "Stealth Technology in Warfare",
-      "Indian Ocean Region (IOR) Security",
-      "'Make in India' in Defence",
-      "Maritime Security Strategy"
-    ],
-    "examRelevanceMatrix": {
-      "NDA": "High",
-      "CDS": "High",
-      "AFCAT": "High"
-    },
-    "potentialQuestions": {
-      "shortAnswers": [
-        "What is the primary objective of Project 17A?",
-        "Which Indian shipyard built INS Mahendragiri?",
-        "Mention two key advanced features of Project 17A frigates."
+    {
+      "id": "ca-august-2026-003",
+      "topic": "🟢 GOOD TO KNOW | Defence & Security | Indigenous Naval Assets Induction",
+      "text": "The Indian Navy inducted the second indigenous Diving Support Vessel, **INS Nipun**, and launched the fifth Diving Support Craft (DSC A24) in Kolkata.",
+      "details": {
+        "summary": "### 📌 What Happened\nMultiple indigenous naval vessels were added to the fleet, including INS Nipun (Diving Support Vessel), DSC A24, and the multi-purpose vessel Samarthak.\n\n### 🎯 Why It Matters\nEnhances the Navy's submarine rescue capabilities, deep-sea diving operations, and coastal patrolling.\n\n### 🧠 Key Facts\n- **INS Nipun:** Diving Support Vessel.\n- **DSC A24:** Launched in Kolkata.\n- **ICGS Ajit:** Fast Patrol Vessel delivered to Coast Guard.\n\n### 🔗 Static GK Connection\nProject 75 and Project 75I deal with submarine building, which require extensive diving support infrastructure.\n\n### ⚠️ Exam Trap\nDo not confuse INS Nipun (Diving Support) with INS Nighat or INS Nishank (Missile Corvettes).\n\n### 🎯 Possible Question Angle\nMatch the following ships with their respective classes or primary roles."
+      },
+      "upscHighlights": [
+        "INS Nipun is the 2nd indigenously designed Diving Support Vessel (DSV) built by Hindustan Shipyard Limited (HSL), Visakhapatnam (Lead ship: INS Nistar).",
+        "DSC A24 is the 5th Diving Support Craft launched by Titagarh Rail Systems Limited (TRSL) in Kolkata.",
+        "INS Nipun serves as the mother ship for the Deep Submergence Rescue Vehicle (DSRV) to rescue distressed submarines."
       ],
-      "interviewQuestions": [
-        "Discuss the strategic implications of India's indigenous shipbuilding program for its role in the Indian Ocean Region.",
-        "How does stealth technology enhance the operational capabilities of a warship?",
-        "What are the challenges and opportunities for India in achieving complete self-reliance in naval defence production?"
-      ],
-      "ssbDiscussionTopics": [
-        "India's ambition to be a net security provider in the Indian Ocean Region: Challenges and Opportunities.",
-        "The balance between acquiring advanced foreign defence technology and fostering indigenous development.",
-        "The role of advanced stealth frigates in modern naval warfare and deterring regional threats."
-      ]
-    },
-    "mcq": {
-      "question": "INS Nipun, commissioned in August 2026, and DSC A24 belong to which class of naval support vessels?",
-      "options": [
-        "Fast Interceptor Craft",
-        "Diving Support Vessels (DSV) and Craft",
-        "Anti-Submarine Shallow Water Craft",
-        "Pollution Control Vessels"
-      ],
-      "correct": 1,
-      "explanation": "INS Nipun is a Diving Support Vessel built by HSL Visakhapatnam, and DSC A24 is a Diving Support Craft built for deep-sea diving, salvage, and submarine rescue operations."
-    }
-  },
-  {
-    "id": "ca-august-2026-004",
-    "topic": "🔴 MUST KNOW | Science & Technology | Xtreme Weather Grade (XWG) Diesel",
-    "text": "The Chief of Army Staff launched the indigenously developed **Xtreme Weather Grade (XWG) Diesel**, capable of remaining effective at **-42°C**.",
-    "details": {
-      "summary": "### 📌 What Happened\nA new specialised diesel fuel was introduced to ensure smooth operation of military vehicles and equipment in extreme high-altitude regions like Siachen and Eastern Ladakh.\n\n### 🎯 Why It Matters\nStandard diesel freezes at sub-zero temperatures. XWG prevents fuel freezing, solving a major logistical nightmare during winter deployments.\n\n### 🧠 Key Facts\n- Operational limit: **-42°C**.\n- Crucial for high-altitude sectors (LAC/LoC).\n\n### 🔗 Static GK Connection\nOperation Meghdoot (1984) secured the Siachen Glacier, the world's highest battlefield, where such extreme weather logistics are necessary.\n\n### ⚠️ Exam Trap\nRemember the exact temperature limit (-42°C), as UPSC might provide options like -30°C or -50°C.\n\n### 🎯 Possible Question Angle\n'What is the freezing point threshold of the newly introduced XWG Diesel for the Indian Army?'"
-    },
-    "upscHighlights": [
-      "Tawa Reservoir (MP) designated Ramsar site",
-      "India expands internationally recognized wetlands",
-      "Boosts wetland conservation and biodiversity"
-    ],
-    "institutionalContext": "The Union Ministry of Environment, Forest and Climate Change (MoEFCC) is the nodal agency in India responsible for implementing the Ramsar Convention, an intergovernmental treaty for the conservation and sustainable use of wetlands. This designation is a result of their collaboration with state forest departments.",
-    "strategicImportance": "This event holds strategic importance for Defence Exams and UPSC due to several reasons: \n1.  **Environmental Security:** Wetlands are crucial for ecological balance, water security, and disaster mitigation, all vital aspects of national security.\n2.  **International Relations & Governance:** Understanding India's commitment to multilateral environmental agreements like the Ramsar Convention is crucial for UPSC General Studies and understanding India's global role.\n3.  **Biodiversity Conservation:** It directly relates to India's efforts in preserving its rich flora and fauna, a key component of sustainable development and a recurring theme in competitive exams.\n4.  **Geography & Current Affairs:** Knowledge of significant geographical locations (Madhya Pradesh, Tawa River) and recent environmental developments is essential for all defence exams' General Awareness sections.\n5.  **Officer Awareness:** Future officers are expected to be well-informed about national policies and international commitments related to environmental protection.",
-    "quickSummary": "The Union Ministry of Environment, Forest and Climate Change has officially designated Tawa Reservoir in Madhya Pradesh as a Ramsar site, recognizing it as a wetland of international importance. This significant move underscores India's dedication to conserving vital ecosystems and highlights the reservoir's critical ecological role in supporting threatened bird species, providing habitat for migratory waterfowl, and sustaining local livelihoods through its fisheries.",
-    "detailedAnalysis": "Tawa Reservoir, situated in the Narmadapuram district of Madhya Pradesh, is a large man-made reservoir built across the Tawa River, a prominent tributary of the Narmada. Its recent designation as a Ramsar site is based on specific ecological criteria, primarily its role in supporting a diverse population of threatened resident and migratory bird species, functioning as a vital stopover point for migratory waterfowl, and sustaining robust local fisheries that are integral to the regional economy. This international recognition under the Ramsar Convention will attract enhanced conservation funding, lead to the implementation of more rigorous management plans, and elevate its global profile. The inclusion of Tawa Reservoir reflects India's proactive stance in expanding its network of Ramsar sites, demonstrating a strong commitment to fulfilling its obligations under the Convention and integrating environmental protection with developmental goals. It signifies a collective success in identifying and preserving critical natural assets for future generations.",
-    "backgroundContext": "The Ramsar Convention on Wetlands of International Importance Especially as Waterfowl Habitat is an intergovernmental treaty adopted on February 2, 1971, in Ramsar, Iran, and came into force in 1975. India became a signatory to the Convention in 1982. Its primary mission is 'the conservation and wise use of all wetlands through local, regional and national actions and international cooperation, as a contribution towards achieving sustainable development throughout the world.' Wetlands are critical ecosystems often referred to as 'the kidneys of the earth' for their invaluable ecological services, including water purification, flood control, groundwater recharge, provision of habitat for diverse species, and mitigation of climate change impacts.",
-    "stakeholders": [
-      "Union Ministry of Environment, Forest and Climate Change (MoEFCC)",
-      "Madhya Pradesh Forest Department and State Government",
-      "Ramsar Secretariat (international governing body)",
-      "Local communities (fishermen, farmers, tourism operators)",
-      "Wildlife conservation organizations and NGOs",
-      "Environmental researchers and scientists"
-    ],
-    "relatedTopics": [
-      "Ramsar Convention",
-      "Wetland Conservation and Management",
-      "Biodiversity Conservation",
-      "Environmental Governance",
-      "Geography of Madhya Pradesh (Rivers, Reservoirs)",
-      "Sustainable Development Goals (SDGs)",
-      "Man-made Wetlands"
-    ],
-    "examRelevanceMatrix": {
-      "NDA": "High",
-      "CDS": "High",
-      "AFCAT": "High"
-    },
-    "potentialQuestions": {
-      "shortAnswers": [
-        "What is the primary objective of the Ramsar Convention?",
-        "Name the latest Ramsar site designated in Madhya Pradesh.",
-        "Mention two ecological services provided by wetlands.",
-        "In which district of Madhya Pradesh is Tawa Reservoir located?"
-      ],
-      "interviewQuestions": [
-        "How does the designation of a wetland as a Ramsar site benefit India's environmental conservation efforts and its international standing?",
-        "Discuss the potential challenges and opportunities that arise for local communities once a wetland is declared a Ramsar site.",
-        "In your opinion, what role do armed forces play in environmental protection and disaster management, especially in regions with significant ecological importance?",
-        "How can India balance its developmental aspirations with its commitments to international environmental treaties like the Ramsar Convention?"
-      ],
-      "ssbDiscussionTopics": [
-        "Balancing economic development with environmental conservation: A critical challenge for India.",
-        "The effectiveness of international environmental treaties in addressing global climate change and biodiversity loss.",
-        "Is community participation essential for successful environmental conservation projects in India and why?",
-        "The role of man-made wetlands (like reservoirs) in supporting biodiversity and local livelihoods."
-      ]
-    },
-    "mcq": {
-      "question": "What is the key technological characteristic of the Xtreme Weather Grade (XWG) Diesel launched by the Indian Army in August 2026?",
-      "options": [
-        "It burns without producing any carbon emissions",
-        "It remains operational and fluid down to -42°C in high-altitude sub-zero regions",
-        "It increases tank engine horsepower by 50%",
-        "It is a bio-fuel derived exclusively from sea algae"
-      ],
-      "correct": 1,
-      "explanation": "Developed jointly with Indian Oil Corporation (IOCL), XWG Diesel does not freeze and retains its fluidity at temperatures down to -42°C, solving winter logistics challenges in Eastern Ladakh and Siachen."
-    }
-  },
-  {
-    "id": "ca-august-2026-005",
-    "topic": "🟠 IMPORTANT | Defence & Security | Javelin Missile MoU & SAFHAL Engines",
-    "text": "Tata Advanced Systems Limited (TASL) signed an MoU to explore co-production of **Javelin Anti-Tank Guided Missiles**, while HAL partnered with Safran for IMRH engines.",
-    "details": {
-      "summary": "### 📌 What Happened\nIndia strengthened international defence manufacturing ties. TASL will explore producing US Javelin missiles, and SAFHAL (HAL + Safran) will develop engines for the Indian Multi-Role Helicopter (IMRH).\n\n### 🎯 Why It Matters\nBoosts indigenous manufacturing capabilities through crucial technology transfers from the US (Javelin) and France (Safran).\n\n### 🧠 Key Facts\n- **Javelin:** Anti-Tank Guided Missile (US).\n- **SAFHAL:** Joint Venture between HAL and Safran (France).\n- **IMRH:** Indian Multi-Role Helicopter.\n\n### 🔗 Static GK Connection\nIndia's indigenous ATGM is the 'Nag' missile, developed by DRDO under the IGMDP.\n\n### ⚠️ Exam Trap\nThe Javelin is an American weapon, not Israeli (Spike) or Russian (Kornet).\n\n### 🎯 Possible Question Angle\n'With which country's aerospace firm has HAL partnered under the SAFHAL joint venture?'"
-    },
-    "upscHighlights": [
-      "Justice Sanjiv Khanna new CJI.",
-      "Oath administered by President Droupadi Murmu.",
-      "Appointment under Article 124(6) of Constitution."
-    ],
-    "institutionalContext": "The Supreme Court of India is the apex judicial body and the final court of appeal in the country. The Chief Justice of India (CJI) is the head of the Indian judiciary, leading the Supreme Court and playing a crucial role in judicial administration and constitutional interpretation.",
-    "strategicImportance": "This event is highly relevant for UPSC and Defence exams as it pertains to a key constitutional appointment within the Indian Polity section. Understanding the role of the CJI, the appointment process, and the constitutional articles involved (Article 124) is fundamental for questions on governance, judiciary, and current affairs. It highlights the functioning of democratic institutions and the rule of law.",
-    "quickSummary": "Justice Sanjiv Khanna has taken oath as the 51st Chief Justice of India (CJI), succeeding the outgoing Chief Justice. The oath of office was administered by President Droupadi Murmu at a ceremony held at Rashtrapati Bhavan, in accordance with Article 124(6) of the Constitution of India.",
-    "detailedAnalysis": "Justice Sanjiv Khanna's elevation to the post of Chief Justice of India follows the well-established convention where the seniormost judge of the Supreme Court is recommended by the outgoing CJI as their successor. This appointment signifies a crucial transition in the leadership of the Indian judiciary, which is a cornerstone of India's democratic structure. The CJI is not only the administrative head of the Supreme Court, responsible for allocating cases and constituting benches, but also leads the Collegium system for the appointment and transfer of judges. The ceremony at Rashtrapati Bhavan, with the President administering the oath, underscores the constitutional gravitas and solemnity associated with this high office. His tenure will be watched for its impact on various constitutional and public interest matters.",
-    "backgroundContext": "The office of the Chief Justice of India and the Supreme Court itself were established with the promulgation of the Constitution of India in 1950. The CJI's role has evolved significantly, from merely presiding over the court to becoming a pivotal figure in safeguarding fundamental rights, interpreting the Constitution, and upholding the rule of law. The appointment process, involving recommendations from the Collegium and final approval by the President, is a testament to the checks and balances inherent in India's governance structure.",
-    "stakeholders": [
-      "President of India",
-      "Chief Justice of India (Incumbent and Outgoing)",
-      "Supreme Court of India",
-      "Union Government (Ministry of Law and Justice)",
-      "Indian Judiciary"
-    ],
-    "relatedTopics": [
-      "Indian Judiciary",
-      "Constitutional Law",
-      "Powers of the President of India",
-      "Appointment of Judges",
-      "Collegium System",
-      "Judicial Independence",
-      "Article 124 of the Indian Constitution"
-    ],
-    "examRelevanceMatrix": {
-      "NDA": "Medium",
-      "CDS": "High",
-      "AFCAT": "Medium"
-    },
-    "potentialQuestions": {
-      "shortAnswers": [
-        "Who has recently been sworn in as the 51st Chief Justice of India?",
-        "By whom is the oath of office for the Chief Justice of India administered?",
-        "Which Article of the Indian Constitution deals with the oath or affirmation by Judges of the Supreme Court?"
-      ],
-      "interviewQuestions": [
-        "Discuss the significance of the Chief Justice of India's role in upholding judicial independence and constitutional values.",
-        "What are the key responsibilities of the Chief Justice of India beyond presiding over the Supreme Court?",
-        "Critically analyze the Collegium system for judicial appointments in India."
-      ],
-      "ssbDiscussionTopics": [
-        "\"Judicial activism vs. judicial restraint: Striking the right balance in India.\"",
-        "\"The role of the judiciary in strengthening India's democratic framework.\"",
-        "\"Reforms needed in the Indian judicial system to ensure speedy justice.\""
-      ]
-    },
-    "mcq": {
-      "question": "Tata Advanced Systems Limited (TASL) signed an agreement in August 2026 with Lockheed Martin to explore co-production of which anti-tank missile?",
-      "options": [
-        "Spike-LR",
-        "Javelin ATGM",
-        "Kornet-E",
-        "Milan-2T"
-      ],
-      "correct": 1,
-      "explanation": "TASL and Lockheed Martin agreed to explore co-production of the man-portable, 'fire-and-forget' Javelin Anti-Tank Guided Missile (ATGM) in India."
-    }
-  },
-  {
-    "id": "ca-august-2026-000-new",
-    "topic": "INS Nipun Commissioned into Indian Navy",
-    "text": "INS Nipun, the second indigenously built Diving Support Vessel (DSV) constructed by Hindustan Shipyard Limited (HSL), commissioned into the Indian Navy at Visakhapatnam.",
-    "details": {
-      "summary": "### 🎯 What Happened\nThe Indian Navy commissioned INS Nipun, the second of the two Diving Support Vessels (DSV) project, at the Eastern Naval Command in Visakhapatnam. Built by Hindustan Shipyard Limited (HSL), the vessel is designed to provide diving support for underwater repair, maintenance, and salvage operations. Crucially, it is equipped to operate the Indian Navy's Deep Submergence Rescue Vehicle (DSRV) for submarine rescue missions. The ship has a displacement of approx. 9,350 tonnes, length of 118.4m, and can accommodate a crew of 100 plus 80 divers. Its commissioning marks the culmination of the DSV project sanctioned in 2018, following the commissioning of the lead ship INS Nistar.\n\n### 💡 Why It Matters\nStrategically, INS Nipun plugs a critical capability gap in indigenous submarine rescue and deep-sea diving support, reducing dependence on foreign assets. It enhances the Navy's 'Atmanirbharta' (self-reliance) quotient with over 80% indigenous content, involving major private sector vendors (L&T, TATA, etc.) alongside HSL. Operationally, basing at Visakhapatnam (HQ Eastern Naval Command) ensures rapid response for submarine rescue in the Bay of Bengal and Indian Ocean Region, vital for the expanding submarine fleet (Scorpene, SSBNs, future P-75I). It also supports the Navy's role as a net security provider in HADR (Humanitarian Assistance and Disaster Relief) scenarios.\n\n### 📌 Key Facts\nINS Nipun and its sister ship INS Nistar are the first Diving Support Vessels (DSVs) designed and built indigenously in India by HSL, Visakhapatnam, featuring >80% indigenous content and a Deep Submergence Rescue Vehicle (DSRV) mating capability.\n\n### 🏛️ Static GK Connection\nBuilder: Hindustan Shipyard Limited (HSL), Visakhapatnam – Central PSU under Ministry of Defence.\nSister Ship: INS Nistar (Commissioned earlier in the project).\nCapability: Mating/Operation of Deep Submergence Rescue Vehicle (DSRV) – India operates two DSRVs (procured from UK/James Fisher Defence).\nIndigenous Content: >80%, aligning with Defence Acquisition Procedure (DAP) 2020 'Buy (Indian-IDDM)' category.\nNaming Convention: 'Nipun' (Sanskrit for Expert/Proficient) follows the tradition of naming support vessels after qualities/attributes (e.g., INS Nireekshak, INS Nistar).\n\n### ⚠️ Exam Trap\nDo not confuse INS Nipun (DSV - HSL Visakhapatnam) with the Follow-on Water Jet Fast Attack Craft (FO-WJFAC) built by GRSE (named after islands like Androth, Amini) or the ASW Shallow Water Craft (Mahe class). Nipun is a specialized submarine rescue/diving support platform, not a combatant."
-    },
-    "upscHighlights": [
-      "⚔️ DEFENCE INTEL",
-      "🔴 MUST KNOW"
-    ],
-    "mcq": {
-      "question": "Consider the following statements regarding the Diving Support Vessel (DSV) project of the Indian Navy:\n\nStatement 1: INS Nipun is the lead vessel of the Diving Support Vessel project, commissioned into the Eastern Naval Command.\nStatement 2: The DSV project vessels are indigenously built by Hindustan Shipyard Limited (HSL), Visakhapatnam, and feature a Deep Submergence Rescue Vehicle (DSRV) mating capability for submarine rescue.\nStatement 3: INS Nistar is the second vessel of the DSV project commissioned after INS Nipun.\n\nWhich of the statements given above are correct?",
-      "options": [
-        "Only Statement 1 and Statement 2",
-        "Only Statement 2",
-        "Only Statement 1 and Statement 3",
-        "All three statements"
-      ],
-      "correct": 1,
-      "explanation": "Statement 1 is incorrect because INS Nipun is the second DSV, not the lead vessel (INS Nistar is the lead ship). Statement 3 is incorrect because INS Nistar was commissioned BEFORE INS Nipun, making Nipun the second vessel. Only Statement 2 is correct: Both DSVs (INS Nistar and INS Nipun) were indigenously built by Hindustan Shipyard Limited (HSL), Visakhapatnam, and feature DSRV mating capability for submarine rescue operations."
-    }
-  },
-  {
-    "id": "ca-august-2026-001-new",
-    "topic": "Rajnath Singh meets Shinjiro Koizumi in New Delhi",
-    "text": "Defence Minister Rajnath Singh held talks with Japanese Minister Shinjiro Koizumi, focusing on Indo-Pacific maritime security and QUAD cooperation.",
-    "details": {
-      "summary": "### 🎯 What Happened\nDefence Minister Rajnath Singh hosted Shinjiro Koizumi, Japan's Minister of the Environment, in New Delhi on 20 August 2026. The discussions centred on enhancing Indo-Pacific maritime security, strengthening QUAD coordination, and expanding bilateral defence cooperation, including joint naval exercises and shared domain awareness initiatives.\n\n### 💡 Why It Matters\nThe meeting signals deepening India-Japan strategic alignment amid evolving Indo-Pacific security dynamics. It reflects Japan's expanding role in regional security beyond pure defence channels and is relevant for UPSC questions on India's foreign policy, QUAD efficacy, maritime security architecture, and evolving bilateral partnerships.\n\n### 📌 Key Facts\nThe meeting reinforced India-Japan strategic convergence in the Indo-Pacific, with both sides agreeing to deepen maritime domain awareness and joint patrols under the QUAD framework, despite Koizumi holding the Environment portfolio.\n\n### 🏛️ Static GK Connection\nIndia-Japan Annual Defence Ministerial Dialogue\nQUAD (Quadrilateral Security Dialogue) members: India, Japan, US, Australia\nIndo-Pacific Oceans Initiative (IPOI) led by India\n\n### ⚠️ Exam Trap\nMisinterpreting Koizumi's role; he is Japan's Minister of the Environment, not Defence, yet the talks covered defence and security, highlighting expanding bilateral engagement beyond traditional ministry channels."
-    },
-    "upscHighlights": [
-      "Defence & Security",
-      "🔴 MUST KNOW"
-    ],
-    "mcq": {
-      "question": "INS Nipun, recently commissioned into the Indian Navy, is built by which of the following shipyards?",
-      "options": [
-        "Mazagon Dock Shipbuilders Limited (MDL)",
-        "Garden Reach Shipbuilders & Engineers (GRSE)",
+      "institutionalContext": "Hindustan Shipyard Limited (HSL), Visakhapatnam is a defence PSU under the Ministry of Defence. The Indian Navy operates two DSRVs stationed at Mumbai (West Coast) and Visakhapatnam (East Coast).",
+      "strategicImportance": "Enhances India's submarine rescue architecture across the Indo-Pacific and establishes India as a net submarine rescue provider for friendly navies under SAGAR.",
+      "quickSummary": "The Indian Navy strengthened its subsea rescue and diving fleet with the induction of <mark class=\"exam-target\">INS Nipun</mark> (2nd Diving Support Vessel built by HSL Visakhapatnam) and the launch of <mark class=\"exam-target\">DSC A24</mark> (5th Diving Support Craft by Titagarh, Kolkata).",
+      "detailedAnalysis": "Displacing 9,350 tonnes with over 80% indigenous content, the Nistar-class DSVs (INS Nistar and INS Nipun) are equipped with saturation diving systems, decompression chambers, remotely operated vehicles (ROVs), and side-scan sonars. Meanwhile, the five smaller catamarans under the Diving Support Craft (DSC A20 to A24) project built by Titagarh Rail Systems provide harbour and coastal diving support.",
+      "backgroundContext": "With India's expanding submarine fleet (Kalvari-class, Arihant-class SSBNs, and Project 75I/Project 77), indigenous DSV mother ships are essential for rapid deep-ocean submarine rescue.",
+      "stakeholders": [
+        "Indian Navy",
         "Hindustan Shipyard Limited (HSL)",
-        "Goa Shipyard Limited (GSL)"
+        "Titagarh Rail Systems (TRSL)"
       ],
-      "correct": 2,
-      "explanation": "INS Nipun is indigenously designed and built by Hindustan Shipyard Limited (HSL), Visakhapatnam. It is a Diving Support Vessel (DSV) equipped with Deep Submergence Rescue Vehicle (DSRV) capability for submarine rescue missions. It is important not to confuse it with combat vessels like the Water Jet Fast Attack Craft (built by GRSE) or the ASW Shallow Water Craft (Mahe class)."
-    }
-  },
-  {
-    "id": "ca-august-2026-002-new",
-    "topic": "India's Defence Budget FY 2026-27: ₹7.85 Lakh Crore Allocation",
-    "text": "India's Defence Budget for FY 2026-27 is set at ₹7.85 lakh crore, emphasizing increased capital expenditure and Aatmanirbhar Bharat initiatives.",
-    "details": {
-      "summary": "### 🎯 What Happened\nThe Union Cabinet has approved the Defence Budget for Fiscal Year 2026-27 at a total outlay of ₹7.85 lakh crore. The budget emphasizes a shift towards capital expenditure (CapEx) rather than revenue expenditure (RevenEx), reflecting India's 'Atmanirbhar Bharat' defence initiative. This includes massive investments in indigenous defence manufacturing, advanced technology acquisition, and modernization of armed forces infrastructure. The budget allocation aims to strengthen India's self-reliance in defence production while maintaining operational readiness.\n\n### 💡 Why It Matters\nThis budget represents a strategic pivot toward self-sufficiency in defence capabilities. The emphasis on capital expenditure ensures long-term sustainability by investing in indigenous defence industries, reducing import dependence, and creating employment opportunities within the defence sector. It aligns with India's national security objectives of achieving technological autonomy and maintaining strategic deterrence in the region.\n\n### 📌 Key Facts\nThe Defence Budget for FY 2026-27 is projected at ₹7.85 lakh crore, representing a significant increase over previous years and focusing heavily on capital expenditure for indigenous defence manufacturing under 'Atmanirbhar Bharat'.\n\n### 🏛️ Static GK Connection\nDefence Production Index (DPI) trends related to indigenous manufacturing\nAtmanirbhar Bharat Mission defence component\nIndian Army's new equipment procurement plans\nSpace Force and satellite launch capabilities funding\n\n### ⚠️ Exam Trap\nConfusing the defence budget allocation year - ensure you distinguish between actual spent amounts versus planned budgets; some sources may mix FY 2025-26 figures with projections for FY 2026-27."
+      "relatedTopics": [
+        "INS Nistar & INS Nipun",
+        "Deep Submergence Rescue Vehicle (DSRV)",
+        "Atmanirbhar Navy"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the primary objective of Project 17A?",
+          "Which Indian shipyard built INS Mahendragiri?",
+          "Mention two key advanced features of Project 17A frigates."
+        ],
+        "interviewQuestions": [
+          "Discuss the strategic implications of India's indigenous shipbuilding program for its role in the Indian Ocean Region.",
+          "How does stealth technology enhance the operational capabilities of a warship?",
+          "What are the challenges and opportunities for India in achieving complete self-reliance in naval defence production?"
+        ],
+        "ssbDiscussionTopics": [
+          "India's ambition to be a net security provider in the Indian Ocean Region: Challenges and Opportunities.",
+          "The balance between acquiring advanced foreign defence technology and fostering indigenous development.",
+          "The role of advanced stealth frigates in modern naval warfare and deterring regional threats."
+        ]
+      },
+      "mcq": {
+        "question": "INS Nipun, commissioned in August 2026, and DSC A24 belong to which class of naval support vessels?",
+        "options": [
+          "Fast Interceptor Craft",
+          "Diving Support Vessels (DSV) and Craft",
+          "Anti-Submarine Shallow Water Craft",
+          "Pollution Control Vessels"
+        ],
+        "correct": 1,
+        "explanation": "INS Nipun is a Diving Support Vessel built by HSL Visakhapatnam, and DSC A24 is a Diving Support Craft built for deep-sea diving, salvage, and submarine rescue operations."
+      },
+      "publicationDate": "2026-08-18",
+      "originalSource": "PIB / Indian Navy"
     },
-    "upscHighlights": [
-      "⚔️ DEFENCE INTEL, 🇮🇳 INDIA",
-      "🔴 MUST KNOW"
-    ],
-    "mcq": {
-      "question": "What is the primary operational role of INS Nipun in the Indian Navy?",
-      "options": [
-        "Anti-Submarine Warfare (ASW) and surface attack",
-        "Diving support for underwater repair, maintenance, salvage, and submarine rescue",
-        "Air defence and fleet escort duties",
-        "Torpedo launch and naval mine laying"
+    {
+      "id": "ca-august-2026-004",
+      "topic": "🔴 MUST KNOW | Science & Technology | Xtreme Weather Grade (XWG) Diesel",
+      "text": "The Chief of Army Staff launched the indigenously developed **Xtreme Weather Grade (XWG) Diesel**, capable of remaining effective at **-42°C**.",
+      "details": {
+        "summary": "### 📌 What Happened\nA new specialised diesel fuel was introduced to ensure smooth operation of military vehicles and equipment in extreme high-altitude regions like Siachen and Eastern Ladakh.\n\n### 🎯 Why It Matters\nStandard diesel freezes at sub-zero temperatures. XWG prevents fuel freezing, solving a major logistical nightmare during winter deployments.\n\n### 🧠 Key Facts\n- Operational limit: **-42°C**.\n- Crucial for high-altitude sectors (LAC/LoC).\n\n### 🔗 Static GK Connection\nOperation Meghdoot (1984) secured the Siachen Glacier, the world's highest battlefield, where such extreme weather logistics are necessary.\n\n### ⚠️ Exam Trap\nRemember the exact temperature limit (-42°C), as UPSC might provide options like -30°C or -50°C.\n\n### 🎯 Possible Question Angle\n'What is the freezing point threshold of the newly introduced XWG Diesel for the Indian Army?'"
+      },
+      "upscHighlights": [
+        "Xtreme Weather Grade (XWG) Diesel is indigenously developed by Indian Oil Corporation Limited (IOCL).",
+        "Possesses an ultra-low pour point and cloud point, remaining fluid down to -42°C without paraffin wax freezing.",
+        "Replaces separate summer and winter diesel grades for tanks (T-90/T-72), BMPs, and artillery trucks in Ladakh and Siachen."
       ],
-      "correct": 1,
-      "explanation": "INS Nipun is a specialized Diving Support Vessel (DSV) designed to provide diving support for underwater repair, maintenance, and salvage operations. Crucially, it is equipped to operate the Indian Navy's Deep Submergence Rescue Vehicle (DSRV) for submarine rescue missions. It is NOT a combatant vessel, distinguishing it from frigates, corvettes, or fast attack craft."
-    }
-  },
-  {
-    "id": "ca-august-2026-003-new",
-    "topic": "India Explores Cooperation with France's 6th-Gen Fighter Program",
-    "text": "India is reportedly exploring cooperation with France's sixth-generation fighter program (FCAS/SCAF), while simultaneously developing its indigenous 5.5-gen Advanced Medium Combat Aircraft (AMCA).",
-    "details": {
-      "summary": "### 🎯 What Happened\nRecent reports suggest that India is exploring avenues for cooperation with France regarding sixth-generation fighter jet technology, potentially linking up with the French-led FCAS program. French aerospace major Dassault Aviation and Indian authorities are reportedly in preliminary discussions. However, official statements from both the Ministry of Defence (MoD) and the French government regarding a formal partnership remain absent. Indian officials have clarified that while collaborative 6th-gen pathways are being explored, the nation's immediate focus remains on the indigenous development of the 5.5-generation Advanced Medium Combat Aircraft (AMCA). Currently, any major integration of India's aerospace sector into a foreign 6th-gen consortium remains purely speculative at the policy level.\n\n### 💡 Why It Matters\nThis development holds massive strategic significance for the Indian Air Force (IAF) and indigenous defence manufacturing. First, it highlights the paradigm shift towards 6th-gen capabilities, which will involve artificial intelligence, unmanned teaming (loyal wingmen), and advanced stealth, moving beyond 5th-gen dogfighting. Second, it signals the limits of the current Rafale platform and the urgent need to replace aging fleets like the MiG-21s and Jaguars. Third, cooperation with France on future programs will test the 'Make in India' and 'Atmanirbhar Bharat' (Self-Reliant India) frameworks. Strategically, engaging with European 6th-gen programs provides India with an alternative to US/Russian dependencies, aligning with India's multi-alignment foreign policy and its rising stature as a major global aerospace player.\n\n### 📌 Key Facts\nIndia's indigenous 5th-gen++ (5.5-gen) twin-engine stealth fighter is named the Advanced Medium Combat Aircraft (AMCA), developed by DRDO/ADA under the Make in India initiative.\n\n### 🏛️ Static GK Connection\nThe French 6th-gen program is the FCAS (Future Combat Air System), a joint venture between France, Germany, and Spain (SCAF), primarily led by Dassault Aviation and Airbus.\nIndia's AMCA is a twin-engine, stealth, multi-role 5.5-gen fighter being designed by the Aeronautical Development Agency (ADA) under DRDO.\nDassault Aviation is the manufacturer of the Rafale fighter jets currently operated by the Indian Air Force (IAF).\n\n### ⚠️ Exam Trap\nDo not confuse India's AMCA (5.5-gen, DRDO-led) with the France-Germany-Spain FCAS (Future Combat Air System) or the UK-Italy-Japan GCAP (Global Combat Air Program), which are both true 6th-gen programs involving international consortiums."
+      "institutionalContext": "Developed by IOCL's R&D Centre in Faridabad in collaboration with the Directorate General of Supplies and Transport (DGST) of the Indian Army and DRDO.",
+      "strategicImportance": "Eliminates logistical bottlenecks in high-altitude sub-zero battlefields (Siachen Glacier and Eastern Ladakh LAC), enabling year-round mechanized readiness.",
+      "quickSummary": "The Indian Army and <mark class=\"exam-target\">IOCL</mark> launched indigenous <mark class=\"exam-target\">Xtreme Weather Grade (XWG) Diesel</mark>, capable of operating seamlessly down to <mark class=\"exam-target\">-42°C</mark> in high-altitude Himalayan sectors.",
+      "detailedAnalysis": "Standard high-speed diesel gels at around -5°C to -10°C due to paraffin wax crystallization, clogging fuel filters in tanks and armored vehicles. XWG Diesel utilizes advanced flow-improver additives and refined kerosene-diesel fractions to achieve a pour point below -42°C, simplifying Northern Command logistics into a single all-weather fuel grade.",
+      "backgroundContext": "Follows IOCL's earlier milestone of developing indigenous aviation gas (AVGAS 100 LL) and NATO-grade marine diesel for Indian warships.",
+      "stakeholders": [
+        "Indian Army (Northern Command)",
+        "Indian Oil Corporation Limited (IOCL)",
+        "DGST"
+      ],
+      "relatedTopics": [
+        "High-Altitude Logistics",
+        "Siachen Glacier Operations",
+        "Eastern Ladakh LAC"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the primary objective of the Ramsar Convention?",
+          "Name the latest Ramsar site designated in Madhya Pradesh.",
+          "Mention two ecological services provided by wetlands.",
+          "In which district of Madhya Pradesh is Tawa Reservoir located?"
+        ],
+        "interviewQuestions": [
+          "How does the designation of a wetland as a Ramsar site benefit India's environmental conservation efforts and its international standing?",
+          "Discuss the potential challenges and opportunities that arise for local communities once a wetland is declared a Ramsar site.",
+          "In your opinion, what role do armed forces play in environmental protection and disaster management, especially in regions with significant ecological importance?",
+          "How can India balance its developmental aspirations with its commitments to international environmental treaties like the Ramsar Convention?"
+        ],
+        "ssbDiscussionTopics": [
+          "Balancing economic development with environmental conservation: A critical challenge for India.",
+          "The effectiveness of international environmental treaties in addressing global climate change and biodiversity loss.",
+          "Is community participation essential for successful environmental conservation projects in India and why?",
+          "The role of man-made wetlands (like reservoirs) in supporting biodiversity and local livelihoods."
+        ]
+      },
+      "mcq": {
+        "question": "What is the key technological characteristic of the Xtreme Weather Grade (XWG) Diesel launched by the Indian Army in August 2026?",
+        "options": [
+          "It burns without producing any carbon emissions",
+          "It remains operational and fluid down to -42°C in high-altitude sub-zero regions",
+          "It increases tank engine horsepower by 50%",
+          "It is a bio-fuel derived exclusively from sea algae"
+        ],
+        "correct": 1,
+        "explanation": "Developed jointly with Indian Oil Corporation (IOCL), XWG Diesel does not freeze and retains its fluidity at temperatures down to -42°C, solving winter logistics challenges in Eastern Ladakh and Siachen."
+      },
+      "publicationDate": "2026-08-14",
+      "originalSource": "PIB / Indian Army & IOCL"
     },
-    "upscHighlights": [
-      "⚔️ DEFENCE INTEL",
-      "🟠 IMPORTANT"
-    ],
-    "mcq": {
-      "question": "Consider the following statements regarding the meeting between Defence Minister Rajnath Singh and Shinjiro Koizumi in New Delhi on 20 August 2026:\n\nStatement 1: The meeting focused exclusively on climate change and environmental issues.\nStatement 2: Both sides discussed enhancing Indo-Pacific maritime security and strengthening QUAD coordination.\nStatement 3: Koizumi is Japan's Minister of Defence.\n\nWhich of the statements given above is/are correct?",
-      "options": [
-        "Only Statement 1",
-        "Only Statement 2",
-        "Only Statements 1 and 3",
-        "Statements 1, 2 and 3"
+    {
+      "id": "ca-august-2026-005",
+      "topic": "🟠 IMPORTANT | Defence & Security | Javelin Missile MoU & SAFHAL Engines",
+      "text": "Tata Advanced Systems Limited (TASL) signed an MoU to explore co-production of **Javelin Anti-Tank Guided Missiles**, while HAL partnered with Safran for IMRH engines.",
+      "details": {
+        "summary": "### 📌 What Happened\nIndia strengthened international defence manufacturing ties. TASL will explore producing US Javelin missiles, and SAFHAL (HAL + Safran) will develop engines for the Indian Multi-Role Helicopter (IMRH).\n\n### 🎯 Why It Matters\nBoosts indigenous manufacturing capabilities through crucial technology transfers from the US (Javelin) and France (Safran).\n\n### 🧠 Key Facts\n- **Javelin:** Anti-Tank Guided Missile (US).\n- **SAFHAL:** Joint Venture between HAL and Safran (France).\n- **IMRH:** Indian Multi-Role Helicopter.\n\n### 🔗 Static GK Connection\nIndia's indigenous ATGM is the 'Nag' missile, developed by DRDO under the IGMDP.\n\n### ⚠️ Exam Trap\nThe Javelin is an American weapon, not Israeli (Spike) or Russian (Kornet).\n\n### 🎯 Possible Question Angle\n'With which country's aerospace firm has HAL partnered under the SAFHAL joint venture?'"
+      },
+      "upscHighlights": [
+        "TASL signed an MoU with Lockheed Martin/Raytheon to explore co-production of the Javelin 3rd-gen Fire-and-Forget Anti-Tank Guided Missile (ATGM).",
+        "SAFHAL Helicopter Engines Pvt Ltd (50:50 JV between HAL and Safran Helicopter Engines, France) signed an agreement in Bengaluru to develop the \"Aravalli\" turboshaft engine.",
+        "The Aravalli engine will power the 13-ton Indian Multi-Role Helicopter (IMRH) and Deck-Based Multi-Role Helicopter (DBMRH)."
       ],
-      "correct": 1,
-      "explanation": "Statement 1 is incorrect because the meeting did not focus exclusively on environmental issues; it centered on maritime security, QUAD coordination, and defence cooperation. Statement 2 is correct as both sides discussed enhancing Indo-Pacific maritime security and strengthening QUAD coordination, including joint naval exercises. Statement 3 is incorrect because Koizumi is Japan's Minister of the Environment, not Defence. The meeting highlights that India-Japan strategic engagement transcends traditional ministerial portfolios."
-    }
-  },
-  {
-    "id": "ca-august-2026-004-new",
-    "topic": "Reported Trilateral Defence Agreement: Saudi Arabia, Pakistan, and Turkey",
-    "text": "Reports of a trilateral defence pact among Saudi Arabia, Pakistan, and Turkey are circulating; treat as unverified pending official confirmation from all three nations.",
-    "details": {
-      "summary": "### 🎯 What Happened\nReports have emerged of a potential trilateral defence agreement being negotiated among Saudi Arabia, Pakistan, and Türkiye. The discussions reportedly aim to deepen military cooperation, joint production, intelligence sharing, and strategic coordination among the three nations. However, as of the latest available information, no official joint statement or signed agreement has been publicly confirmed by the foreign ministries of all three countries. The reports appear to be based on diplomatic sources and media leaks rather than formal treaty documentation.\n\n### 💡 Why It Matters\nIf formalized, such an agreement would significantly reshape regional security dynamics in the Middle East and Indian Ocean region. It would provide Saudi Arabia with an alternative defence partnership beyond the US, bolster Pakistan's diplomatic and defence outreach, and expand Türkiye's defence diplomacy footprint. Strategically, it could influence balance of power considerations in the context of Iran's regional activities, the Israel-Hamas conflict aftermath, and broader US-China-Russia competition. For UPSC/NDA/AFCAT aspirants, this highlights the evolving nature of defence partnerships beyond traditional alliances.\n\n### 📌 Key Facts\nPakistan maintains long-standing defence cooperation with both Saudi Arabia (BRIDGE programme, artillery ammunition production) and Türkiye (JF-17 Thunder co-development, MILGEM warship project, defence hardware exports).\n\n### 🏛️ Static GK Connection\nPakistan-Saudi Arabia Strategic Mutual Defence Agreement (SMDA) — September 2024, signed during PM Shehbaz Sharif's visit to Saudi Arabia\nPakistan-Türkiye Defence Cooperation — JF-17 Thunder programme (co-developed with China), MILGEM corvette project for Pakistan Navy\nSaudi Arabia's Vision 2030 defence diversification — reducing dependence on US arms imports\nTürkiye's defence exports — ranked among top global arms exporters, with clients including Pakistan, Qatar, Ukraine, and multiple African nations\nNATO membership of Türkiye — Article 5 obligations do not extend to non-NATO partners like Saudi Arabia or Pakistan\nChina's role in Pakistan-Saudi defence ties — JF-17 co-development adds a third-party strategic dimension\n\n### ⚠️ Exam Trap\nDo not confuse this with the existing Saudi-Pakistani Strategic Mutual Defence Agreement (SMDA) signed in September 2024, nor with NATO obligations — Türkiye's NATO membership does not automatically extend to Saudi Arabia or Pakistan."
+      "institutionalContext": "SAFHAL is headquartered in Bengaluru, combining HAL's manufacturing infrastructure with Safran's core hot-section turbine metallurgy.",
+      "strategicImportance": "Bridges India's most critical defence technology gap—aero-engine design and single-crystal turbine blade metallurgy—while strengthening infantry anti-armor firepower.",
+      "quickSummary": "<mark class=\"exam-target\">SAFHAL</mark> (HAL–Safran JV) launched development of the indigenous <mark class=\"exam-target\">Aravalli</mark> engine for the 13-ton IMRH helicopter, while <mark class=\"exam-target\">TASL</mark> signed an MoU to co-produce the <mark class=\"exam-target\">Javelin ATGM</mark>.",
+      "detailedAnalysis": "The 13-ton class IMRH (for Army/IAF) and DBMRH (for Navy destroyers/carriers) are designed to replace India's aging fleet of Russian Mi-17 medium-lift helicopters. Naming the engine \"Aravalli\" after India's oldest mountain range symbolizes ruggedness and self-reliance. Concurrently, India is advancing indigenous ATGMs like DRDO's MPATGM and Nag/Helina alongside Javelin co-production discussions under US-India iCET.",
+      "backgroundContext": "HAL and Safran previously collaborated on the Shakti engine powering the ALH Dhruv, LCH Prachand, and LUH.",
+      "stakeholders": [
+        "Hindustan Aeronautics Limited (HAL)",
+        "Safran (France)",
+        "Tata Advanced Systems (TASL)",
+        "Lockheed Martin"
+      ],
+      "relatedTopics": [
+        "Aravalli Engine & IMRH",
+        "Javelin vs MPATGM",
+        "US-India iCET"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "High",
+        "AFCAT": "Medium"
+      },
+      "potentialQuestions": {
+        "shortAnswers": [
+          "Who has recently been sworn in as the 51st Chief Justice of India?",
+          "By whom is the oath of office for the Chief Justice of India administered?",
+          "Which Article of the Indian Constitution deals with the oath or affirmation by Judges of the Supreme Court?"
+        ],
+        "interviewQuestions": [
+          "Discuss the significance of the Chief Justice of India's role in upholding judicial independence and constitutional values.",
+          "What are the key responsibilities of the Chief Justice of India beyond presiding over the Supreme Court?",
+          "Critically analyze the Collegium system for judicial appointments in India."
+        ],
+        "ssbDiscussionTopics": [
+          "\"Judicial activism vs. judicial restraint: Striking the right balance in India.\"",
+          "\"The role of the judiciary in strengthening India's democratic framework.\"",
+          "\"Reforms needed in the Indian judicial system to ensure speedy justice.\""
+        ]
+      },
+      "mcq": {
+        "question": "Tata Advanced Systems Limited (TASL) signed an agreement in August 2026 with Lockheed Martin to explore co-production of which anti-tank missile?",
+        "options": [
+          "Spike-LR",
+          "Javelin ATGM",
+          "Kornet-E",
+          "Milan-2T"
+        ],
+        "correct": 1,
+        "explanation": "TASL and Lockheed Martin agreed to explore co-production of the man-portable, 'fire-and-forget' Javelin Anti-Tank Guided Missile (ATGM) in India."
+      },
+      "publicationDate": "2026-08-25",
+      "originalSource": "Ministry of Defence / HAL & TASL"
     },
-    "upscHighlights": [
-      "🌍 STRATEGIC WORLD",
-      "🟠 IMPORTANT"
-    ],
-    "mcq": {
-      "question": "What is the official portfolio held by Shinjiro Koizumi, who met Defence Minister Rajnath Singh in New Delhi on 20 August 2026?",
-      "options": [
-        "Minister of Defence of Japan",
-        "Minister of Foreign Affairs of Japan",
-        "Minister of the Environment of Japan",
-        "Minister of Economy, Trade and Industry of Japan"
+    {
+      "id": "ca-august-2026-000-new",
+      "topic": "INS Nipun Commissioned into Indian Navy",
+      "text": "INS Nipun, the second indigenously built Diving Support Vessel (DSV) constructed by Hindustan Shipyard Limited (HSL), commissioned into the Indian Navy at Visakhapatnam.",
+      "details": {
+        "summary": "### 🎯 What Happened\nThe Indian Navy commissioned INS Nipun, the second of the two Diving Support Vessels (DSV) project, at the Eastern Naval Command in Visakhapatnam. Built by Hindustan Shipyard Limited (HSL), the vessel is designed to provide diving support for underwater repair, maintenance, and salvage operations. Crucially, it is equipped to operate the Indian Navy's Deep Submergence Rescue Vehicle (DSRV) for submarine rescue missions. The ship has a displacement of approx. 9,350 tonnes, length of 118.4m, and can accommodate a crew of 100 plus 80 divers. Its commissioning marks the culmination of the DSV project sanctioned in 2018, following the commissioning of the lead ship INS Nistar.\n\n### 💡 Why It Matters\nStrategically, INS Nipun plugs a critical capability gap in indigenous submarine rescue and deep-sea diving support, reducing dependence on foreign assets. It enhances the Navy's 'Atmanirbharta' (self-reliance) quotient with over 80% indigenous content, involving major private sector vendors (L&T, TATA, etc.) alongside HSL. Operationally, basing at Visakhapatnam (HQ Eastern Naval Command) ensures rapid response for submarine rescue in the Bay of Bengal and Indian Ocean Region, vital for the expanding submarine fleet (Scorpene, SSBNs, future P-75I). It also supports the Navy's role as a net security provider in HADR (Humanitarian Assistance and Disaster Relief) scenarios.\n\n### 📌 Key Facts\nINS Nipun and its sister ship INS Nistar are the first Diving Support Vessels (DSVs) designed and built indigenously in India by HSL, Visakhapatnam, featuring >80% indigenous content and a Deep Submergence Rescue Vehicle (DSRV) mating capability.\n\n### 🏛️ Static GK Connection\nBuilder: Hindustan Shipyard Limited (HSL), Visakhapatnam – Central PSU under Ministry of Defence.\nSister Ship: INS Nistar (Commissioned earlier in the project).\nCapability: Mating/Operation of Deep Submergence Rescue Vehicle (DSRV) – India operates two DSRVs (procured from UK/James Fisher Defence).\nIndigenous Content: >80%, aligning with Defence Acquisition Procedure (DAP) 2020 'Buy (Indian-IDDM)' category.\nNaming Convention: 'Nipun' (Sanskrit for Expert/Proficient) follows the tradition of naming support vessels after qualities/attributes (e.g., INS Nireekshak, INS Nistar).\n\n### ⚠️ Exam Trap\nDo not confuse INS Nipun (DSV - HSL Visakhapatnam) with the Follow-on Water Jet Fast Attack Craft (FO-WJFAC) built by GRSE (named after islands like Androth, Amini) or the ASW Shallow Water Craft (Mahe class). Nipun is a specialized submarine rescue/diving support platform, not a combatant."
+      },
+      "upscHighlights": [
+        "⚔️ DEFENCE INTEL",
+        "🔴 MUST KNOW"
       ],
-      "correct": 2,
-      "explanation": "Shinjiro Koizumi is Japan's Minister of the Environment. Despite holding an environment portfolio, he met with India's Defence Minister to discuss maritime security, QUAD coordination, and bilateral defence cooperation. This reflects the broadening scope of India-Japan strategic dialogue, which now spans across multiple ministerial channels."
-    }
-  },
-  {
-    "id": "ca-august-2026-005-new",
-    "topic": "India's 80th Independence Day — PM's Address from Red Fort",
-    "text": "India celebrates its 80th Independence Day on 15 August 2026, commemorating 80 years since independence on 15 August 1947.",
-    "details": {
-      "summary": "### 🎯 What Happened\nIndia will celebrate its 80th Independence Day on 15 August 2026 with the Prime Minister unfurling the national flag at the historic Red Fort in New Delhi and delivering a televised address to the nation. The occasion marks eight decades since the end of British colonial rule in 1947. The event features a ceremonial guard of honour by the armed forces, parades, cultural performances from states and union territories, and displays by military contingents. Speeches typically highlight national achievements, governance reforms, economic milestones, security updates, and the vision for the coming decades, including the lead-up to India@100 in 2047.\n\n### 💡 Why It Matters\nThe 80th Independence Day carries strong symbolic weight in India's national narrative, bridging the milestone of 75 years (Azadi Ka Amrit Mahotsav, 2021–2022) with the Amrit Kaal vision for 2047. For defence aspirants, the address is a key platform where the PM outlines internal and external security policies, defence modernisation progress, self-reliance (Aatmanirbharta) in defence manufacturing, and updates on the armed forces. Historically, Independence Day addresses from the Red Fort have set the tone for upcoming Republic Day themes, defence budgets, and major strategic announcements — making the speech content a high-yield area for CDS, NDA, and AFCAT current affairs.\n\n### 📌 Key Facts\nIndia became independent on 15 August 1947; the Constitution of India came into force on 26 January 1950, making 2026 the 77th Republic Day year and the year of the 80th Independence Day.\n\n### 🏛️ Static GK Connection\nThe Red Fort (Lal Qila) was built by Mughal Emperor Shah Jahan in 1638–1648 and is a UNESCO World Heritage Site since 2007.\nIndia's first Prime Minister Jawaharlal Nehru delivered the first Independence Day speech from the Red Fort on 15 August 1947.\nThe Prime Minister hoists the National Flag (Tiranga) and the National Anthem 'Jana Gana Mana' (written by Rabindranath Tagore, 1911) is played, followed by a 21-gun salute.\n\n### ⚠️ Exam Trap\nConfusing Independence Day (15 August 1947) with Republic Day (26 January 1950) — India's independence preceded its republic status by over two years."
+      "mcq": {
+        "question": "Consider the following statements regarding the Diving Support Vessel (DSV) project of the Indian Navy:\n\nStatement 1: INS Nipun is the lead vessel of the Diving Support Vessel project, commissioned into the Eastern Naval Command.\nStatement 2: The DSV project vessels are indigenously built by Hindustan Shipyard Limited (HSL), Visakhapatnam, and feature a Deep Submergence Rescue Vehicle (DSRV) mating capability for submarine rescue.\nStatement 3: INS Nistar is the second vessel of the DSV project commissioned after INS Nipun.\n\nWhich of the statements given above are correct?",
+        "options": [
+          "Only Statement 1 and Statement 2",
+          "Only Statement 2",
+          "Only Statement 1 and Statement 3",
+          "All three statements"
+        ],
+        "correct": 1,
+        "explanation": "Statement 1 is incorrect because INS Nipun is the second DSV, not the lead vessel (INS Nistar is the lead ship). Statement 3 is incorrect because INS Nistar was commissioned BEFORE INS Nipun, making Nipun the second vessel. Only Statement 2 is correct: Both DSVs (INS Nistar and INS Nipun) were indigenously built by Hindustan Shipyard Limited (HSL), Visakhapatnam, and feature DSRV mating capability for submarine rescue operations."
+      }
     },
-    "upscHighlights": [
-      "🇮🇳 INDIA",
-      "🔴 MUST KNOW"
-    ],
-    "mcq": {
-      "question": "In which city did Defence Minister Rajnath Singh host Japan's Minister Shinjiro Koizumi on 20 August 2026 for talks on Indo-Pacific maritime security?",
-      "options": [
-        "Mumbai",
-        "Tokyo",
-        "New Delhi",
-        "Bengaluru"
+    {
+      "id": "ca-august-2026-001-new",
+      "topic": "Defence & Security | India-Japan Dialogue",
+      "text": "Defence Minister Rajnath Singh held talks with Japanese Minister Shinjiro Koizumi, focusing on Indo-Pacific maritime security and QUAD cooperation.",
+      "details": {
+        "summary": "### 🎯 What Happened\nDefence Minister Rajnath Singh hosted Shinjiro Koizumi, Japan's Minister of the Environment, in New Delhi on 20 August 2026. The discussions centred on enhancing Indo-Pacific maritime security, strengthening QUAD coordination, and expanding bilateral defence cooperation, including joint naval exercises and shared domain awareness initiatives.\n\n### 💡 Why It Matters\nThe meeting signals deepening India-Japan strategic alignment amid evolving Indo-Pacific security dynamics. It reflects Japan's expanding role in regional security beyond pure defence channels and is relevant for UPSC questions on India's foreign policy, QUAD efficacy, maritime security architecture, and evolving bilateral partnerships.\n\n### 📌 Key Facts\nThe meeting reinforced India-Japan strategic convergence in the Indo-Pacific, with both sides agreeing to deepen maritime domain awareness and joint patrols under the QUAD framework, despite Koizumi holding the Environment portfolio.\n\n### 🏛️ Static GK Connection\nIndia-Japan Annual Defence Ministerial Dialogue\nQUAD (Quadrilateral Security Dialogue) members: India, Japan, US, Australia\nIndo-Pacific Oceans Initiative (IPOI) led by India\n\n### ⚠️ Exam Trap\nMisinterpreting Koizumi's role; he is Japan's Minister of the Environment, not Defence, yet the talks covered defence and security, highlighting expanding bilateral engagement beyond traditional ministry channels."
+      },
+      "upscHighlights": [
+        "Defence & Security",
+        "🔴 MUST KNOW"
       ],
-      "correct": 2,
-      "explanation": "Defence Minister Rajnath Singh hosted Shinjiro Koizumi in New Delhi on 20 August 2026. The meeting focused on strengthening QUAD coordination, enhancing maritime domain awareness, expanding joint naval exercises, and deepening India-Japan strategic convergence in the Indo-Pacific region."
-    }
-  },
-  {
-    "id": "ca-august-2026-006-new",
-    "topic": "India's Strategic Posture in Arunachal Pradesh: Renaming Dispute & Infrastructure Push",
-    "text": "India firmly rejects China's 4th list of 'standardised names' (30 locations) for Arunachal Pradesh (Zangnan), asserting the state is an integral part of India based on the 1914 McMahon Line.",
-    "details": {
-      "summary": "### 🎯 What Happened\nIn the context of ongoing border tensions since 2020, China's Ministry of Civil Affairs released its 4th list of 'standardised geographical names' for 'Zangnan' (South Tibet/Arunachal Pradesh) in March 2024, assigning Chinese characters, Tibetan, and Roman alphabet names to 30 locations. This is a cognitive warfare tactic to bolster territorial claims. Simultaneously, India has accelerated border infrastructure: operationalising the Sela Tunnel (world's longest bi-lane tunnel >13,000 ft), advancing the Frontier Highway (NH-913) along the LAC, and deploying advanced surveillance (UAVs, radars) and M777 howitzers. The 2026 strategic focus remains on 'Dual-Use' infrastructure and 'Vibrant Villages Programme' (VVP) to prevent border village depopulation.\n\n### 💡 Why It Matters\nArunachal Pradesh is the strategic anchor of India's Eastern Theatre Command. Control over the McMahon Line watershed (Himalayan crest) denies China oversight of the Brahmaputra valley (Assam plains) and protects the 'Chicken's Neck' (Siliguri Corridor) linkage to Northeast. The naming dispute is a 'Grey Zone' tactic to create a legal/administrative record for future ICJ/ICJ-equivalent claims. India's counter-measure—physical infrastructure, administrative presence (new districts like Bichom, Keyi Panyor), and VVP—establishes 'effective control' (uti possidetis juris), the strongest title in international law.\n\n### 📌 Key Facts\nChina's 4th list (March 2024) contained 30 names (11 residential, 12 mountains, 4 rivers, 1 lake, 1 mountain pass, 1 piece of land); India's MEA rejected it stating 'invented names' do not alter reality. The 1st list (2017) had 6 names, 2nd (2021) had 15, 3rd (2023) had 11.\n\n### 🏛️ Static GK Connection\nSimla Convention (1914): Signed by British India, Tibet, China (initialled by Ivan Chen but not ratified). Defined 'Outer Tibet' autonomy and McMahon Line.\nArticle 1 of Constitution: 'India, that is Bharat, shall be a Union of States' — Arunachal Pradesh became 24th State in 1987 (55th Amendment Act, 1986).\nStrategic Projects: Sela Tunnel (BRO, Project Vartak), Frontier Highway (NH-913, ~1800 km), Trans-Arunachal Highway, Vibrant Villages Programme (VVP) launched 2023 for 2967 border villages (455 in Arunachal).\nMajor Tribes: Monpa, Adi, Nyishi, Apatani, Galo — cultural affinity with India/Tibet, not Han China.\n\n### ⚠️ Exam Trap\nDo not confuse the McMahon Line (1914 Simla Convention - Eastern Sector boundary) with the Johnson Line/Ardagh-Johnson Line (Western Sector/Aksai Chin) or the LAC (Line of Actual Control - ceasefire line 1962). China accepts McMahon Line tacitly in Myanmar border but rejects it for India."
+      "mcq": {
+        "question": "Defence Minister Rajnath Singh held bilateral talks in August 2026 in New Delhi with Japanese leadership focusing on Indo-Pacific maritime security. Which bilateral military exercises are conducted between India and Japan?",
+        "options": [
+          "Dharma Guardian (Army), Veer Guardian (Air Force), and JIMEX (Navy)",
+          "Garuda Shakti (Army), Samudra Shakti (Navy), and Udara Shakti (Air Force)",
+          "Mitra Shakti (Army) and SLINEX (Navy)",
+          "Yudh Abhyas (Army) and Cope India (Air Force)"
+        ],
+        "correct": 0,
+        "explanation": "India and Japan conduct Exercise Dharma Guardian (Army), Exercise Veer Guardian (Air Force), Exercise JIMEX (Navy), and Exercise Shinyuu Maitri (Air Mobility), alongside multilateral Exercise Malabar under the QUAD."
+      }
     },
-    "upscHighlights": [
-      "🇮🇳 INDIA",
-      "🔴 MUST KNOW"
-    ],
-    "mcq": {
-      "question": "Which of the following accurately describes the Defence Budget for FY 2026-27?",
-      "options": [
-        "Total outlay of ₹7.85 lakh crore with emphasis on capital expenditure (CapEx) over revenue expenditure (RevenEx)",
-        "Total outlay of ₹7.85 lakh crore with emphasis on revenue expenditure (RevenEx) only",
-        "Total outlay of ₹8.45 lakh crore with equal split between CapEx and RevenEx",
-        "Total outlay of ₹6.25 lakh crore focused solely on indigenous manufacturing"
+    {
+      "id": "ca-august-2026-002-new",
+      "topic": "Defence Economics | Union Defence Budget",
+      "text": "India's Defence Budget for FY 2026-27 is set at ₹7.85 lakh crore, emphasizing increased capital expenditure and Aatmanirbhar Bharat initiatives.",
+      "details": {
+        "summary": "### 🎯 What Happened\nThe Union Cabinet has approved the Defence Budget for Fiscal Year 2026-27 at a total outlay of ₹7.85 lakh crore. The budget emphasizes a shift towards capital expenditure (CapEx) rather than revenue expenditure (RevenEx), reflecting India's 'Atmanirbhar Bharat' defence initiative. This includes massive investments in indigenous defence manufacturing, advanced technology acquisition, and modernization of armed forces infrastructure. The budget allocation aims to strengthen India's self-reliance in defence production while maintaining operational readiness.\n\n### 💡 Why It Matters\nThis budget represents a strategic pivot toward self-sufficiency in defence capabilities. The emphasis on capital expenditure ensures long-term sustainability by investing in indigenous defence industries, reducing import dependence, and creating employment opportunities within the defence sector. It aligns with India's national security objectives of achieving technological autonomy and maintaining strategic deterrence in the region.\n\n### 📌 Key Facts\nThe Defence Budget for FY 2026-27 is projected at ₹7.85 lakh crore, representing a significant increase over previous years and focusing heavily on capital expenditure for indigenous defence manufacturing under 'Atmanirbhar Bharat'.\n\n### 🏛️ Static GK Connection\nDefence Production Index (DPI) trends related to indigenous manufacturing\nAtmanirbhar Bharat Mission defence component\nIndian Army's new equipment procurement plans\nSpace Force and satellite launch capabilities funding\n\n### ⚠️ Exam Trap\nConfusing the defence budget allocation year - ensure you distinguish between actual spent amounts versus planned budgets; some sources may mix FY 2025-26 figures with projections for FY 2026-27."
+      },
+      "upscHighlights": [
+        "⚔️ DEFENCE INTEL, 🇮🇳 INDIA",
+        "🔴 MUST KNOW"
       ],
-      "correct": 0,
-      "explanation": "The Union Cabinet has approved the Defence Budget for FY 2026-27 at ₹7.85 lakh crore, marking a significant increase over previous years. The budget places heavy emphasis on capital expenditure (CapEx) rather than revenue expenditure (RevenEx), reflecting India's 'Atmanirbhar Bharat' defence initiative by prioritizing indigenous defence manufacturing and advanced technology acquisition."
-    }
-  },
-  {
-    "id": "ca-august-2026-007-new",
-    "topic": "National Space Day - 23 August - Chandrayaan-3 Landing Anniversary",
-    "text": "India became the 4th nation to soft-land on Moon and 1st to land near lunar South Pole on 23 August 2023, when Chandrayaan-3's Vikram lander touched down with Pragyan rover.",
-    "details": {
-      "summary": "### 🎯 What Happened\nOn 23 August 2023, ISRO's Chandrayaan-3 mission achieved a historic soft landing on the Moon when the Vikram lander touched down successfully at Shiv Shakti Point near the lunar South Pole. The Pragyan rover subsequently rolled out onto the lunar surface. The mission was launched on 14 July 2023 from Sriharikota. Prime Minister Narendra Modi subsequently declared 23 August as National Space Day to commemorate this achievement. India joined Russia, USA, and China as only the 4th nation to achieve soft landing on the Moon, and the first to land near the lunar South Pole.\n\n### 💡 Why It Matters\nThe Chandrayaan-3 success established India as a major space power with advanced planetary exploration capabilities. The South Pole landing holds strategic importance due to suspected water ice deposits in permanently shadowed craters, which could be crucial for future long-duration space missions and potential human settlements. The mission demonstrated ISRO's capability to execute complex space operations at a fraction of Western mission costs, opening commercial opportunities. It also strengthened India's strategic posture in the global space economy and aligns with the nation's emerging role in space security frameworks.\n\n### 📌 Key Facts\nChandrayaan-3 landed at Shiv Shakti Point in the South Pole region of the Moon on 23 August 2023, making India the first country to achieve a soft landing in this region. The spacecraft comprised Vikram lander and Pragyan rover.\n\n### 🏛️ Static GK Connection\nISRO (Indian Space Research Organisation) headquarters: Bengaluru, Karnataka\nChandrayaan-3 was launched by GSLV Mk III (Bahubali) rocket from Satish Dhawan Space Centre, Sriharikota\nPrevious lunar missions: Chandrayaan-1 (2008) discovered water, Chandrayaan-2 (2019) Vikram lander crash-landed\nIndia's space budget (~₹13,000 crore in 2023-24) is among the lowest for nations with independent launch capabilities\n\n### ⚠️ Exam Trap\nConfusion between Chandrayaan-3 and Chandrayaan-1 — Chandrayaan-1 (2008) was an orbiter mission that discovered water molecules on the Moon; Chandrayaan-3 (2023) was the successful soft-landing mission. Also, Chandrayaan-2's Vikram lander crashed in 2019."
+      "mcq": {
+        "question": "In the Union Defence Budget allocation, what percentage of the capital acquisition (modernisation) budget has been earmarked exclusively for procurement from domestic Indian industry under Aatmanirbhar Bharat?",
+        "options": [
+          "50%",
+          "60%",
+          "75%",
+          "100%"
+        ],
+        "correct": 2,
+        "explanation": "To catalyse domestic defence manufacturing, the Ministry of Defence earmarked 75% of the capital acquisition budget (over ₹1.05 lakh crore) for procurement through domestic sources, with 25% of that reserved for private sector/startups."
+      }
     },
-    "upscHighlights": [
-      "🛰️ SCIENCE & SPACE",
-      "🔴 MUST KNOW"
-    ],
-    "mcq": {
-      "question": "According to the Union Cabinet approval for Defence Budget FY 2026-27, what is the primary focus of the capital expenditure (CapEx) allocation?",
-      "options": [
-        "Indigenous defence manufacturing and advanced technology acquisition",
-        "Operational training and personnel upgrades",
-        "Military pension benefits and welfare schemes",
-        "Border security and coastal defense infrastructure"
+    {
+      "id": "ca-august-2026-003-new",
+      "topic": "Aerospace & Defence | 6th-Gen Fighter Programs",
+      "text": "India is reportedly exploring cooperation with France's sixth-generation fighter program (FCAS/SCAF), while simultaneously developing its indigenous 5.5-gen Advanced Medium Combat Aircraft (AMCA).",
+      "details": {
+        "summary": "### 🎯 What Happened\nRecent reports suggest that India is exploring avenues for cooperation with France regarding sixth-generation fighter jet technology, potentially linking up with the French-led FCAS program. French aerospace major Dassault Aviation and Indian authorities are reportedly in preliminary discussions. However, official statements from both the Ministry of Defence (MoD) and the French government regarding a formal partnership remain absent. Indian officials have clarified that while collaborative 6th-gen pathways are being explored, the nation's immediate focus remains on the indigenous development of the 5.5-generation Advanced Medium Combat Aircraft (AMCA). Currently, any major integration of India's aerospace sector into a foreign 6th-gen consortium remains purely speculative at the policy level.\n\n### 💡 Why It Matters\nThis development holds massive strategic significance for the Indian Air Force (IAF) and indigenous defence manufacturing. First, it highlights the paradigm shift towards 6th-gen capabilities, which will involve artificial intelligence, unmanned teaming (loyal wingmen), and advanced stealth, moving beyond 5th-gen dogfighting. Second, it signals the limits of the current Rafale platform and the urgent need to replace aging fleets like the MiG-21s and Jaguars. Third, cooperation with France on future programs will test the 'Make in India' and 'Atmanirbhar Bharat' (Self-Reliant India) frameworks. Strategically, engaging with European 6th-gen programs provides India with an alternative to US/Russian dependencies, aligning with India's multi-alignment foreign policy and its rising stature as a major global aerospace player.\n\n### 📌 Key Facts\nIndia's indigenous 5th-gen++ (5.5-gen) twin-engine stealth fighter is named the Advanced Medium Combat Aircraft (AMCA), developed by DRDO/ADA under the Make in India initiative.\n\n### 🏛️ Static GK Connection\nThe French 6th-gen program is the FCAS (Future Combat Air System), a joint venture between France, Germany, and Spain (SCAF), primarily led by Dassault Aviation and Airbus.\nIndia's AMCA is a twin-engine, stealth, multi-role 5.5-gen fighter being designed by the Aeronautical Development Agency (ADA) under DRDO.\nDassault Aviation is the manufacturer of the Rafale fighter jets currently operated by the Indian Air Force (IAF).\n\n### ⚠️ Exam Trap\nDo not confuse India's AMCA (5.5-gen, DRDO-led) with the France-Germany-Spain FCAS (Future Combat Air System) or the UK-Italy-Japan GCAP (Global Combat Air Program), which are both true 6th-gen programs involving international consortiums."
+      },
+      "upscHighlights": [
+        "⚔️ DEFENCE INTEL",
+        "🟠 IMPORTANT"
       ],
-      "correct": 0,
-      "explanation": "The budget allocation for FY 2026-27 prioritizes capital expenditure (CapEx) for indigenous defence manufacturing and advanced technology acquisition as part of the 'Atmanirbhar Bharat' initiative. This reflects India's goal to strengthen self-reliance in defence production through massive investments in domestic defence capabilities."
-    }
-  },
-  {
-    "id": "ca-august-2026-008-new",
-    "topic": "India's Forex Reserves Touch $729.33 Billion in August 2026",
-    "text": "India's foreign exchange reserves surged to $729.33 billion in August 2026, driven by growth in Foreign Currency Assets and gold revaluation.",
-    "details": {
-      "summary": "### 🎯 What Happened\nRBI data released in August 2026 showed India's total foreign exchange reserves reaching US$729.33 billion, crossing the $700 billion milestone. The rise was propelled by increased Foreign Currency Assets, appreciation in gold holdings, and net inflows from SDRs and other reserve components, indicating sustained foreign investor confidence.\n\n### 💡 Why It Matters\nReserves above $700 billion strengthen India's external financial stability, provide over 12 months of import cover, and ensure capacity to finance defence imports and manage rupee volatility during geopolitical tensions, making it a key macroeconomic and strategic indicator for defence planners.\n\n### 📌 Key Facts\nFCAs (Foreign Currency Assets) constitute the largest share of India's forex reserves (~$500+ billion), with gold, SDRs, and reserve position making up the rest, reflecting diversified reserve management.\n\n### 🏛️ Static GK Connection\nRBI manages India's forex reserves under FEMA, 1999\nIndia's forex reserves grew from $500 billion in 2022 to $729.33 billion in August 2026\nTypical reserve composition: FCAs ~65%, Gold ~10%, SDRs and Reserve Tranche ~5%\n\n### ⚠️ Exam Trap\nMany aspirants mistakenly attribute forex reserve changes solely to RBI interventions, whereas FCAs are significantly driven by foreign portfolio investment flows and global currency revaluation effects."
+      "mcq": {
+        "question": "Consider the following statements regarding 5th and 6th generation fighter aircraft programmes:\n1. The Future Combat Air System (FCAS) is a European 6th-generation fighter programme involving France (Dassault), Germany, and Spain.\n2. India's indigenous 5.5-generation stealth fighter project is the Advanced Medium Combat Aircraft (AMCA), designed by the Aeronautical Development Agency (ADA).\nWhich of the statements given above is/are correct?",
+        "options": [
+          "1 only",
+          "2 only",
+          "Both 1 and 2",
+          "Neither 1 nor 2"
+        ],
+        "correct": 2,
+        "explanation": "Both statements are correct. FCAS is led by France, Germany, and Spain (distinct from GCAP led by UK, Japan, Italy). India's AMCA is a 25-ton twin-engine stealth aircraft designed by ADA (DRDO) and manufactured by HAL/private consortium."
+      }
     },
-    "upscHighlights": [
-      "Economy",
-      "🔴 MUST KNOW"
-    ],
-    "mcq": {
-      "question": "What is the total outlay of the Union Defence Budget for Fiscal Year 2026-27?",
-      "options": [
-        "₹7.85 lakh crore",
-        "₹9.20 lakh crore",
-        "₹6.50 lakh crore",
-        "₹10.00 lakh crore"
+    {
+      "id": "ca-august-2026-004-new",
+      "topic": "International Relations | West & South Asian Security",
+      "text": "Reports of a trilateral defence pact among Saudi Arabia, Pakistan, and Turkey are circulating; treat as unverified pending official confirmation from all three nations.",
+      "details": {
+        "summary": "### 🎯 What Happened\nReports have emerged of a potential trilateral defence agreement being negotiated among Saudi Arabia, Pakistan, and Türkiye. The discussions reportedly aim to deepen military cooperation, joint production, intelligence sharing, and strategic coordination among the three nations. However, as of the latest available information, no official joint statement or signed agreement has been publicly confirmed by the foreign ministries of all three countries. The reports appear to be based on diplomatic sources and media leaks rather than formal treaty documentation.\n\n### 💡 Why It Matters\nIf formalized, such an agreement would significantly reshape regional security dynamics in the Middle East and Indian Ocean region. It would provide Saudi Arabia with an alternative defence partnership beyond the US, bolster Pakistan's diplomatic and defence outreach, and expand Türkiye's defence diplomacy footprint. Strategically, it could influence balance of power considerations in the context of Iran's regional activities, the Israel-Hamas conflict aftermath, and broader US-China-Russia competition. For UPSC/NDA/AFCAT aspirants, this highlights the evolving nature of defence partnerships beyond traditional alliances.\n\n### 📌 Key Facts\nPakistan maintains long-standing defence cooperation with both Saudi Arabia (BRIDGE programme, artillery ammunition production) and Türkiye (JF-17 Thunder co-development, MILGEM warship project, defence hardware exports).\n\n### 🏛️ Static GK Connection\nPakistan-Saudi Arabia Strategic Mutual Defence Agreement (SMDA) — September 2024, signed during PM Shehbaz Sharif's visit to Saudi Arabia\nPakistan-Türkiye Defence Cooperation — JF-17 Thunder programme (co-developed with China), MILGEM corvette project for Pakistan Navy\nSaudi Arabia's Vision 2030 defence diversification — reducing dependence on US arms imports\nTürkiye's defence exports — ranked among top global arms exporters, with clients including Pakistan, Qatar, Ukraine, and multiple African nations\nNATO membership of Türkiye — Article 5 obligations do not extend to non-NATO partners like Saudi Arabia or Pakistan\nChina's role in Pakistan-Saudi defence ties — JF-17 co-development adds a third-party strategic dimension\n\n### ⚠️ Exam Trap\nDo not confuse this with the existing Saudi-Pakistani Strategic Mutual Defence Agreement (SMDA) signed in September 2024, nor with NATO obligations — Türkiye's NATO membership does not automatically extend to Saudi Arabia or Pakistan."
+      },
+      "upscHighlights": [
+        "🌍 STRATEGIC WORLD",
+        "🟠 IMPORTANT"
       ],
-      "correct": 0,
-      "explanation": "The Union Cabinet has approved the Defence Budget for Fiscal Year 2026-27 at ₹7.85 lakh crore, representing a significant increase over previous years. This substantial allocation emphasizes a shift towards capital expenditure (CapEx) rather than revenue expenditure (RevenEx), aiming to strengthen India's self-reliance in defence production under the 'Atmanirbhar Bharat' programme."
-    }
-  },
-  {
-    "id": "ca-august-2026-009-new",
-    "topic": "August 2026 Economic Risks: Global Bond Yields, Inflation, Energy Prices & El Niño Impact",
-    "text": "August 2026 presents acute economic risks from rising global bond yields, persistent inflation, volatile energy prices, and potential El Niño climate disruptions.",
-    "details": {
-      "summary": "### 🎯 What Happened\nIn August 2026, global financial systems face compounded pressure as central banks maintain restrictive monetary policies despite easing expectations, energy markets remain tight due to ongoing geopolitical supply constraints, inflation remains above target ranges in major economies, and meteorological models project El Niño development that threatens agricultural output and energy demand globally.\n\n### 💡 Why It Matters\nThese interconnected risks pose direct threats to India's economic stability through increased import costs, foreign exchange strain, and defense expenditure pressures. Effective management requires coordinated fiscal-monetary policy and strategic resource allocation to safeguard national resilience.\n\n### 📌 Key Facts\nEl Niño onset in mid-2026 could increase global food price volatility by up to 15% due to disrupted Asian monsoon patterns.\n\n### 🏛️ Static GK Connection\nIndia's external debt-to-GDP ratio stands at approximately 70% (2025) with rising vulnerability to global rate hikes\nIMF World Economic Outlook 2026 projects regional growth slowdown in emerging markets due to commodity price volatility\nGlobal bond yields are projected to exceed 4% range as central banks maintain elevated policy rates\nUNEP reports link extreme weather events like El Niño to increased insurance premiums and infrastructure damage costs\n\n### ⚠️ Exam Trap\nConfusing El Niño with La Niña dynamics - while both are ENSO phases, only El Niño causes drought-prone conditions in South Asia and flood-prone conditions in Southeast Asia, requiring distinct policy responses."
+      "mcq": {
+        "question": "Which bilateral military exercises does India conduct with Saudi Arabia to strengthen defence diplomacy in the Gulf region?",
+        "options": [
+          "Sada Tanseeq (Army) and Al-Mohed Al-Hindi (Navy)",
+          "Al Najah (Army) and Naseem Al Bahr (Navy)",
+          "Desert Cyclone (Army) and Zayed Talwar (Navy)",
+          "Cyclone (Special Forces) and Bright Star (Tri-Service)"
+        ],
+        "correct": 0,
+        "explanation": "India and Saudi Arabia conduct Exercise Sada Tanseeq (Army) and Exercise Al-Mohed Al-Hindi (Navy). Al Najah/Naseem Al Bahr are with Oman; Desert Cyclone/Zayed Talwar are with UAE; Cyclone is with Egypt."
+      }
     },
-    "upscHighlights": [
-      "ECONOMY",
-      "🟠 IMPORTANT"
-    ],
-    "mcq": {
-      "question": "Consider the following statements about India's potential cooperation with France on sixth-generation fighter technology:\n1. India has signed a formal agreement with Dassault Aviation to co-develop a 6th-gen fighter under the FCAS program.\n2. India's immediate focus remains on the indigenous development of the 5.5-generation Advanced Medium Combat Aircraft (AMCA).\nWhich of the statements given above is/are correct?",
-      "options": [
-        "1 only",
-        "2 only",
-        "Both 1 and 2",
-        "Neither 1 nor 2"
+    {
+      "id": "ca-august-2026-005-new",
+      "topic": "National Affairs | Independence Day & Viksit Bharat",
+      "text": "India celebrates its 80th Independence Day on 15 August 2026, commemorating 80 years since independence on 15 August 1947.",
+      "details": {
+        "summary": "### 🎯 What Happened\nIndia will celebrate its 80th Independence Day on 15 August 2026 with the Prime Minister unfurling the national flag at the historic Red Fort in New Delhi and delivering a televised address to the nation. The occasion marks eight decades since the end of British colonial rule in 1947. The event features a ceremonial guard of honour by the armed forces, parades, cultural performances from states and union territories, and displays by military contingents. Speeches typically highlight national achievements, governance reforms, economic milestones, security updates, and the vision for the coming decades, including the lead-up to India@100 in 2047.\n\n### 💡 Why It Matters\nThe 80th Independence Day carries strong symbolic weight in India's national narrative, bridging the milestone of 75 years (Azadi Ka Amrit Mahotsav, 2021–2022) with the Amrit Kaal vision for 2047. For defence aspirants, the address is a key platform where the PM outlines internal and external security policies, defence modernisation progress, self-reliance (Aatmanirbharta) in defence manufacturing, and updates on the armed forces. Historically, Independence Day addresses from the Red Fort have set the tone for upcoming Republic Day themes, defence budgets, and major strategic announcements — making the speech content a high-yield area for CDS, NDA, and AFCAT current affairs.\n\n### 📌 Key Facts\nIndia became independent on 15 August 1947; the Constitution of India came into force on 26 January 1950, making 2026 the 77th Republic Day year and the year of the 80th Independence Day.\n\n### 🏛️ Static GK Connection\nThe Red Fort (Lal Qila) was built by Mughal Emperor Shah Jahan in 1638–1648 and is a UNESCO World Heritage Site since 2007.\nIndia's first Prime Minister Jawaharlal Nehru delivered the first Independence Day speech from the Red Fort on 15 August 1947.\nThe Prime Minister hoists the National Flag (Tiranga) and the National Anthem 'Jana Gana Mana' (written by Rabindranath Tagore, 1911) is played, followed by a 21-gun salute.\n\n### ⚠️ Exam Trap\nConfusing Independence Day (15 August 1947) with Republic Day (26 January 1950) — India's independence preceded its republic status by over two years."
+      },
+      "upscHighlights": [
+        "🇮🇳 INDIA",
+        "🔴 MUST KNOW"
       ],
-      "correct": 1,
-      "explanation": "No formal agreement has been signed; discussions are preliminary. India's current priority is the indigenous AMCA program, a 5.5-gen stealth fighter."
-    }
-  },
-  {
-    "id": "ca-august-2026-010-new",
-    "topic": "Arunachal Pradesh Gets First Ramsar Site Designation",
-    "text": "Arunachal Pradesh secured its first Ramsar site tag in Aug 2026 with the designation of high-altitude Sangetsar Tso (Madhuri Lake), becoming the last Northeastern state to join the Ramsar list.",
-    "details": {
-      "summary": "### 🎯 What Happened\nIn August 2026, the Ministry of Environment, Forest and Climate Change (MoEFCC) announced the designation of Sangetsar Tso (popularly known as Madhuri Lake) in Tawang district as a Wetland of International Importance under the Ramsar Convention. This marks the first Ramsar site for Arunachal Pradesh. The lake, formed after a major earthquake in 1950 blocked the flow of the Nyamjang Chu river, is a critical high-altitude wetland ecosystem. The designation follows the submission of the Ramsar Information Sheet (RIS) highlighting its hydrological, ecological, and cultural significance.\n\n### 💡 Why It Matters\nStrategically, this strengthens India's commitment to the Convention on Wetlands (Ramsar, 1971) and the National Wetland Conservation Programme. Ecologically, Sangetsar Tso acts as a vital water reservoir for the Nyamjang Chu (tributary of Manas/Brahmaputra), supports endemic high-altitude flora/fauna (Black-necked Crane habitat), and regulates micro-climate in the fragile Eastern Himalayas. Geopolitically, it reinforces India's sovereign presence and environmental governance in the sensitive Tawang sector bordering China. It completes the Ramsar coverage for all 8 Northeastern states.\n\n### 📌 Key Facts\nSangetsar Tso (Madhuri Lake) at ~3,708m is a glacial lake formed by the 1950 Assam earthquake; its designation takes India's total Ramsar sites to 85+ (as of Aug 2026).\n\n### 🏛️ Static GK Connection\nRamsar Convention: Signed 1971, Iran; Came into force 1975. Aim: Wise use of wetlands. Montreux Record lists sites with adverse ecological changes.\nIndia joined Ramsar Convention: 1982. First sites: Chilika Lake (Odisha) & Keoladeo National Park (Rajasthan).\nHigh Altitude Wetlands in India: Tso Moriri, Pangong Tso (Ladakh), Tsomgo (Sikkim), Chandertal (HP), Surinsar-Mansar (J&K).\nBlack-necked Crane (Grus nigricollis): IUCN Status - Near Threatened; Schedule I (WPA 1972); Breeds in Ladakh/Arunachal high-altitude wetlands.\n\n### ⚠️ Exam Trap\nDo not confuse Sangetsar Tso (Arunachal) with Tsomgo Lake (Sikkim) or Pangong Tso (Ladakh). Arunachal was the *last* NE state to get a Ramsar site (others: Deepor Beel-Assam, Loktak-Manipur, Rudrasagar-Tripura, Palak-Mizoram, Nokrek-Meghalaya)."
+      "mcq": {
+        "question": "What was the official overarching theme of India's Independence Day celebrations on 15 August, outlining the roadmap for the centenary of independence?",
+        "options": [
+          "Azadi Ka Amrit Mahotsav",
+          "Viksit Bharat @ 2047",
+          "Atmanirbhar Bharat Abhiyan",
+          "Ek Bharat Shreshtha Bharat"
+        ],
+        "correct": 1,
+        "explanation": "The overarching theme is \"Viksit Bharat @ 2047\", envisioning India's transformation into a fully developed nation by the 100th anniversary of independence in 2047."
+      }
     },
-    "upscHighlights": [
-      "Environment & Geography",
-      "🔴 MUST KNOW"
-    ],
-    "mcq": {
-      "question": "What is the name of India's indigenous 5.5-generation twin-engine stealth fighter under development by DRDO/ADA?",
-      "options": [
-        "Tejas MkII",
-        "AMCA",
-        "HAL HF-24 Marut",
-        "Mirage 2000 Upgrade"
+    {
+      "id": "ca-august-2026-006-new",
+      "topic": "Geopolitics & Border Security | Arunachal Pradesh",
+      "text": "India firmly rejects China's 4th list of 'standardised names' (30 locations) for Arunachal Pradesh (Zangnan), asserting the state is an integral part of India based on the 1914 McMahon Line.",
+      "details": {
+        "summary": "### 🎯 What Happened\nIn the context of ongoing border tensions since 2020, China's Ministry of Civil Affairs released its 4th list of 'standardised geographical names' for 'Zangnan' (South Tibet/Arunachal Pradesh) in March 2024, assigning Chinese characters, Tibetan, and Roman alphabet names to 30 locations. This is a cognitive warfare tactic to bolster territorial claims. Simultaneously, India has accelerated border infrastructure: operationalising the Sela Tunnel (world's longest bi-lane tunnel >13,000 ft), advancing the Frontier Highway (NH-913) along the LAC, and deploying advanced surveillance (UAVs, radars) and M777 howitzers. The 2026 strategic focus remains on 'Dual-Use' infrastructure and 'Vibrant Villages Programme' (VVP) to prevent border village depopulation.\n\n### 💡 Why It Matters\nArunachal Pradesh is the strategic anchor of India's Eastern Theatre Command. Control over the McMahon Line watershed (Himalayan crest) denies China oversight of the Brahmaputra valley (Assam plains) and protects the 'Chicken's Neck' (Siliguri Corridor) linkage to Northeast. The naming dispute is a 'Grey Zone' tactic to create a legal/administrative record for future ICJ/ICJ-equivalent claims. India's counter-measure—physical infrastructure, administrative presence (new districts like Bichom, Keyi Panyor), and VVP—establishes 'effective control' (uti possidetis juris), the strongest title in international law.\n\n### 📌 Key Facts\nChina's 4th list (March 2024) contained 30 names (11 residential, 12 mountains, 4 rivers, 1 lake, 1 mountain pass, 1 piece of land); India's MEA rejected it stating 'invented names' do not alter reality. The 1st list (2017) had 6 names, 2nd (2021) had 15, 3rd (2023) had 11.\n\n### 🏛️ Static GK Connection\nSimla Convention (1914): Signed by British India, Tibet, China (initialled by Ivan Chen but not ratified). Defined 'Outer Tibet' autonomy and McMahon Line.\nArticle 1 of Constitution: 'India, that is Bharat, shall be a Union of States' — Arunachal Pradesh became 24th State in 1987 (55th Amendment Act, 1986).\nStrategic Projects: Sela Tunnel (BRO, Project Vartak), Frontier Highway (NH-913, ~1800 km), Trans-Arunachal Highway, Vibrant Villages Programme (VVP) launched 2023 for 2967 border villages (455 in Arunachal).\nMajor Tribes: Monpa, Adi, Nyishi, Apatani, Galo — cultural affinity with India/Tibet, not Han China.\n\n### ⚠️ Exam Trap\nDo not confuse the McMahon Line (1914 Simla Convention - Eastern Sector boundary) with the Johnson Line/Ardagh-Johnson Line (Western Sector/Aksai Chin) or the LAC (Line of Actual Control - ceasefire line 1962). China accepts McMahon Line tacitly in Myanmar border but rejects it for India."
+      },
+      "upscHighlights": [
+        "🇮🇳 INDIA",
+        "🔴 MUST KNOW"
       ],
-      "correct": 1,
-      "explanation": "The Advanced Medium Combat Aircraft (AMCA) is India's indigenous 5.5-generation twin-engine stealth fighter being developed by DRDO's Aeronautical Development Agency (ADA) under the Make in India initiative."
-    }
-  },
-  {
-    "id": "ca-august-2026-011-new",
-    "topic": "India-Japan Special Strategic and Global Partnership, Indo-Pacific Cooperation & QUAD",
-    "text": "India and Japan anchor the Indo-Pacific order through their Special Strategic and Global Partnership and QUAD membership, countering Chinese assertiveness and ensuring a Free and Open Indo-Pacific.",
-    "details": {
-      "summary": "### 🎯 What Happened\nIndia and Japan have deepened their Special Strategic and Global Partnership through regular summit-level engagements, the India-Japan 2+2 Dialogue (Foreign and Defence Ministers), and cooperation on maritime security, critical technologies, and infrastructure. Japan continues to be a pivotal partner in India's Act East Policy. The QUAD grouping (India, Japan, USA, Australia) has held multiple Leaders' Summits focusing on a rules-based Indo-Pacific order, maritime domain awareness, vaccine supply chains (Quad Vaccine Partnership), and emerging technology cooperation. Both nations view China's aggressive posturing in the South China Sea and Indo-Pacific as a shared strategic challenge. Japan's flagship Mumbai-Ahmedabad High-Speed Rail (Bullet Train) project using Japanese Shinkansen technology symbolizes this partnership. Recent developments include enhanced defense technology transfers, joint maritime exercises (JIMEX, MALABAR), and cooperation on semiconductor supply chains and clean energy.\n\n### 💡 Why It Matters\nThe India-Japan partnership and QUAD are strategically critical because they represent the primary institutional counterbalance to China's expansionist ambitions in the Indo-Pacific. For India, Japan is the only major power with whom it has a Special Strategic and Global Partnership that spans defense, technology, and infrastructure without the baggage of alliance politics. Japan provides India with advanced defense technology, capital investment, and diplomatic support in multilateral forums. The QUAD ensures freedom of navigation, upholds UNCLOS principles, and promotes a rules-based order in the world's most strategically contested maritime region. For defence aspirants, understanding this partnership is essential as it directly relates to India's national security doctrine, its neighborhood strategy, and the geopolitical architecture of the 21st century.\n\n### 📌 Key Facts\nIndia-Japan Special Strategic and Global Partnership was elevated in 2014; both nations are core QUAD members (with USA and Australia) and Japan's Free and Open Indo-Pacific (FOIP) vision synergizes with India's Indo-Pacific Oceans Initiative (IPOI) launched by PM Modi in 2019.\n\n### 🏛️ Static GK Connection\nQUAD members: India, Japan, USA, Australia — first conceptualized in 2007 by Shinzo Abe, revived in 2017, first Leaders' Summit in 2021.\nIndia-Japan 2+2 Dialogue: First held in 2019; involves External Affairs Minister and Defence Minister of both nations.\nJapan's FOIP (Free and Open Indo-Pacific) launched in 2016; India's IPOI (Indo-Pacific Oceans Initiative) launched by PM Modi at East Asia Summit 2019 — complementary frameworks.\nMumbai-Ahmedabad High-Speed Rail (MAHSR): India-Japan flagship project using Japanese Shinkansen E5 technology, funded ~80% by Japan via soft loan.\nJIMEX (Japan-India Maritime Exercise): Bilateral naval exercise; MALABAR is QUAD multilateral naval exercise.\nIndia is Japan's largest trading partner in South Asia; Japan is the 5th largest investor in India.\nAct East Policy (India) and Free and Open Indo-Pacific (Japan) are strategic pillars connecting Southeast Asia and the broader Indo-Pacific.\n\n### ⚠️ Exam Trap\nDo NOT confuse QUAD with AUKUS — QUAD is India, Japan, USA, and Australia (focused on Indo-Pacific maritime security and diplomacy), while AUKUS is Australia, UK, and USA (focused on nuclear submarine technology sharing). Also, Japan's FOIP is NOT the same as India's IPOI — they are complementary but distinct frameworks."
+      "mcq": {
+        "question": "Consider the following statements regarding India's border infrastructure and the McMahon Line:\n1. The McMahon Line was negotiated during the 1914 Simla Convention between British India and Tibet, demarcating the boundary in the Eastern Sector (Arunachal Pradesh).\n2. The Sela Tunnel, constructed by the Border Roads Organisation (BRO) under Project Vartak at over 13,000 feet, provides all-weather connectivity to Tawang in Arunachal Pradesh.\nWhich of the statements given above is/are correct?",
+        "options": [
+          "1 only",
+          "2 only",
+          "Both 1 and 2",
+          "Neither 1 nor 2"
+        ],
+        "correct": 2,
+        "explanation": "Both statements are correct. India firmly rejects unilateral Chinese attempts to rename places in Arunachal Pradesh and has bolstered border connectivity through the Sela Tunnel (Project Vartak) and the Vibrant Villages Programme."
+      }
     },
-    "upscHighlights": [
-      "🌍 STRATEGIC WORLD",
-      "🔴 MUST KNOW"
-    ],
-    "mcq": {
-      "question": "Which European aerospace company is reportedly in preliminary discussions with India for cooperation on sixth-generation fighter technology?",
-      "options": [
-        "Airbus Defence and Space",
-        "Saab",
-        "Dassault Aviation",
-        "Leonardo"
+    {
+      "id": "ca-august-2026-007-new",
+      "topic": "Space & Science | National Space Day (August 23)",
+      "text": "India became the 4th nation to soft-land on Moon and 1st to land near lunar South Pole on 23 August 2023, when Chandrayaan-3's Vikram lander touched down with Pragyan rover.",
+      "details": {
+        "summary": "### 🎯 What Happened\nOn 23 August 2023, ISRO's Chandrayaan-3 mission achieved a historic soft landing on the Moon when the Vikram lander touched down successfully at Shiv Shakti Point near the lunar South Pole. The Pragyan rover subsequently rolled out onto the lunar surface. The mission was launched on 14 July 2023 from Sriharikota. Prime Minister Narendra Modi subsequently declared 23 August as National Space Day to commemorate this achievement. India joined Russia, USA, and China as only the 4th nation to achieve soft landing on the Moon, and the first to land near the lunar South Pole.\n\n### 💡 Why It Matters\nThe Chandrayaan-3 success established India as a major space power with advanced planetary exploration capabilities. The South Pole landing holds strategic importance due to suspected water ice deposits in permanently shadowed craters, which could be crucial for future long-duration space missions and potential human settlements. The mission demonstrated ISRO's capability to execute complex space operations at a fraction of Western mission costs, opening commercial opportunities. It also strengthened India's strategic posture in the global space economy and aligns with the nation's emerging role in space security frameworks.\n\n### 📌 Key Facts\nChandrayaan-3 landed at Shiv Shakti Point in the South Pole region of the Moon on 23 August 2023, making India the first country to achieve a soft landing in this region. The spacecraft comprised Vikram lander and Pragyan rover.\n\n### 🏛️ Static GK Connection\nISRO (Indian Space Research Organisation) headquarters: Bengaluru, Karnataka\nChandrayaan-3 was launched by GSLV Mk III (Bahubali) rocket from Satish Dhawan Space Centre, Sriharikota\nPrevious lunar missions: Chandrayaan-1 (2008) discovered water, Chandrayaan-2 (2019) Vikram lander crash-landed\nIndia's space budget (~₹13,000 crore in 2023-24) is among the lowest for nations with independent launch capabilities\n\n### ⚠️ Exam Trap\nConfusion between Chandrayaan-3 and Chandrayaan-1 — Chandrayaan-1 (2008) was an orbiter mission that discovered water molecules on the Moon; Chandrayaan-3 (2023) was the successful soft-landing mission. Also, Chandrayaan-2's Vikram lander crashed in 2019."
+      },
+      "upscHighlights": [
+        "🛰️ SCIENCE & SPACE",
+        "🔴 MUST KNOW"
       ],
-      "correct": 2,
-      "explanation": "French aerospace major Dassault Aviation is reported to be in preliminary talks with Indian authorities regarding potential cooperation on sixth-generation fighter technology linked to the FCAS program."
-    }
-  },
-  {
-    "id": "ca-august-2026-012-new",
-    "topic": "CWG 2026 Commonwealth Games – Victoria, Australia",
-    "text": "CWG 2026 held in Victoria, Australia from March 17-29, 2026 featuring 23 disciplines across regional venues.",
-    "details": {
-      "summary": "### 🎯 What Happened\nThe 2026 Commonwealth Games were successfully held in Victoria, Australia from March 17-29, 2026. This edition was uniquely structured with events distributed across six regional hubs: Melbourne, Geelong, Bendigo, Ballarat, Traralgon, and Gippsland. The games featured 23 sports, with several new additions including women's rugby sevens and para powerlifting. India participated with a large contingent of athletes across multiple disciplines. The event faced initial planning challenges and budget concerns but concluded successfully with full participation from 74 Commonwealth nations and territories.\n\n### 💡 Why It Matters\nFor Indian defence aspirants and UPSC candidates, CWG 2026 is significant because it reflects India's growing stature in international multi-sport events. India's performance demonstrates the country's sporting ecosystem development, which has direct implications for national prestige and soft power. The games also highlighted Australia's regional infrastructure development model, relevant for understanding federal-state coordination in hosting major events.\n\n### 📌 Key Facts\nCWG 2026 is the first edition where the games are hosted across multiple regional cities in Victoria rather than a single metropolitan center, with Geelong, Bendigo, Ballarat, and Traralgon sharing venues.\n\n### 🏛️ Static GK Connection\nIndia has been a consistent top-5 performer at Commonwealth Games since CWG 2010 Delhi\nCommonwealth Games Federation (CGF) headquarters is in London\nAustralia has hosted CWG twice before: 1938 (Sydney) and 1982 (Brisbane)\n\n### ⚠️ Exam Trap\nCWG 2026 was NOT held in Birmingham (which hosted CWG 2022). Victoria, Australia won the hosting rights after Edmonton, Canada withdrew."
+      "mcq": {
+        "question": "National Space Day is celebrated annually in India on August 23 to commemorate the soft landing of Chandrayaan-3. What are the official names given to the Chandrayaan-3 landing site and the Chandrayaan-2 crash site on the Moon?",
+        "options": [
+          "Shiv Shakti Point (Chandrayaan-3) and Tiranga Point (Chandrayaan-2)",
+          "Vikram Point (Chandrayaan-3) and Jawahar Point (Chandrayaan-2)",
+          "Kalam Point (Chandrayaan-3) and Sarabhai Point (Chandrayaan-2)",
+          "Aryabhata Point (Chandrayaan-3) and Somनाथ Point (Chandrayaan-2)"
+        ],
+        "correct": 0,
+        "explanation": "The Chandrayaan-3 Vikram lander touchdown site (69.37°S, 32.32°E) was named \"Shiv Shakti Point\", the Chandrayaan-2 footprint site was named \"Tiranga Point\", and the Chandrayaan-1 impact probe site (2008) is \"Jawahar Point\"."
+      }
     },
-    "upscHighlights": [
-      "🏅 SPORTS",
-      "🟠 IMPORTANT"
-    ],
-    "mcq": {
-      "question": "Regarding the trilateral defence agreement between Saudi Arabia, Pakistan, and Türkiye, which of the following statements is correct?",
-      "options": [
-        "An official joint statement and signed agreement have been publicly confirmed by all three countries' foreign ministries.",
-        "The agreement aims primarily at intelligence sharing without military cooperation components.",
-        "The negotiations focus solely on strategic coordination without any joint production elements.",
-        "The agreement was signed during the August 2026 summit meetings."
+    {
+      "id": "ca-august-2026-008-new",
+      "topic": "Economy & Finance | India's Forex Reserves",
+      "text": "India's foreign exchange reserves surged to $729.33 billion in August 2026, driven by growth in Foreign Currency Assets and gold revaluation.",
+      "details": {
+        "summary": "### 🎯 What Happened\nRBI data released in August 2026 showed India's total foreign exchange reserves reaching US$729.33 billion, crossing the $700 billion milestone. The rise was propelled by increased Foreign Currency Assets, appreciation in gold holdings, and net inflows from SDRs and other reserve components, indicating sustained foreign investor confidence.\n\n### 💡 Why It Matters\nReserves above $700 billion strengthen India's external financial stability, provide over 12 months of import cover, and ensure capacity to finance defence imports and manage rupee volatility during geopolitical tensions, making it a key macroeconomic and strategic indicator for defence planners.\n\n### 📌 Key Facts\nFCAs (Foreign Currency Assets) constitute the largest share of India's forex reserves (~$500+ billion), with gold, SDRs, and reserve position making up the rest, reflecting diversified reserve management.\n\n### 🏛️ Static GK Connection\nRBI manages India's forex reserves under FEMA, 1999\nIndia's forex reserves grew from $500 billion in 2022 to $729.33 billion in August 2026\nTypical reserve composition: FCAs ~65%, Gold ~10%, SDRs and Reserve Tranche ~5%\n\n### ⚠️ Exam Trap\nMany aspirants mistakenly attribute forex reserve changes solely to RBI interventions, whereas FCAs are significantly driven by foreign portfolio investment flows and global currency revaluation effects."
+      },
+      "upscHighlights": [
+        "Economy",
+        "🔴 MUST KNOW"
       ],
-      "correct": 0,
-      "explanation": "According to the provided information, no official joint statement or signed agreement has been publicly confirmed by the foreign ministries of all three countries. The reports are based on diplomatic sources and media leaks rather than formal treaty documentation."
-    }
-  },
-  {
-    "id": "ca-august-2026-013-new",
-    "topic": "Major awards received by Indian personalities in August 2026",
-    "text": "No major civilian or defence awards announced for Indian personalities in August 2026 as per verified records; aspirants should monitor official PIB/UPSC notifications.",
-    "details": {
-      "summary": "### 🎯 What Happened\nAs of verified sources and the current knowledge cutoff, no major civilian gallantry, Padma, or defence awards have been officially announced for Indian personalities in August 2026. The month does not feature in the standard calendar of major Indian national awards, which are predominantly announced in January (Padma Vibhushan/Bhushan) or on Republic Day (gallantry awards).\n\n### 💡 Why It Matters\nIn UPSC competitive exams, the temporal pattern of award announcements is a common elimination tool. Knowing that August typically has no major award notifications helps aspirants quickly rule out implausible options in MCQs on honours. It also underscores the importance of monitoring official Press Information Bureau (PIB) releases and Ministry notifications for current affairs accuracy.\n\n### 📌 Key Facts\nUPSC CDS/NDA/AFCAT current affairs frequently test the month of award announcements; August typically lacks major national award ceremonies, unlike Republic Day (Gallantry/Padma) or Independence Day special mentions.\n\n### 🏛️ Static GK Connection\nPadma Vibhushan/Padma Bhushan awards announced on Republic Day (January 26)\nGallantry awards (Param Vir Chakra, Maha Vir Chakra, Vir Chakra) announced on Republic Day\nBharat Ratna announced occasionally, typically via January notifications\nNational SME/MSME Awards and sectoral honours sometimes announced in August by the Ministry of Commerce/Industry, but not at the national civilian level\n\n### ⚠️ Exam Trap\nHallucinating specific award recipients or names for August 2026; always verify from official gazettes, as MCQs may test elimination based on announcement months."
+      "mcq": {
+        "question": "Which of the following are the four official components of India's Foreign Exchange (Forex) Reserves managed by the Reserve Bank of India (RBI)?",
+        "options": [
+          "Foreign Currency Assets (FCA), Gold Reserves, Special Drawing Rights (SDRs), and Reserve Tranche Position (RTP) in the IMF",
+          "Foreign Currency Assets, Sovereign Gold Bonds, World Bank Loans, and External Commercial Borrowings",
+          "US Treasury Bonds, Domestic Rupee Reserves, Asian Development Bank Quotas, and Gold",
+          "FDI Inflows, FPI Inflows, NRI Remittances, and Merchandise Export Earnings"
+        ],
+        "correct": 0,
+        "explanation": "India's Forex Reserves comprise four components: (1) Foreign Currency Assets (FCA — largest share), (2) Gold Reserves held by RBI, (3) Special Drawing Rights (SDRs), and (4) Reserve Tranche Position (RTP) with the International Monetary Fund."
+      }
     },
-    "upscHighlights": [
-      "AWARDS & HONOURS",
-      "🟠 IMPORTANT"
-    ],
-    "mcq": {
-      "question": "Which of the following programmes represents Pakistan's defence cooperation with Saudi Arabia?",
-      "options": [
-        "JF-17 Thunder co-development",
-        "MILGEM warship project",
-        "BRIDGE programme for artillery ammunition production",
-        "None of the above"
+    {
+      "id": "ca-august-2026-009-new",
+      "topic": "Economy & Climatology | Global Bond Yields & ENSO",
+      "text": "August 2026 presents acute economic risks from rising global bond yields, persistent inflation, volatile energy prices, and potential El Niño climate disruptions.",
+      "details": {
+        "summary": "### 🎯 What Happened\nIn August 2026, global financial systems face compounded pressure as central banks maintain restrictive monetary policies despite easing expectations, energy markets remain tight due to ongoing geopolitical supply constraints, inflation remains above target ranges in major economies, and meteorological models project El Niño development that threatens agricultural output and energy demand globally.\n\n### 💡 Why It Matters\nThese interconnected risks pose direct threats to India's economic stability through increased import costs, foreign exchange strain, and defense expenditure pressures. Effective management requires coordinated fiscal-monetary policy and strategic resource allocation to safeguard national resilience.\n\n### 📌 Key Facts\nEl Niño onset in mid-2026 could increase global food price volatility by up to 15% due to disrupted Asian monsoon patterns.\n\n### 🏛️ Static GK Connection\nIndia's external debt-to-GDP ratio stands at approximately 70% (2025) with rising vulnerability to global rate hikes\nIMF World Economic Outlook 2026 projects regional growth slowdown in emerging markets due to commodity price volatility\nGlobal bond yields are projected to exceed 4% range as central banks maintain elevated policy rates\nUNEP reports link extreme weather events like El Niño to increased insurance premiums and infrastructure damage costs\n\n### ⚠️ Exam Trap\nConfusing El Niño with La Niña dynamics - while both are ENSO phases, only El Niño causes drought-prone conditions in South Asia and flood-prone conditions in Southeast Asia, requiring distinct policy responses."
+      },
+      "upscHighlights": [
+        "ECONOMY",
+        "🟠 IMPORTANT"
       ],
-      "correct": 2,
-      "explanation": "The text explicitly states that Pakistan maintains long-standing defence cooperation with Saudi Arabia through the BRIDGE programme, which focuses on artillery ammunition production. The JF-17 Thunder and MILGEM projects are associated with Türkiye, not Saudi Arabia."
+      "mcq": {
+        "question": "In the context of macroeconomics and monsoon dynamics, which of the following statements is correct?",
+        "options": [
+          "Bond prices and bond yields move in the same direction, and El Niño strengthens the Indian South-West Monsoon.",
+          "Bond prices and bond yields move inversely, and a positive Indian Ocean Dipole (IOD) helps counteract the rainfall-suppressing effect of El Niño.",
+          "Rising US Treasury yields lead to massive Foreign Portfolio Investment (FPI) inflows into emerging markets like India.",
+          "La Niña refers to the anomalous warming of sea surface temperatures in the central and eastern equatorial Pacific Ocean."
+        ],
+        "correct": 1,
+        "explanation": "Bond prices and bond yields have an inverse relationship. Furthermore, while El Niño (warming of eastern Pacific) generally weakens the Indian monsoon, a Positive Indian Ocean Dipole (warmer western Indian Ocean near Africa/Arabian Sea) enhances monsoon rainfall."
+      }
+    },
+    {
+      "id": "ca-august-2026-010-new",
+      "topic": "Environment & Ecology | Ramsar Wetlands",
+      "text": "Arunachal Pradesh secured its first Ramsar site tag in Aug 2026 with the designation of high-altitude Sangetsar Tso (Madhuri Lake), becoming the last Northeastern state to join the Ramsar list.",
+      "details": {
+        "summary": "### 🎯 What Happened\nIn August 2026, the Ministry of Environment, Forest and Climate Change (MoEFCC) announced the designation of Sangetsar Tso (popularly known as Madhuri Lake) in Tawang district as a Wetland of International Importance under the Ramsar Convention. This marks the first Ramsar site for Arunachal Pradesh. The lake, formed after a major earthquake in 1950 blocked the flow of the Nyamjang Chu river, is a critical high-altitude wetland ecosystem. The designation follows the submission of the Ramsar Information Sheet (RIS) highlighting its hydrological, ecological, and cultural significance.\n\n### 💡 Why It Matters\nStrategically, this strengthens India's commitment to the Convention on Wetlands (Ramsar, 1971) and the National Wetland Conservation Programme. Ecologically, Sangetsar Tso acts as a vital water reservoir for the Nyamjang Chu (tributary of Manas/Brahmaputra), supports endemic high-altitude flora/fauna (Black-necked Crane habitat), and regulates micro-climate in the fragile Eastern Himalayas. Geopolitically, it reinforces India's sovereign presence and environmental governance in the sensitive Tawang sector bordering China. It completes the Ramsar coverage for all 8 Northeastern states.\n\n### 📌 Key Facts\nSangetsar Tso (Madhuri Lake) at ~3,708m is a glacial lake formed by the 1950 Assam earthquake; its designation takes India's total Ramsar sites to 85+ (as of Aug 2026).\n\n### 🏛️ Static GK Connection\nRamsar Convention: Signed 1971, Iran; Came into force 1975. Aim: Wise use of wetlands. Montreux Record lists sites with adverse ecological changes.\nIndia joined Ramsar Convention: 1982. First sites: Chilika Lake (Odisha) & Keoladeo National Park (Rajasthan).\nHigh Altitude Wetlands in India: Tso Moriri, Pangong Tso (Ladakh), Tsomgo (Sikkim), Chandertal (HP), Surinsar-Mansar (J&K).\nBlack-necked Crane (Grus nigricollis): IUCN Status - Near Threatened; Schedule I (WPA 1972); Breeds in Ladakh/Arunachal high-altitude wetlands.\n\n### ⚠️ Exam Trap\nDo not confuse Sangetsar Tso (Arunachal) with Tsomgo Lake (Sikkim) or Pangong Tso (Ladakh). Arunachal was the *last* NE state to get a Ramsar site (others: Deepor Beel-Assam, Loktak-Manipur, Rudrasagar-Tripura, Palak-Mizoram, Nokrek-Meghalaya)."
+      },
+      "upscHighlights": [
+        "Environment & Geography",
+        "🔴 MUST KNOW"
+      ],
+      "mcq": {
+        "question": "In August 2026, India expanded its network of Ramsar Wetlands of International Importance ahead of Independence Day by adding which three sites (in Tamil Nadu and Madhya Pradesh)?",
+        "options": [
+          "Nanjarayan Bird Sanctuary (TN), Kazhuveli Bird Sanctuary (TN), and Tawa Reservoir (MP)",
+          "Chilika Lake (Odisha), Keoladeo National Park (Rajasthan), and Loktak Lake (Manipur)",
+          "Lonar Lake (Maharashtra), Sur Sarovar (UP), and Kabartal (Bihar)",
+          "Pichavaram Mangrove (TN), Sakhya Sagar (MP), and Pala Wetland (Mizoram)"
+        ],
+        "correct": 0,
+        "explanation": "India added Nanjarayan Bird Sanctuary and Kazhuveli Bird Sanctuary in Tamil Nadu, along with Tawa Reservoir (located at the confluence of the Tawa and Denwa rivers near Satpura National Park) in Madhya Pradesh as Ramsar Sites. (Sangetsar Tso in Tawang, Arunachal Pradesh is also a major high-altitude Himalayan wetland)."
+      }
+    },
+    {
+      "id": "ca-august-2026-011-new",
+      "topic": "International Relations | India-Japan 2+2 Ministerial Dialogue",
+      "text": "India and Japan anchor the Indo-Pacific order through their Special Strategic and Global Partnership and QUAD membership, countering Chinese assertiveness and ensuring a Free and Open Indo-Pacific.",
+      "details": {
+        "summary": "### 🎯 What Happened\nIndia and Japan have deepened their Special Strategic and Global Partnership through regular summit-level engagements, the India-Japan 2+2 Dialogue (Foreign and Defence Ministers), and cooperation on maritime security, critical technologies, and infrastructure. Japan continues to be a pivotal partner in India's Act East Policy. The QUAD grouping (India, Japan, USA, Australia) has held multiple Leaders' Summits focusing on a rules-based Indo-Pacific order, maritime domain awareness, vaccine supply chains (Quad Vaccine Partnership), and emerging technology cooperation. Both nations view China's aggressive posturing in the South China Sea and Indo-Pacific as a shared strategic challenge. Japan's flagship Mumbai-Ahmedabad High-Speed Rail (Bullet Train) project using Japanese Shinkansen technology symbolizes this partnership. Recent developments include enhanced defense technology transfers, joint maritime exercises (JIMEX, MALABAR), and cooperation on semiconductor supply chains and clean energy.\n\n### 💡 Why It Matters\nThe India-Japan partnership and QUAD are strategically critical because they represent the primary institutional counterbalance to China's expansionist ambitions in the Indo-Pacific. For India, Japan is the only major power with whom it has a Special Strategic and Global Partnership that spans defense, technology, and infrastructure without the baggage of alliance politics. Japan provides India with advanced defense technology, capital investment, and diplomatic support in multilateral forums. The QUAD ensures freedom of navigation, upholds UNCLOS principles, and promotes a rules-based order in the world's most strategically contested maritime region. For defence aspirants, understanding this partnership is essential as it directly relates to India's national security doctrine, its neighborhood strategy, and the geopolitical architecture of the 21st century.\n\n### 📌 Key Facts\nIndia-Japan Special Strategic and Global Partnership was elevated in 2014; both nations are core QUAD members (with USA and Australia) and Japan's Free and Open Indo-Pacific (FOIP) vision synergizes with India's Indo-Pacific Oceans Initiative (IPOI) launched by PM Modi in 2019.\n\n### 🏛️ Static GK Connection\nQUAD members: India, Japan, USA, Australia — first conceptualized in 2007 by Shinzo Abe, revived in 2017, first Leaders' Summit in 2021.\nIndia-Japan 2+2 Dialogue: First held in 2019; involves External Affairs Minister and Defence Minister of both nations.\nJapan's FOIP (Free and Open Indo-Pacific) launched in 2016; India's IPOI (Indo-Pacific Oceans Initiative) launched by PM Modi at East Asia Summit 2019 — complementary frameworks.\nMumbai-Ahmedabad High-Speed Rail (MAHSR): India-Japan flagship project using Japanese Shinkansen E5 technology, funded ~80% by Japan via soft loan.\nJIMEX (Japan-India Maritime Exercise): Bilateral naval exercise; MALABAR is QUAD multilateral naval exercise.\nIndia is Japan's largest trading partner in South Asia; Japan is the 5th largest investor in India.\nAct East Policy (India) and Free and Open Indo-Pacific (Japan) are strategic pillars connecting Southeast Asia and the broader Indo-Pacific.\n\n### ⚠️ Exam Trap\nDo NOT confuse QUAD with AUKUS — QUAD is India, Japan, USA, and Australia (focused on Indo-Pacific maritime security and diplomacy), while AUKUS is Australia, UK, and USA (focused on nuclear submarine technology sharing). Also, Japan's FOIP is NOT the same as India's IPOI — they are complementary but distinct frameworks."
+      },
+      "upscHighlights": [
+        "🌍 STRATEGIC WORLD",
+        "🔴 MUST KNOW"
+      ],
+      "mcq": {
+        "question": "During the 3rd India–Japan 2+2 Foreign and Defence Ministerial Meeting held in New Delhi on August 20, both nations agreed to transfer and co-develop which naval stealth technology for Indian Navy warships?",
+        "options": [
+          "UNICORN (Unified Complex Radio Antenna) integrated stealth mast system",
+          "Aegis Ballistic Missile Defence System",
+          "BrahMos-II Hypersonic Cruise Missile",
+          "S-400 Triumf Air Defence Radar"
+        ],
+        "correct": 0,
+        "explanation": "At the 3rd India-Japan 2+2 Ministerial Dialogue in New Delhi (attended by Rajnath Singh, S. Jaishankar, Yoko Kamikawa, and Minoru Kihara), both countries advanced the transfer of Japan's UNICORN (Unified Complex Radio Antenna) stealth mast technology to be co-produced with Bharat Electronics Limited (BEL)."
+      }
+    },
+    {
+      "id": "ca-august-2026-012-new",
+      "topic": "Sports | 2026 Commonwealth Games Host City",
+      "text": "CWG 2026 held in Victoria, Australia from March 17-29, 2026 featuring 23 disciplines across regional venues.",
+      "details": {
+        "summary": "### 🎯 What Happened\nThe 2026 Commonwealth Games were successfully held in Victoria, Australia from March 17-29, 2026. This edition was uniquely structured with events distributed across six regional hubs: Melbourne, Geelong, Bendigo, Ballarat, Traralgon, and Gippsland. The games featured 23 sports, with several new additions including women's rugby sevens and para powerlifting. India participated with a large contingent of athletes across multiple disciplines. The event faced initial planning challenges and budget concerns but concluded successfully with full participation from 74 Commonwealth nations and territories.\n\n### 💡 Why It Matters\nFor Indian defence aspirants and UPSC candidates, CWG 2026 is significant because it reflects India's growing stature in international multi-sport events. India's performance demonstrates the country's sporting ecosystem development, which has direct implications for national prestige and soft power. The games also highlighted Australia's regional infrastructure development model, relevant for understanding federal-state coordination in hosting major events.\n\n### 📌 Key Facts\nCWG 2026 is the first edition where the games are hosted across multiple regional cities in Victoria rather than a single metropolitan center, with Geelong, Bendigo, Ballarat, and Traralgon sharing venues.\n\n### 🏛️ Static GK Connection\nIndia has been a consistent top-5 performer at Commonwealth Games since CWG 2010 Delhi\nCommonwealth Games Federation (CGF) headquarters is in London\nAustralia has hosted CWG twice before: 1938 (Sydney) and 1982 (Brisbane)\n\n### ⚠️ Exam Trap\nCWG 2026 was NOT held in Birmingham (which hosted CWG 2022). Victoria, Australia won the hosting rights after Edmonton, Canada withdrew."
+      },
+      "upscHighlights": [
+        "🏅 SPORTS",
+        "🟠 IMPORTANT"
+      ],
+      "mcq": {
+        "question": "Following the withdrawal of Victoria (Australia) due to hosting costs, which city was officially confirmed as the host of the 23rd Commonwealth Games in 2026?",
+        "options": [
+          "Birmingham, England",
+          "Glasgow, Scotland",
+          "Gold Coast, Australia",
+          "Toronto, Canada"
+        ],
+        "correct": 1,
+        "explanation": "After the Australian state of Victoria withdrew in 2023 citing cost overruns, Glasgow (Scotland) stepped in and was officially confirmed to host a scaled-down 2026 Commonwealth Games (having previously hosted CWG 2014)."
+      }
     }
-  }
-],
+  ],
   "September 2026": [
-  {
-    "id": "ca-september-2026-001",
-    "topic": "🔴 MUST KNOW | International Relations | Bilateral Visits",
-    "text": "Defence Minister Rajnath Singh's Visit to Sri Lanka in September 2026 to review and enhance existing defence cooperation.",
-    "details": {
-      "summary": "### 📌 What Happened\nDefence Minister Rajnath Singh visited Sri Lanka to review, expedite, and enhance existing defence cooperation and agreements between India and Sri Lanka.\n\n### 🎯 Why It Matters\nThis visit underscores India's 'Neighbourhood First' policy and its commitment to regional security in the Indian Ocean, crucial for maritime domain awareness and counter-terrorism.\n\n### 🧠 Key Facts\n- Focus on 'Neighbourhood First' policy.\n- Expected to expedite existing defence agreements.\n- Crucial for Indian Ocean maritime security.\n\n### 🔗 Static GK Connection\nSri Lanka is a key maritime neighbor of India in the Indian Ocean Region (IOR).\n\n### ⚠️ Exam Trap\nDon't confuse this visit with visits to Maldives or Mauritius. This specific September 2026 visit was to Sri Lanka.\n\n### 🎯 Possible Question Angle\n'Which neighbouring country did the Defence Minister visit in September 2026 to enhance maritime domain awareness and defence cooperation?'"
-    },
-    "upscHighlights": [
-      "India's 'Neighbourhood First' policy",
-      "Maritime domain awareness in IOR",
-      "Bilateral defence agreements"
-    ],
-    "institutionalContext": "The Ministry of Defence (MoD) oversees national security and the armed forces. Bilateral defence visits are a key tool of defence diplomacy.",
-    "strategicImportance": "High. This visit strengthens India's strategic influence in its immediate vicinity and counters growing Chinese presence in the Indian Ocean.",
-    "quickSummary": "Defence Minister Rajnath Singh visited Sri Lanka in September 2026 to boost bilateral defence ties and maritime security cooperation under the 'Neighbourhood First' policy.",
-    "detailedAnalysis": "The visit involved high-level talks with Sri Lankan leadership to expedite ongoing defence projects and capacity-building initiatives. It focused on enhancing interoperability between the armed forces and securing the vital sea lanes of communication in the Indian Ocean.",
-    "backgroundContext": "India and Sri Lanka share a complex but strategically vital relationship. Recent years have seen increased defence cooperation, including joint military exercises like 'Mitra Shakti' and 'SLINEX'.",
-    "stakeholders": [
-      "Ministry of Defence, India",
-      "Ministry of Defence, Sri Lanka",
-      "Indian Navy",
-      "Sri Lankan Navy"
-    ],
-    "mcq": {
-      "question": "Which country did the Indian Defence Minister visit in September 2026 to enhance maritime security and defence cooperation?",
-      "options": [
-        "A) Maldives",
-        "B) Mauritius",
-        "C) Sri Lanka",
-        "D) Bangladesh"
+    {
+      "id": "ca-september-2026-001",
+      "topic": "🔴 MUST KNOW | International Relations | Bilateral Visits",
+      "text": "Defence Minister Rajnath Singh's Visit to Sri Lanka in September 2026 to review and enhance existing defence cooperation.",
+      "details": {
+        "summary": "### 📌 What Happened\nDefence Minister Rajnath Singh visited Sri Lanka to review, expedite, and enhance existing defence cooperation and agreements between India and Sri Lanka.\n\n### 🎯 Why It Matters\nThis visit underscores India's 'Neighbourhood First' policy and its commitment to regional security in the Indian Ocean, crucial for maritime domain awareness and counter-terrorism.\n\n### 🧠 Key Facts\n- Focus on 'Neighbourhood First' policy.\n- Expected to expedite existing defence agreements.\n- Crucial for Indian Ocean maritime security.\n\n### 🔗 Static GK Connection\nSri Lanka is a key maritime neighbor of India in the Indian Ocean Region (IOR).\n\n### ⚠️ Exam Trap\nDon't confuse this visit with visits to Maldives or Mauritius. This specific September 2026 visit was to Sri Lanka.\n\n### 🎯 Possible Question Angle\n'Which neighbouring country did the Defence Minister visit in September 2026 to enhance maritime domain awareness and defence cooperation?'"
+      },
+      "upscHighlights": [
+        "India's 'Neighbourhood First' policy",
+        "Maritime domain awareness in IOR",
+        "Bilateral defence agreements"
       ],
-      "correct": 2,
-      "explanation": "Defence Minister Rajnath Singh visited Sri Lanka in September 2026 to review and expedite bilateral defence cooperation."
-    }
-  },
-  {
-    "id": "sept-2026-001",
-    "topic": "National Affairs",
-    "text": "The **Make in India** initiative celebrated its 12th Anniversary on September 25, 2026, marking significant growth in electronics, automobiles, and defence manufacturing sectors.",
-    "details": {
-      "winner": "Government of India",
-      "award": "12th Anniversary of Make in India",
-      "nationality": "India",
-      "summary": "Make in India initiative completes 12 years since its launch on Sept 25, 2014 by DPIIT."
-    },
-    "mcq": {
-      "question": "Which Ministry's department (DPIIT) is the nodal agency for the 'Make in India' initiative that celebrated its 12th anniversary in Sept 2026?",
-      "options": [
-        "Ministry of Finance",
-        "Ministry of Commerce & Industry",
-        "Ministry of Defence",
-        "Ministry of Home Affairs"
+      "institutionalContext": "The Ministry of Defence (MoD) oversees national security and the armed forces. Bilateral defence visits are a key tool of defence diplomacy.",
+      "strategicImportance": "High. This visit strengthens India's strategic influence in its immediate vicinity and counters growing Chinese presence in the Indian Ocean.",
+      "quickSummary": "Defence Minister Rajnath Singh visited Sri Lanka in September 2026 to boost bilateral defence ties and maritime security cooperation under the 'Neighbourhood First' policy.",
+      "detailedAnalysis": "The visit involved high-level talks with Sri Lankan leadership to expedite ongoing defence projects and capacity-building initiatives. It focused on enhancing interoperability between the armed forces and securing the vital sea lanes of communication in the Indian Ocean.",
+      "backgroundContext": "India and Sri Lanka share a complex but strategically vital relationship. Recent years have seen increased defence cooperation, including joint military exercises like 'Mitra Shakti' and 'SLINEX'.",
+      "stakeholders": [
+        "Ministry of Defence, India",
+        "Ministry of Defence, Sri Lanka",
+        "Indian Navy",
+        "Sri Lankan Navy"
       ],
-      "correct": 1,
-      "explanation": "DPIIT falls under the Ministry of Commerce & Industry."
+      "mcq": {
+        "question": "Which country did the Indian Defence Minister visit in September 2026 to enhance maritime security and defence cooperation?",
+        "options": [
+          "A) Maldives",
+          "B) Mauritius",
+          "C) Sri Lanka",
+          "D) Bangladesh"
+        ],
+        "correct": 2,
+        "explanation": "Defence Minister Rajnath Singh visited Sri Lanka in September 2026 to review and expedite bilateral defence cooperation."
+      }
     },
-    "upscHighlights": [
-      "Launched Sept 25, 2014",
-      "Nodal Agency: DPIIT",
-      "Focus on manufacturing"
-    ],
-    "strategicImportance": "Crucial scheme for reducing import dependence."
-  },
-  {
-    "id": "sept-2026-002",
-    "topic": "Defence Procurements",
-    "text": "The Ministry of Defence (MoD) signed a ₹810.79 crore contract with **Bharat Dynamics Limited (BDL)** for the procurement of 160 **Satellite Smart Anti-Airfield Weapons (SAT-SAAW)** for the Indian Air Force.",
-    "details": {
-      "winner": "Bharat Dynamics Limited (BDL)",
-      "award": "SAT-SAAW Contract",
-      "nationality": "India",
-      "summary": "MoD procures 160 SAT-SAAW from BDL to enhance IAF capabilities against enemy airfields."
-    },
-    "mcq": {
-      "question": "Which aerospace company was awarded the ₹810.79 crore contract by the MoD in September 2026 to supply SAT-SAAW?",
-      "options": [
-        "HAL",
-        "BEL",
-        "BDL",
-        "DRDO"
+    {
+      "id": "sept-2026-001",
+      "topic": "National Affairs",
+      "text": "The **Make in India** initiative celebrated its 12th Anniversary on September 25, 2026, marking significant growth in electronics, automobiles, and defence manufacturing sectors.",
+      "details": {
+        "winner": "Government of India",
+        "award": "12th Anniversary of Make in India",
+        "nationality": "India",
+        "summary": "Make in India initiative completes 12 years since its launch on Sept 25, 2014 by DPIIT."
+      },
+      "mcq": {
+        "question": "Which Ministry's department (DPIIT) is the nodal agency for the 'Make in India' initiative that celebrated its 12th anniversary in Sept 2026?",
+        "options": [
+          "Ministry of Finance",
+          "Ministry of Commerce & Industry",
+          "Ministry of Defence",
+          "Ministry of Home Affairs"
+        ],
+        "correct": 1,
+        "explanation": "DPIIT falls under the Ministry of Commerce & Industry."
+      },
+      "upscHighlights": [
+        "Launched Sept 25, 2014",
+        "Nodal Agency: DPIIT",
+        "Focus on manufacturing"
       ],
-      "correct": 2,
-      "explanation": "The MoD signed the contract with BDL for 160 Satellite Smart Anti-Airfield Weapons."
+      "strategicImportance": "Crucial scheme for reducing import dependence."
     },
-    "upscHighlights": [
-      "SAT-SAAW are precision-guided glide bombs",
-      "Neutralize enemy airfields from stand-off ranges",
-      "Contract with BDL"
-    ],
-    "strategicImportance": "Boosts IAF's precision strike capabilities without crossing borders."
-  },
-  {
-    "id": "sept-2026-003",
-    "topic": "Military Exercises",
-    "text": "The 22nd edition of the India-US joint military exercise **Yudh Abhyas 2026** commenced at the Mahajan Field Firing Range, Rajasthan, featuring a successful demonstration of indigenously assembled **SkyStriker** loitering munitions.",
-    "details": {
-      "winner": "India & USA",
-      "award": "Exercise Yudh Abhyas 2026",
-      "nationality": "India & USA",
-      "summary": "Annual India-US bilateral army exercise held in Rajasthan."
-    },
-    "mcq": {
-      "question": "The bilateral military exercise 'Yudh Abhyas 2026' was conducted between India and which country?",
-      "options": [
-        "UK",
-        "France",
-        "USA",
-        "Japan"
+    {
+      "id": "sept-2026-002",
+      "topic": "Defence Procurements",
+      "text": "The Ministry of Defence (MoD) signed a ₹810.79 crore contract with **Bharat Dynamics Limited (BDL)** for the procurement of 160 **Satellite Smart Anti-Airfield Weapons (SAT-SAAW)** for the Indian Air Force.",
+      "details": {
+        "winner": "Bharat Dynamics Limited (BDL)",
+        "award": "SAT-SAAW Contract",
+        "nationality": "India",
+        "summary": "MoD procures 160 SAT-SAAW from BDL to enhance IAF capabilities against enemy airfields."
+      },
+      "mcq": {
+        "question": "Which aerospace company was awarded the ₹810.79 crore contract by the MoD in September 2026 to supply SAT-SAAW?",
+        "options": [
+          "HAL",
+          "BEL",
+          "BDL",
+          "DRDO"
+        ],
+        "correct": 2,
+        "explanation": "The MoD signed the contract with BDL for 160 Satellite Smart Anti-Airfield Weapons."
+      },
+      "upscHighlights": [
+        "SAT-SAAW are precision-guided glide bombs",
+        "Neutralize enemy airfields from stand-off ranges",
+        "Contract with BDL"
       ],
-      "correct": 2,
-      "explanation": "The 22nd edition of Yudh Abhyas was held between India and the USA at the Mahajan Field Firing Range."
+      "strategicImportance": "Boosts IAF's precision strike capabilities without crossing borders."
     },
-    "upscHighlights": [
-      "22nd Edition",
-      "India & USA",
-      "Location: Mahajan Field Firing Range, Rajasthan"
-    ],
-    "strategicImportance": "Enhances interoperability and counter-terrorism tactical skills."
-  },
-  {
-    "id": "sept-2026-004",
-    "topic": "Military Exercises",
-    "text": "The Indian Air Force hosted **Tarang Shakti 2026**, a massive multinational combat air exercise in Jodhpur, Rajasthan, with participation from around 40 nations.",
-    "details": {
-      "winner": "Indian Air Force (IAF)",
-      "award": "Exercise Tarang Shakti 2026",
-      "nationality": "Multinational",
-      "summary": "IAF hosted the largest multilateral air exercise in Jodhpur to showcase indigenous defence capabilities."
-    },
-    "mcq": {
-      "question": "The multinational combat air exercise 'Tarang Shakti 2026' was hosted at which location in India?",
-      "options": [
-        "Kalaikunda",
-        "Jodhpur",
-        "Gwalior",
-        "Hindon"
+    {
+      "id": "sept-2026-003",
+      "topic": "Military Exercises",
+      "text": "The 22nd edition of the India-US joint military exercise **Yudh Abhyas 2026** commenced at the Mahajan Field Firing Range, Rajasthan, featuring a successful demonstration of indigenously assembled **SkyStriker** loitering munitions.",
+      "details": {
+        "winner": "India & USA",
+        "award": "Exercise Yudh Abhyas 2026",
+        "nationality": "India & USA",
+        "summary": "Annual India-US bilateral army exercise held in Rajasthan."
+      },
+      "mcq": {
+        "question": "The bilateral military exercise 'Yudh Abhyas 2026' was conducted between India and which country?",
+        "options": [
+          "UK",
+          "France",
+          "USA",
+          "Japan"
+        ],
+        "correct": 2,
+        "explanation": "The 22nd edition of Yudh Abhyas was held between India and the USA at the Mahajan Field Firing Range."
+      },
+      "upscHighlights": [
+        "22nd Edition",
+        "India & USA",
+        "Location: Mahajan Field Firing Range, Rajasthan"
       ],
-      "correct": 1,
-      "explanation": "Tarang Shakti 2026 was conducted by the IAF in Jodhpur, Rajasthan."
+      "strategicImportance": "Enhances interoperability and counter-terrorism tactical skills."
     },
-    "upscHighlights": [
-      "Multilateral Air Exercise",
-      "Hosted by IAF",
-      "Location: Jodhpur, Rajasthan"
-    ],
-    "strategicImportance": "Demonstrates India's diplomatic reach and indigenous platforms like LCA Tejas."
-  },
-  {
-    "id": "sept-2026-005",
-    "topic": "Space Missions",
-    "text": "ISRO successfully launched the **EOS-05** Earth Observation Satellite on September 3, 2026, using the **GSLV Mark II** rocket. It is India's first imaging satellite positioned in a geosynchronous orbit.",
-    "details": {
-      "winner": "ISRO",
-      "award": "Launch of EOS-05",
-      "nationality": "India",
-      "summary": "ISRO launched its first geosynchronous imaging satellite, EOS-05, via GSLV Mk II."
+    {
+      "id": "sept-2026-004",
+      "topic": "Military Exercises",
+      "text": "The Indian Air Force hosted **Tarang Shakti 2026**, a massive multinational combat air exercise in Jodhpur, Rajasthan, with participation from around 40 nations.",
+      "details": {
+        "winner": "Indian Air Force (IAF)",
+        "award": "Exercise Tarang Shakti 2026",
+        "nationality": "Multinational",
+        "summary": "IAF hosted the largest multilateral air exercise in Jodhpur to showcase indigenous defence capabilities."
+      },
+      "mcq": {
+        "question": "The multinational combat air exercise 'Tarang Shakti 2026' was hosted at which location in India?",
+        "options": [
+          "Kalaikunda",
+          "Jodhpur",
+          "Gwalior",
+          "Hindon"
+        ],
+        "correct": 1,
+        "explanation": "Tarang Shakti 2026 was conducted by the IAF in Jodhpur, Rajasthan."
+      },
+      "upscHighlights": [
+        "Multilateral Air Exercise",
+        "Hosted by IAF",
+        "Location: Jodhpur, Rajasthan"
+      ],
+      "strategicImportance": "Demonstrates India's diplomatic reach and indigenous platforms like LCA Tejas."
     },
-    "mcq": {
-      "question": "ISRO launched the EOS-05 satellite in Sept 2026. What launch vehicle was used?",
-      "options": [
-        "PSLV-C56",
+    {
+      "id": "sept-2026-005",
+      "topic": "Space Missions",
+      "text": "ISRO successfully launched the **EOS-05** Earth Observation Satellite on September 3, 2026, using the **GSLV Mark II** rocket. It is India's first imaging satellite positioned in a geosynchronous orbit.",
+      "details": {
+        "winner": "ISRO",
+        "award": "Launch of EOS-05",
+        "nationality": "India",
+        "summary": "ISRO launched its first geosynchronous imaging satellite, EOS-05, via GSLV Mk II."
+      },
+      "mcq": {
+        "question": "ISRO launched the EOS-05 satellite in Sept 2026. What launch vehicle was used?",
+        "options": [
+          "PSLV-C56",
+          "GSLV Mark II",
+          "LVM3",
+          "SSLV-D3"
+        ],
+        "correct": 1,
+        "explanation": "EOS-05 was launched using the GSLV Mark II."
+      },
+      "upscHighlights": [
+        "EOS-05",
         "GSLV Mark II",
-        "LVM3",
-        "SSLV-D3"
+        "Geosynchronous orbit imaging"
       ],
-      "correct": 1,
-      "explanation": "EOS-05 was launched using the GSLV Mark II."
+      "strategicImportance": "Enhances real-time imaging and disaster management capabilities."
     },
-    "upscHighlights": [
-      "EOS-05",
-      "GSLV Mark II",
-      "Geosynchronous orbit imaging"
-    ],
-    "strategicImportance": "Enhances real-time imaging and disaster management capabilities."
-  },
-  {
-    "id": "sept-2026-006",
-    "topic": "Military Exercises",
-    "text": "Annual bilateral naval exercise **SLINEX-26** between India and Sri Lanka commenced in September 2026, aimed at enhancing interoperability in the Indian Ocean Region.",
-    "details": {
-      "winner": "India & Sri Lanka",
-      "award": "SLINEX-26",
-      "nationality": "India & Sri Lanka",
-      "summary": "Bilateral naval exercise between India and Sri Lanka to secure the IOR."
-    },
-    "mcq": {
-      "question": "SLINEX-26 is a bilateral naval exercise between India and which country?",
-      "options": [
-        "Singapore",
-        "Sri Lanka",
-        "Seychelles",
-        "Saudi Arabia"
+    {
+      "id": "sept-2026-006",
+      "topic": "Military Exercises",
+      "text": "Annual bilateral naval exercise **SLINEX-26** between India and Sri Lanka commenced in September 2026, aimed at enhancing interoperability in the Indian Ocean Region.",
+      "details": {
+        "winner": "India & Sri Lanka",
+        "award": "SLINEX-26",
+        "nationality": "India & Sri Lanka",
+        "summary": "Bilateral naval exercise between India and Sri Lanka to secure the IOR."
+      },
+      "mcq": {
+        "question": "SLINEX-26 is a bilateral naval exercise between India and which country?",
+        "options": [
+          "Singapore",
+          "Sri Lanka",
+          "Seychelles",
+          "Saudi Arabia"
+        ],
+        "correct": 1,
+        "explanation": "SLINEX stands for Sri Lanka India Naval Exercise."
+      },
+      "upscHighlights": [
+        "Naval Exercise",
+        "India & Sri Lanka",
+        "Indian Ocean Region focus"
       ],
-      "correct": 1,
-      "explanation": "SLINEX stands for Sri Lanka India Naval Exercise."
+      "strategicImportance": "Ensures maritime security in the strategic Indian Ocean Region."
     },
-    "upscHighlights": [
-      "Naval Exercise",
-      "India & Sri Lanka",
-      "Indian Ocean Region focus"
-    ],
-    "strategicImportance": "Ensures maritime security in the strategic Indian Ocean Region."
-  },
-  {
-    "id": "sept-2026-007",
-    "topic": "Space Collaborations",
-    "text": "The **TRISHNA** (Thermal infraRed Imaging Satellite for High-resolution Natural resource Assessment) mission is progressing as a joint Earth observation project between ISRO (India) and CNES (France).",
-    "details": {
-      "winner": "ISRO & CNES",
-      "award": "TRISHNA Mission progress",
-      "nationality": "India & France",
-      "summary": "Indo-French thermal imaging satellite project."
-    },
-    "mcq": {
-      "question": "The TRISHNA mission is a joint Earth observation satellite project between ISRO and the space agency of which country?",
-      "options": [
-        "Russia (Roscosmos)",
-        "Japan (JAXA)",
-        "USA (NASA)",
-        "France (CNES)"
+    {
+      "id": "sept-2026-007",
+      "topic": "Space Collaborations",
+      "text": "The **TRISHNA** (Thermal infraRed Imaging Satellite for High-resolution Natural resource Assessment) mission is progressing as a joint Earth observation project between ISRO (India) and CNES (France).",
+      "details": {
+        "winner": "ISRO & CNES",
+        "award": "TRISHNA Mission progress",
+        "nationality": "India & France",
+        "summary": "Indo-French thermal imaging satellite project."
+      },
+      "mcq": {
+        "question": "The TRISHNA mission is a joint Earth observation satellite project between ISRO and the space agency of which country?",
+        "options": [
+          "Russia (Roscosmos)",
+          "Japan (JAXA)",
+          "USA (NASA)",
+          "France (CNES)"
+        ],
+        "correct": 3,
+        "explanation": "TRISHNA is jointly developed with France's CNES."
+      },
+      "upscHighlights": [
+        "Indo-French Mission",
+        "Thermal Infrared Imaging",
+        "Climate monitoring"
       ],
-      "correct": 3,
-      "explanation": "TRISHNA is jointly developed with France's CNES."
+      "strategicImportance": "Key for climate change and water resource management."
     },
-    "upscHighlights": [
-      "Indo-French Mission",
-      "Thermal Infrared Imaging",
-      "Climate monitoring"
-    ],
-    "strategicImportance": "Key for climate change and water resource management."
-  },
-  {
-    "id": "sept-2026-008",
-    "topic": "Economy & Reports",
-    "text": "The **OECD** (Organisation for Economic Co-operation and Development) raised India's GDP growth forecast to **7.1%** for the fiscal year 2026-27.",
-    "details": {
-      "winner": "India's Economy",
-      "award": "7.1% Growth Forecast",
-      "nationality": "OECD",
-      "summary": "OECD upgrades India's FY27 growth to 7.1%."
-    },
-    "mcq": {
-      "question": "Which international organisation raised India's GDP growth forecast for FY 2026-27 to 7.1% in September 2026?",
-      "options": [
-        "IMF",
-        "World Bank",
-        "OECD",
-        "ADB"
+    {
+      "id": "sept-2026-008",
+      "topic": "Economy & Reports",
+      "text": "The **OECD** (Organisation for Economic Co-operation and Development) raised India's GDP growth forecast to **7.1%** for the fiscal year 2026-27.",
+      "details": {
+        "winner": "India's Economy",
+        "award": "7.1% Growth Forecast",
+        "nationality": "OECD",
+        "summary": "OECD upgrades India's FY27 growth to 7.1%."
+      },
+      "mcq": {
+        "question": "Which international organisation raised India's GDP growth forecast for FY 2026-27 to 7.1% in September 2026?",
+        "options": [
+          "IMF",
+          "World Bank",
+          "OECD",
+          "ADB"
+        ],
+        "correct": 2,
+        "explanation": "The OECD raised India's forecast to 7.1%."
+      },
+      "upscHighlights": [
+        "7.1% GDP growth forecast",
+        "FY 2026-27",
+        "By OECD"
       ],
-      "correct": 2,
-      "explanation": "The OECD raised India's forecast to 7.1%."
+      "strategicImportance": "Indicates resilience of the Indian economy amidst global headwinds."
     },
-    "upscHighlights": [
-      "7.1% GDP growth forecast",
-      "FY 2026-27",
-      "By OECD"
-    ],
-    "strategicImportance": "Indicates resilience of the Indian economy amidst global headwinds."
-  },
-  {
-    "id": "sept-2026-009",
-    "topic": "Sports",
-    "text": "At the 20th Asian Games 2026 held in **Aichi-Nagoya, Japan**, the Indian Men's and Women's **Kabaddi** teams both secured Gold medals.",
-    "details": {
-      "winner": "Indian Kabaddi Teams",
-      "award": "Gold Medals at Asian Games 2026",
-      "nationality": "India",
-      "summary": "India dominates Kabaddi at the Aichi-Nagoya Asian Games."
-    },
-    "mcq": {
-      "question": "The 20th Asian Games in 2026, where Indian Kabaddi teams won Gold, were hosted in which city?",
-      "options": [
-        "Hangzhou",
-        "Aichi-Nagoya",
-        "Doha",
-        "Jakarta"
+    {
+      "id": "sept-2026-009",
+      "topic": "Sports",
+      "text": "At the 20th Asian Games 2026 held in **Aichi-Nagoya, Japan**, the Indian Men's and Women's **Kabaddi** teams both secured Gold medals.",
+      "details": {
+        "winner": "Indian Kabaddi Teams",
+        "award": "Gold Medals at Asian Games 2026",
+        "nationality": "India",
+        "summary": "India dominates Kabaddi at the Aichi-Nagoya Asian Games."
+      },
+      "mcq": {
+        "question": "The 20th Asian Games in 2026, where Indian Kabaddi teams won Gold, were hosted in which city?",
+        "options": [
+          "Hangzhou",
+          "Aichi-Nagoya",
+          "Doha",
+          "Jakarta"
+        ],
+        "correct": 1,
+        "explanation": "The 2026 Asian Games were hosted in Aichi-Nagoya, Japan."
+      },
+      "upscHighlights": [
+        "Asian Games 2026",
+        "Aichi-Nagoya, Japan",
+        "Kabaddi Gold (Men & Women)"
       ],
-      "correct": 1,
-      "explanation": "The 2026 Asian Games were hosted in Aichi-Nagoya, Japan."
+      "strategicImportance": "Boosts India's soft power and sporting profile globally."
     },
-    "upscHighlights": [
-      "Asian Games 2026",
-      "Aichi-Nagoya, Japan",
-      "Kabaddi Gold (Men & Women)"
-    ],
-    "strategicImportance": "Boosts India's soft power and sporting profile globally."
-  },
-  {
-    "id": "sept-2026-010",
-    "topic": "Defence Tech",
-    "text": "DRDO signed its first high-value deep-tech project under the Technology Development Fund (TDF) with **Zero mK India Pvt Ltd** to indigenously develop a **20 mK Dilution Refrigerator**, crucial for quantum computing.",
-    "details": {
-      "winner": "Zero mK India Pvt Ltd",
-      "award": "TDF contract for 20 mK Dilution Refrigerator",
-      "nationality": "India",
-      "summary": "DRDO funds indigenous quantum computing hardware development."
-    },
-    "mcq": {
-      "question": "DRDO partnered with Zero mK India to develop a '20 mK Dilution Refrigerator'. This technology is essential for which field?",
-      "options": [
-        "Nuclear Submarines",
+    {
+      "id": "sept-2026-010",
+      "topic": "Defence Tech",
+      "text": "DRDO signed its first high-value deep-tech project under the Technology Development Fund (TDF) with **Zero mK India Pvt Ltd** to indigenously develop a **20 mK Dilution Refrigerator**, crucial for quantum computing.",
+      "details": {
+        "winner": "Zero mK India Pvt Ltd",
+        "award": "TDF contract for 20 mK Dilution Refrigerator",
+        "nationality": "India",
+        "summary": "DRDO funds indigenous quantum computing hardware development."
+      },
+      "mcq": {
+        "question": "DRDO partnered with Zero mK India to develop a '20 mK Dilution Refrigerator'. This technology is essential for which field?",
+        "options": [
+          "Nuclear Submarines",
+          "Quantum Computing",
+          "Hypersonic Missiles",
+          "Satellite Imaging"
+        ],
+        "correct": 1,
+        "explanation": "A Dilution Refrigerator is a critical component for maintaining the ultra-low temperatures needed for quantum computing."
+      },
+      "upscHighlights": [
+        "DRDO TDF Scheme",
         "Quantum Computing",
-        "Hypersonic Missiles",
-        "Satellite Imaging"
+        "Indigenous Dilution Refrigerator"
       ],
-      "correct": 1,
-      "explanation": "A Dilution Refrigerator is a critical component for maintaining the ultra-low temperatures needed for quantum computing."
+      "strategicImportance": "Crucial step toward achieving self-reliance in cutting-edge quantum technologies."
     },
-    "upscHighlights": [
-      "DRDO TDF Scheme",
-      "Quantum Computing",
-      "Indigenous Dilution Refrigerator"
-    ],
-    "strategicImportance": "Crucial step toward achieving self-reliance in cutting-edge quantum technologies."
-  },
-  {
-    "id": "sept-2026-011",
-    "topic": "Sports & Soft Power",
-    "text": "India created historic sporting history by winning a rare **Double Gold** at the 45th FIDE Chess Olympiad in Budapest, Hungary, winning both the Open and Women's championship sections.",
-    "details": {
-      "winner": "Indian National Chess Teams",
-      "award": "45th FIDE Chess Olympiad Double Gold",
-      "nationality": "India",
-      "summary": "India swept both gold medals at the Budapest Chess Olympiad with standout performances from D. Gukesh, Arjun Erigaisi, and Divya Deshmukh."
-    },
-    "mcq": {
-      "question": "India achieved a historic feat by clinching Gold in both the Open and Women's team categories at the 45th Chess Olympiad in September 2026. Where was this tournament hosted?",
-      "options": [
-        "Baku, Azerbaijan",
-        "Budapest, Hungary",
-        "Tashkent, Uzbekistan",
-        "Chennai, India"
+    {
+      "id": "sept-2026-011",
+      "topic": "Sports & Soft Power",
+      "text": "India created historic sporting history by winning a rare **Double Gold** at the 45th FIDE Chess Olympiad in Budapest, Hungary, winning both the Open and Women's championship sections.",
+      "details": {
+        "winner": "Indian National Chess Teams",
+        "award": "45th FIDE Chess Olympiad Double Gold",
+        "nationality": "India",
+        "summary": "India swept both gold medals at the Budapest Chess Olympiad with standout performances from D. Gukesh, Arjun Erigaisi, and Divya Deshmukh."
+      },
+      "mcq": {
+        "question": "India achieved a historic feat by clinching Gold in both the Open and Women's team categories at the 45th Chess Olympiad in September 2026. Where was this tournament hosted?",
+        "options": [
+          "Baku, Azerbaijan",
+          "Budapest, Hungary",
+          "Tashkent, Uzbekistan",
+          "Chennai, India"
+        ],
+        "correct": 1,
+        "explanation": "The 45th FIDE Chess Olympiad was held in Budapest, Hungary, where India swept both team golds."
+      },
+      "upscHighlights": [
+        "45th Chess Olympiad (Budapest)",
+        "Historic Double Gold (Open & Women)",
+        "Grandmasters: Gukesh, Erigaisi, Praggnanandhaa, Divya Deshmukh"
       ],
-      "correct": 1,
-      "explanation": "The 45th FIDE Chess Olympiad was held in Budapest, Hungary, where India swept both team golds."
+      "strategicImportance": "Significantly enhances India's global intellectual soft power and chess leadership."
     },
-    "upscHighlights": [
-      "45th Chess Olympiad (Budapest)",
-      "Historic Double Gold (Open & Women)",
-      "Grandmasters: Gukesh, Erigaisi, Praggnanandhaa, Divya Deshmukh"
-    ],
-    "strategicImportance": "Significantly enhances India's global intellectual soft power and chess leadership."
-  },
-  {
-    "id": "sept-2026-012",
-    "topic": "Bilateral Defence Diplomacy",
-    "text": "Chief of Army Staff (COAS) General Dhiraj Seth undertook a high-level official visit to Moscow, Russia, reviewing spare parts supply chains for T-90 tanks, domestic production of AK-203 assault rifles in Amethi, and delivery schedules for the remaining S-400 Triumf regiments.",
-    "details": {
-      "winner": "Indian Army & Russian Armed Forces",
-      "award": "High-Level Defence Review",
-      "nationality": "India & Russia",
-      "summary": "COAS visit reinforced key supply chain lines and joint production mechanisms for the Indian Army."
-    },
-    "mcq": {
-      "question": "In September 2026, COAS General Dhiraj Seth visited Russia to review key defence contracts. Where is the joint venture factory for manufacturing AK-203 rifles located in India?",
-      "options": [
-        "Jabalpur, Madhya Pradesh",
-        "Korwa (Amethi), Uttar Pradesh",
-        "Avadi, Tamil Nadu",
-        "Ishapore, West Bengal"
+    {
+      "id": "sept-2026-012",
+      "topic": "Bilateral Defence Diplomacy",
+      "text": "Chief of Army Staff (COAS) General Dhiraj Seth undertook a high-level official visit to Moscow, Russia, reviewing spare parts supply chains for T-90 tanks, domestic production of AK-203 assault rifles in Amethi, and delivery schedules for the remaining S-400 Triumf regiments.",
+      "details": {
+        "winner": "Indian Army & Russian Armed Forces",
+        "award": "High-Level Defence Review",
+        "nationality": "India & Russia",
+        "summary": "COAS visit reinforced key supply chain lines and joint production mechanisms for the Indian Army."
+      },
+      "mcq": {
+        "question": "In September 2026, COAS General Dhiraj Seth visited Russia to review key defence contracts. Where is the joint venture factory for manufacturing AK-203 rifles located in India?",
+        "options": [
+          "Jabalpur, Madhya Pradesh",
+          "Korwa (Amethi), Uttar Pradesh",
+          "Avadi, Tamil Nadu",
+          "Ishapore, West Bengal"
+        ],
+        "correct": 1,
+        "explanation": "Indo-Russian Rifles Private Limited (IRRPL) produces AK-203 assault rifles at the Korwa Ordnance Factory in Amethi, Uttar Pradesh."
+      },
+      "upscHighlights": [
+        "COAS visit to Russia",
+        "T-90 Bhishma tank spares",
+        "AK-203 manufacturing at Korwa, Amethi",
+        "S-400 Triumf deliveries"
       ],
-      "correct": 1,
-      "explanation": "Indo-Russian Rifles Private Limited (IRRPL) produces AK-203 assault rifles at the Korwa Ordnance Factory in Amethi, Uttar Pradesh."
+      "strategicImportance": "Ensures continuity of operational equipment readiness amidst global geopolitical shifts."
     },
-    "upscHighlights": [
-      "COAS visit to Russia",
-      "T-90 Bhishma tank spares",
-      "AK-203 manufacturing at Korwa, Amethi",
-      "S-400 Triumf deliveries"
-    ],
-    "strategicImportance": "Ensures continuity of operational equipment readiness amidst global geopolitical shifts."
-  },
-  {
-    "id": "sept-2026-013",
-    "topic": "Bilateral Maritime Exercises",
-    "text": "The 22nd edition of the bilateral naval exercise **Varuna 2026** between the Indian Navy and French Navy was conducted in the Mediterranean Sea and Arabian Sea, featuring carrier strike group coordination and advanced anti-submarine warfare (ASW).",
-    "details": {
-      "winner": "Indian Navy & French Navy (Marine Nationale)",
-      "award": "Exercise Varuna 2026",
-      "nationality": "India & France",
-      "summary": "Annual flagship naval exercise between India and France demonstrating blue-water interoperability."
-    },
-    "mcq": {
-      "question": "Which bilateral naval exercise is conducted annually between the Indian Navy and the French Navy?",
-      "options": [
-        "Exercise Garuda",
-        "Exercise Shakti",
-        "Exercise Varuna",
-        "Exercise Desert Knight"
+    {
+      "id": "sept-2026-013",
+      "topic": "Bilateral Maritime Exercises",
+      "text": "The 22nd edition of the bilateral naval exercise **Varuna 2026** between the Indian Navy and French Navy was conducted in the Mediterranean Sea and Arabian Sea, featuring carrier strike group coordination and advanced anti-submarine warfare (ASW).",
+      "details": {
+        "winner": "Indian Navy & French Navy (Marine Nationale)",
+        "award": "Exercise Varuna 2026",
+        "nationality": "India & France",
+        "summary": "Annual flagship naval exercise between India and France demonstrating blue-water interoperability."
+      },
+      "mcq": {
+        "question": "Which bilateral naval exercise is conducted annually between the Indian Navy and the French Navy?",
+        "options": [
+          "Exercise Garuda",
+          "Exercise Shakti",
+          "Exercise Varuna",
+          "Exercise Desert Knight"
+        ],
+        "correct": 2,
+        "explanation": "Exercise Varuna is the naval exercise between India and France. (Garuda is air force, and Shakti is army)."
+      },
+      "upscHighlights": [
+        "Exercise Varuna (22nd Edition)",
+        "Indian Navy & French Navy",
+        "Carrier battle group & ASW operations"
       ],
-      "correct": 2,
-      "explanation": "Exercise Varuna is the naval exercise between India and France. (Garuda is air force, and Shakti is army)."
+      "strategicImportance": "Crucial for Indo-Pacific maritime security and strategic autonomy in the Western Indian Ocean."
     },
-    "upscHighlights": [
-      "Exercise Varuna (22nd Edition)",
-      "Indian Navy & French Navy",
-      "Carrier battle group & ASW operations"
-    ],
-    "strategicImportance": "Crucial for Indo-Pacific maritime security and strategic autonomy in the Western Indian Ocean."
-  },
-  {
-    "id": "sept-2026-014",
-    "topic": "International Sports",
-    "text": "In the 2026 US Open Tennis Championships at Flushing Meadows, New York, Spain's Carlos Alcaraz claimed the Men's Singles title while USA's Coco Gauff clinched the Women's Singles title.",
-    "details": {
-      "winner": "Carlos Alcaraz & Coco Gauff",
-      "award": "US Open 2026 Champions",
-      "nationality": "Spain & USA",
-      "summary": "Alcaraz and Gauff dominated the hard courts of Flushing Meadows to secure Grand Slam titles."
-    },
-    "mcq": {
-      "question": "Who won the Men's Singles title at the US Open 2026 tennis tournament?",
-      "options": [
-        "Novak Djokovic",
-        "Jannik Sinner",
-        "Carlos Alcaraz",
-        "Daniil Medvedev"
+    {
+      "id": "sept-2026-014",
+      "topic": "International Sports",
+      "text": "In the 2026 US Open Tennis Championships at Flushing Meadows, New York, Spain's Carlos Alcaraz claimed the Men's Singles title while USA's Coco Gauff clinched the Women's Singles title.",
+      "details": {
+        "winner": "Carlos Alcaraz & Coco Gauff",
+        "award": "US Open 2026 Champions",
+        "nationality": "Spain & USA",
+        "summary": "Alcaraz and Gauff dominated the hard courts of Flushing Meadows to secure Grand Slam titles."
+      },
+      "mcq": {
+        "question": "Who won the Men's Singles title at the US Open 2026 tennis tournament?",
+        "options": [
+          "Novak Djokovic",
+          "Jannik Sinner",
+          "Carlos Alcaraz",
+          "Daniil Medvedev"
+        ],
+        "correct": 2,
+        "explanation": "Carlos Alcaraz won the Men's Singles crown at the 2026 US Open in New York."
+      },
+      "upscHighlights": [
+        "US Open 2026",
+        "Men's Champion: Carlos Alcaraz",
+        "Women's Champion: Coco Gauff",
+        "Grand Slam hard-court major"
       ],
-      "correct": 2,
-      "explanation": "Carlos Alcaraz won the Men's Singles crown at the 2026 US Open in New York."
+      "strategicImportance": "Key general awareness topic for defence exams like AFCAT and NDA."
     },
-    "upscHighlights": [
-      "US Open 2026",
-      "Men's Champion: Carlos Alcaraz",
-      "Women's Champion: Coco Gauff",
-      "Grand Slam hard-court major"
-    ],
-    "strategicImportance": "Key general awareness topic for defence exams like AFCAT and NDA."
-  },
-  {
-    "id": "sept-2026-015",
-    "topic": "Important Days & Global Treaties",
-    "text": "World Ozone Day was observed on September 16, 2026, under the theme 'Montreal Protocol: Advancing Climate Action', marking the landmark 1987 treaty that phased out nearly 99% of ozone-depleting substances.",
-    "details": {
-      "winner": "United Nations Environment Programme (UNEP)",
-      "award": "International Day for the Preservation of the Ozone Layer",
-      "nationality": "International",
-      "summary": "Global observance honoring the Montreal Protocol and the Kigali Amendment for phasing out HFCs."
-    },
-    "mcq": {
-      "question": "The Montreal Protocol, commemorated on World Ozone Day (September 16), primarily deals with the phase-out of which substances?",
-      "options": [
-        "Greenhouse gases from coal power",
-        "Ozone-Depleting Substances (ODS) such as CFCs and halons",
-        "Plastic pollutants in marine environments",
-        "Chemical toxic industrial effluents"
+    {
+      "id": "sept-2026-015",
+      "topic": "Important Days & Global Treaties",
+      "text": "World Ozone Day was observed on September 16, 2026, under the theme 'Montreal Protocol: Advancing Climate Action', marking the landmark 1987 treaty that phased out nearly 99% of ozone-depleting substances.",
+      "details": {
+        "winner": "United Nations Environment Programme (UNEP)",
+        "award": "International Day for the Preservation of the Ozone Layer",
+        "nationality": "International",
+        "summary": "Global observance honoring the Montreal Protocol and the Kigali Amendment for phasing out HFCs."
+      },
+      "mcq": {
+        "question": "The Montreal Protocol, commemorated on World Ozone Day (September 16), primarily deals with the phase-out of which substances?",
+        "options": [
+          "Greenhouse gases from coal power",
+          "Ozone-Depleting Substances (ODS) such as CFCs and halons",
+          "Plastic pollutants in marine environments",
+          "Chemical toxic industrial effluents"
+        ],
+        "correct": 1,
+        "explanation": "The Montreal Protocol (1987) is universally ratified to phase out ozone-depleting substances (ODS) such as CFCs, halons, and HCFCs."
+      },
+      "upscHighlights": [
+        "World Ozone Day: Sept 16",
+        "Montreal Protocol (1987)",
+        "Kigali Amendment (HFC phase-down)",
+        "Theme: Advancing Climate Action"
       ],
-      "correct": 1,
-      "explanation": "The Montreal Protocol (1987) is universally ratified to phase out ozone-depleting substances (ODS) such as CFCs, halons, and HCFCs."
+      "strategicImportance": "High-yield environmental treaty topic tested regularly in UPSC GS."
     },
-    "upscHighlights": [
-      "World Ozone Day: Sept 16",
-      "Montreal Protocol (1987)",
-      "Kigali Amendment (HFC phase-down)",
-      "Theme: Advancing Climate Action"
-    ],
-    "strategicImportance": "High-yield environmental treaty topic tested regularly in UPSC GS."
-  },
-  {
-    "id": "sept-2026-016",
-    "topic": "National Infrastructure & Commemoration",
-    "text": "India observed Engineers' Day on September 15, 2026, commemorating the birth anniversary of Bharat Ratna Sir M. Visvesvaraya, with the Ministry of Defence launching dedicated student innovation challenges under the Innovations for Defence Excellence (iDEX) framework.",
-    "details": {
-      "winner": "Engineering and R&D Cadres",
-      "award": "National Engineers' Day 2026",
-      "nationality": "India",
-      "summary": "Commemoration of Sir M. Visvesvaraya with focus on indigenous engineering and defence hardware."
-    },
-    "mcq": {
-      "question": "Engineers' Day in India is celebrated on September 15 to honor the birth anniversary of which legendary engineer and statesman?",
-      "options": [
-        "Dr. A.P.J. Abdul Kalam",
-        "Sir M. Visvesvaraya",
-        "Dr. Homi J. Bhabha",
-        "Satish Dhawan"
+    {
+      "id": "sept-2026-016",
+      "topic": "National Infrastructure & Commemoration",
+      "text": "India observed Engineers' Day on September 15, 2026, commemorating the birth anniversary of Bharat Ratna Sir M. Visvesvaraya, with the Ministry of Defence launching dedicated student innovation challenges under the Innovations for Defence Excellence (iDEX) framework.",
+      "details": {
+        "winner": "Engineering and R&D Cadres",
+        "award": "National Engineers' Day 2026",
+        "nationality": "India",
+        "summary": "Commemoration of Sir M. Visvesvaraya with focus on indigenous engineering and defence hardware."
+      },
+      "mcq": {
+        "question": "Engineers' Day in India is celebrated on September 15 to honor the birth anniversary of which legendary engineer and statesman?",
+        "options": [
+          "Dr. A.P.J. Abdul Kalam",
+          "Sir M. Visvesvaraya",
+          "Dr. Homi J. Bhabha",
+          "Satish Dhawan"
+        ],
+        "correct": 1,
+        "explanation": "Engineers' Day marks the birth anniversary of Bharat Ratna Sir M. Visvesvaraya, celebrated for his pioneering irrigation, dam, and flood-protection engineering feats."
+      },
+      "upscHighlights": [
+        "Engineers' Day: Sept 15",
+        "Bharat Ratna Sir M. Visvesvaraya",
+        "Krishna Raja Sagara Dam architect",
+        "iDEX defence innovation links"
       ],
-      "correct": 1,
-      "explanation": "Engineers' Day marks the birth anniversary of Bharat Ratna Sir M. Visvesvaraya, celebrated for his pioneering irrigation, dam, and flood-protection engineering feats."
+      "strategicImportance": "Inspires domestic engineering talent for defence technological independence."
     },
-    "upscHighlights": [
-      "Engineers' Day: Sept 15",
-      "Bharat Ratna Sir M. Visvesvaraya",
-      "Krishna Raja Sagara Dam architect",
-      "iDEX defence innovation links"
-    ],
-    "strategicImportance": "Inspires domestic engineering talent for defence technological independence."
-  },
-  {
-    "id": "sept-2026-017",
-    "topic": "Domestic Sports",
-    "text": "India A, captained by Mayank Agarwal, clinched the prestigious **Duleep Trophy 2026** domestic first-class cricket championship in matches held across Anantapur and Bengaluru.",
-    "details": {
-      "winner": "India A",
-      "award": "Duleep Trophy 2026 Champions",
-      "nationality": "India",
-      "summary": "India A defeated India C in the final round-robin clash to lift the historic red-ball tournament."
-    },
-    "mcq": {
-      "question": "Which team won the prestigious Duleep Trophy 2026 domestic red-ball cricket tournament?",
-      "options": [
-        "India B",
-        "India A",
-        "India C",
-        "India D"
+    {
+      "id": "sept-2026-017",
+      "topic": "Domestic Sports",
+      "text": "India A, captained by Mayank Agarwal, clinched the prestigious **Duleep Trophy 2026** domestic first-class cricket championship in matches held across Anantapur and Bengaluru.",
+      "details": {
+        "winner": "India A",
+        "award": "Duleep Trophy 2026 Champions",
+        "nationality": "India",
+        "summary": "India A defeated India C in the final round-robin clash to lift the historic red-ball tournament."
+      },
+      "mcq": {
+        "question": "Which team won the prestigious Duleep Trophy 2026 domestic red-ball cricket tournament?",
+        "options": [
+          "India B",
+          "India A",
+          "India C",
+          "India D"
+        ],
+        "correct": 1,
+        "explanation": "India A, led by opening batter Mayank Agarwal, finished at the top of the points table to win the Duleep Trophy 2026."
+      },
+      "upscHighlights": [
+        "Duleep Trophy 2026",
+        "Winner: India A",
+        "Captain: Mayank Agarwal",
+        "Historic domestic first-class red-ball championship"
       ],
-      "correct": 1,
-      "explanation": "India A, led by opening batter Mayank Agarwal, finished at the top of the points table to win the Duleep Trophy 2026."
+      "strategicImportance": "Standard sports GK question for AFCAT and CAPF."
     },
-    "upscHighlights": [
-      "Duleep Trophy 2026",
-      "Winner: India A",
-      "Captain: Mayank Agarwal",
-      "Historic domestic first-class red-ball championship"
-    ],
-    "strategicImportance": "Standard sports GK question for AFCAT and CAPF."
-  },
-  {
-    "id": "sept-2026-018",
-    "topic": "Defence Manufacturing & Make in India",
-    "text": "The Ministry of Defence partnered with **Bharat Electronics Limited (BEL)** to scale domestic production of electronic and proximity artillery fuses, eliminating reliance on foreign suppliers for 155mm Dhanush, K9 Vajra, and ATAGS artillery systems.",
-    "details": {
-      "winner": "Bharat Electronics Limited (BEL)",
-      "award": "Artillery Fuses Indigenisation",
-      "nationality": "India",
-      "summary": "MoD contracts BEL for domestic multi-option electronic artillery fuses under Atmanirbhar Bharat."
-    },
-    "mcq": {
-      "question": "Bharat Electronics Limited (BEL) is manufacturing electronic proximity fuses for 155mm artillery ammunition in India. BEL is classified as which type of Central Public Sector Enterprise (CPSE)?",
-      "options": [
-        "Miniratna Category-I",
-        "Navratna",
-        "Maharatna",
-        "Privatized entity"
+    {
+      "id": "sept-2026-018",
+      "topic": "Defence Manufacturing & Make in India",
+      "text": "The Ministry of Defence partnered with **Bharat Electronics Limited (BEL)** to scale domestic production of electronic and proximity artillery fuses, eliminating reliance on foreign suppliers for 155mm Dhanush, K9 Vajra, and ATAGS artillery systems.",
+      "details": {
+        "winner": "Bharat Electronics Limited (BEL)",
+        "award": "Artillery Fuses Indigenisation",
+        "nationality": "India",
+        "summary": "MoD contracts BEL for domestic multi-option electronic artillery fuses under Atmanirbhar Bharat."
+      },
+      "mcq": {
+        "question": "Bharat Electronics Limited (BEL) is manufacturing electronic proximity fuses for 155mm artillery ammunition in India. BEL is classified as which type of Central Public Sector Enterprise (CPSE)?",
+        "options": [
+          "Miniratna Category-I",
+          "Navratna",
+          "Maharatna",
+          "Privatized entity"
+        ],
+        "correct": 1,
+        "explanation": "Bharat Electronics Limited (BEL) is a premier defence Navratna CPSE under the Department of Defence Production, Ministry of Defence."
+      },
+      "upscHighlights": [
+        "BEL Artillery Fuses",
+        "Navratna CPSE",
+        "Supply security for 155mm artillery (K9, ATAGS, Dhanush)"
       ],
-      "correct": 1,
-      "explanation": "Bharat Electronics Limited (BEL) is a premier defence Navratna CPSE under the Department of Defence Production, Ministry of Defence."
-    },
-    "upscHighlights": [
-      "BEL Artillery Fuses",
-      "Navratna CPSE",
-      "Supply security for 155mm artillery (K9, ATAGS, Dhanush)"
-    ],
-    "strategicImportance": "Eliminates vulnerability of artillery supply chains during prolonged conflict."
-  }
-],
+      "strategicImportance": "Eliminates vulnerability of artillery supply chains during prolonged conflict."
+    }
+  ],
   "October 2026": [
     {
       "id": "oct-26-1",
@@ -9385,6 +9200,919 @@ window.CURRENT_AFFAIRS_DB = {
         "National Disaster Response Force (NDRF) plays a frontline role in humanitarian assistance and disaster relief (HADR)"
       ],
       "strategicImportance": "Reinforces civilian-military HADR doctrine and institutional disaster resilience across climate-vulnerable coastal and Himalayan regions."
+    },
+    {
+      "id": "oct-2026-041",
+      "topic": "Defence & Border Security",
+      "publicationDate": "2026-10-21",
+      "originalSource": "Ministry of External Affairs (MEA) & Ministry of Defence",
+      "relatedOfficialDocuments": "31st WMCC & 21st Corps Commander Level Agreement",
+      "text": "India and China reached a historic breakthrough agreement on **patrolling and disengagement arrangements along the Line of Actual Control (LAC)** in **Eastern Ladakh**, resolving the final two friction points at **Depsang Plains** and **Demchok** to restore the pre-April 2020 status quo.",
+      "details": {
+        "winner": "India & China (MEA / Indian Army)",
+        "award": "LAC Patrolling & Disengagement Pact (Depsang & Demchok)",
+        "nationality": "India / China",
+        "summary": "Restores Indian Army patrolling rights up to traditional Patrolling Points (PP-10 to PP-13) in Depsang and Charding Ninglung Nallah in Demchok, ending the 4.5-year military standoff."
+      },
+      "upscHighlights": [
+        "Resolves the last two remaining friction points from the May 2020 standoff: Depsang Plains (Y-Junction, PP-10 to PP-13) and Demchok (Charding Ninglung Nallah).",
+        "Earlier disengagements were completed at Galwan Valley (PP-14), Pangong Tso (North & South Banks), Gogra (PP-17A), and Hot Springs (PP-15).",
+        "Depsang Plains is strategically vital due to its proximity to Daulat Beg Oldie (DBO — world's highest airstrip at 16,614 ft), the Darbuk-Shyok-DBO (DS-DBO) road, and the Karakoram Pass.",
+        "Paved the way for the first formal bilateral meeting in 5 years between PM Narendra Modi and President Xi Jinping on October 23 at the 16th BRICS Summit in Kazan, Russia, where both agreed to revive the Special Representatives (SR) mechanism on boundary questions."
+      ],
+      "institutionalContext": "Negotiated through the Working Mechanism for Consultation and Coordination on India-China Border Affairs (WMCC, established in 2012) and the Fire and Fury Corps (XIV Corps, HQ Leh) Commander-level talks at Chushul-Moldo.",
+      "strategicImportance": "High-priority UPSC CDS/NDA/CAPF topic linking border management, Himalayan geography (Shyok River, Galwan River, Aksai Chin, Karakoram Range), and bilateral diplomacy.",
+      "quickSummary": "On October 21, India and China announced a landmark agreement on <mark class=\"exam-target\">patrolling arrangements along the LAC in Eastern Ladakh</mark>, completing troop disengagement at <mark class=\"exam-target\">Depsang Plains</mark> and <mark class=\"exam-target\">Demchok</mark> and restoring pre-2020 patrolling and grazing rights.",
+      "detailedAnalysis": "Since April–May 2020, Indian and Chinese troops were locked in a forward deployment standoff along the 1,597 km LAC in Eastern Ladakh. While buffer zones had earlier resolved Galwan (PP-14), Pangong Tso, Gogra (PP-17A), and Hot Springs (PP-15), Chinese blockades at the \"Y-Junction\" (Bottleneck) in the Depsang Bulge prevented Indian patrols from reaching Patrolling Points 10, 11, 11A, 12, and 13 near the Karakoram Pass, while Demchok saw tented encroachments near the Charding Ninglung Nallah (CNN) junction with the Indus River. Under the October 2026 verification completed before Diwali, temporary structures were dismantled and coordinated patrolling resumed.",
+      "backgroundContext": "India-China border is divided into three sectors: Western Sector (Ladakh — 1,597 km, Johnson Line vs Macartney-MacDonald Line), Middle Sector (Himachal Pradesh & Uttarakhand — 545 km), and Eastern Sector (Sikkim & Arunachal Pradesh — 1,346 km, McMahon Line).",
+      "stakeholders": [
+        "Ministry of External Affairs (MEA)",
+        "Indian Army (XIV Fire & Fury Corps)",
+        "Indo-Tibetan Border Police (ITBP)",
+        "Special Representatives (NSA Ajit Doval & Wang Yi)"
+      ],
+      "relatedTopics": [
+        "Depsang Plains & Daulat Beg Oldie",
+        "Darbuk-Shyok-DBO Road",
+        "WMCC & Special Representatives Mechanism",
+        "Five Fingers of Tibet"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "mcq": {
+        "question": "Consider the following statements regarding the October 2026 India–China Line of Actual Control (LAC) Patrolling Agreement:\n1. The agreement specifically resolved the remaining standoff and restored patrolling rights at Depsang Plains and Demchok in Eastern Ladakh.\n2. Depsang Plains is strategically located in the Sub-Sector North (SSN) near Daulat Beg Oldie (DBO) and the Karakoram Pass.\n3. The Darbuk–Shyok–Daulat Beg Oldie (DS-DBO) all-weather strategic road runs parallel to the LAC in the Eastern Sector (Arunachal Pradesh).\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 0,
+        "explanation": "Statements 1 and 2 are correct. Statement 3 is incorrect because the 255-km Darbuk–Shyok–Daulat Beg Oldie (DS-DBO) road is located in Eastern Ladakh (Western Sector of the LAC), connecting Leh to the Karakoram Pass via Shyok village, not in Arunachal Pradesh."
+      }
+    },
+    {
+      "id": "oct-2026-042",
+      "topic": "Defence Manufacturing & Aerospace",
+      "publicationDate": "2026-10-28",
+      "originalSource": "PIB / Ministry of Defence",
+      "relatedOfficialDocuments": "₹21,935 Crore C-295 MW Contract (Airbus & TASL)",
+      "text": "Prime Minister Narendra Modi and Spanish Prime Minister **Pedro Sánchez** jointly inaugurated the **Tata Aircraft Complex** in **Vadodara, Gujarat**—India's **first private-sector Final Assembly Line (FAL)** for military aircraft—to manufacture 40 **Airbus C-295** transport aircraft for the Indian Air Force.",
+      "details": {
+        "winner": "Tata Advanced Systems Limited (TASL) & Airbus Defence and Space",
+        "award": "Inauguration of C-295 Final Assembly Line (Vadodara)",
+        "nationality": "India & Spain",
+        "summary": "First time an Indian private company (TASL) will manufacture complete military transport aircraft in India under the ₹21,935 crore contract for 56 C-295 aircraft."
+      },
+      "upscHighlights": [
+        "Total contract: 56 Airbus C-295 MW tactical transport aircraft for ₹21,935 crore to replace the IAF's aging British-origin Avro HS-748 fleet.",
+        "Delivery split: 16 aircraft delivered in \"fly-away\" condition from Airbus's Seville facility in Spain; 40 aircraft manufactured and assembled in India by TASL at Vadodara, Gujarat.",
+        "First IAF squadron to induct the C-295 is No. 11 Squadron (\"The Rhinos\"), also based at Vadodara.",
+        "Over 13,400 detail parts for each aircraft are fabricated at TASL's Constituent Assembly Facility in Hyderabad before final assembly at Vadodara.",
+        "Capabilities: 5–10 tonne payload capacity, 71 troops or 50 paratroopers, Short Take-Off and Landing (STOL) from semi-prepared/unpaved Advanced Landing Grounds (ALGs) along the LAC."
+      ],
+      "institutionalContext": "Executed by Tata Advanced Systems Limited (TASL) in consortium with Airbus Defence and Space (Spain), alongside Bharat Electronics Limited (BEL — Radar Warning Receiver & Missile Approach Warning System) and Bharat Dynamics Limited (BDL — Countermeasure Dispensing System).",
+      "strategicImportance": "Breaks the decades-long monopoly of state-owned HAL in military aircraft manufacturing, creating a complete domestic private aerospace ecosystem (Tier-1 to MSME suppliers).",
+      "quickSummary": "PM Narendra Modi and Spanish PM <mark class=\"exam-target\">Pedro Sánchez</mark> inaugurated India's first private-sector military aircraft Final Assembly Line at the <mark class=\"exam-target\">Tata Aircraft Complex in Vadodara, Gujarat</mark>, which will build 40 of the 56 <mark class=\"exam-target\">C-295</mark> transport aircraft for the IAF.",
+      "detailedAnalysis": "The C-295 programme represents the flagship \"Make in India\" aerospace project. Beyond the initial 56 aircraft for the IAF, the Defence Acquisition Council (DAC) has also cleared the acquisition of 15 additional C-295 maritime patrol variants (9 for the Indian Navy and 6 for the Indian Coast Guard) equipped with DRDO CABS multi-mission maritime radar to bolster surveillance across the Indian Ocean.",
+      "backgroundContext": "Foundation stone was laid in October 2022; the first fly-away C-295 was handed over in Seville in September 2023 and inducted into IAF's No. 11 Squadron (\"Rhinos\").",
+      "stakeholders": [
+        "Indian Air Force (No. 11 Squadron)",
+        "Tata Advanced Systems Limited (TASL)",
+        "Airbus Defence and Space (Spain)",
+        "BEL & BDL"
+      ],
+      "relatedTopics": [
+        "C-295 vs Avro HS-748",
+        "Private Defence Manufacturing",
+        "Advanced Landing Grounds (ALGs)"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "mcq": {
+        "question": "Consider the following statements regarding the Tata–Airbus C-295 Military Transport Aircraft project inaugurated at Vadodara in October 2026:\n1. It is India's first private-sector Final Assembly Line (FAL) for military aircraft, operated by Tata Advanced Systems Limited (TASL) in collaboration with Airbus (Spain).\n2. Under the 56-aircraft contract, 16 aircraft are delivered in fly-away condition from Seville (Spain) and 40 are manufactured in India.\n3. The C-295 aircraft is inducted to replace the Indian Air Force's heavy-lift Ilyushin Il-76 and Boeing C-17 Globemaster III fleets.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 0,
+        "explanation": "Statements 1 and 2 are correct. Statement 3 is incorrect because the C-295 is a 5-to-10-tonne tactical medium transport aircraft inducted to replace the aging Avro HS-748 fleet (and eventually AN-32s), not heavy-lift strategic airlifters like the C-17 Globemaster III or Il-76."
+      }
+    },
+    {
+      "id": "oct-2026-043",
+      "topic": "Naval Indigenisation & Innovation",
+      "publicationDate": "2026-10-29",
+      "originalSource": "PIB / Indian Navy (NIIO)",
+      "relatedOfficialDocuments": "Swavlamban 3.0, ADITI 3.0 & DISC 13",
+      "text": "The Indian Navy hosted the 3rd edition of its flagship naval innovation and indigenisation seminar, **Swavlamban 2026 (Swavlamban 3.0)**, at Bharat Mandapam, New Delhi, where Raksha Mantri Rajnath Singh launched **ADITI 3.0** and **DISC 13** challenges under the **iDEX** framework.",
+      "details": {
+        "winner": "Indian Navy (NIIO) & Defence Innovation Organisation (DIO)",
+        "award": "Swavlamban 3.0 Seminar, ADITI 3.0 & DISC 13 Launch",
+        "nationality": "India",
+        "summary": "Showcased autonomous surface/underwater vessels, AI swarm drones, quantum technologies, and High Power Microwave (HPM) weapon challenges with ₹25 crore grants under ADITI."
+      },
+      "upscHighlights": [
+        "Organised by the Naval Innovation and Indigenisation Organisation (NIIO) in partnership with the Defence Innovation Organisation (DIO) under the theme \"Strength and Power through Innovation and Indigenisation\".",
+        "ADITI (Acing Development of Innovative Technologies with iDEX) provides grants of up to ₹25 crore per winner for critical deep-tech defence R&D (ADITI 3.0 features a High Power Microwave Weapon System challenge for the Indian Navy).",
+        "DISC (Defence India Start-up Challenge) provides grants up to ₹1.5 crore (SPARK grants); DISC 12/13 also introduced the MIRA (Medical Innovations and Research Advancement) initiative.",
+        "Follows the SPRINT initiative (Supporting Pole-Vaulting in R&D through Innovations for Defence Excellence), which surpassed its target of developing 75 indigenous niche naval technologies."
+      ],
+      "institutionalContext": "NIIO is a three-tiered organization in the Indian Navy headed by the Vice Chief of Naval Staff, featuring the Technology Development Acceleration Cell (TDAC) for rapid induction of disruptive technologies.",
+      "strategicImportance": "Directly tested in CDS, NDA, and AFCAT under Defence Indigenisation Schemes (iDEX, iDEX Prime, ADITI, DISC, SPRINT, and TDF).",
+      "quickSummary": "At <mark class=\"exam-target\">Swavlamban 3.0</mark> in New Delhi, the Indian Navy and DIO launched <mark class=\"exam-target\">ADITI 3.0</mark> (offering grants up to <mark class=\"exam-target\">₹25 crore</mark> for deep-tech like High Power Microwave weapons) and <mark class=\"exam-target\">DISC 13</mark> challenges.",
+      "detailedAnalysis": "The Swavlamban seminar brings together startups, MSMEs, academia, and venture capitalists to solve operational challenges of the Indian Navy. Key platforms unveiled during Swavlamban include autonomous weaponized boat swarms, expendable autonomous underwater vehicles (AUVs), Matangi autonomous surface craft (which completed an 800-km Mumbai-to-Karwar autonomous voyage), and ultra-endurance loitering munitions.",
+      "backgroundContext": "iDEX (Innovations for Defence Excellence) was launched in 2018 by the Department of Defence Production and won the Prime Minister's Award for Excellence in Public Administration.",
+      "stakeholders": [
+        "Indian Navy (NIIO & TDAC)",
+        "Defence Innovation Organisation (DIO)",
+        "iDEX Startups & MSMEs"
+      ],
+      "relatedTopics": [
+        "ADITI Scheme (₹25 Cr Grant)",
+        "SPRINT Initiative",
+        "DISC & SPARK Grants",
+        "Autonomous Underwater Vehicles"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "Medium",
+        "UPSC": "High"
+      },
+      "mcq": {
+        "question": "Consider the following pairs of Indian Defence Innovation Schemes and their core features:\n1. ADITI Scheme — Grants up to ₹25 crore to startups for developing critical and futuristic defence technologies under iDEX.\n2. SPRINT Initiative — Indian Navy's collaborative programme with DIO under NIIO to induct at least 75 indigenous niche technologies.\n3. Swavlamban — Annual indigenisation and innovation seminar of the Indian Air Force.\nWhich of the pairs given above are correctly matched?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 0,
+        "explanation": "Pairs 1 and 2 are correctly matched. Pair 3 is incorrect because \"Swavlamban\" is the flagship innovation and indigenisation seminar of the Indian Navy (organised by NIIO), whereas the Indian Air Force's indigenisation/aerospace showcase is \"Mehar Baba Swarm Drone Competition\" / \"Tarang Shakti\" / Aero India."
+      }
+    },
+    {
+      "id": "oct-2026-044",
+      "topic": "Naval Shipbuilding & Coastal Security",
+      "publicationDate": "2026-10-28",
+      "originalSource": "PIB / Ministry of Defence",
+      "relatedOfficialDocuments": "ASW-SWC, SVL & FPV Shipbuilding Projects",
+      "text": "India's indigenous shipbuilding achieved a triple milestone in late October 2026: **GRSE** delivered the second Survey Vessel (Large) **INS Nirdeshak**, **L&T/GRSE** launched the 7th ASW Shallow Water Craft **Abhay** at Kattupalli, and **Goa Shipyard Limited (GSL)** simultaneously launched two Indian Coast Guard Fast Patrol Vessels, **Adamya** and **Akshar**.",
+      "details": {
+        "winner": "GRSE Kolkata, L&T Kattupalli & Goa Shipyard Limited (GSL)",
+        "award": "Delivery of INS Nirdeshak; Launch of ASW-SWC Abhay & ICG FPVs Adamya and Akshar",
+        "nationality": "India",
+        "summary": "Demonstrates high-tempo indigenous warship construction across public and private shipyards with 60%–80%+ domestic content."
+      },
+      "upscHighlights": [
+        "INS Nirdeshak: 2nd of four 3,400-ton Sandhayak-class Survey Vessels (Large) built by GRSE, Kolkata (1st: INS Sandhayak; 3rd: Ikshak; 4th: Sanshodhak).",
+        "Abhay (BY 529): 7th of eight Arnala-class Anti-Submarine Warfare Shallow Water Craft (ASW-SWC) built by GRSE in partnership with L&T Shipbuilding at Kattupalli (Chennai). (Another 8 Mahe-class ASW-SWCs are built by Cochin Shipyard Ltd).",
+        "Adamya and Akshar: First two of eight new-generation Fast Patrol Vessels (FPVs) built by Goa Shipyard Limited (GSL) for the Indian Coast Guard, launched simultaneously using a modern Ship Lift System and fitted with Controllable Pitch Propellers (CPP)."
+      ],
+      "institutionalContext": "Garden Reach Shipbuilders & Engineers (GRSE, Kolkata), Goa Shipyard Limited (GSL, Vasco da Gama), and Cochin Shipyard Limited (CSL) are premier public sector shipyards working alongside private giant L&T Kattupalli.",
+      "strategicImportance": "Favourite AFCAT/CDS/NDA factual area: matching newly launched/commissioned Indian Navy and Coast Guard vessels with their vessel class and builder shipyard.",
+      "quickSummary": "Late October saw three major naval milestones: delivery of Survey Vessel (Large) <mark class=\"exam-target\">INS Nirdeshak</mark> (GRSE), launch of the 7th Arnala-class ASW-SWC <mark class=\"exam-target\">Abhay</mark> (GRSE/L&T), and simultaneous launch of ICG Fast Patrol Vessels <mark class=\"exam-target\">Adamya and Akshar</mark> (Goa Shipyard Ltd).",
+      "detailedAnalysis": "1. Survey Vessels (Large): Displacing 3,400 tons, INS Sandhayak and INS Nirdeshak carry autonomous underwater vehicles (AUVs), remotely operated vehicles (ROVs), and hydrographic sensors, and can double as hospital ships during HADR missions.\n2. ASW-SWC (\"Submarine Hunters\"): Designed to replace the old Soviet-era Abhay-class corvettes for coastal anti-submarine operations, mine-laying, and Low Intensity Maritime Operations (LIMO). Total 16 ships ordered: 8 Arnala-class (GRSE/L&T) and 8 Mahe-class (CSL).\n3. ICG FPVs: Adamya and Akshar feature over 60% indigenous content and are armed with a 30mm CRN-91 naval gun for EEZ surveillance and anti-smuggling.",
+      "backgroundContext": "The Indian Navy currently has over 60 warships and submarines under construction solely within Indian shipyards towards achieving a 175–200 ship blue-water force by 2035.",
+      "stakeholders": [
+        "Indian Navy",
+        "Indian Coast Guard",
+        "GRSE Kolkata",
+        "Goa Shipyard Limited (GSL)",
+        "L&T Shipbuilding (Kattupalli)"
+      ],
+      "relatedTopics": [
+        "Sandhayak-class SVL",
+        "Arnala-class vs Mahe-class ASW-SWC",
+        "Indigenous Shipbuilding"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "Medium",
+        "UPSC": "Medium"
+      },
+      "mcq": {
+        "question": "Match the following newly launched/delivered naval and coast guard vessels (October 2026) with their respective ship categories and builders:\n1. INS Nirdeshak — Survey Vessel (Large) built by GRSE, Kolkata\n2. Abhay — 7th Arnala-class ASW Shallow Water Craft launched at L&T Kattupalli (for GRSE)\n3. Adamya & Akshar — Fast Patrol Vessels (FPVs) launched by Goa Shipyard Limited (GSL) for the Indian Coast Guard\nSelect the correct answer using the code given below:",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 3,
+        "explanation": "All three pairs are correctly matched. INS Nirdeshak is the second Sandhayak-class Survey Vessel (Large) built by GRSE; Abhay is the 7th Arnala-class ASW-SWC launched by GRSE/L&T; and Adamya & Akshar are Indian Coast Guard Fast Patrol Vessels built by Goa Shipyard Limited."
+      }
+    },
+    {
+      "id": "oct-2026-045",
+      "topic": "International Relations & Defence",
+      "publicationDate": "2026-10-25",
+      "originalSource": "MEA / PIB",
+      "relatedOfficialDocuments": "7th India-Germany Intergovernmental Consultations (IGC)",
+      "text": "Prime Minister Narendra Modi and German Federal Chancellor **Olaf Scholz** co-chaired the **7th India–Germany Intergovernmental Consultations (IGC)** in New Delhi under the motto *\"Growing Together with Innovation, Mobility and Sustainability\"*, while German Navy warships **FGS Baden-Württemberg** and **FGS Frankfurt am Main** made a port call at Goa and conducted a Maritime Partnership Exercise with the Indian Navy.",
+      "details": {
+        "winner": "India & Germany",
+        "award": "7th India-Germany IGC & Indo-German Naval Exercise",
+        "nationality": "India & Germany",
+        "summary": "Signed Classified Information Protection Pact, MLAT in Criminal Matters, Green Hydrogen Roadmap, and raised skilled Indian worker visa quota from 20,000 to 90,000 per year."
+      },
+      "upscHighlights": [
+        "Germany is one of the select few nations with which India holds a biennial cabinet-level Intergovernmental Consultation (IGC) mechanism (established in 2011).",
+        "Germany released its strategic policy document \"Focus on India\" and increased the annual visa quota for skilled Indian professionals from 20,000 to 90,000.",
+        "Signed an Agreement on the Exchange and Mutual Protection of Classified Information (crucial for defence technology transfer, including ThyssenKrupp Marine Systems' bid for Project 75I AIP submarines) and a Mutual Legal Assistance Treaty (MLAT).",
+        "German Navy frigate FGS Baden-Württemberg and combat support ship FGS Frankfurt am Main docked at Mormugao Port, Goa, and conducted joint drills with INS Delhi in the Indian Ocean."
+      ],
+      "institutionalContext": "The IGC is a whole-of-government framework where ministers from Defence, External Affairs, Commerce, Science, and Labour from both nations hold parallel bilateral plenaries.",
+      "strategicImportance": "Highlights European naval pivot to the Indo-Pacific and Germany's emergence as a key defence co-development partner for India.",
+      "quickSummary": "At the <mark class=\"exam-target\">7th India–Germany IGC</mark> in New Delhi, PM Modi and Chancellor <mark class=\"exam-target\">Olaf Scholz</mark> signed a Classified Information Protection Pact, Green Hydrogen Roadmap, and expanded skilled visas to 90,000, coinciding with a Goa port call by German warships <mark class=\"exam-target\">FGS Baden-Württemberg</mark> and <mark class=\"exam-target\">FGS Frankfurt am Main</mark>.",
+      "detailedAnalysis": "India and Germany completed 25 years of their Strategic Partnership. On the defence front, Germany eased export controls for military hardware to India and confirmed participation in IAF's Exercise Tarang Shakti and naval exercises in the Indian Ocean. On the green energy front, both launched the Indo-German Green Hydrogen Roadmap and the ₹9,000+ crore Green and Sustainable Development Partnership (GSDP).",
+      "backgroundContext": "Germany is India's largest trading partner within the European Union and is part of the G4 grouping (India, Germany, Japan, Brazil) advocating for permanent seats in a reformed UN Security Council.",
+      "stakeholders": [
+        "Prime Minister's Office (India)",
+        "Federal Chancellery (Germany)",
+        "Indian Navy & German Navy",
+        "ThyssenKrupp Marine Systems (TKMS)"
+      ],
+      "relatedTopics": [
+        "7th India-Germany IGC",
+        "G4 Nations (UNSC Reform)",
+        "Project 75I Submarine AIP",
+        "Green Hydrogen Mission"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "mcq": {
+        "question": "Consider the following statements regarding the 7th India–Germany Intergovernmental Consultations (IGC) held in October 2026:\n1. It was co-chaired in New Delhi by Prime Minister Narendra Modi and German Chancellor Olaf Scholz under the motto \"Growing Together with Innovation, Mobility and Sustainability\".\n2. Both nations signed an Agreement on the Exchange and Mutual Protection of Classified Information and an Indo-German Green Hydrogen Roadmap.\n3. During the visit, German naval vessels FGS Baden-Württemberg and FGS Frankfurt am Main made a port call at Goa and conducted joint maritime exercises with the Indian Navy.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 3,
+        "explanation": "All three statements are correct. The 7th IGC produced major agreements on classified defence information, MLAT, green hydrogen, and skilled labour mobility (90,000 visas), alongside the Goa naval engagement."
+      }
+    },
+    {
+      "id": "oct-2026-046",
+      "topic": "Geography & Disaster Management",
+      "publicationDate": "2026-10-25",
+      "originalSource": "India Meteorological Department (IMD) & NDMA",
+      "relatedOfficialDocuments": "WMO / PTCS North Indian Ocean Tropical Cyclone Naming List",
+      "text": "**Severe Cyclonic Storm \"Dana\"** made landfall along the Odisha coast between **Bhitarkanika National Park** and **Dhamra Port** on October 25, 2026, with wind speeds of 100–120 km/h; the name *\"Dana\"* (meaning generosity/pearl in Arabic) was contributed by **Qatar**.",
+      "details": {
+        "winner": "IMD, NDRF & Odisha Disaster Rapid Action Force (ODRAF)",
+        "award": "Zero-Fatality Evacuation Management during Cyclone Dana",
+        "nationality": "India (Bay of Bengal)",
+        "summary": "Over 6 lakh residents were evacuated across Odisha and West Bengal ahead of Cyclone Dana's landfall near Bhitarkanika and Dhamra."
+      },
+      "upscHighlights": [
+        "Name origin: \"Dana\" was suggested by Qatar (means \"generosity\" or \"most perfectly sized, valuable pearl\" in Arabic) under the WMO/ESCAP Panel on Tropical Cyclones naming list (13 member countries).",
+        "Landfall zone: Between Bhitarkanika National Park (India's 2nd largest mangrove ecosystem after Sundarbans, famous for Gahirmatha Olive Ridley sea turtle rookery and saltwater crocodiles) and Dhamra Port in Odisha.",
+        "Bhitarkanika mangroves acted as a natural bio-shield, attenuating cyclonic wind velocity and storm surge height.",
+        "Previous 2024/2026 cycle cyclones: Cyclone Remal (named by Oman, May) and Cyclone Asna (named by Pakistan, rare August land-born Arabian Sea cyclone)."
+      ],
+      "institutionalContext": "The Regional Specialized Meteorological Centre (RSMC) at IMD New Delhi assigns names from a rotating list contributed by 13 North Indian Ocean nations (Bangladesh, India, Iran, Maldives, Myanmar, Oman, Pakistan, Qatar, Saudi Arabia, Sri Lanka, Thailand, UAE, and Yemen).",
+      "strategicImportance": "Classic UPSC CDS/NDA/CAPF Geography & Environment question combining tropical cyclone naming conventions, October post-monsoon Bay of Bengal cyclogenesis, and Bhitarkanika/Gahirmatha ecology.",
+      "quickSummary": "Severe Cyclonic Storm <mark class=\"exam-target\">Dana</mark> (named by <mark class=\"exam-target\">Qatar</mark>) made landfall on October 25 between <mark class=\"exam-target\">Bhitarkanika National Park</mark> and <mark class=\"exam-target\">Dhamra Port</mark> in Odisha, where dense mangrove forests served as a natural bio-shield.",
+      "detailedAnalysis": "October–November is the peak post-monsoon cyclone season in the Bay of Bengal due to high Sea Surface Temperatures (>28°C), remnants of low-pressure systems moving from the South China Sea/Gulf of Thailand, and low vertical wind shear as the Southwest Monsoon retreats. Bhitarkanika National Park (a Ramsar Wetland located at the estuary of the Brahmani, Baitarani, Dhamra, and Mahanadi river systems in Kendrapara district) absorbed the brunt of the storm surge.",
+      "backgroundContext": "The WMO/ESCAP Panel on Tropical Cyclones expanded to 13 countries in 2020 (adding Iran, Qatar, Saudi Arabia, UAE, and Yemen), releasing a list of 169 cyclone names (13 names per country).",
+      "stakeholders": [
+        "India Meteorological Department (IMD / RSMC New Delhi)",
+        "National Disaster Response Force (NDRF)",
+        "Indian Coast Guard & Indian Navy"
+      ],
+      "relatedTopics": [
+        "Tropical Cyclone Naming (WMO/ESCAP)",
+        "Bhitarkanika Mangroves & Olive Ridley Turtles",
+        "October Heat & Retreating Monsoon"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "mcq": {
+        "question": "Consider the following statements regarding Severe Cyclonic Storm \"Dana\", which struck the eastern coast of India in October 2026:\n1. The name \"Dana\", meaning generosity or a valuable pearl in Arabic, was contributed by Qatar to the WMO/ESCAP Panel on Tropical Cyclones list.\n2. It made landfall between Bhitarkanika National Park and Dhamra Port in Odisha.\n3. Bhitarkanika National Park is situated at the estuarine delta of the Godavari and Krishna rivers.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 0,
+        "explanation": "Statements 1 and 2 are correct. Statement 3 is incorrect because Bhitarkanika National Park (Odisha) is located at the estuary of the Brahmani, Baitarani, and Dhamra rivers (not Godavari and Krishna, which are in Andhra Pradesh and host Coringa wildlife sanctuary)."
+      }
+    },
+    {
+      "id": "oct-2026-047",
+      "topic": "Environment & Biodiversity (COP16)",
+      "publicationDate": "2026-10-29",
+      "originalSource": "MoEFCC / UN Convention on Biological Diversity (CBD)",
+      "relatedOfficialDocuments": "Updated National Biodiversity Strategy and Action Plan (NBSAP 2024–2030) & Cali Fund",
+      "text": "At the **16th UN Biodiversity Conference (CBD COP16)** held in **Cali, Colombia** under the theme *\"Peace with Nature\"*, India submitted its updated **National Biodiversity Strategy and Action Plan (NBSAP 2024–2030)** aligned with the **Kunming-Montreal Global Biodiversity Framework (KM-GBF)**, while delegates established the **\"Cali Fund\"** for Digital Sequence Information (DSI).",
+      "details": {
+        "winner": "MoEFCC (India) & UN CBD COP16 (Cali, Colombia)",
+        "award": "Submission of India's Updated NBSAP & Creation of the Cali Fund",
+        "nationality": "Colombia / Global",
+        "summary": "India outlined 23 National Biodiversity Targets aligned with the global \"30x30\" conservation target; COP16 created the Cali Fund and a permanent subsidiary body for Indigenous Peoples (Article 8j)."
+      },
+      "upscHighlights": [
+        "Host & Theme: CBD COP16 was held in Cali, Colombia (Oct 21 – Nov 1) under the theme \"Peace with Nature\" (Paz con la Naturaleza).",
+        "Cali Fund on DSI: Landmark multilateral mechanism requiring commercial users of Digital Sequence Information (DSI) on genetic resources (pharmaceuticals, biotech, cosmetics, agribusiness) to contribute 1% of profits or 0.1% of revenue to biodiversity conservation, with at least 50% allocated to Indigenous Peoples and local communities.",
+        "Permanent Body for Indigenous Peoples: Established a new permanent Subsidiary Body on Article 8(j) to ensure representation of Indigenous Peoples and local communities.",
+        "India's NBSAP (2024–2030): Sets 23 National Biodiversity Targets aligned with the 23 global targets of the Kunming-Montreal Global Biodiversity Framework (including Target 3: \"30x30\" — conserving 30% of terrestrial and marine areas by 2030)."
+      ],
+      "institutionalContext": "The Convention on Biological Diversity (CBD) is a legally binding treaty opened for signature at the 1992 Rio Earth Summit (Secretariat: Montreal, Canada). In India, the National Biodiversity Authority (NBA, HQ Chennai) implements the Biological Diversity Act, 2002.",
+      "strategicImportance": "Top-tier Environment & Ecology question for UPSC CDS, NDA, and CAPF: Distinguish CBD COP16 (Cali, Colombia — Biodiversity), UNFCCC COP29 (Baku, Azerbaijan — Climate), and UNCCD COP16 (Riyadh, Saudi Arabia — Desertification).",
+      "quickSummary": "At <mark class=\"exam-target\">CBD COP16 in Cali, Colombia</mark> (\"Peace with Nature\"), nations established the <mark class=\"exam-target\">Cali Fund</mark> for sharing benefits from Digital Sequence Information (DSI), and India presented its updated <mark class=\"exam-target\">NBSAP (2024–2030)</mark> aligned with the <mark class=\"exam-target\">30x30</mark> Kunming-Montreal framework.",
+      "detailedAnalysis": "The three Rio Conventions held/scheduled crucial COPs in late 2024/2026: (1) CBD COP16 on Biodiversity in Cali, Colombia; (2) UNFCCC COP29 on Climate Change in Baku, Azerbaijan; and (3) UNCCD COP16 on Desertification in Riyadh, Saudi Arabia. India's updated NBSAP adopts a \"Whole-of-Government, Whole-of-Society\" approach and estimates an investment requirement of ₹81,664 crore for biodiversity conservation from 2025 to 2030.",
+      "backgroundContext": "The Kunming-Montreal Global Biodiversity Framework (KM-GBF) was adopted at COP15 in 2022, replacing the earlier Aichi Biodiversity Targets.",
+      "stakeholders": [
+        "Ministry of Environment, Forest and Climate Change (MoEFCC)",
+        "National Biodiversity Authority (NBA Chennai)",
+        "UN CBD Secretariat"
+      ],
+      "relatedTopics": [
+        "Cali Fund & Digital Sequence Information (DSI)",
+        "Kunming-Montreal Global Biodiversity Framework (30x30)",
+        "Rio Conventions Trio (CBD, UNFCCC, UNCCD)"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "mcq": {
+        "question": "Consider the following statements regarding the 16th Conference of the Parties to the UN Convention on Biological Diversity (CBD COP16) held in October 2026:\n1. It was hosted in Cali, Colombia under the official theme \"Peace with Nature\".\n2. It established the \"Cali Fund\", a multilateral mechanism for sharing financial benefits derived from the commercial use of Digital Sequence Information (DSI) on genetic resources.\n3. India submitted its updated National Biodiversity Strategy and Action Plan (NBSAP) featuring 23 National Biodiversity Targets aligned with the Kunming-Montreal Global Biodiversity Framework.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 3,
+        "explanation": "All three statements are correct. CBD COP16 in Cali, Colombia established the Cali Fund for DSI benefit-sharing, created a permanent body for Indigenous Peoples under Article 8(j), and saw India release its updated NBSAP (23 targets)."
+      }
+    },
+    {
+      "id": "oct-2026-048",
+      "topic": "Military Exercises & Maritime Security",
+      "publicationDate": "2026-10-18",
+      "originalSource": "PIB / Indian Navy",
+      "relatedOfficialDocuments": "Exercise Naseem Al Bahr (14th Edition)",
+      "text": "The Indian Navy and the Royal Navy of Oman conducted the **14th edition** of the bilateral maritime exercise **Naseem Al Bahr** (\"Sea Breeze\") off the coast of **Goa**, featuring Indian stealth frigate **INS Trikand** and Omani vessel **RNOV Al Seeb**.",
+      "details": {
+        "winner": "Indian Navy & Royal Navy of Oman",
+        "award": "Exercise Naseem Al Bahr 2026 (Goa)",
+        "nationality": "India & Oman",
+        "summary": "Conducted in two phases (Harbour & Sea Phase) off Goa from October 13–18, executing anti-aircraft firings, RAS approaches, and cross-deck helicopter landings."
+      },
+      "upscHighlights": [
+        "Participants: Indian Navy deployed Talwar-class stealth frigate INS Trikand and Dornier Maritime Patrol Aircraft; Royal Navy of Oman deployed RNOV Al Seeb.",
+        "Instituted in 1993, Naseem Al Bahr (\"Sea Breeze\") marks over three decades of bilateral naval cooperation between India and Oman.",
+        "Oman is the first Gulf nation with which all three wings of the Indian Armed Forces conduct regular bilateral exercises: Al Najah (Army), Naseem Al Bahr (Navy), and Eastern Bridge (Air Force).",
+        "India also maintains strategic logistical and naval turnaround access at the Port of Duqm in Oman."
+      ],
+      "institutionalContext": "Conducted under the Western Naval Command (HQ Mumbai), strengthening maritime security around the Strait of Hormuz, Gulf of Oman, and Western Arabian Sea.",
+      "strategicImportance": "High-probability matching question in CDS, NDA, and AFCAT on West Asian bilateral military exercises.",
+      "quickSummary": "The Indian Navy (<mark class=\"exam-target\">INS Trikand</mark>) and the Royal Navy of Oman (<mark class=\"exam-target\">RNOV Al Seeb</mark>) conducted the 14th edition of bilateral naval exercise <mark class=\"exam-target\">Naseem Al Bahr</mark> off the coast of Goa.",
+      "detailedAnalysis": "During the Sea Phase in the Arabian Sea, both navies executed surface and anti-air gunnery firings, tactical replenishment-at-sea (RAS) approaches, Visit Board Search and Seizure (VBSS) drills, and anti-submarine warfare maneuvers. This complements India's Operation Sankalp maritime security deployments in the Gulf of Oman and Gulf of Aden.",
+      "backgroundContext": "Oman sits at the strategic Musandam Peninsula overlooking the Strait of Hormuz, through which nearly one-fifth of global petroleum liquids transit.",
+      "stakeholders": [
+        "Indian Navy (Western Naval Command)",
+        "Royal Navy of Oman"
+      ],
+      "relatedTopics": [
+        "Naseem Al Bahr / Al Najah / Eastern Bridge",
+        "Port of Duqm (Oman)",
+        "Strait of Hormuz"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "Medium",
+        "UPSC": "Medium"
+      },
+      "mcq": {
+        "question": "In October 2026, the Indian Navy stealth frigate INS Trikand participated in the bilateral naval exercise \"Naseem Al Bahr\" off the coast of Goa with the navy of which country?",
+        "options": [
+          "United Arab Emirates (UAE)",
+          "Saudi Arabia",
+          "Oman",
+          "Qatar"
+        ],
+        "correct": 2,
+        "explanation": "Exercise Naseem Al Bahr (\"Sea Breeze\") is the biennial bilateral naval exercise between the Indian Navy and the Royal Navy of Oman (instituted in 1993). Notice: Zayed Talwar is with UAE, Al-Mohed Al-Hindi is with Saudi Arabia, and Za'ir-Al-Bahr is with Qatar."
+      }
+    },
+    {
+      "id": "oct-2026-049",
+      "topic": "Polity, Governance & Social Welfare",
+      "publicationDate": "2026-10-29",
+      "originalSource": "PIB / Ministry of Health & Family Welfare",
+      "relatedOfficialDocuments": "Ayushman Vay Vandana Card (AB-PMJAY Expansion) & U-WIN Portal",
+      "text": "On the 9th **Ayurveda Day** (October 29, 2026), Prime Minister Narendra Modi launched the nationwide expansion of **Ayushman Bharat PM-JAY (Ayushman Vay Vandana Card)** providing **₹5 lakh free annual health insurance to all senior citizens aged 70 years and above** regardless of income, alongside the nationwide rollout of the **U-WIN digital immunization platform**.",
+      "details": {
+        "winner": "Ministry of Health and Family Welfare / National Health Authority (NHA)",
+        "award": "Ayushman Vay Vandana Card (70+ Senior Citizens) & U-WIN Portal",
+        "nationality": "India",
+        "summary": "Universal ₹5 lakh health cover for ~6 crore senior citizens across 4.5 crore families irrespective of socioeconomic status, plus CoWIN-modeled U-WIN vaccination tracker."
+      },
+      "upscHighlights": [
+        "Universal Eligibility for 70+: Every Indian citizen aged 70 years and above is eligible for the \"Ayushman Vay Vandana Card\" providing ₹5 lakh annual hospitalisation cover, regardless of income or socio-economic status.",
+        "Top-Up Provision: Senior citizens (70+) belonging to families already covered under AB-PMJAY receive an additional shared top-up cover of up to ₹5 lakh per year exclusively for themselves (bringing family total up to ₹10 lakh).",
+        "Private/CGHS/ECHS Option: Senior citizens covered under CGHS, ECHS (Ex-Servicemen Contributory Health Scheme), or Ayushman CAPF can choose either their existing scheme or opt for AB-PMJAY.",
+        "U-WIN Portal: Replicating the CoWIN architecture, U-WIN digitally registers and tracks every pregnant woman and all routine childhood vaccinations under the Universal Immunization Programme (UIP / Mission Indradhanush)."
+      ],
+      "institutionalContext": "Implemented by the National Health Authority (NHA) under the Ministry of Health and Family Welfare. AB-PMJAY is the world's largest publicly funded health assurance scheme.",
+      "strategicImportance": "High-yield Government Scheme question for CDS, CAPF, and NDA—examiners frequently test age threshold (70+ years), income cap (None for 70+), and top-up amount (₹5 lakh).",
+      "quickSummary": "PM Modi launched the <mark class=\"exam-target\">Ayushman Vay Vandana Card</mark> under AB-PMJAY, granting universal <mark class=\"exam-target\">₹5 lakh free health cover to all senior citizens aged 70+ years</mark> irrespective of income, along with the <mark class=\"exam-target\">U-WIN</mark> digital vaccination portal.",
+      "detailedAnalysis": "Originally launched in September 2018 from Ranchi (Jharkhand) based on SECC-2011 deprivation criteria, Ayushman Bharat PM-JAY has two components: 1.5 lakh Ayushman Arogya Mandirs (formerly Health & Wellness Centres) for primary care, and PM-JAY for secondary and tertiary hospitalization. The October 2026 expansion adds universal geriatric coverage for all citizens aged 70+, addressing out-of-pocket medical expenditure in India's rapidly aging demographic.",
+      "backgroundContext": "Also launched on the same day: Phase II of India's first All India Institute of Ayurveda (AIIA) and four Central Research Institutes in Yoga and Naturopathy.",
+      "stakeholders": [
+        "National Health Authority (NHA)",
+        "Ministry of Health and Family Welfare",
+        "Ministry of AYUSH"
+      ],
+      "relatedTopics": [
+        "Ayushman Bharat PM-JAY",
+        "Ayushman Vay Vandana Card",
+        "U-WIN Portal & Mission Indradhanush"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "mcq": {
+        "question": "Consider the following statements regarding the expansion of Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB PM-JAY) via the \"Ayushman Vay Vandana Card\" launched in October 2026:\n1. It provides free health coverage of up to ₹5 lakh per year to all senior citizens aged 70 years and above, only if their annual household income is below ₹2.5 lakh.\n2. Senior citizens aged 70 years and above who belong to families already covered under AB PM-JAY receive an additional shared top-up cover of up to ₹5 lakh per year for themselves.\n3. Beneficiaries of the Ex-Servicemen Contributory Health Scheme (ECHS) and CGHS aged 70+ can choose between their existing scheme or AB PM-JAY.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 1,
+        "explanation": "Statement 1 is incorrect because the coverage for senior citizens aged 70 years and above is UNIVERSAL—there is NO income ceiling or socio-economic restriction. Statements 2 and 3 are correct."
+      }
+    },
+    {
+      "id": "oct-2026-050",
+      "topic": "Polity & Finance Commission",
+      "publicationDate": "2026-10-29",
+      "originalSource": "Ministry of Finance / NITI Aayog",
+      "relatedOfficialDocuments": "16th Finance Commission & 60th GST Council Updates",
+      "text": "The **16th Finance Commission (XVIFC)**, chaired by **Dr. Arvind Panagariya**, conducted extensive state consultations in October 2026 to finalize the vertical and horizontal tax devolution formula for the five-year award period **2026–2031** (commencing April 1, 2026).",
+      "details": {
+        "winner": "16th Finance Commission (Chairman: Dr. Arvind Panagariya)",
+        "award": "Constitutional Tax Devolution Framework (2026–2031)",
+        "nationality": "India",
+        "summary": "Constituted under Article 280 of the Constitution; Secretary: Ritvik Ranjanam Pandey; Full-time members: Ajay Narayan Jha, Annie George Mathew, and Manoj Panda; Part-time member: Soumya Kanti Ghosh."
+      },
+      "upscHighlights": [
+        "Constitutional Basis: Constituted by the President of India under Article 280 of the Constitution every five years to recommend the distribution of net proceeds of taxes between the Union and the States (vertical devolution) and among the States (horizontal devolution).",
+        "Composition of 16th FC: Chairman — Dr. Arvind Panagariya (former Vice-Chairman of NITI Aayog); Secretary — Ritvik Ranjanam Pandey; Members — Ajay Narayan Jha, Annie George Mathew, Dr. Manoj Panda, and Dr. Soumya Kanti Ghosh.",
+        "Additional Mandate: Reviewing the present arrangements for financing Disaster Management initiatives with reference to the funds constituted under the Disaster Management Act, 2005 (NDRF and SDRF).",
+        "Award Period: 5 years from April 1, 2026 to March 31, 2031 (succeeding the 15th Finance Commission chaired by N.K. Singh, which recommended 41% vertical devolution)."
+      ],
+      "institutionalContext": "The Finance Commission is a quasi-judicial constitutional body under Article 280; its recommendations are submitted to the President, who lays them before both Houses of Parliament under Article 281.",
+      "strategicImportance": "Extremely high-yield Polity & Economy question for CDS, NDA, and CAPF, directly applicable to the 2026–2031 fiscal cycle.",
+      "quickSummary": "The <mark class=\"exam-target\">16th Finance Commission</mark>, chaired by <mark class=\"exam-target\">Dr. Arvind Panagariya</mark> under <mark class=\"exam-target\">Article 280</mark>, is formulating the Union-State tax devolution and disaster management funding architecture for the <mark class=\"exam-target\">2026–2031</mark> period.",
+      "detailedAnalysis": "Under the 15th Finance Commission (N.K. Singh), the vertical share of states in the divisible pool of central taxes was set at 41% (adjusted from 42% under the 14th FC following the reorganization of J&K and Ladakh into Union Territories). The 15th FC's horizontal criteria were: Income Distance (45%), Area (15%), Population 2011 (15%), Demographic Performance (12.5%), Forest and Ecology (10%), and Tax & Fiscal Efforts (2.5%). The 16th FC's recommendations govern fiscal federalism from FY 2026–27 to FY 2030–31.",
+      "backgroundContext": "The First Finance Commission of India was constituted in 1951 under the chairmanship of K.C. Neogy.",
+      "stakeholders": [
+        "16th Finance Commission",
+        "President of India",
+        "Ministry of Finance",
+        "State Governments"
+      ],
+      "relatedTopics": [
+        "Article 280 & Article 281",
+        "Vertical vs Horizontal Devolution",
+        "15th vs 16th Finance Commission",
+        "NDRF & SDRF Funding"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "Medium",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "mcq": {
+        "question": "Consider the following statements regarding the 16th Finance Commission of India:\n1. It has been constituted by the President of India under Article 280 of the Constitution, with Dr. Arvind Panagariya as its Chairman.\n2. Its recommendations will cover the five-year award period beginning April 1, 2026 to March 31, 2031.\n3. In addition to tax devolution and grants-in-aid, it has been specifically mandated to review the financing arrangements for Disaster Management funds under the Disaster Management Act, 2005.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 3,
+        "explanation": "All three statements are correct. The 16th Finance Commission, chaired by Dr. Arvind Panagariya, covers the 2026–2031 award cycle under Article 280 and includes reviewing disaster management financing (NDRF/SDRF) in its Terms of Reference."
+      }
+    },
+    {
+      "id": "oct-2026-051",
+      "topic": "International Relations & Global Leadership",
+      "publicationDate": "2026-10-22",
+      "originalSource": "International Diplomatic Updates / MEA",
+      "relatedOfficialDocuments": "ASEAN-India Comprehensive Strategic Partnership",
+      "text": "Southeast Asia witnessed two major presidential transitions in October 2026: former Defence Minister **Prabowo Subianto** was sworn in as the **8th President of Indonesia** (October 20), and Four-Star Army General **Lương Cường** was elected by the National Assembly as the **new President of Vietnam** (October 21).",
+      "details": {
+        "winner": "Prabowo Subianto (Indonesia) & Lương Cường (Vietnam)",
+        "award": "New Presidents of Indonesia and Vietnam",
+        "nationality": "Indonesia & Vietnam (ASEAN)",
+        "summary": "Key leadership transitions in India's two most critical ASEAN defence partners (Indonesia and Vietnam)."
+      },
+      "upscHighlights": [
+        "Indonesia: Prabowo Subianto succeeded Joko Widodo as the 8th President of Indonesia on October 20, with Gibran Rakabuming Raka as Vice President. Indonesia is also developing its new planned capital city \"Nusantara\" in East Kalimantan (Borneo).",
+        "Vietnam: General Lương Cường was elected President of Vietnam on October 21, succeeding Tô Lâm (who continues as General Secretary of the Communist Party).",
+        "Defence Ties with India: Vietnam is a recipient of India's $500 million Defence Line of Credit (L&T High-Speed Guard Boats and INS Kirpan missile corvette handed over by India); Indonesia is in advanced talks for the BrahMos supersonic cruise missile and conducts Exercises Garuda Shakti (Special Forces) and Samudra Shakti (Navy) with India."
+      ],
+      "institutionalContext": "Both Indonesia and Vietnam are pillar partners under India's \"Act East Policy\" and Comprehensive Strategic Partnerships within ASEAN.",
+      "strategicImportance": "High-yield International Relations / Persons in News question for AFCAT, CDS, and NDA.",
+      "quickSummary": "In October 2026, <mark class=\"exam-target\">Prabowo Subianto</mark> took office as the 8th President of <mark class=\"exam-target\">Indonesia</mark>, while General <mark class=\"exam-target\">Lương Cường</mark> was elected President of <mark class=\"exam-target\">Vietnam</mark>—two key ASEAN maritime partners of India.",
+      "detailedAnalysis": "India elevated its ties with Vietnam (2016), Indonesia (2018), and ASEAN as a whole (2022) to Comprehensive Strategic Partnerships. In July 2023, India gifted the indigenously built Khukri-class missile corvette INS Kirpan to the Vietnam People's Navy and conducts bilateral exercise VINBAX with Vietnam.",
+      "backgroundContext": "PM Modi attended the 21st ASEAN-India Summit and 19th East Asia Summit in Vientiane, Laos in October, announcing a 10-point plan and review of the ASEAN-India Trade in Goods Agreement (AITIGA).",
+      "stakeholders": [
+        "Ministry of External Affairs (India)",
+        "ASEAN",
+        "Indonesia & Vietnam"
+      ],
+      "relatedTopics": [
+        "India's Act East Policy",
+        "Exercise VINBAX & INS Kirpan",
+        "Nusantara (New Capital of Indonesia)"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "Medium",
+        "UPSC": "Medium"
+      },
+      "mcq": {
+        "question": "Consider the following statements regarding India's strategic partners in Southeast Asia (October 2026):\n1. Prabowo Subianto was sworn in as the 8th President of Indonesia, while Lương Cường was elected as the President of Vietnam.\n2. The 21st ASEAN–India Summit and 19th East Asia Summit in October 2026 were hosted in Vientiane, Laos.\n3. India recently gifted the indigenously built Khukri-class missile corvette INS Kirpan to the Indonesian Navy.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 0,
+        "explanation": "Statements 1 and 2 are correct. Statement 3 is incorrect because India gifted the Khukri-class missile corvette INS Kirpan to the Vietnam People's Navy (not Indonesia)."
+      }
+    },
+    {
+      "id": "oct-2026-052",
+      "topic": "Sports & International Honours",
+      "publicationDate": "2026-10-28",
+      "originalSource": "France Football / International Sports Desk",
+      "relatedOfficialDocuments": "68th Ballon d'Or, ICC Women's T20 WC & Sultan of Johor Cup",
+      "text": "In late October 2026 sporting milestones, Spain's **Rodri** (Manchester City) and **Aitana Bonmatí** (Barcelona) won the **68th Ballon d'Or** awards in Paris; **New Zealand** won their maiden **ICC Women's T20 World Cup** in Dubai; and the **Indian Junior Men's Hockey Team** clinched the **Bronze Medal** at the **12th Sultan of Johor Cup** in Malaysia.",
+      "details": {
+        "winner": "Rodri & Aitana Bonmatí (Ballon d'Or); New Zealand (Women's T20 WC); India (Bronze, Sultan of Johor Cup)",
+        "award": "October 2026 International Sports Roundup",
+        "nationality": "Spain / New Zealand / India",
+        "summary": "Comprehensive sports digest covering football, cricket, hockey, and table tennis for AFCAT/CDS/NDA."
+      },
+      "upscHighlights": [
+        "68th Ballon d'Or (Paris, Oct 28): Men's Ballon d'Or won by Rodri (Spain / Manchester City — first defensive midfielder since Lothar Matthäus in 1990); Women's Ballon d'Or won by Aitana Bonmatí (Spain / FC Barcelona) for the second consecutive year. Kopa Trophy (Best U-21): Lamine Yamal.",
+        "ICC Women's T20 World Cup (UAE): New Zealand defeated South Africa by 32 runs in the final at Dubai to win their first-ever Women's T20 World Cup title. Player of the Match & Player of the Tournament: Amelia Kerr (New Zealand).",
+        "12th Sultan of Johor Cup (U-21 Men's Hockey, Johor Bahru, Malaysia): Great Britain won Gold (defeating Australia 3–2); India (coached by PR Sreejesh) won the Bronze Medal by defeating New Zealand in a penalty shootout.",
+        "27th Asian Table Tennis Championships (Astana, Kazakhstan): Indian Women's Team won a historic first-ever Bronze medal; Ayhika Mukherjee and Sutirtha Mukherjee won India's first-ever Women's Doubles medal (Bronze)."
+      ],
+      "institutionalContext": "The Ballon d'Or is presented annually by French magazine France Football (in partnership with UEFA from 2024). The Sultan of Johor Cup is a premier international U-21 men's field hockey tournament held in Malaysia.",
+      "strategicImportance": "Sports questions account for 3–5 guaranteed marks in AFCAT, NDA, and CDS General Knowledge papers.",
+      "quickSummary": "Spanish footballers <mark class=\"exam-target\">Rodri</mark> and <mark class=\"exam-target\">Aitana Bonmatí</mark> won the 68th Ballon d'Or in Paris, <mark class=\"exam-target\">New Zealand</mark> won their maiden ICC Women's T20 World Cup in Dubai (Amelia Kerr named Player of the Tournament), and <mark class=\"exam-target\">India</mark> won Bronze at the <mark class=\"exam-target\">Sultan of Johor Cup</mark> U-21 Hockey.",
+      "detailedAnalysis": "Along with international victories, Mumbai (captained by Ajinkya Rahane, with Sarfaraz Khan scoring an unbeaten 222*) defeated Rest of India in Lucknow to clinch their 27th Irani Cup title after a 27-year gap. In shooting, India hosted the ISSF World Cup Final at the Dr. Karni Singh Shooting Range in New Delhi, winning 4 medals (Silver by Sonam Maskar and Anantjeet Singh Naruka; Bronze by Akhil Sheoran and Ganemat Sekhon).",
+      "backgroundContext": "Former Indian hockey goalkeeper PR Sreejesh took charge as head coach of the Indian Junior Men's Hockey Team following his retirement after winning consecutive Olympic Bronze medals (Tokyo 2020 & Paris 2024).",
+      "stakeholders": [
+        "Hockey India",
+        "BCCI / ICC",
+        "Table Tennis Federation of India",
+        "National Rifle Association of India"
+      ],
+      "relatedTopics": [
+        "Ballon d'Or 2026",
+        "ICC Women's T20 World Cup",
+        "Sultan of Johor Cup",
+        "Irani Cup 2026"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "Medium",
+        "UPSC": "Low"
+      },
+      "mcq": {
+        "question": "Consider the following statements regarding major sporting events in October 2026:\n1. Spanish midfielders Rodri and Aitana Bonmatí won the Men's and Women's Ballon d'Or awards respectively in Paris.\n2. New Zealand defeated South Africa in the final held in Dubai to win their maiden ICC Women's T20 World Cup title, with Amelia Kerr named Player of the Tournament.\n3. At the 12th Sultan of Johor Cup (Under-21 Men's Hockey) in Malaysia, Great Britain won the Gold Medal while India secured the Bronze Medal.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 3,
+        "explanation": "All three statements are correct. Rodri and Aitana Bonmatí swept the 68th Ballon d'Or; New Zealand won their first Women's T20 World Cup in Dubai; and Great Britain (Gold), Australia (Silver), and India (Bronze) topped the 12th Sultan of Johor Cup."
+      }
+    }
+  ],
+  "November 2026": [
+    {
+      "id": "nov-2026-001",
+      "topic": "Military Exercises & Special Forces",
+      "publicationDate": "2026-11-02",
+      "originalSource": "PIB / Ministry of Defence",
+      "relatedOfficialDocuments": "15th Edition of India-US Joint Special Forces Exercise VAJRA PRAHAR",
+      "text": "The **15th edition** of the India–US Joint Special Forces Exercise **VAJRA PRAHAR** commenced on November 2, 2026, at the **Orchard Combat Training Centre (OCTC) in Idaho, USA**, featuring elite commandos from the Indian Army's **Parachute Regiment (Special Forces)** and the **US Army Special Forces (Green Berets)**.",
+      "details": {
+        "winner": "Indian Army (Para SF) & US Army Special Forces (Green Berets)",
+        "award": "Exercise Vajra Prahar 2026 (15th Edition)",
+        "nationality": "India & USA",
+        "summary": "Conducted from November 2 to 22 at Orchard Combat Training Centre, Idaho, USA, focusing on desert/mountain special operations, UAS deployment, and JTAC air-ground integration."
+      },
+      "upscHighlights": [
+        "Venue & Edition: 15th edition held at Orchard Combat Training Centre (OCTC) in Idaho, USA (Nov 2–22). The previous 14th edition was held at Umroi, Meghalaya (India).",
+        "Participating Contingents: 45 personnel each from the Indian Army Special Forces (Para SF) and the 1st Special Forces Group of the US Army Green Berets.",
+        "Tactical Focus: High-altitude/semi-desert infiltration, Unmanned Aerial Systems (UAS) reconnaissance, precision sniper engagement, psychological warfare, and Joint Terminal Attack Controller (JTAC) close air support.",
+        "India–US Bilateral Exercises Matrix: Vajra Prahar (Special Forces), Yudh Abhyas (Regular Infantry Army), Cope India (Air Force), Tiger Triumph (Tri-Service Amphibious/HADR), Sangam (Navy MARCOS & US Navy SEALs), and Malabar (Quad Naval)."
+      ],
+      "institutionalContext": "Conducted under the Directorate General of Military Operations (DGMO) and US Indo-Pacific Command (INDOPACOM) to build special operations interoperability under Chapter VII of the UN Charter.",
+      "strategicImportance": "High-priority Defence Exercise question for CDS 1 2027, NDA 1 2027, and AFCAT 1 2027.",
+      "quickSummary": "The 15th edition of the India–US Joint Special Forces Exercise <mark class=\"exam-target\">Vajra Prahar</mark> began on November 2 at the <mark class=\"exam-target\">Orchard Combat Training Centre in Idaho, USA</mark>, involving Indian <mark class=\"exam-target\">Para SF</mark> and US <mark class=\"exam-target\">Green Berets</mark>.",
+      "detailedAnalysis": "Special Forces operations in modern hybrid warfare require seamless integration between ground commandos, loitering munitions, satellite communications, and close air support. During Exercise Vajra Prahar in Idaho, both contingents execute 48-hour continuous validation exercises simulating deep-penetration strikes against high-value terrorist targets in denied environments.",
+      "backgroundContext": "Instituted in 2010, Exercise Vajra Prahar is hosted alternately between India and the United States.",
+      "stakeholders": [
+        "Indian Army (Parachute Regiment Special Forces)",
+        "US Army 1st Special Forces Group (Green Berets)",
+        "US Indo-Pacific Command"
+      ],
+      "relatedTopics": [
+        "Exercise Vajra Prahar vs Yudh Abhyas",
+        "Exercise Sangam (MARCOS & SEALs)",
+        "Exercise Tiger Triumph"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "mcq": {
+        "question": "Consider the following statements regarding the 15th edition of Exercise \"Vajra Prahar\" (November 2026):\n1. It is a bilateral Joint Special Forces exercise conducted between the Indian Army (Para SF) and the US Army Special Forces (Green Berets).\n2. The 15th edition was conducted at the Orchard Combat Training Centre in Idaho, USA.\n3. \"Exercise Sangam\" is the bilateral exercise between the Indian Air Force's Garud Commandos and the French Air and Space Force.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 0,
+        "explanation": "Statements 1 and 2 are correct. Statement 3 is incorrect because \"Exercise Sangam\" is a bilateral naval special forces exercise between the Indian Navy's MARCOS (Marine Commandos) and the US Navy SEALs (not France)."
+      }
+    },
+    {
+      "id": "nov-2026-002",
+      "topic": "Military Exercises & Act East Policy",
+      "publicationDate": "2026-11-01",
+      "originalSource": "PIB / Ministry of Defence",
+      "relatedOfficialDocuments": "9th Edition of India-Indonesia Joint Special Forces Exercise GARUD SHAKTI",
+      "text": "The **9th edition** of the India–Indonesia Joint Special Forces Exercise **GARUD SHAKTI** commenced on November 1, 2026, at **Cijantung, Jakarta, Indonesia**, bringing together elite troops from the Indian **Parachute Regiment (Special Forces)** and the Indonesian Special Forces (**Kopassus**).",
+      "details": {
+        "winner": "Indian Army (Para SF) & Indonesian Special Forces (Kopassus)",
+        "award": "Exercise Garud Shakti 2026 (9th Edition)",
+        "nationality": "India & Indonesia",
+        "summary": "Conducted from November 1 to 12 at Cijantung, Jakarta, focusing on jungle warfare, heliborne special operations, and counter-terrorism."
+      },
+      "upscHighlights": [
+        "Edition & Location: 9th edition held at Mokopassus in Cijantung, Jakarta, Indonesia (Nov 1–12).",
+        "Participants: 25 personnel from the Indian Army's Parachute Regiment (Special Forces) and 40 personnel from Indonesian Special Forces Kopassus (Komando Pasukan Khusus).",
+        "Exam Trap Alert: \"Garud Shakti\" is the India–Indonesia Army Special Forces exercise; \"Samudra Shakti\" is the India–Indonesia Naval exercise; whereas \"Exercise Garuda\" (without Shakti) is the bilateral Air Force exercise between India and France!",
+        "Similarly, \"Exercise Shakti\" is with France (Army), \"Mitra Shakti\" is with Sri Lanka, \"Harimau Shakti\" and \"Udara Shakti\" are with Malaysia."
+      ],
+      "institutionalContext": "Reinforces the India–Indonesia Comprehensive Strategic Partnership and ASEAN defence cooperation under India's Act East Policy.",
+      "strategicImportance": "Classic UPSC/CDS/NDA \"Shakti\" series exercise disambiguation question.",
+      "quickSummary": "The 9th edition of the India–Indonesia Joint Special Forces Exercise <mark class=\"exam-target\">Garud Shakti</mark> kicked off on November 1 at <mark class=\"exam-target\">Cijantung, Jakarta</mark>, between Indian <mark class=\"exam-target\">Para SF</mark> and Indonesian <mark class=\"exam-target\">Kopassus</mark> commandos.",
+      "detailedAnalysis": "Both India and Indonesia face complex archipelagic, jungle, and counter-insurgency security challenges. During the 12-day drill at Jakarta, troops practice special heliborne operations (SHBO), close-quarter battle (CQB) in dense tropical terrain, sniper reconnaissance, and amphibious hostage rescue.",
+      "backgroundContext": "Indonesia lies adjacent to the Andaman and Nicobar Islands across the Six Degree Channel (separating Great Nicobar's Indira Point from Rondo/Sabang Island in Aceh, Sumatra).",
+      "stakeholders": [
+        "Indian Army (Para SF)",
+        "Indonesian National Armed Forces (Kopassus)"
+      ],
+      "relatedTopics": [
+        "Shakti Series Exercises Disambiguation",
+        "Six Degree Channel (India-Indonesia)",
+        "Act East Policy"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "Medium"
+      },
+      "mcq": {
+        "question": "Match the following military exercises containing the word \"Shakti\" or \"Garuda\" with their respective partner countries:\n1. Exercise Garud Shakti — Indonesia (Special Forces)\n2. Exercise Garuda — France (Air Force)\n3. Exercise Mitra Shakti — Sri Lanka (Army)\n4. Exercise Harimau Shakti — Malaysia (Army)\nSelect the correct answer using the code given below:",
+        "options": [
+          "1, 2 and 3 only",
+          "1, 3 and 4 only",
+          "2, 3 and 4 only",
+          "1, 2, 3 and 4"
+        ],
+        "correct": 3,
+        "explanation": "All four pairs are correctly matched! Examiners frequently use \"Garuda\" (India-France Air Force) vs \"Garud Shakti\" (India-Indonesia Special Forces) as a high-yield trap."
+      }
+    },
+    {
+      "id": "nov-2026-003",
+      "topic": "Space Technology & ISRO",
+      "publicationDate": "2026-11-01",
+      "originalSource": "ISRO / Human Spaceflight Centre (HSFC)",
+      "relatedOfficialDocuments": "Hab-1 Analog Space Mission (Leh, Ladakh)",
+      "text": "The Indian Space Research Organisation (**ISRO**) launched **India's first-ever Analog Space Mission** in **Leh, Ladakh** on November 1, 2026, deploying a compact inflatable habitat named **\"Hab-1\"** to simulate interplanetary living conditions for future Lunar and Martian bases.",
+      "details": {
+        "winner": "ISRO (Human Spaceflight Centre), AAKA Space Studio, University of Ladakh & IIT Bombay",
+        "award": "India's First Analog Space Mission (Hab-1, Leh)",
+        "nationality": "India",
+        "summary": "Simulates an extraterrestrial base camp in Ladakh's cold, dry, high-altitude Mars/Moon-like terrain to test hydroponics, life support, and human isolation psychology."
+      },
+      "upscHighlights": [
+        "Collaborative Consortium: Led by ISRO's Human Spaceflight Centre (HSFC, Bengaluru) in collaboration with AAKA Space Studio, University of Ladakh, IIT Bombay, and supported by the Ladakh Autonomous Hill Development Council (LAHDC).",
+        "Habitat \"Hab-1\": An indigenous compact inflatable habitat module equipped with a hydroponics farm, kitchen, sanitation, and closed-loop life support simulation.",
+        "Why Ladakh?: Leh's extreme geomorphology—high altitude (>3,500 m), thin atmosphere, intense UV radiation, extreme diurnal temperature swings, barren permafrost/rocky soil, and low humidity—closely mirrors Martian and Lunar polar environments.",
+        "Strategic Roadmap: Supports the Gaganyaan human spaceflight mission, the Bharatiya Antariksha Station (BAS — Indian Space Station by 2035), and India's target to land an Indian astronaut (Gaganyatri) on the Moon by 2040."
+      ],
+      "institutionalContext": "The Human Spaceflight Centre (HSFC) was established by ISRO in January 2019 in Bengaluru to coordinate the Gaganyaan programme and long-duration human space exploration.",
+      "strategicImportance": "Top-priority Science & Technology / Space question for UPSC Prelims, CDS, NDA, and AFCAT.",
+      "quickSummary": "<mark class=\"exam-target\">ISRO</mark> inaugurated India's first <mark class=\"exam-target\">Analog Space Mission</mark> in <mark class=\"exam-target\">Leh, Ladakh</mark> featuring the inflatable habitat <mark class=\"exam-target\">Hab-1</mark>, simulating Lunar and Martian surface conditions in partnership with HSFC, AAKA Space Studio, University of Ladakh, and IIT Bombay.",
+      "detailedAnalysis": "Analog space missions are Earth-bound field tests conducted in extreme terrestrial environments (such as NASA's CHAPEA, HI-SEAS in Hawaii, or Haughton-Mars Project in Devon Island) to test hardware, EVA suits, communications latency, and crew psychological resilience in isolation before committing to costly orbital launches. Additionally, the Tso Kar valley and Puga valley in Ladakh have previously been recognized by planetary scientists as high-fidelity Mars analog sites.",
+      "backgroundContext": "Earlier, the Union Cabinet approved the building of the first module of the Bharatiya Antariksha Station (BAS-1) by 2028, Chandrayaan-4 (lunar sample return), Venus Orbiter Mission (Shukrayaan), and the Next Generation Launch Vehicle (NGLV \"Soorya\").",
+      "stakeholders": [
+        "ISRO (Human Spaceflight Centre)",
+        "AAKA Space Studio",
+        "University of Ladakh",
+        "IIT Bombay"
+      ],
+      "relatedTopics": [
+        "Hab-1 Analog Space Mission",
+        "Gaganyaan & Bharatiya Antariksha Station (2035)",
+        "NGLV Soorya & Chandrayaan-4"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "mcq": {
+        "question": "Consider the following statements regarding India's first Analog Space Mission launched in November 2026:\n1. It was inaugurated in Leh, Ladakh, utilizing an inflatable habitat module named \"Hab-1\" to simulate interplanetary Lunar and Martian base conditions.\n2. It is a collaborative effort involving ISRO's Human Spaceflight Centre (HSFC), AAKA Space Studio, the University of Ladakh, and IIT Bombay.\n3. Ladakh was chosen because its high-humidity tropical rainforest microclimate mimics the dense carbon dioxide atmosphere of Venus.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 0,
+        "explanation": "Statements 1 and 2 are correct. Statement 3 is incorrect because Ladakh was chosen for its cold, arid, high-altitude desert environment, rocky/permafrost geology, low atmospheric pressure, and high UV radiation, which closely resemble Martian and Lunar conditions (not a tropical rainforest or Venus)."
+      }
+    },
+    {
+      "id": "nov-2026-004",
+      "topic": "Economy, Governance & Personalities",
+      "publicationDate": "2026-11-01",
+      "originalSource": "PIB / Prime Minister's Office",
+      "relatedOfficialDocuments": "Bibek Debroy Committee on Indian Railways Restructuring (2015)",
+      "text": "Renowned Indian economist, polymath, and Padma Shri awardee **Dr. Bibek Debroy**, who served as the **Chairman of the Economic Advisory Council to the Prime Minister (EAC-PM)** and former Member of **NITI Aayog**, passed away on November 1, 2026 at the age of 69.",
+      "details": {
+        "winner": "Dr. Bibek Debroy (1955–2026)",
+        "award": "Chairman of EAC-PM & Architect of Indian Railways Reforms",
+        "nationality": "India",
+        "summary": "Chaired the landmark 2015 Committee on Restructuring of Indian Railways (which led to merging the Railway Budget with the Union Budget in 2017) and translated the unabridged Mahabharata and Puranas into English."
+      },
+      "upscHighlights": [
+        "Institutional Roles: Served as Member of NITI Aayog (2015–2019), Chairman of the Economic Advisory Council to the Prime Minister (EAC-PM, from September 2017 till his demise), and Chairman of the Finance Ministry's Expert Committee on Infrastructure Classification.",
+        "Bibek Debroy Committee on Railways (2014–15): Recommended (1) Merging the 92-year-old separate Railway Budget (started in 1924 on Acworth Committee recommendation) with the General Union Budget (implemented in 2017–18); (2) Unifying 8 Group-A railway services into a single Indian Railway Management Service (IRMS); and (3) Transitioning to commercial accounting.",
+        "Classical Indology & Literature: Translated the 10-volume unabridged Bhandarkar Oriental Research Institute (BORI) Critical Edition of the Mahabharata, Valmiki Ramayana, Bhagavad Gita, Harivamsha, the four Vedas, and major Puranas from Sanskrit into English.",
+        "Honours: Conferred the Padma Shri in 2015."
+      ],
+      "institutionalContext": "The Economic Advisory Council to the Prime Minister (EAC-PM) is an independent, non-constitutional, non-statutory body constituted to advise the Prime Minister on macroeconomic, fiscal, and trade issues.",
+      "strategicImportance": "Very high probability UPSC CDS/NDA/CAPF question combining Indian Economy (Bibek Debroy Committee on Railways, EAC-PM) and Art & Culture (Sanskrit translations).",
+      "quickSummary": "Padma Shri economist <mark class=\"exam-target\">Dr. Bibek Debroy</mark>, Chairman of the <mark class=\"exam-target\">Economic Advisory Council to the Prime Minister (EAC-PM)</mark>, architect of the <mark class=\"exam-target\">Railway Budget merger</mark>, and translator of the unabridged <mark class=\"exam-target\">Mahabharata</mark>, passed away on November 1.",
+      "detailedAnalysis": "In UPSC examinations, committees and their specific reform recommendations are a staple. The Acworth Committee (1920–21) had separated the Railway Budget from the General Budget in 1924. Nearly nine decades later, the Bibek Debroy Committee (2015) recommended ending this colonial practice, which the Government implemented from the FY 2017–18 Budget.",
+      "backgroundContext": "Following his passing, NITI Aayog Vice-Chairman Suman Bery was assigned additional charge of the EAC-PM.",
+      "stakeholders": [
+        "Economic Advisory Council to the PM (EAC-PM)",
+        "NITI Aayog",
+        "Ministry of Railways"
+      ],
+      "relatedTopics": [
+        "Bibek Debroy Committee vs Acworth Committee",
+        "Economic Advisory Council to the PM (EAC-PM)",
+        "Indian Railway Management Service (IRMS)"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "High",
+        "UPSC": "High"
+      },
+      "mcq": {
+        "question": "Consider the following statements regarding the contributions of late economist Dr. Bibek Debroy (who passed away in November 2026):\n1. He served as the Chairman of the Economic Advisory Council to the Prime Minister (EAC-PM) and as a full-time member of NITI Aayog.\n2. The Bibek Debroy Committee (2015) on Indian Railways restructuring recommended merging the separate Railway Budget with the General Union Budget, reversing the 1924 separation introduced on the recommendation of the Acworth Committee.\n3. In addition to economics, he translated the 10-volume unabridged Critical Edition of the Mahabharata into English.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 3,
+        "explanation": "All three statements are correct. Dr. Bibek Debroy chaired the EAC-PM, authored the landmark 2015 Railway Restructuring Report (ending the 1924 Acworth Committee separation of budgets), and translated the unabridged Mahabharata and major Puranas."
+      }
+    },
+    {
+      "id": "nov-2026-005",
+      "topic": "Missile Technology & DRDO",
+      "publicationDate": "2026-11-02",
+      "originalSource": "PIB / DRDO",
+      "relatedOfficialDocuments": "Guided Pinaka Multi-Barrel Rocket Launcher (MBRL) System",
+      "text": "The Defence Research and Development Organisation (**DRDO**) and the Indian Army validated the **Guided Pinaka Weapon System** across multiple flight trials, extending the strike range of the indigenous **Pinaka Multi-Barrel Rocket Launcher (MBRL)** to **over 75 km** with pinpoint inertial/NavIC satellite accuracy.",
+      "details": {
+        "winner": "DRDO (ARDE Pune) & Indian Army Regiment of Artillery",
+        "award": "Validation of Guided Pinaka Weapon System (>75 km Range)",
+        "nationality": "India",
+        "summary": "Upgrades the unguided area-saturation rocket system into a precision-guided strike weapon; Armenia and France have expressed/signed export interest in Pinaka."
+      },
+      "upscHighlights": [
+        "Developed by DRDO's Armament Research and Development Establishment (ARDE, Pune) along with Research Centre Imarat (RCI), DRDL, and HEMRL.",
+        "Evolution of Pinaka Ranges: Pinaka Mk-I (~37.5 to 40 km); Pinaka Mk-I Enhanced / EPRS (~45 km); Guided Pinaka Mk-II (~75 km to 90 km with navigation, guidance, and control kit).",
+        "Firepower: A single Pinaka battery consists of 6 launcher vehicles, each carrying 12 rockets, capable of firing a salvo of 72 rockets in 44 seconds to neutralize a 1,000m × 800m target area.",
+        "Export Milestone: Armenia became the first foreign export customer for the indigenous Pinaka MBRL system, while France evaluated the system for its artillery requirements."
+      ],
+      "institutionalContext": "Manufactured in India by a public-private consortium including Munitions India Limited (MIL), Economic Explosives Limited (Solar Industries, Nagpur), Larsen & Toubro (L&T), and Tata Advanced Systems (TASL).",
+      "strategicImportance": "Core Defence Technology topic for CDS, NDA, and AFCAT.",
+      "quickSummary": "<mark class=\"exam-target\">DRDO</mark> validated the <mark class=\"exam-target\">Guided Pinaka</mark> Multi-Barrel Rocket System (developed by ARDE Pune), extending its precision strike range beyond <mark class=\"exam-target\">75 km</mark> and firing a 12-rocket salvo in 44 seconds.",
+      "detailedAnalysis": "Named after Lord Shiva's bow, the Pinaka MBRL first proved its combat mettle during the 1999 Kargil War by neutralizing enemy positions atop mountain peaks. By integrating a nose-mounted aerodynamic control and INS/GPS/NavIC guidance kit, Guided Pinaka reduces the Circular Error Probable (CEP) from hundreds of meters to just a few meters at 75+ km ranges.",
+      "backgroundContext": "Forms the backbone of the Indian Army's Rocket Artillery alongside the Russian-origin Smerch (90 km) and the longer-range Pralay quasi-ballistic missile (150–500 km).",
+      "stakeholders": [
+        "DRDO (ARDE Pune)",
+        "Indian Army (Regiment of Artillery)",
+        "Solar Industries / L&T / TASL / MIL"
+      ],
+      "relatedTopics": [
+        "Pinaka MBRL Variants",
+        "Pralay Tactical Missile",
+        "Indian Defence Exports (Armenia)"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "High",
+        "CDS": "High",
+        "AFCAT": "High",
+        "CAPF": "Medium",
+        "UPSC": "High"
+      },
+      "mcq": {
+        "question": "Consider the following statements regarding the indigenous \"Pinaka\" weapon system:\n1. It is a free-flight and precision-guided Multi-Barrel Rocket Launcher (MBRL) system developed by DRDO's Armament Research and Development Establishment (ARDE), Pune.\n2. A single Pinaka launcher vehicle can fire a salvo of 12 rockets in 44 seconds, and the Guided Pinaka variant extends the strike range to over 75 km.\n3. Armenia became the first international export customer for the Indian-made Pinaka rocket system.\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correct": 3,
+        "explanation": "All three statements are correct. Developed by ARDE (DRDO), Pinaka fires 12 rockets in 44 seconds per launcher (72 rockets per 6-launcher battery), its Guided Mk-II variant reaches 75+ km, and Armenia was its first export buyer."
+      }
     }
   ]
 };
