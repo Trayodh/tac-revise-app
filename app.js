@@ -284,9 +284,20 @@ window.fetch = async function() {
 
 
 
+            let aiFinishReason = 'STOP';
+
             if (targetAI === 'gemini') {
 
                 try {
+                    const geminiCleanBody = Object.assign({}, reqBody);
+                    delete geminiCleanBody.model;
+                    delete geminiCleanBody.stream;
+                    if (geminiCleanBody.generationConfig && geminiCleanBody.generationConfig.response_mime_type) {
+                        geminiCleanBody.generationConfig = Object.assign({}, geminiCleanBody.generationConfig, {
+                            responseMimeType: geminiCleanBody.generationConfig.response_mime_type
+                        });
+                        delete geminiCleanBody.generationConfig.response_mime_type;
+                    }
 
                     const res = await originalFetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=PROCESS_ENV_GEMINI_KEY`, {
 
@@ -298,7 +309,7 @@ window.fetch = async function() {
 
                         },
 
-                        body: JSON.stringify(reqBody)
+                        body: JSON.stringify(geminiCleanBody)
 
                     });
 
@@ -309,6 +320,7 @@ window.fetch = async function() {
                     if (data.candidates && data.candidates[0] && data.candidates[0].content && data.candidates[0].content.parts) {
 
                         aiText = data.candidates[0].content.parts.map(p => p.text).join("");
+                        aiFinishReason = data.candidates[0].finishReason || 'STOP';
 
                     } else {
 
@@ -342,7 +354,7 @@ window.fetch = async function() {
 
                         temperature: reqBody.generationConfig?.temperature || 0.7,
 
-                        max_completion_tokens: 1500
+                        max_completion_tokens: Math.min(Math.max(reqBody.generationConfig?.maxOutputTokens || 8192, 4096), 32768)
 
                     };
 
@@ -371,6 +383,7 @@ window.fetch = async function() {
                     const data = await res.json();
 
                     aiText = data.choices?.[0]?.message?.content || "";
+                    if (data.choices?.[0]?.finish_reason === 'length') aiFinishReason = 'MAX_TOKENS';
 
                     callSuccessful = true;
 
@@ -390,7 +403,7 @@ window.fetch = async function() {
 
                 candidates: [
 
-                    { content: { parts: [{ text: aiText }] } }
+                    { content: { parts: [{ text: aiText }] }, finishReason: aiFinishReason }
 
                 ]
 
@@ -5988,102 +6001,254 @@ document.getElementById("ai-generate-btn").addEventListener("click", async () =>
 
 
 
+function stitchCheatSheetHtmlChunks(existingHtml, nextChunk) {
+  let cleanChunk = (nextChunk || "")
+    .replace(/^```html\s*/i, "")
+    .replace(/^```\s*/i, "")
+    .replace(/\s*```$/i, "")
+    .trim();
+  if (!existingHtml) return cleanChunk;
+  if (!cleanChunk) return existingHtml;
+
+  // If the continuation accidentally repeated a suffix of existingHtml, remove the overlap
+  const tailLen = Math.min(existingHtml.length, 800);
+  const tail = existingHtml.slice(-tailLen);
+  let overlapLen = 0;
+  for (let len = Math.min(tail.length, cleanChunk.length); len >= 12; len--) {
+    if (tail.endsWith(cleanChunk.slice(0, len))) {
+      overlapLen = len;
+      break;
+    }
+  }
+  if (overlapLen > 0) {
+    cleanChunk = cleanChunk.slice(overlapLen);
+  }
+
+  // If existingHtml ended inside an unclosed opening '<tag...' and cleanChunk restarted with '<', trim the broken tail tag
+  let baseHtml = existingHtml;
+  const lastOpenBracket = baseHtml.lastIndexOf("<");
+  const lastCloseBracket = baseHtml.lastIndexOf(">");
+  if (lastOpenBracket > lastCloseBracket && cleanChunk.trimStart().startsWith("<")) {
+    baseHtml = baseHtml.slice(0, lastOpenBracket);
+  }
+
+  return baseHtml + "\n" + cleanChunk;
+}
+
+function isCheatSheetOutputComplete(html, finishReason) {
+  if (!html || html.trim().length < 200) return false;
+  if (html.includes("<!-- CHEAT_SHEET_COMPLETE -->")) return true;
+  if (finishReason === "MAX_TOKENS" || finishReason === "LENGTH" || finishReason === "length") return false;
+
+  const openDivs = (html.match(/<div\b/gi) || []).length;
+  const closeDivs = (html.match(/<\/div\s*>/gi) || []).length;
+  if (openDivs > closeDivs) return false;
+
+  // Check if HTML ends mid-tag
+  const trimmed = html.trim();
+  if (!trimmed.endsWith(">")) return false;
+  return true;
+}
+
+function sanitizeAndUnclipCheatSheetHtml(rawHtml) {
+  let cleaned = (rawHtml || "")
+    .replace(/```html/gi, "")
+    .replace(/```/g, "")
+    .replace(/<!--\s*CHEAT_SHEET_COMPLETE\s*-->/gi, "")
+    .trim();
+
+  // Strip fixed page/A4 height, max-height, aspect-ratio, and overflow:hidden inside generated <style> blocks
+  cleaned = cleaned.replace(/<style[^>]*>([\s\S]*?)<\/style>/gi, (fullMatch, cssContent) => {
+    const safeCss = cssContent
+      .replace(/max-height\s*:\s*[^;!}]+;?/gi, "max-height: none;")
+      .replace(/aspect-ratio\s*:\s*[^;!}]+;?/gi, "aspect-ratio: auto;")
+      .replace(/overflow(-y)?\s*:\s*(hidden|auto|scroll)\s*;?/gi, "overflow$1: visible;")
+      .replace(/height\s*:\s*(?:297mm|210mm|1122px|1123px|100vh|100dvh|100%)\s*;?/gi, "height: auto;");
+    return `<style>${safeCss}</style>`;
+  });
+
+  // Balance any unclosed <div> tags if continuation limit was reached
+  const openDivs = (cleaned.match(/<div\b/gi) || []).length;
+  const closeDivs = (cleaned.match(/<\/div\s*>/gi) || []).length;
+  if (openDivs > closeDivs) {
+    cleaned += "\n" + "</div>".repeat(openDivs - closeDivs);
+  }
+
+  const unclipOverrideStyle = `
+    <style>
+      #cheat-sheet-content,
+      #cheat-sheet-content .printable-cheat-sheet,
+      #cheat-sheet-content .printable-cheat-sheet * {
+        max-height: none !important;
+      }
+      #cheat-sheet-content,
+      #cheat-sheet-content .printable-cheat-sheet {
+        height: auto !important;
+        min-height: 0 !important;
+        overflow: visible !important;
+        aspect-ratio: auto !important;
+      }
+    </style>
+  `;
+
+  return unclipOverrideStyle + cleaned;
+}
+
+function unclipRenderedCheatSheetDom(containerEl) {
+  if (!containerEl) return;
+  containerEl.style.setProperty("height", "auto", "important");
+  containerEl.style.setProperty("max-height", "none", "important");
+  containerEl.style.setProperty("overflow", "visible", "important");
+
+  const allNodes = containerEl.querySelectorAll("*");
+  allNodes.forEach(el => {
+    const tag = el.tagName ? el.tagName.toLowerCase() : "";
+    if (tag === "style" || tag === "script" || tag === "svg" || tag === "path") return;
+    if (el.style) {
+      if (el.style.maxHeight) el.style.setProperty("max-height", "none", "important");
+      if (el.style.aspectRatio) el.style.setProperty("aspect-ratio", "auto", "important");
+      if (el.style.overflow === "hidden" || el.style.overflowY === "hidden" || el.style.overflowY === "auto" || el.style.overflowY === "scroll") {
+        el.style.setProperty("overflow", "visible", "important");
+        el.style.setProperty("overflow-y", "visible", "important");
+      }
+      const inlineH = (el.style.height || "").trim();
+      if (inlineH && (inlineH.endsWith("mm") || inlineH.endsWith("cm") || inlineH.endsWith("vh") || inlineH.endsWith("dvh") || parseInt(inlineH, 10) > 120)) {
+        el.style.setProperty("height", "auto", "important");
+      }
+    }
+  });
+}
+
 async function triggerAiCheatSheetGeneration(topic) {
 
   const area = document.getElementById("ai-result-area");
 
   area.style.display = "block";
 
-  area.className = "ai-response-area loading";
+  area.className = "ai-response-area fade-in";
 
-  area.innerHTML = `
+  const updateProgressUi = (statusTitle, statusSub) => {
+    area.innerHTML = `
+      <div style="text-align: center; padding: 32px 20px;">
+        <div class="cbt-spinner" style="border-color: var(--accent); border-top-color: transparent; width: 44px; height: 44px; border-width: 4px; margin: 0 auto 16px;"></div>
+        <p style="color: var(--accent); font-family: var(--font-logo); font-weight: 700; font-size: 1.05rem; letter-spacing: 0.5px;">${statusTitle}</p>
+        <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 6px;">${statusSub}</p>
+      </div>
+    `;
+  };
 
-    <div style="text-align: center; margin-top: 20px;">
-
-      <div class="cbt-spinner" style="border-color: var(--accent); border-top-color: transparent; width: 40px; height: 40px; border-width: 4px; margin: 0 auto 16px;"></div>
-
-      <p style="color: var(--accent); font-family: var(--font-logo); font-weight: 600;">DESIGNING GRAPHIC CHEAT SHEET...</p>
-
-      <p style="color: var(--text-muted); font-size: 0.9rem;">Formulating visual layout for ${topic}...</p>
-
-    </div>
-
-  `;
-
-
+  updateProgressUi(
+    "DESIGNING COMPLETE GRAPHIC CHEAT SHEET...",
+    `Formulating exhaustive visual layout for "${topic}" (taking time to generate 100% complete content)...`
+  );
 
   const prompt = `You are a Graphic Designer and Military Educator.
 
-The user wants a "Cheat Sheet" for the topic: "${topic}".
+The user wants a COMPLETE, EXHAUSTIVE "Cheat Sheet" for the topic: "${topic}".
 
 Generate a standalone HTML output that represents a highly visual, printable "Graphic Cheat Sheet".
-
-
 
 STRICT RULES:
 
 1. ONLY return raw HTML. Do not wrap it in markdown code blocks (\`\`\`html).
 
-2. The entire cheat sheet should be wrapped in a <div class="printable-cheat-sheet" style="max-width: 100%; overflow-wrap: break-word;">.
+2. The entire cheat sheet MUST be wrapped in a <div class="printable-cheat-sheet" style="max-width: 100%; height: auto; overflow: visible; overflow-wrap: break-word;">.
 
-3. CRITICAL: Define all CSS classes in a <style> block at the top instead of repeating inline styles on every element. This saves tokens. Ensure it is mobile-responsive by using flex-wrap where necessary.
+3. CRITICAL: Define all CSS classes in a <style> block at the top instead of repeating inline styles on every element. This saves tokens. Ensure it is mobile-responsive by using flex-wrap or responsive CSS grid where necessary.
 
 4. The theme MUST be Dark Mode (light text on dark backgrounds) matching a sleek, modern cyber/military aesthetic.
 
-5. Use CSS Grid or Flexbox to organize the data into distinct, colorful "boxes" or "cards" (e.g., pastel yellow for formulas, pastel blue for key concepts).
+5. Use CSS Grid or Flexbox to organize the data into distinct, colorful "boxes" or "cards" (e.g., cyan, amber, emerald, rose, violet borders and badges).
 
-6. BE EXHAUSTIVE AND COMPREHENSIVE. Do NOT omit any important formulas, dates, or facts. Provide a complete reference. You MUST ALWAYS list EVERY SINGLE item in the requested category. NEVER summarize or sample just a few (like 3 or 6). CRITICAL: NEVER use placeholders like "<!-- list continues -->" or "...". You must output the actual complete HTML code and data for ALL items.
+6. BE 100% EXHAUSTIVE AND COMPREHENSIVE. Do NOT omit any important formulas, commands, formations, dates, or facts. Provide a complete master reference. You MUST ALWAYS list EVERY SINGLE item in the requested category. NEVER summarize or sample just a few (like 3 or 4 out of 7). CRITICAL: NEVER use placeholders like "<!-- list continues -->" or "...". You must output the actual complete HTML code and data for ALL items from first to last.
 
 7. NEVER use HTML character entities for mathematical formatting (like &sub1; or &supx;). Always use actual LaTeX math syntax like \\( ... \\) for inline math and \\[ ... \\] for block equations, as MathJax is enabled.
 
 8. CRITICAL FACTUAL ACCURACY: You are a military educator. Do not invent dates or armaments. Use 100% accurate, standard known facts. If you do not know a specific detail, omit the field rather than hallucinating.
 
-9. NO SUMMARIES: If there are 20 or 40 items in reality, you MUST list all of them. Think deeply and list every single active, retired, and under-development item you know. For example, for IAF Helicopters, include Apache, Chinook, Prachand, Mi-26, Mi-35, etc. For Missiles, include all variants of Agni, Prithvi, BrahMos, Astra, Akash, SAMAR, Barak, Spyder, Python, R-73, R-77, MICA, Meteor, ASRAAM, Kh-31, Crystal Maze, etc.
+9. NO SUMMARIES: If there are 7 Commands, 14 Corps, 20 Aircraft, or 40 Missiles in reality, you MUST list and detail ALL of them completely. For example, for Indian Army Commands, you MUST include all 6 Operational Commands (Northern, Western, Eastern, Southern, Central, South Western) AND 1 Training Command (ARTRAC) plus Tri-Service Commands (ANC, SFC), with every command card fully completed (Motto, HQ, Area of Operation, Subordinate Corps, Key Formations/Divisions, and Special Details).
 
-10. Make the typography clear, legible, and structured for A4 paper. Include a large Title at the top.`;
+10. INFINITE VERTICAL CANVAS (NO HEIGHT OR PAGE CLIPPING): NEVER set fixed height, max-height, aspect-ratio, or overflow: hidden on .printable-cheat-sheet, grids, sections, or cards. The layout must expand vertically (height: auto; max-height: none; overflow: visible;) to accommodate 100% of the content no matter how vast. Include a large Title banner at the top.
 
-
+11. COMPLETION MARKER: When you have completely finished generating every single card, section, and closing </div> tag of the cheat sheet, output the exact HTML comment <!-- CHEAT_SHEET_COMPLETE --> at the very end.`;
 
   try {
+    let accumulatedHtml = "";
+    let conversationContents = [{ role: "user", parts: [{ text: prompt }] }];
+    const MAX_PARTS = 5;
 
-    const payload = {
+    for (let part = 1; part <= MAX_PARTS; part++) {
+      if (part > 1) {
+        updateProgressUi(
+          `EXPANDING VAST CHEAT SHEET (PART ${part})...`,
+          `Generated ${Math.round(accumulatedHtml.length / 1024)} KB so far for "${topic}" — continuing until 100% complete...`
+        );
+      }
 
-      model: 'gemini-3.8-flash',
-
-      contents: [{ parts: [{ text: prompt }] }],
-      generationConfig: { maxOutputTokens: 8192, temperature: 0 }
-
-    };
-
-    
-
-    const response = await fetch('/api/gemini', {
-
-      method: 'POST',
-
-      headers: { 'Content-Type': 'application/json' },
-
-      body: JSON.stringify(payload)
-
-    });
-
-
-
-    let data;
-    if (!response.ok) {
-        try {
-            data = await response.json();
-        } catch(e) {}
-        if (data && data.candidates && data.candidates[0] && data.candidates[0].content && data.candidates[0].content.parts) {
-            // Proceed to render the 500 fallback message (Quota exhausted)
-        } else {
-            throw new Error(`API Error: ${response.status}`);
+      const payload = {
+        model: "gemini-2.5-flash",
+        contents: conversationContents,
+        generationConfig: {
+          maxOutputTokens: 65536,
+          temperature: 0.1,
+          thinkingConfig: { thinkingBudget: 2048 }
         }
-    } else {
+      };
+
+      const response = await fetch("/api/gemini", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload)
+      });
+
+      let data;
+      if (!response.ok) {
+        try {
+          data = await response.json();
+        } catch (e) {}
+        if (data && data.candidates && data.candidates[0] && data.candidates[0].content && data.candidates[0].content.parts) {
+          // Proceed if fallback message provided
+        } else {
+          if (accumulatedHtml.length > 500) break;
+          throw new Error(`API Error: ${response.status}`);
+        }
+      } else {
         data = await response.json();
+      }
+
+      const chunkText = data.candidates?.[0]?.content?.parts?.map(p => p.text || "").join("") || data.text || "";
+      const finishReason = data.candidates?.[0]?.finishReason || "STOP";
+
+      if (!chunkText.trim()) break;
+
+      accumulatedHtml = stitchCheatSheetHtmlChunks(accumulatedHtml, chunkText);
+
+      if (isCheatSheetOutputComplete(accumulatedHtml, finishReason)) {
+        break;
+      }
+
+      // Prepare continuation turn for the remaining content
+      const tailSnippet = accumulatedHtml.slice(-600);
+      const continuationInstruction = `Your previous HTML output for the cheat sheet on "${topic}" was cut off before completion.
+Here are the exact last characters you output:
+"""
+${tailSnippet}
+"""
+CRITICAL CONTINUATION INSTRUCTIONS:
+1. Continue outputting the EXACT raw HTML from the exact point where you stopped.
+2. Do NOT repeat the <style> block, title banner, or any cards/HTML already generated.
+3. Do NOT wrap your output in \`\`\`html markdown fences.
+4. Complete the unfinished card/element first, and then generate ALL remaining items, commands, formations, and sections exhaustively without skipping or summarizing.
+5. Close all open HTML tags properly and end with <!-- CHEAT_SHEET_COMPLETE -->.`;
+
+      conversationContents = [
+        { role: "user", parts: [{ text: prompt }] },
+        { role: "model", parts: [{ text: accumulatedHtml }] },
+        { role: "user", parts: [{ text: continuationInstruction }] }
+      ];
     }
 
-    let reportHtml = (data.candidates?.[0]?.content?.parts?.[0]?.text || data.text || "").replace(/\`\`\`html/g, "").replace(/\`\`\`/g, "").trim();
+    const reportHtml = sanitizeAndUnclipCheatSheetHtml(accumulatedHtml);
 
     area.className = "ai-response-area fade-in";
 
@@ -6093,7 +6258,7 @@ STRICT RULES:
 
         <h3 style="color: var(--accent); margin: 0;">AI Generated Cheat Sheet</h3>
 
-        <button class="btn-primary" onclick="window.downloadCheatSheetImage()" style="padding: 6px 16px; font-size: 0.9rem;">
+        <button id="save-cheatsheet-img-btn" class="btn-primary" onclick="window.downloadCheatSheetImage()" style="padding: 6px 16px; font-size: 0.9rem;">
 
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 16px; height: 16px; display: inline-block; vertical-align: middle; margin-right: 6px;">
 
@@ -6107,7 +6272,7 @@ STRICT RULES:
 
       </div>
 
-      <div id="cheat-sheet-content" style="background: var(--bg-secondary); padding: 20px; border-radius: 8px; color: var(--text-primary); border: 1px solid var(--border); box-shadow: 0 4px 6px -1px rgba(0,0,0,0.2);">
+      <div id="cheat-sheet-content" style="background: var(--bg-secondary); padding: 20px; border-radius: 8px; color: var(--text-primary); border: 1px solid var(--border); box-shadow: 0 4px 6px -1px rgba(0,0,0,0.2); height: auto; max-height: none; overflow: visible;">
 
         ${reportHtml}
 
@@ -6115,17 +6280,13 @@ STRICT RULES:
 
     `;
 
-    
+    const contentEl = document.getElementById("cheat-sheet-content");
+    unclipRenderedCheatSheetDom(contentEl);
 
     // Attempt MathJax rendering if equations are present
-
-    if (window.MathJax && typeof window.MathJax.typeset === 'function') {
-
+    if (window.MathJax && typeof window.MathJax.typeset === "function") {
       window.MathJax.typeset();
-
     }
-
-
 
   } catch (err) {
 
@@ -6148,9 +6309,7 @@ window.downloadCheatSheetImage = async function() {
 
   if (!content) return;
 
-  
-
-  if (typeof html2canvas === 'undefined') {
+  if (typeof html2canvas === "undefined") {
 
     alert("Image generator library is loading, please wait a second and try again.");
 
@@ -6158,33 +6317,98 @@ window.downloadCheatSheetImage = async function() {
 
   }
 
-  
+  const saveBtn = document.getElementById("save-cheatsheet-img-btn");
+  const originalBtnHtml = saveBtn ? saveBtn.innerHTML : "";
+  if (saveBtn) {
+    saveBtn.disabled = true;
+    saveBtn.innerHTML = "Rendering Full Image...";
+  }
 
   try {
+    // Ensure all dynamic styles/containers are unclipped before measuring
+    unclipRenderedCheatSheetDom(content);
+
+    if (window.MathJax && typeof window.MathJax.typesetPromise === "function") {
+      try { await window.MathJax.typesetPromise([content]); } catch (e) {}
+    }
+    if (document.fonts && document.fonts.ready) {
+      try { await document.fonts.ready; } catch (e) {}
+    }
+
+    const fullWidth = Math.max(content.scrollWidth, content.offsetWidth, 800);
+    const fullHeight = Math.max(content.scrollHeight, content.offsetHeight, 600);
+
+    // Keep high 2x resolution while preventing browser max canvas height overflow on extremely vast sheets
+    let renderScale = 2;
+    if (fullHeight * renderScale > 15500) {
+      renderScale = Math.max(1, Math.floor((15500 / fullHeight) * 100) / 100);
+    }
 
     const canvas = await html2canvas(content, {
+      backgroundColor: "#0a1128",
+      scale: renderScale,
+      useCORS: true,
+      allowTaint: true,
+      logging: false,
+      scrollX: 0,
+      scrollY: 0,
+      x: 0,
+      y: 0,
+      width: fullWidth,
+      height: fullHeight,
+      windowWidth: Math.max(document.documentElement.clientWidth || 1200, fullWidth + 100),
+      windowHeight: fullHeight + 300,
+      onclone: (clonedDoc) => {
+        const clonedContent = clonedDoc.getElementById("cheat-sheet-content");
+        if (!clonedContent) return;
 
-      backgroundColor: "#111827", // match var(--bg-secondary)
+        // Unclip every ancestor up to <html> so 100vh / overflow:hidden on body & .main-content never clips html2canvas
+        let ancestor = clonedContent;
+        while (ancestor && ancestor !== clonedDoc) {
+          if (ancestor.style) {
+            ancestor.style.setProperty("height", "auto", "important");
+            ancestor.style.setProperty("min-height", "0", "important");
+            ancestor.style.setProperty("max-height", "none", "important");
+            ancestor.style.setProperty("overflow", "visible", "important");
+            ancestor.style.setProperty("overflow-x", "visible", "important");
+            ancestor.style.setProperty("overflow-y", "visible", "important");
+            ancestor.style.setProperty("transform", "none", "important");
+          }
+          ancestor = ancestor.parentElement;
+        }
 
-      scale: 2 // higher res
-
+        unclipRenderedCheatSheetDom(clonedContent);
+      }
     });
 
-    
-
-    const imgData = canvas.toDataURL("image/jpeg", 0.95);
-
-    const link = document.createElement('a');
-
-    link.href = imgData;
-
-    link.download = `Jayastra_CheatSheet_${Date.now()}.jpg`;
-
-    document.body.appendChild(link);
-
-    link.click();
-
-    document.body.removeChild(link);
+    const filename = `Jayastra_CheatSheet_${Date.now()}.jpg`;
+    if (typeof canvas.toBlob === "function") {
+      await new Promise((resolve, reject) => {
+        canvas.toBlob((blob) => {
+          if (!blob) {
+            reject(new Error("Canvas toBlob returned null"));
+            return;
+          }
+          const blobUrl = URL.createObjectURL(blob);
+          const link = document.createElement("a");
+          link.href = blobUrl;
+          link.download = filename;
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+          setTimeout(() => URL.revokeObjectURL(blobUrl), 10000);
+          resolve();
+        }, "image/jpeg", 0.95);
+      });
+    } else {
+      const imgData = canvas.toDataURL("image/jpeg", 0.95);
+      const link = document.createElement("a");
+      link.href = imgData;
+      link.download = filename;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
 
   } catch (err) {
 
@@ -6192,6 +6416,11 @@ window.downloadCheatSheetImage = async function() {
 
     alert("Failed to save image. Please try again.");
 
+  } finally {
+    if (saveBtn) {
+      saveBtn.disabled = false;
+      saveBtn.innerHTML = originalBtnHtml;
+    }
   }
 
 }

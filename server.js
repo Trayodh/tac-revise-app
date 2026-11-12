@@ -656,11 +656,9 @@ For database storage steps, use provider "Supabase" and provide a "key" and "dat
         const payload = JSON.parse(body);
         let { model, contents, stream, generationConfig, tools, systemInstruction } = payload;
         
-        // Map futuristic/invalid model names from the frontend UI to actual working API endpoints
-        if (model === 'gemini-3.1-pro' || model === 'gemini-3.6-flash' || model === 'gemini-1.5-pro' || model === 'gemini-1.5-flash' || model === 'gemini-2.0-flash') {
-          model = 'gemini-3.8-flash'; // Fallback to the latest valid model
-        } else if (!model) {
-          model = 'gemini-3.8-flash';
+        // Map model names from the frontend UI to fast, high-capacity working API endpoints (65,536 maxOutputTokens)
+        if (model === 'gemini-3.8-flash' || model === 'gemini-3.6-flash' || model === 'gemini-3.1-pro' || model === 'gemini-1.5-pro' || model === 'gemini-1.5-flash' || model === 'gemini-2.0-flash' || !model) {
+          model = 'gemini-2.5-flash';
         }
 
         // Map response_mime_type to responseMimeType for Google API
@@ -716,7 +714,7 @@ ${textPrompt}`;
           }
         }
         
-        if (textPrompt && textPrompt.match(/Cheat Sheet["'] for the topic: ["']/)) {
+        if (textPrompt && (!contents || contents.length === 1) && textPrompt.match(/Cheat Sheet["'] for the topic: ["']/) && !textPrompt.includes('CRITICAL KNOWLEDGE UPDATE (2025-2026):')) {
             const topicMatch = textPrompt.match(/topic: ["']([^"']+)["']/);
             if (topicMatch && topicMatch[1]) {
                 const topic = topicMatch[1];
@@ -737,12 +735,12 @@ ${textPrompt}`;
                     }
 
                     const searchUrl = `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(topic)}&utf8=&format=json`;
-                    const searchRes = await axios.get(searchUrl, { headers: { 'User-Agent': 'DefenceExamsApp/1.0 (admin@example.com)' } });
+                    const searchRes = await axios.get(searchUrl, { headers: { 'User-Agent': 'DefenceExamsApp/1.0 (admin@example.com)' }, timeout: 5000 });
                     if (searchRes.data && searchRes.data.query && searchRes.data.query.search.length > 0) {
                         const topResult = searchRes.data.query.search[0].title;
                         console.log(`[WIKI] Top match: ${topResult}`);
                         const pageUrl = `https://en.wikipedia.org/w/api.php?action=query&prop=extracts&exintro=false&explaintext=true&titles=${encodeURIComponent(topResult)}&format=json`;
-                        const pageRes = await axios.get(pageUrl, { headers: { 'User-Agent': 'DefenceExamsApp/1.0 (admin@example.com)' } });
+                        const pageRes = await axios.get(pageUrl, { headers: { 'User-Agent': 'DefenceExamsApp/1.0 (admin@example.com)' }, timeout: 5000 });
                         const pages = pageRes.data.query.pages;
                         const pageId = Object.keys(pages)[0];
                         const extract = pages[pageId].extract;
@@ -770,11 +768,8 @@ ${textPrompt}`;
 
         let apiResponse = null;
         let success = false;
-        
-        let targetUrl = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${GEMINI_KEY}`;
-        if (stream) {
-          targetUrl = `https://generativelanguage.googleapis.com/v1beta/models/${model}:streamGenerateContent?alt=sse&key=${GEMINI_KEY}`;
-        }
+
+        const geminiModelsToTry = Array.from(new Set([model, 'gemini-2.5-flash', 'gemini-3-flash-preview', 'gemini-2.5-pro']));
 
         const geminiPayload = {
           contents,
@@ -789,46 +784,67 @@ ${textPrompt}`;
           ]
         };
         
-        let retries = 3;
-        let delayMs = 2000;
-        
         let lastStatus = 0;
         let finalResponseText = '';
-        while (retries > 0 && !success) {
-          try {
-            console.log(`[PROXY] Sending request to Dedicated Gemini API: ${model}, Stream: ${!!stream}, Retries left: ${retries - 1}`);
-            apiResponse = await fetch(targetUrl, {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify(geminiPayload)
-            });
-            
-            if (apiResponse.ok) {
-              success = true;
-            } else if (apiResponse.status === 429 || apiResponse.status === 503) {
-              console.warn(`[PROXY] Gemini API Error (${apiResponse.status}). Waiting ${delayMs}ms...`);
-              lastStatus = apiResponse.status;
-              await new Promise(r => setTimeout(r, delayMs));
-              delayMs *= 2;
-              retries--;
-            } else {
-              const errText = await apiResponse.text();
-              console.error(`[PROXY] Gemini API Error:`, apiResponse.status, errText);
-              lastStatus = apiResponse.status;
-              break;
-            }
-          } catch (err) {
-            console.error(`[PROXY] Exception during request to Gemini:`, err.message);
-            if (retries > 1) {
-              console.warn(`[PROXY] Retrying after exception. Waiting ${delayMs}ms...`);
-              await new Promise(r => setTimeout(r, delayMs));
-              delayMs *= 2;
-              retries--;
-            } else {
-              break;
+        let fallbackFinishReason = 'STOP';
+
+        for (const candidateModel of geminiModelsToTry) {
+          if (success) break;
+          let targetUrl = `https://generativelanguage.googleapis.com/v1beta/models/${candidateModel}:generateContent?key=${GEMINI_KEY}`;
+          if (stream) {
+            targetUrl = `https://generativelanguage.googleapis.com/v1beta/models/${candidateModel}:streamGenerateContent?alt=sse&key=${GEMINI_KEY}`;
+          }
+          let retries = 2;
+          let delayMs = 2000;
+          while (retries > 0 && !success) {
+            try {
+              console.log(`[PROXY] Sending request to Dedicated Gemini API: ${candidateModel}, Stream: ${!!stream}, Retries left: ${retries - 1}`);
+              apiResponse = await fetch(targetUrl, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(geminiPayload),
+                signal: AbortSignal.timeout(240000)
+              });
+              
+              if (apiResponse.ok) {
+                success = true;
+              } else if (apiResponse.status === 429 || apiResponse.status === 503) {
+                console.warn(`[PROXY] Gemini API Error (${apiResponse.status}) on ${candidateModel}. Waiting ${delayMs}ms...`);
+                lastStatus = apiResponse.status;
+                await new Promise(r => setTimeout(r, delayMs));
+                delayMs *= 2;
+                retries--;
+              } else {
+                const errText = await apiResponse.text();
+                console.error(`[PROXY] Gemini API Error on ${candidateModel}:`, apiResponse.status, errText);
+                lastStatus = apiResponse.status;
+                break;
+              }
+            } catch (err) {
+              console.error(`[PROXY] Exception during request to Gemini (${candidateModel}):`, err.message);
+              if (retries > 1) {
+                console.warn(`[PROXY] Retrying after exception. Waiting ${delayMs}ms...`);
+                await new Promise(r => setTimeout(r, delayMs));
+                delayMs *= 2;
+                retries--;
+              } else {
+                break;
+              }
             }
           }
         }
+
+        // Build multi-turn messages array for OpenAI-compatible fallback providers
+        const fallbackMessages = [
+          ...(systemInstruction && systemInstruction.parts && systemInstruction.parts[0] ? [{ role: "system", content: systemInstruction.parts[0].text }] : []),
+          ...(Array.isArray(contents) && contents.length > 0
+            ? contents.map((c, idx) => ({
+                role: c.role === 'model' ? 'assistant' : 'user',
+                content: (idx === 0 && pdfPart ? `Text extracted from PDF:\n\n` : "") + (c.parts || []).map(p => p.text || '').join('\n')
+              }))
+            : [{ role: "user", content: (pdfPart ? `Text extracted from PDF:\n\n` : "") + textPrompt }])
+        ];
+        const requestedMaxTokens = Math.min(Math.max((generationConfig && generationConfig.maxOutputTokens) || 16384, 8192), 65536);
         
         // --- FALLBACK TO OPENROUTER ---
         if (!success && process.env.OPENROUTER_API_KEY && !stream && textPrompt) {
@@ -840,16 +856,15 @@ ${textPrompt}`;
                     body: JSON.stringify({
                         model: "google/gemini-2.5-pro",
                         temperature: 0,
-                        max_tokens: 8192,
-                        messages: [
-                            ...(systemInstruction ? [{ role: "system", content: systemInstruction.parts[0].text }] : []),
-                            { role: "user", content: (pdfPart ? `Text extracted from PDF:\n\n` : "") + textPrompt }
-                        ]
-                    })
+                        max_tokens: requestedMaxTokens,
+                        messages: fallbackMessages
+                    }),
+                    signal: AbortSignal.timeout(240000)
                 });
                 if (orRes.ok) {
                     const orData = await orRes.json();
                     finalResponseText = orData.choices[0].message.content;
+                    if (orData.choices[0].finish_reason === 'length') fallbackFinishReason = 'MAX_TOKENS';
                     success = true;
                 } else {
                     console.error('[PROXY] OpenRouter API error:', await orRes.text());
@@ -868,15 +883,15 @@ ${textPrompt}`;
                     headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${process.env.CEREBRAS_API_KEY}` },
                     body: JSON.stringify({
                         model: "gpt-oss-120b",
-                        messages: [
-                            ...(systemInstruction ? [{ role: "system", content: systemInstruction.parts[0].text }] : []),
-                            { role: "user", content: (pdfPart ? `Text extracted from PDF:\n\n` : "") + textPrompt }
-                        ]
-                    })
+                        max_completion_tokens: Math.min(requestedMaxTokens, 32768),
+                        messages: fallbackMessages
+                    }),
+                    signal: AbortSignal.timeout(180000)
                 });
                 if (cerebrasRes.ok) {
                     const cerebrasData = await cerebrasRes.json();
                     finalResponseText = cerebrasData.choices[0].message.content;
+                    if (cerebrasData.choices[0].finish_reason === 'length') fallbackFinishReason = 'MAX_TOKENS';
                     success = true;
                 } else {
                     console.error('[PROXY] Cerebras API error:', await cerebrasRes.text());
@@ -895,16 +910,15 @@ ${textPrompt}`;
                     headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${process.env.GROQ_API_KEY}` },
                     body: JSON.stringify({
                         model: "openai/gpt-oss-120b",
-                        max_tokens: 8192,
-                        messages: [
-                            ...(systemInstruction ? [{ role: "system", content: systemInstruction.parts[0].text }] : []),
-                            { role: "user", content: (pdfPart ? `Text extracted from PDF:\n\n` : "") + textPrompt }
-                        ]
-                    })
+                        max_tokens: Math.min(requestedMaxTokens, 32768),
+                        messages: fallbackMessages
+                    }),
+                    signal: AbortSignal.timeout(180000)
                 });
                 if (groqRes.ok) {
                     const groqData = await groqRes.json();
                     finalResponseText = groqData.choices[0].message.content;
+                    if (groqData.choices[0].finish_reason === 'length') fallbackFinishReason = 'MAX_TOKENS';
                     success = true;
                 } else {
                     console.error('[PROXY] Groq API error:', await groqRes.text());
@@ -914,25 +928,24 @@ ${textPrompt}`;
             }
         }
 
-        // --- FALLBACK TO GROQ (llama-3.3-70b) ---
+        // --- FALLBACK TO GROQ (qwen/qwen3.8-27b) ---
         if (!success && process.env.GROQ_API_KEY && !stream && textPrompt) {
-            console.log(`[PROXY] gpt-oss-120b failed. Falling back to Groq AI (llama-3.3-70b-versatile)...`);
+            console.log(`[PROXY] gpt-oss-120b failed. Falling back to Groq AI (qwen/qwen3.8-27b)...`);
             try {
                 const groqRes2 = await fetch('https://api.groq.com/openai/v1/chat/completions', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${process.env.GROQ_API_KEY}` },
                     body: JSON.stringify({
-                        model: "llama-3.3-70b-versatile",
-                        max_tokens: 8192,
-                        messages: [
-                            ...(systemInstruction ? [{ role: "system", content: systemInstruction.parts[0].text }] : []),
-                            { role: "user", content: (pdfPart ? `Text extracted from PDF:\n\n` : "") + textPrompt }
-                        ]
-                    })
+                        model: "qwen/qwen3.8-27b",
+                        max_tokens: Math.min(requestedMaxTokens, 32768),
+                        messages: fallbackMessages
+                    }),
+                    signal: AbortSignal.timeout(180000)
                 });
                 if (groqRes2.ok) {
                     const groqData2 = await groqRes2.json();
                     finalResponseText = groqData2.choices[0].message.content;
+                    if (groqData2.choices[0].finish_reason === 'length') fallbackFinishReason = 'MAX_TOKENS';
                     success = true;
                 } else {
                     console.error('[PROXY] Groq llama API error:', await groqRes2.text());
@@ -946,7 +959,7 @@ ${textPrompt}`;
           if (finalResponseText) {
              // Fallback models triggered. We need to mock the Gemini response structure.
              const data = {
-                 candidates: [ { content: { parts: [ { text: finalResponseText } ] }, finishReason: 'STOP' } ]
+                 candidates: [ { content: { parts: [ { text: finalResponseText } ] }, finishReason: fallbackFinishReason } ]
              };
              res.writeHead(200, { 'Content-Type': 'application/json' });
              res.end(JSON.stringify(data));
