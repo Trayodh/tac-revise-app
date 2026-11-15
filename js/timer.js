@@ -273,9 +273,10 @@ function initCountdownTimer() {
     }
 
     const targetExam = exams[targetKey] || exams.afcat;
-    const defconText = "DEFCON 2";
-    const defconSubtitle = targetKey === "afcat" ? "APPLICATION PHASE" : "HIGH READINESS";
-    const defconClass = "metric-card defcon-state-2";
+    const isAfcat = targetKey === "afcat";
+    const defconText = isAfcat ? "DEFCON 2" : "DEFCON 3";
+    const defconSubtitle = isAfcat ? "APPLICATION PHASE" : "HIGH READINESS";
+    const defconClass = isAfcat ? "metric-card defcon-state-2" : "metric-card defcon-state-3";
 
     display.innerText = defconText;
     display.style.color = "var(--danger)";

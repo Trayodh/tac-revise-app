@@ -1818,7 +1818,78 @@ const TOPIC_WEIGHTAGE_MAP = {
 
   "env-renewable": "3 Qs (~2.5 Marks)",
 
-  "env-pollution": "3 Qs (~2.5 Marks)"
+  "env-pollution": "3 Qs (~2.5 Marks)",
+
+  // Granular Track-4 Expansion
+  "env-ecology-ecosystems": "4 Qs (~3.3 Marks)",
+  "env-biogeochemical-cycles": "2 Qs (~1.7 Marks)",
+  "env-terrestrial-aquatic-biomes": "3 Qs (~2.5 Marks)",
+  "env-wetlands-ramsar": "3 Qs (~2.5 Marks)",
+  "env-mangroves-coral-reefs": "3 Qs (~2.5 Marks)",
+  "env-forests-isfr": "3 Qs (~2.5 Marks)",
+  "env-climate-science-ghg": "4 Qs (~3.3 Marks)",
+  "env-waste-eia-rules": "2 Qs (~1.7 Marks)",
+  "env-disaster-management": "2 Qs (~1.7 Marks)",
+  "env-sustainable-sdgs": "2 Qs (~1.7 Marks)",
+  "env-movements-organizations": "3 Qs (~2.5 Marks)",
+  "physics-kinematics-projectiles": "4 Qs (~3.3 Marks)",
+  "physics-friction-dynamics": "3 Qs (~2.5 Marks)",
+  "physics-rotational-motion": "3 Qs (~2.5 Marks)",
+  "physics-gravitation-satellites": "4 Qs (~3.3 Marks)",
+  "physics-properties-matter": "4 Qs (~3.3 Marks)",
+  "physics-thermodynamics-ktg": "4 Qs (~3.3 Marks)",
+  "physics-shm-waves": "3 Qs (~2.5 Marks)",
+  "physics-optical-instruments": "4 Qs (~3.3 Marks)",
+  "physics-wave-optics": "3 Qs (~2.5 Marks)",
+  "physics-electrostatics-capacitors": "4 Qs (~3.3 Marks)",
+  "physics-current-circuits": "5 Qs (~4.2 Marks)",
+  "physics-emi-ac": "4 Qs (~3.3 Marks)",
+  "physics-modern-photoelectric": "3 Qs (~2.5 Marks)",
+  "physics-semiconductors-logic": "3 Qs (~2.5 Marks)",
+  "chem-matter-separation": "3 Qs (~2.5 Marks)",
+  "chem-gas-laws-states": "3 Qs (~2.5 Marks)",
+  "chem-atomic-quantum": "4 Qs (~3.3 Marks)",
+  "chem-periodic-trends": "3 Qs (~2.5 Marks)",
+  "chem-thermodynamics-energetics": "2 Qs (~1.7 Marks)",
+  "chem-equilibrium-kinetics": "3 Qs (~2.5 Marks)",
+  "chem-redox-electrochemistry": "3 Qs (~2.5 Marks)",
+  "chem-solutions-colligative": "2 Qs (~1.7 Marks)",
+  "chem-hydrogen-s-block": "3 Qs (~2.5 Marks)",
+  "chem-p-d-block-coordination": "3 Qs (~2.5 Marks)",
+  "chem-hydrocarbons-functional": "3 Qs (~2.5 Marks)",
+  "chem-biomolecules-polymers": "3 Qs (~2.5 Marks)",
+  "bio-biomolecules-enzymes": "3 Qs (~2.5 Marks)",
+  "bio-biological-classification": "3 Qs (~2.5 Marks)",
+  "bio-plant-morphology-anatomy": "3 Qs (~2.5 Marks)",
+  "bio-photosynthesis-nutrition": "3 Qs (~2.5 Marks)",
+  "bio-animal-tissues-anatomy": "2 Qs (~1.7 Marks)",
+  "bio-digestive-nutrition": "3 Qs (~2.5 Marks)",
+  "bio-respiratory-circulatory": "4 Qs (~3.3 Marks)",
+  "bio-excretory-locomotion": "2 Qs (~1.7 Marks)",
+  "bio-nervous-sensory": "3 Qs (~2.5 Marks)",
+  "bio-endocrine-hormones": "3 Qs (~2.5 Marks)",
+  "bio-human-reproduction": "2 Qs (~1.7 Marks)",
+  "bio-genetics-biotech-evolution": "4 Qs (~3.3 Marks)",
+  "econ-micro-demand-supply": "3 Qs (~2.5 Marks)",
+  "econ-market-structures": "2 Qs (~1.7 Marks)",
+  "econ-national-income": "4 Qs (~3.3 Marks)",
+  "econ-inflation-cycles": "4 Qs (~3.3 Marks)",
+  "econ-financial-markets": "3 Qs (~2.5 Marks)",
+  "econ-taxation-gst": "4 Qs (~3.3 Marks)",
+  "econ-agriculture-food-security": "3 Qs (~2.5 Marks)",
+  "econ-industry-infrastructure": "3 Qs (~2.5 Marks)",
+  "econ-digital-fintech-defence": "2 Qs (~1.7 Marks)",
+  "polity-historical-making": "4 Qs (~3.3 Marks)",
+  "polity-union-territory-states": "2 Qs (~1.7 Marks)",
+  "polity-writs-exceptions": "3 Qs (~2.5 Marks)",
+  "polity-parliament-procedure": "4 Qs (~3.3 Marks)",
+  "polity-state-legislature": "2 Qs (~1.7 Marks)",
+  "polity-high-courts-tribunals": "3 Qs (~2.5 Marks)",
+  "polity-uts-scheduled-areas": "2 Qs (~1.7 Marks)",
+  "polity-non-constitutional-bodies": "3 Qs (~2.5 Marks)",
+  "polity-official-language-services": "2 Qs (~1.7 Marks)",
+  "polity-special-provisions": "3 Qs (~2.5 Marks)",
+  "polity-landmark-judgments": "3 Qs (~2.5 Marks)"
 
 };
 
@@ -9652,10 +9723,11 @@ function initCountdownTimer() {
 
     const targetExam = exams[targetKey] || exams.afcat;
 
-    // Standing directive: AFCAT 1 2027 is locked at DEFCON 2 (APPLICATION PHASE)
-    const defconText = "DEFCON 2";
-    const defconSubtitle = targetKey === "afcat" ? "APPLICATION PHASE" : "HIGH READINESS";
-    const defconClass = "metric-card defcon-state-2";
+    // AFCAT 1 2027 is at DEFCON 2 (APPLICATION PHASE); NDA and CDS follow their own cycle at DEFCON 3
+    const isAfcat = targetKey === "afcat";
+    const defconText = isAfcat ? "DEFCON 2" : "DEFCON 3";
+    const defconSubtitle = isAfcat ? "APPLICATION PHASE" : "HIGH READINESS";
+    const defconClass = isAfcat ? "metric-card defcon-state-2" : "metric-card defcon-state-3";
 
     display.innerText = defconText;
 
@@ -17815,9 +17887,9 @@ function initDefconWidget() {
     const selector = document.getElementById("countdown-exam-selector");
     const val = selector ? selector.value : "afcat";
     if (val === "nda") {
-      setDefconState(2, "NDA 1 2027", "HIGH READINESS");
+      setDefconState(3, "NDA 1 2027", "HIGH READINESS");
     } else if (val === "cds") {
-      setDefconState(2, "CDS 1 2027", "HIGH READINESS");
+      setDefconState(3, "CDS 1 2027", "HIGH READINESS");
     } else {
       setDefconState(2, "AFCAT 1 2027", "APPLICATION PHASE");
     }
