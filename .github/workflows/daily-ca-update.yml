@@ -5,6 +5,10 @@ on:
     - cron: '0 0,12 * * *' # Runs at midnight and noon UTC
   workflow_dispatch: # Allows manual triggering from the GitHub UI
 
+concurrency:
+  group: "ca-updater"
+  cancel-in-progress: false
+
 jobs:
   update-ca:
     runs-on: ubuntu-latest
@@ -17,7 +21,8 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
+          cache: 'npm'
 
       - name: Install dependencies
         run: npm ci || npm install
@@ -27,12 +32,19 @@ jobs:
       - name: Run Current Affairs Updater
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: node scripts/daily_ca_updater.js
 
       - name: Commit and Push Changes
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add current_affairs_db.js
+          git add current_affairs_db.js public/current_affairs_db.js
           # Only commit if there are changes
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: Daily automated Current Affairs update [skip ci]" && git push)
+          if git diff --staged --quiet; then
+            echo "No new current affairs to commit."
+          else
+            git commit -m "chore: Daily automated Current Affairs update [skip ci]"
+            git push
+          fi

@@ -3,7 +3,117 @@ const path = require('path');
 const { GoogleGenAI } = require('@google/genai');
 require('dotenv').config({ path: path.join(__dirname, '..', '.env') });
 
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+const GEMINI_API_KEY = (process.env.GEMINI_API_KEY || '').trim();
+const GROQ_API_KEY = (process.env.GROQ_API_KEY || '').trim();
+const OPENROUTER_API_KEY = (process.env.OPENROUTER_API_KEY || '').trim();
+
+/**
+ * Call an OpenAI-compatible chat completion API and return raw assistant text.
+ */
+async function callOpenAICompatible(url, apiKey, model, systemPrompt, userPrompt, extraHeaders = {}) {
+  const res = await fetch(url, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${apiKey}`,
+      ...extraHeaders
+    },
+    body: JSON.stringify({
+      model,
+      messages: [
+        { role: 'system', content: systemPrompt },
+        { role: 'user', content: userPrompt }
+      ],
+      temperature: 0.2,
+      max_tokens: 8192
+    })
+  });
+  if (!res.ok) {
+    throw new Error(`HTTP ${res.status}: ${(await res.text()).slice(0, 300)}`);
+  }
+  const data = await res.json();
+  return (data.choices?.[0]?.message?.content || '').trim();
+}
+
+function parseJsonArrayOutput(rawText) {
+  let cleaned = (rawText || '').trim();
+  const fenceMatch = cleaned.match(/```(?:json)?\s*([\s\S]*?)```/i);
+  if (fenceMatch) cleaned = fenceMatch[1].trim();
+  const startIdx = cleaned.indexOf('[');
+  const endIdx = cleaned.lastIndexOf(']');
+  if (startIdx !== -1 && endIdx > startIdx) {
+    cleaned = cleaned.slice(startIdx, endIdx + 1);
+  }
+  const parsed = JSON.parse(cleaned);
+  if (!Array.isArray(parsed)) {
+    throw new Error('Model response JSON is not an array');
+  }
+  return parsed;
+}
+
+/**
+ * Generate new current affairs JSON entries with Gemini -> Groq -> OpenRouter cascade.
+ */
+async function generateCurrentAffairsEntries(systemPrompt, userPrompt) {
+  const errors = [];
+
+  if (GEMINI_API_KEY) {
+    try {
+      const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
+      const response = await ai.models.generateContent({
+        model: 'gemini-2.5-flash',
+        contents: userPrompt,
+        config: {
+          systemInstruction: systemPrompt,
+          temperature: 0.2
+        }
+      });
+      return parseJsonArrayOutput(response.text);
+    } catch (err) {
+      errors.push(`Gemini: ${err.message}`);
+      console.warn('[CA Updater] Gemini failed, trying fallback:', err.message);
+    }
+  }
+
+  if (GROQ_API_KEY) {
+    for (const model of ['openai/gpt-oss-120b', 'qwen/qwen3.8-27b']) {
+      try {
+        const text = await callOpenAICompatible(
+          'https://api.groq.com/openai/v1/chat/completions',
+          GROQ_API_KEY,
+          model,
+          systemPrompt,
+          userPrompt
+        );
+        return parseJsonArrayOutput(text);
+      } catch (err) {
+        errors.push(`Groq(${model}): ${err.message}`);
+        console.warn(`[CA Updater] Groq ${model} failed:`, err.message);
+      }
+    }
+  }
+
+  if (OPENROUTER_API_KEY) {
+    for (const model of ['openai/gpt-oss-120b:free', 'meta-llama/llama-3.3-70b-instruct:free']) {
+      try {
+        const text = await callOpenAICompatible(
+          'https://openrouter.ai/api/v1/chat/completions',
+          OPENROUTER_API_KEY,
+          model,
+          systemPrompt,
+          userPrompt,
+          { 'HTTP-Referer': 'https://defence-exams-revision.vercel.app', 'X-Title': 'Tac-Revise CA Updater' }
+        );
+        return parseJsonArrayOutput(text);
+      } catch (err) {
+        errors.push(`OpenRouter(${model}): ${err.message}`);
+        console.warn(`[CA Updater] OpenRouter ${model} failed:`, err.message);
+      }
+    }
+  }
+
+  throw new Error(errors.join(' | ') || 'No configured AI provider succeeded');
+}
 
 const UPSC_TOPIC_CATEGORIES = [
   { name: 'Polity & Governance',      queries: ['India parliament', 'supreme court India', 'government policy India'] },
@@ -54,8 +164,9 @@ async function fetchRssFeed(url) {
 
 async function run() {
   console.log("=== STARTING CURRENT AFFAIRS UPDATER ===");
-  if (!GEMINI_API_KEY) {
-    console.error("GEMINI_API_KEY is missing. Aborting.");
+  if (!GEMINI_API_KEY && !GROQ_API_KEY && !OPENROUTER_API_KEY) {
+    console.error("All AI API keys (GEMINI_API_KEY, GROQ_API_KEY, OPENROUTER_API_KEY) are missing. Aborting.");
+    process.exitCode = 1;
     return;
   }
 
@@ -180,29 +291,21 @@ ${JSON.stringify(rawItems, null, 2)}
 </NEW_RAW_FEEDS>
 `;
 
-  console.log("Calling Gemini to process and merge data with the new advanced schema...");
-  const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
+  console.log("Calling AI provider cascade to process and merge data with the new advanced schema...");
   
   try {
-    const response = await ai.models.generateContent({
-      model: 'gemini-2.5-flash',
-      contents: prompt,
-      config: {
-        systemInstruction: SYSTEM_PROMPT,
-        temperature: 0.2,
-      }
+    const rawNewEntries = await generateCurrentAffairsEntries(SYSTEM_PROMPT, prompt);
+    const seenHeadlines = new Set(existingEntries.map(e => (e.text || '').toLowerCase().trim()).filter(Boolean));
+    const newEntries = rawNewEntries.filter(item => {
+      const t = (item && item.text ? String(item.text) : '').toLowerCase().trim();
+      if (!t || seenHeadlines.has(t)) return false;
+      seenHeadlines.add(t);
+      return true;
     });
-
-    let outputText = response.text.trim();
-    if (outputText.startsWith('```json')) outputText = outputText.substring(7);
-    if (outputText.endsWith('```')) outputText = outputText.substring(0, outputText.length - 3);
-
-    const newEntries = JSON.parse(outputText);
     
-    if (Array.isArray(newEntries)) {
-      console.log(`Successfully extracted ${newEntries.length} new items.`);
-      
-      // Merge locally instead of relying on Gemini to rewrite existing ones
+    console.log(`Successfully extracted ${newEntries.length} unique new items (${rawNewEntries.length} generated).`);
+    
+    if (newEntries.length > 0) {
       db[currentMonth] = [...newEntries, ...existingEntries];
       
       // Extract header to preserve comments
@@ -215,12 +318,17 @@ ${JSON.stringify(rawItems, null, 2)}
 
       const newFileContent = header + "window.CURRENT_AFFAIRS_DB = " + JSON.stringify(db, null, 2) + ";\n";
       fs.writeFileSync(dbPath, newFileContent, 'utf8');
+      const publicDbPath = path.join(__dirname, '..', 'public', 'current_affairs_db.js');
+      if (fs.existsSync(path.dirname(publicDbPath))) {
+        fs.writeFileSync(publicDbPath, newFileContent, 'utf8');
+      }
       console.log("Database updated successfully.");
     } else {
-      console.error("Gemini returned invalid array. Aborting.");
+      console.log("No new unique items to add today.");
     }
   } catch (err) {
-    console.error("Error processing with Gemini:", err);
+    console.error("Error processing Current Affairs update:", err);
+    process.exitCode = 1;
   }
 }
 

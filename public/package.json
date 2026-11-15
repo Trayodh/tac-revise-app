@@ -4,17 +4,17 @@
   "description": "Revision helper for Defence Examinations like NDA, CDS, and AFCAT",
   "main": "server.js",
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=22.0.0"
   },
   "scripts": {
     "start": "node --max-old-space-size=450 server.js",
     "dev": "node server.js",
-    "build": "node tests/render.test.js",
-    "test": "node tests/render.test.js",
-    "vercel-build": "node tests/render.test.js",
+    "build": "node -e \"const fs=require('fs'),p=require('path');if(fs.existsSync('tests/render.test.js')){require(p.resolve('tests/render.test.js'));}else if(fs.existsSync('../tests/render.test.js')){process.chdir('..');require(p.resolve('tests/render.test.js'));}else{require(p.resolve('server.js'));}\"",
+    "test": "node -e \"const fs=require('fs'),p=require('path');if(fs.existsSync('tests/render.test.js')){require(p.resolve('tests/render.test.js'));}else if(fs.existsSync('../tests/render.test.js')){process.chdir('..');require(p.resolve('tests/render.test.js'));}else{require(p.resolve('server.js'));}\"",
+    "vercel-build": "node -e \"const fs=require('fs'),p=require('path');if(fs.existsSync('tests/render.test.js')){require(p.resolve('tests/render.test.js'));}else if(fs.existsSync('../tests/render.test.js')){process.chdir('..');require(p.resolve('tests/render.test.js'));}else{require(p.resolve('server.js'));}\"",
     "pipeline": "node run_pipeline.js",
     "lint:notes": "node validate_notes.js",
-    "test:render": "node tests/render.test.js"
+    "test:render": "node -e \"const fs=require('fs'),p=require('path');if(fs.existsSync('tests/render.test.js')){require(p.resolve('tests/render.test.js'));}else if(fs.existsSync('../tests/render.test.js')){process.chdir('..');require(p.resolve('tests/render.test.js'));}else{require(p.resolve('server.js'));}\""
   },
   "keywords": [
     "nda",

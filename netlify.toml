@@ -1,6 +1,9 @@
 [build]
   publish = "public"
 
+[functions]
+  node_bundler = "esbuild"
+
 [[headers]]
   for = "/*.js"
   [headers.values]
@@ -15,6 +18,12 @@
   for = "/*.html"
   [headers.values]
     Cache-Control = "public, max-age=0, must-revalidate"
+
+[[redirects]]
+  from = "/healthz"
+  to = "/.netlify/functions/api/health"
+  status = 200
+
 [[redirects]]
   from = "/api/*"
   to = "/.netlify/functions/api/:splat"

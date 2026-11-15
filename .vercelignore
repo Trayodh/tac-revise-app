@@ -1,0 +1,31 @@
+.git/
+.env
+.env.*
+node_modules/
+android/
+www/
+jdk*/
+*.zip
+*.apk
+*.part
+*.m4a
+*.pdf
+NDA Papers/
+CAPF_CSE_Papers/
+PYQ Papers/
+AFCAT Papers/
+manim_lectures/
+scratch/
+diff_staged.txt
+temp_render.txt
+entire_app_code.md
+verified_pyqs.json
+verified_pyqs_repaired.json
+old_data_tmp.js
+old_notes_data.js
+public/old_notes_data.js
+*.pre_fix_backup
+*.pre_local_fix
+*.pre_merge_backup
+*.backup
+*.orig

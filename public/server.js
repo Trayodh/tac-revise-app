@@ -428,7 +428,7 @@ For database storage steps, use provider "Supabase" and provide a "key" and "dat
 `;
 
         // 1. Call Gemini to generate the plan
-        let planRes = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${GEMINI_API_KEY}`, {
+        let planRes = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
@@ -460,7 +460,7 @@ For database storage steps, use provider "Supabase" and provide a "key" and "dat
           let stepPrompt = `TASK OBJECTIVE: ${step.action}\n\nACCUMULATED CONTEXT SO FAR:\n${accumulatedContext}`;
           
           if (step.provider === 'Gemini') {
-            let res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${GEMINI_API_KEY}`, {
+            let res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`, {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify({
@@ -488,7 +488,7 @@ For database storage steps, use provider "Supabase" and provide a "key" and "dat
             
           } else if (step.provider === 'Groq') {
             // Groq has been deprecated; routing to Gemini instead.
-            let res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${GEMINI_API_KEY}`, {
+            let res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`, {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify({
@@ -1126,7 +1126,7 @@ ${textPrompt}`;
   }
 
   // API Route: Vector DB RAG Search
-  if (req.url === '/api/rag_search' && req.method === 'POST') {
+  if ((req.url === '/api/rag_search' || req.url === '/api/rag-search') && req.method === 'POST') {
     let body = '';
     req.on('data', chunk => body += chunk);
     req.on('end', async () => {

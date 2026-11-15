@@ -103,11 +103,11 @@ window.fetch = async function() {
     if (!isCapacitor && url.includes('/api/gemini')) {
         const currentOrigin = (window.location && window.location.origin) || '';
         const backendEndpoints = ['/api/gemini'];
-        if (!currentOrigin.includes('tac-revise-app.onrender.com')) {
-            backendEndpoints.push('https://tac-revise-app.onrender.com/api/gemini');
-        }
         if (!currentOrigin.includes('defence-exams-revision.vercel.app')) {
             backendEndpoints.push('https://defence-exams-revision.vercel.app/api/gemini');
+        }
+        if (!currentOrigin.includes('tac-revise-app.onrender.com')) {
+            backendEndpoints.push('https://tac-revise-app.onrender.com/api/gemini');
         }
 
         for (let bIdx = 0; bIdx < backendEndpoints.length; bIdx++) {
@@ -139,9 +139,32 @@ window.fetch = async function() {
 
     
 
-    // Intercept backend Current Affairs calls to serve them completely offline!
+    if (!isCapacitor && url.startsWith('/api/') && !url.includes('/api/gemini')) {
+        const currentOrigin = (window.location && window.location.origin) || '';
+        const apiPath = url;
+        const apiEndpoints = [apiPath];
+        if (!currentOrigin.includes('defence-exams-revision.vercel.app')) {
+            apiEndpoints.push('https://defence-exams-revision.vercel.app' + apiPath);
+        }
+        if (!currentOrigin.includes('tac-revise-app.onrender.com')) {
+            apiEndpoints.push('https://tac-revise-app.onrender.com' + apiPath);
+        }
+        for (let aIdx = 0; aIdx < apiEndpoints.length; aIdx++) {
+            try {
+                const fetchArgs = aIdx === 0 ? arguments : [apiEndpoints[aIdx], arguments[1]];
+                const apiRes = await originalFetch.apply(this, fetchArgs);
+                if (apiRes.ok) {
+                    return apiRes;
+                }
+            } catch (_) {}
+        }
+        if (url.includes('/api/daily-current-affairs')) {
+            return new Response('[]', { status: 200, headers: { 'Content-Type': 'application/json' } });
+        }
+    }
 
-    if (url.includes('/api/daily-current-affairs')) {
+    // Intercept backend Current Affairs calls to serve them completely offline in Capacitor!
+    if (isCapacitor && url.includes('/api/daily-current-affairs')) {
 
         let payload = {};
 
