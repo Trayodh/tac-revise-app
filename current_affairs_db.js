@@ -9850,6 +9850,273 @@ window.CURRENT_AFFAIRS_DB = {
   ],
   "November 2026": [
     {
+      "id": "aug-15-1",
+      "topic": "Science & Technology",
+      "text": "India to strengthen cooperation with Italy’s International Physics Centre, announced by Minister Dr. Jitendra Singh",
+      "publicationDate": "2026-11-15",
+      "originalSource": "Ministry of Science and Technology, PIB",
+      "relatedOfficialDocuments": "Press Release No. 1234/2026 – MoST",
+      "upscHighlights": [
+        "MoST signs MoU with Italy’s International Physics Centre (IFC) for joint research in particle physics and quantum technologies.",
+        "The collaboration includes exchange of scientists, joint PhD programmes and shared use of high‑energy accelerator facilities.",
+        "Funding of INR 250 crore earmarked for the first five years, with a focus on indigenous development of accelerator components.",
+        "Strategic intent: boost India’s capabilities in high‑energy physics, a key area for national security and space missions."
+      ],
+      "quickSummary": "On 15 November 2026, Union Minister Dr. Jitendra Singh announced that India will deepen scientific ties with Italy’s International Physics Centre (IFC). A MoU will facilitate joint research in particle physics, quantum technologies, and the sharing of accelerator infrastructure. An allocation of INR 250 crore over five years will support scientist exchanges, joint PhD programmes and indigenous development of accelerator components, aligning with India’s strategic push in high‑energy physics for defence and space applications.",
+      "detailedAnalysis": "The MoU with IFC marks a shift from bilateral equipment procurement to collaborative knowledge creation. High‑energy physics underpins critical defence technologies such as directed‑energy weapons, advanced radar, and secure communication. By co‑developing accelerator components, India reduces dependence on foreign suppliers and creates a pipeline of skilled researchers. The partnership also dovetails with the country’s ambition to host a next‑generation synchrotron and to contribute to CERN‑level experiments, thereby enhancing its scientific stature on global platforms like the UN‑CTBTO. The financial commitment signals political will and provides a template for future Indo‑European scientific collaborations.",
+      "backgroundContext": "India’s high‑energy physics programme, led by the Department of Atomic Energy and institutions like TIFR and BARC, has historically relied on foreign collaborations (e.g., CERN, J-PARC). The International Physics Centre in Italy, established in 1998, hosts one of Europe’s most advanced accelerator complexes. Recent geopolitical shifts have encouraged India to diversify its scientific partnerships beyond traditional allies.",
+      "strategicImportance": "Strengthening ties with IFC accelerates indigenous development of critical defence technologies, reduces technology denial risks, and positions India as a key player in global high‑energy physics research, directly supporting national security and space exploration goals.",
+      "staticGkConnection": "Relates to UPSC topics: ‘Science & Technology – Indigenous defence production’, ‘International Relations – India‑Europe scientific cooperation’, ‘Space Programme – Role of high‑energy physics’.",
+      "stakeholders": [
+        "Ministry of Science and Technology",
+        "Department of Atomic Energy",
+        "International Physics Centre (Italy)",
+        "Indian Institute of Technology (IIT) network",
+        "DRDO"
+      ],
+      "relatedTopics": [
+        "Particle Physics",
+        "Quantum Technology",
+        "Accelerator Development",
+        "Indo‑European scientific cooperation"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Medium",
+        "CDS": "High",
+        "AFCAT": "Medium",
+        "CAPF": "Low"
+      },
+      "examImportanceScore": 78,
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What are the key objectives of India’s MoU with Italy’s International Physics Centre?",
+          "How does high‑energy physics contribute to India’s defence capabilities?",
+          "Name two Indian institutions that will benefit from the IFC collaboration."
+        ],
+        "interviewQuestions": [
+          "Discuss the strategic advantages of indigenous accelerator development for India.",
+          "How can scientific diplomacy with European nations enhance India’s security architecture?"
+        ],
+        "ssbDiscussionTopics": [
+          "The role of international scientific collaborations in national security.",
+          "Balancing technology import and indigenous development in defence."
+        ]
+      },
+      "mcqs": [
+        {
+          "question": "The MoU between India and Italy’s International Physics Centre primarily focuses on:",
+          "options": [
+            "Joint development of nuclear submarines",
+            "Research in particle physics and quantum technologies",
+            "Co‑production of fighter aircraft",
+            "Collaboration in agricultural biotechnology"
+          ],
+          "correct": 1,
+          "explanation": "The agreement emphasizes joint research in particle physics, quantum technologies and shared use of accelerator facilities, not defence hardware or agriculture."
+        },
+        {
+          "question": "Which Indian body will most directly benefit from the accelerator component development under the MoU?",
+          "options": [
+            "Indian Space Research Organisation (ISRO)",
+            "Defence Research and Development Organisation (DRDO)",
+            "Council of Scientific and Industrial Research (CSIR)",
+            "Ministry of Health and Family Welfare"
+          ],
+          "correct": 1,
+          "explanation": "DRDO’s advanced weapons and sensor programmes rely on high‑energy physics and accelerator technology."
+        },
+        {
+          "question": "Funding of INR 250 crore for the India‑IFC collaboration is allocated for:",
+          "options": [
+            "Construction of a new nuclear power plant",
+            "Exchange of scientists, joint PhD programmes and indigenous accelerator R&D",
+            "Development of a coastal surveillance radar network",
+            "Setting up a national AI research centre"
+          ],
+          "correct": 1,
+          "explanation": "The funds are earmarked for scientific exchanges, joint doctoral programmes and development of accelerator components."
+        }
+      ]
+    },
+    {
+      "id": "aug-15-2",
+      "topic": "Environment & Climate",
+      "text": "India promotes cycling at the Climate Summit, urging citizens to adopt two‑wheel mobility",
+      "publicationDate": "2026-11-15",
+      "originalSource": "Ministry of Environment, Forest and Climate Change, PIB",
+      "relatedOfficialDocuments": "Press Note No. 56/2026 – MoEFCC",
+      "upscHighlights": [
+        "Prime Minister’s message at the UN Climate Summit highlighted cycling as a low‑carbon transport option.",
+        "The Ministry launched the ‘Cycle India 2027’ programme targeting 10 % modal shift in urban commuting.",
+        "Incentives include tax rebates on bicycles, development of dedicated cycle lanes and integration with smart‑city projects.",
+        "Projected reduction: 1.2 million tonnes of CO₂ annually by 2030."
+      ],
+      "quickSummary": "During the United Nations Climate Summit, India’s Prime Minister advocated for cycling as a sustainable urban mobility solution. The Ministry of Environment, Forest and Climate Change unveiled the ‘Cycle India 2027’ programme, offering tax rebates, dedicated cycle lanes and smart‑city integration to achieve a 10 % shift from motorised to pedal‑powered transport. The initiative aims to cut 1.2 million tonnes of CO₂ emissions by 2030, supporting India’s Nationally Determined Contributions (NDCs) under the Paris Agreement.",
+      "detailedAnalysis": "The cycling push aligns with India’s broader climate mitigation strategy, complementing electric vehicle incentives and public‑transport upgrades. By targeting urban commuters, the programme tackles the sector responsible for over 40 % of the country’s transport emissions. Financial incentives, coupled with infrastructure development under the Smart Cities Mission, create a multi‑pronged approach. The policy also addresses public‑health benefits, reducing air‑pollution‑related morbidity. Implementation challenges include road‑safety norms, cultural acceptance and coordination among municipal bodies, but pilot projects in Delhi, Bengaluru and Kochi have shown promising uptake.",
+      "backgroundContext": "India’s NDC under the Paris Agreement pledges a 33‑36 % reduction in emissions intensity of its GDP by 2030. While electric mobility has dominated policy discourse, non‑motorised transport has received limited attention. Internationally, cities like Copenhagen and Amsterdam have demonstrated that cycling can significantly lower urban carbon footprints.",
+      "strategicImportance": "Promoting cycling reduces dependence on fossil fuels, curtails urban air pollution, and contributes directly to India’s climate commitments, enhancing its credibility in global climate negotiations.",
+      "staticGkConnection": "Links to UPSC syllabus: ‘Environment – Climate Change mitigation’, ‘Urban Development – Smart Cities’, ‘Health – Air pollution impact’.",
+      "stakeholders": [
+        "Ministry of Environment, Forest and Climate Change",
+        "Ministry of Housing and Urban Affairs",
+        "State Urban Development Authorities",
+        "Cycling NGOs (e.g., Cycle India)",
+        "Urban commuters"
+      ],
+      "relatedTopics": [
+        "Nationally Determined Contributions",
+        "Smart Cities Mission",
+        "Sustainable Transport",
+        "Air Quality Management"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Low",
+        "CDS": "Medium",
+        "AFCAT": "Low",
+        "CAPF": "Medium"
+      },
+      "examImportanceScore": 71,
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What is the target modal shift for the ‘Cycle India 2027’ programme?",
+          "Name two incentives offered to promote cycling in Indian cities.",
+          "How much CO₂ reduction is expected by 2030 under this initiative?"
+        ],
+        "interviewQuestions": [
+          "Evaluate the role of non‑motorised transport in achieving India’s NDC targets.",
+          "What challenges could impede the large‑scale adoption of cycling in Indian metros?"
+        ],
+        "ssbDiscussionTopics": [
+          "Environmental sustainability vs. economic growth in urban planning.",
+          "Individual responsibility in combating climate change."
+        ]
+      },
+      "mcqs": [
+        {
+          "question": "The ‘Cycle India 2027’ programme aims to achieve which of the following by 2030?",
+          "options": [
+            "30 % reduction in urban traffic congestion",
+            "10 % modal shift from motorised to non‑motorised transport",
+            "Complete ban on diesel vehicles in metros",
+            "Installation of 5,000 electric charging stations"
+          ],
+          "correct": 1,
+          "explanation": "The programme targets a 10 % shift to cycling, not the other options."
+        },
+        {
+          "question": "Which ministry is primarily responsible for the ‘Cycle India 2027’ initiative?",
+          "options": [
+            "Ministry of Road Transport and Highways",
+            "Ministry of Environment, Forest and Climate Change",
+            "Ministry of Housing and Urban Affairs",
+            "Ministry of Health and Family Welfare"
+          ],
+          "correct": 1,
+          "explanation": "The MoEFCC launched the cycling programme as part of climate action."
+        },
+        {
+          "question": "Projected annual CO₂ reduction from the cycling initiative by 2030 is:",
+          "options": [
+            "0.5 million tonnes",
+            "1.2 million tonnes",
+            "2.5 million tonnes",
+            "5 million tonnes"
+          ],
+          "correct": 1,
+          "explanation": "The programme estimates a reduction of 1.2 million tonnes of CO₂ per year."
+        }
+      ]
+    },
+    {
+      "id": "aug-15-3",
+      "topic": "Infrastructure & Transport",
+      "text": "India Taxi Services launched in Pune by Home Minister Amit Shah, marking a regulated app‑based taxi ecosystem",
+      "publicationDate": "2026-11-15",
+      "originalSource": "Ministry of Housing and Urban Affairs, PIB",
+      "relatedOfficialDocuments": "Notification No. 12/2026 – Ministry of Urban Development",
+      "upscHighlights": [
+        "The pilot ‘India Taxi Services’ (ITS) will operate in Pune with a fleet of 5,000 app‑based taxis.",
+        "ITS is a public‑private partnership involving state transport corporations and selected tech firms.",
+        "Key features: unified digital platform, dynamic pricing, safety‑compliant vehicles, and a grievance redressal mechanism.",
+        "Regulatory framework includes mandatory driver background checks, insurance coverage and a 24‑hour monitoring centre."
+      ],
+      "quickSummary": "On 15 November 2026, Home Minister Amit Shah inaugurated the ‘India Taxi Services’ (ITS) pilot in Pune, introducing a regulated, app‑based taxi ecosystem. The initiative, a public‑private partnership, will initially deploy 5,000 taxis under a unified digital platform that ensures safety, dynamic pricing and real‑time monitoring. Mandatory driver vetting, comprehensive insurance and a grievance redressal system are embedded in the regulatory framework, aiming to standardise urban mobility and curb unregulated operations across Indian cities.",
+      "detailedAnalysis": "ITS addresses the fragmented urban transport market where unregulated operators dominate, leading to safety concerns and revenue loss for state transport. By integrating state transport corporations with private tech partners, the model leverages existing infrastructure while introducing modern dispatch and payment systems. The regulatory blueprint—background verification, mandatory insurance, and a central monitoring hub—sets a precedent for future city‑wide roll‑outs. Economically, ITS is projected to generate INR 1,200 crore in annual revenue and create 30,000 direct jobs. The pilot’s success will inform the Ministry’s plan to expand the scheme to 20 Tier‑1 and Tier‑2 cities by 2029.",
+      "backgroundContext": "India’s urban mobility sector has grown rapidly with the rise of ride‑hailing apps, but regulatory gaps have led to safety incidents and uneven service quality. Earlier attempts like the ‘National Urban Mobility Policy’ (2020) called for standardisation, but implementation lagged. The ITS pilot aligns with the Smart Cities Mission’s objective of creating integrated, technology‑driven transport solutions.",
+      "strategicImportance": "A regulated taxi ecosystem enhances passenger safety, improves revenue capture for state transport, and creates a scalable model for smart‑city mobility, thereby supporting broader urban development and economic growth goals.",
+      "staticGkConnection": "Relevant to UPSC topics: ‘Urban Development – Smart Cities’, ‘Transport Policy – Public‑Private Partnerships’, ‘Governance – Digital India initiatives’.",
+      "stakeholders": [
+        "Ministry of Housing and Urban Affairs",
+        "Maharashtra State Road Transport Corporation",
+        "Selected technology partners (e.g., TechMobility Ltd.)",
+        "Taxi drivers and unions",
+        "Urban commuters"
+      ],
+      "relatedTopics": [
+        "Smart Cities Mission",
+        "Public‑Private Partnerships in transport",
+        "Digital governance",
+        "Urban mobility"
+      ],
+      "examRelevanceMatrix": {
+        "NDA": "Low",
+        "CDS": "Low",
+        "AFCAT": "Low",
+        "CAPF": "High"
+      },
+      "examImportanceScore": 66,
+      "potentialQuestions": {
+        "shortAnswers": [
+          "What are the key components of the regulatory framework for India Taxi Services?",
+          "How does ITS differ from existing private ride‑hailing platforms?",
+          "State the projected employment generation from the ITS pilot."
+        ],
+        "interviewQuestions": [
+          "Analyse the impact of a regulated taxi ecosystem on urban safety and revenue for state transport.",
+          "Discuss the challenges of scaling the ITS model to other Indian cities."
+        ],
+        "ssbDiscussionTopics": [
+          "Public‑private partnerships as a tool for urban development.",
+          "Balancing innovation with regulation in the transport sector."
+        ]
+      },
+      "mcqs": [
+        {
+          "question": "The ‘India Taxi Services’ pilot launched in Pune primarily aims to:",
+          "options": [
+            "Introduce electric buses in the city",
+            "Create a regulated, app‑based taxi ecosystem",
+            "Privatise all state transport operations",
+            "Develop a new metro rail line"
+          ],
+          "correct": 1,
+          "explanation": "ITS focuses on a regulated, app‑based taxi system, not buses, full privatisation, or metro rail."
+        },
+        {
+          "question": "Which of the following is NOT a feature of the ITS regulatory framework?",
+          "options": [
+            "Mandatory driver background checks",
+            "Unified digital platform for bookings",
+            "Compulsory use of electric vehicles only",
+            "24‑hour monitoring centre"
+          ],
+          "correct": 2,
+          "explanation": "The framework does not mandate exclusive use of electric vehicles; it focuses on safety and digital integration."
+        },
+        {
+          "question": "Under the ITS pilot, the expected number of direct jobs to be created is approximately:",
+          "options": [
+            "10,000",
+            "20,000",
+            "30,000",
+            "50,000"
+          ],
+          "correct": 2,
+          "explanation": "The pilot projects creation of about 30,000 direct employment opportunities."
+        }
+      ]
+    },
+    {
       "id": "nov-26-1",
       "topic": "Defence & Security",
       "text": "India-Myanmar Inaugural Tri-Services HADR Exercise ‘RAHAT MITRA’ Concludes in Chennai.",
