@@ -9078,9 +9078,13 @@ function initCountdownTimer() {
 
 
 
-  // Load target exam selection from localStorage if saved
+  // Load target exam selection from localStorage if saved (default/lock AFCAT 1 2027 DEFCON 2)
+  if (localStorage.getItem("tac_afcat_2027_defcon2_v2") !== "true") {
+    localStorage.setItem("tac_countdown_selection", "afcat");
+    localStorage.setItem("tac_afcat_2027_defcon2_v2", "true");
+  }
 
-  const savedSelection = localStorage.getItem("tac_countdown_selection") || "auto";
+  const savedSelection = localStorage.getItem("tac_countdown_selection") || "afcat";
 
   selector.value = savedSelection;
 
@@ -9161,6 +9165,11 @@ function initCountdownTimer() {
 
       defconCard.className = defconClass;
 
+    }
+
+    const afcatBanner = document.getElementById('afcat-notification-banner');
+    if (afcatBanner) {
+      afcatBanner.style.display = 'flex';
     }
 
   }

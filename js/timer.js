@@ -240,7 +240,11 @@ function initCountdownTimer() {
   });
 
   // Load target exam selection from localStorage if saved
-  const savedSelection = localStorage.getItem("tac_countdown_selection") || "auto";
+  if (localStorage.getItem("tac_afcat_2027_defcon2_v2") !== "true") {
+    localStorage.setItem("tac_countdown_selection", "afcat");
+    localStorage.setItem("tac_afcat_2027_defcon2_v2", "true");
+  }
+  const savedSelection = localStorage.getItem("tac_countdown_selection") || "afcat";
   selector.value = savedSelection;
   renderCustomDropdown();
 
@@ -268,18 +272,22 @@ function initCountdownTimer() {
       targetKey = nearestKey;
     }
 
-    const days = 0;
-    const hours = 0;
-    const minutes = 0;
-    const seconds = 0;
+    const targetExam = exams[targetKey] || exams.afcat;
+    const isAfcat = targetKey === "afcat";
+    const defconText = isAfcat ? "DEFCON 2" : "DEFCON 3";
+    const defconSubtitle = isAfcat ? "APPLICATION PHASE" : "HIGH READINESS";
+    const defconClass = isAfcat ? "metric-card defcon-state-2" : "metric-card defcon-state-3";
 
-    const dStr = days.toString().padStart(2, '0');
-    const hStr = hours.toString().padStart(2, '0');
-    const mStr = minutes.toString().padStart(2, '0');
-    const sStr = seconds.toString().padStart(2, '0');
+    display.innerText = defconText;
+    display.style.color = "var(--danger)";
 
-    display.innerText = `${dStr}d : ${hStr}h : ${mStr}m : ${sStr}s`;
-    display.style.color = "var(--text-primary)";
+    const defconCard = document.getElementById('defcon-card');
+    if (defconCard) {
+      document.getElementById('defcon-level').textContent = defconText;
+      document.getElementById('defcon-exam-name').textContent = targetExam.name;
+      document.getElementById('defcon-subtitle').textContent = defconSubtitle;
+      defconCard.className = defconClass;
+    }
   }
 
   // Update immediately and then run interval
