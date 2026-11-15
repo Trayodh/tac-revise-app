@@ -18,8 +18,9 @@ for (const f of jsonFiles) {
     process.exit(1);
   }
   try {
-    const raw = fs.readFileSync(p, 'utf8');
+    let raw = fs.readFileSync(p, 'utf8');
     JSON.parse(raw);
+    raw = null;
     console.log(`[RENDER TEST] ✅ Valid JSON: ${f}`);
   } catch (err) {
     console.error(`[RENDER TEST] ❌ Invalid JSON in ${f}:`, err.message);
@@ -28,13 +29,15 @@ for (const f of jsonFiles) {
 }
 
 // 2. Verify Question Validation
-const { runValidation } = require('../validate_questions');
-const validation = runValidation();
-if (!validation.success) {
-  console.error('[RENDER TEST] ❌ Question validation failed!');
-  process.exit(1);
+{
+  const { runValidation } = require('../validate_questions');
+  const validation = runValidation();
+  if (!validation.success) {
+    console.error('[RENDER TEST] ❌ Question validation failed!');
+    process.exit(1);
+  }
+  console.log('[RENDER TEST] ✅ Question database validation passed');
 }
-console.log('[RENDER TEST] ✅ Question database validation passed');
 
 // 3. Verify Server module can be required
 try {

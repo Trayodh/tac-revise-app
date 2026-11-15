@@ -9124,9 +9124,9 @@ function initCountdownTimer() {
 
 
   // Load target exam selection from localStorage if saved (default/lock AFCAT 1 2027 DEFCON 2)
-  if (localStorage.getItem("tac_afcat_2027_defcon2_v2") !== "true") {
+  if (localStorage.getItem("tac_afcat_2027_defcon2_v3") !== "true") {
     localStorage.setItem("tac_countdown_selection", "afcat");
-    localStorage.setItem("tac_afcat_2027_defcon2_v2", "true");
+    localStorage.setItem("tac_afcat_2027_defcon2_v3", "true");
   }
 
   const savedSelection = localStorage.getItem("tac_countdown_selection") || "afcat";
@@ -9148,6 +9148,24 @@ function initCountdownTimer() {
   });
 
 
+
+  function ensureAfcatBanners() {
+    let topBanner = document.getElementById('afcat-top-banner');
+    if (!topBanner && document.body) {
+      topBanner = document.createElement('div');
+      topBanner.id = 'afcat-top-banner';
+      topBanner.style.cssText = 'position: fixed; top: 0; left: 0; width: 100%; min-height: 44px; background: linear-gradient(90deg, #0c4a6e 0%, #0284c7 50%, #0c4a6e 100%); color: #ffffff; display: flex; align-items: center; justify-content: center; gap: 12px; flex-wrap: wrap; padding: 8px 16px; box-sizing: border-box; z-index: 10001; border-bottom: 2px solid #38bdf8; box-shadow: 0 4px 15px rgba(2, 132, 199, 0.45); font-family: var(--font-header, Inter, system-ui, sans-serif); font-weight: 700; text-align: center;';
+      topBanner.innerHTML = '<span style="background: #ef4444; color: #fff; font-size: 0.72rem; font-family: var(--font-mono, monospace); padding: 3px 8px; border-radius: 4px; letter-spacing: 1px; text-transform: uppercase; box-shadow: 0 0 8px rgba(239, 68, 68, 0.7);">DEFCON 2 ALERT</span><span style="font-size: 0.95rem; text-shadow: 1px 1px 2px rgba(0,0,0,0.5);">🔵 <strong>AFCAT 1 2027 Notification is OUT!</strong> Students are advised to fill out their application form immediately.</span><a href="https://afcat.cdac.in/AFCAT/" target="_blank" rel="noopener noreferrer" style="background: #fbbf24; color: #0f172a; padding: 4px 12px; border-radius: 4px; font-size: 0.78rem; font-weight: 800; text-decoration: none; letter-spacing: 0.5px; white-space: nowrap;">FILL FORM NOW &rarr;</a>';
+      document.body.insertBefore(topBanner, document.body.firstChild);
+    }
+    if (topBanner) {
+      topBanner.style.display = 'flex';
+    }
+    const afcatBanner = document.getElementById('afcat-notification-banner');
+    if (afcatBanner) {
+      afcatBanner.style.display = 'flex';
+    }
+  }
 
   function updateTimer() {
 
@@ -9187,10 +9205,10 @@ function initCountdownTimer() {
 
     const targetExam = exams[targetKey] || exams.afcat;
 
-    const isAfcat = targetKey === "afcat";
-    const defconText = isAfcat ? "DEFCON 2" : "DEFCON 3";
-    const defconSubtitle = isAfcat ? "APPLICATION PHASE" : "HIGH READINESS";
-    const defconClass = isAfcat ? "metric-card defcon-state-2" : "metric-card defcon-state-3";
+    // Standing directive: AFCAT 1 2027 is locked at DEFCON 2 (APPLICATION PHASE)
+    const defconText = "DEFCON 2";
+    const defconSubtitle = targetKey === "afcat" ? "APPLICATION PHASE" : "HIGH READINESS";
+    const defconClass = "metric-card defcon-state-2";
 
     display.innerText = defconText;
 
@@ -9212,10 +9230,7 @@ function initCountdownTimer() {
 
     }
 
-    const afcatBanner = document.getElementById('afcat-notification-banner');
-    if (afcatBanner) {
-      afcatBanner.style.display = 'flex';
-    }
+    ensureAfcatBanners();
 
   }
 
@@ -17351,11 +17366,11 @@ function initDefconWidget() {
 
   function updateDefcon() {
     const selector = document.getElementById("countdown-exam-selector");
-    const val = selector ? selector.value : "auto";
+    const val = selector ? selector.value : "afcat";
     if (val === "nda") {
-      setDefconState(3, "NDA 1 2027", "HIGH READINESS");
+      setDefconState(2, "NDA 1 2027", "HIGH READINESS");
     } else if (val === "cds") {
-      setDefconState(3, "CDS 1 2027", "HIGH READINESS");
+      setDefconState(2, "CDS 1 2027", "HIGH READINESS");
     } else {
       setDefconState(2, "AFCAT 1 2027", "APPLICATION PHASE");
     }
@@ -17584,10 +17599,15 @@ function applyGoalGetterTheme() {
     .menu-item:hover { background: var(--border) !important; color: white !important; }
     .menu-item.active { background: var(--accent) !important; color: white !important; box-shadow: 0 0 15px rgba(255,105,180,0.4); }
     #app-header h1 { color: var(--text-bright) !important; text-shadow: 2px 2px 8px rgba(255,105,180,0.5) !important; font-weight: 700; }
-    #defcon-card, .progress-bar-fill, .token-buy-btn { border-color: var(--accent) !important; background: linear-gradient(90deg, #ff69b4, #da70d6) !important; color: white !important; }
+    .progress-bar-fill, .token-buy-btn { border-color: var(--accent) !important; background: linear-gradient(90deg, #ff69b4, #da70d6) !important; color: white !important; }
     * { font-family: 'Inter', 'Segoe UI', Roboto, sans-serif !important; }
   `;
   document.head.appendChild(style);
+
+  const topBanner = document.getElementById('afcat-top-banner');
+  if (topBanner) topBanner.style.display = 'flex';
+  const afcatBanner = document.getElementById('afcat-notification-banner');
+  if (afcatBanner) afcatBanner.style.display = 'flex';
 
   // Background music via HTML5 Audio (Invisible)
   const startAudio = () => {

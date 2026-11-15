@@ -1284,40 +1284,47 @@ server.headersTimeout = 601000;
 
 if (require.main === module) {
   // ── Data Integrity Gate (only run on standalone server startup, not serverless cold starts) ──
-  const { runValidation } = require('./validate_questions');
-  const validationResult = runValidation();
+  {
+    const { runValidation } = require('./validate_questions');
+    const validationResult = runValidation();
 
-  if (!validationResult.success) {
-    console.error('\n[SERVER] ⛔ Server startup BLOCKED due to data integrity errors.');
-    console.error('[SERVER] Run `node validate_questions.js` for the full report.');
-    console.error('[SERVER] Fix the errors in data.js, then restart.\n');
-    process.exit(1);
+    if (!validationResult.success) {
+      console.error('\n[SERVER] ⛔ Server startup BLOCKED due to data integrity errors.');
+      console.error('[SERVER] Run `node validate_questions.js` for the full report.');
+      console.error('[SERVER] Fix the errors in data.js, then restart.\n');
+      process.exit(1);
+    }
   }
   // ─────────────────────────────────────────────────────────────────────────────────────────────
 
   server.listen(PORT, '0.0.0.0', () => {
     console.log(`Tac-Revise Server running at http://0.0.0.0:${PORT}`);
     
-    // Trigger automated daily current affairs updates
-    console.log("[AUTO-UPDATE] Scheduling first update in 10 seconds...");
+    // Trigger automated daily current affairs updates (staggered to avoid memory spikes on 512MB instances)
+    console.log("[AUTO-UPDATE] Scheduling startup updates (CA at 15s, ME at 45s)...");
     setTimeout(() => {
       autoUpdateCurrentAffairs()
         .then(() => console.log("[AUTO-UPDATE] Startup auto-update CA completed successfully."))
         .catch(err => console.error("[AUTO-UPDATE] Startup auto-update CA failed:", err));
-        
+    }, 15000);
+
+    setTimeout(() => {
       autoUpdateMilitaryExercises()
         .then(() => console.log("[AUTO-UPDATE] Startup auto-update ME completed successfully."))
         .catch(err => console.error("[AUTO-UPDATE] Startup auto-update ME failed:", err));
-    }, 10000);
+    }, 45000);
   
     setInterval(() => {
       autoUpdateCurrentAffairs()
         .then(() => console.log("[AUTO-UPDATE] Scheduled auto-update CA completed successfully."))
-        .catch(err => console.error("[AUTO-UPDATE] Scheduled auto-update CA failed:", err));
-        
-      autoUpdateMilitaryExercises()
-        .then(() => console.log("[AUTO-UPDATE] Scheduled auto-update ME completed successfully."))
-        .catch(err => console.error("[AUTO-UPDATE] Scheduled auto-update ME failed:", err));
+        .catch(err => console.error("[AUTO-UPDATE] Scheduled auto-update CA failed:", err))
+        .finally(() => {
+          setTimeout(() => {
+            autoUpdateMilitaryExercises()
+              .then(() => console.log("[AUTO-UPDATE] Scheduled auto-update ME completed successfully."))
+              .catch(err => console.error("[AUTO-UPDATE] Scheduled auto-update ME failed:", err));
+          }, 30000);
+        });
     }, 24 * 60 * 60 * 1000); // every 24 hours
   });
 }

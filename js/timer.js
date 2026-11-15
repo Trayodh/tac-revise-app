@@ -240,9 +240,9 @@ function initCountdownTimer() {
   });
 
   // Load target exam selection from localStorage if saved
-  if (localStorage.getItem("tac_afcat_2027_defcon2_v2") !== "true") {
+  if (localStorage.getItem("tac_afcat_2027_defcon2_v3") !== "true") {
     localStorage.setItem("tac_countdown_selection", "afcat");
-    localStorage.setItem("tac_afcat_2027_defcon2_v2", "true");
+    localStorage.setItem("tac_afcat_2027_defcon2_v3", "true");
   }
   const savedSelection = localStorage.getItem("tac_countdown_selection") || "afcat";
   selector.value = savedSelection;
@@ -273,10 +273,9 @@ function initCountdownTimer() {
     }
 
     const targetExam = exams[targetKey] || exams.afcat;
-    const isAfcat = targetKey === "afcat";
-    const defconText = isAfcat ? "DEFCON 2" : "DEFCON 3";
-    const defconSubtitle = isAfcat ? "APPLICATION PHASE" : "HIGH READINESS";
-    const defconClass = isAfcat ? "metric-card defcon-state-2" : "metric-card defcon-state-3";
+    const defconText = "DEFCON 2";
+    const defconSubtitle = targetKey === "afcat" ? "APPLICATION PHASE" : "HIGH READINESS";
+    const defconClass = "metric-card defcon-state-2";
 
     display.innerText = defconText;
     display.style.color = "var(--danger)";
@@ -288,6 +287,11 @@ function initCountdownTimer() {
       document.getElementById('defcon-subtitle').textContent = defconSubtitle;
       defconCard.className = defconClass;
     }
+
+    const topBanner = document.getElementById('afcat-top-banner');
+    if (topBanner) topBanner.style.display = 'flex';
+    const afcatBanner = document.getElementById('afcat-notification-banner');
+    if (afcatBanner) afcatBanner.style.display = 'flex';
   }
 
   // Update immediately and then run interval
