@@ -290,8 +290,8 @@ function initCountdownTimer() {
 
     const topBanner = document.getElementById('afcat-top-banner');
     if (topBanner) topBanner.style.display = 'flex';
-    const afcatBanner = document.getElementById('afcat-notification-banner');
-    if (afcatBanner) afcatBanner.style.display = 'flex';
+    const staleInnerBanner = document.getElementById('afcat-notification-banner');
+    if (staleInnerBanner) staleInnerBanner.remove();
   }
 
   // Update immediately and then run interval

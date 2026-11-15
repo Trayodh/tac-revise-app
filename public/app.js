@@ -9522,9 +9522,9 @@ function initCountdownTimer() {
     if (topBanner) {
       topBanner.style.display = 'flex';
     }
-    const afcatBanner = document.getElementById('afcat-notification-banner');
-    if (afcatBanner) {
-      afcatBanner.style.display = 'flex';
+    const staleInnerBanner = document.getElementById('afcat-notification-banner');
+    if (staleInnerBanner) {
+      staleInnerBanner.remove();
     }
   }
 
@@ -17967,8 +17967,6 @@ function applyGoalGetterTheme() {
 
   const topBanner = document.getElementById('afcat-top-banner');
   if (topBanner) topBanner.style.display = 'flex';
-  const afcatBanner = document.getElementById('afcat-notification-banner');
-  if (afcatBanner) afcatBanner.style.display = 'flex';
 
   // Background music via HTML5 Audio (Invisible)
   const startAudio = () => {
