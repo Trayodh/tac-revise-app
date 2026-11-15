@@ -152,6 +152,22 @@
 
       /* Hide the print button */
       .no-print { display: none !important; }
+
+      /* Clean vector PDF layout for cheat sheets */
+      @page { margin: 8mm; }
+      #cheat-sheet-content {
+        border: none !important;
+        box-shadow: none !important;
+        padding: 0 !important;
+        background: #0b1120 !important;
+        width: 100% !important;
+      }
+      #cheat-sheet-content .cs-card,
+      #cheat-sheet-content table,
+      #cheat-sheet-content pre {
+        break-inside: avoid;
+        page-break-inside: avoid;
+      }
     }
   </style>
 <style>
@@ -1904,7 +1920,7 @@
   <script src="wiki_links.js?v=1794760000000"></script>
   <script src="js/state_manager.js?v=1794760000000"></script>
   <script src="js/motivation_data.js?v=1794760000000"></script>
-  <script src="app.js?v=1794760000000"></script>
+  <script src="app.js?v=1794770000000"></script>
   <script src="auth_logic.js?v=1794760000000"></script>
   <script src="notifications_bundle.js?v=1794760000000"></script>
   <script src="js/tell_me_more.js?v=1794760000000"></script>

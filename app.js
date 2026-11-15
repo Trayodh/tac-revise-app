@@ -6178,6 +6178,110 @@ function unclipRenderedCheatSheetDom(containerEl) {
   });
 }
 
+function renderCheatSheetResult(area, htmlContent) {
+  const safeHtml = sanitizeAndUnclipCheatSheetHtml(htmlContent);
+  area.className = "ai-response-area fade-in";
+  area.innerHTML = `
+      <div class="no-print" style="margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; border-bottom: 1px dashed rgba(255,255,255,0.2); padding-bottom: 12px;">
+        <h3 style="color: var(--accent); margin: 0;">AI Generated Cheat Sheet</h3>
+        <div style="display: flex; align-items: center; flex-wrap: wrap; gap: 8px;">
+          <button id="save-cheatsheet-img-btn" class="btn-primary" onclick="window.downloadCheatSheetImage()" style="padding: 6px 16px; font-size: 0.9rem;">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 16px; height: 16px; display: inline-block; vertical-align: middle; margin-right: 6px;">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+            </svg>
+            Save HD Image (PNG)
+          </button>
+          <button id="save-cheatsheet-pdf-btn" onclick="window.downloadCheatSheetPdf()" style="padding: 6px 14px; font-size: 0.9rem; background: rgba(56, 189, 248, 0.12); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.45); border-radius: 6px; cursor: pointer; font-weight: 600;">
+            Save Vector PDF
+          </button>
+        </div>
+      </div>
+      <div id="cheat-sheet-content" style="background: #0b1120; padding: 24px; border-radius: 8px; color: var(--text-primary); border: 1px solid var(--border); box-shadow: 0 4px 6px -1px rgba(0,0,0,0.2); height: auto; max-height: none; overflow: visible;">
+        ${safeHtml}
+      </div>
+    `;
+
+  const contentEl = document.getElementById("cheat-sheet-content");
+  unclipRenderedCheatSheetDom(contentEl);
+
+  // Attempt MathJax rendering if equations are present
+  if (window.MathJax && typeof window.MathJax.typesetPromise === "function") {
+    window.MathJax.typesetPromise(contentEl ? [contentEl] : undefined).catch(() => {});
+  } else if (window.MathJax && typeof window.MathJax.typeset === "function") {
+    window.MathJax.typeset();
+  }
+}
+
+function getCheatSheetExportBasename() {
+  const heading = document.querySelector("#cheat-sheet-content .cs-banner h2, #cheat-sheet-content h1, #cheat-sheet-content h2");
+  const topicInput = document.getElementById("ai-custom-topic-input");
+  const rawTitle = (heading?.textContent || topicInput?.value || "Graphic_CheatSheet").trim();
+  const slug = rawTitle.replace(/[^a-z0-9]+/gi, "_").replace(/^_+|_+$/g, "").slice(0, 60) || "Graphic_CheatSheet";
+  return `Jayastra_CheatSheet_${slug}_${Date.now()}`;
+}
+
+function canvasToBlobWithType(canvas, mimeType, quality) {
+  return new Promise((resolve) => {
+    if (typeof canvas.toBlob === "function") {
+      try {
+        canvas.toBlob((blob) => resolve(blob), mimeType, quality);
+      } catch (_) {
+        resolve(null);
+      }
+    } else {
+      resolve(null);
+    }
+  });
+}
+
+function triggerDownloadUrl(url, filename) {
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = filename;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  if (url.startsWith("blob:")) {
+    setTimeout(() => URL.revokeObjectURL(url), 10000);
+  }
+}
+
+window.downloadCheatSheetPdf = async function() {
+  const content = document.getElementById("cheat-sheet-content");
+  if (!content) return;
+
+  const pdfBtn = document.getElementById("save-cheatsheet-pdf-btn");
+  const originalText = pdfBtn ? pdfBtn.textContent : "";
+  if (pdfBtn) {
+    pdfBtn.disabled = true;
+    pdfBtn.textContent = "Preparing PDF...";
+  }
+
+  const prevTitle = document.title;
+  try {
+    unclipRenderedCheatSheetDom(content);
+    if (window.MathJax && typeof window.MathJax.typesetPromise === "function") {
+      try { await window.MathJax.typesetPromise([content]); } catch (_) {}
+    }
+    if (document.fonts && document.fonts.ready) {
+      try { await document.fonts.ready; } catch (_) {}
+    }
+    document.title = getCheatSheetExportBasename();
+    const restoreTitle = () => {
+      document.title = prevTitle;
+      window.removeEventListener("afterprint", restoreTitle);
+    };
+    window.addEventListener("afterprint", restoreTitle);
+    setTimeout(restoreTitle, 3000);
+    window.print();
+  } finally {
+    if (pdfBtn) {
+      pdfBtn.disabled = false;
+      pdfBtn.textContent = originalText;
+    }
+  }
+};
+
 function buildFallbackGraphicCheatSheetHtml(topic) {
   const safeTopic = (topic || "Defence Master Reference").replace(/</g, "&lt;").replace(/>/g, "&gt;");
   const lower = (topic || "").toLowerCase();
@@ -6631,72 +6735,14 @@ CRITICAL CONTINUATION INSTRUCTIONS:
       throw new Error("Failed to generate Graphic Cheat Sheet. Try again.");
     }
 
-    const reportHtml = sanitizeAndUnclipCheatSheetHtml(accumulatedHtml);
-
-    area.className = "ai-response-area fade-in";
-
-    area.innerHTML = `
-
-      <div class="no-print" style="margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px dashed rgba(255,255,255,0.2); padding-bottom: 12px;">
-
-        <h3 style="color: var(--accent); margin: 0;">AI Generated Cheat Sheet</h3>
-
-        <button id="save-cheatsheet-img-btn" class="btn-primary" onclick="window.downloadCheatSheetImage()" style="padding: 6px 16px; font-size: 0.9rem;">
-
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 16px; height: 16px; display: inline-block; vertical-align: middle; margin-right: 6px;">
-
-            <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
-
-          </svg>
-
-          Save as Image
-
-        </button>
-
-      </div>
-
-      <div id="cheat-sheet-content" style="background: var(--bg-secondary); padding: 20px; border-radius: 8px; color: var(--text-primary); border: 1px solid var(--border); box-shadow: 0 4px 6px -1px rgba(0,0,0,0.2); height: auto; max-height: none; overflow: visible;">
-
-        ${reportHtml}
-
-      </div>
-
-    `;
-
-    const contentEl = document.getElementById("cheat-sheet-content");
-    unclipRenderedCheatSheetDom(contentEl);
-
-    // Attempt MathJax rendering if equations are present
-    if (window.MathJax && typeof window.MathJax.typeset === "function") {
-      window.MathJax.typeset();
-    }
+    renderCheatSheetResult(area, accumulatedHtml);
 
   } catch (err) {
 
     console.error("Cheat Sheet Error:", err);
 
     try {
-      const fallbackHtml = sanitizeAndUnclipCheatSheetHtml(buildFallbackGraphicCheatSheetHtml(topic));
-      area.className = "ai-response-area fade-in";
-      area.innerHTML = `
-        <div class="no-print" style="margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px dashed rgba(255,255,255,0.2); padding-bottom: 12px;">
-          <h3 style="color: var(--accent); margin: 0;">AI Generated Cheat Sheet</h3>
-          <button id="save-cheatsheet-img-btn" class="btn-primary" onclick="window.downloadCheatSheetImage()" style="padding: 6px 16px; font-size: 0.9rem;">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 16px; height: 16px; display: inline-block; vertical-align: middle; margin-right: 6px;">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
-            </svg>
-            Save as Image
-          </button>
-        </div>
-        <div id="cheat-sheet-content" style="background: var(--bg-secondary); padding: 20px; border-radius: 8px; color: var(--text-primary); border: 1px solid var(--border); box-shadow: 0 4px 6px -1px rgba(0,0,0,0.2); height: auto; max-height: none; overflow: visible;">
-          ${fallbackHtml}
-        </div>
-      `;
-      const contentEl = document.getElementById("cheat-sheet-content");
-      unclipRenderedCheatSheetDom(contentEl);
-      if (window.MathJax && typeof window.MathJax.typeset === "function") {
-        window.MathJax.typeset();
-      }
+      renderCheatSheetResult(area, buildFallbackGraphicCheatSheetHtml(topic));
     } catch (fallbackErr) {
       area.className = "ai-response-area fade-in";
       let msg = err.message || "Failed to generate Graphic Cheat Sheet. Try again.";
@@ -6727,7 +6773,7 @@ window.downloadCheatSheetImage = async function() {
   const originalBtnHtml = saveBtn ? saveBtn.innerHTML : "";
   if (saveBtn) {
     saveBtn.disabled = true;
-    saveBtn.innerHTML = "Rendering Full Image...";
+    saveBtn.innerHTML = "Rendering Ultra-HD PNG...";
   }
 
   try {
@@ -6741,18 +6787,34 @@ window.downloadCheatSheetImage = async function() {
       try { await document.fonts.ready; } catch (e) {}
     }
 
-    const fullWidth = Math.max(content.scrollWidth, content.offsetWidth, 800);
-    const fullHeight = Math.max(content.scrollHeight, content.offsetHeight, 600);
+    const fullWidth = Math.max(content.scrollWidth, content.offsetWidth, 600);
+    const fullHeight = Math.max(content.scrollHeight, content.offsetHeight, 400);
 
-    // Keep high 2x resolution while preventing browser max canvas height overflow on extremely vast sheets
-    let renderScale = 2;
-    if (fullHeight * renderScale > 15500) {
-      renderScale = Math.max(1, Math.floor((15500 / fullHeight) * 100) / 100);
-    }
+    // Target lossless 4x HiDPI capture bounded by Chromium/Safari max canvas dimensions & pixel budget
+    const MAX_CANVAS_DIM = 16000;
+    const MAX_CANVAS_AREA = 80000000;
+    const maxSafeScaleByDim = Math.min(MAX_CANVAS_DIM / fullWidth, MAX_CANVAS_DIM / fullHeight);
+    const maxSafeScaleByArea = Math.sqrt(MAX_CANVAS_AREA / (fullWidth * fullHeight));
+    const maxSafeScale = Math.max(1, Math.floor(Math.min(4, maxSafeScaleByDim, maxSafeScaleByArea) * 100) / 100);
 
-    const canvas = await html2canvas(content, {
-      backgroundColor: "#0a1128",
-      scale: renderScale,
+    const scaleCandidates = Array.from(new Set([
+      maxSafeScale,
+      Math.min(maxSafeScale, 3),
+      Math.min(maxSafeScale, 2.5),
+      Math.min(maxSafeScale, 2),
+      Math.min(maxSafeScale, 1.5),
+      1
+    ])).filter(s => s >= 1).sort((a, b) => b - a);
+
+    // Pre-measure inline SVGs on live DOM so cloned SVGs keep crisp exact pixel dimensions
+    const svgSizes = Array.from(content.querySelectorAll("svg")).map(svg => {
+      const r = svg.getBoundingClientRect();
+      return { w: Math.round(r.width), h: Math.round(r.height) };
+    });
+
+    const captureCanvasAtScale = (scale) => html2canvas(content, {
+      backgroundColor: "#0b1120",
+      scale,
       useCORS: true,
       allowTaint: true,
       logging: false,
@@ -6762,7 +6824,7 @@ window.downloadCheatSheetImage = async function() {
       y: 0,
       width: fullWidth,
       height: fullHeight,
-      windowWidth: Math.max(document.documentElement.clientWidth || 1200, fullWidth + 100),
+      windowWidth: Math.max(document.documentElement.clientWidth || 1280, fullWidth + 80),
       windowHeight: fullHeight + 300,
       onclone: (clonedDoc) => {
         const clonedContent = clonedDoc.getElementById("cheat-sheet-content");
@@ -6779,41 +6841,71 @@ window.downloadCheatSheetImage = async function() {
             ancestor.style.setProperty("overflow-x", "visible", "important");
             ancestor.style.setProperty("overflow-y", "visible", "important");
             ancestor.style.setProperty("transform", "none", "important");
+            ancestor.style.setProperty("animation", "none", "important");
+            ancestor.style.setProperty("transition", "none", "important");
+            ancestor.style.setProperty("opacity", "1", "important");
           }
           ancestor = ancestor.parentElement;
         }
+
+        clonedContent.style.setProperty("width", `${fullWidth}px`, "important");
+        clonedContent.style.setProperty("box-sizing", "border-box", "important");
+        clonedContent.style.setProperty("box-shadow", "none", "important");
+        clonedContent.style.setProperty("-webkit-font-smoothing", "antialiased", "important");
+        clonedContent.style.setProperty("text-rendering", "geometricPrecision", "important");
+
+        clonedContent.querySelectorAll("*").forEach(el => {
+          if (el.style) {
+            el.style.setProperty("backdrop-filter", "none", "important");
+            el.style.setProperty("-webkit-backdrop-filter", "none", "important");
+            el.style.setProperty("animation", "none", "important");
+            el.style.setProperty("transition", "none", "important");
+          }
+        });
+
+        clonedContent.querySelectorAll("svg").forEach((svg, idx) => {
+          const sz = svgSizes[idx];
+          if (sz && sz.w > 0 && sz.h > 0 && (!svg.getAttribute("width") || !svg.getAttribute("height"))) {
+            svg.setAttribute("width", String(sz.w));
+            svg.setAttribute("height", String(sz.h));
+          }
+        });
 
         unclipRenderedCheatSheetDom(clonedContent);
       }
     });
 
-    const filename = `Jayastra_CheatSheet_${Date.now()}.jpg`;
-    if (typeof canvas.toBlob === "function") {
-      await new Promise((resolve, reject) => {
-        canvas.toBlob((blob) => {
-          if (!blob) {
-            reject(new Error("Canvas toBlob returned null"));
-            return;
-          }
-          const blobUrl = URL.createObjectURL(blob);
-          const link = document.createElement("a");
-          link.href = blobUrl;
-          link.download = filename;
-          document.body.appendChild(link);
-          link.click();
-          document.body.removeChild(link);
-          setTimeout(() => URL.revokeObjectURL(blobUrl), 10000);
-          resolve();
-        }, "image/jpeg", 0.95);
-      });
-    } else {
-      const imgData = canvas.toDataURL("image/jpeg", 0.95);
-      const link = document.createElement("a");
-      link.href = imgData;
-      link.download = filename;
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
+    const baseName = getCheatSheetExportBasename();
+    let exported = false;
+
+    for (const candidateScale of scaleCandidates) {
+      let canvas;
+      try {
+        canvas = await captureCanvasAtScale(candidateScale);
+      } catch (scaleErr) {
+        console.warn(`[CheatSheet Export] Capture failed at scale ${candidateScale}x:`, scaleErr);
+        continue;
+      }
+
+      const pngBlob = await canvasToBlobWithType(canvas, "image/png");
+      if (pngBlob && pngBlob.size > 0) {
+        triggerDownloadUrl(URL.createObjectURL(pngBlob), `${baseName}.png`);
+        exported = true;
+        break;
+      }
+
+      const hqJpegBlob = await canvasToBlobWithType(canvas, "image/jpeg", 0.98);
+      if (hqJpegBlob && hqJpegBlob.size > 0) {
+        triggerDownloadUrl(URL.createObjectURL(hqJpegBlob), `${baseName}.jpg`);
+        exported = true;
+        break;
+      }
+    }
+
+    if (!exported) {
+      const fallbackCanvas = await captureCanvasAtScale(1);
+      const dataUrl = fallbackCanvas.toDataURL("image/png");
+      triggerDownloadUrl(dataUrl, `${baseName}.png`);
     }
 
   } catch (err) {
