@@ -101,9 +101,23 @@ window.fetch = async function() {
     const isCapacitor = window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform();
 
     if (!isCapacitor && url.includes('/api/gemini')) {
-
-        return originalFetch.apply(this, arguments);
-
+        try {
+            const backendRes = await originalFetch.apply(this, arguments);
+            if (backendRes.ok) {
+                return backendRes;
+            }
+            try {
+                const cloned = backendRes.clone();
+                const errBody = await cloned.json();
+                const candidateText = errBody?.candidates?.[0]?.content?.parts?.[0]?.text || '';
+                if (candidateText && !candidateText.includes('AI Quota Exhausted') && !candidateText.includes('_AI uplink failed')) {
+                    return backendRes;
+                }
+            } catch (_) {}
+            console.warn('[AI Fetch] Backend /api/gemini returned status ' + backendRes.status + ', attempting client-side fallback...');
+        } catch (netErr) {
+            console.warn('[AI Fetch] Backend /api/gemini unreachable, attempting client-side fallback:', netErr);
+        }
     }
 
     
@@ -169,17 +183,17 @@ window.fetch = async function() {
             
 
             if (reqBody.contents && reqBody.contents.length > 0) {
-
-                promptText = reqBody.contents[0].parts
-
-                    .filter(p => p.text)
-
-                    .map(p => p.text)
-
-                    .join('\n');
-
-                messages.push({ role: 'user', content: promptText });
-
+                reqBody.contents.forEach(turn => {
+                    const role = (turn.role === 'model' || turn.role === 'assistant') ? 'assistant' : 'user';
+                    const text = (turn.parts || [])
+                        .filter(p => p.text)
+                        .map(p => p.text)
+                        .join('\n');
+                    if (text) {
+                        messages.push({ role: role, content: text });
+                    }
+                });
+                promptText = messages.filter(m => m.role === 'user').map(m => m.content).join('\n');
             }
 
             
@@ -6040,13 +6054,18 @@ function isCheatSheetOutputComplete(html, finishReason) {
   if (html.includes("<!-- CHEAT_SHEET_COMPLETE -->")) return true;
   if (finishReason === "MAX_TOKENS" || finishReason === "LENGTH" || finishReason === "length") return false;
 
-  const openDivs = (html.match(/<div\b/gi) || []).length;
-  const closeDivs = (html.match(/<\/div\s*>/gi) || []).length;
-  if (openDivs > closeDivs) return false;
-
   // Check if HTML ends mid-tag
   const trimmed = html.trim();
   if (!trimmed.endsWith(">")) return false;
+
+  const openDivs = (html.match(/<div\b/gi) || []).length;
+  const closeDivs = (html.match(/<\/div\s*>/gi) || []).length;
+  // If model stopped naturally (STOP) after generating a complete sheet and at most outer wrapper divs are unclosed, treat as complete
+  if (finishReason === "STOP" && trimmed.length > 1500 && (openDivs - closeDivs) <= 2) {
+    return true;
+  }
+  if (openDivs > closeDivs) return false;
+
   return true;
 }
 
@@ -6189,35 +6208,50 @@ STRICT RULES:
         model: "gemini-2.5-flash",
         contents: conversationContents,
         generationConfig: {
-          maxOutputTokens: 65536,
+          maxOutputTokens: 32768,
           temperature: 0.1,
-          thinkingConfig: { thinkingBudget: 2048 }
+          thinkingConfig: { thinkingBudget: 1024 }
         }
       };
 
-      const response = await fetch("/api/gemini", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload)
-      });
+      let chunkText = "";
+      let finishReason = "STOP";
 
-      let data;
-      if (!response.ok) {
+      try {
+        const response = await fetch("/api/gemini", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload)
+        });
+
+        let data;
         try {
           data = await response.json();
-        } catch (e) {}
-        if (data && data.candidates && data.candidates[0] && data.candidates[0].content && data.candidates[0].content.parts) {
-          // Proceed if fallback message provided
-        } else {
-          if (accumulatedHtml.length > 500) break;
-          throw new Error(`API Error: ${response.status}`);
+        } catch (e) {
+          data = null;
         }
-      } else {
-        data = await response.json();
-      }
 
-      const chunkText = data.candidates?.[0]?.content?.parts?.map(p => p.text || "").join("") || data.text || "";
-      const finishReason = data.candidates?.[0]?.finishReason || "STOP";
+        chunkText = data?.candidates?.[0]?.content?.parts?.map(p => p.text || "").join("") || data?.text || "";
+        finishReason = data?.candidates?.[0]?.finishReason || "STOP";
+
+        const isErrorFallbackText = chunkText.includes("AI Quota Exhausted") || chunkText.includes("_AI uplink failed");
+
+        if (!response.ok || isErrorFallbackText) {
+          if (accumulatedHtml.length > 500) {
+            console.warn(`Cheat sheet continuation part ${part} returned error/quota warning; preserving ${accumulatedHtml.length} chars already generated.`);
+            break;
+          }
+          throw new Error(isErrorFallbackText
+            ? "AI Quota Exhausted across providers. Please try again in a moment."
+            : `API Error: ${response.status}`);
+        }
+      } catch (partErr) {
+        if (accumulatedHtml.length > 500) {
+          console.warn(`Cheat sheet continuation part ${part} failed; preserving ${accumulatedHtml.length} chars already generated:`, partErr);
+          break;
+        }
+        throw partErr;
+      }
 
       if (!chunkText.trim()) break;
 
@@ -6241,11 +6275,22 @@ CRITICAL CONTINUATION INSTRUCTIONS:
 4. Complete the unfinished card/element first, and then generate ALL remaining items, commands, formations, and sections exhaustively without skipping or summarizing.
 5. Close all open HTML tags properly and end with <!-- CHEAT_SHEET_COMPLETE -->.`;
 
+      let modelTurnHtml = accumulatedHtml;
+      if (accumulatedHtml.length > 12000) {
+        const styleMatch = accumulatedHtml.match(/<style[\s\S]*?<\/style>/i);
+        const styleBlock = styleMatch ? styleMatch[0] : "";
+        modelTurnHtml = `${styleBlock}\n${accumulatedHtml.slice(0, 600)}\n<!-- ...middle sections omitted for context window... -->\n${accumulatedHtml.slice(-2500)}`;
+      }
+
       conversationContents = [
         { role: "user", parts: [{ text: prompt }] },
-        { role: "model", parts: [{ text: accumulatedHtml }] },
+        { role: "model", parts: [{ text: modelTurnHtml }] },
         { role: "user", parts: [{ text: continuationInstruction }] }
       ];
+    }
+
+    if (!accumulatedHtml || accumulatedHtml.trim().length < 50) {
+      throw new Error("Failed to generate Graphic Cheat Sheet. Try again.");
     }
 
     const reportHtml = sanitizeAndUnclipCheatSheetHtml(accumulatedHtml);

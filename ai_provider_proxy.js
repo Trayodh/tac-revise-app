@@ -1,6 +1,8 @@
 require('dotenv').config();
 
-const GEMINI_KEY = process.env.GEMINI_API_KEY || '';
+const REVOKED_GEMINI_KEYS = new Set(['AIzaSyA0g3U1Nro31TC8ow-oaaaEwZ5mpRQ7MJM']);
+const envGeminiKey = (process.env.GEMINI_API_KEY || '').trim();
+const GEMINI_KEY = (envGeminiKey && !REVOKED_GEMINI_KEYS.has(envGeminiKey)) ? envGeminiKey : '';
 const CEREBRAS_KEY = process.env.CEREBRAS_API_KEY || '';
 const GROQ_KEY = process.env.GROQ_API_KEY || '';
 
@@ -76,33 +78,38 @@ async function generateAIContent(systemPrompt, userPrompt, providerOrder = ['cer
         }
       } else if (provider === 'groq') {
         if (!GROQ_KEY) throw new Error("Groq API key missing");
-        
-        const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${GROQ_KEY}` },
-          body: JSON.stringify({
-            model: "openai/gpt-oss-120b",
-            messages: [
-              { role: "system", content: systemPrompt },
-              { role: "user", content: userPrompt }
-            ],
-            response_format: { type: "json_object" },
-            max_tokens: 3000
-          }),
-          signal: AbortSignal.timeout(60000)
-        });
-        
-        if (res.ok) {
-          const data = await res.json();
-          const text = data.choices?.[0]?.message?.content;
-          if (text) {
-             console.log(`[AI_PROXY] Successfully generated with Groq.`);
-             return text;
+
+        const groqModels = ["openai/gpt-oss-120b", "qwen/qwen3.8-27b", "openai/gpt-oss-20b"];
+        let groqErrText = "";
+        for (const groqModel of groqModels) {
+          const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${GROQ_KEY}` },
+            body: JSON.stringify({
+              model: groqModel,
+              messages: [
+                { role: "system", content: systemPrompt },
+                { role: "user", content: userPrompt }
+              ],
+              response_format: { type: "json_object" },
+              max_tokens: 3000
+            }),
+            signal: AbortSignal.timeout(60000)
+          });
+
+          if (res.ok) {
+            const data = await res.json();
+            const text = data.choices?.[0]?.message?.content;
+            if (text) {
+              console.log(`[AI_PROXY] Successfully generated with Groq (${groqModel}).`);
+              return text;
+            }
+          } else {
+            groqErrText = await res.text();
+            console.warn(`[AI_PROXY] Groq model ${groqModel} failed (${res.status}): ${groqErrText.substring(0, 200)}`);
           }
-        } else {
-          const errText = await res.text();
-          throw new Error(`Groq API Error (${res.status}): ${errText}`);
         }
+        throw new Error(`Groq API Error: ${groqErrText}`);
       }
     } catch (err) {
       console.warn(`[AI_PROXY] Provider ${provider} failed: ${err.message}`);

@@ -5,6 +5,12 @@ require('dotenv').config();
 
 const PORT = process.env.PORT || 4000;
 const CEREBRAS_API_KEY = process.env.CEREBRAS_API_KEY || '';
+const REVOKED_GEMINI_KEYS = new Set(['AIzaSyA0g3U1Nro31TC8ow-oaaaEwZ5mpRQ7MJM']);
+function getGeminiKey() {
+  const envKey = (process.env.GEMINI_API_KEY || '').trim();
+  if (envKey && !REVOKED_GEMINI_KEYS.has(envKey)) return envKey;
+  return '';
+}
 
 // Import the new Current Affairs engine
 const runCurrentAffairsEngine = require('./current_affairs_engine');
@@ -315,7 +321,7 @@ const requestHandler = async (req, res) => {
         
         const GROQ_API_KEY = process.env.GROQ_API_KEY || '';
         const CEREBRAS_API_KEY = process.env.CEREBRAS_API_KEY || '';
-        const GEMINI_API_KEY = process.env.GEMINI_API_KEY || 'AIzaSyA0g3U1Nro31TC8ow-oaaaEwZ5mpRQ7MJM';
+        const GEMINI_API_KEY = getGeminiKey();
         
         const systemPrompt = `
 # AI Router System Prompt
@@ -529,7 +535,7 @@ For database storage steps, use provider "Supabase" and provide a "key" and "dat
         let actualTarget = targetAI;
 
         if (actualTarget === 'gemini') {
-          const GEMINI_KEY = process.env.GEMINI_API_KEY || 'AIzaSyA0g3U1Nro31TC8ow-oaaaEwZ5mpRQ7MJM';
+          const GEMINI_KEY = getGeminiKey();
           if (!GEMINI_KEY) {
              aiText = (isJsonRequired ? "{}" : "") + "\n\n**[SYSTEM ALERT]** Gemini API key missing from backend! Please add GEMINI_API_KEY to your environment variables.";
           } else {
@@ -718,58 +724,61 @@ ${textPrompt}`;
             const topicMatch = textPrompt.match(/topic: ["']([^"']+)["']/);
             if (topicMatch && topicMatch[1]) {
                 const topic = topicMatch[1];
-                console.log(`[WIKI] Cheat sheet topic detected: ${topic}. Fetching latest Wikipedia context...`);
-                try {
-                    const axios = require('axios');
-                    const fs = require('fs');
-                    const path = require('path');
-                    
-                    let staticContext = "";
+                const isPureFormulaOrScienceTopic = /\b(math|maths|algebra|trigonometry|calculus|geometry|mensuration|arithmetic|statistics|probability|matrix|matrices|determinant|physics|optics|thermodynamics|kinematics|electromagnetism|chemistry|organic|inorganic|periodic table|grammar|vocabulary|idioms|synonyms|antonyms|formula|formulae|equations)\b/i.test(topic) && !/\b(command|army|navy|air force|iaf|missile|exercise|operation|corps|regiment|fleet|brigade|weapon|aircraft|submarine|ship|tank|artillery)\b/i.test(topic);
+                if (!isPureFormulaOrScienceTopic) {
+                    console.log(`[WIKI] Cheat sheet topic detected: ${topic}. Fetching latest Wikipedia context...`);
                     try {
-                        const staticPath = path.join(__dirname, 'context_2026_updates.txt');
-                        if (fs.existsSync(staticPath)) {
-                            staticContext = fs.readFileSync(staticPath, 'utf8');
-                        }
-                    } catch(err) {
-                        console.error("[WIKI] Error reading static context:", err.message);
-                    }
-
-                    const searchUrl = `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(topic)}&utf8=&format=json`;
-                    const searchRes = await axios.get(searchUrl, { headers: { 'User-Agent': 'DefenceExamsApp/1.0 (admin@example.com)' }, timeout: 5000 });
-                    if (searchRes.data && searchRes.data.query && searchRes.data.query.search.length > 0) {
-                        const topResult = searchRes.data.query.search[0].title;
-                        console.log(`[WIKI] Top match: ${topResult}`);
-                        const pageUrl = `https://en.wikipedia.org/w/api.php?action=query&prop=extracts&exintro=false&explaintext=true&titles=${encodeURIComponent(topResult)}&format=json`;
-                        const pageRes = await axios.get(pageUrl, { headers: { 'User-Agent': 'DefenceExamsApp/1.0 (admin@example.com)' }, timeout: 5000 });
-                        const pages = pageRes.data.query.pages;
-                        const pageId = Object.keys(pages)[0];
-                        const extract = pages[pageId].extract;
-                        if (extract) {
-                            const snippet = extract.substring(0, 6000);
-                            const injection = `\n\nCRITICAL KNOWLEDGE UPDATE (2025-2026):\n${staticContext}\n\nThe following is up-to-date Wikipedia context for "${topResult}". Use this to ensure your generated cheat sheet includes the latest active/inducted items and facts. \n\n${snippet}\n\n`;
-                            textPrompt += injection;
-                            if (contents && contents[0] && contents[0].parts) {
-                                contents[0].parts.forEach(part => {
-                                    if (part.text) {
-                                        part.text += injection;
-                                    }
-                                });
+                        const axios = require('axios');
+                        const fs = require('fs');
+                        const path = require('path');
+                        
+                        let staticContext = "";
+                        try {
+                            const staticPath = path.join(__dirname, 'context_2026_updates.txt');
+                            if (fs.existsSync(staticPath)) {
+                                staticContext = fs.readFileSync(staticPath, 'utf8');
                             }
-                            console.log(`[WIKI] Successfully injected ${snippet.length} characters of context.`);
+                        } catch(err) {
+                            console.error("[WIKI] Error reading static context:", err.message);
                         }
+
+                        const searchUrl = `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(topic)}&utf8=&format=json`;
+                        const searchRes = await axios.get(searchUrl, { headers: { 'User-Agent': 'DefenceExamsApp/1.0 (admin@example.com)' }, timeout: 3500 });
+                        if (searchRes.data && searchRes.data.query && searchRes.data.query.search.length > 0) {
+                            const topResult = searchRes.data.query.search[0].title;
+                            console.log(`[WIKI] Top match: ${topResult}`);
+                            const pageUrl = `https://en.wikipedia.org/w/api.php?action=query&prop=extracts&exintro=false&explaintext=true&titles=${encodeURIComponent(topResult)}&format=json`;
+                            const pageRes = await axios.get(pageUrl, { headers: { 'User-Agent': 'DefenceExamsApp/1.0 (admin@example.com)' }, timeout: 3500 });
+                            const pages = pageRes.data.query.pages;
+                            const pageId = Object.keys(pages)[0];
+                            const extract = pages[pageId].extract;
+                            if (extract) {
+                                const snippet = extract.substring(0, 2500);
+                                const injection = `\n\nCRITICAL KNOWLEDGE UPDATE (2025-2026):\n${staticContext}\n\nThe following is up-to-date Wikipedia context for "${topResult}". Use this to ensure your generated cheat sheet includes the latest active/inducted items and facts. \n\n${snippet}\n\n`;
+                                textPrompt += injection;
+                                if (contents && contents[0] && contents[0].parts) {
+                                    contents[0].parts.forEach(part => {
+                                        if (part.text) {
+                                            part.text += injection;
+                                        }
+                                    });
+                                }
+                                console.log(`[WIKI] Successfully injected ${snippet.length} characters of context.`);
+                            }
+                        }
+                    } catch (e) {
+                        console.error("[WIKI] Error fetching wikipedia context:", e.message);
                     }
-                } catch (e) {
-                    console.error("[WIKI] Error fetching wikipedia context:", e.message);
                 }
             }
         }
         
-        const GEMINI_KEY = process.env.GEMINI_API_KEY || 'AIzaSyA0g3U1Nro31TC8ow-oaaaEwZ5mpRQ7MJM';
+        const GEMINI_KEY = getGeminiKey();
 
         let apiResponse = null;
         let success = false;
 
-        const geminiModelsToTry = Array.from(new Set([model, 'gemini-2.5-flash', 'gemini-3-flash-preview', 'gemini-2.5-pro']));
+        const geminiModelsToTry = Array.from(new Set([model, 'gemini-2.5-flash', 'gemini-3-flash-preview', 'gemini-2.5-flash-lite']));
 
         const geminiPayload = {
           contents,
@@ -788,7 +797,7 @@ ${textPrompt}`;
         let finalResponseText = '';
         let fallbackFinishReason = 'STOP';
 
-        for (const candidateModel of geminiModelsToTry) {
+        for (const candidateModel of (GEMINI_KEY ? geminiModelsToTry : [])) {
           if (success) break;
           let targetUrl = `https://generativelanguage.googleapis.com/v1beta/models/${candidateModel}:generateContent?key=${GEMINI_KEY}`;
           if (stream) {
@@ -845,10 +854,59 @@ ${textPrompt}`;
             : [{ role: "user", content: (pdfPart ? `Text extracted from PDF:\n\n` : "") + textPrompt }])
         ];
         const requestedMaxTokens = Math.min(Math.max((generationConfig && generationConfig.maxOutputTokens) || 16384, 8192), 65536);
+
+        // Compact large intermediate assistant HTML turns for TPM-limited providers (e.g. Groq 8k TPM)
+        const groqFallbackMessages = fallbackMessages.map((msg, idx) => {
+          if (msg.role === 'assistant' && msg.content && msg.content.length > 4500 && idx < fallbackMessages.length - 1) {
+            const styleMatch = msg.content.match(/<style[^>]*>[\s\S]*?<\/style>/i);
+            const styleBlock = styleMatch ? styleMatch[0].slice(0, 1800) + '\n' : '';
+            const headPart = msg.content.slice(0, 600);
+            const tailPart = msg.content.slice(-1800);
+            return {
+              role: 'assistant',
+              content: `${styleBlock}${headPart}\n<!-- ... [middle HTML cards already generated] ... -->\n${tailPart}`
+            };
+          }
+          return msg;
+        });
         
+        // --- FALLBACK TO GROQ MODELS FIRST (each has an independent 8k TPM bucket and max_tokens <= 16384) ---
+        if (!success && process.env.GROQ_API_KEY && !stream && textPrompt) {
+            const groqCandidateModels = ["openai/gpt-oss-120b", "qwen/qwen3.8-27b", "openai/gpt-oss-20b"];
+            const groqMaxTokens = Math.min(requestedMaxTokens, 16384);
+            for (const groqModel of groqCandidateModels) {
+                if (success) break;
+                console.log(`[PROXY] Falling back to Groq AI (${groqModel}, max_tokens=${groqMaxTokens})...`);
+                try {
+                    const groqRes = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${process.env.GROQ_API_KEY}` },
+                        body: JSON.stringify({
+                            model: groqModel,
+                            max_tokens: groqMaxTokens,
+                            messages: groqFallbackMessages
+                        }),
+                        signal: AbortSignal.timeout(180000)
+                    });
+                    if (groqRes.ok) {
+                        const groqData = await groqRes.json();
+                        finalResponseText = groqData.choices?.[0]?.message?.content || '';
+                        if (groqData.choices?.[0]?.finish_reason === 'length') fallbackFinishReason = 'MAX_TOKENS';
+                        if (finalResponseText) {
+                            success = true;
+                        }
+                    } else {
+                        console.error(`[PROXY] Groq (${groqModel}) API error:`, await groqRes.text());
+                    }
+                } catch (err) {
+                    console.error(`[PROXY] Exception during Groq (${groqModel}) request:`, err.message);
+                }
+            }
+        }
+
         // --- FALLBACK TO OPENROUTER ---
         if (!success && process.env.OPENROUTER_API_KEY && !stream && textPrompt) {
-            console.log(`[PROXY] Gemini failed (Status: ${lastStatus}). Falling back to OpenRouter (google/gemini-2.5-pro)...`);
+            console.log(`[PROXY] Falling back to OpenRouter (google/gemini-2.5-pro)...`);
             try {
                 const orRes = await fetch('https://openrouter.ai/api/v1/chat/completions', {
                     method: 'POST',
@@ -856,7 +914,7 @@ ${textPrompt}`;
                     body: JSON.stringify({
                         model: "google/gemini-2.5-pro",
                         temperature: 0,
-                        max_tokens: requestedMaxTokens,
+                        max_tokens: Math.min(requestedMaxTokens, 4096),
                         messages: fallbackMessages
                     }),
                     signal: AbortSignal.timeout(240000)
@@ -876,7 +934,7 @@ ${textPrompt}`;
 
         // --- FALLBACK TO CEREBRAS ---
         if (!success && process.env.CEREBRAS_API_KEY && !stream && textPrompt) {
-            console.log(`[PROXY] Gemini failed (Status: ${lastStatus}). Falling back to Cerebras AI (gpt-oss-120b)...`);
+            console.log(`[PROXY] Falling back to Cerebras AI (gpt-oss-120b)...`);
             try {
                 const cerebrasRes = await fetch('https://api.cerebras.ai/v1/chat/completions', {
                     method: 'POST',
@@ -898,60 +956,6 @@ ${textPrompt}`;
                 }
             } catch (err) {
                 console.error('[PROXY] Exception during Cerebras request:', err.message);
-            }
-        }
-
-        // --- FALLBACK TO GROQ ---
-        if (!success && process.env.GROQ_API_KEY && !stream && textPrompt) {
-            console.log(`[PROXY] Cerebras failed. Falling back to Groq AI (openai/gpt-oss-120b)...`);
-            try {
-                const groqRes = await fetch('https://api.groq.com/openai/v1/chat/completions', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${process.env.GROQ_API_KEY}` },
-                    body: JSON.stringify({
-                        model: "openai/gpt-oss-120b",
-                        max_tokens: Math.min(requestedMaxTokens, 32768),
-                        messages: fallbackMessages
-                    }),
-                    signal: AbortSignal.timeout(180000)
-                });
-                if (groqRes.ok) {
-                    const groqData = await groqRes.json();
-                    finalResponseText = groqData.choices[0].message.content;
-                    if (groqData.choices[0].finish_reason === 'length') fallbackFinishReason = 'MAX_TOKENS';
-                    success = true;
-                } else {
-                    console.error('[PROXY] Groq API error:', await groqRes.text());
-                }
-            } catch (err) {
-                console.error('[PROXY] Exception during Groq request:', err.message);
-            }
-        }
-
-        // --- FALLBACK TO GROQ (qwen/qwen3.8-27b) ---
-        if (!success && process.env.GROQ_API_KEY && !stream && textPrompt) {
-            console.log(`[PROXY] gpt-oss-120b failed. Falling back to Groq AI (qwen/qwen3.8-27b)...`);
-            try {
-                const groqRes2 = await fetch('https://api.groq.com/openai/v1/chat/completions', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${process.env.GROQ_API_KEY}` },
-                    body: JSON.stringify({
-                        model: "qwen/qwen3.8-27b",
-                        max_tokens: Math.min(requestedMaxTokens, 32768),
-                        messages: fallbackMessages
-                    }),
-                    signal: AbortSignal.timeout(180000)
-                });
-                if (groqRes2.ok) {
-                    const groqData2 = await groqRes2.json();
-                    finalResponseText = groqData2.choices[0].message.content;
-                    if (groqData2.choices[0].finish_reason === 'length') fallbackFinishReason = 'MAX_TOKENS';
-                    success = true;
-                } else {
-                    console.error('[PROXY] Groq llama API error:', await groqRes2.text());
-                }
-            } catch (err) {
-                console.error('[PROXY] Exception during Groq llama request:', err.message);
             }
         }
 
@@ -1096,7 +1100,7 @@ ${textPrompt}`;
       try {
         const payload = JSON.parse(body);
         const query = payload.query || "";
-        const GEMINI_KEY = process.env.GEMINI_API_KEY || 'AIzaSyA0g3U1Nro31TC8ow-oaaaEwZ5mpRQ7MJM';
+        const GEMINI_KEY = getGeminiKey();
         
         const topK = await searchRAG(query, GEMINI_KEY, 3);
         
@@ -1248,9 +1252,7 @@ ${textPrompt}`;
       if (process.env.GROQ_API_KEY) {
         content = content.replace(/PROCESS_ENV_GROQ_KEY/g, process.env.GROQ_API_KEY);
       }
-      if (process.env.GEMINI_API_KEY) {
-        content = content.replace(/PROCESS_ENV_GEMINI_KEY/g, process.env.GEMINI_API_KEY);
-      }
+      content = content.replace(/PROCESS_ENV_GEMINI_KEY/g, getGeminiKey());
       if (process.env.CEREBRAS_API_KEY) {
         content = content.replace(/PROCESS_ENV_CEREBRAS_KEY/g, process.env.CEREBRAS_API_KEY);
       }
@@ -1275,26 +1277,24 @@ process.on('unhandledRejection', (reason) => {
   console.error('[SERVER UNHANDLED REJECTION]', reason && reason.message ? reason.message : reason);
 });
 
-// ── Data Integrity Gate ──────────────────────────────────────────────
-// Validates the question database before allowing the server to start.
-// Catches duplicates, wrong-subject questions, garbled text, bad answers.
-const { runValidation } = require('./validate_questions');
-const validationResult = runValidation();
-
-if (!validationResult.success) {
-  console.error('\n[SERVER] ⛔ Server startup BLOCKED due to data integrity errors.');
-  console.error('[SERVER] Run `node validate_questions.js` for the full report.');
-  console.error('[SERVER] Fix the errors in data.js, then restart.\n');
-  process.exit(1);
-}
-// ─────────────────────────────────────────────────────────────────────
-
 const server = http.createServer(requestHandler);
 server.timeout = 600000; // 10 minutes
 server.keepAliveTimeout = 600000;
 server.headersTimeout = 601000;
 
 if (require.main === module) {
+  // ── Data Integrity Gate (only run on standalone server startup, not serverless cold starts) ──
+  const { runValidation } = require('./validate_questions');
+  const validationResult = runValidation();
+
+  if (!validationResult.success) {
+    console.error('\n[SERVER] ⛔ Server startup BLOCKED due to data integrity errors.');
+    console.error('[SERVER] Run `node validate_questions.js` for the full report.');
+    console.error('[SERVER] Fix the errors in data.js, then restart.\n');
+    process.exit(1);
+  }
+  // ─────────────────────────────────────────────────────────────────────────────────────────────
+
   server.listen(PORT, '0.0.0.0', () => {
     console.log(`Tac-Revise Server running at http://0.0.0.0:${PORT}`);
     
