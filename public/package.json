@@ -11,7 +11,6 @@
     "dev": "node server.js",
     "build": "node -e \"const fs=require('fs'),p=require('path');if(fs.existsSync('tests/render.test.js')){require(p.resolve('tests/render.test.js'));}else if(fs.existsSync('../tests/render.test.js')){process.chdir('..');require(p.resolve('tests/render.test.js'));}else{require(p.resolve('server.js'));}\"",
     "test": "node -e \"const fs=require('fs'),p=require('path');if(fs.existsSync('tests/render.test.js')){require(p.resolve('tests/render.test.js'));}else if(fs.existsSync('../tests/render.test.js')){process.chdir('..');require(p.resolve('tests/render.test.js'));}else{require(p.resolve('server.js'));}\"",
-    "vercel-build": "node -e \"const fs=require('fs'),p=require('path');if(fs.existsSync('tests/render.test.js')){require(p.resolve('tests/render.test.js'));}else if(fs.existsSync('../tests/render.test.js')){process.chdir('..');require(p.resolve('tests/render.test.js'));}else{require(p.resolve('server.js'));}\"",
     "pipeline": "node run_pipeline.js",
     "lint:notes": "node validate_notes.js",
     "test:render": "node -e \"const fs=require('fs'),p=require('path');if(fs.existsSync('tests/render.test.js')){require(p.resolve('tests/render.test.js'));}else if(fs.existsSync('../tests/render.test.js')){process.chdir('..');require(p.resolve('tests/render.test.js'));}else{require(p.resolve('server.js'));}\""

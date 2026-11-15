@@ -33,11 +33,12 @@ try {
     process.exit(1);
 }
 
-console.log("4/4: Deploying to Vercel...");
+console.log("4/4: Running Render pre-flight verification...");
 try {
-    execSync('npx vercel --prod --yes', { stdio: 'inherit' });
+    execSync('npm run test:render', { stdio: 'inherit' });
+    console.log("Pre-flight passed. Commit and push to main to trigger Render auto-deploy.");
 } catch (e) {
-    console.error("Failed to deploy to Vercel", e);
+    console.error("Render pre-flight verification failed", e);
     process.exit(1);
 }
 

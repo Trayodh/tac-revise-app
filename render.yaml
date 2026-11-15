@@ -2,7 +2,7 @@ services:
   - type: web
     name: tac-revise-app
     env: node
-    buildCommand: npm install --omit=dev --no-audit --no-fund
+    buildCommand: npm install --omit=dev --no-audit --no-fund && npm run test:render
     startCommand: npm run start
     healthCheckPath: /healthz
     plan: free
@@ -19,4 +19,6 @@ services:
       - key: GROQ_API_KEY
         sync: false # Optional fallback LLM key in Render dashboard
       - key: OPENROUTER_API_KEY
+        sync: false # Optional fallback LLM key in Render dashboard
+      - key: CEREBRAS_API_KEY
         sync: false # Optional fallback LLM key in Render dashboard

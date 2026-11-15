@@ -102,7 +102,7 @@ async function generateCurrentAffairsEntries(systemPrompt, userPrompt) {
           model,
           systemPrompt,
           userPrompt,
-          { 'HTTP-Referer': 'https://defence-exams-revision.vercel.app', 'X-Title': 'Tac-Revise CA Updater' }
+          { 'HTTP-Referer': 'https://tac-revise-app.onrender.com', 'X-Title': 'Tac-Revise CA Updater' }
         );
         return parseJsonArrayOutput(text);
       } catch (err) {

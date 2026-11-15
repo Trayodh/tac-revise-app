@@ -92,20 +92,17 @@ window.fetch = async function() {
 
     
 
-    // Web Bypass: Let Vercel handle the API routing using its secure backend 
+    // Web Bypass: Let the Render/Node backend handle API routing securely 
 
-    // since Vercel does not inject environment variables into static JS files.
+    // since static JS deployments do not inject server environment variables.
 
-    // The interceptor is ONLY for Android/Capacitor standalone mode.
+    // The interceptor fallback is ONLY for Android/Capacitor standalone mode.
 
     const isCapacitor = window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform();
 
     if (!isCapacitor && url.includes('/api/gemini')) {
         const currentOrigin = (window.location && window.location.origin) || '';
         const backendEndpoints = ['/api/gemini'];
-        if (!currentOrigin.includes('defence-exams-revision.vercel.app')) {
-            backendEndpoints.push('https://defence-exams-revision.vercel.app/api/gemini');
-        }
         if (!currentOrigin.includes('tac-revise-app.onrender.com')) {
             backendEndpoints.push('https://tac-revise-app.onrender.com/api/gemini');
         }
@@ -143,9 +140,6 @@ window.fetch = async function() {
         const currentOrigin = (window.location && window.location.origin) || '';
         const apiPath = url;
         const apiEndpoints = [apiPath];
-        if (!currentOrigin.includes('defence-exams-revision.vercel.app')) {
-            apiEndpoints.push('https://defence-exams-revision.vercel.app' + apiPath);
-        }
         if (!currentOrigin.includes('tac-revise-app.onrender.com')) {
             apiEndpoints.push('https://tac-revise-app.onrender.com' + apiPath);
         }
