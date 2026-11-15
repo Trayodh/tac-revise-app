@@ -247,6 +247,12 @@ const requestHandler = async (req, res) => {
       return;
     }
 
+    if (process.env.ENABLE_AUTO_CA_SCRAPE !== 'true') {
+      res.writeHead(200, { 'Content-Type': 'application/json' });
+      res.end(JSON.stringify(dailyNewsCache.data || []));
+      return;
+    }
+
     // Cooldown: if the AI engine failed recently (rate limits), don't re-run it on every request
     const CA_FAIL_COOLDOWN_MS = 30 * 60 * 1000;
     if (global.__caLastFailAt && Date.now() - global.__caLastFailAt < CA_FAIL_COOLDOWN_MS) {
@@ -285,6 +291,12 @@ const requestHandler = async (req, res) => {
       console.log(`[PROXY] Serving Daily Military Exercises from cache for ${today}`);
       res.writeHead(200, { 'Content-Type': 'application/json' });
       res.end(JSON.stringify(dailyMilitaryExercisesCache.data));
+      return;
+    }
+
+    if (process.env.ENABLE_AUTO_CA_SCRAPE !== 'true') {
+      res.writeHead(200, { 'Content-Type': 'application/json' });
+      res.end(JSON.stringify(dailyMilitaryExercisesCache.data || []));
       return;
     }
 
@@ -796,6 +808,7 @@ ${textPrompt}`;
         let lastStatus = 0;
         let finalResponseText = '';
         let fallbackFinishReason = 'STOP';
+        let verifiedGeminiData = null;
 
         for (const candidateModel of (GEMINI_KEY ? geminiModelsToTry : [])) {
           if (success) break;
@@ -816,7 +829,21 @@ ${textPrompt}`;
               });
               
               if (apiResponse.ok) {
-                success = true;
+                if (stream) {
+                  success = true;
+                } else {
+                  const geminiData = await apiResponse.json();
+                  const nonThoughtParts = (geminiData?.candidates?.[0]?.content?.parts || []).filter(p => !p.thought && typeof p.text === 'string' && p.text.trim().length > 0);
+                  if (nonThoughtParts.length > 0) {
+                    geminiData.candidates[0].content.parts = nonThoughtParts;
+                    verifiedGeminiData = geminiData;
+                    success = true;
+                  } else {
+                    console.warn(`[PROXY] Gemini (${candidateModel}) returned 200 OK but empty text parts (finishReason: ${geminiData?.candidates?.[0]?.finishReason}). Trying next model/provider...`);
+                    lastStatus = 204;
+                    break;
+                  }
+                }
               } else if (apiResponse.status === 429 || apiResponse.status === 503) {
                 console.warn(`[PROXY] Gemini API Error (${apiResponse.status}) on ${candidateModel}. Waiting ${delayMs}ms...`);
                 lastStatus = apiResponse.status;
@@ -872,27 +899,29 @@ ${textPrompt}`;
         
         // --- FALLBACK TO GROQ MODELS FIRST (each has an independent 8k TPM bucket and max_tokens <= 16384) ---
         if (!success && process.env.GROQ_API_KEY && !stream && textPrompt) {
-            const groqCandidateModels = ["openai/gpt-oss-120b", "qwen/qwen3.8-27b", "openai/gpt-oss-20b"];
+            const groqCandidateModels = ["qwen/qwen3.8-27b", "openai/gpt-oss-120b", "openai/gpt-oss-20b"];
             const groqMaxTokens = Math.min(requestedMaxTokens, 16384);
             for (const groqModel of groqCandidateModels) {
                 if (success) break;
                 console.log(`[PROXY] Falling back to Groq AI (${groqModel}, max_tokens=${groqMaxTokens})...`);
                 try {
+                    const groqBody = {
+                        model: groqModel,
+                        max_tokens: groqMaxTokens,
+                        messages: groqFallbackMessages,
+                        ...(groqModel.includes('gpt-oss') ? { reasoning_effort: 'low' } : {})
+                    };
                     const groqRes = await fetch('https://api.groq.com/openai/v1/chat/completions', {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${process.env.GROQ_API_KEY}` },
-                        body: JSON.stringify({
-                            model: groqModel,
-                            max_tokens: groqMaxTokens,
-                            messages: groqFallbackMessages
-                        }),
+                        body: JSON.stringify(groqBody),
                         signal: AbortSignal.timeout(180000)
                     });
                     if (groqRes.ok) {
                         const groqData = await groqRes.json();
                         finalResponseText = groqData.choices?.[0]?.message?.content || '';
                         if (groqData.choices?.[0]?.finish_reason === 'length') fallbackFinishReason = 'MAX_TOKENS';
-                        if (finalResponseText) {
+                        if (finalResponseText && finalResponseText.trim().length > 20) {
                             success = true;
                         }
                     } else {
@@ -967,6 +996,10 @@ ${textPrompt}`;
              };
              res.writeHead(200, { 'Content-Type': 'application/json' });
              res.end(JSON.stringify(data));
+             return;
+          } else if (verifiedGeminiData) {
+             res.writeHead(200, { 'Content-Type': 'application/json' });
+             res.end(JSON.stringify(verifiedGeminiData));
              return;
           } else if (apiResponse) {
               if (stream) {
@@ -1300,32 +1333,34 @@ if (require.main === module) {
   server.listen(PORT, '0.0.0.0', () => {
     console.log(`Tac-Revise Server running at http://0.0.0.0:${PORT}`);
     
-    // Trigger automated daily current affairs updates (staggered to avoid memory spikes on 512MB instances)
-    console.log("[AUTO-UPDATE] Scheduling startup updates (CA at 15s, ME at 45s)...");
-    setTimeout(() => {
-      autoUpdateCurrentAffairs()
-        .then(() => console.log("[AUTO-UPDATE] Startup auto-update CA completed successfully."))
-        .catch(err => console.error("[AUTO-UPDATE] Startup auto-update CA failed:", err));
-    }, 15000);
+    if (process.env.ENABLE_AUTO_CA_SCRAPE === 'true') {
+      // Trigger automated daily current affairs updates only when explicitly enabled
+      console.log("[AUTO-UPDATE] Scheduling startup updates (CA at 15s, ME at 45s)...");
+      setTimeout(() => {
+        autoUpdateCurrentAffairs()
+          .then(() => console.log("[AUTO-UPDATE] Startup auto-update CA completed successfully."))
+          .catch(err => console.error("[AUTO-UPDATE] Startup auto-update CA failed:", err));
+      }, 15000);
 
-    setTimeout(() => {
-      autoUpdateMilitaryExercises()
-        .then(() => console.log("[AUTO-UPDATE] Startup auto-update ME completed successfully."))
-        .catch(err => console.error("[AUTO-UPDATE] Startup auto-update ME failed:", err));
-    }, 45000);
-  
-    setInterval(() => {
-      autoUpdateCurrentAffairs()
-        .then(() => console.log("[AUTO-UPDATE] Scheduled auto-update CA completed successfully."))
-        .catch(err => console.error("[AUTO-UPDATE] Scheduled auto-update CA failed:", err))
-        .finally(() => {
-          setTimeout(() => {
-            autoUpdateMilitaryExercises()
-              .then(() => console.log("[AUTO-UPDATE] Scheduled auto-update ME completed successfully."))
-              .catch(err => console.error("[AUTO-UPDATE] Scheduled auto-update ME failed:", err));
-          }, 30000);
-        });
-    }, 24 * 60 * 60 * 1000); // every 24 hours
+      setTimeout(() => {
+        autoUpdateMilitaryExercises()
+          .then(() => console.log("[AUTO-UPDATE] Startup auto-update ME completed successfully."))
+          .catch(err => console.error("[AUTO-UPDATE] Startup auto-update ME failed:", err));
+      }, 45000);
+    
+      setInterval(() => {
+        autoUpdateCurrentAffairs()
+          .then(() => console.log("[AUTO-UPDATE] Scheduled auto-update CA completed successfully."))
+          .catch(err => console.error("[AUTO-UPDATE] Scheduled auto-update CA failed:", err))
+          .finally(() => {
+            setTimeout(() => {
+              autoUpdateMilitaryExercises()
+                .then(() => console.log("[AUTO-UPDATE] Scheduled auto-update ME completed successfully."))
+                .catch(err => console.error("[AUTO-UPDATE] Scheduled auto-update ME failed:", err));
+            }, 30000);
+          });
+      }, 24 * 60 * 60 * 1000); // every 24 hours
+    }
   });
 }
 

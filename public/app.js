@@ -101,22 +101,39 @@ window.fetch = async function() {
     const isCapacitor = window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform();
 
     if (!isCapacitor && url.includes('/api/gemini')) {
-        try {
-            const backendRes = await originalFetch.apply(this, arguments);
-            if (backendRes.ok) {
-                return backendRes;
-            }
+        const currentOrigin = (window.location && window.location.origin) || '';
+        const backendEndpoints = ['/api/gemini'];
+        if (!currentOrigin.includes('tac-revise-app.onrender.com')) {
+            backendEndpoints.push('https://tac-revise-app.onrender.com/api/gemini');
+        }
+        if (!currentOrigin.includes('defence-exams-revision.vercel.app')) {
+            backendEndpoints.push('https://defence-exams-revision.vercel.app/api/gemini');
+        }
+
+        for (let bIdx = 0; bIdx < backendEndpoints.length; bIdx++) {
+            const endpointUrl = backendEndpoints[bIdx];
             try {
-                const cloned = backendRes.clone();
-                const errBody = await cloned.json();
-                const candidateText = errBody?.candidates?.[0]?.content?.parts?.[0]?.text || '';
-                if (candidateText && !candidateText.includes('AI Quota Exhausted') && !candidateText.includes('_AI uplink failed')) {
-                    return backendRes;
+                const fetchArgs = bIdx === 0 ? arguments : [endpointUrl, arguments[1]];
+                const backendRes = await originalFetch.apply(this, fetchArgs);
+                if (backendRes.ok) {
+                    try {
+                        const cloned = backendRes.clone();
+                        const errBody = await cloned.json();
+                        const parts = errBody?.candidates?.[0]?.content?.parts || [];
+                        const candidateText = parts.filter(p => !p.thought).map(p => p.text || '').join('') || errBody?.text || '';
+                        if (candidateText.trim().length > 0 && !candidateText.includes('AI Quota Exhausted') && !candidateText.includes('_AI uplink failed')) {
+                            return backendRes;
+                        }
+                        console.warn('[AI Fetch] Endpoint ' + endpointUrl + ' returned empty/quota response, trying next backend...');
+                    } catch (_) {
+                        return backendRes;
+                    }
+                } else {
+                    console.warn('[AI Fetch] Endpoint ' + endpointUrl + ' returned status ' + backendRes.status + ', trying next backend...');
                 }
-            } catch (_) {}
-            console.warn('[AI Fetch] Backend /api/gemini returned status ' + backendRes.status + ', attempting client-side fallback...');
-        } catch (netErr) {
-            console.warn('[AI Fetch] Backend /api/gemini unreachable, attempting client-side fallback:', netErr);
+            } catch (netErr) {
+                console.warn('[AI Fetch] Endpoint ' + endpointUrl + ' unreachable, trying next backend:', netErr);
+            }
         }
     }
 
@@ -6138,6 +6155,303 @@ function unclipRenderedCheatSheetDom(containerEl) {
   });
 }
 
+function buildFallbackGraphicCheatSheetHtml(topic) {
+  const safeTopic = (topic || "Defence Master Reference").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  const lower = (topic || "").toLowerCase();
+  const isMathOrPhysics = /\b(math|maths|physics|formula|formulae|afcat|nda|cds|numerical|mensuration|algebra|trigonometry|optics|motion|electricity)\b/i.test(lower);
+
+  const baseStyles = `
+    <style>
+      .printable-cheat-sheet {
+        background: #0b1120;
+        color: #e2e8f0;
+        font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+        padding: 24px;
+        border-radius: 12px;
+        max-width: 100%;
+        height: auto;
+        overflow: visible;
+        overflow-wrap: break-word;
+      }
+      .cs-banner {
+        background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0c4a6e 100%);
+        border: 1px solid #38bdf8;
+        border-radius: 10px;
+        padding: 18px 22px;
+        margin-bottom: 22px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+      .cs-banner h2 {
+        margin: 0;
+        font-size: 1.45rem;
+        color: #38bdf8;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+      .cs-badge {
+        background: rgba(56, 189, 248, 0.15);
+        border: 1px solid #38bdf8;
+        color: #7dd3fc;
+        font-size: 0.75rem;
+        font-weight: 700;
+        padding: 4px 10px;
+        border-radius: 999px;
+        letter-spacing: 0.8px;
+      }
+      .cs-section-title {
+        font-size: 1.15rem;
+        font-weight: 800;
+        color: #fbbf24;
+        margin: 22px 0 12px;
+        padding-bottom: 6px;
+        border-bottom: 2px solid rgba(251, 191, 36, 0.35);
+        text-transform: uppercase;
+        letter-spacing: 0.8px;
+      }
+      .cs-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+        gap: 16px;
+      }
+      .cs-card {
+        background: #111827;
+        border-radius: 10px;
+        padding: 16px;
+        border: 1px solid #1f2937;
+        border-top: 3px solid #38bdf8;
+        height: auto;
+        overflow: visible;
+      }
+      .cs-card.amber { border-top-color: #f59e0b; }
+      .cs-card.emerald { border-top-color: #10b981; }
+      .cs-card.rose { border-top-color: #f43f5e; }
+      .cs-card.violet { border-top-color: #8b5cf6; }
+      .cs-card h4 {
+        margin: 0 0 10px;
+        font-size: 1rem;
+        color: #f8fafc;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .cs-card ul {
+        margin: 0;
+        padding-left: 18px;
+        color: #cbd5e1;
+        font-size: 0.88rem;
+        line-height: 1.65;
+      }
+      .cs-card li { margin-bottom: 6px; }
+      .cs-card strong { color: #38bdf8; }
+      .cs-card.amber strong { color: #fbbf24; }
+      .cs-card.emerald strong { color: #34d399; }
+      .cs-card.rose strong { color: #fb7185; }
+      .cs-card.violet strong { color: #a78bfa; }
+    </style>
+  `;
+
+  if (isMathOrPhysics) {
+    return `${baseStyles}
+    <div class="printable-cheat-sheet">
+      <div class="cs-banner">
+        <div>
+          <h2>${safeTopic}</h2>
+          <div style="color:#94a3b8;font-size:0.85rem;margin-top:4px;">Complete Master Formulae Reference — AFCAT / CDS / NDA High-Yield Sheet</div>
+        </div>
+        <span class="cs-badge">MASTER CHEAT SHEET</span>
+      </div>
+
+      <div class="cs-section-title">Part I — AFCAT Mathematics Master Formulae</div>
+      <div class="cs-grid">
+        <div class="cs-card">
+          <h4>1. Speed, Time &amp; Distance</h4>
+          <ul>
+            <li><strong>Core Relation:</strong> \\( \\text{Speed} = \\frac{\\text{Distance}}{\\text{Time}} \\), \\( 1\\text{ m/s} = \\frac{18}{5}\\text{ km/hr} \\), \\( 1\\text{ km/hr} = \\frac{5}{18}\\text{ m/s} \\)</li>
+            <li><strong>Average Speed (Equal Distances):</strong> \\( S_{\\text{avg}} = \\frac{2xy}{x + y} \\) (for 2 equal parts); \\( \\frac{3xyz}{xy + yz + zx} \\) (for 3 equal parts)</li>
+            <li><strong>Relative Speed:</strong> Same direction \\( = |u - v| \\); Opposite direction \\( = (u + v) \\)</li>
+            <li><strong>Trains:</strong> Time to cross pole/man \\( = \\frac{L}{v} \\); platform/bridge of length \\( P \\): \\( t = \\frac{L + P}{v} \\); two trains \\( L_1, L_2 \\): \\( t = \\frac{L_1 + L_2}{v_{\\text{rel}}} \\)</li>
+            <li><strong>Boats &amp; Streams:</strong> Downstream \\( D = u + v \\), Upstream \\( U = u - v \\); Still water speed \\( u = \\frac{D + U}{2} \\), Stream speed \\( v = \\frac{D - U}{2} \\)</li>
+          </ul>
+        </div>
+
+        <div class="cs-card amber">
+          <h4>2. Time, Work &amp; Pipes</h4>
+          <ul>
+            <li><strong>Combined Work:</strong> If \\( A \\) takes \\( x \\) days &amp; \\( B \\) takes \\( y \\) days, together \\( = \\frac{xy}{x + y} \\) days</li>
+            <li><strong>Three Workers:</strong> \\( A, B, C \\) together \\( = \\frac{xyz}{xy + yz + zx} \\) days</li>
+            <li><strong>MDH Chain Rule:</strong> \\( \\frac{M_1 D_1 H_1 E_1}{W_1} = \\frac{M_2 D_2 H_2 E_2}{W_2} \\)</li>
+            <li><strong>Pipes &amp; Cisterns:</strong> Inlet fills in \\( x \\) hr, Outlet empties in \\( y \\) hr \\( \\Rightarrow T_{\\text{net}} = \\frac{xy}{y - x} \\) hr</li>
+            <li><strong>Wage Division:</strong> Wages are shared in the ratio of work done (or efficiency \\( E_A : E_B = \\frac{1}{t_A} : \\frac{1}{t_B} \\))</li>
+          </ul>
+        </div>
+
+        <div class="cs-card emerald">
+          <h4>3. Percentage, Profit, Loss &amp; Discount</h4>
+          <ul>
+            <li><strong>Successive Change:</strong> Net \\( \\% = \\left(a + b + \\frac{ab}{100}\\right)\\% \\)</li>
+            <li><strong>Profit / Loss:</strong> \\( P\\% = \\frac{\\text{SP} - \\text{CP}}{\\text{CP}} \\times 100 \\), \\( \\text{SP} = \\text{CP}\\left(1 \\pm \\frac{r}{100}\\right) \\)</li>
+            <li><strong>Markup &amp; Discount:</strong> \\( \\frac{\\text{CP}}{\\text{MP}} = \\frac{100 - D\\%}{100 + P\\%} \\)</li>
+            <li><strong>Dishonest Dealer:</strong> Selling at CP using false weight \\( w \\) instead of \\( W \\): \\( \\text{Gain}\\% = \\frac{W - w}{w} \\times 100 \\)</li>
+            <li><strong>Equal SP (One +x%, One -x%):</strong> Always results in Net Loss \\( = \\frac{x^2}{100}\\% \\)</li>
+          </ul>
+        </div>
+
+        <div class="cs-card rose">
+          <h4>4. Simple &amp; Compound Interest</h4>
+          <ul>
+            <li><strong>Simple Interest:</strong> \\( \\text{SI} = \\frac{P \\cdot R \\cdot T}{100} \\), Amount \\( A = P + \\text{SI} \\)</li>
+            <li><strong>Compound Interest:</strong> \\( A = P\\left(1 + \\frac{R}{100}\\right)^n \\), \\( \\text{CI} = A - P \\)</li>
+            <li><strong>Half-Yearly / Quarterly:</strong> Rate \\( = R/2, Time = 2n \\) (Half-yearly); Rate \\( = R/4, Time = 4n \\) (Quarterly)</li>
+            <li><strong>CI – SI Difference (2 Years):</strong> \\( \\text{CI} - \\text{SI} = P\\left(\\frac{R}{100}\\right)^2 \\)</li>
+            <li><strong>CI – SI Difference (3 Years):</strong> \\( \\text{CI} - \\text{SI} = P\\left(\\frac{R}{100}\\right)^2\\left(3 + \\frac{R}{100}\\right) \\)</li>
+          </ul>
+        </div>
+
+        <div class="cs-card violet">
+          <h4>5. Ratio, Proportion, Mixture &amp; Alligation</h4>
+          <ul>
+            <li><strong>Proportions:</strong> Fourth proportional to \\( a,b,c \\) is \\( \\frac{bc}{a} \\); Mean proportional to \\( a,b \\) is \\( \\sqrt{ab} \\); Third proportional to \\( a,b \\) is \\( \\frac{b^2}{a} \\)</li>
+            <li><strong>Alligation Rule:</strong> \\( \\frac{\\text{Quantity of Cheaper}}{\\text{Quantity of Dearer}} = \\frac{d - m}{m - c} \\)</li>
+            <li><strong>Repeated Replacement:</strong> Remaining pure liquid after \\( n \\) operations of drawing \\( x \\) from \\( V \\): \\( Q = V\\left(1 - \\frac{x}{V}\\right)^n \\)</li>
+            <li><strong>Partnership:</strong> Profit Share Ratio \\( = (C_1 \\times T_1) : (C_2 \\times T_2) \\)</li>
+          </ul>
+        </div>
+
+        <div class="cs-card">
+          <h4>6. Averages, Number System &amp; Progressions</h4>
+          <ul>
+            <li><strong>Natural Numbers:</strong> \\( \\sum_{k=1}^n k = \\frac{n(n+1)}{2} \\), \\( \\sum k^2 = \\frac{n(n+1)(2n+1)}{6} \\), \\( \\sum k^3 = \\left[\\frac{n(n+1)}{2}\\right]^2 \\)</li>
+            <li><strong>HCF &amp; LCM:</strong> \\( \\text{HCF} \\times \\text{LCM} = N_1 \\times N_2 \\); \\( \\text{HCF of Fractions} = \\frac{\\text{HCF of Numerators}}{\\text{LCM of Denominators}} \\)</li>
+            <li><strong>AP &amp; GP:</strong> \\( T_n^{\\text{AP}} = a + (n-1)d \\), \\( S_n^{\\text{AP}} = \\frac{n}{2}[2a + (n-1)d] \\); \\( T_n^{\\text{GP}} = ar^{n-1} \\), \\( S_n^{\\text{GP}} = \\frac{a(r^n - 1)}{r - 1} \\)</li>
+            <li><strong>Average of First \\( n \\):</strong> Odd numbers \\( = n \\); Even numbers \\( = n + 1 \\)</li>
+          </ul>
+        </div>
+
+        <div class="cs-card amber">
+          <h4>7. 2D &amp; 3D Mensuration</h4>
+          <ul>
+            <li><strong>Triangle:</strong> Heron's \\( A = \\sqrt{s(s-a)(s-b)(s-c)} \\); Equilateral \\( A = \\frac{\\sqrt{3}}{4}a^2 \\), \\( h = \\frac{\\sqrt{3}}{2}a \\)</li>
+            <li><strong>Circle &amp; Sector:</strong> \\( A = \\pi r^2 \\), \\( C = 2\\pi r \\), Sector Area \\( = \\frac{\\theta}{360^\\circ}\\pi r^2 \\)</li>
+            <li><strong>Cylinder:</strong> \\( V = \\pi r^2 h \\), \\( \\text{CSA} = 2\\pi rh \\), \\( \\text{TSA} = 2\\pi r(r + h) \\)</li>
+            <li><strong>Cone:</strong> \\( l = \\sqrt{r^2 + h^2} \\), \\( V = \\frac{1}{3}\\pi r^2 h \\), \\( \\text{CSA} = \\pi rl \\), \\( \\text{TSA} = \\pi r(l + r) \\)</li>
+            <li><strong>Sphere &amp; Hemisphere:</strong> Sphere \\( V = \\frac{4}{3}\\pi r^3 \\), \\( A = 4\\pi r^2 \\); Hemisphere \\( V = \\frac{2}{3}\\pi r^3 \\), \\( \\text{TSA} = 3\\pi r^2 \\)</li>
+          </ul>
+        </div>
+
+        <div class="cs-card emerald">
+          <h4>8. Algebra, Trigonometry &amp; Probability</h4>
+          <ul>
+            <li><strong>Algebraic Identities:</strong> \\( a^3 + b^3 + c^3 - 3abc = (a+b+c)(a^2+b^2+c^2-ab-bc-ca) \\); if \\( a+b+c=0 \\Rightarrow a^3+b^3+c^3=3abc \\)</li>
+            <li><strong>Reciprocal Tricks:</strong> If \\( x + \\frac{1}{x} = k \\Rightarrow x^2 + \\frac{1}{x^2} = k^2 - 2 \\) and \\( x^3 + \\frac{1}{x^3} = k^3 - 3k \\)</li>
+            <li><strong>Trigonometry:</strong> \\( \\sin^2\\theta + \\cos^2\\theta = 1 \\), \\( 1 + \\tan^2\\theta = \\sec^2\\theta \\), \\( 1 + \\cot^2\\theta = \\csc^2\\theta \\)</li>
+            <li><strong>Probability &amp; Clocks:</strong> \\( P(E) = \\frac{n(E)}{n(S)} \\); Clock angle \\( \\theta = \\left|30H - \\frac{11}{2}M\\right| \\)</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="cs-section-title">Part II — AFCAT Physics Master Formulae</div>
+      <div class="cs-grid">
+        <div class="cs-card rose">
+          <h4>1. Kinematics &amp; Projectile Motion</h4>
+          <ul>
+            <li><strong>Equations of Motion:</strong> \\( v = u + at \\), \\( s = ut + \\frac{1}{2}at^2 \\), \\( v^2 - u^2 = 2as \\)</li>
+            <li><strong>Distance in \\( n^{\\text{th}} \\) Second:</strong> \\( s_n = u + \\frac{a}{2}(2n - 1) \\)</li>
+            <li><strong>Projectile Time of Flight:</strong> \\( T = \\frac{2u\\sin\\theta}{g} \\)</li>
+            <li><strong>Max Height &amp; Range:</strong> \\( H_{\\max} = \\frac{u^2\\sin^2\\theta}{2g} \\), \\( R = \\frac{u^2\\sin 2\\theta}{g} \\) (Max range at \\( \\theta = 45^\\circ \\))</li>
+          </ul>
+        </div>
+
+        <div class="cs-card violet">
+          <h4>2. Newton's Laws, Impulse &amp; Friction</h4>
+          <ul>
+            <li><strong>Momentum &amp; Force:</strong> \\( p = mv \\), \\( F = \\frac{dp}{dt} = ma \\)</li>
+            <li><strong>Impulse:</strong> \\( J = F \\cdot \\Delta t = \\Delta p = m(v - u) \\)</li>
+            <li><strong>Conservation of Momentum:</strong> \\( m_1 u_1 + m_2 u_2 = m_1 v_1 + m_2 v_2 \\); Recoil velocity \\( V = -\\frac{mv}{M} \\)</li>
+            <li><strong>Friction &amp; Circular Motion:</strong> \\( f_s \\le \\mu_s N \\); Centripetal force \\( F_c = \\frac{mv^2}{r} = m\\omega^2 r \\); Banking \\( \\tan\\theta = \\frac{v^2}{rg} \\)</li>
+          </ul>
+        </div>
+
+        <div class="cs-card">
+          <h4>3. Work, Energy, Power &amp; Collisions</h4>
+          <ul>
+            <li><strong>Work Done:</strong> \\( W = \\vec{F} \\cdot \\vec{s} = Fs\\cos\\theta \\)</li>
+            <li><strong>Kinetic &amp; Potential Energy:</strong> \\( K = \\frac{1}{2}mv^2 = \\frac{p^2}{2m} \\); Gravitational \\( U = mgh \\); Spring \\( U = \\frac{1}{2}kx^2 \\)</li>
+            <li><strong>Power:</strong> \\( P = \\frac{W}{t} = \\vec{F} \\cdot \\vec{v} \\); \\( 1\\text{ HP} = 746\\text{ W} \\), \\( 1\\text{ kWh} = 3.6 \\times 10^6\\text{ J} \\)</li>
+            <li><strong>Coefficient of Restitution:</strong> \\( e = \\frac{v_2 - v_1}{u_1 - u_2} \\) (Elastic \\( e=1 \\), Perfectly Inelastic \\( e=0 \\))</li>
+          </ul>
+        </div>
+
+        <div class="cs-card amber">
+          <h4>4. Gravitation &amp; Properties of Matter</h4>
+          <ul>
+            <li><strong>Universal Gravitation:</strong> \\( F = \\frac{G m_1 m_2}{r^2} \\), \\( g = \\frac{GM}{R^2} \\)</li>
+            <li><strong>Variation of \\( g \\):</strong> Altitude \\( g_h \\approx g\\left(1 - \\frac{2h}{R}\\right) \\); Depth \\( g_d = g\\left(1 - \\frac{d}{R}\\right) \\)</li>
+            <li><strong>Escape &amp; Orbital Velocity:</strong> \\( v_e = \\sqrt{2gR} = \\sqrt{\\frac{2GM}{R}} = \\sqrt{2}\\,v_o \\approx 11.2\\text{ km/s} \\); \\( T^2 \\propto r^3 \\)</li>
+            <li><strong>Elasticity &amp; Fluids:</strong> \\( Y = \\frac{FL}{A\\Delta L} \\); Pressure \\( P = P_0 + \\rho gh \\); Continuity \\( A_1 v_1 = A_2 v_2 \\); Stokes \\( F = 6\\pi\\eta rv \\)</li>
+          </ul>
+        </div>
+
+        <div class="cs-card emerald">
+          <h4>5. Heat, Thermodynamics &amp; SHM / Waves</h4>
+          <ul>
+            <li><strong>Temperature Scales:</strong> \\( \\frac{C}{5} = \\frac{F - 32}{9} = \\frac{K - 273.15}{5} \\)</li>
+            <li><strong>Calorimetry:</strong> Sensible heat \\( Q = mc\\Delta T \\); Latent heat \\( Q = mL \\)</li>
+            <li><strong>Gas Laws &amp; 1st Law:</strong> \\( PV = nRT \\), \\( \\Delta Q = \\Delta U + \\Delta W \\); Carnot efficiency \\( \\eta = 1 - \\frac{T_C}{T_H} \\)</li>
+            <li><strong>SHM &amp; Waves:</strong> Simple Pendulum \\( T = 2\\pi\\sqrt{\\frac{L}{g}} \\); Spring \\( T = 2\\pi\\sqrt{\\frac{m}{k}} \\); Wave speed \\( v = f\\lambda \\)</li>
+          </ul>
+        </div>
+
+        <div class="cs-card rose">
+          <h4>6. Optics (Reflection, Refraction &amp; Lenses)</h4>
+          <ul>
+            <li><strong>Mirror Formula:</strong> \\( \\frac{1}{v} + \\frac{1}{u} = \\frac{1}{f} = \\frac{2}{R} \\), Magnification \\( m = -\\frac{v}{u} \\)</li>
+            <li><strong>Snell's Law &amp; TIR:</strong> \\( n = \\frac{\\sin i}{\\sin r} = \\frac{c}{v} \\); Critical angle \\( \\sin i_c = \\frac{1}{n} \\); Apparent depth \\( d_{\\text{app}} = \\frac{d_{\\text{real}}}{n} \\)</li>
+            <li><strong>Lens Formula &amp; Power:</strong> \\( \\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f} \\), \\( m = \\frac{v}{u} \\), Power \\( P = \\frac{1}{f(\\text{m})}\\text{ Dioptre} \\)</li>
+            <li><strong>Lens Maker's &amp; Prism:</strong> \\( \\frac{1}{f} = (n - 1)\\left(\\frac{1}{R_1} - \\frac{1}{R_2}\\right) \\); Combined \\( P = P_1 + P_2 \\)</li>
+          </ul>
+        </div>
+
+        <div class="cs-card violet">
+          <h4>7. Electricity, Magnetism &amp; Modern Physics</h4>
+          <ul>
+            <li><strong>Ohm's Law &amp; Resistance:</strong> \\( V = IR \\), \\( R = \\rho\\frac{L}{A} \\); Series \\( R_s = \\sum R_i \\); Parallel \\( \\frac{1}{R_p} = \\sum \\frac{1}{R_i} \\)</li>
+            <li><strong>Joule's Heating &amp; Power:</strong> \\( H = I^2 Rt = \\frac{V^2}{R}t = VIt \\); Electric Power \\( P = VI = I^2 R = \\frac{V^2}{R} \\)</li>
+            <li><strong>Magnetism &amp; Transformer:</strong> Lorentz force \\( F = qvB\\sin\\theta \\), Wire \\( F = BIL\\sin\\theta \\); Transformer \\( \\frac{V_s}{V_p} = \\frac{N_s}{N_p} = \\frac{I_p}{I_s} \\)</li>
+            <li><strong>Modern Physics:</strong> Photon \\( E = hf = \\frac{hc}{\\lambda} \\); Photoelectric \\( hf = \\phi_0 + K_{\\max} \\); de Broglie \\( \\lambda = \\frac{h}{mv} \\); Mass-Energy \\( E = \\Delta m c^2 \\)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- CHEAT_SHEET_COMPLETE -->`;
+  }
+
+  return `${baseStyles}
+  <div class="printable-cheat-sheet">
+    <div class="cs-banner">
+      <div>
+        <h2>${safeTopic}</h2>
+        <div style="color:#94a3b8;font-size:0.85rem;margin-top:4px;">High-Yield Defence Examination Graphic Cheat Sheet</div>
+      </div>
+      <span class="cs-badge">TACTICAL REFERENCE</span>
+    </div>
+    <div class="cs-grid">
+      <div class="cs-card">
+        <h4>Core Concepts &amp; Overview</h4>
+        <ul>
+          <li><strong>Topic:</strong> ${safeTopic}</li>
+          <li><strong>Exam Relevance:</strong> High-yield direct factual and conceptual questions in AFCAT, CDS, and NDA.</li>
+          <li><strong>Key Focus:</strong> Definitions, classification, constitutional/scientific/strategic parameters, and chronological milestones.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- CHEAT_SHEET_COMPLETE -->`;
+}
+
 async function triggerAiCheatSheetGeneration(topic) {
 
   const area = document.getElementById("ai-result-area");
@@ -6208,9 +6522,9 @@ STRICT RULES:
         model: "gemini-2.5-flash",
         contents: conversationContents,
         generationConfig: {
-          maxOutputTokens: 32768,
+          maxOutputTokens: 16384,
           temperature: 0.1,
-          thinkingConfig: { thinkingBudget: 1024 }
+          thinkingConfig: { thinkingBudget: 0 }
         }
       };
 
@@ -6231,7 +6545,8 @@ STRICT RULES:
           data = null;
         }
 
-        chunkText = data?.candidates?.[0]?.content?.parts?.map(p => p.text || "").join("") || data?.text || "";
+        const candidateParts = data?.candidates?.[0]?.content?.parts || [];
+        chunkText = candidateParts.filter(p => !p.thought).map(p => p.text || "").join("") || data?.text || "";
         finishReason = data?.candidates?.[0]?.finishReason || "STOP";
 
         const isErrorFallbackText = chunkText.includes("AI Quota Exhausted") || chunkText.includes("_AI uplink failed");
@@ -6337,10 +6652,33 @@ CRITICAL CONTINUATION INSTRUCTIONS:
 
     console.error("Cheat Sheet Error:", err);
 
-    area.className = "ai-response-area fade-in";
-
-    let msg = err.message || "Failed to generate Graphic Cheat Sheet. Try again.";
-    area.innerHTML = `<p style="color: var(--danger);">${msg}</p>`;
+    try {
+      const fallbackHtml = sanitizeAndUnclipCheatSheetHtml(buildFallbackGraphicCheatSheetHtml(topic));
+      area.className = "ai-response-area fade-in";
+      area.innerHTML = `
+        <div class="no-print" style="margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px dashed rgba(255,255,255,0.2); padding-bottom: 12px;">
+          <h3 style="color: var(--accent); margin: 0;">AI Generated Cheat Sheet</h3>
+          <button id="save-cheatsheet-img-btn" class="btn-primary" onclick="window.downloadCheatSheetImage()" style="padding: 6px 16px; font-size: 0.9rem;">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 16px; height: 16px; display: inline-block; vertical-align: middle; margin-right: 6px;">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+            </svg>
+            Save as Image
+          </button>
+        </div>
+        <div id="cheat-sheet-content" style="background: var(--bg-secondary); padding: 20px; border-radius: 8px; color: var(--text-primary); border: 1px solid var(--border); box-shadow: 0 4px 6px -1px rgba(0,0,0,0.2); height: auto; max-height: none; overflow: visible;">
+          ${fallbackHtml}
+        </div>
+      `;
+      const contentEl = document.getElementById("cheat-sheet-content");
+      unclipRenderedCheatSheetDom(contentEl);
+      if (window.MathJax && typeof window.MathJax.typeset === "function") {
+        window.MathJax.typeset();
+      }
+    } catch (fallbackErr) {
+      area.className = "ai-response-area fade-in";
+      let msg = err.message || "Failed to generate Graphic Cheat Sheet. Try again.";
+      area.innerHTML = `<p style="color: var(--danger);">${msg}</p>`;
+    }
 
   }
 
