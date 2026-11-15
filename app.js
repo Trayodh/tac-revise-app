@@ -9485,9 +9485,9 @@ function initCountdownTimer() {
 
 
   // Load target exam selection from localStorage if saved (default/lock AFCAT 1 2027 DEFCON 2)
-  if (localStorage.getItem("tac_afcat_2027_defcon2_v3") !== "true") {
+  if (localStorage.getItem("tac_afcat_2027_defcon2_v4") !== "true") {
     localStorage.setItem("tac_countdown_selection", "afcat");
-    localStorage.setItem("tac_afcat_2027_defcon2_v3", "true");
+    localStorage.setItem("tac_afcat_2027_defcon2_v4", "true");
   }
 
   const savedSelection = localStorage.getItem("tac_countdown_selection") || "afcat";
