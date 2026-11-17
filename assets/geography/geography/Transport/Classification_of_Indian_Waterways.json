@@ -1,0 +1,18 @@
+{
+  "title": "Classification of Indian Waterways",
+  "subject": "Geography",
+  "category": "Transport",
+  "chapter": "Transport Routes",
+  "topic": "Waterways Types",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    Waterways[Indian Waterways] --> NW[National Waterways]\n    Waterways --> SW[State Waterways]\n    Waterways --> MR[Minor Rivers & Canals]\n    NW -->|Fully developed, dredged| NWDetails[Examples: NW‑1 Ganga, NW‑2 Brahmaputra]\n    SW -->|Seasonal, state‑managed| SWDetails[Example: Mahanadi River (Odisha)]\n    MR -->|Localized bulk transport| MRDetails[Punjab & Haryana canal networks]",
+  "mapQuery": "",
+  "description": "Tree diagram categorising Indian waterways into National Waterways, State Waterways, and Minor Rivers & Canals with brief characteristics.",
+  "keywords": [
+    "waterways",
+    "classification",
+    "India",
+    "national waterways",
+    "state waterways"
+  ]
+}

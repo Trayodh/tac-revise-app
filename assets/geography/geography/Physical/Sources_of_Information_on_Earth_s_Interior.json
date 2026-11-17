@@ -1,0 +1,19 @@
+{
+  "title": "Sources of Information on Earth's Interior",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Earth Structure & Atmosphere",
+  "topic": "Earth's Interior Structure",
+  "format": "Mermaid",
+  "description": "A classification diagram outlining the direct and indirect sources of information used to understand the Earth's internal structure, such as drilling, volcanic eruptions, and seismic waves.",
+  "keywords": [
+    "Earth's interior",
+    "Direct sources",
+    "Indirect sources",
+    "Seismic waves",
+    "Kola Super-deep Borehole",
+    "Volcanic eruptions",
+    "Gravity anomalies"
+  ],
+  "mermaidCode": "graph TD\n    A[Sources of Info on Earth's Interior] --> B[Direct Sources];\n    B --> B1[Mining & Drilling Projects];\n    B --> B2[Volcanic Eruptions];\n    A --> C[Indirect Sources];\n    C --> C1[Seismic Waves];\n    C --> C2[Meteorites];\n    C --> C3[Gravity Anomalies];\n    C --> C4[Magnetic Field];\n    C --> C5[Temperature & Pressure Gradients];"
+}

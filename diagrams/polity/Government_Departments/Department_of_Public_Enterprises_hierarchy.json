@@ -1,0 +1,21 @@
+{
+  "title": "Department of Public Enterprises hierarchy",
+  "subject": "Polity",
+  "chapter": "Government Departments",
+  "topic": "Organizational Placement",
+  "difficulty": "Easy",
+  "rendering_engine": "Mermaid",
+  "exams": [
+    "NDA",
+    "CDS",
+    "AFCAT"
+  ],
+  "keywords": [
+    "Department of Public Enterprises",
+    "Ministry of Finance",
+    "org chart"
+  ],
+  "caption": "Organizational hierarchy: Government → Ministry of Finance → Department of Public Enterprises and its six units.",
+  "altText": "An organizational chart showing the Government at the top, linked to the Ministry of Finance, which oversees the Department of Public Enterprises. The department branches into six units: Corporate Governance Unit, Investment Management Unit, Regulatory Affairs Unit, Legal Affairs, Finance & Accounts, and Human Resources.",
+  "source": "Automated Pipeline"
+}

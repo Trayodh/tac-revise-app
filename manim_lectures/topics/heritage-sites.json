@@ -1,0 +1,32 @@
+{
+    "id": "heritage-sites",
+    "title": "Heritage Sites",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "7. Art, Culture & Heritage",
+    "chapterId": "art-culture-heritage",
+    "blocks": [
+        {
+            "heading": "\ud83c\udfdb\ufe0f UNESCO World Heritage Sites in India",
+            "intro": "India is home to **42 UNESCO World Heritage Sites** (as of recent evaluations), safeguarding rich cultural and natural history.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. Classification",
+            "intro": "",
+            "bullets": [
+                "Cultural Sites (34): Man-made historical monuments. E.g., Sanchi Stupa, Taj Mahal, Ajanta/Ellora Caves, Group of Monuments at Hampi, Sun Temple at Konark, Khajuraho temples, Hill Forts of Rajasthan.",
+                "Natural Sites (7): Pristine ecosystems. E.g., Kaziranga National Park (Assam - one-horned rhinos), Sundarbans National Park (Bengal - mangroves, tigers), Western Ghats, Keoladeo National Park (Rajasthan - migratory birds).",
+                "Mixed Site (1): **Khangchendzonga National Park** (Sikkim). Holds both cultural significance for local tribes and unique alpine biodiversity.",
+                "Recent Inclusions: **Santiniketan (West Bengal):** University town founded by Rabindranath Tagore.",
+                "**Sacred Ensembles of the Hoysalas (Karnataka):** Star-shaped temples at Belur, Halebidu, and Somanathapura."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "UNESCO count: 42 | Mixed: Khangchendzonga | Recent: Santiniketan, Hoysala temples"
+    ],
+    "hasNotes": true
+}

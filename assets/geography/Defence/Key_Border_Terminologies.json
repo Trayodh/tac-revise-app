@@ -1,0 +1,23 @@
+{
+  "title": "Key Border Terminologies",
+  "subject": "Geography",
+  "category": "Defence",
+  "chapter": "Borders & Mapping",
+  "topic": "Border Terminology",
+  "format": "Mermaid",
+  "description": "A classification diagram defining essential terminologies related to India's land and maritime borders, including LoC, LAC, International Border, Territorial Waters, EEZ, Strategic Depth, and Cartography.",
+  "keywords": [
+    "Border terminology",
+    "Line of Control (LoC)",
+    "Line of Actual Control (LAC)",
+    "International Border (IB)",
+    "Territorial Waters",
+    "Exclusive Economic Zone (EEZ)",
+    "Strategic Depth",
+    "Cartography",
+    "Surveying",
+    "Remote sensing",
+    "GIS"
+  ],
+  "mermaidCode": "graph TD\nA[Key Border Terminologies] --> B[Land Borders]\nB --> B1[Line of Control (LoC)]\nB --> B2[Line of Actual Control (LAC)]\nB --> B3[International Border (IB)]\nA --> C[Maritime Zones]\nC --> C1[Territorial Waters (12 NM)]\nC --> C2[Exclusive Economic Zone (EEZ) (200 NM)]\nA --> D[Strategic Concepts]\nD --> D1[Strategic Depth]\nA --> E[Mapping Science]\nE --> E1[Cartography]\nE1 --> E1a[Surveying]\nE1 --> E1b[Remote Sensing]\nE1 --> E1c[GIS]"
+}

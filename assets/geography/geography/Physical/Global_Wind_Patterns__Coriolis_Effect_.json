@@ -1,0 +1,18 @@
+{
+  "title": "Global Wind Patterns (Coriolis Effect)",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Atmospheric Pressure & Winds",
+  "topic": "Coriolis Effect",
+  "format": "RealMap",
+  "mermaidCode": "",
+  "mapQuery": "global wind patterns map",
+  "description": "World map depicting the major wind belts (Trade Winds, Westerlies, Polar Easterlies) and illustrating the deflection of moving air to the right in the Northern Hemisphere and to the left in the Southern Hemisphere due to the Coriolis force.",
+  "keywords": [
+    "Coriolis effect",
+    "global winds",
+    "trade winds",
+    "westerlies",
+    "polar easterlies"
+  ]
+}

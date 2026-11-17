@@ -1,0 +1,16 @@
+{
+  "title": "Coriolis Effect Illustration",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Atmospheric Pressure & Winds",
+  "topic": "Coriolis Effect",
+  "format": "Mermaid",
+  "mermaidCode": "graph LR\n    A[Moving Air] --> B{Northern Hemisphere}\n    B --> C[Deflects Right]\n    A --> D{Southern Hemisphere}\n    D --> E[Deflects Left]",
+  "mapQuery": "",
+  "description": "Simple flowchart depicting how the Coriolis effect deflects moving air to the right in the Northern Hemisphere and to the left in the Southern Hemisphere.",
+  "keywords": [
+    "coriolis",
+    "deflection",
+    "hemisphere"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+    "id": "external-sector-institutions",
+    "title": "IMF, WTO & Balance of Payments",
+    "subject": "Economics (CDS/NDA)",
+    "subjectId": "economics",
+    "chapter": "Budgets, Trade & Economic Reforms",
+    "chapterId": "budget-trade-reforms",
+    "blocks": [],
+    "formulas": [
+        "IMF: BoP crisis support",
+        "WTO: Replaced GATT (1995)",
+        "BoP: Current Account (deficit in India) + Capital Account",
+        "Forex: FCA + Gold + SDR (Paper Gold) + RTP"
+    ],
+    "hasNotes": false
+}

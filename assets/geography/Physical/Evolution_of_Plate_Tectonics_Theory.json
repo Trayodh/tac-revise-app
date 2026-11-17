@@ -1,0 +1,22 @@
+{
+  "title": "Evolution of Plate Tectonics Theory",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Plate Tectonics",
+  "topic": "Early Theories",
+  "format": "Mermaid",
+  "description": "This diagram illustrates the historical development of the Plate Tectonics theory, from Continental Drift to Seafloor Spreading, culminating in the modern understanding, including key proponents, evidence, and shortcomings.",
+  "keywords": [
+    "plate tectonics",
+    "continental drift",
+    "Alfred Wegener",
+    "Pangaea",
+    "convectional current theory",
+    "Arthur Holmes",
+    "seafloor spreading",
+    "Harry Hess",
+    "lithosphere",
+    "asthenosphere"
+  ],
+  "mermaidCode": "graph TD\nA[Continental Drift (Wegener, 1912)] --> B{Evidence}\nB --> B1(Jigsaw fit of coastlines)\nB --> B2(Matching geological formations)\nB --> B3(Identical fossils)\nB --> B4(Glacial tillites)\nA --> A1[Shortcoming: Lacked convincing mechanism]\nA --> C[Convectional Current Theory (Holmes, 1930s)]\nC --> C1(Mantle convection currents as driving force)\nC --> D[Seafloor Spreading (Hess, 1960s)]\nD --> D1(New oceanic crust at mid-oceanic ridges)\nD --> D2(Crust consumed at subduction zones)\nD --> E{Evidence}\nE --> E1(Magnetic stripes)\nE --> E2(Age progression of ocean floor)\nE --> E3(Heat flow anomalies)\nE --> E4(Sediment thickness patterns)\nD --> F[Modern Theory of Plate Tectonics]\nF --> F1(Lithosphere broken into plates)\nF --> F2(Plates float on asthenosphere)"
+}

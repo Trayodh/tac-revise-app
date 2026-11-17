@@ -1,0 +1,11 @@
+graph TD
+    classDef startEnd fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef statement fill:#bbf,stroke:#333,stroke-width:1px;
+    classDef misc fill:#efe,stroke:#333,stroke-width:1px;
+    A[Start]:::startEnd --> B[Statement P: Flag hoisting ceremony]:::statement;
+    B --> C[Statement Q: National anthem]:::statement;
+    C --> D[Statement R: Parade at India Gate]:::statement;
+    D --> E[Statement S: Cultural performances]:::statement;
+    E --> G[Audience applause]:::misc;
+    G --> F[Conclusion: Celebrations end]:::misc;
+    F --> H[End]:::startEnd;

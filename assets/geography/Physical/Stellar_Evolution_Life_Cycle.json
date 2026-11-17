@@ -1,0 +1,22 @@
+{
+  "title": "Stellar Evolution Life Cycle",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "The Universe & Solar System",
+  "topic": "Stars",
+  "format": "Mermaid",
+  "description": "A flowchart depicting the life cycle of stars, from nebula to protostar, main-sequence, red giant/supergiant, and various end states like white dwarf, neutron star, or black hole.",
+  "keywords": [
+    "Stellar evolution",
+    "Star life cycle",
+    "Nebula",
+    "Protostar",
+    "Main-sequence star",
+    "Red Giant",
+    "Supergiant",
+    "White Dwarf",
+    "Neutron Star",
+    "Black Hole"
+  ],
+  "mermaidCode": "graph TD\n    A[Nebula] --> B[Protostar];\n    B --> C[Main-Sequence Star];\n    C --> D{Post-Main-Sequence};\n    D -- Low Mass (<8 M☉) --> E[Red Giant];\n    E --> F[White Dwarf];\n    F --> F1(Chandrasekhar Limit ~1.4 M☉);\n    D -- High Mass (8-25 M☉) --> G[Red Supergiant];\n    G --> H[Neutron Star];\n    D -- Very High Mass (>25 M☉) --> I[Red Supergiant];\n    I --> J[Black Hole];"
+}

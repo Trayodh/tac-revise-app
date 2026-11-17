@@ -1,0 +1,1337 @@
+[
+  {
+    "id": "jan-1",
+    "title": "Mathematics (NDA/CDS)",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "trigonometry",
+    "title": "Trigonometry",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "trig-identities",
+    "title": "Trigonometric Identities & Values",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "inverse-trig",
+    "title": "Inverse Trigonometric Functions",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "algebra-complex",
+    "title": "Algebra & Complex Numbers",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "quadratic-eq",
+    "title": "Quadratic Equations",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "complex-numbers",
+    "title": "Complex Numbers",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "2d-geometry",
+    "title": "Coordinate Geometry (2D & 3D)",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "straight-lines",
+    "title": "Straight Lines",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "statistics-prob",
+    "title": "Statistics & Probability",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "central-tendency",
+    "title": "Measures of Central Tendency",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "data-interpretation",
+    "title": "Data Interpretation: Tables, Bar & Pie Charts",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "calculus",
+    "title": "Calculus",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "limits-continuity",
+    "title": "Limits & Continuity",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "differentiation",
+    "title": "Differentiation Rules",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "integration",
+    "title": "Standard Integration Methods",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "algebra-matrices",
+    "title": "Algebra & Matrices",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "syl-matrices",
+    "title": "Matrices and Determinants",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "probability-stats",
+    "title": "Probability & Statistics",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "syl-probability",
+    "title": "Probability Theory & Bayes Theorem",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "geometry",
+    "title": "Geometry",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "lines-angles-triangles",
+    "title": "Lines, Angles & Triangles",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "circles-polygons",
+    "title": "Circles & Polygons",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "mensuration",
+    "title": "Mensuration",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "area-perimeter",
+    "title": "2D Figures: Area & Perimeter",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "surface-area-volume",
+    "title": "3D Solids: Surface Area & Volume",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "arithmetic",
+    "title": "Arithmetic",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "percentages-profit-loss",
+    "title": "Percentages, Profit & Loss",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "ratios-averages",
+    "title": "Ratios, Proportions & Averages",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "time-distance",
+    "title": "Time, Speed, Distance & Work",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "quantitative-aptitude",
+    "title": "Numerical Aptitude",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "syl-numerical-speed",
+    "title": "Time, Speed & Distance Formulas",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "syl-numerical-ratios",
+    "title": "Ratios, Proportions & Percentages",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "grammar-rules",
+    "title": "Grammar & Usage",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "parts-of-speech",
+    "title": "Parts of Speech",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "tenses-complete",
+    "title": "Tenses & Consistency",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "subject-verb-agreement",
+    "title": "Subject-Verb Agreement",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "sentence-structure",
+    "title": "Sentence Structure & Parallelism",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "voice-conversion",
+    "title": "Active & Passive Voice",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "narration-speech",
+    "title": "Direct & Indirect Speech",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "modifiers",
+    "title": "Modifiers: Misplaced & Dangling",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "punctuation-basics",
+    "title": "Punctuation Basics",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "transformation-sentences",
+    "title": "Transformation of Sentences",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "vocabulary",
+    "title": "Vocabulary & Comprehension",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "synonyms-antonyms-detailed",
+    "title": "High-Frequency Synonyms/Antonyms",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "one-word-substitution",
+    "title": "One Word Substitutions",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "idioms-phrases",
+    "title": "Idioms & Phrases",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "phrasal-verbs",
+    "title": "Phrasal Verbs",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "reading-comprehension",
+    "title": "Reading Comprehension",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "exam-patterns",
+    "title": "UPSC Exam Practice Patterns",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "error-detection",
+    "title": "Spotting Errors",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "sentence-improvement",
+    "title": "Sentence Improvement",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "ordering-rearrangement",
+    "title": "Ordering of Words & Sentences",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "fill-blanks-cloze",
+    "title": "Fill in the Blanks & Cloze Test",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "constitution-basics",
+    "title": "Constitutional Framework",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "preamble",
+    "title": "Preamble & Sources",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "schedules",
+    "title": "Schedules of the Constitution",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "fundamental-rights",
+    "title": "Fundamental Rights (Art 12-35)",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "dpsp",
+    "title": "DPSP & Fundamental Duties (Art 36-51A)",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "citizenship",
+    "title": "Citizenship (Art 5-11)",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "union-executive",
+    "title": "Union Government",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "president",
+    "title": "The President of India (Art 52-62)",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "parliament",
+    "title": "Parliament of India (Art 79-122)",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "goverment-executives",
+    "title": "Executives: PM, CM & Governor",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "judiciary",
+    "title": "Integrated Judiciary: SC & HC",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "panchayati-raj",
+    "title": "Local Self-Govt & Panchayati Raj",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "polity-advanced",
+    "title": "Advanced Polity Structures & Bodies",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "amendments-parts",
+    "title": "Constitutional Amendments, Parts & Schedules",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "important-articles",
+    "title": "High-Yield Special Articles Cheat Sheet",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "positions-tenures",
+    "title": "Elections, Appointments & Terms of Office",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "constitutional-bodies",
+    "title": "Constitutional & Non-Constitutional Bodies",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "governance-emergency",
+    "title": "Emergency Provisions",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "federal-rpa",
+    "title": "Federal Structure & Election Law",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "polity-federal-structure",
+    "title": "Federal Structure & Centre-State Relations",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "polity-rpa",
+    "title": "Representation of People Act & Election Commission",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "historiography",
+    "title": "1. Historiography & Historical Foundations",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "what-is-history",
+    "title": "What is History?",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "sources-indian-history",
+    "title": "Sources of Indian History",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "dating-systems",
+    "title": "Dating Systems",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "prehistoric-india",
+    "title": "2. Prehistoric India",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "stone-age",
+    "title": "Stone Age",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "chalcolithic-age",
+    "title": "Chalcolithic Age",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "rock-art",
+    "title": "Rock Art",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "ancient-india-tree",
+    "title": "3. Ancient India",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "indus-valley-civilization",
+    "title": "Indus Valley Civilization",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "vedic-age",
+    "title": "Vedic Age",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "mahajanapadas",
+    "title": "Mahajanapadas",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "magadha-expansion",
+    "title": "Magadha Expansion",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "buddhism-jainism",
+    "title": "Buddhism & Jainism",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "mauryan-period",
+    "title": "Mauryan Period",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "post-mauryan-india",
+    "title": "Post-Mauryan India",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "gupta-period",
+    "title": "Gupta Period",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "south-indian-kingdoms",
+    "title": "South Indian Kingdoms",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "ancient-indian-culture",
+    "title": "Ancient Indian Culture",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "medieval-india-tree",
+    "title": "4. Medieval India",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "early-medieval-india",
+    "title": "Early Medieval India",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "delhi-sultanate",
+    "title": "Delhi Sultanate",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "vijayanagara-empire",
+    "title": "Vijayanagara Empire",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "bahmani-deccan-sultanates",
+    "title": "Bahmani Kingdom & Deccan Sultanates",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "mughal-empire",
+    "title": "Mughal Empire",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "marathas",
+    "title": "Marathas",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "bhakti-movement",
+    "title": "Bhakti Movement",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "sufi-movement",
+    "title": "Sufi Movement",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "sikh-history",
+    "title": "Sikh History",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "modern-india-tree",
+    "title": "5. Modern India (Highest Priority)",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "european-arrival",
+    "title": "European Arrival",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "british-expansion",
+    "title": "British Expansion",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "economic-impact-british",
+    "title": "Economic Impact of British Rule",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "socio-religious-reform",
+    "title": "Socio-Religious Reform Movements",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "revolt-1857",
+    "title": "Revolt of 1857",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "governor-generals-viceroys",
+    "title": "Governor-Generals & Viceroys",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "constitutional-development",
+    "title": "Constitutional Development",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "freedom-movement",
+    "title": "Freedom Movement",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "post-independence-consolidation",
+    "title": "Post-Independence Consolidation",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "world-history-tree",
+    "title": "6. World History",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "revolutions",
+    "title": "Revolutions",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "world-war-i",
+    "title": "World War I",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "interwar-period",
+    "title": "Interwar Period",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "world-war-ii",
+    "title": "World War II",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "cold-war",
+    "title": "Cold War",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "international-institutions",
+    "title": "International Institutions",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "art-culture-heritage",
+    "title": "7. Art, Culture & Heritage",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "architecture",
+    "title": "Architecture",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "paintings",
+    "title": "Paintings",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "dance-music",
+    "title": "Dance & Music",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "literature",
+    "title": "Literature",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "religion-festivals",
+    "title": "Religion & Festivals",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "heritage-sites",
+    "title": "Heritage Sites",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "history-pyq-trends",
+    "title": "PYQ Trend Analysis",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "history-pyq-trends-topic",
+    "title": "History PYQ Trends (NDA/CDS)",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "physical-geography",
+    "title": "Physical & World Geography",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "universe-solar-system",
+    "title": "The Universe & Solar System",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "earth-atmosphere",
+    "title": "Earth Structure & Atmosphere",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "climatology-clouds",
+    "title": "Climatology: Climatic Zones & Clouds",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "geomorphology-rocks",
+    "title": "Geomorphology: Rocks, Plate Tectonics & Volcanism",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "world-geography-mountains",
+    "title": "World Geography: Mountains, Forests & Rivers",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "world-geography-straits-deserts",
+    "title": "Straits, Canals, Deserts & Seas",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "geography-details",
+    "title": "Indian Geography",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "syl-geog",
+    "title": "Indian Geography (Rivers, Passes & Soils)",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "india-forests-wetlands",
+    "title": "Forests, Trees & Wetlands of India",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "india-resources-farming",
+    "title": "Mineral Resources & Types of Farming",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "india-transport-routes",
+    "title": "Transport Routes: Highways & Waterways",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "india-national-parks",
+    "title": "National Parks of India (Map Guide)",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "mapping-borders-capitals",
+    "title": "Borders, Capitals & Mapping",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "industrics-geopolitics",
+    "title": "Industries & Geopolitics",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "geog-industries",
+    "title": "Major Industries & Industrial Corridors of India",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "geog-geopolitics",
+    "title": "Geopolitical Flashpoints & Indo-Pacific",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "geography-pyq-trends",
+    "title": "PYQ Trend Analysis",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "geography-pyq-trends-topic",
+    "title": "Geography PYQ Trends (NDA/CDS)",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "economics-basics",
+    "title": "Introduction to Economics",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "econ-concepts",
+    "title": "Core Economic Concepts & Sectors",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "econ-poverty-employment",
+    "title": "Poverty, Employment & Agriculture",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "monetary-fiscal",
+    "title": "Monetary & Fiscal System",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "rbi-monetary-policy",
+    "title": "RBI & Monetary Policy Tools",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "budget-trade-reforms",
+    "title": "Budgets, Trade & Economic Reforms",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "econ-budget-fiscal",
+    "title": "Government Budget, GST & Fiscal Policy",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "econ-trade-bop",
+    "title": "Trade Policy & Balance of Payments",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "econ-reforms",
+    "title": "LPG Reforms, NITI Aayog & Financial Institutions",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "five-year-plans",
+    "title": "Economic Planning & Five-Year Plans",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "external-sector-institutions",
+    "title": "IMF, WTO & Balance of Payments",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "govt-schemes",
+    "title": "Government Schemes & Welfare Programs",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "econ-govt-schemes",
+    "title": "Key Welfare Schemes & Financial Inclusion",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "physics-optics",
+    "title": "Optics & Light",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "reflection-refraction",
+    "title": "Reflection, Refraction & Lenses",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "physics-mechanics",
+    "title": "Mechanics & Motion",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "newtons-laws",
+    "title": "Newton's Laws of Motion",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "energy-power-mechanics",
+    "title": "Energy & Gravitation",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "syl-exercises",
+    "title": "Work, Power, Energy & Gravitation",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "physics-waves",
+    "title": "Waves & Acoustics",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "physics-sound",
+    "title": "Sound Waves & Acoustics",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "physics-em-waves",
+    "title": "Electromagnetic Waves & Spectrum",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "physics-thermodynamics",
+    "title": "Heat & Thermodynamics",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "physics-heat",
+    "title": "Thermodynamics & Heat Transfer",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "physics-electromagnetism",
+    "title": "Electricity & Magnetism",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "physics-electricity-magnetism",
+    "title": "Electricity, Circuits & Magnetism",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "physics-modern",
+    "title": "Modern Physics & Units",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "physics-nuclear-basics",
+    "title": "Nuclear Physics & Radioactivity",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "physics-units-everyday",
+    "title": "SI Units & Everyday Physics",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "physics-pyq-trends",
+    "title": "PYQ Trend Analysis",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "physics-pyq-trends-topic",
+    "title": "Physics PYQ Trends (NDA/CDS)",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "chemistry-substances",
+    "title": "Acids, Bases & Salts",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "acids-bases",
+    "title": "Acids, Bases & pH Indicators",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "chemistry-bonding",
+    "title": "Chemical Bonding",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "syl-numerical",
+    "title": "Chemical Bonding & Periodic Table",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "chemistry-metallurgy",
+    "title": "Metals & Metallurgy",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "metals-alloys",
+    "title": "Metals, Ores, Alloys & Metallurgy",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "reactivity-series",
+    "title": "Reactivity Series & Displacement",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "chemistry-carbon-numericals",
+    "title": "Carbon Compounds & Numericals",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "carbon-compounds",
+    "title": "Carbon & its Compounds",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "chemistry-numericals",
+    "title": "Mole Concept & Concentration Terms",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "chemistry-everyday-env",
+    "title": "Everyday & Environmental Chemistry",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "chemistry-everyday-fertilisers",
+    "title": "Everyday Chemistry, Fertilisers & Fuels",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "environmental-chemistry",
+    "title": "Environmental Chemistry & Pollution",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "biology-cell",
+    "title": "Cell Biology & Genetics",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "cell-structure",
+    "title": "Cell Structure & Cell Division",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "biology-physiology",
+    "title": "Human Physiology",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "human-systems",
+    "title": "Vital Human Systems & Organs",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "biology-diseases",
+    "title": "Health, Diseases & Nutrition",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "diseases",
+    "title": "Human Diseases & Pathogens",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "immunity-vaccines",
+    "title": "Immunity & Vaccines",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "biology-kingdoms",
+    "title": "Plant & Animal Kingdoms",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "plant-kingdom",
+    "title": "Plant Kingdom Classification",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "animal-kingdom",
+    "title": "Animal Kingdom Classification",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "biology-botany",
+    "title": "Plant Physiology & Reproduction",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "plant-reproduction",
+    "title": "Plant Reproduction & Hormones",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "biology-ecology",
+    "title": "Ecology & Ecosystems",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "biology-ecology-basics",
+    "title": "Ecology Basics & Pyramids",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "armed-forces-equipment-db",
+    "title": "Armed Forces Equipment Database",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "all-equipment",
+    "title": "Comprehensive Equipment Database",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "defence-structures",
+    "title": "Command Structures & Ranks",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "rank-equivalence",
+    "title": "Equivalent Officer Ranks (Tri-Services)",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "commands",
+    "title": "Operational Commands of Services",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "defence-organisations-weapons",
+    "title": "Defence Organisations, Weapons & Agreements",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "tactical-defence-gk",
+    "title": "Exercises & Missile Systems",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "bilateral-exercises",
+    "title": "Joint Military Exercises of India",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "missiles-systems",
+    "title": "Integrated Guided Missile Program (IGMDP)",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "reasoning-oir",
+    "title": "Reasoning & OIR (SSB)",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "syl-verbal-reasoning",
+    "title": "Verbal Reasoning & OIR",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "syl-nonverbal-reasoning",
+    "title": "Non-Verbal Reasoning & OIR",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "syl-afcat-spatial",
+    "title": "Spatial & Non-Verbal Reasoning (AFCAT)",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "afcat-verbal-reasoning",
+    "title": "Verbal Reasoning (AFCAT)",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "afcat-r-analogy",
+    "title": "Ch.1 — Analogy (Verbal Reasoning)",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "afcat-r-classification",
+    "title": "Ch.2 — Classification / Odd One Out (Verbal)",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "afcat-r-series",
+    "title": "Ch.3 — Series Completion (Verbal)",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "afcat-r-coding",
+    "title": "Ch.4 — Coding and Decoding (Verbal)",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "afcat-r-directions",
+    "title": "Ch.5 — Direction Sense Test (Verbal)",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "afcat-r-clock-calendar",
+    "title": "Ch.6 — Clock and Calendar (Verbal)",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "afcat-r-venn",
+    "title": "Ch.7 — Logical Venn Diagrams (Verbal)",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "afcat-r-syllogism",
+    "title": "Ch.8 — Syllogism (Verbal)",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "afcat-r-conclusions",
+    "title": "Ch.9 — Statements and Conclusions (Verbal)",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "afcat-r-assumptions",
+    "title": "Ch.10 — Statements and Assumptions (Verbal)",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "afcat-nonverbal-reasoning",
+    "title": "Non-Verbal Reasoning (AFCAT)",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "afcat-r-fig-analogy",
+    "title": "Ch.11 — Figure Analogy (Non-Verbal)",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "afcat-r-fig-class-series",
+    "title": "Ch.12&13 — Figure Classification & Series (Non-Verbal)",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "afcat-r-fig-completion",
+    "title": "Ch.14 — Figure/Pattern Completion (Non-Verbal)",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "afcat-r-embedded",
+    "title": "Ch.15 — Embedded Figures (Non-Verbal)",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "afcat-r-dot",
+    "title": "Ch.16 — Dot Situation (Non-Verbal)",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "afcat-r-cube-dice",
+    "title": "Ch.17 — Cube and Dice (Non-Verbal)",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "afcat-r-fig-coding",
+    "title": "Ch.18 — Figure Coding (Non-Verbal)",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "schemes-policies",
+    "title": "Schemes, Policies & Summits",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "ca-schemes",
+    "title": "Major Government Schemes",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "ca-relations",
+    "title": "India's International Relations & Forums",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "ca-policies",
+    "title": "National Policies & Missions",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "ca-summits",
+    "title": "Major International Summits",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "reports-awards-judgments",
+    "title": "Reports, Awards & Judgments",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "ca-reports",
+    "title": "Important Reports & Indices",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "ca-judgments",
+    "title": "Landmark SC & HC Judgments",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "ca-awards",
+    "title": "National Awards & Honours",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "ca-economic-measures",
+    "title": "Economic Measures & Policy Packages",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "ca-science-tech-space",
+    "title": "Science, Tech & Space Missions",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "ca-upsc-master-framework",
+    "title": "UPSC Core Current Affairs Syllabus Map",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "global-events-defence",
+    "title": "Global Events & Strategic Updates",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "ca-geopolitical-flashpoints",
+    "title": "Global Geopolitical Flashpoints",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "ca-defence-cooperation",
+    "title": "Bilateral Defence Cooperation & Deals",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "ca-red-sea-crisis",
+    "title": "Red Sea Crisis & Maritime Security Ops",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "ca-quad-indopacific",
+    "title": "Indo-Pacific Security & Quad Dynamics",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "ca-defense-acquisitions",
+    "title": "India-US Tech Cooperation & MQ-9B Drones",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "ca-space-nuclear",
+    "title": "Strategic Space & Missile Advancements",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "biodiversity-conservation",
+    "title": "Biodiversity & Wildlife Conservation",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "env-hotspots",
+    "title": "Biodiversity Hotspots & Biosphere Reserves",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "env-conservation",
+    "title": "Wildlife Protection & Conservation Projects",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "env-species",
+    "title": "Species in News & IUCN Red List",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "climate-laws-energy",
+    "title": "Climate, Laws & Renewable Energy",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "env-treaties",
+    "title": "Climate Change Treaties & India's NDCs",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "env-laws",
+    "title": "Environmental Legislation & EIA",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "env-renewable",
+    "title": "Renewable Energy & Green Initiatives",
+    "file": "notes_data.js"
+  },
+  {
+    "id": "env-pollution",
+    "title": "Pollution Control & Clean India Missions",
+    "file": "notes_data.js"
+  }
+]

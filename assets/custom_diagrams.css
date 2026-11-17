@@ -1,0 +1,148 @@
+/* Custom Diagram Renderer Styles */
+.custom-diagram-container {
+  width: 100%;
+  overflow-x: auto;
+  padding: 20px;
+  background: rgba(15, 17, 23, 0.6);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  margin: 15px 0;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+/* Mindmap Styles */
+.mindmap-tree {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.mindmap-root {
+  background: #2563eb;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  position: relative;
+  border: 2px solid #60a5fa;
+  text-align: center;
+}
+.mindmap-children {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+  padding-top: 20px;
+}
+/* Vertical line from parent */
+.mindmap-children::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 2px;
+  height: 20px;
+  background: #4b5563;
+  transform: translateX(-50%);
+}
+.mindmap-node-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+/* Vertical line to child */
+.mindmap-node-wrapper::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 2px;
+  height: 20px;
+  background: #4b5563;
+  transform: translateX(-50%);
+}
+.mindmap-node {
+  margin-top: 20px;
+  background: #1e293b;
+  color: #e2e8f0;
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,0.1);
+  font-size: 14px;
+  text-align: center;
+  max-width: 200px;
+  white-space: pre-line;
+}
+.mindmap-node.leaf {
+  background: #0f172a;
+  border: 1px solid rgba(255,255,255,0.05);
+  color: #cbd5e1;
+}
+
+/* Flowchart Styles (Linear/Vertical fallback) */
+.flowchart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.flowchart-container.dir-LR {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.flowchart-node {
+  background: #1e293b;
+  border: 2px solid #38bdf8;
+  color: #f8fafc;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  white-space: pre-line;
+}
+.flowchart-node-circle {
+  border-radius: 50px;
+}
+.flowchart-edge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #94a3b8;
+  font-size: 12px;
+  position: relative;
+}
+.flowchart-edge-arrow {
+  width: 2px;
+  height: 20px;
+  background: #4ade80;
+  position: relative;
+}
+.flowchart-edge-arrow::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: -4px;
+  border-width: 5px 5px 0;
+  border-style: solid;
+  border-color: #4ade80 transparent transparent;
+}
+.dir-LR .flowchart-edge-arrow {
+  width: 20px;
+  height: 2px;
+}
+.dir-LR .flowchart-edge-arrow::after {
+  bottom: -4px;
+  right: -4px;
+  left: auto;
+  border-width: 5px 0 5px 5px;
+  border-color: transparent transparent transparent #4ade80;
+}

@@ -1,0 +1,13 @@
+graph TD
+    Farming[Farm Types] --> RainFed[Rain‑fed (Barani)]
+    Farming --> Irrigated[Irrigated (Khadar‑based)]
+    Farming --> Hilly[Hilly & Terrace Farming]
+    Farming --> Coastal[Coastal & Saline‑affected Farming]
+    RainFed -->|Extent| RFExtent[~55% cultivated area]
+    Irrigated -->|Extent| IRExtent[~45% cultivated area]
+    Hilly -->|Extent| HExtent[~7% total area]
+    Coastal -->|Extent| CExtent[~3% area]
+    RainFed -->|Key Crops| RFcrops[Millet, Sorghum, Pulses, Oilseeds]
+    Irrigated -->|Key Crops| ICcrops[Wheat, Rice, Sugarcane, Maize]
+    Hilly -->|Key Crops| HCcrops[Maize, Potatoes, Tea, Horticulture]
+    Coastal -->|Key Crops| CCcrops[Coconut, Cashew, Shrimp aquaculture]

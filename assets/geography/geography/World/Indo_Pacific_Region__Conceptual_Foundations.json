@@ -1,0 +1,22 @@
+{
+  "title": "Indo-Pacific Region: Conceptual Foundations",
+  "subject": "Geography",
+  "category": "World",
+  "chapter": "Geopolitical Flashpoints & Indo-Pacific",
+  "topic": "Indo-Pacific Concept",
+  "format": "Mermaid",
+  "description": "A mindmap illustrating the three inter-related pillars that define the Indo-Pacific region: Geographic Continuum, Economic Interdependence, and Strategic Competition.",
+  "keywords": [
+    "Indo-Pacific",
+    "Geographic continuum",
+    "Economic interdependence",
+    "Strategic competition",
+    "Indian Ocean",
+    "Pacific Ocean",
+    "South China Sea",
+    "Malacca Strait",
+    "Global trade",
+    "US-China rivalry"
+  ],
+  "mermaidCode": "mindmap\nroot((Indo-Pacific Region: Conceptual Foundations))\n  Geographic Continuum\n    From Eastern India to Western America\n    Includes Indian Ocean, South China Sea\n  Economic Interdependence\n    US$5 Trillion+ global trade annually\n    Malacca Strait: ~30% world maritime commerce\n  Strategic Competition\n    US vs. China rivalry\n    Secondary actors: Japan, Australia, India"
+}

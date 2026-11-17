@@ -1,0 +1,42 @@
+{
+    "id": "world-war-ii",
+    "title": "World War II",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "6. World History",
+    "chapterId": "world-history-tree",
+    "blocks": [
+        {
+            "heading": "\ud83d\udca3 World War II (1939 - 1945)",
+            "intro": "The most destructive conflict in human history, involving the majority of the world's nations.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. Causes and Outbreak",
+            "intro": "",
+            "bullets": [
+                "Causes: Failure of the League of Nations, rise of fascism/nazism, policy of appeasement (Britain/France letting Hitler annex territory), and German dissatisfaction with Versailles.",
+                "Immediate Cause: Germany's invasion of **Poland** on 1 September 1939. Britain and France declared war on Germany.",
+                "Alliances: - *Axis Powers:* Germany (Hitler), Italy (Mussolini), Japan (Tojo). - *Allied Powers:* Britain (Churchill), USSR (Stalin), USA (Roosevelt / Truman), China."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Decisive Events & End",
+            "intro": "",
+            "bullets": [
+                "**Pearl Harbor (7 Dec 1941):** Japan attacked US naval base in Hawaii. Prompted USA to enter the war.",
+                "**Battle of Stalingrad (1942-43):** Turning point in Europe. Soviet Red Army defeated German forces.",
+                "**D-Day (6 June 1944):** Allied invasion of Normandy (France), liberating Western Europe.",
+                "**The Holocaust:** Systematic, state-sponsored genocide of 6 million Jews by Nazi Germany.",
+                "**End:** Germany surrendered in May 1945 (Hitler committed suicide). Japan surrendered after USA dropped atomic bombs: **\"Little Boy\"** on **Hiroshima** (6 August 1945) and **\"Fat Man\"** on **Nagasaki** (9 August 1945)."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "WWII: 1939-1945 | Trigger: Poland Invasion | Atomic Bombs: Hiroshima (Aug 6), Nagasaki (Aug 9, 1945)"
+    ],
+    "hasNotes": true
+}

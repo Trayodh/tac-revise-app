@@ -1,0 +1,46 @@
+{
+    "id": "human-systems",
+    "title": "Vital Human Systems & Organs",
+    "subject": "Biology (NDA/CDS)",
+    "subjectId": "biology",
+    "chapter": "Human Physiology",
+    "chapterId": "biology-physiology",
+    "blocks": [
+        {
+            "heading": "1. Circulatory System & Blood Components",
+            "intro": "",
+            "bullets": [
+                "Human Heart : 4-chambered (two auricles, two ventricles) showing double circulation. Normal pace maker is the Sino-Atrial (SA) Node .",
+                "Blood Composition : Plasma (55%) and Formed elements (45%): RBCs (Erythrocytes) : Lifespan ~120 days. Lack nucleus at maturity. Contain iron-rich hemoglobin to transport oxygen. Destroyed in the spleen (graveyard of RBCs).",
+                "WBCs (Leukocytes) : Part of immune system. Granulocytes (Neutrophils, Basophils, Eosinophils) and Agranulocytes (Lymphocytes, Monocytes).",
+                "Platelets (Thrombocytes) : Responsible for blood clotting (aided by Vitamin K and Calcium ions).",
+                "Blood Groups (ABO System) : Group O-negative: Universal Donor (lacks antigens).",
+                "Group AB-positive: Universal Recipient (lacks antibodies)."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Endocrine Glands & Gaseous / Digestive Systems",
+            "intro": "",
+            "bullets": [
+                "Endocrine Glands (Ductless Glands) : Secretions are called hormones. Pituitary Gland : Master gland, controls growth and other glands.",
+                "Thyroid Gland : Secretes thyroxine (needs Iodine; deficiency leads to Goitre).",
+                "Pancreas (Mixed Gland) : Islets of Langerhans secrete Insulin (Beta cells, lowers blood glucose) and Glucagon (Alpha cells, raises glucose). Deficiency of insulin causes Diabetes Mellitus.",
+                "Adrenal Gland : Secretes Adrenaline (fight-or-flight hormone, raises heart rate).",
+                "Digestive Enzymes : Saliva: Salivary Amylase (digests starch).",
+                "Stomach: Pepsin (digests proteins in acidic medium - HCl).",
+                "Pancreas: Trypsin (proteins), Lipase (fats), Amylase (carbohydrates)."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Blood pH: 7.4 (Slightly alkaline)",
+        "RBC lifespan: 120 days",
+        "Universal Donor: O- | Recipient: AB+",
+        "Master Gland: Pituitary",
+        "Insulin: Beta-cells (lowers sugar)",
+        "Adrenaline: Emergency hormone"
+    ],
+    "hasNotes": true
+}

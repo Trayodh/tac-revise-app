@@ -1,0 +1,17 @@
+{
+    "id": "physics-electricity-magnetism",
+    "title": "Electricity, Circuits & Magnetism",
+    "subject": "Physics (NDA/CDS)",
+    "subjectId": "physics",
+    "chapter": "Electricity & Magnetism",
+    "chapterId": "physics-electromagnetism",
+    "blocks": [],
+    "formulas": [
+        "Ohm's Law: V = I * R",
+        "Resistance: Series (Rs = R1+R2), Parallel (1/Rp = 1/R1 + 1/R2)",
+        "Power: P = V * I = I^2 * R",
+        "Force: F = q * (v x B)",
+        "Induction: Faraday's & Lenz's Laws"
+    ],
+    "hasNotes": false
+}

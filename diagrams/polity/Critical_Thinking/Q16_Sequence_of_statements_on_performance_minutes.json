@@ -1,0 +1,22 @@
+{
+  "title": "Q16 Sequence of statements on performance minutes",
+  "subject": "Polity",
+  "chapter": "Critical Thinking",
+  "topic": "Logical ordering of statements",
+  "difficulty": "Medium",
+  "rendering_engine": "Mermaid",
+  "exams": [
+    "NDA",
+    "CDS",
+    "AFCAT"
+  ],
+  "keywords": [
+    "sequence",
+    "logic",
+    "performance",
+    "minutes"
+  ],
+  "caption": "Flowchart of the logical sequence of statements P, Q, R, S in a fifteen‑minute performance scenario.",
+  "altText": "A top‑down flowchart starts with a Start node, moves to Statement P, then a decision diamond asks if five minutes have elapsed; if yes it proceeds to Statement Q, otherwise it loops back. After Q, another decision checks if ten minutes have elapsed; if yes it proceeds to Statement R, otherwise loops back to Q. Statement R leads to Statement S, which leads to the End node. This diagram shows the correct chronological order of the four statements within the fifteen‑minute performance.",
+  "source": "Automated Pipeline"
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Conservation Strategies for National Parks in India",
+  "subject": "Geography",
+  "category": "Environment",
+  "chapter": "Biodiversity and Conservation",
+  "topic": "Conservation Strategies",
+  "format": "Mermaid",
+  "description": "A mindmap outlining the various strategies employed for the conservation and management of National Parks in India, including habitat preservation, wildlife management, community engagement, and scientific research.",
+  "keywords": [
+    "Conservation strategies",
+    "habitat preservation",
+    "wildlife management",
+    "community engagement",
+    "scientific research",
+    "climate-resilient planning",
+    "afforestation",
+    "anti-poaching",
+    "eco-tourism"
+  ],
+  "mermaidCode": "mindmap\nroot((Conservation Strategies for National Parks))\n  Habitat Preservation & Restoration\n    Protection of core zones\n    Afforestation\n    Wetland rehabilitation\n  Wildlife Management\n    Population monitoring\n    Anti-poaching patrols\n    Translocation programmes\n  Community Engagement\n    Eco-tourism initiatives\n    Livelihood alternatives for forest-dependent peoples\n    Participatory management committees\n  Scientific Research & Monitoring\n    Camera traps\n    GIS-based habitat mapping\n    Long-term ecological studies\n  Climate-Resilient Planning\n    Buffer-zone creation\n    Fire-management plans\n    Climate-adaptation corridors"
+}

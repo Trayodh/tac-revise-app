@@ -1,0 +1,22 @@
+{
+  "title": "Legal & Institutional Framework for National Parks in India",
+  "subject": "Geography",
+  "category": "Environment",
+  "chapter": "Biodiversity and Conservation",
+  "topic": "National Parks Framework",
+  "format": "Mermaid",
+  "description": "A flowchart illustrating the legal acts and institutional bodies responsible for the declaration, management, and support of National Parks in India.",
+  "keywords": [
+    "Wildlife Protection Act 1972",
+    "Indian Forest Act 1927",
+    "MoEFCC",
+    "State Forest Departments",
+    "Wildlife Institute of India",
+    "WII",
+    "Indian Institute of Forest Management",
+    "IIFM",
+    "National Parks framework",
+    "conservation"
+  ],
+  "mermaidCode": "graph TD\nA[Legal & Institutional Framework for National Parks] --> B{Statutory Basis};\nB --> B1[Wildlife Protection Act, 1972];\nB --> B2[Indian Forest Act, 1927];\nA --> C{Central Authority};\nC --> C1[Ministry of Environment, Forest and Climate Change (MoEFCC)];\nC1 --> C1a[Policy & Coordination];\nC1 --> C1b[Oversight of protected-area management];\nA --> D{Implementation};\nD --> D1[State Forest Departments];\nD1 --> D1a[On-ground management];\nD1 --> D1b[Anti-poaching operations];\nD1 --> D1c[Community-engagement programmes];\nA --> E{Research & Support};\nE --> E1[Wildlife Institute of India (WII)];\nE --> E2[Indian Institute of Forest Management (IIFM)];\nE1 & E2 --> E3[Research, Training, Capacity-building];"
+}

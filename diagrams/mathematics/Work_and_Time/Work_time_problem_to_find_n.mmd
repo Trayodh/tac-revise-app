@@ -1,0 +1,14 @@
+graph TD
+    A[Start]:::startEnd --> B[Given: Work amounts and days]:::process
+    B --> C[Let W1 = work of 6 men in x days]:::process
+    C --> D[Let W2 = work of 11 men in y days]:::process
+    D --> E[Work = men × days]:::process
+    E --> F[Express: 6·x = 11·y]:::process
+    F --> G[Form proportion 6:11 = x:y]:::process
+    G --> H[Solve for unknown n where x:y = 6:11]:::process
+    H --> I[Compute n = 7]:::result
+    I --> J[Verification: 6·7 = 42, 11·? = 42 → ? = 6]:::process
+    J --> K[End]:::startEnd
+    classDef startEnd fill:#e0ffe0,stroke:#333,stroke-width:2px;
+    classDef process fill:#e0f0ff,stroke:#333,stroke-width:1px;
+    classDef result fill:#ffe0e0,stroke:#333,stroke-width:2px;

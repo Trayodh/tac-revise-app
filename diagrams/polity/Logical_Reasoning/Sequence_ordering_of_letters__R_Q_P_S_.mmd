@@ -1,0 +1,23 @@
+graph TD
+    Start[Start] --> A[Option A]
+    Start --> B[Option B]
+    Start --> C[Option C]
+    Start --> D[Option D]
+    A --> A1[R]
+    A1 --> A2[Q]
+    A2 --> A3[P]
+    A3 --> A4[S]
+    B --> B1[S]
+    B1 --> B2[R]
+    B2 --> B3[Q]
+    B3 --> B4[P]
+    C --> C1[Q]
+    C1 --> C2[S]
+    C2 --> C3[R]
+    C3 --> C4[P]
+    D --> D1[P]
+    D1 --> D2[R]
+    D2 --> D3[S]
+    D3 --> D4[Q]
+    class B,B1,B2,B3,B4 highlight;
+    classDef highlight fill:#f9f,stroke:#333,stroke-width:2px;

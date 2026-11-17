@@ -1,0 +1,16 @@
+{
+  "title": "Drainage Basin Concept",
+  "subject": "Geography",
+  "category": "Hydrology",
+  "chapter": "Rivers of the World",
+  "topic": "Drainage Basin",
+  "format": "Mermaid",
+  "mermaidCode": "graph LR\nA[Precipitation] --> B[Runoff]\nB --> C[River Network]\nC --> D[River Mouth]\nE[Watershed Boundary] --> B\nstyle E fill:#f9f,stroke:#333,stroke-width:2px",
+  "mapQuery": "",
+  "description": "Illustrates how precipitation collects within a watershed to form a river system.",
+  "keywords": [
+    "drainage basin",
+    "watershed",
+    "river network"
+  ]
+}

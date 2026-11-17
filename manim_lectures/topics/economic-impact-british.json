@@ -1,0 +1,40 @@
+{
+    "id": "economic-impact-british",
+    "title": "Economic Impact of British Rule",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "5. Modern India (Highest Priority)",
+    "chapterId": "modern-india-tree",
+    "blocks": [
+        {
+            "heading": "\ud83d\udcb8 Economic Impact of British Rule",
+            "intro": "Colonial policies transformed India from a major exporter of finished goods into a supplier of raw materials and a market for British manufactures.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. Three Land Revenue Systems",
+            "intro": "",
+            "bullets": [
+                "Permanent Settlement (Zamindari System): Lord Cornwallis (1793) in Bengal, Bihar, Odisha. Zamindars became owners of land. Tax rate fixed permanently; if not paid by sunset on due date, land was auctioned (**Sunset Law**). Extremely exploitative.",
+                "Ryotwari System: Thomas Munro and Alexander Reed (1820) in Madras, Bombay, Assam. Settlement made directly with the peasant (Ryot). Tax rate fixed at 50-60%, revised periodically.",
+                "Mahalwari System: Holt Mackenzie (1822) in Punjab, NW Province, Central India. Settlement made with the village community (Mahal). Individual peasants shared responsibility."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. High-Yield Economic Phenomena",
+            "intro": "",
+            "bullets": [
+                "De-industrialization: Heavy tariffs on Indian textiles in Britain, coupled with duty-free entry of British machine-made goods into India, destroyed India's famous handloom industries, leading to mass \"ruralisation\".",
+                "Drain of Wealth Theory: Pioneered by **Dadabhai Naoroji** in his book *Poverty and Un-British Rule in India* (1867). He demonstrated how Indian tax revenues and resources were sent to Britain (via home charges, military expenses, profits) without any equivalent material return, impoverishing India.",
+                "Commercialisation of Agriculture: Forced cultivation of cash crops (Indigo, Opium, Tea, Cotton) instead of foodgrains, leading to frequent, devastating famines (e.g., Great Bengal Famine of 1943)."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Permanent Settlement: Cornwallis (Bengal) | Ryotwari: Munro (Madras) | Mahalwari: Mackenzie (North) | Drain Theory: Naoroji"
+    ],
+    "hasNotes": true
+}

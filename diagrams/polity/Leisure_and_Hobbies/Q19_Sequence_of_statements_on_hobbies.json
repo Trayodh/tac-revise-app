@@ -1,0 +1,22 @@
+{
+  "title": "Q19 Sequence of statements on hobbies",
+  "subject": "Polity",
+  "chapter": "Leisure and Hobbies",
+  "topic": "Logical ordering of statements",
+  "difficulty": "Easy",
+  "rendering_engine": "Mermaid",
+  "exams": [
+    "NDA",
+    "CDS",
+    "AFCAT"
+  ],
+  "keywords": [
+    "sequence",
+    "hobbies",
+    "leisure",
+    "logic"
+  ],
+  "caption": "Logical sequence of statements P, Q, R, S describing hobbies and their significance",
+  "altText": "A top-to-bottom flowchart starts with a Start node, then follows the ordered statements: P – Reading expands knowledge, Q – Painting nurtures creativity, R – Running improves health, S – Volunteering builds community spirit, leading to a Summary node that highlights how hobbies enrich personal growth, and finally an End node.",
+  "source": "Automated Pipeline"
+}

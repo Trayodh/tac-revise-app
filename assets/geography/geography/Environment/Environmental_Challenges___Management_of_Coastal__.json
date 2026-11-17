@@ -1,0 +1,21 @@
+{
+  "title": "Environmental Challenges & Management of Coastal & Arid Regions",
+  "subject": "Geography",
+  "category": "Environment",
+  "chapter": "Straits, Canals, Deserts & Seas",
+  "topic": "Environmental Concerns",
+  "format": "Mermaid",
+  "description": "A mindmap outlining major environmental concerns (marine pollution, desertification, habitat fragmentation, sea-level rise, salinity intrusion) and their corresponding management strategies and relevant international conventions.",
+  "keywords": [
+    "Marine Pollution",
+    "Desertification",
+    "Habitat Fragmentation",
+    "Sea-Level Rise",
+    "Salinity Intrusion",
+    "MARPOL",
+    "Great Green Wall",
+    "IUCN",
+    "Environmental Management"
+  ],
+  "mermaidCode": "mindmap\n  root((Environmental Challenges & Management))\n    Marine Pollution\n      Oil Spills (Strait of Hormuz)\n      Ballast Water (Malacca Strait)\n      Mitigation(MARPOL)\n    Desertification\n      Over-grazing\n      Unsustainable Irrigation\n      Climate Change\n      Programs(Great Green Wall, National Afforestation Programme)\n    Canal-Induced Habitat Fragmentation\n      Lessepsian Migration (Suez Canal)\n      Monitoring(IUCN Framework)\n    Sea-Level Rise\n      Thermal Expansion (Red Sea)\n      Coastal Management(Mangrove Restoration, Artificial Reefs)\n    Salinity Intrusion in Deserts\n      Groundwater Over-extraction (Indus River Basin)\n      Mitigation(Drip-irrigation, Reclaimed Water)"
+}

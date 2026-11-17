@@ -1,0 +1,18 @@
+{
+  "title": "Coriolis Effect on Moving Air",
+  "subject": "Geography",
+  "category": "Climate",
+  "chapter": "Atmospheric Pressure & Winds",
+  "topic": "Coriolis Force",
+  "format": "Mermaid",
+  "description": "A diagram explaining the Coriolis effect, showing how it deflects moving air to the right in the Northern Hemisphere and to the left in the Southern Hemisphere.",
+  "keywords": [
+    "coriolis effect",
+    "coriolis force",
+    "wind deflection",
+    "earth rotation",
+    "northern hemisphere",
+    "southern hemisphere"
+  ],
+  "mermaidCode": "graph TD\nA[Moving Air/Object] --> B{Coriolis Effect}\nB -- In Northern Hemisphere --> C[Deflected to the Right]\nB -- In Southern Hemisphere --> D[Deflected to the Left]"
+}

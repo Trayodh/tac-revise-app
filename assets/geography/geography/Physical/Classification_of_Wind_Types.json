@@ -1,0 +1,17 @@
+{
+  "title": "Classification of Wind Types",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Atmospheric Pressure & Winds",
+  "topic": "Wind Classification",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Wind Types] --> B[Planetary]\n    A --> C[Periodic]\n    A --> D[Local]\n    B --> B1[Trade Winds]\n    B --> B2[Westerlies]\n    B --> B3[Polar Easterlies]\n    C --> C1[Monsoons]\n    C --> C2[Sea‑Breeze]\n    C --> C3[Land‑Breeze]\n    D --> D1[Föhn]\n    D --> D2[Chinook]\n    D --> D3[Loo]",
+  "mapQuery": "",
+  "description": "Tree diagram showing the hierarchy of wind types: planetary, periodic, and local, with examples for each category.",
+  "keywords": [
+    "winds",
+    "trade winds",
+    "monsoons",
+    "local winds"
+  ]
+}

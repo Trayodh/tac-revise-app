@@ -1,0 +1,18 @@
+{
+  "title": "Atmospheric Layers Overview",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Atmospheric Structure",
+  "topic": "Atmosphere Layers",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Earth Surface] --> B[Troposphere]\n    B --> C[Stratosphere]\n    C --> D[Mesosphere]\n    D --> E[Thermosphere]\n    E --> F[Ionosphere]\n    F --> G[Exosphere]",
+  "mapQuery": "",
+  "description": "Vertical schematic of Earth's atmospheric layers from the surface up to the exosphere, showing the main layers where weather and climate processes occur.",
+  "keywords": [
+    "atmosphere",
+    "troposphere",
+    "stratosphere",
+    "exosphere",
+    "layers"
+  ]
+}

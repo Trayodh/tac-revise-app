@@ -1,0 +1,18 @@
+{
+  "title": "Air Mass Classification",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Air Masses & Fronts",
+  "topic": "Air Mass Types",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    AM[Air Masses]\n    AM --> T[Tropical (T)]\n    AM --> P[Polar (P)]\n    AM --> A[Arctic/Antarctic (A)]\n    T --> Tc[Continental (c)]\n    T --> Tm[Maritime (m)]\n    P --> Pc[Continental (c)]\n    P --> Pm[Maritime (m)]\n    A --> Ac[Continental (c)]\n    A --> Am[Maritime (m)]",
+  "mapQuery": "",
+  "description": "Tree diagram showing the source‑region classification (Tropical, Polar, Arctic/Antarctic) combined with moisture classification (Continental – dry, Maritime – moist).",
+  "keywords": [
+    "air masses",
+    "tropical",
+    "polar",
+    "continental",
+    "maritime"
+  ]
+}

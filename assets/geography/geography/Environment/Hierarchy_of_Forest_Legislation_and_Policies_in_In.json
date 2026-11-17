@@ -1,0 +1,20 @@
+{
+  "title": "Hierarchy of Forest Legislation and Policies in India",
+  "subject": "Geography",
+  "category": "Environment",
+  "chapter": "Legal and Policy Framework",
+  "topic": "Forest Legislation",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Forest Legislation & Policies] --> B[Indian Forest Act, 1927]\n    A --> C[Forest Conservation Act, 1980]\n    A --> D[Wildlife Protection Act, 1972]\n    A --> E[National Forest Policy, 1988]\n    A --> F[National Agro‑Forestry Policy, 2014]\n    A --> G[National Wetland Conservation Programme, 1985]\n    B --> H[Forest reservation & timber regulation]\n    C --> I[Restricts de‑reservation of forest land]\n    D --> J[Protected areas & wildlife trade regulation]\n    E --> K[Afforestation, community participation]\n    F --> L[Integration of trees on farms]\n    G --> M[Protection of ecologically critical wetlands]",
+  "mapQuery": "",
+  "description": "Flowchart illustrating the main forest-related statutes and policy documents, their year of enactment, and primary focus areas.",
+  "keywords": [
+    "forest act",
+    "conservation act",
+    "wildlife protection",
+    "national forest policy",
+    "agro‑forestry policy",
+    "wetland programme",
+    "India"
+  ]
+}

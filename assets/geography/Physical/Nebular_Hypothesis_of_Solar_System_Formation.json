@@ -1,0 +1,17 @@
+{
+  "title": "Nebular Hypothesis of Solar System Formation",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "The Solar System",
+  "topic": "Solar System Formation",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Molecular Cloud] --> B[Gravitational Collapse]\n    B --> C[Protoplanetary Disk]\n    C --> D[Planetesimals]\n    D --> E[Planetary Embryos]\n    E --> F[Planets]",
+  "mapQuery": "",
+  "description": "Step‑by‑step flowchart of the nebular hypothesis describing how the Sun and planets formed from a rotating cloud of gas and dust.",
+  "keywords": [
+    "nebular hypothesis",
+    "solar system formation",
+    "planetesimals",
+    "protoplanetary disk"
+  ]
+}

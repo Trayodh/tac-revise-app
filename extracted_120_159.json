@@ -1,0 +1,310 @@
+{
+  "current_affairs": [
+    {
+      "month_year": "April 2026",
+      "id": "operation-him-setu-2026",
+      "topic": "Humanitarian Aid / Disaster Relief Operation",
+      "text": "Operation Him Setu was launched by the Indian Army in Sikkim due to a major landslide and heavy snowfall.",
+      "details": {
+        "branch": "Indian Army",
+        "location": "Sikkim (Lachen-Chungthang route)",
+        "reason": "Major landslide and heavy snowfall",
+        "lead_unit": "Trishakti Corps (Eastern Command)",
+        "objective": "Evacuating stranded tourists, clearing blocked roads, removing snow, and restoring connectivity.",
+        "other_involved": "Border Roads Organisation (BRO)"
+      }
+    },
+    {
+      "month_year": "2026",
+      "id": "operation-777-2026",
+      "topic": "Defence Manufacturing Initiative",
+      "text": "Operation 777 is a strategic initiative launched in connection with the Kaal Bhairava autonomous combat aircraft programme.",
+      "details": {
+        "program": "Kaal Bhairava autonomous combat aircraft",
+        "developer": "Flying Wedge Defence & Aerospace (FWDA)",
+        "objective": "Creating manufacturing and integration partnerships across 7 continents and 77 countries, strengthening India's global defence manufacturing presence.",
+        "edition": "2026"
+      }
+    }
+  ],
+  "equipment": [
+    {
+      "name": "Rustom-2 (TAPAS-BH-201)",
+      "branch": "Air Force",
+      "origin": "India",
+      "type": "UAV (Long-Endurance ISR / Combat)"
+    },
+    {
+      "name": "Panchi",
+      "branch": "Air Force",
+      "origin": "India",
+      "type": "UAV (Tactical ISR)"
+    },
+    {
+      "name": "Nishant",
+      "branch": "Air Force",
+      "origin": "India",
+      "type": "UAV (Reconnaissance / Intelligence)"
+    },
+    {
+      "name": "Lakshya-2",
+      "branch": "Air Force",
+      "origin": "India",
+      "type": "UAV (Target Simulation)"
+    },
+    {
+      "name": "Netra (UAV-NETRA)",
+      "branch": "Army/Air Force",
+      "origin": "India",
+      "type": "Mini Surveillance Drone"
+    },
+    {
+      "name": "Daksh",
+      "branch": "Army/Navy/Air Force",
+      "origin": "India",
+      "type": "Explosive Ordnance Disposal (EOD) Robot"
+    },
+    {
+      "name": "Daksh Mini",
+      "branch": "Army/Navy/Air Force",
+      "origin": "India",
+      "type": "Micro-ROV"
+    },
+    {
+      "name": "UXOR",
+      "branch": "Army/Navy/Air Force",
+      "origin": "India",
+      "type": "UXO Detection / Bomb Disposal Robot"
+    },
+    {
+      "name": "Netra AEW&C (Embraer-based 'NETRA')",
+      "branch": "Air Force",
+      "origin": "India/Brazil",
+      "type": "Airborne Early Warning & Control (AEW&C) Aircraft"
+    },
+    {
+      "name": "Dassault Rafale",
+      "branch": "Air Force",
+      "origin": "France",
+      "type": "Multirole Fighter Aircraft",
+      "quantity": 36
+    },
+    {
+      "name": "HAL Tejas",
+      "branch": "Air Force",
+      "origin": "India",
+      "type": "Multirole Combat Aircraft"
+    },
+    {
+      "name": "Sukhoi Su-30 MKI",
+      "branch": "Air Force",
+      "origin": "Russia/India",
+      "type": "Multirole Fighter Aircraft"
+    },
+    {
+      "name": "Mirage 2000",
+      "branch": "Air Force",
+      "origin": "France",
+      "type": "Multirole Fighter Jet"
+    },
+    {
+      "name": "SEPECAT Jaguar",
+      "branch": "Air Force",
+      "origin": "UK/France",
+      "type": "Attack Aircraft"
+    },
+    {
+      "name": "Boeing 737",
+      "branch": "Air Force",
+      "origin": "United States",
+      "type": "Transport Aircraft"
+    },
+    {
+      "name": "Ilyushin Il-76",
+      "branch": "Air Force",
+      "origin": "Soviet Union",
+      "type": "Transport Aircraft"
+    },
+    {
+      "name": "Antonov An-32",
+      "branch": "Air Force",
+      "origin": "Ukraine",
+      "type": "Transport Aircraft"
+    },
+    {
+      "name": "Dornier Do 228",
+      "branch": "Air Force",
+      "origin": "Germany",
+      "type": "Transport Aircraft"
+    },
+    {
+      "name": "Lockheed Martin C-130J Super Hercules",
+      "branch": "Air Force",
+      "origin": "USA",
+      "type": "Transport Aircraft"
+    },
+    {
+      "name": "Boeing C-17 Globemaster III",
+      "branch": "Air Force",
+      "origin": "USA",
+      "type": "Transport Aircraft"
+    },
+    {
+      "name": "HAL Dhruv",
+      "branch": "Air Force",
+      "origin": "India",
+      "type": "Utility Helicopter"
+    },
+    {
+      "name": "HAL Rudra",
+      "branch": "Air Force",
+      "origin": "India",
+      "type": "Attack Helicopter"
+    },
+    {
+      "name": "Mil Mi-17",
+      "branch": "Air Force",
+      "origin": "Russia",
+      "type": "Utility Helicopter"
+    },
+    {
+      "name": "Mil Mi-24",
+      "branch": "Air Force",
+      "origin": "Russia",
+      "type": "Attack Helicopter"
+    },
+    {
+      "name": "Boeing AH-64 Apache",
+      "branch": "Air Force",
+      "origin": "USA",
+      "type": "Attack Helicopter"
+    },
+    {
+      "name": "HAL Prachand",
+      "branch": "Air Force",
+      "origin": "India",
+      "type": "Attack Helicopter"
+    },
+    {
+      "name": "Bombardier Global 5000",
+      "branch": "Air Force",
+      "origin": "United States",
+      "type": "Reconnaissance Aircraft"
+    },
+    {
+      "name": "Gulfstream G100",
+      "branch": "Air Force",
+      "origin": "Israel",
+      "type": "Reconnaissance Aircraft"
+    },
+    {
+      "name": "Gulfstream III",
+      "branch": "Air Force",
+      "origin": "United States",
+      "type": "Reconnaissance Aircraft"
+    },
+    {
+      "name": "Boeing 707",
+      "branch": "Air Force",
+      "origin": "United States",
+      "type": "Reconnaissance Aircraft"
+    },
+    {
+      "name": "HAL HJT-16 Kiran",
+      "branch": "Air Force",
+      "origin": "India",
+      "type": "Trainer Aircraft"
+    },
+    {
+      "name": "HAL HTT-40",
+      "branch": "Air Force",
+      "origin": "India",
+      "type": "Trainer Aircraft"
+    },
+    {
+      "name": "Pilatus PC-7",
+      "branch": "Air Force",
+      "origin": "Switzerland",
+      "type": "Trainer Aircraft"
+    },
+    {
+      "name": "BAE Hawk",
+      "branch": "Air Force",
+      "origin": "UK",
+      "type": "Trainer Aircraft"
+    }
+  ],
+  "military_exercises": [],
+  "notes": [
+    {
+      "category": "Military Training Institutions",
+      "title": "Indian Army Training Institutions",
+      "content": "<h2>High Altitude Warfare School</h2><p><strong>Location:</strong> Gulmarg, Jammu & Kashmir</p><h2>EME School</h2><p><strong>Location:</strong> Vadodara, Gujarat</p><h2>Army War College / College of Combat</h2><p><strong>Location:</strong> Mhow, Madhya Pradesh</p>"
+    },
+    {
+      "category": "Military Training Institutions",
+      "title": "Indian Air Force Training Institutions",
+      "content": "<h2>Flying Instructors School (FIS)</h2><p><strong>Location:</strong> Tambaram, Tamil Nadu</p><h2>Transport Training Wing (TTW)</h2><p><strong>Location:</strong> Yelahanka, Karnataka</p><h2>Paratroopers Training School (PTS)</h2><p><strong>Location:</strong> Agra, Uttar Pradesh</p><h2>Navigation Training School</h2><p><strong>Location:</strong> Hyderabad, Telangana</p><h2>College of Air Warfare (CAW)</h2><p><strong>Location:</strong> Secunderabad, Telangana</p><h2>Air Force Technical College</h2><p><strong>Location:</strong> Bengaluru, Karnataka</p><h2>Institute of Aerospace Medicine (IAM)</h2><p><strong>Location:</strong> Bengaluru, Karnataka</p><h2>Air Force Administrative College (AFAC)</h2><p><strong>Location:</strong> Coimbatore, Tamil Nadu</p>"
+    },
+    {
+      "category": "Military Training Institutions",
+      "title": "Indian National Defence University",
+      "content": "<p><strong>Status:</strong> Proposed</p><p><strong>Location:</strong> Gurgaon, Haryana</p>"
+    },
+    {
+      "category": "Indian Air Force History and Facts",
+      "title": "Indian Air Force Overview",
+      "content": "<h2>Establishment</h2><ul><li><strong>Date:</strong> October 8, 1932</li><li>Became Royal Indian Air Force in 1947; 'Royal' dropped in 1950.</li></ul><h2>Motto</h2><p>\"Touch the Sky with Glory\" (from the 11th chapter of the Gita).</p><h2>IAF Day</h2><p>October 8</p><h2>Early Aircraft</h2><p>First Squadron operated Westland Wapiti biplanes with 5 pilots.</p><h2>Core Values</h2><p>Vision: People First. Mission: Always. Core values include mission, integrity, and excellence.</p><h2>Chief of Air Staff</h2><p>Air Chief Marshal Amar Preet Singh (as per the provided image, note: this information might be outdated in real-world context but is extracted as presented).</p><h2>Father of Indian Air Force</h2><p>Subroto Mukherjee</p>"
+    },
+    {
+      "category": "Indian Air Force Symbols",
+      "title": "New Indian Air Force Ensign",
+      "content": "<p>The IAF Crest features the Ashoka lion at the top with \"\u0938\u0924\u094d\u092f\u092e\u0947\u0935 \u091c\u092f\u0924\u0947\" (Satyameva Jayate) in Devanagari below. Below is a Himalayan eagle representing the IAF's fighting spirit, encircled by a light blue ring that contains \"\u092d\u093e\u0930\u0924\u0940\u092f \u0935\u093e\u092f\u0941 \u0938\u0947\u0928\u093e\" (Bharatiya Vayu Sena). The IAF motto \"\u0928\u092d\u0903 \u0938\u094d\u092a\u0943\u0936\u0902 \u0926\u0940\u092a\u094d\u0924\u092e\u094d\" (Nabhah Sprusham Deeptam) is inscribed in golden Devanagari beneath the eagle.</p>"
+    },
+    {
+      "category": "Indian Air Force Commands",
+      "title": "IAF Operational Commands",
+      "content": "<ul><li><strong>Western Air Command:</strong> New Delhi</li><li><strong>Central Air Command:</strong> Prayagraj</li><li><strong>Eastern Air Command:</strong> Shillong</li><li><strong>South Western Air Command:</strong> Gandhi Nagar</li><li><strong>Training Command:</strong> Bengaluru</li><li><strong>Southern Command:</strong> Thiruvananthapuram</li><li><strong>Maintenance Command:</strong> Nagpur</li></ul>"
+    },
+    {
+      "category": "Indian Air Force Aerobatic Teams",
+      "title": "IAF Display Teams",
+      "content": "<h2>Surya Kiran Team</h2><ul><li><strong>Formation:</strong> SKAT-1996</li><li><strong>Pilots:</strong> 13</li><li><strong>Base:</strong> Bidar AFS</li></ul><h2>Sarang Team</h2><ul><li><strong>Type:</strong> Helicopter display team</li><li><strong>Formation:</strong> 2003</li><li><strong>First Public Performance:</strong> Singapore</li><li><strong>Aircraft:</strong> 5 Dhruv helicopters</li></ul>"
+    },
+    {
+      "category": "Defence Exhibitions",
+      "title": "Aero India",
+      "content": "<ul><li><strong>Frequency:</strong> Biennial show (held in odd years)</li><li><strong>Location:</strong> Yelahanka Air Force Station</li><li><strong>Organizer:</strong> Defence Exhibition Organisation (Ministry of Defence)</li><li><strong>Upcoming Edition:</strong> 15th edition in 2025</li><li><strong>Significance:</strong> Provides a runway to a billion opportunities.</li></ul>"
+    },
+    {
+      "category": "Indian Navy History and Facts",
+      "title": "Indian Navy Overview",
+      "content": "<h2>Establishment</h2><ul><li><strong>Date:</strong> 1612 (as East India Company's Navy)</li><li><strong>Modernized:</strong> 1950</li></ul><h2>Headquarters</h2><p>New Delhi</p><h2>Motto</h2><p>\"May the Lord of Ocean be auspicious unto us\" (Taken from Taittiriya Upanishad).</p><h2>Navy Day</h2><p>December 4th</p>"
+    },
+    {
+      "category": "Indian Navy Commands",
+      "title": "Indian Navy Operational Commands",
+      "content": "<ul><li><strong>Western Naval Command:</strong> Mumbai</li><li><strong>Southern Naval Command:</strong> Kochi</li><li><strong>Eastern Naval Command:</strong> Vishakhapatanam</li></ul>"
+    },
+    {
+      "category": "Indian Navy Training Establishments",
+      "title": "Indian Navy Training Institutions",
+      "content": "<h2>Naval War College (INS Mandovi)</h2><p><strong>Location:</strong> Goa</p><h2>Institute of Naval Medicine</h2><p><strong>Location:</strong> Colaba, Mumbai</p><h2>Indian Naval Academy</h2><p><strong>Associated Units:</strong> INS Zamorin, INS Navjivani</p>"
+    },
+    {
+      "category": "Indian Navy Personalities",
+      "title": "Important Personalities of Indian Navy",
+      "content": "<ul><li><strong>Admiral Charles Thomas Pizey (1948-1951):</strong> First Chief of Naval Staff. British officer and the first Commander-in-Chief (Navy) after Independence; oversaw transition to Indian command.</li><li><strong>Vice Admiral R. D. Katari (1958-1962):</strong> First Indian Chief of Naval Staff. First Indian to head the Navy; initiated indigenization and naval modernization.</li><li><strong>Admiral A. K. Chatterji (1966-1970):</strong> First Naval Chief to hold the full Admiral rank; expanded fleet and emphasized self-reliance.</li><li><strong>Vice Admiral B. S. Soman (1962-1966):</strong> Naval Chief during 1962 & 1965 Wars. Led Navy during Sino-Indian and Indo-Pak wars; strengthened maritime readiness.</li><li><strong>Admiral S. M. Nanda (1970-1973):</strong> Naval Chief during 1971 War. Known as the 'Father of the Modern Indian Navy'; led India to naval victory in the 1971 war.</li></ul>"
+    },
+    {
+      "category": "Indian Paramilitary/Auxiliary Forces and Mottos",
+      "title": "Forces and Their Mottos",
+      "content": "<ul><li><strong>Assam Rifles (Established: 1835):</strong> \"Friends of the Hill People\"</li><li><strong>Home Guard (Established: 1946):</strong> \"Nishkam Seva\" (Selfless Service)</li><li><strong>Indo-Tibetan Border Police (ITBP) (Established: October 24, 1962):</strong> \"Valour, Steadfastness, Commitment\"</li><li><strong>National Cadet Corps (NCC) (Established: July 15, 1948):</strong> \"Unity and Discipline\"</li><li><strong>Central Industrial Security Force (CISF) (Established: March 10, 1969):</strong> \"Protection and Security\"</li><li><strong>Military Nursing Service (MNS) (Established: October 1, 1926):</strong> \"Service with a Smile\"</li><li><strong>National Disaster Response Force (NDRF) (Established: 2006):</strong> \"Saving Lives and Beyond\" (Under Ministry of Home Affairs - MHA)</li><li><strong>Indian Coast Guard (Established: February 1, 1977):</strong> \"We Protect\"</li><li><strong>Border Security Force (BSF) (Established: December 1, 1965):</strong> \"Jeevan Paryant Kartavya\" (Duty Unto Death)</li><li><strong>Central Reserve Police Force (CRPF) (Established: July 27, 1939):</strong> \"Service and Loyalty\"</li><li><strong>Territorial Army (Established: September 11, 1949):</strong> \"Savdhani Va Shoorta\" (Vigilance and Valour)</li><li><strong>National Security Guard (NSG) (Established: October 16, 1984):</strong> \"Sarvatra Sarvottam Suraksha\" (Omnipresent, Omnipotent Security)</li></ul>"
+    },
+    {
+      "category": "Indian Military Operations",
+      "title": "Important Indian Military Operations",
+      "content": "<h2>Operation Amistad</h2><ul><li><strong>Type:</strong> Humanitarian mission</li><li><strong>Objective:</strong> Aid Venezuela after an earthquake.</li><li><strong>Details:</strong> Included relief supplies, medical equipment, portable hospitals, and rescue teams under a HADR (Humanitarian Assistance and Disaster Relief) framework.</li><li><strong>Aircraft Used:</strong> Indian Air Force C-17 Globemaster.</li></ul><h2>Operation Urja Suraksha</h2><ul><li><strong>Branch:</strong> Indian Navy</li><li><strong>Objective:</strong> Protect India's energy supply routes in the strategically important Strait of Hormuz amid rising geopolitical tensions in West Asia.</li><li><strong>Keywords:</strong> Navy, Safe transit.</li></ul><h2>Operation Polo</h2><ul><li><strong>Location:</strong> Hyderabad</li><li><strong>Year:</strong> 1948</li><li><strong>Context:</strong> Integration of princely states (Dhar Commission, JVK Committee, Fazl Ali Commission).</li></ul><h2>Operation Sankat Mochan</h2><ul><li><strong>Year:</strong> 2016</li><li><strong>Location:</strong> South Sudan</li></ul><h2>Operation Vijay (Goa Liberation)</h2><ul><li><strong>Context:</strong> Liberation of Goa</li></ul><h2>Operation Black Tornado</h2><ul><li><strong>Year:</strong> 2008</li><li><strong>Context:</strong> Mumbai attacks (26/11)</li></ul><h2>Operation Cactus</h2><ul><li><strong>Year:</strong> 1988</li><li><strong>Location:</strong> Maldives</li></ul><h2>Operation Vijay (Kargil War)</h2><ul><li><strong>Year:</strong> 1999</li><li><strong>Context:</strong> Kargil War</li></ul><h2>Operation Meghdoot</h2><ul><li><strong>Year:</strong> 1984</li><li><strong>Location:</strong> Siachen</li></ul><h2>Operation Smiling Buddha</h2><ul><li><strong>Year:</strong> 1974 (implied, first nuclear test)</li></ul><h2>Operation Balakot Strike</h2><ul><li><strong>Context:</strong> Balakot Airstrike</li></ul><h2>Operation Trident</h2><ul><li><strong>Year:</strong> 1971</li><li><strong>Branch:</strong> Indian Navy</li></ul><h2>Operation Cactus Lily</h2><ul><li><strong>Year:</strong> 1971</li><li><strong>Branch:</strong> Indian Army</li><li><strong>Context:</strong> Bangladesh Liberation War</li></ul><h2>Operation Sindhu</h2><ul><li><strong>Location:</strong> Iran & Israel</li></ul><h2>Operation Brahma</h2><ul><li><strong>Location:</strong> Myanmar</li></ul><h2>Operation Kaveri</h2><ul><li><strong>Location:</strong> Sudan</li></ul><h2>Operation Ajay</h2><ul><li><strong>Location:</strong> Israel</li></ul><h2>Operation Indravati</h2><ul><li><strong>Location:</strong> Haiti</li></ul>"
+    }
+  ]
+}

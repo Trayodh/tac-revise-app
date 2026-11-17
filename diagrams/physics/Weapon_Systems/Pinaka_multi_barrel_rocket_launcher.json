@@ -1,0 +1,22 @@
+{
+  "title": "Pinaka multi-barrel rocket launcher",
+  "subject": "Physics",
+  "chapter": "Weapon Systems",
+  "topic": "Pinaka",
+  "difficulty": "Medium",
+  "rendering_engine": "AI_Image",
+  "exams": [
+    "NDA",
+    "CDS",
+    "AFCAT"
+  ],
+  "keywords": [
+    "Pinaka",
+    "rocket launcher",
+    "defence",
+    "India"
+  ],
+  "caption": "Pinaka multi-barrel rocket launcher with clearly labelled components.",
+  "altText": "A photorealistic textbook illustration on a white background depicting the Indian Pinaka rocket launcher. The main view shows the tracked vehicle with twelve launch tubes and rockets ready to fire. An exploded inset separates the chassis, hydraulic support, launch tubes, rockets, fire‑control console, power generator, radar dish, ammunition crane, and crew cabin, each marked with black arrows and text labels. A scale bar indicates the size of the system.",
+  "source": "Automated Pipeline"
+}

@@ -1,0 +1,44 @@
+{
+    "id": "sikh-history",
+    "title": "Sikh History",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "4. Medieval India",
+    "chapterId": "medieval-india-tree",
+    "blocks": [
+        {
+            "heading": "\u262c Sikh History & Gurus",
+            "intro": "Sikhism evolved from a peaceful Bhakti movement to a highly militarized community in response to Mughal persecutions.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. The Ten Gurus",
+            "intro": "",
+            "bullets": [
+                "Guru Nanak Dev (1st): Founded Sikhism. Started **Langar** (free community kitchen) to break caste barriers.",
+                "Guru Angad (2nd): Standardized the **Gurmukhi script**.",
+                "Guru Ram Das (4th): Founded Amritsar on land gifted by Akbar.",
+                "Guru Arjan Dev (5th): Compiled the **Adi Granth**. Built the Golden Temple (Harmandir Sahib). Executed by **Jahangir**.",
+                "Guru Hargobind (6th): Built the **Akal Takht**. Militarized Sikhs, introduced *Miri* (temporal power) and *Piri* (spiritual power).",
+                "Guru Tegh Bahadur (9th): Executed by **Aurangzeb** at Delhi's Chandni Chowk for refusing to convert.",
+                "Guru Gobind Singh (10th): Founded the **Khalsa Panth** in 1699 at Anandpur Sahib. Introduced the 5 Ks. Declared **Guru Granth Sahib** as the permanent Guru."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Maharaja Ranjit Singh & British Wars",
+            "intro": "",
+            "bullets": [
+                "Consolidated Punjab into a powerful empire. Signed the **Treaty of Amritsar (1809)** with Metcalfe/Minto, fixing Sutlej river as boundary.",
+                "**Anglo-Sikh Wars:** 1st War (1845-46): Ended with the **Treaty of Lahore** (Henry Hardinge GG).",
+                "2nd War (1848-49): Under **Lord Dalhousie**. Punjab was annexed to the British Empire (1849)."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Khalsa: 1699 (Gobind Singh) | Treaty of Amritsar: 1809 | Annexation of Punjab: 1849"
+    ],
+    "hasNotes": true
+}

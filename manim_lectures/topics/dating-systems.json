@@ -1,0 +1,66 @@
+{
+    "id": "dating-systems",
+    "title": "Dating Systems",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "1. Historiography & Historical Foundations",
+    "chapterId": "historiography",
+    "blocks": [
+        {
+            "heading": "\ud83d\udcc5 Dating Systems and Eras",
+            "intro": "Different calendars and dating conventions have been used throughout Indian history to record time.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. General Terminology",
+            "intro": "",
+            "bullets": [
+                "BC (Before Christ) / BCE (Before Common Era): Counted backward. Year 500 BCE is older than 300 BCE.",
+                "AD (Anno Domini) / CE (Common Era): Counted forward from the birth of Christ."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Key Historical Eras of India",
+            "intro": "",
+            "bullets": [],
+            "tableRows": [
+                [
+                    "Era Name",
+                    "Start Date",
+                    "Founder / Context",
+                    "Significance"
+                ],
+                [
+                    "Vikrama Era",
+                    "57 BCE",
+                    "King Vikramaditya of Ujjain",
+                    "Commemorated victory over Saka invaders."
+                ],
+                [
+                    "Saka Era",
+                    "78 CE",
+                    "Kushana King Kanishka",
+                    "Adopted as the **National Calendar of India** in 1957. Starts on "
+                ],
+                [
+                    "Gupta Era",
+                    "319 - 320 CE",
+                    "Chandragupta I",
+                    "Marks his accession to the throne and rise of Gupta power."
+                ],
+                [
+                    "Harsha Era",
+                    "606 CE",
+                    "Harshavardhana of Kanauj",
+                    "Commemorated his coronation."
+                ]
+            ]
+        }
+    ],
+    "formulas": [
+        "Vikrama Era: 57 BCE | Saka Era: 78 CE (National Calendar) | Gupta Era: 319 CE"
+    ],
+    "hasNotes": true
+}

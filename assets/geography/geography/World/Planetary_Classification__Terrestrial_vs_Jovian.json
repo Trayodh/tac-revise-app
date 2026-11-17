@@ -1,0 +1,16 @@
+{
+  "title": "Planetary Classification: Terrestrial vs Jovian",
+  "subject": "Geography",
+  "category": "World",
+  "chapter": "The Universe & Solar System",
+  "topic": "Planet Classification",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Planets] --> B[Terrestrial (Inner)]\n    A --> C[Jovian (Outer)]",
+  "mapQuery": "",
+  "description": "Classification tree separating planets into terrestrial (rocky) and Jovian (gas/ice giants) groups.",
+  "keywords": [
+    "terrestrial planets",
+    "jovian planets",
+    "planet classification"
+  ]
+}

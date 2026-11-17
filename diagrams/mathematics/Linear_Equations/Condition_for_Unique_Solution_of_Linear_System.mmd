@@ -1,0 +1,17 @@
+graph TD
+    S[Start] --> I[Input parameter k]
+    I --> C[Compute determinant D = 727 - k^2]
+    C --> D{Is k = 7?}
+    D -- Yes --> N[No unique solution]
+    N --> I1[Infinitely many solutions if the system is consistent]
+    N --> I2[No solution if the system is inconsistent]
+    I1 --> E[End]
+    I2 --> E
+    D -- No --> U[Unique solution exists]
+    U --> E
+    classDef startEnd fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef decision fill:#ff9,stroke:#333,stroke-width:2px;
+    classDef process fill:#bbf,stroke:#333,stroke-width:2px;
+    class S,E startEnd;
+    class D decision;
+    class I,C,N,U,I1,I2 process;

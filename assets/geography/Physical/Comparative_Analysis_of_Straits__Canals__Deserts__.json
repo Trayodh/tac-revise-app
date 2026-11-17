@@ -1,0 +1,19 @@
+{
+  "title": "Comparative Analysis of Straits, Canals, Deserts & Seas",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Straits, Canals, Deserts & Seas",
+  "topic": "Comparative Geography",
+  "format": "Mermaid",
+  "description": "A comparative diagram highlighting the key differences between straits, canals, deserts, and seas in terms of their natural/artificial origin, primary function, geopolitical role, and major environmental issues.",
+  "keywords": [
+    "Strait",
+    "Canal",
+    "Desert",
+    "Sea",
+    "Comparison",
+    "Geopolitical Role",
+    "Environmental Issues"
+  ],
+  "mermaidCode": "graph TD\n    A[Geographical Features Comparison] --> B{Feature Type}\n    B --> C[Strait]\n    B --> D[Canal]\n    B --> E[Desert]\n    B --> F[Sea]\n\n    C -- Natural --> C1(Primary Function: Navigation)\n    C -- Chokepoint --> C2(Geopolitical Role: Naval Power)\n    C -- Pollution --> C3(Environmental Issue: Piracy)\n\n    D -- Artificial --> D1(Primary Function: Short-circuiting routes)\n    D -- Economic Leverage --> D2(Geopolitical Role: Diplomatic Control)\n    D -- Habitat Invasion --> D3(Environmental Issue: Sedimentation)\n\n    E -- Natural --> E1(Primary Function: Mineral Extraction)\n    E -- Border Security --> E2(Geopolitical Role: Resource Rivalry)\n    E -- Desertification --> E3(Environmental Issue: Water Scarcity)\n\n    F -- Natural --> F1(Primary Function: Marine Ecosystems)\n    F -- EEZ Claims --> F2(Geopolitical Role: Maritime Disputes)\n    F -- Overfishing --> F3(Environmental Issue: Acidification)"
+}

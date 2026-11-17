@@ -1,0 +1,14 @@
+graph TD
+    Start[Start] --> Decision{Select candidate}
+    Decision --> A[Candidate (a): R → P → Q → S]
+    Decision --> B[Candidate (b): R → P → S → Q]
+    Decision --> C[Candidate (c): R → S → P → Q]
+    Decision --> D[Candidate (d): R → Q → P → S]
+    A --> IncorrectA[Incorrect]
+    B --> IncorrectB[Incorrect]
+    C --> IncorrectC[Incorrect]
+    D --> CorrectD[Correct]
+    class IncorrectA,IncorrectB,IncorrectC incorrect;
+    class CorrectD correct;
+    classDef correct fill:#b3ffb3,stroke:#333,stroke-width:2px;
+    classDef incorrect fill:#ffb3b3,stroke:#333,stroke-width:2px;

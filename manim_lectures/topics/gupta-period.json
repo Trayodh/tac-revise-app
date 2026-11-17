@@ -1,0 +1,42 @@
+{
+    "id": "gupta-period",
+    "title": "Gupta Period",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "3. Ancient India",
+    "chapterId": "ancient-india-tree",
+    "blocks": [
+        {
+            "heading": "\ud83d\udc51 The Gupta Empire (Golden Age: 320 - 550 CE)",
+            "intro": "An era of political unification, economic prosperity, and unmatched achievements in science, literature, and art.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. Key Rulers & Expansion",
+            "intro": "",
+            "bullets": [
+                "Chandragupta I (319 - 335 CE): First imperial ruler. Started the Gupta Era (319 CE). Married Licchavi princess Kumaradevi.",
+                "Samudragupta (335 - 380 CE): Called **\"Napoleon of India\"** by V.A. Smith due to his military campaigns. Military conquests recorded in the **Allahabad Pillar Inscription (Prayag Prasasti)** composed by his court poet **Harishena**. Performed Ashvamedha sacrifice. Issued gold coins depicting him playing the Veena.",
+                "Chandragupta II (Vikramaditya: 380 - 415 CE): Defeated Sakas, annexed Western India. Court adorned by **Navaratnas** (Nine Gems, including **Kalidasa** and **Varahamihira**). Chinese pilgrim **Fa-Hien** visited India during his reign.",
+                "Kumargupta: Founded the famous **Nalanda University**.",
+                "Skandagupta: Successfully repelled the invading **Hunas** (White Huns)."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Science, Literature & Golden Age Debate",
+            "intro": "",
+            "bullets": [
+                "Literature: Kalidasa (plays: *Abhijnanasakuntalam*, *Malavikagnimitram*; poems: *Meghaduta*, *Raghuvamsa*). Shudraka (*Mrichchakatikam*). Vishakhadatta (*Devichandraguptam*, *Mudrarakshasa*).",
+                "Science & Math: **Aryabhata** (wrote *Aryabhatiya*, calculated value of Pi, explained eclipses, proved Earth rotates on axis). **Varahamihira** (wrote *Brihat Samhita*, *Panchasiddhantika*). **Dhanvantari** (medicine).",
+                "The \"Golden Age\" Debate: While literature and science peaked, some historians argue that feudalism increased, foreign trade declined, and untouchability grew, questioning the \"Golden\" tag for the masses."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Napoleon of India: Samudragupta | Allahabad Prasasti: Harishena | Fa-Hien: Chandragupta II"
+    ],
+    "hasNotes": true
+}

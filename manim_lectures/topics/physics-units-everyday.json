@@ -1,0 +1,15 @@
+{
+    "id": "physics-units-everyday",
+    "title": "SI Units & Everyday Physics",
+    "subject": "Physics (NDA/CDS)",
+    "subjectId": "physics",
+    "chapter": "Modern Physics & Units",
+    "chapterId": "physics-modern",
+    "blocks": [],
+    "formulas": [
+        "Base Units: m, kg, s, A, K, mol, cd",
+        "Derived: Newton (Force), Joule (Energy), Watt (Power), Pascal (Pressure)",
+        "Everyday: Raindrops (surface tension), Mirages (TIR), Sky blue (Rayleigh scattering)"
+    ],
+    "hasNotes": false
+}

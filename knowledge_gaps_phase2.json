@@ -1,0 +1,1332 @@
+{
+  "geography": {
+    "Physical & World Geography": {
+      "The Universe & Solar System": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'The Universe & Solar System' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Earth Structure & Atmosphere": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Earth Structure & Atmosphere' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Climatology: Climatic Zones & Clouds": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Climatology: Climatic Zones & Clouds' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Geomorphology: Rocks, Plate Tectonics & Volcanism": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Geomorphology: Rocks, Plate Tectonics & Volcanism' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "World Geography: Mountains, Forests & Rivers": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'World Geography: Mountains, Forests & Rivers' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Straits, Canals, Deserts & Seas": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Straits, Canals, Deserts & Seas' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    "Indian Geography": {
+      "Indian Geography (Rivers, Passes & Soils)": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Indian Geography (Rivers, Passes & Soils)' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Forests, Trees & Wetlands of India": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Forests, Trees & Wetlands of India' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Mineral Resources & Types of Farming": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Mineral Resources & Types of Farming' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Transport Routes: Highways & Waterways": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Transport Routes: Highways & Waterways' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "National Parks of India (Map Guide)": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'National Parks of India (Map Guide)' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Borders, Capitals & Mapping": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Borders, Capitals & Mapping' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    "Industries & Geopolitics": {
+      "Major Industries & Industrial Corridors of India": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Major Industries & Industrial Corridors of India' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Geopolitical Flashpoints & Indo-Pacific": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Geopolitical Flashpoints & Indo-Pacific' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    }
+  },
+  "biology": {
+    "Cell Biology & Genetics": {
+      "Cell Structure & Cell Division": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Cell Structure & Cell Division' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    "Human Physiology": {
+      "Vital Human Systems & Organs": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Vital Human Systems & Organs' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    "Health, Diseases & Nutrition": {
+      "Human Diseases & Pathogens": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Human Diseases & Pathogens' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Immunity & Vaccines": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Immunity & Vaccines' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    "Plant & Animal Kingdoms": {
+      "Plant Kingdom Classification": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Plant Kingdom Classification' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Animal Kingdom Classification": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Animal Kingdom Classification' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    "Plant Physiology & Reproduction": {
+      "Plant Reproduction & Hormones": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Plant Reproduction & Hormones' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    "Ecology & Ecosystems": {
+      "Ecology Basics & Pyramids": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Ecology Basics & Pyramids' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    }
+  },
+  "physics": {
+    "Optics & Light": {
+      "Reflection, Refraction & Lenses": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Reflection, Refraction & Lenses' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    "Mechanics & Motion": {
+      "Newton's Laws of Motion": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Newton's Laws of Motion' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    "Energy & Gravitation": {
+      "Work, Power, Energy & Gravitation": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Work, Power, Energy & Gravitation' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    "Waves & Acoustics": {
+      "Sound Waves & Acoustics": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Sound Waves & Acoustics' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Electromagnetic Waves & Spectrum": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Electromagnetic Waves & Spectrum' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    "Heat & Thermodynamics": {
+      "Thermodynamics & Heat Transfer": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Thermodynamics & Heat Transfer' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    "Electricity & Magnetism": {
+      "Electricity, Circuits & Magnetism": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Electricity, Circuits & Magnetism' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    "Modern Physics & Units": {
+      "Nuclear Physics & Radioactivity": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Nuclear Physics & Radioactivity' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "SI Units & Everyday Physics": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'SI Units & Everyday Physics' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    }
+  },
+  "chemistry": {
+    "Acids, Bases & Salts": {
+      "Acids, Bases & pH Indicators": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Acids, Bases & pH Indicators' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    "Chemical Bonding": {
+      "Chemical Bonding & Periodic Table": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Chemical Bonding & Periodic Table' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    "Metals & Metallurgy": {
+      "Metals, Ores, Alloys & Metallurgy": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Metals, Ores, Alloys & Metallurgy' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Reactivity Series & Displacement": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Reactivity Series & Displacement' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    "Carbon Compounds & Numericals": {
+      "Carbon & its Compounds": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Carbon & its Compounds' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Mole Concept & Concentration Terms": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Mole Concept & Concentration Terms' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    "Everyday & Environmental Chemistry": {
+      "Everyday Chemistry, Fertilisers & Fuels": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Everyday Chemistry, Fertilisers & Fuels' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Environmental Chemistry & Pollution": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Environmental Chemistry & Pollution' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    }
+  },
+  "polity": {
+    "Constitutional Framework": {
+      "Preamble & Sources": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Preamble & Sources' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Schedules of the Constitution": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Schedules of the Constitution' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Fundamental Rights (Art 12-35)": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Fundamental Rights (Art 12-35)' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "DPSP & Fundamental Duties (Art 36-51A)": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'DPSP & Fundamental Duties (Art 36-51A)' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Citizenship (Art 5-11)": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Citizenship (Art 5-11)' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    "Union Government": {
+      "The President of India (Art 52-62)": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'The President of India (Art 52-62)' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Parliament of India (Art 79-122)": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Parliament of India (Art 79-122)' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Executives: PM, CM & Governor": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Executives: PM, CM & Governor' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Integrated Judiciary: SC & HC": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Integrated Judiciary: SC & HC' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Local Self-Govt & Panchayati Raj": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Local Self-Govt & Panchayati Raj' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    "Advanced Polity Structures & Bodies": {
+      "Constitutional Amendments, Parts & Schedules": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Constitutional Amendments, Parts & Schedules' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "High-Yield Special Articles Cheat Sheet": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'High-Yield Special Articles Cheat Sheet' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Elections, Appointments & Terms of Office": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Elections, Appointments & Terms of Office' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Constitutional & Non-Constitutional Bodies": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Constitutional & Non-Constitutional Bodies' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Emergency Provisions": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Emergency Provisions' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    "Federal Structure & Election Law": {
+      "Federal Structure & Centre-State Relations": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Federal Structure & Centre-State Relations' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Representation of People Act & Election Commission": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Representation of People Act & Election Commission' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    }
+  },
+  "history": {
+    "1. Historiography & Historical Foundations": {
+      "What is History?": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'What is History?' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Sources of Indian History": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Sources of Indian History' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Dating Systems": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Dating Systems' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    "2. Prehistoric India": {
+      "Stone Age": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Stone Age' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Chalcolithic Age": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Chalcolithic Age' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Rock Art": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Rock Art' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    "3. Ancient India": {
+      "Indus Valley Civilization": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Indus Valley Civilization' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Vedic Age": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Vedic Age' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Mahajanapadas": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Mahajanapadas' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Magadha Expansion": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Magadha Expansion' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Buddhism & Jainism": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Buddhism & Jainism' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Mauryan Period": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Mauryan Period' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Post-Mauryan India": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Post-Mauryan India' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Gupta Period": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Gupta Period' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "South Indian Kingdoms": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'South Indian Kingdoms' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Ancient Indian Culture": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Ancient Indian Culture' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    "4. Medieval India": {
+      "Early Medieval India": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Early Medieval India' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Delhi Sultanate": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Delhi Sultanate' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Vijayanagara Empire": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Vijayanagara Empire' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Bahmani Kingdom & Deccan Sultanates": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Bahmani Kingdom & Deccan Sultanates' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Mughal Empire": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Mughal Empire' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Marathas": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Marathas' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Bhakti Movement": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Bhakti Movement' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Sufi Movement": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Sufi Movement' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Sikh History": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Sikh History' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    "5. Modern India (Highest Priority)": {
+      "European Arrival": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'European Arrival' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "British Expansion": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'British Expansion' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Economic Impact of British Rule": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Economic Impact of British Rule' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Socio-Religious Reform Movements": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Socio-Religious Reform Movements' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Revolt of 1857": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Revolt of 1857' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Governor-Generals & Viceroys": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Governor-Generals & Viceroys' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Constitutional Development": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Constitutional Development' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Freedom Movement": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Freedom Movement' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Post-Independence Consolidation": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Post-Independence Consolidation' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    "6. World History": {
+      "Revolutions": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Revolutions' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "World War I": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'World War I' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Interwar Period": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Interwar Period' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "World War II": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'World War II' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Cold War": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Cold War' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "International Institutions": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'International Institutions' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    "7. Art, Culture & Heritage": {
+      "Architecture": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Architecture' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Paintings": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Paintings' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Dance & Music": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Dance & Music' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Literature": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Literature' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Religion & Festivals": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Religion & Festivals' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Heritage Sites": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Heritage Sites' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    }
+  },
+  "mathematics": {
+    "Trigonometry": {
+      "Trigonometric Identities & Values": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Trigonometric Identities & Values' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Inverse Trigonometric Functions": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Inverse Trigonometric Functions' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    "Algebra & Complex Numbers": {
+      "Quadratic Equations": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Quadratic Equations' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Complex Numbers": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Complex Numbers' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    "Coordinate Geometry (2D & 3D)": {
+      "Straight Lines": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Straight Lines' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    "Statistics & Probability": {
+      "Measures of Central Tendency": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Measures of Central Tendency' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Data Interpretation: Tables, Bar & Pie Charts": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Data Interpretation: Tables, Bar & Pie Charts' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    "Calculus": {
+      "Limits & Continuity": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Limits & Continuity' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Differentiation Rules": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Differentiation Rules' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Standard Integration Methods": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Standard Integration Methods' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    "Algebra & Matrices": {
+      "Matrices and Determinants": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Matrices and Determinants' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    "Probability & Statistics": {
+      "Probability Theory & Bayes Theorem": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Probability Theory & Bayes Theorem' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    "Geometry": {
+      "Lines, Angles & Triangles": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Lines, Angles & Triangles' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Circles & Polygons": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Circles & Polygons' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    "Mensuration": {
+      "2D Figures: Area & Perimeter": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic '2D Figures: Area & Perimeter' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "3D Solids: Surface Area & Volume": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic '3D Solids: Surface Area & Volume' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    "Arithmetic": {
+      "Percentages, Profit & Loss": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Percentages, Profit & Loss' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Ratios, Proportions & Averages": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Ratios, Proportions & Averages' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Time, Speed, Distance & Work": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Time, Speed, Distance & Work' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    },
+    "Numerical Aptitude": {
+      "Time, Speed & Distance Formulas": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Time, Speed & Distance Formulas' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ],
+      "Ratios, Proportions & Percentages": [
+        {
+          "micro_topic": "Complete Topic Overview",
+          "current_coverage": "MISSING",
+          "required_expansion": "Generate a comprehensive master note for the topic 'Ratios, Proportions & Percentages' covering fundamental concepts, core knowledge, comparisons, applications, and PYQ-relevant insights.",
+          "target_depth": "DEEP DIVE",
+          "research_required": true,
+          "priority": "CRITICAL"
+        }
+      ]
+    }
+  }
+}

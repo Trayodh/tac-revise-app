@@ -1,0 +1,17 @@
+{
+    "id": "ca-reports",
+    "title": "Important Reports & Indices",
+    "subject": "Current Affairs & GK",
+    "subjectId": "current-affairs",
+    "chapter": "Reports, Awards & Judgments",
+    "chapterId": "reports-awards-judgments",
+    "blocks": [],
+    "formulas": [
+        "HDI: UNDP",
+        "GHI: Concern Worldwide",
+        "EoDB: World Bank (discontinued)",
+        "Gender Gap: WEF",
+        "CPI: Transparency Intl"
+    ],
+    "hasNotes": false
+}

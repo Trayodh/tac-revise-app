@@ -1,0 +1,23 @@
+{
+  "title": "Soil Orders Taxonomy",
+  "subject": "Environment",
+  "chapter": "Soil Classification",
+  "topic": "Soil Orders",
+  "difficulty": "Medium",
+  "rendering_engine": "Mermaid",
+  "exams": [
+    "NDA",
+    "CDS",
+    "AFCAT"
+  ],
+  "keywords": [
+    "soil orders",
+    "taxonomy",
+    "Entisols",
+    "Inceptisols",
+    "Vertisols"
+  ],
+  "caption": "Hierarchical diagram of the 12 USDA soil orders.",
+  "altText": "A tree diagram with a single root node labeled Soil Orders branching to twelve leaf nodes: Entisols, Inceptisols, Andisols, Mollisols, Alfisols, Spodosols, Ultisols, Oxisols, Gelisols, Histosols, Aridisols, and Vertisols.",
+  "source": "Automated Pipeline"
+}

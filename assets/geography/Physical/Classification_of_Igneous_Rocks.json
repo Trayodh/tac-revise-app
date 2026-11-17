@@ -1,0 +1,23 @@
+{
+  "title": "Classification of Igneous Rocks",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Rocks",
+  "topic": "Igneous Rocks",
+  "format": "Mermaid",
+  "description": "A classification diagram for igneous rocks, categorizing them by their formation (Intrusive/Plutonic vs. Extrusive/Volcanic) and by their silica content (Felsic/Acidic, Mafic/Basic, Intermediate, Ultrabasic), with examples.",
+  "keywords": [
+    "igneous rocks",
+    "primary rocks",
+    "intrusive",
+    "extrusive",
+    "plutonic",
+    "volcanic",
+    "granite",
+    "basalt",
+    "felsic",
+    "mafic",
+    "silica content"
+  ],
+  "mermaidCode": "graph TD\nA[Igneous Rocks] --> B[Classification by Formation]\nA --> C[Classification by Silica Content]\nB --> B1[Intrusive (Plutonic)]\nB --> B2[Extrusive (Volcanic)]\nB1 --> B1a[Slow cooling, Coarse-grained]\nB1a --> B1b[e.g., Granite, Diorite, Gabbro]\nB2 --> B2a[Rapid cooling, Fine-grained/Glassy]\nB2a --> B2b[e.g., Basalt, Andesite, Rhyolite, Obsidian, Pumice]\nC --> C1[Felsic (Acidic) >65% SiO2]\nC --> C2[Mafic (Basic) 45-55% SiO2]\nC --> C3[Intermediate 55-65% SiO2]\nC --> C4[Ultrabasic <45% SiO2]\nC1 --> C1a[Light colour, e.g., Granite, Rhyolite]\nC2 --> C2a[Dark colour, e.g., Basalt, Gabbro]\nC3 --> C3a[e.g., Diorite, Andesite]"
+}

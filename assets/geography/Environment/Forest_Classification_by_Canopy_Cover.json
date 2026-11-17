@@ -1,0 +1,18 @@
+{
+  "title": "Forest Classification by Canopy Cover",
+  "subject": "Geography",
+  "category": "Environment",
+  "chapter": "Forests and Wetlands of India",
+  "topic": "Forest Types",
+  "format": "Mermaid",
+  "description": "A classification diagram categorizing India's forest types based on canopy density, ranging from Very Dense Forest (>70%) to Very Sparse Forest (≤10%), with typical examples for each category.",
+  "keywords": [
+    "forest types classification",
+    "canopy cover",
+    "Very Dense Forest",
+    "Dense Forest",
+    "Moderately Dense Forest",
+    "Open Forest",
+    "Very Sparse Forest"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+    "id": "architecture",
+    "title": "Architecture",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "7. Art, Culture & Heritage",
+    "chapterId": "art-culture-heritage",
+    "blocks": [
+        {
+            "heading": "\ud83c\udfdb\ufe0f Indian Architecture",
+            "intro": "The structural heritage of India, from ancient cave temples to medieval Islamic monuments.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. Temple Architecture Styles",
+            "intro": "",
+            "bullets": [
+                "Nagara Style (North India): Platform base, curved tower (**Shikhara**), assembly hall (*Mandapa*), no boundary walls. E.g., Kandariya Mahadeva (Khajuraho), Sun Temple (Konark).",
+                "Dravida Style (South India): Monumental gateway (**Gopuram**), stepped pyramidal tower (**Vimana**), temple tanks, high boundary walls. E.g., Brihadeshwara Temple (Thanjavur).",
+                "Vesara Style (Deccan): Hybrid of Nagara and Dravida, characterized by star-shaped platform (*Jagati*). E.g., Chennakeshava Temple (Belur)."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Indo-Islamic & Mughal Architecture",
+            "intro": "",
+            "bullets": [
+                "Introduced the arch, dome, minaret, mortar, and geometric designs (avoiding human figures).",
+                "**Delhi Sultanate:** Qutub Minar (Aibak/Iltutmish), Alai Darwaza (Alauddin Khilji), Tomb of Ghiyasuddin Tughlaq.",
+                "**Mughal Architecture:** - *Akbar:* Red sandstone structures. Humayun's Tomb (first double-dome), Fatehpur Sikri (Buland Darwaza, Panch Mahal). - *Shah Jahan:* White marble structures. Taj Mahal, Red Fort (Delhi), Moti Masjid (Agra). Pietra Dura (stone inlay work) reached peak."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "3. Stupas, Caves & Monuments",
+            "intro": "",
+            "bullets": [
+                "**Sanchi Stupa (MP):** Commemorated by Ashoka. Relics of Buddha inside semicircular mound with ornamental gateways (*Toranas*).",
+                "**Ajanta Caves:** 29 Buddhist rock-cut caves. Murals depicting Jataka tales.",
+                "**Ellora Caves:** 34 caves representing Hinduism, Buddhism, and Jainism. Cave 16 contains the monolithic rock-cut **Kailash Temple** built by Krishna I (Rashtrakuta)."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Nagara: Shikhara | Dravida: Vimana & Gopurams | Vesara: Star-shaped/hybrid | Indo-Islamic: Arch & Dome"
+    ],
+    "hasNotes": true
+}

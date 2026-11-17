@@ -1,0 +1,22 @@
+{
+  "title": "Laffer Curve – Tax Rate vs Revenue",
+  "subject": "Economics",
+  "chapter": "Taxation",
+  "topic": "Laffer Curve",
+  "difficulty": "Medium",
+  "rendering_engine": "SVG",
+  "exams": [
+    "NDA",
+    "CDS",
+    "AFCAT"
+  ],
+  "keywords": [
+    "Laffer curve",
+    "tax rate",
+    "tax revenue",
+    "optimal rate"
+  ],
+  "caption": "Laffer curve showing tax revenue versus tax rate with a peak at the optimal rate.",
+  "altText": "A diagram of the Laffer curve on a white background. The horizontal axis labeled 'Tax Rate (%)' runs from 0 to 100 percent, and the vertical axis labeled 'Tax Revenue' runs from 0 to 100 units. A red curved line rises from the origin, peaks around a tax rate of 50% (marked by a red dot and the label 'Optimal Rate'), and then falls toward higher rates. Tick marks and numeric labels are shown on both axes. The title 'Laffer Curve' appears at the top.",
+  "source": "Automated Pipeline"
+}

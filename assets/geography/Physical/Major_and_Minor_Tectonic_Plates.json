@@ -1,0 +1,16 @@
+{
+  "title": "Major and Minor Tectonic Plates",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Plate Tectonics",
+  "topic": "Plate Classification",
+  "format": "Mermaid",
+  "mermaidCode": "graph TB\nsubgraph Major Plates\nPacific\nNorth_American\nSouth_American\nEurasian\nAfrican\nIndo_Australian\nAntarctic\nend\nsubgraph Minor Plates\nNazca\nCocos\nCaribbean\nPhilippine_Sea\nArabian\nJuan_de_Fuca\nScotia\nend",
+  "mapQuery": "",
+  "description": "Lists the seven major tectonic plates and several minor plates.",
+  "keywords": [
+    "tectonic plates",
+    "major plates",
+    "minor plates"
+  ]
+}

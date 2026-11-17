@@ -1,0 +1,18 @@
+{
+  "title": "Map Projections Overview Diagram",
+  "subject": "Geography",
+  "category": "Cartography",
+  "chapter": "Map Projections",
+  "topic": "Projection Types",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\nA[Map Projections] --> B[Mercator Projection]\nA --> C[Lambert Conformal Conic]\nA --> D[Albers Equal‑Area Conic]\nA --> E[Transverse Mercator]",
+  "mapQuery": "",
+  "description": "Diagram summarising the four principal map projections used in Indian cartography and their typical applications.",
+  "keywords": [
+    "map projections",
+    "Mercator",
+    "Lambert Conformal Conic",
+    "Albers Equal‑Area",
+    "Transverse Mercator"
+  ]
+}

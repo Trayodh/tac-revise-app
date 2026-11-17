@@ -1,0 +1,15 @@
+{
+    "id": "reactivity-series",
+    "title": "Reactivity Series & Displacement",
+    "subject": "Chemistry (NDA/CDS)",
+    "subjectId": "chemistry",
+    "chapter": "Metals & Metallurgy",
+    "chapterId": "chemistry-metallurgy",
+    "blocks": [],
+    "formulas": [
+        "Order: K > Na > Ca > Mg > Al > Zn > Fe > Pb > H > Cu > Hg > Ag > Au",
+        "Mnemonic: Please Stop Calling Me A Careless Zebra...",
+        "Displacement: More reactive replaces less reactive"
+    ],
+    "hasNotes": false
+}

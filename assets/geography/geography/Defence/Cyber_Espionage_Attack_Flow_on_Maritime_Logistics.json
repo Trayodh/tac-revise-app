@@ -1,0 +1,17 @@
+{
+  "title": "Cyber‑Espionage Attack Flow on Maritime Logistics",
+  "subject": "Geography",
+  "category": "Defence",
+  "chapter": "Emerging Domains: Cyber",
+  "topic": "Cyber Attacks on Ports",
+  "format": "Mermaid",
+  "mermaidCode": "graph LR\n    A[State‑Sponsored Actor] --> B[Phishing / Malware Deployment]\n    B --> C[Ransomware on Port Operators]\n    C --> D[Disruption of Maritime Logistics]\n    D --> E[Strategic Coercion]\n    style A fill:#f99,stroke:#333,stroke-width:2px\n    style B fill:#ff9,stroke:#333,stroke-width:2px\n    style C fill:#9f9,stroke:#333,stroke-width:2px",
+  "mapQuery": "",
+  "description": "Flowchart of the typical stages of a state‑sponsored cyber‑espionage operation targeting port infrastructure.",
+  "keywords": [
+    "cyber espionage",
+    "port ransomware",
+    "maritime logistics",
+    "strategic coercion"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "student_id": "STUDENT_9921",
+  "target_exam": "CDS",
+  "exam_date": "2024-09-01",
+  "overall_accuracy_percentage": 0,
+  "total_study_hours": 1.5,
+  "attempt_history": [
+    {
+      "mock_test_id": "MOCK_CDS_GK_001",
+      "date": "2024-07-27",
+      "question_id": "TEST_001",
+      "selected_option": "B",
+      "is_correct": false,
+      "solve_time_seconds": 45
+    }
+  ]
+}

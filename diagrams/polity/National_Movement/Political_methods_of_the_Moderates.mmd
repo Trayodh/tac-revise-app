@@ -1,0 +1,31 @@
+graph TD
+    A[Moderate Political Methods]:::root --> B[Petitions]:::method
+    A --> C[Memorandums]:::method
+    A --> D[Resolutions]:::method
+    A --> E[Constitutional Agitation]:::method
+
+    B --> B1[Gather Signatures]:::step
+    B1 --> B2[Submit to Government]:::step
+    B2 --> B3[Public Awareness Campaign]:::step
+
+    C --> C1[Draft Memorandum]:::step
+    C1 --> C2[Circulate Among Stakeholders]:::step
+    C2 --> C3[Present to Authorities]:::step
+
+    D --> D1[Draft Resolution]:::step
+    D1 --> D2[Debate in Assembly]:::step
+    D2 --> D3[Vote and Adoption]:::step
+
+    E --> E1[Formulate Constitutional Proposal]:::step
+    E1 --> E2[Legal Review]:::step
+    E2 --> E3[Advocate for Amendment]:::step
+
+    B3 --> O1[Policy Influence]:::outcome
+    C3 --> O1
+    D3 --> O1
+    E3 --> O2[Constitutional Change]:::outcome
+
+    classDef method fill:#ffcc99,stroke:#333,stroke-width:1px;
+    classDef step fill:#cce5ff,stroke:#333,stroke-width:1px;
+    classDef outcome fill:#d4edda,stroke:#333,stroke-width:1px;
+    classDef root fill:#e2e3e5,stroke:#333,stroke-width:1px;

@@ -1,0 +1,19 @@
+{
+  "title": "Indian Grid System Overview",
+  "subject": "Geography",
+  "category": "Cartography",
+  "chapter": "Grid Systems & Coordinates",
+  "topic": "IGS Details",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\nA[Indian Grid System (IGS)] --> B[Zone 44N – Northern Himalayas]\nA --> C[Zone 45N – Central Plains]\nA --> D[Coordinate notation: Easting, Northing]\nA --> E[Datum: WGS‑84 (since 1995)]",
+  "mapQuery": "",
+  "description": "Flowchart summarising the structure of the Indian Grid System, its zones, coordinate notation, and datum.",
+  "keywords": [
+    "Indian Grid System",
+    "IGS",
+    "UTM",
+    "zone 44N",
+    "zone 45N",
+    "WGS‑84"
+  ]
+}

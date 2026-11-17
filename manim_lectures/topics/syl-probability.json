@@ -1,0 +1,58 @@
+{
+    "id": "syl-probability",
+    "title": "Probability Theory & Bayes Theorem",
+    "subject": "Mathematics (NDA/CDS)",
+    "subjectId": "mathematics",
+    "chapter": "Probability & Statistics",
+    "chapterId": "probability-stats",
+    "blocks": [
+        {
+            "heading": "1. Basic Laws of Probability",
+            "intro": "",
+            "bullets": [
+                "Addition Rule: P(A \u222a B) = P(A) + P(B) - P(A \u2229 B)",
+                "If events are mutually exclusive: P(A \u2229 B) = 0 \u21d2 P(A \u222a B) = P(A) + P(B)",
+                "Conditional Probability: P(A|B) = P(A \u2229 B) / P(B) (where P(B) > 0)",
+                "Independent Events: P(A \u2229 B) = P(A) \u00b7 P(B) \u21d2 P(A|B) = P(A)"
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Bayes' Theorem",
+            "intro": "Used to calculate posterior probability when partition events E\u2081, E\u2082...E\u2099 are given:",
+            "bullets": [
+                "P(E\u1d62|A) = [ P(E\u1d62) \u00b7 P(A|E\u1d62) ] / [ \u03a3[j=1 to n] P(E\u2c7c) \u00b7 P(A|E\u2c7c) ]"
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "3. Statistics & Measures of Central Tendency",
+            "intro": "",
+            "bullets": [
+                "Mean (x\u0304) : Average value. x\u0304 = (\u03a3 x\u1d62)/n.",
+                "Median : Middle value. If n is odd: ((n+1)/2)th term. If n is even: Mean of (n/2)th and (n/2 + 1)th terms.",
+                "Mode : Element with highest frequency.",
+                "Empirical Relation : Mode = 3 Median - 2 Mean"
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "4. Measures of Dispersion",
+            "intro": "",
+            "bullets": [
+                "Variance (\u03c3\u00b2) : \u03c3\u00b2 = \u03a3(x\u1d62 - x\u0304)\u00b2 / n = (\u03a3 x\u1d62\u00b2 / n) - (x\u0304)\u00b2",
+                "Standard Deviation (\u03c3) : \u03c3 = \u221aVariance",
+                "Coefficient of Variation (CV) : CV = (\u03c3 / x\u0304) * 100 (measures relative consistency)."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "P(A|B) = P(A \u2229 B) / P(B)",
+        "Mode = 3Median - 2Mean",
+        "Variance(\u03c3\u00b2) = (\u03a3x\u00b2/n) - (x\u0304)\u00b2",
+        "SD(\u03c3) = \u221aVariance",
+        "CV = (\u03c3/x\u0304)\u00b7100"
+    ],
+    "hasNotes": true
+}

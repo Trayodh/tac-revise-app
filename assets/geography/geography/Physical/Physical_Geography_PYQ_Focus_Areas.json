@@ -1,0 +1,18 @@
+{
+  "title": "Physical Geography PYQ Focus Areas",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Topic‑Wise PYQ Trends – Physical Geography",
+  "topic": "Tectonic Boundaries, Orogeny, Hydrological Cycle",
+  "format": "Mermaid",
+  "mermaidCode": "graph LR\n    A[Tectonic Plate Boundaries] --> B[Seismic Activity]\n    C[Mountain‑building (Orogeny)] --> D[Himalayas]\n    E[Hydrological Cycle] --> F[River Systems]\n    style A fill:#9cf,stroke:#333,stroke-width:2px\n    style C fill:#9cf,stroke:#333,stroke-width:2px\n    style E fill:#9cf,stroke:#333,stroke-width:2px",
+  "mapQuery": "",
+  "description": "Classification tree highlighting the three main physical geography topics frequently asked in PYQs: plate boundaries, mountain building, and the hydrological cycle.",
+  "keywords": [
+    "PYQ",
+    "tectonic plates",
+    "orogeny",
+    "hydrological cycle",
+    "physical geography"
+  ]
+}

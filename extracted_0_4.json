@@ -1,0 +1,45 @@
+{
+  "current_affairs": [
+    {
+      "month_year": "May 2026",
+      "id": "ca-20260529-001",
+      "topic": "UN Peacekeeping Awards",
+      "text": "Lance Havildar Harbhajan Singh and Naib Subedar Sujit Kumar Pradhan are scheduled to be posthumously awarded the United Nations Dag Hammarskjold Medal on May 29, 2026. Harbhajan Singh served with MONUSCO in the Democratic Republic of Congo, and Sujit Kumar Pradhan served with UNMISS in South Sudan.",
+      "details": {
+        "award_date": "May 29, 2026",
+        "award_type": "Posthumous",
+        "recipients": [
+          "Lance Havildar Harbhajan Singh",
+          "Naib Subedar Sujit Kumar Pradhan"
+        ],
+        "missions_served": {
+          "Harbhajan Singh": "MONUSCO (DR. of Congo)",
+          "Sujit Kumar Pradhan": "UNMISS (South Sudan)"
+        }
+      }
+    },
+    {
+      "month_year": "2025",
+      "id": "ca-2025-001",
+      "topic": "UN Awards",
+      "text": "An UN Award for promoting Gender Inclusion was mentioned for 2025. Abhilasha Barak, known for being the first woman combat aviator in the Indian Army, was also mentioned in this context.",
+      "details": {
+        "award_year": "2025",
+        "award_purpose": "Promoting Gender Inclusion",
+        "related_figure_mentioned": "Abhilasha Barak"
+      }
+    }
+  ],
+  "notes": [
+    {
+      "category": "geography",
+      "title": "Strait of Hormuz and Middle East Geography",
+      "content": "<h2>Strait of Hormuz</h2><ul><li>The Strait of Hormuz is a strategically vital waterway connecting the <strong>Persian Gulf</strong> to the <strong>Gulf of Oman</strong> and the Arabian Sea.</li><li>Approximately <strong>20% of the world's oil supply</strong> passes through this strait.</li><li>At its narrowest point, the strait is about <strong>3 km wide</strong>.</li></ul><h2>Key Countries and Features in the Region</h2><ul><li><strong>Iran:</strong><ul><li>Capital: Tehran</li><li>Currency: Rial</li><li>Holds approximately <strong>10% of the world's oil reserves</strong> and <strong>15% of the world's gas reserves</strong>.</li></ul></li><li><strong>Zagros Mountains:</strong> A mountain range located primarily in Iran.</li><li><strong>Red Sea:</strong><ul><li>Known for its <strong>high salinity</strong>.</li><li>This high salinity is partly due to the lack of major rivers flowing into it, which would otherwise dilute its waters.</li></ul></li><li><strong>Other countries in the region:</strong> Turkiye, Iraq, Afghanistan, India, Pakistan, Egypt, Jordan, Kuwait, Saudi Arabia, Bahrain, Qatar, UAE, Oman, Yemen, Djibouti, Sudan, Eritrea.</li></ul>"
+    },
+    {
+      "category": "polity",
+      "title": "United Nations Peacekeeping and Dag Hammarskjold Medal",
+      "content": "<h2>International UN Peacekeeping Day</h2><ul><li>Observed annually on <strong>May 29</strong>.</li><li>Theme: <strong>\"Invest in Peace\"</strong>.</li><li>UN peacekeepers are often referred to as <strong>\"Blue Helmets\"</strong>.</li></ul><h2>Dag Hammarskjold Medal</h2><ul><li>The United Nations Dag Hammarskjold Medal is a <strong>posthumous award</strong> given to military personnel, police, or civilians who lose their lives while serving in a UN peacekeeping operation.</li><li>Dag Hammarskjold was the second Secretary-General of the United Nations and was awarded the <strong>Nobel Peace Prize posthumously</strong>. He is the only UN Secretary-General to die in office.</li></ul><h2>Key UN Peacekeeping Missions (Current Operations)</h2><ul><li><strong>MINURSO:</strong> United Nations Mission for the Referendum in <strong>Western Sahara</strong></li><li><strong>MINUSCA:</strong> United Nations Multidimensional Integrated Stabilization Mission in the <strong>Central African Republic</strong></li><li><strong>MONUSCO:</strong> United Nations Organization Stabilization Mission in the <strong>Democratic Republic of Congo</strong></li><li><strong>UNDOF:</strong> United Nations Disengagement Observer Force in the <strong>Golan Heights</strong></li><li><strong>UNFICYP:</strong> United Nations Peacekeeping Force in <strong>Cyprus</strong></li><li><strong>UNIFIL:</strong> United Nations Interim Force in <strong>Lebanon</strong></li><li><strong>UNMIK:</strong> United Nations Interim Administration Mission in <strong>Kosovo</strong></li><li><strong>UNMISS:</strong> United Nations Mission in <strong>South Sudan</strong></li><li><strong>UNMOGIP:</strong> United Nations Military Observer Group in <strong>India and Pakistan</strong> (established in 1949)</li><li><strong>UNTSO:</strong> United Nations Truce Supervision Organization in the <strong>Middle East</strong></li><li><strong>UNISFA:</strong> United Nations Interim Security Force for <strong>Abyei</strong></li></ul>"
+    }
+  ]
+}

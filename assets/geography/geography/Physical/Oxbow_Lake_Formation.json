@@ -1,0 +1,17 @@
+{
+  "title": "Oxbow Lake Formation",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Rivers and Their Features",
+  "topic": "Oxbow Lakes",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\nM[Meandering River] --> B[Neck formation]\nB --> C[Cut‑off during high flow]\nC --> O[Oxbow lake created]\nO --> S[Lake gradually fills with sediment]",
+  "mapQuery": "",
+  "description": "Diagram of the step‑by‑step evolution of a meandering river segment into a crescent‑shaped oxbow lake after the river cuts off a loop.",
+  "keywords": [
+    "oxbow lake",
+    "meander",
+    "river dynamics",
+    "sedimentation"
+  ]
+}

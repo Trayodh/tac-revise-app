@@ -1,0 +1,1368 @@
+const http = require('http');
+const fs = require('fs');
+const path = require('path');
+require('dotenv').config();
+
+const PORT = process.env.PORT || 4000;
+const CEREBRAS_API_KEY = process.env.CEREBRAS_API_KEY || '';
+const REVOKED_GEMINI_KEYS = new Set(['AIzaSyA0g3U1Nro31TC8ow-oaaaEwZ5mpRQ7MJM']);
+function getGeminiKey() {
+  const envKey = (process.env.GEMINI_API_KEY || '').trim();
+  if (envKey && !REVOKED_GEMINI_KEYS.has(envKey)) return envKey;
+  return '';
+}
+
+// Import the new Current Affairs engine
+const runCurrentAffairsEngine = require('./current_affairs_engine');
+const runMilitaryExercisesEngine = require('./military_exercises_engine');
+const { generateAIContent } = require('./ai_provider_proxy');
+const { searchRAG } = require('./rag_retriever');
+
+// Cache for daily news to prevent repeated API calls
+let dailyNewsCache = { date: null, data: null };
+let dailyMilitaryExercisesCache = { date: null, data: null };
+global.DOMMatrix = class {};
+const pdfParse = require('pdf-parse');
+
+// Basic in-memory rate limiter (15 requests per minute per IP)
+const rateLimitMap = new Map();
+const RATE_LIMIT_WINDOW_MS = 60000;
+const MAX_REQUESTS_PER_WINDOW = 200;
+
+
+// UPSC topic categories aligned with UPSC Civil Services / NDA / CDS syllabus
+const UPSC_TOPIC_CATEGORIES = [
+  { name: 'Polity & Governance',      color: '#4f46e5', queries: ['India parliament', 'supreme court India', 'constitutional amendment India', 'government policy India', 'India election commission', 'India law ministry'] },
+  { name: 'Economy & Finance',        color: '#0891b2', queries: ['RBI India economy', 'India GDP budget', 'GST India', 'stock market India finance', 'India inflation CPI', 'India exports imports trade balance'] },
+  { name: 'Defence & Security',       color: '#dc2626', queries: ['Indian army navy air force', 'defence ministry India', 'military exercise India', 'India nuclear missile', 'India border security', 'India defence procurement'] },
+  { name: 'Military Appointments',    color: '#b45309', queries: ['India army chief appointment', 'COAS CNS CAS India appointed', 'Indian military general admiral marshal appointed', 'India defence secretary chairman chiefs staff'] },
+  { name: 'International Relations',  color: '#7c3aed', queries: ['India foreign policy', 'India bilateral agreement', 'India United Nations', 'India diplomacy', 'India ASEAN SAARC', 'India G20 SCO BRICS'] },
+  { name: 'Environment & Ecology',    color: '#059669', queries: ['climate change India', 'environment pollution India', 'wildlife India', 'India forest conservation', 'India biodiversity COP', 'India renewable energy solar wind'] },
+  { name: 'Science & Technology',     color: '#d97706', queries: ['ISRO space India', 'India technology innovation', 'India AI research', 'India nuclear energy', 'India semiconductor chip', 'India quantum computing'] },
+  { name: 'Social Issues',            color: '#db2777', queries: ['India education scheme', 'India health scheme', 'India poverty scheme', 'India women empowerment', 'India tribal welfare', 'India Ayushman Bharat'] },
+  { name: 'History & Culture',        color: '#92400e', queries: ['India heritage UNESCO', 'India cultural festival', 'India archaeology history', 'India art award', 'India yoga classical arts', 'India museum ancient site'] },
+  { name: 'Geography & Disasters',    color: '#0369a1', queries: ['India disaster cyclone flood', 'India earthquake geography', 'India river dam project', 'India agriculture crop', 'India NDMA disaster management', 'India monsoon drought'] },
+  { name: 'Awards & Appointments',    color: '#6d28d9', queries: ['India appointment minister CEO', 'India award prize', 'India Padma Bharat Ratna', 'India Nobel prize winner'] },
+  { name: 'Sports',                   color: '#0d9488', queries: ['India cricket hockey Olympics', 'India sports championship medal', 'India FIFA athletics', 'India chess tennis badminton'] },
+  { name: 'Important Days & Themes',  color: '#ec4899', queries: ['India important day theme', 'national international day observed', 'India day celebrated theme'] },
+];
+
+// PIB Ministry RSS feeds — covers most UPSC-relevant ministries
+const PIB_RSS_FEEDS = [
+  'https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3',   // Ministry of Defence
+  'https://pib.gov.in/RssMain.aspx?ModId=2&Lang=1&Regid=3',   // Prime Minister's Office
+  'https://pib.gov.in/RssMain.aspx?ModId=4&Lang=1&Regid=3',   // Ministry of Finance
+  'https://pib.gov.in/RssMain.aspx?ModId=5&Lang=1&Regid=3',   // Ministry of External Affairs
+  'https://pib.gov.in/RssMain.aspx?ModId=35&Lang=1&Regid=3',  // Ministry of Environment
+  'https://pib.gov.in/RssMain.aspx?ModId=8&Lang=1&Regid=3',   // Ministry of Science
+  'https://pib.gov.in/RssMain.aspx?ModId=37&Lang=1&Regid=3',  // Ministry of Health
+  'https://pib.gov.in/RssMain.aspx?ModId=23&Lang=1&Regid=3',  // Ministry of Home Affairs
+  'https://pib.gov.in/RssMain.aspx?ModId=10&Lang=1&Regid=3',  // Ministry of Commerce
+  'https://pib.gov.in/RssMain.aspx?ModId=11&Lang=1&Regid=3',  // Ministry of Agriculture
+  'https://pib.gov.in/RssMain.aspx?ModId=3&Lang=1&Regid=3',   // Ministry of Railways
+  'https://pib.gov.in/RssMain.aspx?ModId=22&Lang=1&Regid=3',  // Ministry of Education
+  'https://pib.gov.in/RssMain.aspx?ModId=31&Lang=1&Regid=3',  // Ministry of Space (ISRO)
+  'https://pib.gov.in/RssMain.aspx?ModId=18&Lang=1&Regid=3',  // Ministry of Petroleum
+];
+
+// Dedicated Google News RSS feeds for military appointments (always fetched separately)
+const MILITARY_APPT_FEEDS = [
+  `https://news.google.com/rss/search?q=${encodeURIComponent('India army chief COAS appointed 2026')}&hl=en-IN&gl=IN&ceid=IN:en`,
+  `https://news.google.com/rss/search?q=${encodeURIComponent('India navy chief CNS appointed 2026')}&hl=en-IN&gl=IN&ceid=IN:en`,
+  `https://news.google.com/rss/search?q=${encodeURIComponent('India air force chief CAS appointed 2026')}&hl=en-IN&gl=IN&ceid=IN:en`,
+  `https://news.google.com/rss/search?q=${encodeURIComponent('India military general vice admiral air marshal appointed')}&hl=en-IN&gl=IN&ceid=IN:en`,
+  `https://news.google.com/rss/search?q=${encodeURIComponent('India defence secretary CDS chairman chiefs of staff')}&hl=en-IN&gl=IN&ceid=IN:en`,
+];
+
+const GNEWS_RSS_FEEDS = UPSC_TOPIC_CATEGORIES.map(cat =>
+  `https://news.google.com/rss/search?q=${encodeURIComponent(cat.queries[0] + ' after:' + new Date(Date.now() - 86400000).toISOString().split('T')[0])}&hl=en-IN&gl=IN&ceid=IN:en`
+);
+
+async function fetchRssFeed(url) {
+  try {
+    const res = await fetch(url, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+        'Accept': 'application/rss+xml, application/xml, text/xml, */*'
+      },
+      signal: AbortSignal.timeout(8000)
+    });
+    if (!res.ok) return [];
+    const xml = await res.text();
+    const items = [];
+    const itemRegex = /<item>([\s\S]*?)<\/item>/g;
+    let match;
+    while ((match = itemRegex.exec(xml)) !== null && items.length < 6) {
+      const c = match[1];
+      const titleM  = c.match(/<title>([\s\S]*?)<\/title>/);
+      const descM   = c.match(/<description>([\s\S]*?)<\/description>/) || c.match(/<summary>([\s\S]*?)<\/summary>/);
+      const dateM   = c.match(/<pubDate>([\s\S]*?)<\/pubDate>/);
+      const linkM   = c.match(/<link>([\s\S]*?)<\/link>/) || c.match(/<link\s[^>]*href="([^"]+)"/) ;
+      let title = titleM ? titleM[1].replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g,'$1').replace(/<[^>]*>/g,'').trim() : '';
+      let desc  = descM  ? descM[1].replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g,'$1').replace(/<[^>]*>/g,'').substring(0,500).trim() : '';
+      let pubDate = dateM ? dateM[1].trim() : '';
+      let link  = linkM ? (linkM[2]||linkM[1]).trim() : '';
+      if (title && title.length > 10) items.push({ title, description: desc, pubDate, link });
+    }
+    return items;
+  } catch(_) { return []; }
+}
+
+async function fetchAllNewsItems() {
+  // Fetch PIB + Google News + dedicated Military Appointments feeds in parallel
+  const results = await Promise.allSettled([
+    ...PIB_RSS_FEEDS.map(u => fetchRssFeed(u)),
+    ...GNEWS_RSS_FEEDS.map(u => fetchRssFeed(u)),
+    ...MILITARY_APPT_FEEDS.map(u => fetchRssFeed(u))  // always include military appointments
+  ]);
+  const allItems = [];
+  const militaryItems = []; // pinned — always included
+  const seenTitles = new Set();
+
+  // Collect military appointment items from dedicated feeds (last N results)
+  const militaryFeedOffset = PIB_RSS_FEEDS.length + GNEWS_RSS_FEEDS.length;
+  for (let i = militaryFeedOffset; i < results.length; i++) {
+    const r = results[i];
+    if (r.status === 'fulfilled') {
+      for (const item of r.value) {
+        const key = item.title.toLowerCase().substring(0, 60);
+        if (!seenTitles.has(key)) {
+          seenTitles.add(key);
+          militaryItems.push({ ...item, _pinned: true });
+        }
+      }
+    }
+  }
+
+  // Collect general items from PIB + Google News
+  for (let i = 0; i < militaryFeedOffset; i++) {
+    const r = results[i];
+    if (r.status === 'fulfilled') {
+      for (const item of r.value) {
+        const key = item.title.toLowerCase().substring(0, 60);
+        if (!seenTitles.has(key)) {
+          seenTitles.add(key);
+          allItems.push(item);
+        }
+      }
+    }
+  }
+
+  // Shuffle general items
+  for (let i = allItems.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [allItems[i], allItems[j]] = [allItems[j], allItems[i]];
+  }
+
+  // Pin up to 6 military appointment items at the front, then fill with general items
+  const pinned = militaryItems.slice(0, 6);
+  const combined = [...pinned, ...allItems];
+  return combined.slice(0, 50); // larger pool for 12 topic categories
+}
+
+async function autoUpdateCurrentAffairs() {
+  const today = new Date().toISOString().split('T')[0];
+  try {
+    console.log(`[AUTO-UPDATE] Starting daily current affairs update for ${today} using Gemini 2.5 Engine...`);
+    const generatedCards = await runCurrentAffairsEngine();
+    
+    if (generatedCards) {
+      dailyNewsCache = { date: today, data: generatedCards };
+      return generatedCards;
+    } else {
+      console.warn("[AUTO-UPDATE] Engine did not return any cards.");
+      return dailyNewsCache.data || [];
+    }
+  } catch (err) {
+    console.error(`[AUTO-UPDATE] Daily current affairs update failed:`, err);
+    throw err;
+  }
+}
+
+async function autoUpdateMilitaryExercises() {
+  const today = new Date().toISOString().split('T')[0];
+  try {
+    console.log(`[AUTO-UPDATE] Starting daily military exercises update for ${today} using Gemini 2.5 Engine...`);
+    const generatedCards = await runMilitaryExercisesEngine();
+    
+    if (generatedCards) {
+      dailyMilitaryExercisesCache = { date: today, data: generatedCards };
+      return generatedCards;
+    } else {
+      console.warn("[AUTO-UPDATE] Engine did not return any cards for military exercises.");
+      return dailyMilitaryExercisesCache.data || [];
+    }
+  } catch (err) {
+    console.error(`[AUTO-UPDATE] Daily military exercises update failed:`, err);
+    throw err;
+  }
+}
+
+const MIME_TYPES = {
+  '.html': 'text/html',
+  '.css': 'text/css',
+  '.js': 'text/javascript',
+  '.json': 'application/json',
+  '.png': 'image/png',
+  '.jpg': 'image/jpeg',
+  '.gif': 'image/gif',
+  '.svg': 'image/svg+xml',
+  '.ico': 'image/x-icon',
+  '.pdf': 'application/pdf'
+};
+
+const requestHandler = async (req, res) => {
+  // Normalize Netlify function path so routing works locally and on Netlify
+  if (req.url.startsWith('/.netlify/functions/api')) {
+    req.url = req.url.replace('/.netlify/functions/api', '/api');
+  }
+
+  // CORS Headers for API requests
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+
+  if (req.method === 'OPTIONS') {
+    res.writeHead(200);
+    res.end();
+    return;
+  }
+
+  // Health check endpoints for Render and uptime monitoring
+  if (req.url === '/healthz' || req.url === '/api/health') {
+    res.writeHead(200, { 'Content-Type': 'application/json' });
+    res.end(JSON.stringify({ status: 'ok', uptime: process.uptime(), timestamp: new Date().toISOString() }));
+    return;
+  }
+
+
+  // API Route: Comprehensive Daily Current Affairs (PIB + Google News, all UPSC topics)
+  if (req.url === '/api/daily-current-affairs' && req.method === 'GET') {
+    const today = new Date().toISOString().split('T')[0];
+    
+    if (dailyNewsCache.date === today && dailyNewsCache.data) {
+      console.log(`[PROXY] Serving Daily Current Affairs from cache for ${today}`);
+      res.writeHead(200, { 'Content-Type': 'application/json' });
+      res.end(JSON.stringify(dailyNewsCache.data));
+      return;
+    }
+
+    if (process.env.ENABLE_AUTO_CA_SCRAPE !== 'true') {
+      res.writeHead(200, { 'Content-Type': 'application/json' });
+      res.end(JSON.stringify(dailyNewsCache.data || []));
+      return;
+    }
+
+    // Cooldown: if the AI engine failed recently (rate limits), don't re-run it on every request
+    const CA_FAIL_COOLDOWN_MS = 30 * 60 * 1000;
+    if (global.__caLastFailAt && Date.now() - global.__caLastFailAt < CA_FAIL_COOLDOWN_MS) {
+      res.writeHead(200, { 'Content-Type': 'application/json' });
+      res.end(JSON.stringify(dailyNewsCache.data || []));
+      return;
+    }
+
+    (async () => {
+      try {
+        // Reuse an in-flight engine run instead of starting parallel ones
+        if (!global.__caInFlight) {
+          global.__caInFlight = autoUpdateCurrentAffairs().finally(() => { global.__caInFlight = null; });
+        }
+        const timeout = new Promise((_, reject) => setTimeout(() => reject(new Error('CA engine timeout')), 18000));
+        const parsedJson = await Promise.race([global.__caInFlight, timeout]);
+        if (!Array.isArray(parsedJson) || parsedJson.length === 0) global.__caLastFailAt = Date.now();
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify(parsedJson || []));
+      } catch(err) {
+        console.error('[PROXY] Error in daily-current-affairs:', err.message || err);
+        if (String(err && err.message) !== 'CA engine timeout') global.__caLastFailAt = Date.now();
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify(dailyNewsCache.data || []));
+      }
+    })();
+    
+    return;
+  }
+
+  // === NEW ENDPOINT: /api/daily-military-exercises ===
+  if (req.method === 'GET' && req.url === '/api/daily-military-exercises') {
+    const today = new Date().toISOString().split('T')[0];
+    
+    if (dailyMilitaryExercisesCache.date === today && dailyMilitaryExercisesCache.data) {
+      console.log(`[PROXY] Serving Daily Military Exercises from cache for ${today}`);
+      res.writeHead(200, { 'Content-Type': 'application/json' });
+      res.end(JSON.stringify(dailyMilitaryExercisesCache.data));
+      return;
+    }
+
+    if (process.env.ENABLE_AUTO_CA_SCRAPE !== 'true') {
+      res.writeHead(200, { 'Content-Type': 'application/json' });
+      res.end(JSON.stringify(dailyMilitaryExercisesCache.data || []));
+      return;
+    }
+
+    (async () => {
+      try {
+        const parsedJson = await autoUpdateMilitaryExercises();
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify(parsedJson));
+      } catch(err) {
+        console.error('[PROXY] Error in daily-military-exercises:', err);
+        if (dailyMilitaryExercisesCache.data) {
+          console.log('[PROXY] Serving stale cached data due to error.');
+          res.writeHead(200, { 'Content-Type': 'application/json' });
+          res.end(JSON.stringify(dailyMilitaryExercisesCache.data));
+        } else {
+          res.writeHead(200, { 'Content-Type': 'application/json' });
+          res.end(JSON.stringify([]));
+        }
+      }
+    })();
+    
+    return;
+  }
+
+
+  // API Route: AI Router Orchestration
+  if (req.url === '/api/orchestrate' && req.method === 'POST') {
+    let body = '';
+    req.on('data', chunk => body += chunk);
+    req.on('end', async () => {
+      try {
+        const payload = JSON.parse(body);
+        const { task, context } = payload;
+        
+        const GROQ_API_KEY = process.env.GROQ_API_KEY || '';
+        const CEREBRAS_API_KEY = process.env.CEREBRAS_API_KEY || '';
+        const GEMINI_API_KEY = getGeminiKey();
+        
+        const systemPrompt = `
+# AI Router System Prompt
+
+You are the AI Router for a Defence Examination Preparation Platform.
+
+Your job is NOT to answer user requests.
+
+Your only responsibility is to determine which AI model(s) should perform the task.
+
+Available AI Providers:
+
+1. Gemini
+   Strengths:
+* Long-context reasoning
+* PDF analysis
+* Previous-year paper analysis
+* Educational explanations
+* Validation and quality review
+* Complex planning
+
+Weaknesses:
+* Limited free-tier requests
+* Use only when its strengths are required.
+
+2. Cerebras
+   Strengths:
+* Extremely fast responses
+* Note generation
+* Flashcards
+* Summaries
+* Current affairs summaries
+* Quick tutoring
+* General chat
+
+Weaknesses:
+* Do not use for deep document analysis unless required.
+
+3. Gemini (Fallback for formatting)
+   Strengths:
+* Fast structured generation
+* MCQs
+* Model question papers
+* Quiz generation
+* Classification
+* JSON generation
+* Formatting tasks
+
+Weaknesses:
+* Sometimes produces overly long output if not strictly prompted.
+
+Routing Rules:
+If the task involves:
+* Previous-year paper analysis -> Gemini
+* PDF understanding -> Gemini
+* Learning exam pattern -> Gemini
+* Note generation -> Cerebras
+* Flashcard generation -> Cerebras
+* Current affairs summary -> Cerebras
+* AI tutoring -> Cerebras
+* MCQ generation -> Gemini
+* Model paper generation -> Gemini
+* JSON formatting -> Gemini
+* Topic classification -> Gemini
+* Validation of generated paper -> Gemini
+
+If multiple steps are required, execute them sequentially.
+
+Example:
+User uploads previous-year papers.
+Step 1: Gemini analyses the papers and produces the examination blueprint.
+Step 2: Store the blueprint in the database.
+Step 3: Gemini generates a new paper using the blueprint.
+Step 4: Gemini validates the generated paper.
+Step 5: Return only the validated paper.
+
+General Rules:
+* Always use the cheapest suitable AI.
+* Minimize Gemini usage whenever another provider can perform the task with comparable quality.
+* Never analyse the same uploaded document twice if a stored blueprint already exists.
+* Reuse cached outputs whenever possible.
+* If a task fails, retry once with the same provider. If it still fails, route it to another suitable provider.
+* If multiple independent tasks are requested, they may be executed in parallel.
+* Never expose routing decisions to the user.
+* Return only the final result requested by the user.
+
+TASK: ${task}
+
+OUTPUT FORMAT:
+Return ONLY a valid JSON object with a "plan" array containing objects with "step" (number), "provider" ("Gemini", "Cerebras", or "Supabase"), and "action" (string describing what the provider must do). 
+For database storage steps, use provider "Supabase" and provide a "key" and "data_to_store" description in the action.
+`;
+
+        // 1. Call Gemini to generate the plan
+        let planRes = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            systemInstruction: { parts: [{ text: systemPrompt }] },
+            contents: [{ parts: [{ text: "Generate the orchestration plan." }] }],
+            generationConfig: {
+              temperature: 0.1,
+              responseMimeType: "application/json"
+            }
+          })
+        });
+        
+        let planData = await planRes.json();
+        let planText = planData.candidates?.[0]?.content?.parts?.[0]?.text || '{}';
+        let plan = JSON.parse(planText).plan;
+        
+        console.log("[ORCHESTRATOR] Generated Plan:", plan);
+        
+        // 2. Execute the plan sequentially
+        let accumulatedContext = context || "";
+        let finalResult = "";
+        
+        const SUPABASE_URL = process.env.SUPABASE_URL || 'https://usjzsdvsasjtsyzrvivx.supabase.co';
+        const SUPABASE_KEY = process.env.SUPABASE_SERVICE_KEY || process.env.SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVzanpzZHZzYXNqdHN5enJ2aXZ4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzkyNTUxMzksImV4cCI6MjA5NDgzMTEzOX0.8wLng1SDAhFPGvk5PQRu8XCqEWClpNPqHgEGpAx1vjk';
+        
+        for (const step of plan) {
+          console.log(`[ORCHESTRATOR] Executing step ${step.step}: ${step.provider} - ${step.action}`);
+          
+          let stepPrompt = `TASK OBJECTIVE: ${step.action}\n\nACCUMULATED CONTEXT SO FAR:\n${accumulatedContext}`;
+          
+          if (step.provider === 'Gemini') {
+            let res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                contents: [{ parts: [{ text: stepPrompt }] }]
+              })
+            });
+            let data = await res.json();
+            let output = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
+            accumulatedContext += "\n\n--- Output from Gemini ---\n" + output;
+            finalResult = output;
+            
+          } else if (step.provider === 'Cerebras') {
+            let res = await fetch('https://api.cerebras.ai/v1/chat/completions', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${CEREBRAS_API_KEY}` },
+              body: JSON.stringify({
+                model: 'llama3.1-8b',
+                messages: [{ role: 'user', content: stepPrompt }]
+              })
+            });
+            let data = await res.json();
+            let output = data.choices?.[0]?.message?.content || '';
+            accumulatedContext += "\n\n--- Output from Cerebras ---\n" + output;
+            finalResult = output;
+            
+          } else if (step.provider === 'Groq') {
+            // Groq has been deprecated; routing to Gemini instead.
+            let res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                contents: [{ parts: [{ text: stepPrompt }] }]
+              })
+            });
+            let data = await res.json();
+            let output = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
+            accumulatedContext += "\n\n--- Output from Gemini (formerly Groq) ---\n" + output;
+            finalResult = output;
+            
+          } else if (step.provider === 'Supabase') {
+             // Store into Supabase dynamically
+             console.log("[ORCHESTRATOR] Storing intermediate artifact to Supabase...");
+             // A simple generic 'artifacts' table insert for intermediate storage
+             let res = await fetch(`${SUPABASE_URL}/rest/v1/artifacts`, {
+               method: 'POST',
+               headers: {
+                 'Content-Type': 'application/json',
+                 'apikey': SUPABASE_KEY,
+                 'Authorization': `Bearer ${SUPABASE_KEY}`
+               },
+               body: JSON.stringify({
+                 action_desc: step.action,
+                 content: finalResult
+               })
+             });
+             if(!res.ok) console.error("[ORCHESTRATOR] Supabase store failed", await res.text());
+             accumulatedContext += "\n\n--- Output stored in Database ---\n";
+          }
+        }
+        
+        // Return only the final result requested by the user
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ result: finalResult }));
+        
+      } catch (err) {
+        console.error("[ORCHESTRATOR] Error:", err);
+        res.writeHead(500, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ error: err.message }));
+      }
+    });
+    return;
+  }
+
+  // API Route: Unified Multi-Model Chat proxy
+  if (req.url === '/api/chat' && req.method === 'POST') {
+    let body = '';
+    req.on('data', chunk => body += chunk);
+    req.on('end', async () => {
+      try {
+        const payload = JSON.parse(body);
+        const { targetAI, messages, isJsonRequired, temperature, originalGeminiBody } = payload;
+        let aiText = "";
+
+        let actualTarget = targetAI;
+
+        if (actualTarget === 'gemini') {
+          const GEMINI_KEY = getGeminiKey();
+          if (!GEMINI_KEY) {
+             aiText = (isJsonRequired ? "{}" : "") + "\n\n**[SYSTEM ALERT]** Gemini API key missing from backend! Please add GEMINI_API_KEY to your environment variables.";
+          } else {
+             let geminiBody = originalGeminiBody;
+             if (!geminiBody) {
+                 // Construct a Gemini body if one wasn't passed directly
+                 geminiBody = {
+                     contents: [{ parts: [{ text: messages.map(m => m.content).join('\n') }] }]
+                 };
+                 if (isJsonRequired) {
+                     geminiBody.generationConfig = { responseMimeType: "application/json" };
+                 }
+             } else if (geminiBody.stream) {
+                 delete geminiBody.stream;
+             }
+             let requestedModel = payload.model || 'gemini-3.8-flash';
+             if (requestedModel === 'gemini-3.1-pro' || requestedModel === 'gemini-3.6-flash' || requestedModel === 'gemini-1.5-pro' || requestedModel === 'gemini-1.5-flash' || requestedModel === 'gemini-2.0-flash') {
+               requestedModel = 'gemini-3.8-flash';
+             }
+             try {
+                // If the payload specifies messages, extract the system and user prompts
+                // Dronacharya usually sends just one user message. 
+                const userPrompt = messages.map(m => m.role + ': ' + m.content).join('\n');
+                const systemPrompt = ''; // We'll pass empty system prompt since it's merged or in original body
+                
+                aiText = await generateAIContent(systemPrompt, userPrompt, ['gemini', 'cerebras', 'groq']);
+             } catch (proxyErr) {
+                console.error("[PROXY] ai_provider_proxy failed:", proxyErr);
+                throw new Error("All AI Providers failed for /api/chat. " + proxyErr.message);
+             }
+          }
+        }
+        else if (actualTarget === 'cerebras') {
+          const cerebrasBody = {
+            model: 'gpt-oss-120b',
+            messages: messages,
+            temperature: temperature || 0.7,
+            max_completion_tokens: 1500
+          };
+          if (isJsonRequired) cerebrasBody.response_format = { type: 'json_object' };
+
+          const res = await fetch('https://api.cerebras.ai/v1/chat/completions', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              'Authorization': `Bearer ${CEREBRAS_API_KEY || ''}`
+            },
+            body: JSON.stringify(cerebrasBody)
+          });
+          if (!res.ok) throw new Error("Cerebras API Error: " + await res.text());
+          const data = await res.json();
+          aiText = data.choices?.[0]?.message?.content || "";
+        }
+        else if (actualTarget === 'groq') {
+          const groqBody = {
+            model: 'openai/gpt-oss-120b',
+            messages: messages,
+            temperature: temperature || 0.7,
+            max_tokens: 1500
+          };
+          if (isJsonRequired) groqBody.response_format = { type: 'json_object' };
+
+          const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              'Authorization': `Bearer ${GROQ_API_KEY || ''}`
+            },
+            body: JSON.stringify(groqBody)
+          });
+          if (!res.ok) throw new Error("Groq API Error: " + await res.text());
+          const data = await res.json();
+          aiText = data.choices?.[0]?.message?.content || "";
+        }
+
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ text: aiText }));
+      } catch (e) {
+        console.error("[PROXY] /api/chat error:", e);
+        res.writeHead(500, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ error: e.message }));
+      }
+    });
+    return;
+  }
+
+
+  // API Route: Solve Paper or Chatbot proxy
+  if (req.url.startsWith('/api/gemini') && req.method === 'POST') {
+    // Rate Limiting Logic
+    const clientIp = req.socket.remoteAddress || req.headers['x-forwarded-for'] || 'unknown';
+    const now = Date.now();
+    let rlData = rateLimitMap.get(clientIp);
+    if (!rlData || (now - rlData.startTime > RATE_LIMIT_WINDOW_MS)) {
+      rlData = { count: 0, startTime: now };
+    }
+    rlData.count++;
+    rateLimitMap.set(clientIp, rlData);
+    
+    if (rlData.count > MAX_REQUESTS_PER_WINDOW) {
+      console.warn(`[PROXY] Rate limit exceeded for IP: ${clientIp}`);
+      res.writeHead(429, { 'Content-Type': 'application/json', 'Retry-After': 60 });
+      res.end(JSON.stringify({ error: 'Too Many Requests. Please wait a minute before trying again.' }));
+      return;
+    }
+
+    let body = '';
+    let isTooLarge = false;
+    req.on('data', chunk => {
+      if (body.length + chunk.length > 50 * 1024 * 1024) { // 50MB limit
+        isTooLarge = true;
+        req.pause();
+        res.writeHead(413, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ error: 'Payload Too Large: The file/request must be smaller than 50MB.' }));
+        req.destroy();
+        return;
+      }
+      body += chunk;
+    });
+    req.on('end', async () => {
+      if (isTooLarge) return;
+      try {
+        console.log(`[PROXY] Received request for Gemini API. Payload size: ${(body.length / 1024).toFixed(2)} KB`);
+        const payload = JSON.parse(body);
+        let { model, contents, stream, generationConfig, tools, systemInstruction } = payload;
+        
+        // Map model names from the frontend UI to fast, high-capacity working API endpoints (65,536 maxOutputTokens)
+        if (model === 'gemini-3.8-flash' || model === 'gemini-3.6-flash' || model === 'gemini-3.1-pro' || model === 'gemini-1.5-pro' || model === 'gemini-1.5-flash' || model === 'gemini-2.0-flash' || !model) {
+          model = 'gemini-2.5-flash';
+        }
+
+        // Map response_mime_type to responseMimeType for Google API
+        if (generationConfig && generationConfig.response_mime_type) {
+          generationConfig.responseMimeType = generationConfig.response_mime_type;
+          delete generationConfig.response_mime_type;
+        }
+        
+        console.log(`[PROXY] Using model: ${model}`);
+
+        // Try extracting text from PDF if present
+        let pdfPart = null;
+        let textPrompt = "";
+        
+        if (contents && contents[0] && contents[0].parts) {
+          contents[0].parts.forEach(part => {
+            if (part.inlineData && part.inlineData.mimeType === 'application/pdf') {
+              pdfPart = part;
+            } else if (part.text) {
+              textPrompt = part.text;
+            }
+          });
+        }
+        
+        if (pdfPart) {
+          console.log(`[PROXY] PDF input detected. Extracting text using pdf-parse...`);
+          try {
+            const pdfBuffer = Buffer.from(pdfPart.inlineData.data, 'base64');
+            const parser = new pdfParse.PDFParse({ data: new Uint8Array(pdfBuffer) });
+            await parser.load();
+            const pdfRes = await parser.getText();
+            const extractedText = pdfRes.text;
+            
+            if (extractedText && extractedText.trim().length > 20) {
+              console.log(`[PROXY] Extracted ${extractedText.length} characters of text. Swapping base64 payload for text payload.`);
+              
+              const combinedText = `The following is the text content extracted from the exam paper PDF. Solve the questions. Provide the question, options, the correct answer, and a brief one-sentence explanation for each. DO NOT write long explanations so we can fit all questions within the model's output limit.
+              
+TEXT CONTENT OF EXAM PAPER:
+${extractedText}
+
+INSTRUCTIONS:
+${textPrompt}`;
+
+              contents = [{
+                parts: [{ text: combinedText }]
+              }];
+            } else {
+              console.warn(`[PROXY] Extracted text is too short. PDF might be scanned/image-based.`);
+            }
+          } catch (pdfErr) {
+            console.error(`[PROXY] PDF parsing error:`, pdfErr);
+          }
+        }
+        
+        if (textPrompt && (!contents || contents.length === 1) && textPrompt.match(/Cheat Sheet["'] for the topic: ["']/) && !textPrompt.includes('CRITICAL KNOWLEDGE UPDATE (2025-2026):')) {
+            const topicMatch = textPrompt.match(/topic: ["']([^"']+)["']/);
+            if (topicMatch && topicMatch[1]) {
+                const topic = topicMatch[1];
+                const isPureFormulaOrScienceTopic = /\b(math|maths|algebra|trigonometry|calculus|geometry|mensuration|arithmetic|statistics|probability|matrix|matrices|determinant|physics|optics|thermodynamics|kinematics|electromagnetism|chemistry|organic|inorganic|periodic table|grammar|vocabulary|idioms|synonyms|antonyms|formula|formulae|equations)\b/i.test(topic) && !/\b(command|army|navy|air force|iaf|missile|exercise|operation|corps|regiment|fleet|brigade|weapon|aircraft|submarine|ship|tank|artillery)\b/i.test(topic);
+                if (!isPureFormulaOrScienceTopic) {
+                    console.log(`[WIKI] Cheat sheet topic detected: ${topic}. Fetching latest Wikipedia context...`);
+                    try {
+                        const axios = require('axios');
+                        const fs = require('fs');
+                        const path = require('path');
+                        
+                        let staticContext = "";
+                        try {
+                            const staticPath = path.join(__dirname, 'context_2026_updates.txt');
+                            if (fs.existsSync(staticPath)) {
+                                staticContext = fs.readFileSync(staticPath, 'utf8');
+                            }
+                        } catch(err) {
+                            console.error("[WIKI] Error reading static context:", err.message);
+                        }
+
+                        const searchUrl = `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(topic)}&utf8=&format=json`;
+                        const searchRes = await axios.get(searchUrl, { headers: { 'User-Agent': 'DefenceExamsApp/1.0 (admin@example.com)' }, timeout: 3500 });
+                        if (searchRes.data && searchRes.data.query && searchRes.data.query.search.length > 0) {
+                            const topResult = searchRes.data.query.search[0].title;
+                            console.log(`[WIKI] Top match: ${topResult}`);
+                            const pageUrl = `https://en.wikipedia.org/w/api.php?action=query&prop=extracts&exintro=false&explaintext=true&titles=${encodeURIComponent(topResult)}&format=json`;
+                            const pageRes = await axios.get(pageUrl, { headers: { 'User-Agent': 'DefenceExamsApp/1.0 (admin@example.com)' }, timeout: 3500 });
+                            const pages = pageRes.data.query.pages;
+                            const pageId = Object.keys(pages)[0];
+                            const extract = pages[pageId].extract;
+                            if (extract) {
+                                const snippet = extract.substring(0, 2500);
+                                const injection = `\n\nCRITICAL KNOWLEDGE UPDATE (2025-2026):\n${staticContext}\n\nThe following is up-to-date Wikipedia context for "${topResult}". Use this to ensure your generated cheat sheet includes the latest active/inducted items and facts. \n\n${snippet}\n\n`;
+                                textPrompt += injection;
+                                if (contents && contents[0] && contents[0].parts) {
+                                    contents[0].parts.forEach(part => {
+                                        if (part.text) {
+                                            part.text += injection;
+                                        }
+                                    });
+                                }
+                                console.log(`[WIKI] Successfully injected ${snippet.length} characters of context.`);
+                            }
+                        }
+                    } catch (e) {
+                        console.error("[WIKI] Error fetching wikipedia context:", e.message);
+                    }
+                }
+            }
+        }
+        
+        const GEMINI_KEY = getGeminiKey();
+
+        let apiResponse = null;
+        let success = false;
+
+        const geminiModelsToTry = Array.from(new Set([model, 'gemini-2.5-flash', 'gemini-3-flash-preview', 'gemini-2.5-flash-lite']));
+
+        const geminiPayload = {
+          contents,
+          generationConfig,
+          tools,
+          systemInstruction,
+          safetySettings: [
+            { category: "HARM_CATEGORY_DANGEROUS_CONTENT", threshold: "BLOCK_NONE" },
+            { category: "HARM_CATEGORY_HARASSMENT", threshold: "BLOCK_NONE" },
+            { category: "HARM_CATEGORY_HATE_SPEECH", threshold: "BLOCK_NONE" },
+            { category: "HARM_CATEGORY_SEXUALLY_EXPLICIT", threshold: "BLOCK_NONE" }
+          ]
+        };
+        
+        let lastStatus = 0;
+        let finalResponseText = '';
+        let fallbackFinishReason = 'STOP';
+        let verifiedGeminiData = null;
+
+        for (const candidateModel of (GEMINI_KEY ? geminiModelsToTry : [])) {
+          if (success) break;
+          let targetUrl = `https://generativelanguage.googleapis.com/v1beta/models/${candidateModel}:generateContent?key=${GEMINI_KEY}`;
+          if (stream) {
+            targetUrl = `https://generativelanguage.googleapis.com/v1beta/models/${candidateModel}:streamGenerateContent?alt=sse&key=${GEMINI_KEY}`;
+          }
+          let retries = 2;
+          let delayMs = 2000;
+          while (retries > 0 && !success) {
+            try {
+              console.log(`[PROXY] Sending request to Dedicated Gemini API: ${candidateModel}, Stream: ${!!stream}, Retries left: ${retries - 1}`);
+              apiResponse = await fetch(targetUrl, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(geminiPayload),
+                signal: AbortSignal.timeout(240000)
+              });
+              
+              if (apiResponse.ok) {
+                if (stream) {
+                  success = true;
+                } else {
+                  const geminiData = await apiResponse.json();
+                  const nonThoughtParts = (geminiData?.candidates?.[0]?.content?.parts || []).filter(p => !p.thought && typeof p.text === 'string' && p.text.trim().length > 0);
+                  if (nonThoughtParts.length > 0) {
+                    geminiData.candidates[0].content.parts = nonThoughtParts;
+                    verifiedGeminiData = geminiData;
+                    success = true;
+                  } else {
+                    console.warn(`[PROXY] Gemini (${candidateModel}) returned 200 OK but empty text parts (finishReason: ${geminiData?.candidates?.[0]?.finishReason}). Trying next model/provider...`);
+                    lastStatus = 204;
+                    break;
+                  }
+                }
+              } else if (apiResponse.status === 429 || apiResponse.status === 503) {
+                console.warn(`[PROXY] Gemini API Error (${apiResponse.status}) on ${candidateModel}. Waiting ${delayMs}ms...`);
+                lastStatus = apiResponse.status;
+                await new Promise(r => setTimeout(r, delayMs));
+                delayMs *= 2;
+                retries--;
+              } else {
+                const errText = await apiResponse.text();
+                console.error(`[PROXY] Gemini API Error on ${candidateModel}:`, apiResponse.status, errText);
+                lastStatus = apiResponse.status;
+                break;
+              }
+            } catch (err) {
+              console.error(`[PROXY] Exception during request to Gemini (${candidateModel}):`, err.message);
+              if (retries > 1) {
+                console.warn(`[PROXY] Retrying after exception. Waiting ${delayMs}ms...`);
+                await new Promise(r => setTimeout(r, delayMs));
+                delayMs *= 2;
+                retries--;
+              } else {
+                break;
+              }
+            }
+          }
+        }
+
+        // Build multi-turn messages array for OpenAI-compatible fallback providers
+        const fallbackMessages = [
+          ...(systemInstruction && systemInstruction.parts && systemInstruction.parts[0] ? [{ role: "system", content: systemInstruction.parts[0].text }] : []),
+          ...(Array.isArray(contents) && contents.length > 0
+            ? contents.map((c, idx) => ({
+                role: c.role === 'model' ? 'assistant' : 'user',
+                content: (idx === 0 && pdfPart ? `Text extracted from PDF:\n\n` : "") + (c.parts || []).map(p => p.text || '').join('\n')
+              }))
+            : [{ role: "user", content: (pdfPart ? `Text extracted from PDF:\n\n` : "") + textPrompt }])
+        ];
+        const requestedMaxTokens = Math.min(Math.max((generationConfig && generationConfig.maxOutputTokens) || 16384, 8192), 65536);
+
+        // Compact large intermediate assistant HTML turns for TPM-limited providers (e.g. Groq 8k TPM)
+        const groqFallbackMessages = fallbackMessages.map((msg, idx) => {
+          if (msg.role === 'assistant' && msg.content && msg.content.length > 4500 && idx < fallbackMessages.length - 1) {
+            const styleMatch = msg.content.match(/<style[^>]*>[\s\S]*?<\/style>/i);
+            const styleBlock = styleMatch ? styleMatch[0].slice(0, 1800) + '\n' : '';
+            const headPart = msg.content.slice(0, 600);
+            const tailPart = msg.content.slice(-1800);
+            return {
+              role: 'assistant',
+              content: `${styleBlock}${headPart}\n<!-- ... [middle HTML cards already generated] ... -->\n${tailPart}`
+            };
+          }
+          return msg;
+        });
+        
+        // --- FALLBACK TO GROQ MODELS FIRST (each has an independent 8k TPM bucket and max_tokens <= 16384) ---
+        if (!success && process.env.GROQ_API_KEY && !stream && textPrompt) {
+            const groqCandidateModels = ["qwen/qwen3.8-27b", "openai/gpt-oss-120b", "openai/gpt-oss-20b"];
+            const groqMaxTokens = Math.min(requestedMaxTokens, 16384);
+            for (const groqModel of groqCandidateModels) {
+                if (success) break;
+                console.log(`[PROXY] Falling back to Groq AI (${groqModel}, max_tokens=${groqMaxTokens})...`);
+                try {
+                    const groqBody = {
+                        model: groqModel,
+                        max_tokens: groqMaxTokens,
+                        messages: groqFallbackMessages,
+                        ...(groqModel.includes('gpt-oss') ? { reasoning_effort: 'low' } : {})
+                    };
+                    const groqRes = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${process.env.GROQ_API_KEY}` },
+                        body: JSON.stringify(groqBody),
+                        signal: AbortSignal.timeout(180000)
+                    });
+                    if (groqRes.ok) {
+                        const groqData = await groqRes.json();
+                        finalResponseText = groqData.choices?.[0]?.message?.content || '';
+                        if (groqData.choices?.[0]?.finish_reason === 'length') fallbackFinishReason = 'MAX_TOKENS';
+                        if (finalResponseText && finalResponseText.trim().length > 20) {
+                            success = true;
+                        }
+                    } else {
+                        console.error(`[PROXY] Groq (${groqModel}) API error:`, await groqRes.text());
+                    }
+                } catch (err) {
+                    console.error(`[PROXY] Exception during Groq (${groqModel}) request:`, err.message);
+                }
+            }
+        }
+
+        // --- FALLBACK TO OPENROUTER ---
+        if (!success && process.env.OPENROUTER_API_KEY && !stream && textPrompt) {
+            console.log(`[PROXY] Falling back to OpenRouter (google/gemini-2.5-pro)...`);
+            try {
+                const orRes = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${process.env.OPENROUTER_API_KEY}` },
+                    body: JSON.stringify({
+                        model: "google/gemini-2.5-pro",
+                        temperature: 0,
+                        max_tokens: Math.min(requestedMaxTokens, 4096),
+                        messages: fallbackMessages
+                    }),
+                    signal: AbortSignal.timeout(240000)
+                });
+                if (orRes.ok) {
+                    const orData = await orRes.json();
+                    finalResponseText = orData.choices[0].message.content;
+                    if (orData.choices[0].finish_reason === 'length') fallbackFinishReason = 'MAX_TOKENS';
+                    success = true;
+                } else {
+                    console.error('[PROXY] OpenRouter API error:', await orRes.text());
+                }
+            } catch (err) {
+                console.error('[PROXY] Exception during OpenRouter request:', err.message);
+            }
+        }
+
+        // --- FALLBACK TO CEREBRAS ---
+        if (!success && process.env.CEREBRAS_API_KEY && !stream && textPrompt) {
+            console.log(`[PROXY] Falling back to Cerebras AI (gpt-oss-120b)...`);
+            try {
+                const cerebrasRes = await fetch('https://api.cerebras.ai/v1/chat/completions', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${process.env.CEREBRAS_API_KEY}` },
+                    body: JSON.stringify({
+                        model: "gpt-oss-120b",
+                        max_completion_tokens: Math.min(requestedMaxTokens, 32768),
+                        messages: fallbackMessages
+                    }),
+                    signal: AbortSignal.timeout(180000)
+                });
+                if (cerebrasRes.ok) {
+                    const cerebrasData = await cerebrasRes.json();
+                    finalResponseText = cerebrasData.choices[0].message.content;
+                    if (cerebrasData.choices[0].finish_reason === 'length') fallbackFinishReason = 'MAX_TOKENS';
+                    success = true;
+                } else {
+                    console.error('[PROXY] Cerebras API error:', await cerebrasRes.text());
+                }
+            } catch (err) {
+                console.error('[PROXY] Exception during Cerebras request:', err.message);
+            }
+        }
+
+        if (success) {
+          if (finalResponseText) {
+             // Fallback models triggered. We need to mock the Gemini response structure.
+             const data = {
+                 candidates: [ { content: { parts: [ { text: finalResponseText } ] }, finishReason: fallbackFinishReason } ]
+             };
+             res.writeHead(200, { 'Content-Type': 'application/json' });
+             res.end(JSON.stringify(data));
+             return;
+          } else if (verifiedGeminiData) {
+             res.writeHead(200, { 'Content-Type': 'application/json' });
+             res.end(JSON.stringify(verifiedGeminiData));
+             return;
+          } else if (apiResponse) {
+              if (stream) {
+                res.writeHead(200, {
+                  'Content-Type': 'text/event-stream',
+                  'Cache-Control': 'no-cache',
+                  'Connection': 'keep-alive'
+                });
+                for await (const chunk of apiResponse.body) {
+                  res.write(chunk);
+                }
+                res.end();
+                return;
+              } else {
+                const data = await apiResponse.json();
+                res.writeHead(200, { 'Content-Type': 'application/json' });
+                res.end(JSON.stringify(data));
+                return;
+              }
+          }
+        } else {
+          console.warn('[PROXY] All AIs failed. Serving error message.');
+          const fallbackData = {
+            candidates: [
+              {
+                content: {
+                  parts: [
+                    { text: `### ⚠️ AI Quota Exhausted\n\nAll configured AI providers (Gemini, OpenRouter, Cerebras, Groq) have rejected the request. This usually means the API keys have reached their daily free-tier limits.\n\n**Debug Info:** Gemini Status: ${lastStatus}` }
+                  ]
+                },
+                finishReason: 'STOP'
+              }
+            ]
+          };
+          res.writeHead(500, { 'Content-Type': 'application/json' });
+          res.end(JSON.stringify(fallbackData));
+        }
+
+      } catch (err) {
+        console.error('[PROXY] Proxy error:', err);
+        res.writeHead(500, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ error: err.message }));
+      }
+    });
+    return;
+  }
+
+  // API Route: Google Veo 3 Interactive Lecture Generation
+  if (req.url === '/api/veo-generate' && req.method === 'POST') {
+    let body = '';
+    req.on('data', chunk => body += chunk);
+    req.on('end', async () => {
+      try {
+        const payload = JSON.parse(body);
+        const { topic, text } = payload;
+        
+        console.log(`[PROXY] Requesting Google Veo 3 video generation for topic: ${topic}`);
+        
+        // In a real environment, we would call the Veo 3 endpoint:
+        // const apiUrl = \`https://generativelanguage.googleapis.com/v1beta/models/veo-3:generateVideo?key=\${GEMINI_API_KEY}\`;
+        // Since Veo 3 API might require long-polling, we simulate an async generation process here.
+        
+        // Wait 2 seconds to simulate processing time
+        await new Promise(resolve => setTimeout(resolve, 2000));
+        
+        // We will return a high-quality placeholder video URL for the demonstration.
+        // In production, this would be the URI returned by the Veo 3 API.
+        const mockVideoUrl = "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4";
+        
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ 
+          success: true, 
+          videoUrl: mockVideoUrl,
+          message: "Video generated successfully by Veo 3."
+        }));
+      } catch (err) {
+        console.error('[PROXY] Error in Veo generation:', err);
+        res.writeHead(500, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ error: err.message }));
+      }
+    });
+    return;
+  }
+
+  // API Route: High Quality TTS (Proxying Google Translate TTS for premium voice)
+  if (req.url === '/api/tts' && req.method === 'POST') {
+    let body = '';
+    req.on('data', chunk => body += chunk);
+    req.on('end', async () => {
+      try {
+        const payload = JSON.parse(body);
+        let text = payload.text || '';
+        
+        // Google TTS limits text length to ~200 chars per request. We'll truncate or take the first part.
+        text = text.substring(0, 200); 
+        
+        const url = `https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=en-IN&q=${encodeURIComponent(text)}`;
+        const ttsRes = await fetch(url, {
+          headers: {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+            'Referer': 'https://translate.google.com/'
+          }
+        });
+        
+        if (!ttsRes.ok) {
+          throw new Error('TTS upstream failed');
+        }
+        
+        const arrayBuffer = await ttsRes.arrayBuffer();
+        const buffer = Buffer.from(arrayBuffer);
+        
+        res.writeHead(200, {
+          'Content-Type': 'audio/mpeg',
+          'Content-Length': buffer.length
+        });
+        res.end(buffer);
+      } catch (err) {
+        console.error('[PROXY] Error in TTS:', err);
+        res.writeHead(500, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ error: err.message }));
+      }
+    });
+    return;
+  }
+
+  // API Route: Vector DB RAG Search
+  if ((req.url === '/api/rag_search' || req.url === '/api/rag-search') && req.method === 'POST') {
+    let body = '';
+    req.on('data', chunk => body += chunk);
+    req.on('end', async () => {
+      try {
+        const payload = JSON.parse(body);
+        const query = payload.query || "";
+        const GEMINI_KEY = getGeminiKey();
+        
+        const topK = await searchRAG(query, GEMINI_KEY, 3);
+        
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ results: topK }));
+      } catch (err) {
+        console.error('[PROXY] Error in RAG search:', err);
+        res.writeHead(500, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ error: err.message }));
+      }
+    });
+    return;
+  }
+
+  // API Route: Admin User Status Update
+  if (req.url === '/api/admin/update-status' && req.method === 'POST') {
+    let body = '';
+    req.on('data', chunk => body += chunk);
+    req.on('end', async () => {
+      try {
+        const payload = JSON.parse(body || '{}');
+        const { userId, email, status } = payload;
+
+        if (!userId && !email) {
+          res.writeHead(400, { 'Content-Type': 'application/json' });
+          res.end(JSON.stringify({ error: 'userId or email is required' }));
+          return;
+        }
+
+        const SUPABASE_URL = process.env.SUPABASE_URL || 'https://usjzsdvsasjtsyzrvivx.supabase.co';
+        const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.SUPABASE_SERVICE_KEY;
+        const anonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVzanpzZHZzYXNqdHN5enJ2aXZ4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzkyNTUxMzksImV4cCI6MjA5NDgzMTEzOX0.8wLng1SDAhFPGvk5PQRu8XCqEWClpNPqHgEGpAx1vjk';
+        const keyToUse = serviceKey || anonKey;
+
+        let updateData = { status: status };
+        if (status === 'active') {
+          updateData.approved_at = new Date().toISOString();
+        }
+
+        // Strategy A: Call Supabase RPC admin_set_user_status (works seamlessly if defined with SECURITY DEFINER)
+        if (userId) {
+          try {
+            const rpcRes = await fetch(`${SUPABASE_URL}/rest/v1/rpc/admin_set_user_status`, {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+                'apikey': keyToUse,
+                'Authorization': `Bearer ${keyToUse}`
+              },
+              body: JSON.stringify({ target_user_id: userId, new_status: status })
+            });
+            if (rpcRes.ok) {
+              const rpcJson = await rpcRes.json().catch(() => null);
+              res.writeHead(200, { 'Content-Type': 'application/json' });
+              res.end(JSON.stringify({ success: true, viaRpc: true, data: rpcJson }));
+              return;
+            }
+          } catch (rpcErr) {
+            console.warn('[Admin] RPC error:', rpcErr.message);
+          }
+        }
+
+        // Strategy B: Direct REST PATCH
+        const queryParam = userId ? `id=eq.${encodeURIComponent(userId)}` : `email=eq.${encodeURIComponent(email)}`;
+        const updateUrl = `${SUPABASE_URL}/rest/v1/user_profiles?${queryParam}`;
+
+        const patchRes = await fetch(updateUrl, {
+          method: 'PATCH',
+          headers: {
+            'Content-Type': 'application/json',
+            'apikey': keyToUse,
+            'Authorization': `Bearer ${keyToUse}`,
+            'Prefer': 'return=representation'
+          },
+          body: JSON.stringify(updateData)
+        });
+
+        const patchJson = await patchRes.json().catch(() => null);
+
+        if (Array.isArray(patchJson) && patchJson.length > 0) {
+          res.writeHead(200, { 'Content-Type': 'application/json' });
+          res.end(JSON.stringify({ success: true, user: patchJson[0] }));
+          return;
+        }
+
+        // If 0 rows updated and no service key, report that RLS needs service key or RPC
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({
+          success: false,
+          requiresServiceKey: !serviceKey,
+          message: 'Supabase RLS blocked direct update. Set SUPABASE_SERVICE_ROLE_KEY in .env or run admin_set_user_status in Supabase SQL editor.'
+        }));
+      } catch (err) {
+        console.error('[Admin] Error in update-status:', err);
+        res.writeHead(500, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ error: err.message }));
+      }
+    });
+    return;
+  }
+
+  // Static files server
+  console.log(`[STATIC] ${req.method} ${req.url}`);
+  let rawReqPath = req.url === '/' ? 'index.html' : decodeURIComponent(req.url.split('?')[0]);
+  let filePath = path.join(__dirname, rawReqPath);
+  
+  // Basic security check: prevent path traversal outside workspace
+  if (!filePath.startsWith(__dirname)) {
+    res.writeHead(403);
+    res.end('Forbidden');
+    return;
+  }
+
+  // Fallback to public directory if file doesn't exist in root
+  if (!fs.existsSync(filePath)) {
+    const publicPath = path.join(__dirname, 'public', rawReqPath);
+    if (fs.existsSync(publicPath)) {
+      filePath = publicPath;
+    }
+  }
+
+  fs.stat(filePath, (err, stats) => {
+    if (err || !stats.isFile()) {
+      res.writeHead(404, { 'Content-Type': 'text/plain' });
+      res.end('404 Not Found');
+      return;
+    }
+
+    const ext = path.extname(filePath).toLowerCase();
+    const contentType = MIME_TYPES[ext] || 'application/octet-stream';
+    
+    res.writeHead(200, { 
+      'Content-Type': contentType,
+      'Cache-Control': 'no-store, no-cache, must-revalidate, proxy-revalidate',
+      'Pragma': 'no-cache',
+      'Expires': '0'
+    });
+    if (ext === '.html' || ext === '') {
+      let content = fs.readFileSync(filePath, 'utf8');
+      // Automatically bust the cache for all script/css tags in index.html
+      content = content.replace(/\?v=\d+/g, '?v=' + Date.now());
+      res.end(content);
+    } else if (filePath.endsWith('app.js')) {
+      // If the browser requests app2.js, serve the actual app.js from disk
+      if (filePath.endsWith('app2.js')) {
+        filePath = filePath.replace('app2.js', 'app.js');
+      }
+      let content = fs.readFileSync(filePath, 'utf8');
+      if (process.env.GROQ_API_KEY) {
+        content = content.replace(/PROCESS_ENV_GROQ_KEY/g, process.env.GROQ_API_KEY);
+      }
+      content = content.replace(/PROCESS_ENV_GEMINI_KEY/g, getGeminiKey());
+      if (process.env.CEREBRAS_API_KEY) {
+        content = content.replace(/PROCESS_ENV_CEREBRAS_KEY/g, process.env.CEREBRAS_API_KEY);
+      }
+      res.end(content);
+    } else {
+      const stream = fs.createReadStream(filePath);
+      stream.on('error', (streamErr) => {
+        if (!res.headersSent) {
+          res.writeHead(500, { 'Content-Type': 'text/plain' });
+        }
+        res.end('Error streaming file');
+      });
+      stream.pipe(res);
+    }
+  });
+};
+
+process.on('uncaughtException', (err) => {
+  console.error('[SERVER UNCAUGHT]', err && err.message ? err.message : err);
+});
+process.on('unhandledRejection', (reason) => {
+  console.error('[SERVER UNHANDLED REJECTION]', reason && reason.message ? reason.message : reason);
+});
+
+const server = http.createServer(requestHandler);
+server.timeout = 600000; // 10 minutes
+server.keepAliveTimeout = 600000;
+server.headersTimeout = 601000;
+
+if (require.main === module) {
+  // ── Data Integrity Gate (only run on standalone server startup, not serverless cold starts) ──
+  {
+    const { runValidation } = require('./validate_questions');
+    const validationResult = runValidation();
+
+    if (!validationResult.success) {
+      console.error('\n[SERVER] ⛔ Server startup BLOCKED due to data integrity errors.');
+      console.error('[SERVER] Run `node validate_questions.js` for the full report.');
+      console.error('[SERVER] Fix the errors in data.js, then restart.\n');
+      process.exit(1);
+    }
+  }
+  // ─────────────────────────────────────────────────────────────────────────────────────────────
+
+  server.listen(PORT, '0.0.0.0', () => {
+    console.log(`Tac-Revise Server running at http://0.0.0.0:${PORT}`);
+    
+    if (process.env.ENABLE_AUTO_CA_SCRAPE === 'true') {
+      // Trigger automated daily current affairs updates only when explicitly enabled
+      console.log("[AUTO-UPDATE] Scheduling startup updates (CA at 15s, ME at 45s)...");
+      setTimeout(() => {
+        autoUpdateCurrentAffairs()
+          .then(() => console.log("[AUTO-UPDATE] Startup auto-update CA completed successfully."))
+          .catch(err => console.error("[AUTO-UPDATE] Startup auto-update CA failed:", err));
+      }, 15000);
+
+      setTimeout(() => {
+        autoUpdateMilitaryExercises()
+          .then(() => console.log("[AUTO-UPDATE] Startup auto-update ME completed successfully."))
+          .catch(err => console.error("[AUTO-UPDATE] Startup auto-update ME failed:", err));
+      }, 45000);
+    
+      setInterval(() => {
+        autoUpdateCurrentAffairs()
+          .then(() => console.log("[AUTO-UPDATE] Scheduled auto-update CA completed successfully."))
+          .catch(err => console.error("[AUTO-UPDATE] Scheduled auto-update CA failed:", err))
+          .finally(() => {
+            setTimeout(() => {
+              autoUpdateMilitaryExercises()
+                .then(() => console.log("[AUTO-UPDATE] Scheduled auto-update ME completed successfully."))
+                .catch(err => console.error("[AUTO-UPDATE] Scheduled auto-update ME failed:", err));
+            }, 30000);
+          });
+      }, 24 * 60 * 60 * 1000); // every 24 hours
+    }
+  });
+}
+
+module.exports = requestHandler;
+

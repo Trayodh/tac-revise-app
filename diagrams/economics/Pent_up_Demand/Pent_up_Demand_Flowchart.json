@@ -1,0 +1,23 @@
+{
+  "title": "Pent-up Demand Flowchart",
+  "subject": "Economics",
+  "chapter": "Pent-up Demand",
+  "topic": "Factors leading to pent-up demand",
+  "difficulty": "Easy",
+  "rendering_engine": "Mermaid",
+  "exams": [
+    "NDA",
+    "CDS",
+    "AFCAT"
+  ],
+  "keywords": [
+    "pent-up demand",
+    "job loss",
+    "salary cuts",
+    "vaccine",
+    "pandemic"
+  ],
+  "caption": "Flowchart of factors generating pent‑up demand",
+  "altText": "A flowchart showing how an economic shock leads to fear of job loss and salary cuts, which increase household savings. As the pandemic recedes and vaccines are developed, health outlook improves, boosting consumer confidence. The combination of higher savings and rising confidence creates pent‑up demand, which then drives higher consumption.",
+  "source": "Automated Pipeline"
+}

@@ -1,0 +1,56 @@
+{
+  "mock_test_id": "MOCK_CDS_GK_001",
+  "exam": "CDS",
+  "paper_type": "General Knowledge",
+  "blueprint_used": "CDS General Knowledge Mini-Mock Blueprint v1.0",
+  "total_questions": 1,
+  "total_marks": 1,
+  "time_limit": "1 Minute",
+  "difficulty_distribution": {
+    "very_easy": "100%",
+    "easy": "0%",
+    "medium": "0%",
+    "hard": "0%",
+    "very_hard": "0%"
+  },
+  "subject_distribution": {
+    "Indian Polity": 1
+  },
+  "chapter_distribution": {
+    "Union Executive": 1
+  },
+  "topic_distribution": {
+    "President of India": 1
+  },
+  "selected_questions": [
+    {
+      "question_id": "TEST_001",
+      "question_text": "Who is the current President of India? (as of 2024)",
+      "options": {
+        "A": "Narendra Modi",
+        "B": "Ram Nath Kovind",
+        "C": "Droupadi Murmu",
+        "D": "Pranab Mukherjee"
+      },
+      "estimated_solve_time": "15 seconds"
+    }
+  ],
+  "estimated_total_solve_time": "15 seconds",
+  "similarity_score": {
+    "syllabus_similarity": 100,
+    "difficulty_similarity": 100,
+    "overall_similarity_score": 100
+  },
+  "quality_assurance_report": "PASS: The mini-mock test successfully selected 1 canonical question adhering to the CDS General Knowledge blueprint. Zero duplicates identified. Question quality score is 92/100, meeting all quality and validation criteria.",
+  "answer_key": [
+    {
+      "question_id": "TEST_001",
+      "correct_answer": "C",
+      "explanation": "Droupadi Murmu assumed office as the 15th President of India on July 25, 2022, and is the incumbent President of India."
+    }
+  ],
+  "performance_metadata": {
+    "question_id": "TEST_001"
+  },
+  "export_format": "JSON"
+}

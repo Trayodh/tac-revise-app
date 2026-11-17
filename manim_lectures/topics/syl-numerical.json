@@ -1,0 +1,44 @@
+{
+    "id": "syl-numerical",
+    "title": "Chemical Bonding & Periodic Table",
+    "subject": "Chemistry (NDA/CDS)",
+    "subjectId": "chemistry",
+    "chapter": "Chemical Bonding",
+    "chapterId": "chemistry-bonding",
+    "blocks": [
+        {
+            "heading": "1. Types of Chemical Bonds",
+            "intro": "",
+            "bullets": [
+                "Electrovalent/Ionic Bond : Formed by complete transfer of electrons from electropositive metal to electronegative non-metal (e.g., NaCl, CaCl\u2082). Properties: High melting/boiling points, soluble in water, conduct electricity in molten/solution state.",
+                "Covalent Bond : Formed by equal sharing of electrons between non-metals (e.g., H\u2082, O\u2082, H\u2082O). Properties: Low melting/boiling points, insoluble in water (soluble in organic solvents), poor conductors.",
+                "Coordinate/Dative Bond : Special covalent bond where shared pair is donated by one atom (donor) and accepted by another (acceptor) (e.g., NH\u2084\u207a, H\u2083O\u207a).",
+                "Hydrogen Bond : Electrostatic force of attraction between hydrogen atom bonded to a highly electronegative atom (F, O, N) and another electronegative atom. Intermolecular H-bonding: Between different molecules (e.g., H\u2082O, HF). Explains why H\u2082O is liquid while H\u2082S is gas.",
+                "Intramolecular H-bonding: Within the same molecule (e.g., o-nitrophenol)."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Modern Periodic Table & Periodic Trends",
+            "intro": "Developed by Henry Moseley, based on **Atomic Number**. Has 18 groups and 7 periods.",
+            "bullets": [
+                "Atomic Radius : Across Period (Left to Right): **Decreases** due to increase in effective nuclear charge (pulls electrons closer).",
+                "Down Group (Top to Bottom): **Increases** due to addition of new electron shells.",
+                "Ionization Energy (IE) : Energy required to remove the outermost electron. Across Period: **Increases** (atomic size decreases, nuclear pull increases).",
+                "Down Group: **Decreases** (atomic size increases, easier to remove outer electron).",
+                "Electronegativity : Tendency of an atom to attract shared electron pair. Across Period: **Increases** (Fluorine is most electronegative).",
+                "Down Group: **Decreases**.",
+                "Metallic Character (Electropositivity) : Across Period: **Decreases**.",
+                "Down Group: **Increases** (Francium/Cesium are highly metallic)."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Ionic Bond: Electron transfer",
+        "Covalent Bond: Electron sharing",
+        "H-Bonding: Strongest intermolecular attraction",
+        "Electronegativity: F > O > N > Cl"
+    ],
+    "hasNotes": true
+}

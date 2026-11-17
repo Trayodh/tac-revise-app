@@ -1,0 +1,20 @@
+{
+  "title": "Plate Tectonics Boundary Types",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Earth Structure & Atmosphere",
+  "topic": "Plate Tectonics",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Plate Boundaries] --> B[Divergent]\n    B --> C[Mid‑Ocean Ridges / Rift Valleys]\n    A --> D[Convergent]\n    D --> E[Subduction Zones / Continental Collisions]\n    A --> F[Transform]\n    F --> G[Strike‑slip Faults]",
+  "mapQuery": "",
+  "description": "Diagram summarising the three main types of plate boundaries and their characteristic geological features.",
+  "keywords": [
+    "plate tectonics",
+    "divergent",
+    "convergent",
+    "transform",
+    "mid‑ocean ridge",
+    "subduction",
+    "fault"
+  ]
+}

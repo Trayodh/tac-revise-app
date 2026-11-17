@@ -1,0 +1,53 @@
+{
+  "Physics": {},
+  "Measurement and Motion": {
+    "status": "FAILED_VALIDATION",
+    "audit_reports": {
+      "Physical Quantities and Units": {
+        "audit_answers": {
+          "missing_knowledge": "Error theory and its applications in physics",
+          "inaccurate_statements": "None",
+          "deceptively_shallow_topics": "Dimensional analysis",
+          "unnecessary_trivia": "None",
+          "weakness_exposed_by_hard_pyq": "Application of dimensional analysis to complex problems or understanding of fundamental concepts of physical quantities and units"
+        },
+        "final_status": "NEEDS EXPANSION",
+        "critical_gaps_remaining": true
+      }
+    }
+  },
+  "History": {},
+  "Ancient India": {
+    "status": "FAILED_VALIDATION",
+    "audit_reports": {
+      "The Pre-History or Stone Age": {
+        "audit_answers": {
+          "missing_knowledge": "More detailed information about the Indus Valley Civilization, specific details about the tools used during each stage of the Stone Age, and more information about the social and cultural developments during each stage of the Stone Age.",
+          "inaccurate_statements": "The statement that the Neolithic Revolution was the most significant turning point in human history, and the statement that the Chalcolithic cultures did not know how to mix copper with tin to make bronze.",
+          "deceptively_shallow_topics": "The Neolithic Revolution and the Chalcolithic Age.",
+          "unnecessary_trivia": "The worship of the Mother Goddess and the Bull during the Chalcolithic Age.",
+          "weakness_exposed_by_hard_pyq": "A question that requires the candidate to analyze the social and cultural implications of the Neolithic Revolution or the Chalcolithic Age."
+        },
+        "final_status": "NEEDS EXPANSION",
+        "critical_gaps_remaining": true
+      }
+    }
+  },
+  "Mathematics": {},
+  "Number System": {
+    "status": "FAILED_VALIDATION",
+    "audit_reports": {
+      "Types of Numbers": {
+        "audit_answers": {
+          "missing_knowledge": "Modular arithmetic, number theory, and quantitative aptitude topics",
+          "inaccurate_statements": "Definition of irrational numbers",
+          "deceptively_shallow_topics": "Complex numbers and number theory",
+          "unnecessary_trivia": "None",
+          "weakness_exposed_by_hard_pyq": "Modular arithmetic or number theory question"
+        },
+        "final_status": "NEEDS EXPANSION",
+        "critical_gaps_remaining": true
+      }
+    }
+  }
+}

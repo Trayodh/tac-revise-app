@@ -1,0 +1,19 @@
+{
+  "title": "Global Planetary Wind Systems",
+  "subject": "Geography",
+  "category": "Climate",
+  "chapter": "Atmospheric Pressure & Winds",
+  "topic": "Planetary Winds",
+  "format": "RealMap",
+  "description": "A map illustrating the global distribution and direction of the major planetary wind systems: Trade Winds, Westerlies, and Polar Easterlies.",
+  "keywords": [
+    "planetary winds",
+    "global winds",
+    "trade winds",
+    "westerlies",
+    "polar easterlies",
+    "atmospheric circulation",
+    "climate"
+  ],
+  "mapQuery": "global planetary wind systems map"
+}

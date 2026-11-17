@@ -1,0 +1,26 @@
+{
+  "title": "Elements and Factors Influencing Weather & Climate",
+  "subject": "Geography",
+  "category": "Climate",
+  "chapter": "Introduction to Climatology",
+  "topic": "Weather and Climate Basics",
+  "format": "Mermaid",
+  "description": "A mindmap illustrating the key elements of weather and climate (e.g., Temperature, Pressure, Wind) and the various factors that influence climate (e.g., Latitude, Altitude, Ocean Currents).",
+  "keywords": [
+    "weather",
+    "climate",
+    "climatology",
+    "elements of weather",
+    "factors influencing climate",
+    "temperature",
+    "pressure",
+    "wind",
+    "humidity",
+    "precipitation",
+    "solar radiation",
+    "latitude",
+    "altitude",
+    "ocean currents"
+  ],
+  "mermaidCode": "mindmap\n    root((Climatology))\n        Weather & Climate\n            Elements\n                Temperature\n                Atmospheric Pressure\n                Wind\n                Humidity\n                Precipitation\n                Solar Radiation\n                Clouds\n            Factors Influencing Climate\n                Latitude\n                Altitude\n                Continentality\n                Ocean Currents\n                Relief Features\n                Prevailing Winds\n                Vegetation Cover"
+}

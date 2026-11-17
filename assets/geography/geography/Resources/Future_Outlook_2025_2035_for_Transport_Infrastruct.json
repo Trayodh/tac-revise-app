@@ -1,0 +1,17 @@
+{
+  "title": "Future Outlook 2025‑2035 for Transport Infrastructure",
+  "subject": "Geography",
+  "category": "Resources",
+  "chapter": "Future Outlook (2025‑2035)",
+  "topic": "Strategic Priorities Timeline",
+  "format": "Mermaid",
+  "mermaidCode": "timeline\n    title Future Outlook 2025‑2035\n    2025 : Completion of Bharatmala (target 84,000 km)\n    2026 : Pilot solar‑powered expressways\n    2028 : 50% of Bharatmala under construction\n    2030 : Expansion to NW‑12 and NW‑13 (~7,000 km)\n    2035 : AI‑driven logistics integration",
+  "mapQuery": "",
+  "description": "Timeline of planned infrastructure initiatives up to 2035, covering highways, waterways, electrified corridors, and AI‑driven logistics.",
+  "keywords": [
+    "Bharatmala",
+    "National Waterways",
+    "electrified corridors",
+    "AI logistics"
+  ]
+}

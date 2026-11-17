@@ -1,0 +1,169 @@
+{
+  "student_id": "STUDENT_9921",
+  "performance_summary": {
+    "overall_accuracy": "0.0%",
+    "questions_attempted": 1,
+    "questions_correct": 0,
+    "questions_incorrect": 1,
+    "average_solve_time": "45 seconds"
+  },
+  "subject_analytics": {
+    "Indian Polity": {
+      "questions_attempted": 1,
+      "questions_correct": 0,
+      "accuracy": "0.0%",
+      "average_solve_time_seconds": 45,
+      "performance_level": "Needs Immediate Attention"
+    }
+  },
+  "chapter_analytics": {
+    "Union Executive": {
+      "questions_attempted": 1,
+      "questions_correct": 0,
+      "accuracy": "0.0%",
+      "mastery_status": "Unmastered"
+    }
+  },
+  "topic_analytics": {
+    "President of India": {
+      "questions_attempted": 1,
+      "questions_correct": 0,
+      "accuracy": "0.0%",
+      "subtopic": "Incumbent Office Holder & Constitutional Position",
+      "status": "Weak"
+    }
+  },
+  "concept_mastery_map": {
+    "Incumbent President of India": {
+      "mastery_score": 0,
+      "status": "Novice",
+      "last_tested": "2024-07-27"
+    }
+  },
+  "error_analysis": {
+    "primary_error_type": "Temporal Differentiation / Outdated Memory",
+    "error_breakdown": [
+      {
+        "question_id": "TEST_001",
+        "selected_option": "B",
+        "correct_option": "C",
+        "distractor_type": "High Plausibility / Outdated Memory",
+        "misconception": "Relied on outdated static memory selecting former President Ram Nath Kovind instead of current President Droupadi Murmu."
+      }
+    ]
+  },
+  "speed_analysis": {
+    "average_solve_time_seconds": 45,
+    "expected_benchmark_seconds": 15,
+    "speed_efficiency": "Slow",
+    "time_delta_seconds": 30,
+    "insight": "Spent 30 seconds longer than estimated benchmark on a simple factual recall question, indicating hesitation or doubt between distractors."
+  },
+  "revision_schedule": [
+    {
+      "topic": "Current National Appointments",
+      "scheduled_date": "2024-07-28",
+      "priority": "High",
+      "reason": "Incorrect response on incumbent President of India."
+    },
+    {
+      "topic": "Articles 52 to 62 (Union Executive - President)",
+      "scheduled_date": "2024-07-29",
+      "priority": "Medium",
+      "reason": "Prerequisite static polity coverage related to Union Executive."
+    }
+  ],
+  "knowledge_gap_report": [
+    {
+      "gap_id": "GAP_POL_001",
+      "domain": "Indian Polity & Current Affairs",
+      "concept": "Incumbent Office Holders and Key Constitutional Appointments",
+      "impact": "High loss of easy factual marks in CDS General Knowledge",
+      "remedial_action": "Review current national office holders and key constitutional appointments list for 2023-2024."
+    }
+  ],
+  "adaptive_study_plan": {
+    "immediate_remediation": [
+      "Review list of current constitutional office holders in India (President, Vice-President, PM, CJI, CAG, etc.).",
+      "Study basic distinction between Head of State (President) and Head of Government (Prime Minister) in Indian Polity."
+    ],
+    "next_study_topics": [
+      "Election Process of President of India (Articles 54-55)",
+      "Powers and Functions of the President (Articles 53, 72, 123)",
+      "Impeachment Process of the President (Article 61)"
+    ],
+    "weekly_goal": "Clear fundamental static facts and updates in Indian Polity Union Executive module."
+  },
+  "question_recommendations": [
+    {
+      "recommended_question_id": "REC_POL_001",
+      "topic": "President of India",
+      "difficulty": "Easy",
+      "purpose": "Reinforce correct recall of President Droupadi Murmu and tenure details."
+    },
+    {
+      "recommended_question_id": "REC_POL_002",
+      "topic": "Articles 52 to 62",
+      "difficulty": "Medium",
+      "purpose": "Transition from factual recall to constitutional provisions governing the President."
+    }
+  ],
+  "mock_recommendations": [
+    {
+      "mock_id": "MOCK_CDS_GK_CA_01",
+      "name": "CDS GK Current Appointments & Polity Basics Sectional Quiz",
+      "focus_area": "Current Affairs & Indian Polity Basics",
+      "recommended_completion_date": "2024-07-30"
+    }
+  ],
+  "exam_readiness_report": {
+    "target_exam": "CDS",
+    "readiness_percentage": "5.0%",
+    "readiness_level": "Early Preparation Stage",
+    "key_bottleneck": "Outdated memory recall on basic current appointments and low study volume."
+  },
+  "score_projection": {
+    "current_projected_score": "10-20 / 100 in GK Section",
+    "potential_score": "60-70 / 100 in GK Section",
+    "requirements_for_potential": "Systematic revision of Current Affairs and static Indian Polity basics."
+  },
+  "risk_report": [
+    {
+      "risk_factor": "Outdated Memory Traps",
+      "risk_level": "High",
+      "description": "Susceptible to choosing distractors featuring former office holders due to lack of recent current affairs updates.",
+      "mitigation_strategy": "Daily 15-minute quick flashcard revision of current office holders."
+    },
+    {
+      "risk_factor": "Solve Time Overruns",
+      "risk_level": "Medium",
+      "description": "Taking 45 seconds on 15-second recall questions will cause severe time crunch during full length CDS exam.",
+      "mitigation_strategy": "Timed speed drills on factual current affairs."
+    }
+  ],
+  "learning_behavior_analysis": [
+    {
+      "behavior_trait": "Hesitant Recall",
+      "observation": "Spent 45 seconds on a 'Very Easy' factual recall question and selected a misleading distractor.",
+      "actionable_insight": "Focus on strengthening confidence in core factual updates so recall is instant (<15s)."
+    }
+  ],
+  "goal_tracking": {
+    "target_exam": "CDS",
+    "exam_date": "2024-09-01",
+    "days_remaining": 36,
+    "total_study_hours_logged": 1.5,
+    "target_accuracy_percentage": "75.0%",
+    "current_accuracy_percentage": "0.0%"
+  },
+  "motivational_feedback": "Every mistake is a stepping stone to mastery! Selecting a former President instead of the incumbent is a very common trap when updating your knowledge base. Review current appointments today and build a winning streak for CDS 2024!",
+  "dashboard_metrics": {
+    "overall_accuracy": "0.0%",
+    "total_attempts": 1,
+    "avg_speed_sec": 45,
+    "study_hours": 1.5,
+    "exam_readiness": "5.0%"
+  },
+  "confidence_score": 95,
+  "last_updated": "2024-07-27T12:00:00Z"
+}

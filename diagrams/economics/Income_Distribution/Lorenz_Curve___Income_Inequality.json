@@ -1,0 +1,21 @@
+{
+  "title": "Lorenz Curve – Income Inequality",
+  "subject": "Economics",
+  "chapter": "Income Distribution",
+  "topic": "Lorenz Curve",
+  "difficulty": "Medium",
+  "rendering_engine": "SVG",
+  "exams": [
+    "NDA",
+    "CDS",
+    "AFCAT"
+  ],
+  "keywords": [
+    "Lorenz curve",
+    "income inequality",
+    "distribution"
+  ],
+  "caption": "Lorenz curve showing cumulative population versus cumulative income share with the line of perfect equality.",
+  "altText": "A graph with white background, axes labeled 'Cumulative Population %' (horizontal) and 'Cumulative Income %' (vertical). A gray dashed diagonal line from the origin (0%,0%) to (100%,100%) represents perfect equality. A blue curved line (Lorenz curve) bows below the diagonal, indicating that lower‑income groups receive a smaller share of total income. The curve starts at (0%,0%) and ends at (100%,100%).",
+  "source": "Automated Pipeline"
+}

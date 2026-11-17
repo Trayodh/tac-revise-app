@@ -1,0 +1,17 @@
+{
+  "title": "Types of Galaxies",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "The Universe & Solar System",
+  "topic": "Galaxies",
+  "format": "Mermaid",
+  "description": "A classification diagram showing the main types of galaxies: Spiral, Elliptical, and Irregular, with examples like the Milky Way.",
+  "keywords": [
+    "Galaxies",
+    "Spiral galaxy",
+    "Elliptical galaxy",
+    "Irregular galaxy",
+    "Milky Way"
+  ],
+  "mermaidCode": "graph TD\n    A[Galaxies] --> B{Morphology};\n    B --> C[Spiral];\n    C --> C1(e.g., Milky Way);\n    B --> D[Elliptical];\n    D --> D1(Smooth, Spheroidal, Older Stars);\n    B --> E[Irregular];\n    E --> E1(Chaotic Shapes, Gravitational Interactions);"
+}

@@ -1,0 +1,66 @@
+{
+    "id": "differentiation",
+    "title": "Differentiation Rules",
+    "subject": "Mathematics (NDA/CDS)",
+    "subjectId": "mathematics",
+    "chapter": "Calculus",
+    "chapterId": "calculus",
+    "blocks": [
+        {
+            "heading": "1. General Differentiation Rules",
+            "intro": "",
+            "bullets": [
+                "Product Rule : d/dx(u\u00b7v) = u'v + uv'",
+                "Quotient Rule : d/dx(u/v) = (u'v - uv') / v\u00b2",
+                "Chain Rule : d/dx(f(g(x))) = f'(g(x)) \u00b7 g'(x)"
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Derivatives of Algebraic & Exponential Functions",
+            "intro": "",
+            "bullets": [
+                "d/dx(x\u207f) = n\u00b7x\u207f\u207b\u00b9",
+                "d/dx(e\u02e3) = e\u02e3",
+                "d/dx(a\u02e3) = a\u02e3 ln a (a > 0)",
+                "d/dx(ln x) = 1/x",
+                "d/dx(log\u2090 x) = 1 / (x ln a)"
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "3. Trigonometric Derivatives",
+            "intro": "",
+            "bullets": [
+                "d/dx(sin x) = cos x",
+                "d/dx(cos x) = -sin x",
+                "d/dx(tan x) = sec\u00b2 x",
+                "d/dx(sec x) = sec x tan x",
+                "d/dx(cosec x) = -cosec x cot x",
+                "d/dx(cot x) = -cosec\u00b2 x"
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "4. Inverse Trigonometric Derivatives",
+            "intro": "",
+            "bullets": [
+                "d/dx(sin\u207b\u00b9 x) = 1 / \u221a(1 - x\u00b2)",
+                "d/dx(cos\u207b\u00b9 x) = -1 / \u221a(1 - x\u00b2)",
+                "d/dx(tan\u207b\u00b9 x) = 1 / (1 + x\u00b2)",
+                "d/dx(cot\u207b\u00b9 x) = -1 / (1 + x\u00b2)",
+                "d/dx(sec\u207b\u00b9 x) = 1 / (|x|\u221a(x\u00b2 - 1))",
+                "d/dx(cosec\u207b\u00b9 x) = -1 / (|x|\u221a(x\u00b2 - 1))"
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "(uv)' = u'v + uv'",
+        "(u/v)' = (u'v - uv')/v\u00b2",
+        "d/dx(a\u02e3) = a\u02e3\u00b7lna",
+        "d/dx(sin\u207b\u00b9x) = 1/\u221a(1-x\u00b2)",
+        "d/dx(tan\u207b\u00b9x) = 1/(1+x\u00b2)"
+    ],
+    "hasNotes": true
+}

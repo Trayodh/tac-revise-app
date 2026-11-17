@@ -1,0 +1,20 @@
+{
+  "title": "India's Multimodal Transport Network Overview",
+  "subject": "Geography",
+  "category": "Indian",
+  "chapter": "Transport Routes: Highways & Waterways",
+  "topic": "Overview of India’s Transport Network",
+  "format": "Mermaid",
+  "description": "An overview of India's multimodal transport system, categorizing it into roads, railways, airways, and inland waterways, and highlighting key policy initiatives like Sagarmala and NIWT.",
+  "keywords": [
+    "transport network",
+    "India",
+    "roads",
+    "railways",
+    "airways",
+    "inland waterways",
+    "Sagarmala",
+    "NIWT"
+  ],
+  "mermaidCode": "graph LR A[India's Transport Network] --> B(Roads) A --> C(Railways) A --> D(Airways) A --> E(Inland Waterways) E --> E1[Sagarmala Programme] E --> E2[National Inland Water Transport (NIWT)] B & C & D & E --> F[National Transport Policy 2020]"
+}

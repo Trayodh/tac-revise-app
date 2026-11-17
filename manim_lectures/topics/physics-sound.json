@@ -1,0 +1,17 @@
+{
+    "id": "physics-sound",
+    "title": "Sound Waves & Acoustics",
+    "subject": "Physics (NDA/CDS)",
+    "subjectId": "physics",
+    "chapter": "Waves & Acoustics",
+    "chapterId": "physics-waves",
+    "blocks": [],
+    "formulas": [
+        "v = sqrt(E/\u03c1)",
+        "Speed: Solid > Liquid > Gas",
+        "Decibel: Loudness unit",
+        "Echo distance: 17.2m",
+        "Doppler Effect"
+    ],
+    "hasNotes": false
+}

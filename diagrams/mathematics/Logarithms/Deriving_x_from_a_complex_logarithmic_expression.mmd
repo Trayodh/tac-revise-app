@@ -1,0 +1,11 @@
+graph TD
+    S[Start] --> O[Original: log_a(b^x * c) = log_a(d)]
+    O --> P[Apply product rule: log_a(b^x) + log_a(c) = log_a(d)]
+    P --> Q[Apply power rule: x·log_a(b) + log_a(c) = log_a(d)]
+    Q --> R[Isolate x‑term: x·log_a(b) = log_a(d) - log_a(c)]
+    R --> T[Combine RHS using quotient rule: x·log_a(b) = log_a(d/c)]
+    T --> U[Solve for x: x = log_a(d/c) / log_a(b)]
+    U --> V[Optional: change‑of‑base: x = log(d/c) / log(b)]
+    V --> E[End]
+    classDef startEnd fill:#f9f,stroke:#333,stroke-width:2px;
+    class S,E startEnd;

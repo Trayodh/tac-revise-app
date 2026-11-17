@@ -1,0 +1,32 @@
+{
+    "id": "rock-art",
+    "title": "Rock Art",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "2. Prehistoric India",
+    "chapterId": "prehistoric-india",
+    "blocks": [
+        {
+            "heading": "\ud83c\udfa8 Prehistoric Rock Art",
+            "intro": "Prehistoric rock art provides invaluable insights into the daily life, beliefs, and cognitive evolution of early humans.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. Bhimbetka Caves (Madhya Pradesh)",
+            "intro": "",
+            "bullets": [
+                "Discovery: Discovered by archaeologist **V.S. Wakankar** in 1957. Located in Vindhya Range, MP.",
+                "UNESCO Status: Declared a UNESCO World Heritage site in 2003.",
+                "Artistic Styles: Displays continuous artistic activity from the Upper Paleolithic, Mesolithic, Neolithic, Chalcolithic, to Historical periods.",
+                "Themes & Pigments: Mainly depicts wild animals (bison, tigers, elephants), hunting scenes, community dances, battles, and family life.",
+                "**Colors:** Used mineral colors mixed with water/animal fat. **Red** (from hematite/geru for hunters) and **Green** (from chalcedony for dancers) are the most prominent."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Bhimbetka discoverer: V.S. Wakankar (1957) | Colors: Green (dance), Red (hunt)"
+    ],
+    "hasNotes": true
+}

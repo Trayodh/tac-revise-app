@@ -1,0 +1,17 @@
+{
+    "id": "metals-alloys",
+    "title": "Metals, Ores, Alloys & Metallurgy",
+    "subject": "Chemistry (NDA/CDS)",
+    "subjectId": "chemistry",
+    "chapter": "Metals & Metallurgy",
+    "chapterId": "chemistry-metallurgy",
+    "blocks": [],
+    "formulas": [
+        "Al: Bauxite, Cryolite",
+        "Fe: Hematite, Magnetite",
+        "Alloys: Brass (Cu+Zn), Bronze (Cu+Sn), Solder (Pb+Sn)",
+        "Flotation: Sulphides",
+        "Roasting (air) vs Calcination (no air)"
+    ],
+    "hasNotes": false
+}

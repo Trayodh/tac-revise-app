@@ -1,0 +1,18 @@
+{
+  "title": "Survey of India Symbol Legend Diagram",
+  "subject": "Geography",
+  "category": "Cartography",
+  "chapter": "Symbolisation and Legend",
+  "topic": "Map Symbols",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\nA[Survey of India Symbol Legend] --> B[Hydrography: blue lines]\nA --> C[Transportation: black solid lines]\nA --> D[Military installations: red squares with crossed swords]\nA --> E[Topography: brown contour lines (20 m interval)]",
+  "mapQuery": "",
+  "description": "Diagram of the key symbols used in Indian topographic maps for hydrography, transportation, military installations, and topography.",
+  "keywords": [
+    "symbol legend",
+    "hydrography",
+    "transportation",
+    "military installations",
+    "topography"
+  ]
+}

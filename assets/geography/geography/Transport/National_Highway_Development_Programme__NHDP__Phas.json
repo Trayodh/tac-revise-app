@@ -1,0 +1,18 @@
+{
+  "title": "National Highway Development Programme (NHDP) Phases",
+  "subject": "Geography",
+  "category": "Transport",
+  "chapter": "Transport Routes",
+  "topic": "NHDP Timeline",
+  "format": "Mermaid",
+  "mermaidCode": "timeline\n    title NHDP Phases (1998‑2022)\n    1998-2003 : Phase I – Golden Quadrilateral, Delhi‑Mumbai Expressway (≈9,000 km)\n    2003-2009 : Phase II – North‑South & East‑West Corridors, NH‑7 upgrade (≈12,500 km)\n    2009-2015 : Phase III – Four‑lane widening of 30,000 km of NHs (≈30,000 km)\n    2015-2022 : Phase IV – First five Bharatmala corridors & 20+ expressways (≈5,000 km ongoing)",
+  "mapQuery": "",
+  "description": "Chronological timeline summarising the four phases of the National Highway Development Programme, key projects, and cumulative lengths.",
+  "keywords": [
+    "NHDP",
+    "national highways",
+    "timeline",
+    "phases",
+    "Bharatmala"
+  ]
+}

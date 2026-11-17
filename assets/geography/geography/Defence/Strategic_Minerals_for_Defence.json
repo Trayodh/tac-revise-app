@@ -1,0 +1,18 @@
+{
+  "title": "Strategic Minerals for Defence",
+  "subject": "Geography",
+  "category": "Defence",
+  "chapter": "Mineral Resources",
+  "topic": "Defence Relevance",
+  "format": "Mermaid",
+  "mermaidCode": "graph LR\n    Uranium -->|nuclear deterrence| Defence[Strategic Nuclear Triad]\n    REE[Rare Earth Elements] -->|radar, avionics, missile guidance| Defence2[Advanced Defence Systems]\n    Coal -->|fuel for defence railways & power plants| Defence3[Logistics Support]\n    IronOre & Aluminium -->|aircraft, naval hulls, armoured vehicles| Defence4[Platform Manufacturing]\n    subgraph Sources\n        Uranium --> Jaisalmer(Rajasthan)\n        REE --> Kudremukh(Karnataka)\n        REE --> Singhbhum(Jharkhand)\n        Coal --> Jharkhand_Odisha_Chhattisgarh\n        IronOre --> Odisha_Jharkhand\n        Aluminium --> Odisha\n    end",
+  "mapQuery": "",
+  "description": "Diagram linking key minerals to their strategic defence applications and primary mining locations.",
+  "keywords": [
+    "defence",
+    "strategic minerals",
+    "uranium",
+    "rare earth",
+    "coal"
+  ]
+}

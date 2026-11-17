@@ -1,0 +1,13 @@
+{
+    "id": "positions-tenures",
+    "title": "Elections, Appointments & Terms of Office",
+    "subject": "Indian Polity (CDS/NDA)",
+    "subjectId": "polity",
+    "chapter": "Advanced Polity Structures & Bodies",
+    "chapterId": "polity-advanced",
+    "blocks": [],
+    "formulas": [
+        "Ages: Pres (35), Gov (35), LS (25), RS (30)"
+    ],
+    "hasNotes": false
+}

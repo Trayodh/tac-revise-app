@@ -1,0 +1,87 @@
+{
+    "id": "rank-equivalence",
+    "title": "Equivalent Officer Ranks (Tri-Services)",
+    "subject": "Military GK & Aptitude",
+    "subjectId": "military-aptitude",
+    "chapter": "Command Structures & Ranks",
+    "chapterId": "defence-structures",
+    "blocks": [
+        {
+            "heading": "1. Commissioned Officers Rank Structure",
+            "intro": "Equivalent ranks in the three services are highly tested in CDS and AFCAT. Commissioned ranks from junior to senior levels:",
+            "bullets": [],
+            "tableRows": [
+                [
+                    "Army",
+                    "Navy",
+                    "Air Force",
+                    "Insignia Star Rating"
+                ],
+                [
+                    "Lieutenant",
+                    "Sub-Lieutenant",
+                    "Flying Officer",
+                    "Entry Rank"
+                ],
+                [
+                    "Captain",
+                    "Lieutenant",
+                    "Flight Lieutenant",
+                    "Junior Officer"
+                ],
+                [
+                    "Major",
+                    "Lieutenant Commander",
+                    "Squadron Leader",
+                    "Mid-Level Officer"
+                ],
+                [
+                    "Lieutenant Colonel",
+                    "Commander",
+                    "Wing Commander",
+                    "Selection Grade"
+                ],
+                [
+                    "Colonel",
+                    "Captain",
+                    "Group Captain",
+                    "Senior Level"
+                ],
+                [
+                    "Brigadier",
+                    "Commodore",
+                    "Air Commodore",
+                    "1 Star"
+                ],
+                [
+                    "Major General",
+                    "Rear Admiral",
+                    "Air Vice Marshal",
+                    "2 Star"
+                ],
+                [
+                    "Lieutenant General",
+                    "Vice Admiral",
+                    "Air Marshal",
+                    "3 Star"
+                ]
+            ]
+        },
+        {
+            "heading": "2. Honorary / Highest Ranks (5-Star Ranks)",
+            "intro": "",
+            "bullets": [
+                "Field Marshal (Army) : Ranks held by Sam Manekshaw and K.M. Cariappa.",
+                "Marshal of the Indian Air Force (IAF) : Rank held by Arjan Singh.",
+                "Admiral of the Fleet (Navy) : Peacetime equivalent five-star rank (no naval officer has received this yet)."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Lieutenant = Sub-Lieutenant = Flying Officer",
+        "Colonel = Captain = Group Captain",
+        "General = Admiral = Air Chief Marshal"
+    ],
+    "hasNotes": true
+}

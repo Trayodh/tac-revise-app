@@ -1,0 +1,18 @@
+{
+  "title": "Map Scale Hierarchy Diagram",
+  "subject": "Geography",
+  "category": "Cartography",
+  "chapter": "Scale and Representation",
+  "topic": "Map Scales",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\nA[Map Scales] --> B[1:50,000 – Tactical]\nA --> C[1:250,000 – Operational]\nA --> D[1:1,000,000 – Strategic]",
+  "mapQuery": "",
+  "description": "Flowchart illustrating the three standard map scales employed in Indian defence mapping and their typical usage levels.",
+  "keywords": [
+    "map scale",
+    "1:50,000",
+    "1:250,000",
+    "1:1,000,000",
+    "defence mapping"
+  ]
+}

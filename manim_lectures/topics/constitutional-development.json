@@ -1,0 +1,43 @@
+{
+    "id": "constitutional-development",
+    "title": "Constitutional Development",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "5. Modern India (Highest Priority)",
+    "chapterId": "modern-india-tree",
+    "blocks": [
+        {
+            "heading": "\ud83d\udcdc Constitutional Development",
+            "intro": "The evolution of India's administrative and legal framework through British parliamentary interventions.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. Company Regulation Acts",
+            "intro": "",
+            "bullets": [
+                "Regulating Act of 1773: First step by Parliament to supervise EIC. Governor of Bengal became GG of Bengal. Supreme Court at Calcutta set up.",
+                "Pitts India Act of 1784: Created a **Board of Control** in London to manage political affairs, establishing dual control.",
+                "Charter Act of 1813: Ended EIC's trade monopoly in India (except for tea and China trade). Allowed Christian missionaries.",
+                "Charter Act of 1833: Finished all commercial activities of EIC. GG of Bengal became **GG of India** (Bentinck).",
+                "Charter Act of 1853: Separated legislative and executive functions of GG's Council. Opened Civil Services to Indians."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Crown Administration Acts",
+            "intro": "",
+            "bullets": [
+                "Government of India Act 1858: Abolished EIC. Indian administration transferred to **British Crown**. Created Secretary of State for India.",
+                "Indian Councils Act 1909 (Morley-Minto Reforms): Introduced **Separate Electorate for Muslims** (legalized communalism). Satyendra Prasad Sinha joined Viceroy's Council.",
+                "Government of India Act 1919 (Montagu-Chelmsford Reforms): Introduced **Dyarchy in Provinces** (Transferred/Reserved subjects). Bicameral legislature at Centre.",
+                "Government of India Act 1935: Proposed All-India Federation (never formed). Abolished dyarchy in provinces, introduced **Provincial Autonomy**. Set up Federal Court, RBI, and divided subjects into Federal, Provincial, and Concurrent lists."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "1773: Supreme Court | 1833: GG of India | 1909: Separate Electorate | 1919: Provincial Dyarchy | 1935: Provincial Autonomy"
+    ],
+    "hasNotes": true
+}

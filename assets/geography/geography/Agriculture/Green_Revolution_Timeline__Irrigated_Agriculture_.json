@@ -1,0 +1,18 @@
+{
+  "title": "Green Revolution Timeline (Irrigated Agriculture)",
+  "subject": "Geography",
+  "category": "Agriculture",
+  "chapter": "Farming Systems",
+  "topic": "Irrigated Agriculture History",
+  "format": "Mermaid",
+  "mermaidCode": "timeline\n    title Green Revolution in PWU Region\n    1960 : Introduction of HYVs of wheat & rice\n    1965 : Indira Gandhi Canal operational\n    1970 : Bhakra‑Nangal Dam completed\n    1980 : Widespread use of NPK fertilizers & pesticides\n    1990 : Peak productivity (>50% of India’s wheat output)\n    2000 : Emerging groundwater depletion concerns\n    2010 : Initiatives for sustainable irrigation (e.g., micro‑irrigation)",
+  "mapQuery": "",
+  "description": "Chronological timeline highlighting key milestones of the Green Revolution in the Punjab‑Haryana‑Western UP belt and associated water sources and inputs.",
+  "keywords": [
+    "green revolution",
+    "irrigated agriculture",
+    "timeline",
+    "Punjab",
+    "HYVs"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+    "id": "biology-ecology-basics",
+    "title": "Ecology Basics & Pyramids",
+    "subject": "Biology (NDA/CDS)",
+    "subjectId": "biology",
+    "chapter": "Ecology & Ecosystems",
+    "chapterId": "biology-ecology",
+    "blocks": [],
+    "formulas": [
+        "Lindeman's 10% Law: only 10% energy transferred to next level",
+        "Pyramids: Numbers (inverted in tree), Biomass (inverted in marine), Energy (ALWAYS upright)",
+        "Ecotone: transition zone between two ecosystems (e.g., Mangrove)"
+    ],
+    "hasNotes": false
+}

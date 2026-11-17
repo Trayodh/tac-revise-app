@@ -1,0 +1,22 @@
+{
+  "title": "Finding remainder of 37^1000 divided by 9",
+  "subject": "Mathematics",
+  "chapter": "Modular Arithmetic",
+  "topic": "Remainder calculation",
+  "difficulty": "Hard",
+  "rendering_engine": "Mermaid",
+  "exams": [
+    "NDA",
+    "CDS",
+    "AFCAT"
+  ],
+  "keywords": [
+    "remainder",
+    "modulo",
+    "exponentiation",
+    "9"
+  ],
+  "caption": "Flowchart for computing the remainder of 37^1000 divided by 9",
+  "altText": "A flowchart showing the logical steps: start, identify the expression 37 to the power of 1000, reduce the base modulo 9, compute 37 mod 9 which equals 1, replace the original expression with 1 to the 1000th power, simplify that to 1, and conclude that the remainder when dividing by 9 is 1, then end.",
+  "source": "Automated Pipeline"
+}

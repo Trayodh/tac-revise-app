@@ -1,0 +1,18 @@
+{
+  "title": "Human Geography PYQ Focus Areas",
+  "subject": "Geography",
+  "category": "Human",
+  "chapter": "Topic‑Wise PYQ Trends – Human Geography",
+  "topic": "Population Dynamics, Urbanisation, Economic Development",
+  "format": "Mermaid",
+  "mermaidCode": "graph LR\n    A[Population Dynamics] --> B[Growth Rates, Density, Demographic Transition]\n    C[Urbanisation] --> D[Megacities, Urban Sprawl, Smart‑City Initiatives]\n    E[Economic Development] --> F[Industrial Corridors, Agricultural Productivity, Regional Disparities]\n    style A fill:#fc9,stroke:#333,stroke-width:2px\n    style C fill:#fc9,stroke:#333,stroke-width:2px\n    style E fill:#fc9,stroke:#333,stroke-width:2px",
+  "mapQuery": "",
+  "description": "Tree diagram summarising the key human geography themes that appear in recent PYQs.",
+  "keywords": [
+    "PYQ",
+    "population",
+    "urbanisation",
+    "economic development",
+    "human geography"
+  ]
+}

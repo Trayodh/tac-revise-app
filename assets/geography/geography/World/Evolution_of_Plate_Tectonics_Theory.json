@@ -1,0 +1,16 @@
+{
+  "title": "Evolution of Plate Tectonics Theory",
+  "subject": "Geography",
+  "category": "World",
+  "chapter": "Plate Tectonics",
+  "topic": "Historical Development",
+  "format": "Mermaid",
+  "mermaidCode": "graph LR\nEarlyTheories --> ContinentalDrift[Continental Drift (1912)]\nEarlyTheories --> ConvectionCurrent[Convectional Current Theory (1930s)]\nEarlyTheories --> SeafloorSpreading[Seafloor Spreading (1960s)]\nEarlyTheories --> ModernTheory[Modern Theory (Plate Tectonics)]",
+  "mapQuery": "",
+  "description": "Timeline flowchart of the major milestones leading to the modern plate tectonics model.",
+  "keywords": [
+    "continental drift",
+    "seafloor spreading",
+    "plate tectonics history"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "reading-comprehension",
+    "title": "Reading Comprehension",
+    "subject": "English (NDA/CDS/AFCAT)",
+    "subjectId": "english",
+    "chapter": "Vocabulary & Comprehension",
+    "chapterId": "vocabulary",
+    "blocks": [],
+    "formulas": [
+        "Main idea, detail, inference, tone, title finding strategies"
+    ],
+    "hasNotes": false
+}

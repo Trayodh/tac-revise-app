@@ -1,0 +1,13 @@
+{
+    "id": "modifiers",
+    "title": "Modifiers: Misplaced & Dangling",
+    "subject": "English (NDA/CDS/AFCAT)",
+    "subjectId": "english",
+    "chapter": "Grammar & Usage",
+    "chapterId": "grammar-rules",
+    "blocks": [],
+    "formulas": [
+        "Modifiers must be placed adjacent to the words they modify; dangling modifiers lack logical subjects"
+    ],
+    "hasNotes": false
+}

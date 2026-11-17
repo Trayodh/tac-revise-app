@@ -1,0 +1,19 @@
+{
+  "title": "Classification of Solar System Planets",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "The Universe & Solar System",
+  "topic": "The Solar System",
+  "format": "Mermaid",
+  "description": "A classification diagram categorizing the major planets of the Solar System into Terrestrial (Inner) and Jovian (Outer) planets, listing their members and key characteristics.",
+  "keywords": [
+    "Solar System planets",
+    "Terrestrial planets",
+    "Jovian planets",
+    "Inner planets",
+    "Outer planets",
+    "Rocky planets",
+    "Gas giants"
+  ],
+  "mermaidCode": "graph TD\n    A[Solar System Planets] --> B{Classification};\n    B --> C[Terrestrial (Inner) Planets];\n    C --> C1(Mercury);\n    C --> C2(Venus);\n    C --> C3(Earth);\n    C --> C4(Mars);\n    C --> C5(Rocky, Dense, Small, Few/No Moons);\n    B --> D[Jovian (Outer) Planets];\n    D --> D1(Jupiter);\n    D --> D2(Saturn);\n    D --> D3(Uranus);\n    D --> D4(Neptune);\n    D --> D5(Massive, Gaseous/Icy, Extensive Moons, Rings);"
+}

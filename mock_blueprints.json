@@ -1,0 +1,58 @@
+{
+    "NDA": {
+        "exam": "NDA",
+        "paper_1": {
+            "name": "Mathematics",
+            "total_questions": 120,
+            "marks_per_correct": 2.5,
+            "marks_per_incorrect": -0.83,
+            "subjects_included": [
+                "Mathematics"
+            ]
+        },
+        "paper_2": {
+            "name": "GAT",
+            "total_questions": 150,
+            "marks_per_correct": 4,
+            "marks_per_incorrect": -1.33,
+            "distribution": {
+                "English": 50,
+                "Science": 50,
+                "Humanities": 50
+            }
+        }
+    },
+    "CDS": {
+        "exam": "CDS",
+        "paper_1": {
+            "name": "English Language",
+            "total_questions": 120,
+            "total_marks": 100
+        },
+        "paper_2": {
+            "name": "General Knowledge",
+            "total_questions": 120,
+            "total_marks": 100
+        },
+        "paper_3": {
+            "name": "Elementary Mathematics",
+            "total_questions": 100,
+            "total_marks": 100
+        }
+    },
+    "AFCAT": {
+        "exam": "AFCAT",
+        "paper_1": {
+            "name": "United Paper",
+            "total_questions": 100,
+            "marks_per_correct": 3,
+            "marks_per_incorrect": -1,
+            "distribution": {
+                "Verbal English": 30,
+                "General Awareness": 25,
+                "Reasoning": 25,
+                "Numerical Ability": 20
+            }
+        }
+    }
+}

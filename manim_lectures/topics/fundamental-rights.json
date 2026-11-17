@@ -1,0 +1,44 @@
+{
+    "id": "fundamental-rights",
+    "title": "Fundamental Rights (Art 12-35)",
+    "subject": "Indian Polity (CDS/NDA)",
+    "subjectId": "polity",
+    "chapter": "Constitutional Framework",
+    "chapterId": "constitution-basics",
+    "blocks": [
+        {
+            "heading": "1. Classification of Fundamental Rights",
+            "intro": "Part III of the Constitution is called the **Magna Carta of India**.",
+            "bullets": [
+                "Right to Equality (Articles 14-18) : Art 14: Equality before law & Equal protection of laws.",
+                "Art 15: Prohibition of discrimination.",
+                "Art 16: Equality of opportunity in public employment.",
+                "Art 17: Abolition of Untouchability.",
+                "Art 18: Abolition of Titles.",
+                "Right to Freedom (Articles 19-22) : Art 19: Guarantees 6 democratic freedoms (speech, assembly, association, movement, residence, profession).",
+                "Art 20: Protection in respect of conviction for offences (no ex-post facto law, no double jeopardy, no self-incrimination).",
+                "Art 21: Protection of Life and Personal Liberty."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. The Five Prerogative Writs",
+            "intro": "",
+            "bullets": [
+                "Habeas Corpus ('To have the body of'): Issued to release a person unlawfully detained. Can be issued against both public and private entities.",
+                "Mandamus ('We command'): Issued to direct a public authority to perform a duty they have failed or refused to do. Cannot be issued against the President, Governors, or private individuals.",
+                "Prohibition ('To forbid'): Issued by a higher court to a lower court or quasi-judicial body to prevent it from exceeding its jurisdiction. (Preventive only).",
+                "Certiorari ('To be certified'): Issued to quash the order of a lower court or transfer case to itself. (Preventive and Curative).",
+                "Quo Warranto ('By what authority'): Issued to inquire into the legality of the claim of a person to a public office, preventing illegal usurpation."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Art 19 -> 6 democratic freedoms.",
+        "Art 21 -> Protection of Life and Liberty.",
+        "Art 32 -> Supreme Court Writs.",
+        "Art 226 -> High Court Writs."
+    ],
+    "hasNotes": true
+}

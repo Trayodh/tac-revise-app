@@ -1,0 +1,18 @@
+{
+  "title": "Global Pressure Belts",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Atmospheric Pressure & Winds",
+  "topic": "Pressure Belts",
+  "format": "RealMap",
+  "mermaidCode": "",
+  "mapQuery": "global pressure belts map",
+  "description": "World map displaying the four major pressure belts: Equatorial Low (Doldrums), Subtropical High (Horse Latitudes), Sub‑polar Low, and Polar High, with latitude ranges.",
+  "keywords": [
+    "pressure belts",
+    "global pressure",
+    "equatorial low",
+    "subtropical high",
+    "polar high"
+  ]
+}

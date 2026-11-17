@@ -1,0 +1,12 @@
+graph TD
+A[Start] --> B[Given inequality: log10(N) ≥ -4]
+B --> C{Is base 10 valid?}
+C -- Yes --> D[Apply anti‑log: 10^{log10(N)} ≥ 10^{-4}]
+D --> E[Rewrite: N ≥ 10^{-4}]
+E --> F[Compute 10^{-4} = 0.0001]
+F --> G[Minimum N = 0.0001]
+G --> H[Check domain N ≥ 0]
+H --> I[Conclusion: N ≥ 0.0001]
+I --> J[End]
+classDef startEnd fill:#e0f7fa,stroke:#006064,stroke-width:2px;
+class A,J startEnd;

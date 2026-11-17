@@ -1,0 +1,13 @@
+{
+    "id": "fill-blanks-cloze",
+    "title": "Fill in the Blanks & Cloze Test",
+    "subject": "English (NDA/CDS/AFCAT)",
+    "subjectId": "english",
+    "chapter": "UPSC Exam Practice Patterns",
+    "chapterId": "exam-patterns",
+    "blocks": [],
+    "formulas": [
+        "Asked from: Articles, prepositions, verb forms, tenses, vocabulary, idiomatic usage, contextual logic"
+    ],
+    "hasNotes": false
+}

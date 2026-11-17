@@ -1,0 +1,20 @@
+{
+  "title": "Stellar Evolution Pathway",
+  "subject": "Geography",
+  "category": "World",
+  "chapter": "The Universe & Solar System",
+  "topic": "Stars",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Nebula] --> B[Protostar]\n    B --> C[Main Sequence]\n    C --> D[Red Giant / Supergiant]\n    D --> E[White Dwarf]\n    D --> F[Neutron Star]\n    D --> G[Black Hole]",
+  "mapQuery": "",
+  "description": "Flowchart illustrating the life cycle of a star from its birth in a nebula to its possible end states.",
+  "keywords": [
+    "stellar evolution",
+    "nebula",
+    "protostar",
+    "main sequence",
+    "white dwarf",
+    "neutron star",
+    "black hole"
+  ]
+}

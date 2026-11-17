@@ -1,0 +1,19 @@
+{
+    "id": "plant-reproduction",
+    "title": "Plant Reproduction & Hormones",
+    "subject": "Biology (NDA/CDS)",
+    "subjectId": "biology",
+    "chapter": "Plant Physiology & Reproduction",
+    "chapterId": "biology-botany",
+    "blocks": [],
+    "formulas": [
+        "Vegetative: Potato (stem), Bryophyllum (leaf)",
+        "Double Fertilization: Syngamy (2n Zygote) + Triple Fusion (3n Endosperm)",
+        "Auxin: Apical dominance, phototropism",
+        "Gibberellins: Stem growth, breaks seed dormancy",
+        "Cytokinin: Cell division, delays aging",
+        "ABA: Stress hormone, closes stomata",
+        "Ethylene: Gaseous hormone, fruit ripening"
+    ],
+    "hasNotes": false
+}

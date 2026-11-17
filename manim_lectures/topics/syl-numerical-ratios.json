@@ -1,0 +1,55 @@
+{
+    "id": "syl-numerical-ratios",
+    "title": "Ratios, Proportions & Percentages",
+    "subject": "Mathematics (NDA/CDS)",
+    "subjectId": "mathematics",
+    "chapter": "Numerical Aptitude",
+    "chapterId": "quantitative-aptitude",
+    "blocks": [
+        {
+            "heading": "1. Ratios and Proportions",
+            "intro": "",
+            "bullets": [
+                "Ratio: A comparison of two quantities: a/b or a : b.",
+                "Proportion: Equality of two ratios: a : b :: c : d \u21d2 a / b = c / d . Product of extremes = Product of means (ad = bc).",
+                "Mean Proportional : Between a and b is **x = \u221a(ab)**.",
+                "Third Proportional : To a and b is **x = b\u00b2 / a**.",
+                "Fourth Proportional : To a, b, c is **x = bc / a**."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Percentages",
+            "intro": "",
+            "bullets": [
+                "Percentage to Fraction: Divide by 100 (e.g., 20% = 20/100 = 1/5).",
+                "Fraction to Percentage: Multiply by 100 (e.g., 3/4 = 3/4 \u00d7 100 = 75%).",
+                "Percentage Increase/Decrease = [ (New Value - Original) / Original ] \u00d7 100"
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "3. Profit, Loss, and Discount",
+            "intro": "",
+            "bullets": [
+                "Gain = Selling Price (SP) - Cost Price (CP) (if SP > CP)",
+                "Loss = Cost Price (CP) - Selling Price (SP) (if CP > SP)",
+                "Gain % = (Gain / CP) \u00d7 100 (Profit and Loss are always calculated on CP unless stated otherwise).",
+                "Loss % = (Loss / CP) \u00d7 100",
+                "Assent Formulas: SP = CP \u00d7 (100 + Gain%) / 100",
+                "SP = CP \u00d7 (100 - Loss%) / 100",
+                "Discount : Calculated on Marked Price (MP). SP = MP - Discount.",
+                "Discount % = (Discount / MP) \u00d7 100"
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Gain% = (Gain/CP) * 100",
+        "Loss% = (Loss/CP) * 100",
+        "Discount% = (Discount/MP) * 100",
+        "Mean Proportional = \u221a(ab)",
+        "Third Proportional = b\u00b2/a"
+    ],
+    "hasNotes": true
+}

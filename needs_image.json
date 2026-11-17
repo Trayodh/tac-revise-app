@@ -1,0 +1,26 @@
+[
+  {
+    "file": "notes_extra.js",
+    "id": "trig-identities",
+    "title": "Trigonometric Identities & Values",
+    "hasImage": false,
+    "src": null,
+    "hasPlaceholder": false
+  },
+  {
+    "file": "notes_extra.js",
+    "id": "inverse-trig",
+    "title": "Inverse Trigonometric Functions",
+    "hasImage": false,
+    "src": null,
+    "hasPlaceholder": false
+  },
+  {
+    "file": "notes_extra.js",
+    "id": "quadratic-eq",
+    "title": "Quadratic Equations",
+    "hasImage": false,
+    "src": null,
+    "hasPlaceholder": false
+  }
+]

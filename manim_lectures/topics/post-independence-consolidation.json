@@ -1,0 +1,40 @@
+{
+    "id": "post-independence-consolidation",
+    "title": "Post-Independence Consolidation",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "5. Modern India (Highest Priority)",
+    "chapterId": "modern-india-tree",
+    "blocks": [
+        {
+            "heading": "\ud83c\uddee\ud83c\uddf3 Post-Independence Consolidation",
+            "intro": "The challenges of nation-building, border demarcations, princely states integration, and linguistic reorganization after 1947.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. Integration of Princely States",
+            "intro": "Sardar Vallabhbhai Patel (Minister of States) and V.P. Menon successfully integrated 549 princely states. Three states presented exceptions:",
+            "bullets": [
+                "Junagadh: Nawab wanted to join Pakistan, but the Hindu majority population rebelled. Integrated via **Plebiscite (February 1948)**.",
+                "Hyderabad: Nizam refused to join India. Nizam's irregular militia (Razakars) terrorized the population. Integrated via military action code-named **Operation Polo (September 1948)**.",
+                "Jammu & Kashmir: Ruler Hari Singh wanted to remain independent. In October 1947, Pakistani armed tribal raiders invaded. Hari Singh signed the **Instrument of Accession (26 Oct 1947)**, and Indian troops flew in to defend Srinagar."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. States Reorganization",
+            "intro": "",
+            "bullets": [
+                "Andhra Pradesh became the **first linguistic state** in 1953 following the death of Potti Sriramulu after a 56-day hunger strike.",
+                "**Dhar Commission (1948)** and **JVP Committee (1948 - Jawaharlal, Vallabhbhai, Pattabhi)** rejected language as basis of states.",
+                "Following Sriramulu's death, the government appointed the **Fazl Ali Commission (States Reorganization Commission, 1953)**. Its recommendations led to the **States Reorganization Act (1956)**, creating 14 states and 6 Union Territories."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Operation Polo: Hyderabad (1948) | 1st Linguistic State: Andhra (1953) | SRC 1956: Fazl Ali Commission"
+    ],
+    "hasNotes": true
+}

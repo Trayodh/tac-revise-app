@@ -1,0 +1,1406 @@
+{
+  "assets/diagrams/Biology/Cell/Plant & Animal cell.png": {
+    "basename": "Plant & Animal cell",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Biology/Cell/Prokaryotic & Eukaryotic cells.png": {
+    "basename": "Prokaryotic & Eukaryotic cells",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Biology/Genetics/Cell reproduction.png": {
+    "basename": "Cell reproduction",
+    "mappedTopicId": "plant-reproduction",
+    "mappedTopicTitle": "Plant Reproduction & Hormones",
+    "score": 78.75
+  },
+  "assets/diagrams/Biology/Genetics/DNA & RNA.png": {
+    "basename": "DNA & RNA",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Biology/Genetics/DNA.png": {
+    "basename": "DNA",
+    "mappedTopicId": "cell-structure",
+    "mappedTopicTitle": "Cell Structure & Cell Division",
+    "score": 65
+  },
+  "assets/diagrams/Biology/Human Systems/Blood Circulation.png": {
+    "basename": "Blood Circulation",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Biology/Human Systems/Central Nervous System.png": {
+    "basename": "Central Nervous System",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Biology/Human Systems/Digestive system.png": {
+    "basename": "Digestive system",
+    "mappedTopicId": "cell-structure",
+    "mappedTopicTitle": "Cell Structure & Cell Division",
+    "score": 75.61224489795919
+  },
+  "assets/diagrams/Biology/Human Systems/Endocrine system.png": {
+    "basename": "Endocrine system",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Biology/Human Systems/Human ear.png": {
+    "basename": "Human ear",
+    "mappedTopicId": "reflection-refraction",
+    "mappedTopicTitle": "Reflection, Refraction & Lenses",
+    "score": 15
+  },
+  "assets/diagrams/Biology/Human Systems/Human eye.png": {
+    "basename": "Human eye",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Biology/Human Systems/Respiratory system.png": {
+    "basename": "Respiratory system",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Biology/Human Systems/Sexual organs.png": {
+    "basename": "Sexual organs",
+    "mappedTopicId": "plant-reproduction",
+    "mappedTopicTitle": "Plant Reproduction & Hormones",
+    "score": 77.5
+  },
+  "assets/diagrams/Biology/Human Systems/Urinary system.png": {
+    "basename": "Urinary system",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Biology/Plant biology/Flower.png": {
+    "basename": "Flower",
+    "mappedTopicId": "plant-kingdom",
+    "mappedTopicTitle": "Plant Kingdom Classification",
+    "score": 65
+  },
+  "assets/diagrams/Biology/Plant biology/Leaf structure.png": {
+    "basename": "Leaf structure",
+    "mappedTopicId": "cell-structure",
+    "mappedTopicTitle": "Cell Structure & Cell Division",
+    "score": 77.8
+  },
+  "assets/diagrams/Biology/Plant biology/Photosynthesis.png": {
+    "basename": "Photosynthesis",
+    "mappedTopicId": "cell-structure",
+    "mappedTopicTitle": "Cell Structure & Cell Division",
+    "score": 75.2127659574468
+  },
+  "assets/diagrams/Biology/Plant biology/Root types.png": {
+    "basename": "Root types",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Biology/Plant biology/Seed growth.png": {
+    "basename": "Seed growth",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Biology/Plant biology/Stem modifications.png": {
+    "basename": "Stem modifications",
+    "mappedTopicId": "trig-identities",
+    "mappedTopicTitle": "Trigonometric Identities & Values",
+    "score": 11.428571428571427
+  },
+  "assets/diagrams/Biology/Plant biology/Xylem & phloem.png": {
+    "basename": "Xylem & phloem",
+    "mappedTopicId": "plant-kingdom",
+    "mappedTopicTitle": "Plant Kingdom Classification",
+    "score": 65
+  },
+  "assets/diagrams/Chemistry/Acids bases/PH Scale.png": {
+    "basename": "PH Scale",
+    "mappedTopicId": "acids-bases",
+    "mappedTopicTitle": "Acids, Bases & pH Indicators",
+    "score": 65
+  },
+  "assets/diagrams/Chemistry/Atomic structure/30 first elements valency.png": {
+    "basename": "30 first elements valency",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Chemistry/Atomic structure/Bohr's Atomic Model.png": {
+    "basename": "Bohr's Atomic Model",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Chemistry/Atomic structure/Electron configuration.png": {
+    "basename": "Electron configuration",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Chemistry/Chemical Bonding/Hydrogen Bond.png": {
+    "basename": "Hydrogen Bond",
+    "mappedTopicId": "acids-bases",
+    "mappedTopicTitle": "Acids, Bases & pH Indicators",
+    "score": 65
+  },
+  "assets/diagrams/Chemistry/Chemical Bonding/Types of bonds.png": {
+    "basename": "Types of bonds",
+    "mappedTopicId": "india-resources-farming",
+    "mappedTopicTitle": "Mineral Resources & Types of Farming",
+    "score": 10.526315789473683
+  },
+  "assets/diagrams/Chemistry/Electrochemistry/Type of cells 2.png": {
+    "basename": "Type of cells 2",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Chemistry/Electrochemistry/Type of cells.png": {
+    "basename": "Type of cells",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Chemistry/Industrial Chemistry/Contact process.png": {
+    "basename": "Contact process",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Chemistry/Industrial Chemistry/Haber process.png": {
+    "basename": "Haber process",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Chemistry/Mole concept/Mole concept.png": {
+    "basename": "Mole concept",
+    "mappedTopicId": "chemistry-numericals",
+    "mappedTopicTitle": "Mole Concept & Concentration Terms",
+    "score": 95
+  },
+  "assets/diagrams/Chemistry/Periodic Table/MutedPeriodicTable.png": {
+    "basename": "MutedPeriodicTable",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Chemistry/Periodic Table/Periodic Table.png": {
+    "basename": "Periodic Table",
+    "mappedTopicId": "syl-numerical",
+    "mappedTopicTitle": "Chemical Bonding & Periodic Table",
+    "score": 95
+  },
+  "assets/diagrams/Chemistry/Periodic Table/PeriodicTableBoilingPoint.png": {
+    "basename": "PeriodicTableBoilingPoint",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Ecology and Environment/Biodiversity hotspots of India.png": {
+    "basename": "Biodiversity hotspots of India",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Ecology and Environment/Carbon cycle.png": {
+    "basename": "Carbon cycle",
+    "mappedTopicId": "carbon-compounds",
+    "mappedTopicTitle": "Carbon & its Compounds",
+    "score": 28.333333333333332
+  },
+  "assets/diagrams/Ecology and Environment/Food chain.png": {
+    "basename": "Food chain",
+    "mappedTopicId": "biology-ecology-basics",
+    "mappedTopicTitle": "Ecology Basics & Pyramids",
+    "score": 35
+  },
+  "assets/diagrams/Ecology and Environment/Food pyramid.png": {
+    "basename": "Food pyramid",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Ecology and Environment/Food web.png": {
+    "basename": "Food web",
+    "mappedTopicId": "biology-ecology-basics",
+    "mappedTopicTitle": "Ecology Basics & Pyramids",
+    "score": 35
+  },
+  "assets/diagrams/Ecology and Environment/Greenhouse Effect.png": {
+    "basename": "Greenhouse Effect",
+    "mappedTopicId": "universe-solar-system",
+    "mappedTopicTitle": "The Universe & Solar System",
+    "score": 25.19607843137255
+  },
+  "assets/diagrams/Ecology and Environment/National Parks of India.png": {
+    "basename": "National Parks of India",
+    "mappedTopicId": "india-national-parks",
+    "mappedTopicTitle": "National Parks of India (Map Guide)",
+    "score": 60.78947368421053
+  },
+  "assets/diagrams/Ecology and Environment/Nitrogen Cycle.png": {
+    "basename": "Nitrogen Cycle",
+    "mappedTopicId": "chemistry-everyday-fertilisers",
+    "mappedTopicTitle": "Everyday Chemistry, Fertilisers & Fuels",
+    "score": 27.727272727272727
+  },
+  "assets/diagrams/Ecology and Environment/Ozone layer depletion.png": {
+    "basename": "Ozone layer depletion",
+    "mappedTopicId": "environmental-chemistry",
+    "mappedTopicTitle": "Environmental Chemistry & Pollution",
+    "score": 28.333333333333332
+  },
+  "assets/diagrams/Ecology and Environment/Ramsar Site of India.png": {
+    "basename": "Ramsar Site of India",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Ecology and Environment/Tiger Reserves of India.png": {
+    "basename": "Tiger Reserves of India",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Ecology and Environment/Water Cycle.png": {
+    "basename": "Water Cycle",
+    "mappedTopicId": "world-geography-mountains",
+    "mappedTopicTitle": "World Geography: Mountains, Forests & Rivers",
+    "score": 15
+  },
+  "assets/diagrams/Ecology and Environment/Wild Life Sanctuaries of India.png": {
+    "basename": "Wild Life Sanctuaries of India",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Economics/demand reads.png": {
+    "basename": "demand reads",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Economics/Economic Cycle.png": {
+    "basename": "Economic Cycle",
+    "mappedTopicId": "geog-geopolitics",
+    "mappedTopicTitle": "Geopolitical Flashpoints & Indo-Pacific",
+    "score": 29.736842105263158
+  },
+  "assets/diagrams/Economics/Fiscal Deficit.png": {
+    "basename": "Fiscal Deficit",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Economics/Flow of Income.png": {
+    "basename": "Flow of Income",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Economics/Indian Banking System.png": {
+    "basename": "Indian Banking System",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Economics/Inflation Types.png": {
+    "basename": "Inflation Types",
+    "mappedTopicId": "integration",
+    "mappedTopicTitle": "Standard Integration Methods",
+    "score": 10.434782608695652
+  },
+  "assets/diagrams/Economics/Keynesian Multiplier Effect.png": {
+    "basename": "Keynesian Multiplier Effect",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Economics/Market Dynamics.png": {
+    "basename": "Market Dynamics",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Economics/Parts of Budget.png": {
+    "basename": "Parts of Budget",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Economics/RBI functions.png": {
+    "basename": "RBI functions",
+    "mappedTopicId": "judiciary",
+    "mappedTopicTitle": "Integrated Judiciary: SC & HC",
+    "score": 28.333333333333332
+  },
+  "assets/diagrams/Economics/Supply variations.png": {
+    "basename": "Supply variations",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Economics/Taxes.png": {
+    "basename": "Taxes",
+    "mappedTopicId": "judiciary",
+    "mappedTopicTitle": "Integrated Judiciary: SC & HC",
+    "score": 15
+  },
+  "assets/diagrams/Geography/Atmosphere-climatology/Anticyclone.png": {
+    "basename": "Anticyclone",
+    "mappedTopicId": "universe-solar-system",
+    "mappedTopicTitle": "The Universe & Solar System",
+    "score": 65
+  },
+  "assets/diagrams/Geography/Atmosphere-climatology/Atmospheric layers.png": {
+    "basename": "Atmospheric layers",
+    "mappedTopicId": "universe-solar-system",
+    "mappedTopicTitle": "The Universe & Solar System",
+    "score": 76.32075471698113
+  },
+  "assets/diagrams/Geography/Atmosphere-climatology/Cyclone.png": {
+    "basename": "Cyclone",
+    "mappedTopicId": "universe-solar-system",
+    "mappedTopicTitle": "The Universe & Solar System",
+    "score": 65
+  },
+  "assets/diagrams/Geography/Atmosphere-climatology/Indian Monsoon.png": {
+    "basename": "Indian Monsoon",
+    "mappedTopicId": "world-geography-straits-deserts",
+    "mappedTopicTitle": "Straits, Canals, Deserts & Seas",
+    "score": 65
+  },
+  "assets/diagrams/Geography/Atmosphere-climatology/Jet Streams.png": {
+    "basename": "Jet Streams",
+    "mappedTopicId": "climatology-clouds",
+    "mappedTopicTitle": "Climatology: Climatic Zones & Clouds",
+    "score": 65
+  },
+  "assets/diagrams/Geography/Atmosphere-climatology/Planetary winds.png": {
+    "basename": "Planetary winds",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Geography/Atmosphere-climatology/Pressure Belts.png": {
+    "basename": "Pressure Belts",
+    "mappedTopicId": "earth-atmosphere",
+    "mappedTopicTitle": "Earth Structure & Atmosphere",
+    "score": 65
+  },
+  "assets/diagrams/Geography/Earth basics/Earth's rotation and seasons.png": {
+    "basename": "Earth's rotation and seasons",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Geography/Earth basics/Earth's Rotation.png": {
+    "basename": "Earth's Rotation",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Geography/Earth basics/Internal structure of Earth.png": {
+    "basename": "Internal structure of Earth",
+    "mappedTopicId": "earth-atmosphere",
+    "mappedTopicTitle": "Earth Structure & Atmosphere",
+    "score": 60.83333333333333
+  },
+  "assets/diagrams/Geography/Earth basics/International Date Line.png": {
+    "basename": "International Date Line",
+    "mappedTopicId": "international-institutions",
+    "mappedTopicTitle": "International Institutions",
+    "score": 11.555555555555554
+  },
+  "assets/diagrams/Geography/Earth basics/Longitudes.png": {
+    "basename": "Longitudes",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Geography/Earth basics/Various Geographic lines.png": {
+    "basename": "Various Geographic lines",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Geography/Earth basics/World Time Zones.png": {
+    "basename": "World Time Zones",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Geography/Geomorphology/Coastal landforms.png": {
+    "basename": "Coastal landforms",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Geography/Geomorphology/Desert landforms.png": {
+    "basename": "Desert landforms",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Geography/Geomorphology/Earth Interior.png": {
+    "basename": "Earth Interior",
+    "mappedTopicId": "interwar-period",
+    "mappedTopicTitle": "Interwar Period",
+    "score": 10.769230769230768
+  },
+  "assets/diagrams/Geography/Geomorphology/Earthquakes.png": {
+    "basename": "Earthquakes",
+    "mappedTopicId": "earth-atmosphere",
+    "mappedTopicTitle": "Earth Structure & Atmosphere",
+    "score": 65
+  },
+  "assets/diagrams/Geography/Geomorphology/Erosion of rocks.png": {
+    "basename": "Erosion of rocks",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Geography/Geomorphology/Fold Mountains.png": {
+    "basename": "Fold Mountains",
+    "mappedTopicId": "world-geography-mountains",
+    "mappedTopicTitle": "World Geography: Mountains, Forests & Rivers",
+    "score": 65
+  },
+  "assets/diagrams/Geography/Geomorphology/Glacier Landforms.png": {
+    "basename": "Glacier Landforms",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Geography/Geomorphology/Plate tectonics.png": {
+    "basename": "Plate tectonics",
+    "mappedTopicId": "geomorphology-rocks",
+    "mappedTopicTitle": "Geomorphology: Rocks, Plate Tectonics & Volcanism",
+    "score": 108.79310344827587
+  },
+  "assets/diagrams/Geography/Geomorphology/River landforms.png": {
+    "basename": "River landforms",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Geography/Geomorphology/Rock cycle (2).png": {
+    "basename": "Rock cycle (2)",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Geography/Geomorphology/Rock Cycle.png": {
+    "basename": "Rock Cycle",
+    "mappedTopicId": "geomorphology-rocks",
+    "mappedTopicTitle": "Geomorphology: Rocks, Plate Tectonics & Volcanism",
+    "score": 75.52631578947368
+  },
+  "assets/diagrams/Geography/Geomorphology/Volcano.png": {
+    "basename": "Volcano",
+    "mappedTopicId": "geomorphology-rocks",
+    "mappedTopicTitle": "Geomorphology: Rocks, Plate Tectonics & Volcanism",
+    "score": 65
+  },
+  "assets/diagrams/Geography/Geomorphology/Weathering of rocks.png": {
+    "basename": "Weathering of rocks",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Geography/Map (World)/Ocean Currents World.png": {
+    "basename": "Ocean Currents World",
+    "mappedTopicId": "climatology-clouds",
+    "mappedTopicTitle": "Climatology: Climatic Zones & Clouds",
+    "score": 77.41379310344828
+  },
+  "assets/diagrams/Geography/Map (World)/World Canals.png": {
+    "basename": "World Canals",
+    "mappedTopicId": "world-geography-straits-deserts",
+    "mappedTopicTitle": "Straits, Canals, Deserts & Seas",
+    "score": 61.42857142857143
+  },
+  "assets/diagrams/Geography/Map (World)/World Climatic Zones.png": {
+    "basename": "World Climatic Zones",
+    "mappedTopicId": "india-resources-farming",
+    "mappedTopicTitle": "Mineral Resources & Types of Farming",
+    "score": 81.55172413793103
+  },
+  "assets/diagrams/Geography/Map (World)/World Continent and Oceans.png": {
+    "basename": "World Continent and Oceans",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Geography/Map (World)/World Deserts.png": {
+    "basename": "World Deserts",
+    "mappedTopicId": "world-geography-straits-deserts",
+    "mappedTopicTitle": "Straits, Canals, Deserts & Seas",
+    "score": 61.76470588235294
+  },
+  "assets/diagrams/Geography/Map (World)/World Earthquake areas.png": {
+    "basename": "World Earthquake areas",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Geography/Map (World)/World Mountains.png": {
+    "basename": "World Mountains",
+    "mappedTopicId": "world-geography-mountains",
+    "mappedTopicTitle": "World Geography: Mountains, Forests & Rivers",
+    "score": 77.97297297297297
+  },
+  "assets/diagrams/Geography/Map (World)/World Rivers.png": {
+    "basename": "World Rivers",
+    "mappedTopicId": "world-geography-mountains",
+    "mappedTopicTitle": "World Geography: Mountains, Forests & Rivers",
+    "score": 65
+  },
+  "assets/diagrams/Geography/Map (World)/World Straits.png": {
+    "basename": "World Straits",
+    "mappedTopicId": "world-geography-straits-deserts",
+    "mappedTopicTitle": "Straits, Canals, Deserts & Seas",
+    "score": 77.5
+  },
+  "assets/diagrams/Geography/Map (World)/World Time Zones.png": {
+    "basename": "World Time Zones",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Geography/Map (World)/World Volcanoes.png": {
+    "basename": "World Volcanoes",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Geography/Maps (Indian)/Climate of India.png": {
+    "basename": "Climate of India",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Geography/Maps (Indian)/India Political Map.png": {
+    "basename": "India Political Map",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Geography/Maps (Indian)/Indian Airports.png": {
+    "basename": "Indian Airports",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Geography/Maps (Indian)/Indian Biosphere Reserves.png": {
+    "basename": "Indian Biosphere Reserves",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Geography/Maps (Indian)/Indian Crops.png": {
+    "basename": "Indian Crops",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Geography/Maps (Indian)/Indian Deserts.png": {
+    "basename": "Indian Deserts",
+    "mappedTopicId": "world-geography-straits-deserts",
+    "mappedTopicTitle": "Straits, Canals, Deserts & Seas",
+    "score": 61.111111111111114
+  },
+  "assets/diagrams/Geography/Maps (Indian)/Indian Mineral Resources.png": {
+    "basename": "Indian Mineral Resources",
+    "mappedTopicId": "india-resources-farming",
+    "mappedTopicTitle": "Mineral Resources & Types of Farming",
+    "score": 78.02325581395348
+  },
+  "assets/diagrams/Geography/Maps (Indian)/Indian Mountains.png": {
+    "basename": "Indian Mountains",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Geography/Maps (Indian)/Indian Ports.png": {
+    "basename": "Indian Ports",
+    "mappedTopicId": "india-transport-routes",
+    "mappedTopicTitle": "Transport Routes: Highways & Waterways",
+    "score": 60.32258064516129
+  },
+  "assets/diagrams/Geography/Maps (Indian)/Indian Rainfall.png": {
+    "basename": "Indian Rainfall",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Geography/Maps (Indian)/Indian soils.png": {
+    "basename": "Indian soils",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Geography/Maps (Indian)/National Parks of India.png": {
+    "basename": "National Parks of India",
+    "mappedTopicId": "india-national-parks",
+    "mappedTopicTitle": "National Parks of India (Map Guide)",
+    "score": 110.78947368421052
+  },
+  "assets/diagrams/Geography/Maps (Indian)/Passes.png": {
+    "basename": "Passes",
+    "mappedTopicId": "syl-geog",
+    "mappedTopicTitle": "Indian Geography (Rivers, Passes & Soils)",
+    "score": 95
+  },
+  "assets/diagrams/Geography/Maps (Indian)/Physical map India.png": {
+    "basename": "Physical map India",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Geography/Maps (Indian)/Plateaus.png": {
+    "basename": "Plateaus",
+    "mappedTopicId": "geomorphology-rocks",
+    "mappedTopicTitle": "Geomorphology: Rocks, Plate Tectonics & Volcanism",
+    "score": 65
+  },
+  "assets/diagrams/Geography/Maps (Indian)/Ramsar Sites of India.png": {
+    "basename": "Ramsar Sites of India",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Geography/Maps (Indian)/Rivers of India.png": {
+    "basename": "Rivers of India",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Geography/Maps (Indian)/Tiger Reserves.png": {
+    "basename": "Tiger Reserves",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Geography/Oceanography/Coral Reef.png": {
+    "basename": "Coral Reef",
+    "mappedTopicId": "india-national-parks",
+    "mappedTopicTitle": "National Parks of India (Map Guide)",
+    "score": 65
+  },
+  "assets/diagrams/Geography/Oceanography/Sea's topography.png": {
+    "basename": "Sea's topography",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Geography/Oceanography/Tides.png": {
+    "basename": "Tides",
+    "mappedTopicId": "cell-structure",
+    "mappedTopicTitle": "Cell Structure & Cell Division",
+    "score": 15
+  },
+  "assets/diagrams/Geography/Oceanography/World Ocean Currents.png": {
+    "basename": "World Ocean Currents",
+    "mappedTopicId": "climatology-clouds",
+    "mappedTopicTitle": "Climatology: Climatic Zones & Clouds",
+    "score": 77.41379310344828
+  },
+  "assets/diagrams/History/Ancient/Ashokan Edicts.png": {
+    "basename": "Ashokan Edicts",
+    "mappedTopicId": "what-is-history",
+    "mappedTopicTitle": "What is History?",
+    "score": 65
+  },
+  "assets/diagrams/History/Ancient/Buddhism.png": {
+    "basename": "Buddhism",
+    "mappedTopicId": "buddhism-jainism",
+    "mappedTopicTitle": "Buddhism & Jainism",
+    "score": 107.72727272727272
+  },
+  "assets/diagrams/History/Ancient/Gupta Empire.png": {
+    "basename": "Gupta Empire",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/History/Ancient/Indus Valley.png": {
+    "basename": "Indus Valley",
+    "mappedTopicId": "indus-valley-civilization",
+    "mappedTopicTitle": "Indus Valley Civilization",
+    "score": 105.58823529411765
+  },
+  "assets/diagrams/History/Ancient/Mauryan Empire.png": {
+    "basename": "Mauryan Empire",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/History/Ancient/Vedic social heirarchy.png": {
+    "basename": "Vedic social heirarchy",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/History/Medieval/Battle formations.png": {
+    "basename": "Battle formations",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/History/Medieval/Delhi Sultanate.png": {
+    "basename": "Delhi Sultanate",
+    "mappedTopicId": "delhi-sultanate",
+    "mappedTopicTitle": "Delhi Sultanate",
+    "score": 112.77777777777777
+  },
+  "assets/diagrams/History/Medieval/Mansabdari system.png": {
+    "basename": "Mansabdari system",
+    "mappedTopicId": "human-systems",
+    "mappedTopicTitle": "Vital Human Systems & Organs",
+    "score": 10.37037037037037
+  },
+  "assets/diagrams/History/Medieval/Marathas.png": {
+    "basename": "Marathas",
+    "mappedTopicId": "marathas",
+    "mappedTopicTitle": "Marathas",
+    "score": 115
+  },
+  "assets/diagrams/History/Medieval/Mughal administration.png": {
+    "basename": "Mughal administration",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/History/Modern/Gandhian Era.png": {
+    "basename": "Gandhian Era",
+    "mappedTopicId": "what-is-history",
+    "mappedTopicTitle": "What is History?",
+    "score": 65
+  },
+  "assets/diagrams/History/Modern/Governor Generals of India.png": {
+    "basename": "Governor Generals of India",
+    "mappedTopicId": "governor-generals-viceroys",
+    "mappedTopicTitle": "Governor-Generals & Viceroys",
+    "score": 61.91489361702128
+  },
+  "assets/diagrams/History/Modern/Indian National Congress.png": {
+    "basename": "Indian National Congress",
+    "mappedTopicId": "what-is-history",
+    "mappedTopicTitle": "What is History?",
+    "score": 75.15873015873015
+  },
+  "assets/diagrams/History/Modern/Revolt of 1857.png": {
+    "basename": "Revolt of 1857",
+    "mappedTopicId": "revolt-1857",
+    "mappedTopicTitle": "Revolt of 1857",
+    "score": 113.18181818181819
+  },
+  "assets/diagrams/History/World/French Revolution.png": {
+    "basename": "French Revolution",
+    "mappedTopicId": "revolutions",
+    "mappedTopicTitle": "Revolutions",
+    "score": 79.4
+  },
+  "assets/diagrams/History/World/Industrial Revolution.png": {
+    "basename": "Industrial Revolution",
+    "mappedTopicId": "revolutions",
+    "mappedTopicTitle": "Revolutions",
+    "score": 77.41379310344828
+  },
+  "assets/diagrams/History/World/League of Nations.png": {
+    "basename": "League of Nations",
+    "mappedTopicId": "what-is-history",
+    "mappedTopicTitle": "What is History?",
+    "score": 65
+  },
+  "assets/diagrams/History/World/Russian Revolution.png": {
+    "basename": "Russian Revolution",
+    "mappedTopicId": "revolutions",
+    "mappedTopicTitle": "Revolutions",
+    "score": 78.84615384615384
+  },
+  "assets/diagrams/History/World/United Nations.png": {
+    "basename": "United Nations",
+    "mappedTopicId": "what-is-history",
+    "mappedTopicTitle": "What is History?",
+    "score": 65
+  },
+  "assets/diagrams/History/World/Wold War 1 prelude.png": {
+    "basename": "Wold War 1 prelude",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/History/World/World War 2.png": {
+    "basename": "World War 2",
+    "mappedTopicId": "world-war-i",
+    "mappedTopicTitle": "World War I",
+    "score": 78.33333333333333
+  },
+  "assets/diagrams/Maths/Coordinate geometry/Co-ordinate geometry.png": {
+    "basename": "Co-ordinate geometry",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Maths/Coordinate geometry/Co-ordinate system.png": {
+    "basename": "Co-ordinate system",
+    "mappedTopicId": "mapping-borders-capitals",
+    "mappedTopicTitle": "Borders, Capitals & Mapping",
+    "score": 10.434782608695652
+  },
+  "assets/diagrams/Maths/Coordinate geometry/Distance formula.png": {
+    "basename": "Distance formula",
+    "mappedTopicId": "syl-numerical-speed",
+    "mappedTopicTitle": "Time, Speed & Distance Formulas",
+    "score": 106
+  },
+  "assets/diagrams/Maths/Coordinate geometry/Midpoint formula.png": {
+    "basename": "Midpoint formula",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Maths/Geometry/Angles and arcs.png": {
+    "basename": "Angles and arcs",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Maths/Geometry/Circle.png": {
+    "basename": "Circle",
+    "mappedTopicId": "circles-polygons",
+    "mappedTopicTitle": "Circles & Polygons",
+    "score": 111
+  },
+  "assets/diagrams/Maths/Geometry/Congruence of triangles.png": {
+    "basename": "Congruence of triangles",
+    "mappedTopicId": "trig-identities",
+    "mappedTopicTitle": "Trigonometric Identities & Values",
+    "score": 60.37037037037037
+  },
+  "assets/diagrams/Maths/Geometry/Cyclic quadrilateral.png": {
+    "basename": "Cyclic quadrilateral",
+    "mappedTopicId": "trig-identities",
+    "mappedTopicTitle": "Trigonometric Identities & Values",
+    "score": 76.9298245614035
+  },
+  "assets/diagrams/Maths/Geometry/Pythagoras Theoram.png": {
+    "basename": "Pythagoras Theoram",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Maths/Geometry/Shapes.png": {
+    "basename": "Shapes",
+    "mappedTopicId": "trig-identities",
+    "mappedTopicTitle": "Trigonometric Identities & Values",
+    "score": 65
+  },
+  "assets/diagrams/Maths/Geometry/Similar triangles.jpeg": {
+    "basename": "Similar triangles",
+    "mappedTopicId": "trig-identities",
+    "mappedTopicTitle": "Trigonometric Identities & Values",
+    "score": 77.72727272727272
+  },
+  "assets/diagrams/Maths/Geometry/Types of triangles.png": {
+    "basename": "Types of triangles",
+    "mappedTopicId": "trig-identities",
+    "mappedTopicTitle": "Trigonometric Identities & Values",
+    "score": 78.33333333333333
+  },
+  "assets/diagrams/Maths/Mensuration/Cone & Frustum.png": {
+    "basename": "Cone & Frustum",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Maths/Mensuration/Cube.png": {
+    "basename": "Cube",
+    "mappedTopicId": "trig-identities",
+    "mappedTopicTitle": "Trigonometric Identities & Values",
+    "score": 65
+  },
+  "assets/diagrams/Maths/Mensuration/Cuboid.png": {
+    "basename": "Cuboid",
+    "mappedTopicId": "trig-identities",
+    "mappedTopicTitle": "Trigonometric Identities & Values",
+    "score": 76.42857142857143
+  },
+  "assets/diagrams/Maths/Mensuration/Cylinder.png": {
+    "basename": "Cylinder",
+    "mappedTopicId": "trig-identities",
+    "mappedTopicTitle": "Trigonometric Identities & Values",
+    "score": 78.33333333333333
+  },
+  "assets/diagrams/Maths/Mensuration/Mensurations.png": {
+    "basename": "Mensurations",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Maths/Mensuration/Pyramid.png": {
+    "basename": "Pyramid",
+    "mappedTopicId": "trig-identities",
+    "mappedTopicTitle": "Trigonometric Identities & Values",
+    "score": 65
+  },
+  "assets/diagrams/Maths/Probability/Probability.png": {
+    "basename": "Probability",
+    "mappedTopicId": "syl-probability",
+    "mappedTopicTitle": "Probability Theory & Bayes Theorem",
+    "score": 111.66666666666667
+  },
+  "assets/diagrams/Maths/Probability/Venn diagram.png": {
+    "basename": "Venn diagram",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Maths/Statistics/Statistical Data Visualization.png": {
+    "basename": "Statistical Data Visualization",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Maths/Trigonometry/angle of depression.png": {
+    "basename": "angle of depression",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Maths/Trigonometry/angle of elevation.png": {
+    "basename": "angle of elevation",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Maths/Trigonometry/pi unit circle.png": {
+    "basename": "pi unit circle",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Maths/Trigonometry/trigo ratios.png": {
+    "basename": "trigo ratios",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Physics/Electricity/DC Electric motor.png": {
+    "basename": "DC Electric motor",
+    "mappedTopicId": "physics-electricity-magnetism",
+    "mappedTopicTitle": "Electricity, Circuits & Magnetism",
+    "score": 60.76923076923077
+  },
+  "assets/diagrams/Physics/Electricity/Earthing.png": {
+    "basename": "Earthing",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Physics/Electricity/ELectric system.png": {
+    "basename": "ELectric system",
+    "mappedTopicId": "physics-electricity-magnetism",
+    "mappedTopicTitle": "Electricity, Circuits & Magnetism",
+    "score": 61.2
+  },
+  "assets/diagrams/Physics/Electricity/Electromechanial power generation.png": {
+    "basename": "Electromechanial power generation",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Physics/Electricity/Fuse.png": {
+    "basename": "Fuse",
+    "mappedTopicId": "plant-reproduction",
+    "mappedTopicTitle": "Plant Reproduction & Hormones",
+    "score": 15
+  },
+  "assets/diagrams/Physics/Electricity/MCB.png": {
+    "basename": "MCB",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Physics/Electricity/Series vs Parallel.png": {
+    "basename": "Series vs Parallel",
+    "mappedTopicId": "physics-electricity-magnetism",
+    "mappedTopicTitle": "Electricity, Circuits & Magnetism",
+    "score": 60.256410256410255
+  },
+  "assets/diagrams/Physics/Electricity/Transformer.png": {
+    "basename": "Transformer",
+    "mappedTopicId": "physics-electricity-magnetism",
+    "mappedTopicTitle": "Electricity, Circuits & Magnetism",
+    "score": 82.14285714285714
+  },
+  "assets/diagrams/Physics/Electricity/Voltmeter & Ammeter.png": {
+    "basename": "Voltmeter & Ammeter",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Physics/Electricity/Wheatstone Bridge.png": {
+    "basename": "Wheatstone Bridge",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Physics/Heat/Methods of heat transfer.png": {
+    "basename": "Methods of heat transfer",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Physics/Heat/Thermal Expansion.png": {
+    "basename": "Thermal Expansion",
+    "mappedTopicId": "physics-heat",
+    "mappedTopicTitle": "Thermodynamics & Heat Transfer",
+    "score": 65
+  },
+  "assets/diagrams/Physics/Light/Compound microscope.png": {
+    "basename": "Compound microscope",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Physics/Light/Concave mirror-object inside focal point.png": {
+    "basename": "Concave mirror-object inside focal point",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Physics/Light/Convex & Concav lens.png": {
+    "basename": "Convex & Concav lens",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Physics/Light/Convex mirror.png": {
+    "basename": "Convex mirror",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Physics/Light/Human eye.png": {
+    "basename": "Human eye",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Physics/Light/Hypermetropia.png": {
+    "basename": "Hypermetropia",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Physics/Light/Laws of reflections.png": {
+    "basename": "Laws of reflections",
+    "mappedTopicId": "reflection-refraction",
+    "mappedTopicTitle": "Reflection, Refraction & Lenses",
+    "score": 61.111111111111114
+  },
+  "assets/diagrams/Physics/Light/Myopia.png": {
+    "basename": "Myopia",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Physics/Light/Presbyopia.png": {
+    "basename": "Presbyopia",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Physics/Light/Prism light dispersion.png": {
+    "basename": "Prism light dispersion",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Physics/Light/Refracting Telescope.png": {
+    "basename": "Refracting Telescope",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Physics/Light/Refraction.png": {
+    "basename": "Refraction",
+    "mappedTopicId": "reflection-refraction",
+    "mappedTopicTitle": "Reflection, Refraction & Lenses",
+    "score": 107.41379310344828
+  },
+  "assets/diagrams/Physics/Light/Single reflex camera.png": {
+    "basename": "Single reflex camera",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Physics/Light/Total Internal Reflection.png": {
+    "basename": "Total Internal Reflection",
+    "mappedTopicId": "reflection-refraction",
+    "mappedTopicTitle": "Reflection, Refraction & Lenses",
+    "score": 75.46153846153845
+  },
+  "assets/diagrams/Physics/Magnetism/Electromagnetism.png": {
+    "basename": "Electromagnetism",
+    "mappedTopicId": "physics-electricity-magnetism",
+    "mappedTopicTitle": "Electricity, Circuits & Magnetism",
+    "score": 77.09302325581396
+  },
+  "assets/diagrams/Physics/Magnetism/Fleming's Hand Rules.png": {
+    "basename": "Fleming's Hand Rules",
+    "mappedTopicId": "physics-electricity-magnetism",
+    "mappedTopicTitle": "Electricity, Circuits & Magnetism",
+    "score": 61.03448275862069
+  },
+  "assets/diagrams/Physics/Magnetism/Magnetic field.png": {
+    "basename": "Magnetic field",
+    "mappedTopicId": "physics-electricity-magnetism",
+    "mappedTopicTitle": "Electricity, Circuits & Magnetism",
+    "score": 85
+  },
+  "assets/diagrams/Physics/Magnetism/Solenoid.png": {
+    "basename": "Solenoid",
+    "mappedTopicId": "physics-electricity-magnetism",
+    "mappedTopicTitle": "Electricity, Circuits & Magnetism",
+    "score": 65
+  },
+  "assets/diagrams/Physics/Mechanics/Classes of Lever.png": {
+    "basename": "Classes of Lever",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Physics/Mechanics/Free Body.png": {
+    "basename": "Free Body",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Physics/Mechanics/Gears.png": {
+    "basename": "Gears",
+    "mappedTopicId": "president",
+    "mappedTopicTitle": "The President of India (Art 52-62)",
+    "score": 28.333333333333332
+  },
+  "assets/diagrams/Physics/Mechanics/Parallelogram Law.png": {
+    "basename": "Parallelogram Law",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Physics/Mechanics/Perpendicular force.png": {
+    "basename": "Perpendicular force",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Physics/Mechanics/Projectile motion.png": {
+    "basename": "Projectile motion",
+    "mappedTopicId": "physics-units-everyday",
+    "mappedTopicTitle": "SI Units & Everyday Physics",
+    "score": 75.98039215686275
+  },
+  "assets/diagrams/Physics/Mechanics/Pulley.png": {
+    "basename": "Pulley",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Physics/Mechanics/Types of pulley systems.png": {
+    "basename": "Types of pulley systems",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Physics/Mechanics/Uniform Circular Motion.png": {
+    "basename": "Uniform Circular Motion",
+    "mappedTopicId": "trig-identities",
+    "mappedTopicTitle": "Trigonometric Identities & Values",
+    "score": 28.684210526315788
+  },
+  "assets/diagrams/Physics/Mechanics/Wheel.png": {
+    "basename": "Wheel",
+    "mappedTopicId": "geog-industries",
+    "mappedTopicTitle": "Major Industries & Industrial Corridors of India",
+    "score": 15
+  },
+  "assets/diagrams/Physics/Modern physics/Atomic Models.png": {
+    "basename": "Atomic Models",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Physics/Modern physics/Fission & Fusion.png": {
+    "basename": "Fission & Fusion",
+    "mappedTopicId": "physics-nuclear-basics",
+    "mappedTopicTitle": "Nuclear Physics & Radioactivity",
+    "score": 77.63157894736842
+  },
+  "assets/diagrams/Physics/Modern physics/Structure of Atom.png": {
+    "basename": "Structure of Atom",
+    "mappedTopicId": "physics-nuclear-basics",
+    "mappedTopicTitle": "Nuclear Physics & Radioactivity",
+    "score": 60.476190476190474
+  },
+  "assets/diagrams/Polity-20260731T070614Z-1-001/Polity/Articles related to Constitutional Bodies.png": {
+    "basename": "Articles related to Constitutional Bodies",
+    "mappedTopicId": "important-articles",
+    "mappedTopicTitle": "High-Yield Special Articles Cheat Sheet",
+    "score": 78.76344086021506
+  },
+  "assets/diagrams/Polity-20260731T070614Z-1-001/Polity/CAG.png": {
+    "basename": "CAG",
+    "mappedTopicId": "preamble",
+    "mappedTopicTitle": "Preamble & Sources",
+    "score": 65
+  },
+  "assets/diagrams/Polity-20260731T070614Z-1-001/Polity/Constitution of India.png": {
+    "basename": "Constitution of India",
+    "mappedTopicId": "constitutional-bodies",
+    "mappedTopicTitle": "Constitutional & Non-Constitutional Bodies",
+    "score": 77.63157894736842
+  },
+  "assets/diagrams/Polity-20260731T070614Z-1-001/Polity/Courts Hierarchy.png": {
+    "basename": "Courts Hierarchy",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Polity-20260731T070614Z-1-001/Polity/Finance Commission.png": {
+    "basename": "Finance Commission",
+    "mappedTopicId": "preamble",
+    "mappedTopicTitle": "Preamble & Sources",
+    "score": 65
+  },
+  "assets/diagrams/Polity-20260731T070614Z-1-001/Polity/Fundamental Duties.png": {
+    "basename": "Fundamental Duties",
+    "mappedTopicId": "dpsp",
+    "mappedTopicTitle": "DPSP & Fundamental Duties (Art 36-51A)",
+    "score": 106.81818181818181
+  },
+  "assets/diagrams/Polity-20260731T070614Z-1-001/Polity/Governor.png": {
+    "basename": "Governor",
+    "mappedTopicId": "goverment-executives",
+    "mappedTopicTitle": "Executives: PM, CM & Governor",
+    "score": 112.14285714285714
+  },
+  "assets/diagrams/Polity-20260731T070614Z-1-001/Polity/Legislative Process.png": {
+    "basename": "Legislative Process",
+    "mappedTopicId": "president",
+    "mappedTopicTitle": "The President of India (Art 52-62)",
+    "score": 60.666666666666664
+  },
+  "assets/diagrams/Polity-20260731T070614Z-1-001/Polity/Panchayati & Municipal Corps.png": {
+    "basename": "Panchayati & Municipal Corps",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Polity-20260731T070614Z-1-001/Polity/Parliament.png": {
+    "basename": "Parliament",
+    "mappedTopicId": "parliament",
+    "mappedTopicTitle": "Parliament of India (Art 79-122)",
+    "score": 115
+  },
+  "assets/diagrams/Polity-20260731T070614Z-1-001/Polity/Preamble.png": {
+    "basename": "Preamble",
+    "mappedTopicId": "preamble",
+    "mappedTopicTitle": "Preamble & Sources",
+    "score": 115
+  },
+  "assets/diagrams/Polity-20260731T070614Z-1-001/Polity/Structure of Union Executive.png": {
+    "basename": "Structure of Union Executive",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Polity-20260731T070614Z-1-001/Polity/Types of Elections.png": {
+    "basename": "Types of Elections",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Polity-20260731T070614Z-1-001/Polity/UPSC.png": {
+    "basename": "UPSC",
+    "mappedTopicId": "important-articles",
+    "mappedTopicTitle": "High-Yield Special Articles Cheat Sheet",
+    "score": 65
+  },
+  "assets/diagrams/Polity-20260731T070614Z-1-001/Polity/Vice President.png": {
+    "basename": "Vice President",
+    "mappedTopicId": "president",
+    "mappedTopicTitle": "The President of India (Art 52-62)",
+    "score": 81
+  },
+  "assets/diagrams/Reasoning AFCAT-20260731T070612Z-1-001/Reasoning AFCAT/Blood Relations.png": {
+    "basename": "Blood Relations",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Reasoning AFCAT-20260731T070612Z-1-001/Reasoning AFCAT/Calendar.png": {
+    "basename": "Calendar",
+    "mappedTopicId": "universe-solar-system",
+    "mappedTopicTitle": "The Universe & Solar System",
+    "score": 15
+  },
+  "assets/diagrams/Reasoning AFCAT-20260731T070612Z-1-001/Reasoning AFCAT/Clock.png": {
+    "basename": "Clock",
+    "mappedTopicId": "climatology-clouds",
+    "mappedTopicTitle": "Climatology: Climatic Zones & Clouds",
+    "score": 15
+  },
+  "assets/diagrams/Reasoning AFCAT-20260731T070612Z-1-001/Reasoning AFCAT/Dice or cube.png": {
+    "basename": "Dice or cube",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Reasoning AFCAT-20260731T070612Z-1-001/Reasoning AFCAT/Directions.png": {
+    "basename": "Directions",
+    "mappedTopicId": "trig-identities",
+    "mappedTopicTitle": "Trigonometric Identities & Values",
+    "score": 28.913043478260867
+  },
+  "assets/diagrams/Reasoning AFCAT-20260731T070612Z-1-001/Reasoning AFCAT/Image patterns 2.png": {
+    "basename": "Image patterns 2",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Reasoning AFCAT-20260731T070612Z-1-001/Reasoning AFCAT/Image patterns.png": {
+    "basename": "Image patterns",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Reasoning AFCAT-20260731T070612Z-1-001/Reasoning AFCAT/Seating arrangement.png": {
+    "basename": "Seating arrangement",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  },
+  "assets/diagrams/Reasoning AFCAT-20260731T070612Z-1-001/Reasoning AFCAT/Venn diagram.png": {
+    "basename": "Venn diagram",
+    "mappedTopicId": null,
+    "mappedTopicTitle": null,
+    "score": -1
+  }
+}

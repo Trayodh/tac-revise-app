@@ -1,0 +1,18 @@
+{
+  "title": "Solar System Layout Diagram",
+  "subject": "Geography",
+  "category": "World",
+  "chapter": "The Universe & Solar System",
+  "topic": "Solar System Overview",
+  "format": "RealMap",
+  "mermaidCode": "",
+  "mapQuery": "Solar system planetary order diagram SVG",
+  "description": "A schematic map showing the Sun at the centre with the eight major planets, dwarf planets, asteroid belt, and major moons in their relative orbital positions.",
+  "keywords": [
+    "solar system",
+    "planets",
+    "asteroid belt",
+    "dwarf planets",
+    "diagram"
+  ]
+}

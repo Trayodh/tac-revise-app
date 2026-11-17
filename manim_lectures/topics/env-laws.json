@@ -1,0 +1,16 @@
+{
+    "id": "env-laws",
+    "title": "Environmental Legislation & EIA",
+    "subject": "Environment & Ecology",
+    "subjectId": "environment",
+    "chapter": "Climate, Laws & Renewable Energy",
+    "chapterId": "climate-laws-energy",
+    "blocks": [],
+    "formulas": [
+        "EPA 1986: Post-Bhopal umbrella law",
+        "Forest Conservation Act 1980",
+        "NGT Act 2010",
+        "EIA: Screening\u2192Scoping\u2192Public Consultation\u2192Appraisal"
+    ],
+    "hasNotes": false
+}

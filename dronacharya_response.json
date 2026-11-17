@@ -1,0 +1,34 @@
+{
+  "intent": "Question Explanation / Misconception Remediation",
+  "student_level": "Novice / Early Preparation Stage",
+  "retrieved_resources": [
+    "TEST_001",
+    "TEST_002"
+  ],
+  "direct_answer": "Ram Nath Kovind is incorrect because he is the former President of India (14th President, serving from 2017 to 2022). Smt. Droupadi Murmu assumed office as the 15th President of India on July 25, 2022, and is the current incumbent President.",
+  "detailed_explanation": "In defence examinations like CDS and NDA, current appointment questions often include immediate past office holders as high-plausibility distractors to test your temporal awareness.\n\n1. **Former President (Option B)**: Shri Ram Nath Kovind served as the 14th President of India from July 25, 2017, to July 25, 2022.\n2. **Incumbent President (Option C)**: Smt. Droupadi Murmu was elected in July 2022 and took office on July 25, 2022, making her the 15th President of India, the first tribal leader, and the second woman to hold this constitutional office.\n3. **Other Options**: Shri Narendra Modi (Option A) is the Prime Minister (Head of Government), and Shri Pranab Mukherjee (Option D) was the 13th President (2012\u20132017).",
+  "supporting_concepts": [
+    "Incumbent President of India",
+    "Head of State vs. Head of Government",
+    "15th President of India (Droupadi Murmu)",
+    "Union Executive Structure"
+  ],
+  "common_mistakes": "Relying on outdated static memory and selecting the immediate former office holder (Ram Nath Kovind) instead of updating current national appointments.",
+  "memory_aid": "Think 'M' for Modern/Murmu (15th - Present) and 'K' for Kovind (14th - Past).",
+  "related_pyqs": [],
+  "related_practice_questions": [
+    "REC_POL_001",
+    "REC_POL_002"
+  ],
+  "knowledge_graph_connections": [
+    "TEST_001 -> President of India",
+    "President of India -> Union Executive"
+  ],
+  "recommended_next_topic": "Election Process of President of India (Articles 54-55)",
+  "revision_recommendation": "Perform a daily 15-minute quick flashcard revision of current national appointments (President, Vice-President, CJI, CAG, CEC) for CDS 2024.",
+  "confidence_level": "High",
+  "knowledge_sources": [
+    "Indian Polity Knowledge Base - Union Executive",
+    "CDS GK Current Appointments & Polity Basics Sectional Quiz"
+  ]
+}

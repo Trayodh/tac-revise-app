@@ -1,0 +1,22 @@
+{
+  "title": "Evaluating statements about negative real numbers",
+  "subject": "Mathematics",
+  "chapter": "Real Numbers",
+  "topic": "Properties of negative numbers",
+  "difficulty": "Medium",
+  "rendering_engine": "Mermaid",
+  "exams": [
+    "NDA",
+    "CDS",
+    "AFCAT"
+  ],
+  "keywords": [
+    "negative number",
+    "inequality",
+    "logic",
+    "real numbers"
+  ],
+  "caption": "Flowchart evaluating the truth of four statements about a negative real number x and a natural exponent k based on the parity of k.",
+  "altText": "A flowchart starts with the premise that x is negative and k is a natural number. It branches on whether k is odd or even. For odd k, statements \"x^k < 0\" and \"x·k < 0\" lead to a True node, indicating they are correct, while the other two statements are false. For even k, statements \"x^k > 0\" and \"x·k > 0\" lead to a True node, indicating they are correct, while the remaining statements are false. The diagram highlights which statements are incorrect for each parity case.",
+  "source": "Automated Pipeline"
+}

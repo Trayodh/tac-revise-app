@@ -1,0 +1,16 @@
+{
+    "id": "env-pollution",
+    "title": "Pollution Control & Clean India Missions",
+    "subject": "Environment & Ecology",
+    "subjectId": "environment",
+    "chapter": "Climate, Laws & Renewable Energy",
+    "chapterId": "climate-laws-energy",
+    "blocks": [],
+    "formulas": [
+        "Namami Gange: \u20b920,000 Cr",
+        "NCAP: 40% PM reduction by 2025-26",
+        "BS-VI: 2020 (leapfrogged BS-V)",
+        "SUP Ban: 2022"
+    ],
+    "hasNotes": false
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Rock Cycle Diagram",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Rocks",
+  "topic": "Rock Cycle",
+  "format": "Mermaid",
+  "mermaidCode": "graph LR\n    IG[Igneous] -->|Weathering & Erosion| SED[Sedimentary]\n    SED -->|Lithification| MET[Metamorphic]\n    MET -->|Melting| IG\n    MET -->|Heat & Pressure| MET\n    SED -->|Compaction| MET\n    style IG fill:#fb9a99,stroke:#333,stroke-width:2px\n    style SED fill:#a6cee3,stroke:#333,stroke-width:2px\n    style MET fill:#b2df8a,stroke:#333,stroke-width:2px",
+  "mapQuery": "",
+  "description": "Circular flowchart illustrating the continuous transformations among igneous, sedimentary, and metamorphic rocks through processes such as weathering, erosion, deposition, lithification, melting, and metamorphism.",
+  "keywords": [
+    "rock cycle",
+    "igneous",
+    "sedimentary",
+    "metamorphic",
+    "geology"
+  ]
+}

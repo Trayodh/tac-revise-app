@@ -1,0 +1,18 @@
+{
+  "title": "Intrusive and Extrusive Volcanic Landforms",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Volcanism",
+  "topic": "Volcanic Landforms",
+  "format": "Mermaid",
+  "mermaidCode": "graph LR\nIntrusive_Forms --> Batholiths\nIntrusive_Forms --> Laccoliths\nIntrusive_Forms --> Lopoliths\nIntrusive_Forms --> Phacoliths\nIntrusive_Forms --> Sills\nIntrusive_Forms --> Dykes\nExtrusive_Forms --> Cinder_Cones\nExtrusive_Forms --> Composite_Cones\nExtrusive_Forms --> Shield_Cones\nExtrusive_Forms --> Craters\nExtrusive_Forms --> Calderas\nExtrusive_Forms --> Lava_Plateaus\nExtrusive_Forms --> Hot_Springs\nExtrusive_Forms --> Geysers",
+  "mapQuery": "",
+  "description": "Differentiates volcanic structures formed below vs above the surface.",
+  "keywords": [
+    "intrusive",
+    "extrusive",
+    "batholith",
+    "cinder cone",
+    "geyser"
+  ]
+}

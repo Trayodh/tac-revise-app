@@ -1,0 +1,18 @@
+{
+  "title": "Forces Controlling Wind Movement",
+  "subject": "Geography",
+  "category": "Climate",
+  "chapter": "Atmospheric Pressure & Winds",
+  "topic": "Wind Dynamics",
+  "format": "Mermaid",
+  "description": "A diagram outlining the primary forces that control wind movement: Pressure Gradient Force, Coriolis Force, and Friction, and their effects.",
+  "keywords": [
+    "wind",
+    "wind forces",
+    "pressure gradient force",
+    "coriolis force",
+    "friction",
+    "atmospheric dynamics"
+  ],
+  "mermaidCode": "mindmap\n    root((Forces Controlling Wind))\n        Pressure Gradient Force\n            Drives air from High to Low Pressure\n            Stronger gradient = Stronger winds\n        Coriolis Force\n            Deflects air Right in NH\n            Deflects air Left in SH\n        Friction\n            Acts opposite to wind motion\n            Most effective near surface"
+}

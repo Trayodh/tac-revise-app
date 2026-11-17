@@ -1,0 +1,18 @@
+{
+  "title": "Future Scenario Tree (2025‑2035)",
+  "subject": "Geography",
+  "category": "Defence",
+  "chapter": "Future Scenarios: 2025‑2035 Outlook",
+  "topic": "Managed Competition, Escalatory Spiral, Co‑operative Security",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    Start[Future Indo‑Pacific Trajectories]\n    Start --> A[Managed Competition]\n    Start --> B[Escalatory Spiral]\n    Start --> C[Co‑operative Security Architecture]\n    A --> A1[Robust CBMs]\n    A --> A2[Joint Exercises]\n    B --> B1[Mis‑calculation in Taiwan Strait]\n    B --> B2[Naval Confrontation in South China Sea]\n    C --> C1[ASEAN‑China Code of Conduct]\n    C --> C2[Deepened Quad Integration]",
+  "mapQuery": "",
+  "description": "Decision‑tree style diagram presenting three plausible future trajectories for Indo‑Pacific security between 2025 and 2035.",
+  "keywords": [
+    "future scenarios",
+    "managed competition",
+    "escalatory spiral",
+    "co‑operative security",
+    "Indo‑Pacific"
+  ]
+}

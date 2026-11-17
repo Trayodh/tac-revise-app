@@ -1,0 +1,17 @@
+{
+  "title": "Drainage Basin Concept Diagram",
+  "subject": "Geography",
+  "category": "Hydrology",
+  "chapter": "Rivers of the World",
+  "topic": "Drainage Basin and Watershed",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\nRainfall --> RiverSystem[River System]\nRiverSystem --> DrainageBasin[Drainage Basin]\nDrainageBasin --> Watershed[Watershed Boundary]",
+  "mapQuery": "",
+  "description": "Flowchart explaining how precipitation feeds a river system, forming a drainage basin bounded by a watershed.",
+  "keywords": [
+    "drainage basin",
+    "watershed",
+    "river basin",
+    "hydrology"
+  ]
+}

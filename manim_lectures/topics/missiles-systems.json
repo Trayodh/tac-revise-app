@@ -1,0 +1,41 @@
+{
+    "id": "missiles-systems",
+    "title": "Integrated Guided Missile Program (IGMDP)",
+    "subject": "Military GK & Aptitude",
+    "subjectId": "military-aptitude",
+    "chapter": "Exercises & Missile Systems",
+    "chapterId": "tactical-defence-gk",
+    "blocks": [
+        {
+            "heading": "1. The IGMDP Program",
+            "intro": "Conceived by **Dr. A.P.J. Abdul Kalam** in 1983 to make India self-sufficient in missile technology. Formally completed in 2008.",
+            "bullets": [
+                "P - Prithvi : Short-range surface-to-surface ballistic missile. First missile under IGMDP.",
+                "A - Agni : Medium to intercontinental range surface-to-surface ballistic missile. (Agni 1 to 5). Agni-5 is an ICBM with a range of 5000+ km.",
+                "T - Trishul : Short-range low-altitude surface-to-air missile. (Development closed, technology acts as feed).",
+                "N - Nag : Third-generation fire-and-forget anti-tank guided missile (ATGM). Has land and heliborne versions.",
+                "A - Akash : Medium-range surface-to-air missile with multi-target engagement capability. Guided by Rajendra radar."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Crucial Cruise & Air Defence Missiles",
+            "intro": "",
+            "bullets": [
+                "BrahMos : Supersonic cruise missile jointly developed with Russia. Speed: **Mach 2.8 to 3.0** (World's fastest operational cruise missile).",
+                "Can be launched from submarine, ships, aircraft, or land.",
+                "Astra : Beyond Visual Range (BVR) air-to-air missile integrated onto Sukhoi Su-30MKI and Tejas.",
+                "K-Missile Series (K-15 Sagarika, K-4) : Submarine-launched ballistic missiles (SLBMs) designed for Arihant nuclear submarine class.",
+                "Helina (Dhruvastra) : Helicopter-launched version of the Nag anti-tank missile."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "PATNA: Prithvi, Agni, Trishul, Nag, Akash",
+        "BrahMos Speed: Mach 2.8 - 3.0",
+        "Astra: Air-to-Air (BVR)",
+        "Helina: Helicopter ATGM"
+    ],
+    "hasNotes": true
+}

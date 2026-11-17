@@ -1,0 +1,13 @@
+graph TD
+    A[Start] --> B[Given ratio 2 : 3 : 5]
+    B --> C[Let numbers be 2k, 3k, 5k]
+    C --> D[Form equation of squares: (2k)² + (3k)² + (5k)² = 1368]
+    D --> E[Compute: 4k² + 9k² + 25k² = 38k²]
+    E --> F[Solve for k: 38k² = 1368 → k² = 36 → k = 6]
+    F --> G[Numbers: 2k=12, 3k=18, 5k=30]
+    G --> H[Sum = 12 + 18 + 30 = 60]
+    H --> I[End]
+    classDef startEnd fill:#f9f,stroke:#333,stroke-width:2px;
+    class A,I startEnd;
+    classDef process fill:#bbf,stroke:#333,stroke-width:1px;
+    class B,C,D,E,F,G,H process;

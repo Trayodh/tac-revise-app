@@ -1,0 +1,17 @@
+{
+  "title": "Challenges in Highway & Waterway Development",
+  "subject": "Geography",
+  "category": "Resources",
+  "chapter": "Challenges in Highway & Waterway Development",
+  "topic": "Key Challenges",
+  "format": "Mermaid",
+  "mermaidCode": "mindmap\n  root((Challenges))\n    LandAcquisition\n    EnvironmentalConcerns\n    FundingGaps\n    SeasonalVariability",
+  "mapQuery": "",
+  "description": "Mind map of major challenges affecting highway and waterway projects in India.",
+  "keywords": [
+    "land acquisition",
+    "environment",
+    "funding",
+    "seasonal variability"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+    "id": "mughal-empire",
+    "title": "Mughal Empire",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "4. Medieval India",
+    "chapterId": "medieval-india-tree",
+    "blocks": [
+        {
+            "heading": "\ud83d\udc51 The Mughal Empire (1526 - 1857)",
+            "intro": "Established by Central Asian invaders, the Mughals built an extensive, culturally rich empire in India.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. Rulers & Triumphs",
+            "intro": "",
+            "bullets": [
+                "Babur (1526-1530): Defeated Ibrahim Lodi in **1st Battle of Panipat (1526)** using gunpowder and *Tulughma* (flanking) tactics. Defeated Rana Sanga in Battle of Khanwa (1527). Wrote autobiography *Tuzuk-i-Baburi* in Turkish.",
+                "Humayun (1530-1556): Defeated and exiled by Afghan leader **Sher Shah Suri** (who built Grand Trunk Road, introduced rupee currency, and Dahsala land reforms, ruling 1540-45). Humayun recaptured Delhi in 1555 but died falling from his library stairs.",
+                "Akbar (1556-1605): Crowned at 13. defeated Hemu in **2nd Battle of Panipat (1556)** with help of guardian Bairam Khan. *Reforms:* Introduced **Mansabdari System** (grading officers by Zat/rank and Sawar/cavalry). **Todar Mal's Dahsala** (land revenue system based on 10-year average crop yields).",
+                "*Religious Policy:* Abolished Jizya tax on non-Muslims (1564). Built **Ibadat Khana** (House of Worship) at Fatehpur Sikri. Promulgated **Din-i-Ilahi** (divine monotheism) in 1852.",
+                "Jahangir (1605-1627): Paintings peaked during his reign. Executed 5th Sikh Guru Arjan Dev. Captain Hawkins and Thomas Roe visited his court.",
+                "Shah Jahan (1628-1658): Golden Age of Architecture. Built Taj Mahal, Red Fort, Jama Masjid, Peacock Throne.",
+                "Aurangzeb (Alamgir: 1658-1707): Imprisoned his father Shah Jahan. Executed 9th Sikh Guru Tegh Bahadur. Re-imposed Jizya tax (1679). Annexed Bijapur (1686) and Golconda (1687). Called \"Zinda Pir\" (living saint) due to simple lifestyle."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "1st Panipat: 1526 | Mansabdari & Dahsala: Akbar | Jizya re-imposed: Aurangzeb (1679)"
+    ],
+    "hasNotes": true
+}

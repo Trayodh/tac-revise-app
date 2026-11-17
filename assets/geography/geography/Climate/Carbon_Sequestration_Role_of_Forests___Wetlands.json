@@ -1,0 +1,20 @@
+{
+  "title": "Carbon Sequestration Role of Forests & Wetlands",
+  "subject": "Geography",
+  "category": "Climate",
+  "chapter": "Forests & Climate Mitigation",
+  "topic": "Carbon Sink Processes",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    F[Forests] --> CS1[Carbon Sequestration (~1.2 Gt CO₂ yr⁻¹)]\n    W[Wetlands] --> CS2[High per‑ha sequestration (Mangroves ~2,500 t C ha⁻¹)]\n    CS1 --> MIT[Mitigates climate change]\n    CS2 --> MIT\n    MIT --> NAPCC[National Action Plan on Climate Change]\n    NAPCC --> A[Afforestation of degraded lands]\n    NAPCC --> B[Restoration of mangroves]\n    NAPCC --> C[Community‑based eco‑tourism]",
+  "mapQuery": "",
+  "description": "Diagram illustrating how forests and wetlands act as carbon sinks, the magnitude of sequestration, and how these functions feed into India's National Action Plan on Climate Change.",
+  "keywords": [
+    "carbon sequestration",
+    "forests",
+    "wetlands",
+    "mangroves",
+    "climate mitigation",
+    "NAPCC",
+    "India"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Mapping Fundamentals for Defence Exams",
+  "subject": "Geography",
+  "category": "Defence",
+  "chapter": "Borders, Capitals & Mapping",
+  "topic": "Cartography Basics",
+  "format": "Mermaid",
+  "description": "A comprehensive mindmap covering essential cartographic principles for defence exams, including map projections, scale, symbolization, grid systems, and the application of remote sensing and GIS in border management.",
+  "keywords": [
+    "Map projections",
+    "Mercator",
+    "Lambert Conformal Conic",
+    "Albers Equal-Area Conic",
+    "Transverse Mercator",
+    "UTM",
+    "map scale",
+    "1:50000",
+    "1:250000",
+    "1:1000000",
+    "Survey of India Topographic Map Symbol Legend",
+    "Indian Grid System",
+    "IGS",
+    "WGS-84",
+    "Everest 1830",
+    "Remote Sensing",
+    "GIS",
+    "NRSC",
+    "NGP",
+    "border management",
+    "cartography"
+  ],
+  "mermaidCode": "mindmap\nroot((Mapping Fundamentals for Defence Exams))\n  Map Projections\n    Mercator Projection\n      Cylindrical, preserves direction\n      Used for nautical charts\n      Distortion increases towards poles\n    Lambert Conformal Conic\n      Ideal for mid-latitude regions (Indian subcontinent)\n      Maintains shape of small areas\n    Albers Equal-Area Conic\n      Used in Indian topographic series (Survey of India)\n      Preserves area\n    Transverse Mercator\n      Basis for UTM (Universal Transverse Mercator) grid\n      Employed in National Map Policy (2005)\n  Scale and Representation\n    1:50,000\n      Tactical level\n      Used by BRO for road planning\n    1:250,000\n      Operational level\n      Indian Army’s Map Reading Manuals\n    1:1,000,000\n      Strategic level\n      National-wide planning\n  Symbolisation and Legend\n    Survey of India Topographic Map Symbol Legend (1974)\n    Hydrography (blue lines)\n    Transportation (black solid/dashed lines)\n    Military installations (red squares with crossed swords)\n    Topography (brown contour lines, 20m interval)\n  Grid Systems & Coordinates\n    Indian Grid System (IGS)\n      National adaptation of UTM\n      Based on Kolkata Central Meridian (86°E)\n      Zone 44N (N. Himalayas), Zone 45N (central plains)\n      Coordinate notation: easting, northing\n    Geodetic Datum\n      World Geodetic System 1984 (WGS-84) since 1995\n      Superseded Everest 1830 datum\n  Remote Sensing & GIS in Border Management\n    National Remote Sensing Centre (NRSC)\n      Operates IRS satellite fleet (IRS-1C, Cartosat-2)\n    Geographic Information System (GIS)\n      Integrated via National Geospatial Programme (NGP)\n      Overlays terrain, demography, infrastructure\n      Applications: Border infiltration monitoring (SAR), Infrastructure mapping (BRO)"
+}

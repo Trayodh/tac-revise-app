@@ -1,0 +1,16 @@
+{
+    "id": "env-species",
+    "title": "Species in News & IUCN Red List",
+    "subject": "Environment & Ecology",
+    "subjectId": "environment",
+    "chapter": "Biodiversity & Wildlife Conservation",
+    "chapterId": "biodiversity-conservation",
+    "blocks": [],
+    "formulas": [
+        "IUCN: EX>EW>CR>EN>VU>NT>LC",
+        "GIB: Critically Endangered (~150)",
+        "Asiatic Lion: Gir only (~674)",
+        "Gangetic Dolphin: National Aquatic Animal"
+    ],
+    "hasNotes": false
+}

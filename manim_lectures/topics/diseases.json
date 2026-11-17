@@ -1,0 +1,69 @@
+{
+    "id": "diseases",
+    "title": "Human Diseases & Pathogens",
+    "subject": "Biology (NDA/CDS)",
+    "subjectId": "biology",
+    "chapter": "Health, Diseases & Nutrition",
+    "chapterId": "biology-diseases",
+    "blocks": [
+        {
+            "heading": "1. Infectious Diseases Classification",
+            "intro": "",
+            "bullets": [
+                "Bacterial Diseases : Tuberculosis (TB): Caused by Mycobacterium tuberculosis . Prevented by BCG vaccine.",
+                "Typhoid: Caused by Salmonella typhi . Diagnosed by **Widal Test**.",
+                "Cholera: Caused by Vibrio cholerae (water-borne).",
+                "Viral Diseases : Dengue: Caused by Flavivirus. Spread by Aedes aegypti mosquito. Characterized by severe drop in platelet count.",
+                "Polio: Caused by Poliovirus. Vaccine developed by Jonas Salk (injected) and Albert Sabin (oral).",
+                "AIDS: Caused by HIV (Retrovirus). Diagnosed by ELISA Test .",
+                "Protozoan Diseases : Malaria: Caused by Plasmodium . Spread by female **Anopheles** mosquito vector. Quinine (from Cinchona bark) is used as treatment.",
+                "Kala-azar (Leishmaniasis): Spread by **Sandfly** vector."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Nutritional Deficiency Diseases",
+            "intro": "",
+            "bullets": [
+                "Vitamins & Minerals Deficiency Chart : Vitamin / Chemical Common Name Deficiency Disease Vitamin A Retinol Night Blindness / Xerophthalmia Vitamin B1 Thiamine Beriberi Vitamin C Ascorbic Acid Scurvy (Bleeding gums) Vitamin D Calciferol Rickets (bow legs in kids)"
+            ],
+            "tableRows": [
+                [
+                    "Vitamin / Chemical",
+                    "Common Name",
+                    "Deficiency Disease"
+                ],
+                [
+                    "Vitamin A",
+                    "Retinol",
+                    "Night Blindness / Xerophthalmia"
+                ],
+                [
+                    "Vitamin B1",
+                    "Thiamine",
+                    "Beriberi"
+                ],
+                [
+                    "Vitamin C",
+                    "Ascorbic Acid",
+                    "Scurvy (Bleeding gums)"
+                ],
+                [
+                    "Vitamin D",
+                    "Calciferol",
+                    "Rickets (bow legs in kids)"
+                ]
+            ]
+        }
+    ],
+    "formulas": [
+        "Typhoid: Widal Test",
+        "Malaria: Female Anopheles vector",
+        "Dengue: Aedes vector",
+        "Vit A (Retinol) -> Night Blindness",
+        "Vit B1 (Thiamine) -> Beriberi",
+        "Vit C (Ascorbic Acid) -> Scurvy",
+        "Vit D (Calciferol) -> Rickets"
+    ],
+    "hasNotes": true
+}

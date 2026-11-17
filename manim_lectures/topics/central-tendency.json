@@ -1,0 +1,25 @@
+{
+    "id": "central-tendency",
+    "title": "Measures of Central Tendency",
+    "subject": "Mathematics (NDA/CDS)",
+    "subjectId": "mathematics",
+    "chapter": "Statistics & Probability",
+    "chapterId": "statistics-prob",
+    "blocks": [
+        {
+            "heading": "1. Mean, Median, Mode",
+            "intro": "",
+            "bullets": [
+                "Mean: Sum of observations / Number of observations.",
+                "Median: Middle value when sorted.",
+                "Empirical Relation: Mode = 3*Median - 2*Mean"
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "<li><strong>Variance:</strong> sigma^2 = \frac{sum (xi - mu)^2}{N}</li>",
+        "<li><strong>Standard Deviation:</strong> sigma = sqrt{Variance}</li>"
+    ],
+    "hasNotes": true
+}

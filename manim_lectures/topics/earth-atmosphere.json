@@ -1,0 +1,13 @@
+{
+    "id": "earth-atmosphere",
+    "title": "Earth Structure & Atmosphere",
+    "subject": "Geography (CDS/NDA)",
+    "subjectId": "geography",
+    "chapter": "Physical & World Geography",
+    "chapterId": "physical-geography",
+    "blocks": [],
+    "formulas": [
+        "Lapse Rate = 6.5\u00b0C/km"
+    ],
+    "hasNotes": false
+}

@@ -1,0 +1,30 @@
+{
+    "id": "early-medieval-india",
+    "title": "Early Medieval India",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "4. Medieval India",
+    "chapterId": "medieval-india-tree",
+    "blocks": [
+        {
+            "heading": "\ud83d\udee1\ufe0f Early Medieval India",
+            "intro": "An era of regional fragmentation marked by the Tripartite Struggle and the rise of Rajput kingdoms.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. Tripartite Struggle (8th - 10th CE)",
+            "intro": "A century-long struggle between three major empires to control **Kannauj** (symbol of sovereignty in North India, situated in the fertile Gangetic plains):",
+            "bullets": [
+                "The Palas of Bengal: Founded by Gopala. Dharmapala founded **Vikramashila University** and revived Nalanda. Followed Mahayana Buddhism.",
+                "The Gurjara-Pratiharas: Ruled Western India/Rajasthan. Mihira Bhoja was the greatest ruler.",
+                "The Rashtrakutas: Ruled Deccan. Founded by Dantidurga. **Krishna I** carved the monolithic **Kailash Temple at Ellora (Cave 16)**. Patronised Amoghavarsha (wrote *Kavirajamarga*)."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Vikramashila Univ: Dharmapala | Ellora Kailash Temple: Krishna I (Rashtrakuta)"
+    ],
+    "hasNotes": true
+}

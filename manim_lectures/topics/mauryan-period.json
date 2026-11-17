@@ -1,0 +1,50 @@
+{
+    "id": "mauryan-period",
+    "title": "Mauryan Period",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "3. Ancient India",
+    "chapterId": "ancient-india-tree",
+    "blocks": [
+        {
+            "heading": "\ud83d\udee1\ufe0f The Mauryan Empire (322 - 185 BCE)",
+            "intro": "India's first historical empire, establishing central control over most of the subcontinent.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. Rulers & Triumphs",
+            "intro": "",
+            "bullets": [
+                "Chandragupta Maurya (322 - 298 BCE): Overthrew Dhana Nanda with Chanakya's guidance. Defeated Seleucus Nicator (305 BCE), acquiring Baluchistan and Afghanistan. Megasthenes visited his court. Adopted Jainism under Bhadrabahu and died via *Sallekhana* (fasting) at Shravanabelagola.",
+                "Bindusara (298 - 273 BCE): Called *Amitraghata* (slayer of enemies). Received ambassadors from Syria (Deimachus) and Egypt (Dionysius). Patronised the Ajivika sect.",
+                "Ashoka (273 - 232 BCE): Coronation in 269 BCE. Kalinga War (261 BCE, detailed in **Major Rock Edict XIII**) caused immense casualties, prompting Ashoka to abandon war (*Bherighosha*) and adopt Dhamma (*Dhammaghosha*). Sent Buddhist missions to Sri Lanka (Mahinda/Sanghamitta)."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Ashokan Edicts & Dhamma",
+            "intro": "",
+            "bullets": [
+                "Edicts are classified into Major Rock Edicts (14), Minor Rock Edicts, Major Pillar Edicts (7), and Cave Inscriptions. Written mostly in Prakrit (Brahmi script).",
+                "**Major Rock Edict XIII:** Mentions Kalinga War and contemporary Hellenic kings (Antiochus, Ptolemy).",
+                "**Rummindei Pillar Inscription:** Marks Buddha's birthplace (Lumbini) and records Ashoka reducing land tax (*Bhaga*) to 1/8th."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "3. Administration & Economy",
+            "intro": "",
+            "bullets": [
+                "Highly centralized bureaucracy. King assisted by *Mantriparishad*. 7 limbs of state defined in Kautilya's **Saptanga Theory** (Swami, Amatya, Janapada, Durga, Kosha, Danda, Mitra).",
+                "Spy network of *Gudhapurushas* (Sanstha - stationary, Sanchari - wandering).",
+                "Tax: Land revenue (*Bhaga*) was usually 1/6th of produce. Punched-marked silver coins (*Panas*) were widely circulated."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Kalinga War: 261 BCE | Chanakya: Arthashastra | Megasthenes: Indica"
+    ],
+    "hasNotes": true
+}

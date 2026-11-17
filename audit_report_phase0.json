@@ -1,0 +1,14 @@
+[
+  {
+    "document": "pathfinder_science.pdf",
+    "classification": "```json\n{\n  \"subject\": \"Science\",\n  \"relevance\": \"High\"\n}\n```"
+  },
+  {
+    "document": "pathfinder_studies.pdf",
+    "classification": "```json\n{\n  \"subject\": \"Education/Research\",\n  \"relevance\": \"Medium\"\n}\n```"
+  },
+  {
+    "document": "pathfinder_mathematics.pdf",
+    "classification": "```json\n{\n  \"subject\": \"Mathematics\",\n  \"relevance\": \"High\"\n}\n```"
+  }
+]

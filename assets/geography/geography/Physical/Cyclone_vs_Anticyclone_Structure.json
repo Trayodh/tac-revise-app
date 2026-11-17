@@ -1,0 +1,17 @@
+{
+  "title": "Cyclone vs Anticyclone Structure",
+  "subject": "Geography",
+  "category": "Physical",
+  "chapter": "Cyclones & Anticyclones",
+  "topic": "Cyclone/Anticyclone Diagram",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    A[Cyclone] --> B[Low Pressure Center]\n    B --> C[Spiral Inflow]\n    B --> D[Counter‑clockwise (NH) / Clockwise (SH)]\n    A --> E[Rainfall & Storm Surge]\n    F[Anticyclone] --> G[High Pressure Center]\n    G --> H[Outward Flow]\n    G --> I[Clockwise (NH) / Counter‑clockwise (SH)]\n    G --> J[Clear Skies]",
+  "mapQuery": "",
+  "description": "Diagram contrasting the structure and circulation of cyclones (low pressure) and anticyclones (high pressure).",
+  "keywords": [
+    "cyclone",
+    "anticyclone",
+    "low pressure",
+    "high pressure"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "India's Waterway Development Initiatives and Economic Impact",
+  "subject": "Geography",
+  "category": "Indian",
+  "chapter": "Transport and Communication",
+  "topic": "Waterway Development",
+  "format": "Mermaid",
+  "description": "A flowchart outlining key initiatives like Sagarmala, NIWA, and MMLP, and the economic and environmental benefits of waterway transport in India.",
+  "keywords": [
+    "Sagarmala Programme",
+    "National Inland Waterways Authority",
+    "NIWA",
+    "Multi-Modal Logistics Parks",
+    "MMLP",
+    "waterway economics",
+    "cost efficiency",
+    "environmental advantage",
+    "highway de-congestion"
+  ],
+  "mermaidCode": "graph TD\nA[Waterway Development Initiatives] --> B{Sagarmala Programme};\nB --> B1[Modernises 500 ports];\nB --> B2[Creates 1,500 km new coastal shipping routes by 2030];\nA --> C{National Inland Waterways Authority (NIWA)};\nC --> C1[Established 2010];\nC --> C2[Oversees dredging, navigation aids, safety standards];\nA --> D{Multi-Modal Logistics Parks (MMLP)};\nD --> D1[Integrate road, rail, water transport];\nD --> D2[First operational MMLP at Kolkata Port (2021)];\nE[Economic & Environmental Impact] --> F{Economic Contribution};\nF --> F1[₹1.4 lakh crore (2023)];\nF --> F2[Projected CAGR 13% (2024-2030)];\nE --> G{Cost Efficiency};\nG --> G1[30-40% lower than road transport];\nE --> H{Environmental Advantage};\nH --> H1[CO2 emissions ≈ 0.02 kg/tonne-km (vs 0.08 kg for trucks)];\nE --> I{De-congestion of Highways};\nI --> I1[NH-27 saw 5-7% reduction after NW-2 operational];"
+}

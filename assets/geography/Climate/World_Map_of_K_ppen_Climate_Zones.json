@@ -1,0 +1,17 @@
+{
+  "title": "World Map of Köppen Climate Zones",
+  "subject": "Geography",
+  "category": "Climate",
+  "chapter": "Climatic Zones",
+  "topic": "Köppen System",
+  "format": "RealMap",
+  "description": "A world map displaying the distribution of major climate zones according to the Köppen climate classification system.",
+  "keywords": [
+    "köppen climate map",
+    "world climate zones",
+    "climate classification",
+    "global climate",
+    "climate types"
+  ],
+  "mapQuery": "world koppen climate classification map"
+}

@@ -1,0 +1,13 @@
+{
+    "id": "climatology-clouds",
+    "title": "Climatology: Climatic Zones & Clouds",
+    "subject": "Geography (CDS/NDA)",
+    "subjectId": "geography",
+    "chapter": "Physical & World Geography",
+    "chapterId": "physical-geography",
+    "blocks": [],
+    "formulas": [
+        "Cloud types: High, Middle, Low, Convective"
+    ],
+    "hasNotes": false
+}

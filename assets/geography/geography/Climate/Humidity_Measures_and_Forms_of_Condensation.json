@@ -1,0 +1,23 @@
+{
+  "title": "Humidity Measures and Forms of Condensation",
+  "subject": "Geography",
+  "category": "Climate",
+  "chapter": "Humidity & Precipitation",
+  "topic": "Humidity and Condensation",
+  "format": "Mermaid",
+  "description": "A classification diagram outlining different measures of humidity (Absolute, Specific, Relative) and various forms of condensation (Dew, Frost, Fog, Mist, Smog).",
+  "keywords": [
+    "humidity",
+    "absolute humidity",
+    "specific humidity",
+    "relative humidity",
+    "dew point",
+    "condensation",
+    "dew",
+    "frost",
+    "fog",
+    "mist",
+    "smog"
+  ],
+  "mermaidCode": "graph TD\nA[Atmospheric Moisture] --> B[Humidity Measures]\nA --> C[Forms of Condensation]\nB --> B1[Absolute Humidity]\nB --> B2[Specific Humidity]\nB --> B3[Relative Humidity]\nC --> C1[Dew]\nC --> C2[Frost]\nC --> C3[Fog]\nC --> C4[Mist]\nC --> C5[Smog]"
+}

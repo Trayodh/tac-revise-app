@@ -1,0 +1,15 @@
+graph TD
+    A[Start] --> B[Bill introduced in Parliament]
+    B --> C[Lok Sabha passes]
+    C --> D[Rajya Sabha passes]
+    D --> E{Special majority ≥ 2/3?}
+    E -- Yes --> F{Ratified by ≥ ½ states?}
+    F -- Yes --> G[President gives assent]
+    G --> H[Amendment enacted]
+    H --> I[End]
+    E -- No --> X[Bill rejected]
+    X --> I
+    F -- No --> Y[Bill rejected]
+    Y --> I
+    class E,F decision;
+    classDef decision fill:#f9f,stroke:#333,stroke-width:1px;

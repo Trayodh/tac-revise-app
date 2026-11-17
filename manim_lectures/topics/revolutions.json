@@ -1,0 +1,62 @@
+{
+    "id": "revolutions",
+    "title": "Revolutions",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "6. World History",
+    "chapterId": "world-history-tree",
+    "blocks": [
+        {
+            "heading": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddeb\ud83c\uddf7 Industrial & Political Revolutions",
+            "intro": "Key global revolutions that shaped modern political ideologies and economic structures.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. American Revolution (1775 - 1783)",
+            "intro": "",
+            "bullets": [
+                "Causes: British taxation without representation (Stamp Act, Townshend Acts), trade restrictions.",
+                "Boston Tea Party (1773): Colonists dumped British tea into the harbor to protest tea tax.",
+                "Declaration of Independence: Drafted by Thomas Jefferson, adopted on **4 July 1776**.",
+                "Treaty of Paris (1783): Britain recognized the independence of the United States."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. French Revolution (1789)",
+            "intro": "",
+            "bullets": [
+                "Causes: Divison of French society into three estates (Clergy, Nobility, Commoners/Third Estate). Only the Third Estate paid taxes. Bankruptcy under Louis XVI.",
+                "Storming of the Bastille (14 July 1789): A fortress-prison, symbol of royal tyranny, was destroyed by a mob. Celebrated as France's National Day.",
+                "Motto: **\"Liberty, Equality, Fraternity\"**.",
+                "Result: Executed Louis XVI and Marie Antoinette, ended feudalism, established republic, and paved the way for Napoleon Bonaparte's rise."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "3. Russian Revolution (1917)",
+            "intro": "",
+            "bullets": [
+                "Overthrew the Tsarist autocracy. Caused by economic hardships of WWI, food shortages, and absolute rule of Tsar Nicholas II.",
+                "**February Revolution:** Forced the Tsar to abdicate; provisional government set up.",
+                "**October (Bolshevik) Revolution:** Led by **Vladimir Lenin**. Overthrew the provisional government, ending private property, establishing a socialist state (leading to the creation of the USSR in 1922)."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "4. Industrial Revolution",
+            "intro": "",
+            "bullets": [
+                "Began in Britain in the mid-18th century. Transitioned from hand production to machine manufacturing.",
+                "Key inventions: James Watt's Steam Engine, Spinning Jenny, railway locomotives.",
+                "Impact: Rise of capitalism, urbanization, growth of working class, and colonial search for raw materials."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "French: 1789 (Liberty, Equality, Fraternity) | American: 1776 (July 4) | Russian: 1917 (Lenin/Bolsheviks)"
+    ],
+    "hasNotes": true
+}

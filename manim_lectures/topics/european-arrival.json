@@ -1,0 +1,42 @@
+{
+    "id": "european-arrival",
+    "title": "European Arrival",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "5. Modern India (Highest Priority)",
+    "chapterId": "modern-india-tree",
+    "blocks": [
+        {
+            "heading": "\ud83d\udea2 European Entry and British Expansion",
+            "intro": "The search for spices led European powers to establish trading outposts in India, which eventually turned into territorial ambitions.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. Arrival Sequence (PEDDF)",
+            "intro": "",
+            "bullets": [
+                "**Portuguese (1498):** Vasco da Gama landed at Calicut. Francisco de Almeida (Blue Water Policy). Alfonso de Albuquerque captured Goa (1510) from Bijapur, making it the capital. Introduced printing press (1556) and tobacco.",
+                "**Dutch (1602):** First factory at Masulipatnam (1605). Displaced by British after the **Battle of Bedara (1759)**.",
+                "**English (1600):** Queen Elizabeth granted charter. Hawkins (1608) and Roe (1615) secured trading rights from Jahangir. First factory at Surat (1613).",
+                "**Danish (1616):** Settled at Tranquebar (TN) and Serampore (Bengal). Sold all holdings to British in 1845.",
+                "**French (1664):** Founded by Colbert under Louis XIV. First factory at Surat (1667). Fran\u00e7ois Martin founded Pondicherry (1674). Carnatic Wars (Anglo-French rivalry) crushed French power, culminating in their defeat at the **Battle of Wandiwash (1760)**."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Foundation of British Rule",
+            "intro": "",
+            "bullets": [
+                "Battle of Plassey (23 June 1757): Robert Clive defeated Nawab Siraj-ud-Daulah of Bengal. Clive bribed army chief **Mir Jafar**. Established EIC as a political force.",
+                "Battle of Buxar (22 Oct 1764): Hector Munro defeated joint forces of Nawab Mir Qasim of Bengal, Nawab Shuja-ud-Daulah of Awadh, and Mughal Emperor Shah Alam II. Led to **Treaty of Allahabad (1765)** where Clive secured **Diwani Rights** (tax collection rights) of Bengal, Bihar, and Odisha, starting the Dual Government."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Arrival: Portuguese (1498) -> Dutch (1602) -> English -> French (1664)",
+        "Goa Captured: 1510 (Albuquerque)"
+    ],
+    "hasNotes": true
+}

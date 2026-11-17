@@ -1,0 +1,15 @@
+{
+    "id": "goverment-executives",
+    "title": "Executives: PM, CM & Governor",
+    "subject": "Indian Polity (CDS/NDA)",
+    "subjectId": "polity",
+    "chapter": "Union Government",
+    "chapterId": "union-executive",
+    "blocks": [],
+    "formulas": [
+        "Real: PM (Union), CM (State)",
+        "Nominal: President (Union), Governor (State)",
+        "Pardons: President (Art 72 - court martial & death sentence), Governor (Art 161 - no court martial/death sentence pardon)"
+    ],
+    "hasNotes": false
+}

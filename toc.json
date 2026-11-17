@@ -1,0 +1,17 @@
+[
+    {
+        "subject": "Mathematics",
+        "chapters": [
+            "Number System",
+            "Sequence and Series",
+            "HCF and LCM of Numbers"
+        ]
+    },
+    {
+        "subject": "General English",
+        "chapters": [
+            "Spotting the Errors",
+            "Vocabulary"
+        ]
+    }
+]

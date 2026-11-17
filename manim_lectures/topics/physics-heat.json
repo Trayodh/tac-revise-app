@@ -1,0 +1,15 @@
+{
+    "id": "physics-heat",
+    "title": "Thermodynamics & Heat Transfer",
+    "subject": "Physics (NDA/CDS)",
+    "subjectId": "physics",
+    "chapter": "Heat & Thermodynamics",
+    "chapterId": "physics-thermodynamics",
+    "blocks": [],
+    "formulas": [
+        "Temp: C/5 = (F-32)/9 = (K-273)/5",
+        "Transfer: Conduction (solids), Convection (fluids), Radiation (no medium)",
+        "Laws: Zeroth (thermal equilibrium), 1st (conservation of energy), 2nd (entropy increases)"
+    ],
+    "hasNotes": false
+}

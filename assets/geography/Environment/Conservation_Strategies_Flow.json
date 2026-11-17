@@ -1,0 +1,17 @@
+{
+  "title": "Conservation Strategies Flow",
+  "subject": "Geography",
+  "category": "Environment",
+  "chapter": "Conservation Strategies",
+  "topic": "Strategic Actions",
+  "format": "Mermaid",
+  "mermaidCode": "graph TD\n    Conservation[Conservation Strategies] --> Habitat[Habitat Preservation & Restoration]\n    Conservation --> Wildlife[Wildlife Management]\n    Conservation --> Community[Community Engagement]\n    Conservation --> Research[Scientific Research & Monitoring]\n    Conservation --> Climate[Climate‑Resilient Planning]",
+  "mapQuery": "",
+  "description": "Flowchart of the main conservation strategies employed in Indian national parks.",
+  "keywords": [
+    "habitat preservation",
+    "wildlife management",
+    "community engagement",
+    "climate resilient"
+  ]
+}

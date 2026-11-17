@@ -1,0 +1,35 @@
+{
+    "id": "rbi-monetary-policy",
+    "title": "RBI & Monetary Policy Tools",
+    "subject": "Economics (CDS/NDA)",
+    "subjectId": "economics",
+    "chapter": "Monetary & Fiscal System",
+    "chapterId": "monetary-fiscal",
+    "blocks": [
+        {
+            "heading": "1. Reserve Bank of India (RBI)",
+            "intro": "Established on April 1, 1935 under the RBI Act (nationalized in 1949). Acts as the banker's bank and issues currency.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Monetary Policy Committee (MPC) tools",
+            "intro": "",
+            "bullets": [
+                "Quantitative Tools (Control money volume): Repo Rate : The interest rate at which RBI lends money to commercial banks for short terms. Lowering Repo rate increases inflation.",
+                "Reverse Repo Rate : The rate at which banks park surplus funds with RBI.",
+                "Cash Reserve Ratio (CRR) : Percentage of deposits banks must keep as cash with RBI. No interest earned on this.",
+                "Statutory Liquidity Ratio (SLR) : Percentage of deposits banks must keep in liquid assets (Gold, Govt Securities) with themselves.",
+                "Qualitative Tools : Marginal requirements, moral suasion, credit rationing."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "Repo Rate = Lending to Banks",
+        "CRR = Cash with RBI",
+        "SLR = Liquid assets with Bank",
+        "Reverse Repo < Repo Rate always"
+    ],
+    "hasNotes": true
+}

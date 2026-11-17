@@ -1,0 +1,19 @@
+{
+  "title": "Historic Treaties Defining India's Borders",
+  "subject": "Geography",
+  "category": "World",
+  "chapter": "Borders, Capitals & Mapping",
+  "topic": "Border Treaties",
+  "format": "Mermaid",
+  "description": "A timeline or list of significant historic treaties and agreements that have defined India's international borders, including the Treaty of Sugauli, Simla Agreement, Indus Waters Treaty, and Bangladesh-India Land Boundary Agreement.",
+  "keywords": [
+    "Treaty of Sugauli 1816",
+    "Simla Agreement 1972",
+    "Indus Waters Treaty 1960",
+    "Bangladesh-India Land Boundary Agreement 2015",
+    "China-India Agreement on LAC 1993",
+    "India border treaties",
+    "border disputes"
+  ],
+  "mermaidCode": "graph TD\nA[Historic Treaties Defining India's Borders] --> B{Treaty of Sugauli (1816)};\nB --> B1[Defined northern frontier with Nepal];\nB --> B2[Ceded Terai region];\nA --> C{Indus Waters Treaty (1960)};\nC --> C1[Water-sharing agreement with Pakistan];\nC --> C2[Cemented boundary along Indus basin];\nA --> D{Simla Agreement (1972)};\nD --> D1[Formalised Line of Control (LoC) after 1971 war];\nD --> D2[Principle of \"peaceful settlement of disputes\"];\nA --> E{China-India Agreement on LAC (1993)};\nE --> E1[Clarified Line of Actual Control];\nE --> E2[Ambiguities remain in western sector];\nA --> F{Bangladesh-India Land Boundary Agreement (2015)};\nF --> F1[Resolved 162 enclaves];\nF --> F2[Exchanged 7,000+ acres of territory];\nF --> F3[Eliminated longest land-border dispute];"
+}

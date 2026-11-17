@@ -1,0 +1,45 @@
+{
+    "id": "freedom-movement",
+    "title": "Freedom Movement",
+    "subject": "History (CDS/NDA)",
+    "subjectId": "history",
+    "chapter": "5. Modern India (Highest Priority)",
+    "chapterId": "modern-india-tree",
+    "blocks": [
+        {
+            "heading": "\u2694\ufe0f Indian National Movement",
+            "intro": "The organized struggle for independence from British rule, divided into Moderate, Extremist, and Gandhian phases.",
+            "bullets": [],
+            "tableRows": []
+        },
+        {
+            "heading": "1. Early Phases",
+            "intro": "",
+            "bullets": [
+                "Indian National Congress (INC) Founded (1885): Founded by retired civil servant **A.O. Hume**. First session held at Bombay (W.C. Bonnerjee President, attended by 72 delegates).",
+                "Moderate Phase (1885-1905): Led by Naoroji, Gokhale, Banerjea. Believed in constitutional methods (Triple Ps: Prayers, Petitions, Protests).",
+                "Extremist Phase (1905-1919): Led by **Lal-Bal-Pal** (Lajpat Rai, Tilak, Pal) and Aurobindo Ghosh. Preached self-reliance, boycott, and passive resistance. *Partition of Bengal (1905):* Announced by Lord Curzon. Triggered the **Swadeshi and Boycott Movement**.",
+                "*Surat Split (1907):* Congress split into Moderates and Extremists over methods.",
+                "*Lucknow Pact (1916):* Moderates/Extremists reunited. INC and Muslim League signed a joint pact.",
+                "*Home Rule League (1916):* Tilak and Annie Besant started separate leagues demanding home rule."
+            ],
+            "tableRows": []
+        },
+        {
+            "heading": "2. Gandhian Era (1919 - 1947)",
+            "intro": "",
+            "bullets": [
+                "Gandhi returned from South Africa on **9 January 1915** (celebrated as Pravasi Bharatiya Divas).",
+                "Early Satyagrahas: Champaran (Bihar, 1917 - first civil disobedience against Indigo Tinkathia system), Ahmedabad Mill Strike (1918 - first hunger strike), Kheda (1918 - first non-cooperation). Mnemonic: **CAK** (Champaran, Ahmedabad, Kheda).",
+                "Rowlatt Act & Jallianwala Bagh (1919): Rowlatt Act allowed detention without trial. On 13 April 1919, General Dyer opened fire on a peaceful assembly at Jallianwala Bagh, Amritsar. Tagore renounced his Knighthood.",
+                "Non-Cooperation Movement (1920-1922): Launched alongside Khilafat movement. Called off by Gandhi in Feb 1922 after the **Chauri Chaura incident** (where a mob burned a police station, killing 22 policemen).",
+                "Quit India Movement (1942): Launched after the failure of the Cripps Mission. Gandhi gave the call **\"Do or Die\"** at Gowalia Tank, Bombay on 8 August 1942. Leaders were arrested overnight under *Operation Zero Hour*."
+            ],
+            "tableRows": []
+        }
+    ],
+    "formulas": [
+        "INC Founded: 1885 | Dandi March: March 12-April 6, 1930 | Quit India: Aug 8, 1942 | Chauri Chaura: Feb 1922"
+    ],
+    "hasNotes": true
+}

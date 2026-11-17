@@ -1,0 +1,13 @@
+{
+    "id": "voice-conversion",
+    "title": "Active & Passive Voice",
+    "subject": "English (NDA/CDS/AFCAT)",
+    "subjectId": "english",
+    "chapter": "Grammar & Usage",
+    "chapterId": "grammar-rules",
+    "blocks": [],
+    "formulas": [
+        "Active (S + V + O) \u2194 Passive (O + helping verb + V3 + by S)"
+    ],
+    "hasNotes": false
+}

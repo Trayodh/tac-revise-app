@@ -1,0 +1,17 @@
+{
+  "title": "Major Threats to National Parks",
+  "subject": "Geography",
+  "category": "Environment",
+  "chapter": "Major Challenges",
+  "topic": "Threats Mind Map",
+  "format": "Mermaid",
+  "mermaidCode": "mindmap\n  root((Threats))\n    HumanWildlifeConflict\n    Poaching\n    ClimateChange\n    InfrastructureDevelopment\n    FundingShortfalls",
+  "mapQuery": "",
+  "description": "Mind map summarizing the primary threats faced by national parks, including poaching and climate change.",
+  "keywords": [
+    "poaching",
+    "human-wildlife conflict",
+    "climate change",
+    "infrastructure"
+  ]
+}
