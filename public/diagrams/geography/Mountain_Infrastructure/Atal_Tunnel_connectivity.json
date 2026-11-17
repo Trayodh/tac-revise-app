@@ -1,0 +1,23 @@
+{
+  "title": "Atal Tunnel connectivity",
+  "subject": "Geography",
+  "chapter": "Mountain Infrastructure",
+  "topic": "Atal Tunnel route",
+  "difficulty": "Medium",
+  "rendering_engine": "AI_Image",
+  "exams": [
+    "NDA",
+    "CDS",
+    "AFCAT"
+  ],
+  "keywords": [
+    "Atal Tunnel",
+    "Manali",
+    "Leh",
+    "Rohtang Pass",
+    "Ladakh"
+  ],
+  "caption": "Map of the Atal Tunnel route showing its connection between Solang Valley and Sissu and the resulting reduction in travel distance between Manali and Leh.",
+  "altText": "A labelled textbook-style map on a white background that displays the Atal Tunnel running under the Himalayas from Solang Valley near Manali to Sissu in Lahaul and Spiti district. The tunnel is shown as a bold underground line labeled \"Atal Tunnel (12 km)\". Surrounding features such as Manali, Rohtang Pass (marked as closed), Sissu, Lahaul & Spiti, Leh, and the Ladakh region are clearly labelled. Two distance routes are drawn: the original highway route from Manali to Leh marked at about 480 km, and the shortened route using the Atal Tunnel marked at about 350 km. The map uses light green for valleys, brown for mountains, blue for rivers, includes a scale bar, north arrow, and is rendered in high resolution with accurate geographic proportions.",
+  "source": "Automated Pipeline"
+}

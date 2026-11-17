@@ -925,7 +925,7 @@ h2 {
   text-align: left;
   font-family: var(--font-main);
 }
-.expanded-notes-content body { display: none; } /* Hide hardcoded bodies */
+.expanded-notes-content body { display: block !important; background: transparent !important; margin: 0; padding: 0; }
 
 /* Chapter Headings (H2) */
 .expanded-notes-content h2 {
@@ -2782,25 +2782,23 @@ h2 {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--bg-tertiary), var(--bg-hover));
-  border: 1px solid var(--accent);
-  box-shadow: 0 4px 15px rgba(var(--accent-rgb), 0.4);
+  background: linear-gradient(135deg, #a855f7, #6366f1);
+  box-shadow: 0 4px 15px rgba(168, 85, 247, 0.4);
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   z-index: 9999;
-  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s, background 0.3s;
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s;
 }
 #dronacharya-fab:hover {
   transform: scale(1.1);
-  box-shadow: 0 6px 20px rgba(var(--accent-rgb), 0.6);
-  background: linear-gradient(135deg, var(--bg-hover), var(--bg-tertiary));
+  box-shadow: 0 6px 20px rgba(168, 85, 247, 0.6);
 }
 #dronacharya-fab svg {
   width: 32px;
   height: 32px;
-  fill: var(--accent);
+  fill: white;
 }
 #dronacharya-panel {
   position: fixed;
@@ -2811,7 +2809,7 @@ h2 {
   max-height: 80vh;
   background: var(--bg-secondary);
   border-radius: 12px;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
   border: 1px solid var(--border);
   display: flex;
   flex-direction: column;
@@ -2833,13 +2831,12 @@ h2 {
   transform: scale(0);
 }
 .drona-header {
-  background: var(--bg-tertiary);
-  border-bottom: 1px solid var(--accent);
+  background: linear-gradient(135deg, #a855f7, #6366f1);
   padding: 16px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: var(--text-primary);
+  color: white;
 }
 .drona-header-info {
   display: flex;
@@ -4659,7 +4656,7 @@ body.sidebar-open .sidebar-overlay {
 
 /* Fix long unbroken URLs from stretching containers */
 a, p, span, div, li, td {
-  overflow-wrap: anywhere;
+  overflow-wrap: break-word;
   word-wrap: break-word;
 }
 
@@ -5177,3 +5174,54 @@ mark {
 .expanded-notes-content th {
     background-color: rgba(255, 255, 255, 0.1) !important;
 }
+
+/* Track 5: NCERT Blue-Box & UPSC Statement-Trap Matrix */
+.ncert-box {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.10), rgba(14, 165, 233, 0.05)) !important;
+    border: 1px solid rgba(59, 130, 246, 0.28) !important;
+    border-left: 4px solid #3b82f6 !important;
+    border-radius: 0 10px 10px 0 !important;
+    padding: 16px 20px !important;
+    margin: 18px 0 !important;
+    font-size: 0.92rem !important;
+    color: var(--text-secondary) !important;
+    line-height: 1.65 !important;
+}
+
+.ncert-box strong {
+    color: #60a5fa !important;
+}
+
+.trap-matrix-table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    margin: 16px 0 !important;
+    background: rgba(15, 23, 42, 0.6) !important;
+    border: 1px solid rgba(239, 68, 68, 0.28) !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+}
+
+.trap-matrix-table th {
+    background: rgba(239, 68, 68, 0.15) !important;
+    color: #fca5a5 !important;
+    padding: 10px 14px !important;
+    text-align: left !important;
+    font-size: 0.88rem !important;
+}
+
+.trap-matrix-table td {
+    padding: 9px 14px !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+    vertical-align: top !important;
+    font-size: 0.88rem !important;
+    color: var(--text-secondary) !important;
+}
+
+.embedded-diagrams-section svg {
+    max-width: 100% !important;
+    height: auto !important;
+    display: block;
+    margin: 0 auto;
+}
+

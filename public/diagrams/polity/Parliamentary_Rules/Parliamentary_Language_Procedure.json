@@ -1,0 +1,24 @@
+{
+  "title": "Parliamentary Language Procedure",
+  "subject": "Polity",
+  "chapter": "Parliamentary Rules",
+  "topic": "Language Use in Parliament",
+  "difficulty": "Medium",
+  "rendering_engine": "Mermaid",
+  "exams": [
+    "NDA",
+    "CDS",
+    "AFCAT"
+  ],
+  "keywords": [
+    "parliament",
+    "speaker",
+    "language",
+    "Hindi",
+    "English",
+    "mother tongue"
+  ],
+  "caption": "Flowchart of language procedures in Parliament",
+  "altText": "A flowchart showing the steps from a member requesting to speak in their mother tongue, the speaker's evaluation and permission, committee business conducted in Hindi or English, and minutes being recorded and prepared in both Hindi and English.",
+  "source": "Automated Pipeline"
+}

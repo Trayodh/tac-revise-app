@@ -1,0 +1,22 @@
+{
+  "title": "Seismic hazard zone V – Pithoragarh",
+  "subject": "Environment",
+  "chapter": "Earthquake Zones",
+  "topic": "Seismic hazard mapping",
+  "difficulty": "Medium",
+  "rendering_engine": "AI_Image",
+  "exams": [
+    "NDA",
+    "CDS",
+    "AFCAT"
+  ],
+  "keywords": [
+    "seismic zone V",
+    "Pithoragarh",
+    "earthquake hazard",
+    "map"
+  ],
+  "caption": "Seismic hazard zone V across India with emphasis on Pithoragarh, Uttarakhand.",
+  "altText": "A white‑background map of India displaying seismic hazard zones; zone V is colored bright red along the northern Himalayas. An inset map zooms into Uttarakhand, highlighting Pithoragarh district with its borders and a red dot marking the town of Pithoragarh. A legend explains the zone colors, and a scale bar and north arrow are included. All features are clearly labelled for educational purposes.",
+  "source": "Automated Pipeline"
+}

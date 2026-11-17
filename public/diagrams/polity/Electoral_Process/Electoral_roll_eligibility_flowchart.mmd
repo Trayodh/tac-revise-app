@@ -1,0 +1,16 @@
+graph TD
+    A[Start] --> B{Age ≥ 18?}
+    B -- No --> C[Ineligible: Underage]
+    B -- Yes --> D{Citizen?}
+    D -- No --> E[Ineligible: Non-citizen]
+    D -- Yes --> F{Resident ≥ 6 months?}
+    F -- No --> G[Ineligible: Insufficient residence]
+    F -- Yes --> H{Legal disqualification?}
+    H -- Yes --> I[Ineligible: Disqualified]
+    H -- No --> J[Eligible for electoral roll]
+    class C,E,G,I ineligible;
+    class J eligible;
+    class B,D,F,H decision;
+    classDef eligible fill:#c8e6c9,stroke:#388e3c;
+    classDef ineligible fill:#ffcdd2,stroke:#d32f2f;
+    classDef decision fill:#bbdefb,stroke:#1976d2;

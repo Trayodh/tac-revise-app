@@ -1,0 +1,22 @@
+{
+  "title": "Electoral roll eligibility flowchart",
+  "subject": "Polity",
+  "chapter": "Electoral Process",
+  "topic": "Eligibility Criteria",
+  "difficulty": "Easy",
+  "rendering_engine": "Mermaid",
+  "exams": [
+    "NDA",
+    "CDS",
+    "AFCAT"
+  ],
+  "keywords": [
+    "electoral roll",
+    "eligibility",
+    "voter registration",
+    "criteria"
+  ],
+  "caption": "Eligibility decision tree for inclusion in the electoral roll",
+  "altText": "A flowchart starting at 'Start' and checking age (≥18), citizenship, six‑month residence, and legal disqualification. Paths lead to 'Ineligible' nodes for underage, non‑citizen, insufficient residence, or disqualified, and a final 'Eligible for electoral roll' node when all criteria are satisfied.",
+  "source": "Automated Pipeline"
+}

@@ -11418,6 +11418,63 @@ window.renderCaDatesTable = renderCaDatesTable;
 
 
 let currentMotivationIndex = 0;
+let currentMotivationFilter = 'all';
+
+function getMotivationStoryCategory(storyObj) {
+  if (!storyObj) return 'gallantry';
+  if (storyObj.category) return storyObj.category;
+  const text = `${storyObj.hero || ''} ${storyObj.unit || ''}`;
+  if (/unknown gunmen|unknown intelligence|ravindra kaushik|black tiger|kaoboys/i.test(text)) {
+    return 'unknown_gunmen';
+  }
+  if (/unknown.*soldier|unknown.*sepoy|amar jawan|eternal patrol|unidentified braves/i.test(text)) {
+    return 'unknown_soldiers';
+  }
+  return 'gallantry';
+}
+
+function getFilteredMotivationIndices(filter = currentMotivationFilter) {
+  const stories = window.BRAVERY_STORIES || [];
+  if (!stories.length) return [];
+  if (!filter || filter === 'all') {
+    return stories.map((_, idx) => idx);
+  }
+  const matched = [];
+  stories.forEach((story, idx) => {
+    if (getMotivationStoryCategory(story) === filter) {
+      matched.push(idx);
+    }
+  });
+  return matched.length ? matched : stories.map((_, idx) => idx);
+}
+
+function updateMotivationFilterUI() {
+  const filterContainer = document.getElementById('motivation-filters');
+  if (filterContainer) {
+    filterContainer.querySelectorAll('[data-filter]').forEach(btn => {
+      const isActive = btn.getAttribute('data-filter') === currentMotivationFilter;
+      btn.style.background = isActive ? 'var(--accent)' : 'rgba(255,255,255,0.06)';
+      btn.style.color = isActive ? '#05140a' : 'var(--text-secondary)';
+      btn.style.borderColor = isActive ? 'var(--accent)' : 'rgba(255,255,255,0.14)';
+      btn.style.fontWeight = isActive ? '700' : '500';
+    });
+  }
+  const counterEl = document.getElementById('motivation-counter');
+  if (counterEl) {
+    const indices = getFilteredMotivationIndices(currentMotivationFilter);
+    const pos = indices.indexOf(currentMotivationIndex);
+    counterEl.innerText = indices.length ? `${pos >= 0 ? pos + 1 : 1} / ${indices.length}` : '0 / 0';
+  }
+}
+
+function setMotivationFilter(filter) {
+  currentMotivationFilter = filter || 'all';
+  const indices = getFilteredMotivationIndices(currentMotivationFilter);
+  if (indices.length && !indices.includes(currentMotivationIndex)) {
+    currentMotivationIndex = indices[0];
+  }
+  renderMotivationStory();
+}
 
 let lastMotivationDateString = "";
 
@@ -11449,6 +11506,7 @@ function initMotivationOfTheDay() {
     "0-15": { name: "Army Day", keyword: "Army" },
     "0-26": { name: "Republic Day", keyword: "Param Vir Chakra" },
     "1-14": { name: "Pulwama Attack Remembrance", keyword: "Pulwama" },
+    "1-25": { name: "National War Memorial Day", keyword: "Amar Jawan Jyoti" },
     "1-26": { name: "Operation Bandar (Balakot Airstrike) Anniversary", keyword: "Balakot" },
     "2-10": { name: "CISF Raising Day", keyword: "CISF" },
     "4-7":  { name: "Operation Sindoor Anniversary", keyword: "Sindoor" },
@@ -11465,6 +11523,7 @@ function initMotivationOfTheDay() {
     "9-16": { name: "NSG Raising Day", keyword: "NSG" },
     "9-24": { name: "ITBP Raising Day", keyword: "ITBP" },
     "9-27": { name: "Infantry Day", keyword: "Infantry" },
+    "10-11": { name: "Remembrance Day (Unknown Soldiers)", keyword: "Unknown Indian Sepoys" },
     "10-26": { name: "26/11 Mumbai Attacks Remembrance", keyword: "Mumbai" },
     "11-1": { name: "BSF Raising Day", keyword: "BSF" },
     "11-4": { name: "Navy Day", keyword: "Navy" },
@@ -11632,6 +11691,7 @@ function renderMotivationStory() {
   yearEl.innerText = storyObj.year;
 
   storyEl.innerText = `"${storyObj.story}"`;
+  updateMotivationFilterUI();
 
     
 
@@ -11744,6 +11804,14 @@ STRICT FORMATTING RULES:
 
 
 function showNextMotivation() {
+  const indices = getFilteredMotivationIndices(currentMotivationFilter);
+  if (!indices.length) return;
+  if (currentMotivationFilter !== 'all') {
+    const pos = indices.indexOf(currentMotivationIndex);
+    currentMotivationIndex = indices[(pos + 1) % indices.length];
+    renderMotivationStory();
+    return;
+  }
   let seenStories = [];
   try {
     seenStories = JSON.parse(localStorage.getItem('tac_seen_stories') || '[]');
@@ -11770,9 +11838,22 @@ function showNextMotivation() {
 
 
 
+function showPrevMotivation() {
+  const indices = getFilteredMotivationIndices(currentMotivationFilter);
+  if (!indices.length) return;
+  const pos = indices.indexOf(currentMotivationIndex);
+  const prevPos = pos > 0 ? pos - 1 : indices.length - 1;
+  currentMotivationIndex = indices[prevPos];
+  renderMotivationStory();
+}
+
 window.initMotivationOfTheDay = initMotivationOfTheDay;
 
 window.showNextMotivation = showNextMotivation;
+
+window.showPrevMotivation = showPrevMotivation;
+
+window.setMotivationFilter = setMotivationFilter;
 
 
 

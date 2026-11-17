@@ -1,0 +1,12 @@
+graph TD
+ A[Liver] -->|ornithine cycle|> B[Urea Production]
+ B -->|excretion|> C[Urea]
+ C -->|waste removal|> D[Urinary System]
+ D -->|excretion|> E[Outside the body]
+ subgraph Ornithine Cycle
+ A -->|ammonia|> F[Carbamoyl phosphate]
+ F -->|ornithine|> G[Citrulline]
+ G -->|aspartate|> H[Argininosuccinate]
+ H -->|cleavage|> I[Arginine]
+ I -->|hydrolysis|> B
+ end

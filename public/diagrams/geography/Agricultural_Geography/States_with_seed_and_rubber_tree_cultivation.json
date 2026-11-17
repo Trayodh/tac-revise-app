@@ -1,0 +1,23 @@
+{
+  "title": "States with seed and rubber tree cultivation",
+  "subject": "Geography",
+  "chapter": "Agricultural Geography",
+  "topic": "Crop distribution",
+  "difficulty": "Easy",
+  "rendering_engine": "AI_Image",
+  "exams": [
+    "NDA",
+    "CDS",
+    "AFCAT"
+  ],
+  "keywords": [
+    "seed",
+    "rubber tree",
+    "Assam",
+    "Nagaland",
+    "Kerala"
+  ],
+  "caption": "Map of India highlighting Assam, Nagaland, and Kerala as regions where seeds and rubber trees are cultivated.",
+  "altText": "A textbook-style map of India on a white background with the states of Assam, Nagaland, and Kerala highlighted in bright colors. Each highlighted state shows a small seed icon and a rubber tree silhouette to indicate seed and rubber tree cultivation. The rest of India appears in muted gray. State names are labeled in bold black text with arrows pointing to the highlighted states. A legend explains the icons, and a scale bar is shown at the bottom.",
+  "source": "Automated Pipeline"
+}

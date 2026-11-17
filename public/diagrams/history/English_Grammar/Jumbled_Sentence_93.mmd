@@ -1,0 +1,15 @@
+graph TD
+    A[Original Jumbled Sentence] --> B[Identify Parts Q, P, S, R]
+    B --> C[Part Q]
+    B --> D[Part P]
+    B --> E[Part S]
+    B --> F[Part R]
+    C --> G[Place Q first]
+    D --> G
+    E --> G
+    F --> G
+    G --> H[Construct Sentence: Q → P → S → R]
+    H --> I[Validate Grammar]
+    I --> J[Correct Sentence]
+    class H correct;
+    classDef correct fill:#e0ffe0,stroke:#2c7,stroke-width:2px;

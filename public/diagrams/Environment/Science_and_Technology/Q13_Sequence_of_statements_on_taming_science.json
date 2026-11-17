@@ -1,0 +1,22 @@
+{
+  "title": "Q13 Sequence of statements on taming science",
+  "subject": "Environment",
+  "chapter": "Science and Technology",
+  "topic": "Logical ordering of statements",
+  "difficulty": "Medium",
+  "rendering_engine": "Mermaid",
+  "exams": [
+    "NDA",
+    "CDS",
+    "AFCAT"
+  ],
+  "keywords": [
+    "sequence",
+    "logic",
+    "science",
+    "technology"
+  ],
+  "caption": "Flowchart illustrating the four possible orderings of statements P, Q, R, S and highlighting the correct sequence.",
+  "altText": "A flowchart starts with a Start node leading to a decision node labeled 'Choose correct option'. Four branches represent Option A, B, C, and D. Option A branch shows the sequence P → Q → R → S ending at End and is highlighted. Option B shows P → R → Q → S, Option C shows Q → P → R → S, and Option D shows P → Q → S → R, all converging to the same End node.",
+  "source": "Automated Pipeline"
+}

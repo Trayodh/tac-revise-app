@@ -1,0 +1,23 @@
+{
+  "title": "Constitutional amendment procedure (Article 368)",
+  "subject": "Polity",
+  "chapter": "Constitutional Law",
+  "topic": "Amendment process",
+  "difficulty": "Medium",
+  "rendering_engine": "Mermaid",
+  "exams": [
+    "NDA",
+    "CDS",
+    "AFCAT"
+  ],
+  "keywords": [
+    "Article 368",
+    "constitutional amendment",
+    "special majority",
+    "ratification",
+    "Parliament"
+  ],
+  "caption": "Flowchart of the constitutional amendment process under Article 368",
+  "altText": "A flowchart showing steps: bill introduction, passage in Lok Sabha and Rajya Sabha, special majority requirement, ratification by at least half of the states, presidential assent, and final enactment, with rejection paths if requirements are not met.",
+  "source": "Automated Pipeline"
+}

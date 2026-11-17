@@ -1,0 +1,22 @@
+{
+  "title": "Blizzard risk in Arunachal Pradesh",
+  "subject": "Environment",
+  "chapter": "Cold Weather Hazards",
+  "topic": "Blizzard risk map",
+  "difficulty": "Easy",
+  "rendering_engine": "AI_Image",
+  "exams": [
+    "NDA",
+    "CDS",
+    "AFCAT"
+  ],
+  "keywords": [
+    "blizzard",
+    "Arunachal Pradesh",
+    "cold weather",
+    "map"
+  ],
+  "caption": "Blizzard risk map for Arunachal Pradesh showing temperature and wind conditions that trigger blizzards.",
+  "altText": "A textbook‑style map on a white background that highlights Arunachal Pradesh in a pastel shade. The map uses a blue‑to‑white color gradient to show temperatures ranging from -20 °C (dark blue) to 0 °C (light blue). Overlaid are black arrows indicating wind direction and speed, with arrows thicker than 30 km/h highlighted in red. Contour lines depict pressure systems, and a legend explains the temperature colors, wind symbols, and a scale bar. Major rivers, mountain ranges, and towns are clearly labelled, providing an accurate visual representation of the climatic factors that contribute to blizzard risk in the region.",
+  "source": "Automated Pipeline"
+}

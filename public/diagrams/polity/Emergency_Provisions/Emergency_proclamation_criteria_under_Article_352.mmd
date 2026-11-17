@@ -1,0 +1,16 @@
+graph TD
+    Start[President decides on Emergency] --> Decision{Is there a ground?}
+    Decision -->|War| War[War (valid ground)]
+    Decision -->|External aggression| ExtAgg[External aggression (valid ground)]
+    Decision -->|Armed rebellion| Armed[Armed rebellion (valid ground)]
+    Decision -->|Internal disturbance| Internal[Internal disturbance (invalid ground)]
+    War --> Valid1[Valid: Proclamation allowed]
+    ExtAgg --> Valid2[Valid: Proclamation allowed]
+    Armed --> Valid3[Valid: Proclamation allowed]
+    Internal --> Invalid[Invalid: No proclamation]
+    Valid1 --> End[Emergency proclaimed]
+    Valid2 --> End
+    Valid3 --> End
+    Invalid --> EndInvalid[No emergency]
+    class War,ExtAgg,Armed valid;
+    class Internal invalid;

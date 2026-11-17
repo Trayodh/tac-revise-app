@@ -1,5 +1,5 @@
 // Automatically Generated Motivation Stories Database
-// Total Stories: 231
+// Total Stories: 260
 
 const BRAVERY_STORIES = [
   {
@@ -1660,6 +1660,7 @@ const BRAVERY_STORIES = [
     "award": "Kirti Chakra (often awarded covertly)",
     "unit": "Research and Analysis Wing (R&AW) / Intelligence Bureau (IB)",
     "year": "Ongoing Operations",
+    "category": "unknown_gunmen",
     "story": "The Silent Sentinels of the Shadows\n\nLong before a bullet is fired on the border, wars are fought and won in the shadows. The intelligence officers of R&AW and IB operate in hostile territories, far from home, with no uniform and no public recognition. Their meticulous intelligence gathering has thwarted numerous terrorist attacks, neutralized threats, and provided critical actionable intelligence to the Armed Forces. They are the unseen shield of the nation.\n\nQuote: \"Dharmo Rakshati Rakshitah\" (The Law Protects When it is Protected)\n\nMoral: True service to the nation often requires walking the perilous path of anonymity, where the only reward is the safety of the motherland."
   },
   {
@@ -1739,6 +1740,104 @@ const BRAVERY_STORIES = [
     "unit": "Marine Commandos (MARCOS), Indian Navy",
     "year": "November 2008 (Operation Black Tornado, Mumbai)",
     "story": "The Few, The Fearless\n\nWhen Mumbai was struck by unprecedented terror on 26/11, the Navy's elite Marine Commandos (MARCOS) were the first special forces to respond. Entering the Taj Mahal Palace Hotel in total darkness, they navigating booby traps and engaged heavily armed terrorists in a complex, multi-story urban battlefield. Their swift, silent, and lethal intervention successfully rescued hundreds of hostages and contained the terrorists until the NSG arrived, proving why they are known as the 'Dadiwale Fauji' (bearded warriors) and the absolute best in maritime and urban warfare.\n\nQuote: \"The Few, The Fearless.\"\n\nMoral: In the darkest hours, elite readiness and silent courage provide the ultimate shield against chaos."
+  },
+  // ── UNKNOWN GUNMEN & COVERT SHADOW OPERATIVES ───────────────────────────
+  {
+    "hero": "The \"Unknown Gunmen\" (Shadow Counter-Terror Deterrence)",
+    "award": "Unattributed & Unclaimed — Service Beyond Recognition",
+    "unit": "Covert Counter-Terrorism & Strategic Deterrence Shadows",
+    "year": "2023–Present (Global Counter-Terror Operations)",
+    "category": "unknown_gunmen",
+    "story": "Ghosts Who Hunt the Hunters\n\nFor decades, masterminds behind heinous attacks on Indian soil — from the IC-814 hijacking and the 2001 Parliament attack to 26/11 Mumbai, Pathankot, and Pulwama — believed they were untouchable inside heavily guarded foreign sanctuaries. Then, in the quiet alleys, mosques, and safe houses of distant cities, a new reality took hold. Unidentified gunmen on motorcycles or in unmarked vehicles began intercepting wanted UN-designated terrorists with surgical precision, neutralizing decades-old threats and vanishing without a single trace or claim of responsibility. Operating with zero fanfare, no uniform, and no expectation of parades or medals, these phantom operatives transformed strategic deterrence: proving that distance and hostile borders no longer guarantee impunity to those who target innocent lives.\n\nQuote: \"Those who wage war from the shadows must learn to fear the dark.\"\n\nMoral: Silent resolve, patience, and uncredited execution can shift the balance of security without a single public boast."
+  },
+  {
+    "hero": "Ravindra Kaushik (\"The Black Tiger\")",
+    "award": "Unrecognised Martyrdom in Deep Cover",
+    "unit": "Research and Analysis Wing (R&AW) — Deep-Cover Intelligence",
+    "year": "1975–2001 (Deep-Cover Operations Across the Border)",
+    "category": "unknown_gunmen",
+    "story": "The Black Tiger Who Lived Behind Enemy Lines\n\nRecruited by Indian intelligence at just 23 from Sri Ganganagar, Rajasthan, Ravindra Kaushik undertook one of the most perilous missions imaginable: erasing his entire past to live as a citizen inside an adversarial state. After years of mastering Urdu, local customs, and scripture, he crossed the border under the alias Nabi Ahmed Shakir, earned a law degree from Karachi University, and passed the competitive examination to be commissioned into the enemy military, eventually rising to the rank of Major. Between 1979 and 1983, he quietly transmitted critical strategic intelligence back to India, warning of hostile troop movements and saving thousands of Indian soldiers' lives. Exposed when another operative was captured and broken under interrogation, Kaushik endured 16 years in brutal prisons in Sialkot and Mianwali without ever betraying his handlers or his motherland, dying in captivity in 2001 — remembered forever by the moniker 'The Black Tiger'.\n\nQuote: \"Kya Bharat jaise bade desh ke liye kurbani dene walon ko yahi milta hai?\" (Attributed final letter)\n\nMoral: Deep-cover courage demands living every single breath in solitude on hostile ground, sustained solely by unbreakable love for one's country."
+  },
+  {
+    "hero": "Rameshwar Nath Kao & The Anonymous \"Kaoboys\"",
+    "award": "Silent Institutional Builders of Strategic Intelligence",
+    "unit": "Founding Cadre, Research and Analysis Wing (R&AW)",
+    "year": "1968–1977 (Birth of India's External Intelligence)",
+    "category": "unknown_gunmen",
+    "story": "The Gentlemen Who Built India's Invisible Sword\n\nWhen the Research and Analysis Wing (R&AW) was carved out in September 1968 under its legendary first chief Rameshwar Nath Kao, its founding officers — affectionately called the 'Kaoboys' — operated by an iron rule: never appear in newspapers, never seek credit, and let every triumph look like coincidence. Handpicked from police, military, and diplomatic ranks, these anonymous operatives spun intelligence webs across South Asia and beyond, foresaw geopolitical ruptures before they erupted, orchestrated bloodless strategic integrations, and built covert action capabilities from scratch. Even decades later, most of their names and operations remain locked inside classified vaults, their true memorial written only in the borders that stayed secure.\n\nQuote: \"We must remain faceless so the nation may stand tall.\"\n\nMoral: True strategic mastery lies in quiet foresight and disciplined anonymity, where the mission always dwarfs the ego."
+  },
+  {
+    "hero": "The Nameless R&AW & SFF Operatives of 1971",
+    "award": "Silent Architects of the 13-Day Victory",
+    "unit": "Research and Analysis Wing (R&AW) & Special Frontier Force (SFF)",
+    "year": "1971 (Operation Jackpot & Chittagong Hill Tracts)",
+    "category": "unknown_gunmen",
+    "story": "The Invisible Hands Behind the 13-Day Victory\n\nHistory remembers the sweeping tank advances and air strikes of December 1971, yet the stage for that 13-day triumph was set months earlier by unnamed operatives in the shadows. Under covert R&AW networks, young volunteers were trained into lethal frogmen for Operation Jackpot, swimming silently through dark rivers with limpet mines to cripple enemy supply vessels in Chittagong and Mongla. Simultaneously, covert officers led the Special Frontier Force (Vikas Regiment) through dense, uncharted jungles of the Chittagong Hill Tracts, destroying enemy bunkers and cutting retreat routes without official battle honours or public citations. They fought a phantom war before the first official bugle sounded.\n\nQuote: \"Victory belongs to those who prepare the battlefield before dawn.\"\n\nMoral: Behind every celebrated conventional triumph stand unnamed covert operators who quietly tilt the odds before the world is watching."
+  },
+  {
+    "hero": "The Unnamed Shadow Marksmen of the Line of Control",
+    "award": "Unheralded Tactical Precision (Operational Secrecy)",
+    "unit": "Special Forces & Counter-Infiltration Sniper Teams, Indian Army",
+    "year": "Ongoing Operations (Line of Control & High-Altitude Sectors)",
+    "category": "unknown_gunmen",
+    "story": "One Shot, Zero Footprints\n\nHigh above the snowline and inside the fog-draped pine forests along the Line of Control, teams of two — a sniper and a spotter — lie motionless for days in sub-zero silence. Wrapped in thermal camouflage and living on cold rations, these unknown gunmen track heavily armed terrorist launchpads and infiltrating columns moving under cover of darkness. A single calculated breath, a wind-adjusted trigger pull from over a kilometre away, and an entire infiltration attempt collapses before a single village or forward post is endangered. For their own safety and their families' protection, their names are never released to the media; they return silently to base, clean their rifles, and vanish back onto the ridge.\n\nQuote: \"Silence is our armour; precision is our voice.\"\n\nMoral: Discipline, patience, and cold-blooded mastery under extreme isolation save countless innocent lives without ever seeking applause."
+  },
+  {
+    "hero": "The Undercover Counter-Terror Infiltrators of J&K",
+    "award": "Classified Gallantry Citations",
+    "unit": "Military Intelligence, Para (SF) & Joint Covert Task Forces",
+    "year": "1990s–Present (Deep-Penetration Counter-Terrorism)",
+    "category": "unknown_gunmen",
+    "story": "Walking Into the Wolf's Den Without Backup\n\nBefore Major Mohit Sharma's alias 'Iftikhar Bhatt' became known after his supreme sacrifice, and alongside him, scores of unnamed Indian operatives and deep-penetration sources walked straight into heavily armed terrorist modules with nothing but nerve and a cover story. Growing beards, mastering local dialects, and sleeping inches away from adversaries carrying assault rifles and grenades, these unknown gunmen mapped subterranean hideouts, sabotaged weapon consignments, and guided precision strikes from inside the target ring. Knowing full well that a single slip of the tongue meant torture and death without immediate rescue, they stayed in character until every threat was dismantled.\n\nQuote: \"To defeat the darkness, one must walk inside it without flinching.\"\n\nMoral: The highest form of nerve is conquering fear every second while standing alone among enemies."
+  },
+  // ── UNKNOWN SOLDIERS ────────────────────────────────────────────────────
+  {
+    "hero": "The Unknown Indian Soldier (Amar Jawan Jyoti)",
+    "award": "Eternal National Gratitude — Inverted Rifle & Helmet",
+    "unit": "All Arms & Services of the Indian Armed Forces",
+    "year": "1971–Present (India Gate & National War Memorial, New Delhi)",
+    "category": "unknown_soldiers",
+    "story": "The Flame That Never Dies for the Unidentified Brave\n\nFollowing India's historic victory in December 1971, a solemn memorial was consecrated beneath India Gate on 26 January 1972: Amar Jawan Jyoti — the Flame of the Immortal Soldier. Represented by a black marble plinth bearing a reversed L1A1 rifle crowned by a soldier's battle helmet, and later merged into the Eternal Flame at the National War Memorial in January 2022, it stands in eternal tribute to every Indian soldier whose body was never recovered from shattered trenches, sunken ships, or glacial crevasses, or whose name was lost to the fog of war. Every time the nation salutes that flame, it honours the nameless jawan who gave up his tomorrow so millions could live free today.\n\nQuote: \"Shaheedon ki chitaon par lagenge har baras mele, watan par marne walon ka yahi baaki nishaan hoga.\"\n\nMoral: A soldier's sacrifice does not depend on whether history remembers his name; his duty lives on in the freedom of every citizen."
+  },
+  {
+    "hero": "The Unknown Soldiers of Siachen (Operation Meghdoot)",
+    "award": "Supreme Sacrifice on the World's Highest Battlefield",
+    "unit": "Indian Army (High-Altitude Garrisons, Saltoro Ridge & Siachen)",
+    "year": "1984–Present (18,000–21,000 Feet Altitude)",
+    "category": "unknown_soldiers",
+    "story": "Frozen in Eternity at 20,000 Feet\n\nSince Operation Meghdoot began in April 1984, Indian soldiers have guarded the razor-thin ice crests of the Siachen Glacier where temperatures plunge to -50°C and oxygen drops below half of sea-level norms. In this white wilderness, deadly avalanches, collapsing snow cornices, and bottomless crevasses have swallowed entire patrols in seconds. Years — sometimes decades — later, the slowly shifting glacier yields up a rusted rifle, a frost-preserved boot, or an unreadable identification disc of a missing jawan. Their names may have waited decades for closure, yet they stood unwavering on the roof of the world so India's northern frontier would never yield an inch.\n\nQuote: \"Quartered in snow, silent to remain. When the bugle calls, they shall rise and march again.\"\n\nMoral: True devotion endures even where human footprints freeze and vanish; the hardest battles are often fought against nature itself in utter solitude."
+  },
+  {
+    "hero": "The Unknown Indian Sepoys of World War I",
+    "award": "Commemorated at Neuve-Chapelle (France) & India Gate (New Delhi)",
+    "unit": "British Indian Army (Over 1.3 Million Served, 74,000+ Fallen)",
+    "year": "1914–1918 (Flanders, Gallipoli, Mesopotamia & East Africa)",
+    "category": "unknown_soldiers",
+    "story": "Stranger Lands, Unmarked Graves, Undying Honour\n\nBetween 1914 and 1918, over 1.3 million Indian soldiers sailed across oceans they had never seen to fight in freezing mud trenches at Ypres, Neuve-Chapelle, Gallipoli, and scorching deserts in Mesopotamia. Tens of thousands vanished under relentless artillery barrages, leaving no identifiable remains. Today, over 13,000 names of the fallen are etched into the stone arch of India Gate in New Delhi, while thousands more rest beneath headstones inscribed simply 'Known Unto God' across war cemeteries from France to Basra. Far from their villages in Punjab, Garhwal, Maharashtra, Tamil Nadu, and Bengal, these unknown sepoys forged an international reputation for unbreakable dignity under fire.\n\nQuote: \"They shall grow not old, as we that are left grow old.\"\n\nMoral: Honour and comradeship transcend borders, languages, and time — even an unmarked grave commands eternal respect."
+  },
+  {
+    "hero": "The Missing Sailors of INS Khukri (\"On Eternal Patrol\")",
+    "award": "Eternal Patrol — Indian Navy Tradition",
+    "unit": "INS Khukri (F149) & Naval Sea Warriors, Indian Navy",
+    "year": "9 December 1971 (Off the Coast of Diu, Arabian Sea)",
+    "category": "unknown_soldiers",
+    "story": "Forever on Eternal Patrol Beneath the Waves\n\nWhen three torpedoes tore into the hull of the anti-submarine frigate INS Khukri on the night of 9 December 1971, the ship sank into the Arabian Sea in under two minutes. Alongside Captain Mahendra Nath Mulla, 17 other officers and 176 sailors went down into the dark waters — most never recovered, their final resting place marked only by latitude and longitude off the coast of Diu. In solemn naval tradition, sailors lost at sea without recovered remains are never listed merely as gone; they remain 'On Eternal Patrol,' forever standing watch beneath the waves to guard India's maritime approaches.\n\nQuote: \"Sham No Varunah — Even the ocean bows to those who never abandon their post.\"\n\nMoral: True service knows no farewell; those who give everything at sea remain eternal guardians of the nation's waters."
+  },
+  {
+    "hero": "The Unknown Combat Support Soldiers & High-Altitude Porters",
+    "award": "Unsung Backbone of Mountain & Frontline Victories",
+    "unit": "Army Medical Corps, Corps of Signals, Pioneer Corps & Civilian Porters",
+    "year": "1962, 1965, 1971 & 1999 (Kargil & Himalayan Fronts)",
+    "category": "unknown_soldiers",
+    "story": "Carrying Ammunition Up Vertical Cliffs Under Shelling\n\nEvery iconic peak captured by an assault battalion rests upon the bruised shoulders of unknown soldiers and unarmed high-altitude porters whose names rarely appear in victory dispatches. While artillery shells rained across Tiger Hill, Tololing, and Nuranang, unnamed signallers crawled through shrapnel to splice snapped field telephone wires, nursing assistants shielded wounded comrades with their own bodies, and Pioneer Corps jawans alongside local Ladakhi and Kashmiri porters hauled 30-kilogram mortar crates up 16,000-foot cliffs in pitch darkness. Many fell anonymously on exposed supply ridges, proving that logistics, signalmen, and medics carry the same courage as the bayonet charge.\n\nQuote: \"Amateurs talk tactics; professionals study logistics — and heroes carry both uphill under fire.\"\n\nMoral: No frontline victory is possible without the quiet, selfless endurance of the support warriors behind it."
+  },
+  {
+    "hero": "The Unidentified Braves of the 1962 High-Altitude Stands",
+    "award": "Eternal Glory of the Last Man, Last Round",
+    "unit": "Indian Army (Isolated Pickets in Ladakh & NEFA)",
+    "year": "October–November 1962 (Sino-Indian War)",
+    "category": "unknown_soldiers",
+    "story": "Found Months Later Still Aiming Their Weapons\n\nDuring the bitter autumn of 1962, dozens of remote Indian forward pickets across Ladakh and NEFA were cut off from headquarters as snowstorms and artillery severed every radio link. Without witnesses or surviving messengers, small platoons and sections fought to their final cartridge in complete isolation. When search teams finally reached the frozen ridges in the spring of 1963, they uncovered an unforgettable sight: unidentified jawans still crouched inside collapsed bunkers, frozen fingers wrapped around empty triggers, bayonets fixed forward toward the enemy line. No camera captured their last stand and no survivor remained to write their citations, yet their unbroken posture spoke louder than any medal.\n\nQuote: \"They died facing the storm so the line behind them could hold.\"\n\nMoral: Integrity means doing the right thing — and holding your post — even when nobody is watching to record your name."
   }
 ];
 

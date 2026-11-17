@@ -1,0 +1,23 @@
+{
+  "title": "Frustum of a cone dimensions",
+  "subject": "Mathematics",
+  "chapter": "Solid Geometry",
+  "topic": "Frustum of a cone",
+  "difficulty": "Medium",
+  "rendering_engine": "SVG",
+  "exams": [
+    "NDA",
+    "CDS",
+    "AFCAT"
+  ],
+  "keywords": [
+    "frustum",
+    "cone",
+    "radius",
+    "height",
+    "slant height"
+  ],
+  "caption": "Frustum with radii 105 cm and 42 cm, height 16 cm, showing slant height 65 cm.",
+  "altText": "Side view of a truncated cone (frustum) showing the larger base with radius 105 cm, the smaller top base with radius 42 cm, the vertical height of 16 cm between the bases, and the slant height of 65 cm along the side. Dashed lines indicate the radii, height, and slant height, each labeled with its measurement.",
+  "source": "Automated Pipeline"
+}

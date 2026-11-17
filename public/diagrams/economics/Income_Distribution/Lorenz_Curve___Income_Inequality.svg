@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400"><rect width="400" height="400" fill="white"/><text x="200" y="30" font-size="18" text-anchor="middle" font-weight="bold">Lorenz Curve – Income Inequality</text><!-- X‑axis -->
+<line x1="50" y1="350" x2="350" y2="350" stroke="black" stroke-width="2"/>
+<!-- X‑axis ticks -->
+<line x1="50" y1="350" x2="50" y2="355" stroke="black" stroke-width="1"/><text x="50" y="370" font-size="12" text-anchor="middle">0</text>
+<line x1="110" y1="350" x2="110" y2="355" stroke="black" stroke-width="1"/><text x="110" y="370" font-size="12" text-anchor="middle">20</text>
+<line x1="170" y1="350" x2="170" y2="355" stroke="black" stroke-width="1"/><text x="170" y="370" font-size="12" text-anchor="middle">40</text>
+<line x1="230" y1="350" x2="230" y2="355" stroke="black" stroke-width="1"/><text x="230" y="370" font-size="12" text-anchor="middle">60</text>
+<line x1="290" y1="350" x2="290" y2="355" stroke="black" stroke-width="1"/><text x="290" y="370" font-size="12" text-anchor="middle">80</text>
+<line x1="350" y1="350" x2="350" y2="355" stroke="black" stroke-width="1"/><text x="350" y="370" font-size="12" text-anchor="middle">100</text>
+<!-- Y‑axis -->
+<line x1="50" y1="350" x2="50" y2="50" stroke="black" stroke-width="2"/>
+<!-- Y‑axis ticks -->
+<line x1="45" y1="350" x2="50" y1="350" stroke="black" stroke-width="1"/><text x="35" y="355" font-size="12" text-anchor="end">0</text>
+<line x1="45" y1="290" x2="50" y1="290" stroke="black" stroke-width="1"/><text x="35" y="295" font-size="12" text-anchor="end">20</text>
+<line x1="45" y1="230" x2="50" y1="230" stroke="black" stroke-width="1"/><text x="35" y="235" font-size="12" text-anchor="end">40</text>
+<line x1="45" y1="170" x2="50" y1="170" stroke="black" stroke-width="1"/><text x="35" y="175" font-size="12" text-anchor="end">60</text>
+<line x1="45" y1="110" x2="50" y1="110" stroke="black" stroke-width="1"/><text x="35" y="115" font-size="12" text-anchor="end">80</text>
+<line x1="45" y1="50" x2="50" y1="50" stroke="black" stroke-width="1"/><text x="35" y="55" font-size="12" text-anchor="end">100</text>
+<!-- Line of perfect equality -->
+<line x1="50" y1="350" x2="350" y2="50" stroke="gray" stroke-width="1" stroke-dasharray="5,5"/><text x="355" y="45" font-size="12" fill="gray" text-anchor="end">Perfect Equality</text>
+<!-- Lorenz curve -->
+<path d="M50,350 C120,300 200,200 350,50" fill="none" stroke="steelblue" stroke-width="2"/><text x="260" y="120" font-size="12" fill="steelblue">Lorenz Curve</text>
+<!-- Axis labels -->
+<text x="200" y="380" font-size="14" text-anchor="middle">Cumulative Population %</text>
+<text x="15" y="200" font-size="14" text-anchor="middle" transform="rotate(-90,15,200)">Cumulative Income %</text></svg>

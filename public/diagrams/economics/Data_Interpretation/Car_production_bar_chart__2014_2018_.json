@@ -1,0 +1,25 @@
+{
+  "title": "Car production bar chart (2014‑2018)",
+  "subject": "Economics",
+  "chapter": "Data Interpretation",
+  "topic": "Bar chart of annual production",
+  "difficulty": "Easy",
+  "rendering_engine": "SVG",
+  "exams": [
+    "NDA",
+    "CDS",
+    "AFCAT"
+  ],
+  "keywords": [
+    "bar chart",
+    "car production",
+    "companies",
+    "X",
+    "Y",
+    "Z",
+    "years"
+  ],
+  "caption": "Grouped bar chart of car production for companies X, Y, and Z from 2014 to 2018.",
+  "altText": "A grouped bar chart showing annual car production for three companies (X in red, Y in green, Z in blue) over the years 2014 to 2018. The vertical axis (left) marks production in thousands from 0 to 250, and the horizontal axis (bottom) lists each year. For each year, three adjacent bars represent the production numbers: X (120‑250), Y (100‑220), and Z (80‑200) thousand units. A legend in the upper right identifies the colors for X, Y, and Z. The chart includes axis labels, tick marks, and a title at the top.",
+  "source": "Automated Pipeline"
+}
